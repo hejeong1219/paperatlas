@@ -160,6 +160,12 @@
   margin: 0;
 }
 
+.graph-main-panel .graph > .graph-outer > .graph-container {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 .panel.wide {
   grid-row: span 2;
 }
