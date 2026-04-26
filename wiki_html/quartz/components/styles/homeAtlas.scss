@@ -146,6 +146,20 @@
   margin: 0;
 }
 
+.graph-main-panel .graph {
+  margin: 0;
+}
+
+.graph-main-panel .graph > h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.graph-main-panel .graph > .graph-outer {
+  height: 600px;
+  margin: 0;
+}
+
 .panel.wide {
   grid-row: span 2;
 }

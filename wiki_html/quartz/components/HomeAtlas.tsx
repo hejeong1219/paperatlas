@@ -2,14 +2,38 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { resolveRelative } from "../util/path"
 import style from "./styles/homeAtlas.scss"
 import { byDateAndAlphabetical } from "./PageList"
-import PaperGraph from "./PaperGraph"
+import Graph from "./Graph"
 import { concatenateResources } from "../util/resources"
 
-const HomeMiniPaperGraph = PaperGraph({
-  title: "Paper Network",
-  eyebrow: "Research Graph",
-  helpText: "Each node is a paper. Click any node to open that paper page and read the summary.",
-  linkOnly: true,
+const HomeMainGraph = Graph({
+  localGraph: {
+    drag: true,
+    zoom: true,
+    depth: -1,
+    scale: 1.0,
+    repelForce: 0.6,
+    centerForce: 0.25,
+    linkDistance: 60,
+    fontSize: 0.7,
+    opacityScale: 1,
+    showTags: false,
+    focusOnHover: true,
+    removeTags: ["pmid"],
+  },
+  globalGraph: {
+    drag: true,
+    zoom: true,
+    depth: -1,
+    scale: 1.0,
+    repelForce: 1.0,
+    centerForce: 0.2,
+    linkDistance: 50,
+    fontSize: 0.6,
+    opacityScale: 1,
+    showTags: false,
+    focusOnHover: true,
+    removeTags: [],
+  },
 })
 
 function asList(value: unknown): string[] {
@@ -154,7 +178,7 @@ export default (() => {
         </div>
 
         <section class="panel graph-main-panel">
-          <HomeMiniPaperGraph fileData={fileData} allFiles={allFiles} cfg={cfg} />
+          <HomeMainGraph fileData={fileData} allFiles={allFiles} cfg={cfg} />
         </section>
 
         <div class="dashboard-grid">
@@ -259,7 +283,7 @@ export default (() => {
     )
   }
 
-  HomeAtlas.css = concatenateResources(style, HomeMiniPaperGraph.css)
-  HomeAtlas.afterDOMLoaded = HomeMiniPaperGraph.afterDOMLoaded
+  HomeAtlas.css = concatenateResources(style, HomeMainGraph.css)
+  HomeAtlas.afterDOMLoaded = HomeMainGraph.afterDOMLoaded
   return HomeAtlas
 }) satisfies QuartzComponentConstructor

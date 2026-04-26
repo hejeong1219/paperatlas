@@ -205,16 +205,28 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     {} as Record<(typeof cssVars)[number], string>,
   )
 
-  // calculate color
+  // Topic-based colors (same palette as PaperGraph for visual consistency)
+  const TOPIC_COLORS: Record<string, number> = {
+    ptmanchor: 0x7b5cff,
+    resistance: 0xff6b6b,
+    "bcell-neoantigen": 0x4ecdc4,
+    other: 0x9aa5b1,
+  }
+  const inferTopicFromSlug = (id: string): string => {
+    if (id.startsWith("analyses/") &&
+        (id.includes("ptmanchor") || id.includes("copheemap"))) return "ptmanchor"
+    if (id.startsWith("analyses/") && id.includes("cancer-resistance")) return "resistance"
+    if (id.startsWith("analyses/") && id.includes("b-cell-neoantigen")) return "bcell-neoantigen"
+    return (data.get(id as any)?.topic as string) ?? "other"
+  }
+  const colorHexToString = (n: number) => "#" + n.toString(16).padStart(6, "0")
   const color = (d: NodeData) => {
     const isCurrent = d.id === slug
     if (isCurrent) {
-      return computedStyleMap["--secondary"]
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
       return computedStyleMap["--tertiary"]
-    } else {
-      return computedStyleMap["--gray"]
     }
+    const topic = inferTopicFromSlug(d.id)
+    return colorHexToString(TOPIC_COLORS[topic] ?? TOPIC_COLORS.other)
   }
 
   function nodeRadius(d: NodeData) {
