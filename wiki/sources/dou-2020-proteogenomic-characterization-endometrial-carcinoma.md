@@ -7,7 +7,7 @@ authors:
 year: 2020
 journal: "Cell"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/dou-2020-proteogenomic-characterization-endometrial-carcinoma.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

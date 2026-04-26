@@ -7,7 +7,7 @@ authors:
 year: 2008
 journal: "Nature"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/edwards-2008-resistance-therapy-caused-intragenic-deletion.pdf"
 topic: resistance
 tags:
   - "resistance"

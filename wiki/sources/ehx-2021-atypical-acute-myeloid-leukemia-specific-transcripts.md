@@ -9,7 +9,7 @@ journal: "Immunity"
 doi: "10.1016/j.immuni.2021.03.001"
 pmid: "33740418"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ehx-2021-atypical-acute-myeloid-leukemia-specific-transcripts.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -7,7 +7,7 @@ authors:
 year: 2023
 journal: "Nat Commun"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/castiglioni-2023-combined-pd-l1tgf-blockade-allows-expansion.pdf"
 topic: resistance
 tags:
   - "resistance"

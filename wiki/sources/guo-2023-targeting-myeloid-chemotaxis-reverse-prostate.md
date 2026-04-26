@@ -7,7 +7,7 @@ authors:
 year: 2023
 journal: "Nature"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/guo-2023-targeting-myeloid-chemotaxis-reverse-prostate.pdf"
 topic: resistance
 tags:
   - "resistance"

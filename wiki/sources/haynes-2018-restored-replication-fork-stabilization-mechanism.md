@@ -7,7 +7,7 @@ authors:
 year: 2018
 journal: "Cancer Treat Rev"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/haynes-2018-restored-replication-fork-stabilization-mechanism.pdf"
 topic: resistance
 tags:
   - "resistance"

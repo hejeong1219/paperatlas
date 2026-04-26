@@ -7,7 +7,7 @@ authors:
 year: 2018
 journal: "Nature"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/calcinotto-2018-il-23-secreted-myeloid-cells-drives.pdf"
 topic: resistance
 tags:
   - "resistance"

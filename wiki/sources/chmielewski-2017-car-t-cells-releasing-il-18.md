@@ -6,7 +6,7 @@ authors:
 year: 2017
 journal: "Cell Rep"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/chmielewski-2017-car-t-cells-releasing-il-18.pdf"
 topic: resistance
 tags:
   - "resistance"

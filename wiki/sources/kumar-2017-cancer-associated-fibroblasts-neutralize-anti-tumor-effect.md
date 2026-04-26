@@ -7,7 +7,7 @@ authors:
 year: 2017
 journal: "Cancer Cell"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kumar-2017-cancer-associated-fibroblasts-neutralize-anti-tumor-effect.pdf"
 topic: resistance
 tags:
   - "resistance"

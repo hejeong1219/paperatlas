@@ -7,7 +7,7 @@ authors:
 year: 2023
 journal: "Gynecol Oncol"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/randall-2023-niraparib-dostarlimab-treatment-recurrent-platinum-resistant.pdf"
 topic: resistance
 tags:
   - "resistance"

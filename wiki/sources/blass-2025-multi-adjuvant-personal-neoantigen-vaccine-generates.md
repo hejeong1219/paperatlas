@@ -7,7 +7,7 @@ authors:
 year: 2025
 journal: "Cell"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/blass-2025-multi-adjuvant-personal-neoantigen-vaccine-generates.pdf"
 topic: resistance
 tags:
   - "resistance"

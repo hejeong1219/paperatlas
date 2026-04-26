@@ -7,7 +7,7 @@ authors:
 year: 1997
 journal: "Cell"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/datta-1997-akt-phosphorylation-bad-couples-survival.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

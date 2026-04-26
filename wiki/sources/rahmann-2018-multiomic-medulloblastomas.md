@@ -8,7 +8,7 @@ journal: "Cancer cell"
 doi: "10.1016/j.ccell.2018.08.010"
 pmid: "30205039"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/rahmann-2018-multiomic-medulloblastomas.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

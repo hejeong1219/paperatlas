@@ -7,7 +7,7 @@ authors:
 year: 2020
 journal: "Cell"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/roudko-2020-shared-immunogenic-poly-epitope-frameshift-mutations.pdf"
 topic: resistance
 tags:
   - "resistance"

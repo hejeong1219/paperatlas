@@ -7,7 +7,7 @@ authors:
 year: 2024
 journal: "Lancet"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/dangelo-2024-afamitresgene-autoleucel-advanced-synovial-sarcoma.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -307,3 +307,11 @@ Append-only operational history for this wiki.
 - graph component is now active in both content and list page layouts.
 - node-set restricted to paper/page-level (showTags: false, removeTags: ["pmid"]) to avoid keyword-only nodes.
 - dev server running at http://localhost:8080.
+
+## [2026-04-27] ingest | overnight PDF retry + abstract enrichment
+
+- Ran scripts/ingest/retry_pending_pdfs.py against the 552 pages still flagged as pdf_status: pending — recovered 43 additional valid PDFs (Elsevier + Springer + Unpaywall + Europe PMC chain).
+- 102 of 669 source pages now have a local PDF tracked in frontmatter (raw PDF count 135).
+- 566 of 669 pages already carry a real abstract (auto-pulled during expansion ingest); 103 remain placeholder, with 95 of those lacking a confirmed PMID.
+- Reran scripts/ingest/update_anchor_links.py — counts unchanged (ptmanchor 210, resistance 253, bcell-neoantigen 205).
+- Quartz rebuilt and pushed to https://github.com/hejeong1219/paperatlas (auto-deploys to https://hejeong1219.github.io/paperatlas).

@@ -10,7 +10,7 @@ doi: "10.1038/s41467-021-21246-9"
 pmid: "36796878"
 pmcid: "PMC7889871"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/hong-2023-pkr-induces-tgf--limits-oncolytic.pdf"
 topic: resistance
 tags:
   - "resistance"

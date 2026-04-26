@@ -7,7 +7,7 @@ authors:
 year: 2016
 journal: "Br J Cancer"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/vaidyanathan-2016-abcb1-mdr1-induction-defines-common.pdf"
 topic: resistance
 tags:
   - "resistance"

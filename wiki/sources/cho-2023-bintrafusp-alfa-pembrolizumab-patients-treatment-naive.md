@@ -7,7 +7,7 @@ authors:
 year: 2023
 journal: "J Thorac Oncol"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/cho-2023-bintrafusp-alfa-pembrolizumab-patients-treatment-naive.pdf"
 topic: resistance
 tags:
   - "resistance"

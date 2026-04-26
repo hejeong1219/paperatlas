@@ -7,7 +7,7 @@ authors:
 year: 2022
 journal: "Lancet Oncol"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/cho-2022-tiragolumab-plus-atezolizumab-placebo-plus.pdf"
 topic: resistance
 tags:
   - "resistance"

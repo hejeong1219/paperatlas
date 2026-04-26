@@ -10,7 +10,7 @@ doi: "10.1093/nar/gkw227"
 pmid: "38538867"
 pmcid: "4914105"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/rappaport-2024-shared-neoantigen-vaccine-combined-immune.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

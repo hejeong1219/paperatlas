@@ -7,7 +7,7 @@ authors:
 year: 2017
 journal: "Br J Cancer"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/pishvaian-2017-brca2-secondary-mutation-mediated-resistance-platinum.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -10,7 +10,7 @@ doi: "10.1016/j.ccell.2022.09.015"
 pmid: "36270275"
 pmcid: "PMC8383340"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/foster-2022-multiomic-analysis-reveals-conservation-cancer-associated.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

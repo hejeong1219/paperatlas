@@ -10,7 +10,7 @@ doi: "10.7908/C11G0KM9"
 pmid: "30568305"
 pmcid: "PMC4048962"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/keskin-2019-neoantigen-vaccine-generates-intratumoral-t.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

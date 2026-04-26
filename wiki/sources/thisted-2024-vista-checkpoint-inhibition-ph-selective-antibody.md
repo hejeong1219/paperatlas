@@ -7,7 +7,7 @@ authors:
 year: 2024
 journal: "Nat Commun"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/thisted-2024-vista-checkpoint-inhibition-ph-selective-antibody.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -7,7 +7,7 @@ authors:
 year: 2024
 journal: "Nat Cancer"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/romero-2024-neuroendocrine-transition-prostate-cancer-dynamic.pdf"
 topic: resistance
 tags:
   - "resistance"

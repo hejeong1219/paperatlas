@@ -10,7 +10,7 @@ doi: "10.1093/nar/gkz401"
 pmid: "40113755"
 pmcid: "PMC11926083"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/jiang-2025-deciphering-dark-cancer-phosphoproteome-using.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

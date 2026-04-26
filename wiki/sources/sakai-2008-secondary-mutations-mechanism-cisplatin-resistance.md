@@ -7,7 +7,7 @@ authors:
 year: 2008
 journal: "Nature"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/sakai-2008-secondary-mutations-mechanism-cisplatin-resistance.pdf"
 topic: resistance
 tags:
   - "resistance"

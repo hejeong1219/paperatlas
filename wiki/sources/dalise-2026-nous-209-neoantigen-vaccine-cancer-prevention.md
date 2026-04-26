@@ -7,7 +7,7 @@ authors:
 year: 2026
 journal: "Nat Med"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/dalise-2026-nous-209-neoantigen-vaccine-cancer-prevention.pdf"
 topic: resistance
 tags:
   - "resistance"

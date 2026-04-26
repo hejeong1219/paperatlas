@@ -7,7 +7,7 @@ authors:
 year: 2023
 journal: "Br J Cancer"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/massacci-2023-cyclin-dependent-kinase-1-more-than.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

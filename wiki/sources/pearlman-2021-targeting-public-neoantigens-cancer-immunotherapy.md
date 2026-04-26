@@ -7,7 +7,7 @@ authors:
 year: 2021
 journal: "Nat Cancer"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/pearlman-2021-targeting-public-neoantigens-cancer-immunotherapy.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -7,7 +7,7 @@ authors:
 year: 2022
 journal: "Nat Med"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/narayan-2022-psma-targeting-tgfbeta-insensitive-armored-car-t.pdf"
 topic: resistance
 tags:
   - "resistance"

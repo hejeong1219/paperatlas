@@ -10,7 +10,7 @@ doi: "10.1080/15384047.2016.1195045"
 pmid: "35986102"
 pmcid: "6614655"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yi-2022-p21-activated-kinase-2-mediated--catenin-signaling.pdf"
 topic: resistance
 tags:
   - "resistance"

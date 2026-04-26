@@ -7,7 +7,7 @@ authors:
 year: 2025
 journal: "J Immunother Cancer"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2025-artificial-intelligence-based-digital-pathology-using.pdf"
 topic: resistance
 tags:
   - "resistance"

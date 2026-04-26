@@ -7,7 +7,7 @@ authors:
 year: 2018
 journal: "Nat Commun"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/pettitt-2018-genome-wide-high-density-crispr-cas9-screens-identify.pdf"
 topic: resistance
 tags:
   - "resistance"

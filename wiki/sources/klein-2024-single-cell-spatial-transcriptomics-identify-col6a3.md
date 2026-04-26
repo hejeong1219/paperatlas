@@ -10,7 +10,7 @@ doi: "10.1016/j.molmed.2013.04.001"
 pmid: "39548577"
 pmcid: "PMC9513866"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/klein-2024-single-cell-spatial-transcriptomics-identify-col6a3.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -7,7 +7,7 @@ authors:
 year: 2024
 journal: "Front Immunol"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kobayashi-2024-increased-circulating-polymorphonuclear-myeloid-derived-suppressor.pdf"
 topic: resistance
 tags:
   - "resistance"

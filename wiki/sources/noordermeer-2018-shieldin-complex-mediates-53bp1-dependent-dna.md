@@ -7,7 +7,7 @@ authors:
 year: 2018
 journal: "Nature"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/noordermeer-2018-shieldin-complex-mediates-53bp1-dependent-dna.pdf"
 topic: resistance
 tags:
   - "resistance"

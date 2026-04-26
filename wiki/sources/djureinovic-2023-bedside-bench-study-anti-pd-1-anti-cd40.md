@@ -7,7 +7,7 @@ authors:
 year: 2023
 journal: "Mol Cancer"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/djureinovic-2023-bedside-bench-study-anti-pd-1-anti-cd40.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -6,7 +6,7 @@ authors:
 year: 2023
 journal: "Nat Rev Mol Cell Biol"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/steinberg-2023-new-insights-activation-function-ampk.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

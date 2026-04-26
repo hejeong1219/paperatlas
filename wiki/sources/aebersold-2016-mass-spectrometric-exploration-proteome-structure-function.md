@@ -6,7 +6,7 @@ authors:
 year: 2016
 journal: "Nature"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/aebersold-2016-mass-spectrometric-exploration-proteome-structure-function.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

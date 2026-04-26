@@ -7,7 +7,7 @@ authors:
 year: 2024
 journal: "Cancer Res"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/keller-2024-comprehensive-target-engagement-ezh2-inhibitor.pdf"
 topic: resistance
 tags:
   - "resistance"

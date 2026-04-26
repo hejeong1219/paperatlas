@@ -10,7 +10,7 @@ doi: "10.1093/nar/gky1106"
 pmid: "32157095"
 pmcid: "PMC6323896"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/chong-2020-integrated-proteogenomic-deep-sequencing-analytics.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

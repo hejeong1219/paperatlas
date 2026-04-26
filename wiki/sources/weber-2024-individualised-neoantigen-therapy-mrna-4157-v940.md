@@ -7,7 +7,7 @@ authors:
 year: 2024
 journal: "Lancet"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/weber-2024-individualised-neoantigen-therapy-mrna-4157-v940.pdf"
 topic: resistance
 tags:
   - "resistance"
