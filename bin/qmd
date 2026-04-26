@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+REPO_ROOT="$(CDPATH= cd -- "$(dirname "$0")/.." && pwd)"
+export PATH="$HOME/.bun/bin:$PATH"
+export XDG_CACHE_HOME="$REPO_ROOT/.cache"
+export XDG_CONFIG_HOME="$REPO_ROOT/.config"
+export NO_COLOR=1
+
+exec bun "$HOME/.bun/install/global/node_modules/@tobilu/qmd/src/cli/qmd.ts" "$@"

@@ -1,0 +1,173 @@
+.paper-graph {
+  display: grid;
+  gap: 1rem;
+  margin: 1.2rem 0 1.6rem;
+}
+
+.paper-graph-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: end;
+}
+
+.paper-graph .eyebrow,
+.paper-graph .panel-eyebrow {
+  margin: 0 0 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.paper-graph-header h2,
+.paper-graph-panel h3,
+.paper-graph-panel h4 {
+  margin: 0;
+}
+
+.graph-help {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--darkgray);
+  max-width: 26rem;
+}
+
+.paper-graph-layout {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  gap: 1rem;
+}
+
+.paper-graph.compact .paper-graph-layout {
+  grid-template-columns: 1fr;
+}
+
+.paper-graph[data-link-only="true"] .paper-graph-layout {
+  grid-template-columns: 1fr;
+}
+
+.paper-graph-canvas,
+.paper-graph-panel {
+  border: 1px solid var(--lightgray);
+  border-radius: 18px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--light) 97%, var(--secondary) 3%), var(--light));
+}
+
+.paper-graph-canvas {
+  min-height: 520px;
+  overflow: hidden;
+}
+
+.paper-graph.compact .paper-graph-canvas {
+  min-height: 280px;
+}
+
+.paper-graph[data-link-only="true"] .paper-graph-canvas {
+  min-height: 540px;
+}
+
+.paper-graph-canvas svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.paper-graph-panel {
+  padding: 1rem;
+  display: grid;
+  align-content: start;
+  gap: 0.75rem;
+  overflow-wrap: anywhere;
+}
+
+.paper-graph.compact .paper-graph-header {
+  display: grid;
+  gap: 0.35rem;
+  align-items: start;
+}
+
+.paper-graph.compact .graph-help {
+  font-size: 0.82rem;
+  max-width: none;
+}
+
+.paper-graph.compact .paper-graph-panel {
+  gap: 0.55rem;
+  padding: 0.85rem;
+}
+
+.paper-graph.compact .panel-title {
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.paper-graph.compact .panel-summary,
+.paper-graph.compact .connection-list span,
+.paper-graph.compact .connection-list strong {
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.panel-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.paper-graph .chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.28rem 0.62rem;
+  font-size: 0.78rem;
+  background: color-mix(in srgb, var(--secondary) 12%, var(--light) 88%);
+  color: var(--secondary);
+}
+
+.paper-graph .chip.subtle {
+  background: color-mix(in srgb, var(--tertiary) 14%, var(--light) 86%);
+  color: var(--dark);
+}
+
+.panel-link {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.panel-section {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.connection-list {
+  margin: 0;
+  padding-left: 1rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.connection-list li {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.connection-list span {
+  color: var(--darkgray);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 960px) {
+  .paper-graph-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .paper-graph-canvas {
+    min-height: 420px;
+  }
+
+  .paper-graph.compact .paper-graph-canvas {
+    min-height: 320px;
+  }
+}

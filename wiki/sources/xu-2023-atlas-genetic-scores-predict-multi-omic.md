@@ -1,0 +1,57 @@
+---
+title: "An atlas of genetic scores to predict multi-omic traits."
+authors:
+  - "Xu"
+  - "Ritchie"
+  - "Liang"
+year: 2023
+journal: "Nature"
+doi: "10.1038/S41588-022-01274-X"
+pmid: "36991119"
+pmcid: "PMC8224424"
+paper_kind: research
+pdf_status: pending
+topic: ptmanchor
+tags:
+  - "ptmanchor"
+  - "proteomics"
+  - "ptm"
+  - "phosphoproteomics"
+  - "cancer-proteomics"
+  - "pmid-36991119"
+themes:
+  - "ptm-correction"
+  - "kinase-signaling"
+  - "cancer-proteomics"
+---
+# An atlas of genetic scores to predict multi-omic traits.
+
+_Nature, 2023._ PMID: [36991119](https://pubmed.ncbi.nlm.nih.gov/36991119/).
+
+DOI: [10.1038/S41588-022-01274-X](https://doi.org/10.1038/S41588-022-01274-X)
+
+## Summary
+
+The use of omic modalities to dissect the molecular underpinnings of common diseases and traits is becoming increasingly common. But multi-omic traits can be genetically predicted, which enables highly cost-effective and powerful analyses for studies that do not have multi-omics1. Here we examine a large cohort (the INTERVAL study2; n = 50,000 participants) with extensive multi-omic data for plasma proteomics (SomaScan, n = 3,175; Olink, n = 4,822), plasma metabolomics (Metabolon HD4, n = 8,153), serum metabolomics (Nightingale, n = 37,359) and whole-blood Illumina RNA sequencing (n = 4,136), and use machine learning to train genetic scores for 17,227 molecular traits, including 10,521 that reach Bonferroni-adjusted significance. We evaluate the performance of genetic scores through external validation across cohorts of individuals of European, Asian and African American ancestries. In addition, we show the utility of these multi-omic genetic scores by quantifying the genetic control of biological pathways and by generating a synthetic multi-omic dataset of the UK Biobank3 to identify disease associations using a phenome-wide scan. We highlight a series of biological insights with regard to genetic mechanisms in metabolism and canonical pathway associations with disease; for example, JAK-STAT signalling and coronary atherosclerosis. Finally, we develop a portal ( https://www.omicspred.org/ ) to facilitate public access to all genetic scores and validation results, as well as to serve as a platform for future extensions and enhancements of multi-omic genetic scores.
+
+## Key Points
+
+- _Key claims to be filled in from full text. This page was created automatically as a placeholder._
+
+## Open Questions
+
+- _What does this paper actually claim about the topic anchor?_
+- _What evidence does it provide and is it clinical, mechanistic, or computational?_
+- _How does this fit alongside neighboring papers in the topic?_
+
+## Connections
+
+- [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
+- [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+
+## Sources
+
+- Local PDF: pending acquisition
+- PubMed: <https://pubmed.ncbi.nlm.nih.gov/36991119/>
+- DOI: <https://doi.org/10.1038/S41588-022-01274-X>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8224424/>

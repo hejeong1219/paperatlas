@@ -1,0 +1,21 @@
+.DS_Store
+.obsidian/
+.cache/
+.config/
+wiki_html/node_modules/
+wiki_html/public/
+
+# Large/local-only directories — don't push to GitHub
+raw/inbox/papers/
+raw/inbox/
+raw/processed/
+raw/assets/
+outputs/
+node_modules/
+wiki_html/node_modules/
+wiki_html/public/
+
+# Working temp files
+/tmp/wiki_work/
+.DS_Store
+scripts/ingest/__pycache__/

@@ -1,0 +1,56 @@
+---
+title: "Clinical and molecular features of acquired resistance to immunotherapy in non-small cell lung cancer."
+authors:
+  - "Memon"
+  - "Schoenfeld"
+  - "Ye"
+year: 2024
+journal: "Cancer cell"
+doi: "10.1016/j.immuni.2019.11.002"
+pmid: "38215748"
+pmcid: "PMC6920571"
+paper_kind: research
+pdf_status: pending
+topic: resistance
+tags:
+  - "resistance"
+  - "resistance"
+  - "immune-evasion"
+  - "immunotherapy"
+  - "pmid-38215748"
+themes:
+  - "immune-evasion"
+  - "resistance-framework"
+  - "translational-oncology"
+---
+# Clinical and molecular features of acquired resistance to immunotherapy in non-small cell lung cancer.
+
+_Cancer cell, 2024._ PMID: [38215748](https://pubmed.ncbi.nlm.nih.gov/38215748/).
+
+DOI: [10.1016/j.immuni.2019.11.002](https://doi.org/10.1016/j.immuni.2019.11.002)
+
+## Summary
+
+Although immunotherapy with PD-(L)1 blockade is routine for lung cancer, little is known about acquired resistance. Among 1,201 patients with non-small cell lung cancer (NSCLC) treated with PD-(L)1 blockade, acquired resistance is common, occurring in >60% of initial responders. Acquired resistance shows differential expression of inflammation and interferon (IFN) signaling. Relapsed tumors can be separated by upregulated or stable expression of IFNγ response genes. Upregulation of IFNγ response genes is associated with putative routes of resistance characterized by signatures of persistent IFN signaling, immune dysfunction, and mutations in antigen presentation genes which can be recapitulated in multiple murine models of acquired resistance to PD-(L)1 blockade after in vitro IFNγ treatment. Acquired resistance to PD-(L)1 blockade in NSCLC is associated with an ongoing, but altered IFN response. The persistently inflamed, rather than excluded or deserted, tumor microenvironment of acquired resistance may inform therapeutic strategies to effectively reprogram and reverse acquired resistance.
+
+## Key Points
+
+- _Key claims to be filled in from full text. This page was created automatically as a placeholder._
+
+## Open Questions
+
+- _What does this paper actually claim about the topic anchor?_
+- _What evidence does it provide and is it clinical, mechanistic, or computational?_
+- _How does this fit alongside neighboring papers in the topic?_
+
+## Connections
+
+- [Resistance Topic Hub](../topics/immunotherapy-resistance-and-immune-evasion.md)
+- [Resistance Anchor](../analyses/cancer-resistance-manuscript-anchor.md)
+
+## Sources
+
+- Local PDF: pending acquisition
+- PubMed: <https://pubmed.ncbi.nlm.nih.gov/38215748/>
+- DOI: <https://doi.org/10.1016/j.immuni.2019.11.002>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6920571/>

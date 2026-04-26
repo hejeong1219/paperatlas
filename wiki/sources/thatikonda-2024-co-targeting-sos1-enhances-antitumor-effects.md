@@ -1,0 +1,56 @@
+---
+title: "Co-targeting SOS1 enhances the antitumor effects of KRASG12C inhibitors by addressing intrinsic and acquired resistance."
+authors:
+  - "Thatikonda"
+  - "Lyu"
+  - "Jurado"
+year: 2024
+journal: "Nature cancer"
+doi: "10.1158/1535-7163.MCT-20-0462"
+pmid: "39103541"
+pmcid: "PMC8444277"
+paper_kind: research
+pdf_status: pending
+topic: resistance
+tags:
+  - "resistance"
+  - "resistance"
+  - "immune-evasion"
+  - "immunotherapy"
+  - "pmid-39103541"
+themes:
+  - "immune-evasion"
+  - "resistance-framework"
+  - "translational-oncology"
+---
+# Co-targeting SOS1 enhances the antitumor effects of KRASG12C inhibitors by addressing intrinsic and acquired resistance.
+
+_Nature cancer, 2024._ PMID: [39103541](https://pubmed.ncbi.nlm.nih.gov/39103541/).
+
+DOI: [10.1158/1535-7163.MCT-20-0462](https://doi.org/10.1158/1535-7163.MCT-20-0462)
+
+## Summary
+
+Combination approaches are needed to strengthen and extend the clinical response to KRASG12C inhibitors (KRASG12Ci). Here, we assessed the antitumor responses of KRASG12C mutant lung and colorectal cancer models to combination treatment with a SOS1 inhibitor (SOS1i), BI-3406, plus the KRASG12C inhibitor, adagrasib. We found that responses to BI-3406 plus adagrasib were stronger than to adagrasib alone, comparable to adagrasib with SHP2 (SHP2i) or EGFR inhibitors and correlated with stronger suppression of RAS-MAPK signaling. BI-3406 plus adagrasib treatment also delayed the emergence of acquired resistance and elicited antitumor responses from adagrasib-resistant models. Resistance to KRASG12Ci seemed to be driven by upregulation of MRAS activity, which both SOS1i and SHP2i were found to potently inhibit. Knockdown of SHOC2, a MRAS complex partner, partially restored response to KRASG12Ci treatment. These results suggest KRASG12C plus SOS1i to be a promising strategy for treating both KRASG12Ci naive and relapsed KRASG12C-mutant tumors.
+
+## Key Points
+
+- _Key claims to be filled in from full text. This page was created automatically as a placeholder._
+
+## Open Questions
+
+- _What does this paper actually claim about the topic anchor?_
+- _What evidence does it provide and is it clinical, mechanistic, or computational?_
+- _How does this fit alongside neighboring papers in the topic?_
+
+## Connections
+
+- [Resistance Topic Hub](../topics/immunotherapy-resistance-and-immune-evasion.md)
+- [Resistance Anchor](../analyses/cancer-resistance-manuscript-anchor.md)
+
+## Sources
+
+- Local PDF: pending acquisition
+- PubMed: <https://pubmed.ncbi.nlm.nih.gov/39103541/>
+- DOI: <https://doi.org/10.1158/1535-7163.MCT-20-0462>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8444277/>

@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+
+REPO_ROOT="$(CDPATH= cd -- "$(dirname "$0")/.." && pwd)"
+SRC="$REPO_ROOT/wiki/"
+DST="$REPO_ROOT/wiki_html/content/"
+
+mkdir -p "$DST"
+
+rsync -a --delete \
+  --exclude "_meta/" \
+  --exclude ".DS_Store" \
+  "$SRC" "$DST"
+
+rm -f "$DST/.gitkeep"
+
+printf '%s\n' "Synced wiki/ -> wiki_html/content/"

@@ -1,0 +1,57 @@
+---
+title: "Tertiary lymphoid structures in diseases: immune mechanisms and therapeutic advances."
+authors:
+  - "Zhao"
+  - "Jin"
+  - "Wang"
+year: 2024
+journal: "Signal transduction and targeted therapy"
+doi: "10.3389/fimmu.2022.865596"
+pmid: "39198425"
+pmcid: "PMC9130862"
+paper_kind: research
+pdf_status: pending
+topic: bcell-neoantigen
+tags:
+  - "bcell-neoantigen"
+  - "neoantigen"
+  - "b-cells"
+  - "tls"
+  - "immunology"
+  - "pmid-39198425"
+themes:
+  - "neoantigen-discovery"
+  - "tls-biology"
+  - "clinical-translation"
+---
+# Tertiary lymphoid structures in diseases: immune mechanisms and therapeutic advances.
+
+_Signal transduction and targeted therapy, 2024._ PMID: [39198425](https://pubmed.ncbi.nlm.nih.gov/39198425/).
+
+DOI: [10.3389/fimmu.2022.865596](https://doi.org/10.3389/fimmu.2022.865596)
+
+## Summary
+
+Tertiary lymphoid structures (TLSs) are defined as lymphoid aggregates formed in non-hematopoietic organs under pathological conditions. Similar to secondary lymphoid organs (SLOs), the formation of TLSs relies on the interaction between lymphoid tissue inducer (LTi) cells and lymphoid tissue organizer (LTo) cells, involving multiple cytokines. Heterogeneity is a distinguishing feature of TLSs, which may lead to differences in their functions. Growing evidence suggests that TLSs are associated with various diseases, such as cancers, autoimmune diseases, transplant rejection, chronic inflammation, infection, and even ageing. However, the detailed mechanisms behind these clinical associations are not yet fully understood. The mechanisms by which TLS maturation and localization affect immune function are also unclear. Therefore, it is necessary to enhance the understanding of TLS development and function at the cellular and molecular level, which may allow us to utilize them to improve the immune microenvironment. In this review, we delve into the composition, formation mechanism, associations with diseases, and potential therapeutic applications of TLSs. Furthermore, we discuss the therapeutic implications of TLSs, such as their role as markers of therapeutic response and prognosis. Finally, we summarize various methods for detecting and targeting TLSs. Overall, we provide a comprehensive understanding of TLSs and aim to develop more effective therapeutic strategies.
+
+## Key Points
+
+- _Key claims to be filled in from full text. This page was created automatically as a placeholder._
+
+## Open Questions
+
+- _What does this paper actually claim about the topic anchor?_
+- _What evidence does it provide and is it clinical, mechanistic, or computational?_
+- _How does this fit alongside neighboring papers in the topic?_
+
+## Connections
+
+- [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
+- [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
+
+## Sources
+
+- Local PDF: pending acquisition
+- PubMed: <https://pubmed.ncbi.nlm.nih.gov/39198425/>
+- DOI: <https://doi.org/10.3389/fimmu.2022.865596>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9130862/>

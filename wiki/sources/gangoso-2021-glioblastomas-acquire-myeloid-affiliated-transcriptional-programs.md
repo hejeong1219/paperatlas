@@ -1,0 +1,56 @@
+---
+title: "Glioblastomas acquire myeloid-affiliated transcriptional programs via epigenetic immunoediting to elicit immune evasion."
+authors:
+  - "Gangoso"
+  - "Southgate"
+  - "Bradley"
+year: 2021
+journal: "Cell"
+doi: "10.1101/082511"
+pmid: "33857425"
+pmcid: "PMC3098059"
+paper_kind: research
+pdf_status: pending
+topic: resistance
+tags:
+  - "resistance"
+  - "resistance"
+  - "immune-evasion"
+  - "immunotherapy"
+  - "pmid-33857425"
+themes:
+  - "immune-evasion"
+  - "resistance-framework"
+  - "translational-oncology"
+---
+# Glioblastomas acquire myeloid-affiliated transcriptional programs via epigenetic immunoediting to elicit immune evasion.
+
+_Cell, 2021._ PMID: [33857425](https://pubmed.ncbi.nlm.nih.gov/33857425/).
+
+DOI: [10.1101/082511](https://doi.org/10.1101/082511)
+
+## Summary
+
+Glioblastoma multiforme (GBM) is an aggressive brain tumor for which current immunotherapy approaches have been unsuccessful. Here, we explore the mechanisms underlying immune evasion in GBM. By serially transplanting GBM stem cells (GSCs) into immunocompetent hosts, we uncover an acquired capability of GSCs to escape immune clearance by establishing an enhanced immunosuppressive tumor microenvironment. Mechanistically, this is not elicited via genetic selection of tumor subclones, but through an epigenetic immunoediting process wherein stable transcriptional and epigenetic changes in GSCs are enforced following immune attack. These changes launch a myeloid-affiliated transcriptional program, which leads to increased recruitment of tumor-associated macrophages. Furthermore, we identify similar epigenetic and transcriptional signatures in human mesenchymal subtype GSCs. We conclude that epigenetic immunoediting may drive an acquired immune evasion program in the most aggressive mesenchymal GBM subtype by reshaping the tumor immune microenvironment.
+
+## Key Points
+
+- _Key claims to be filled in from full text. This page was created automatically as a placeholder._
+
+## Open Questions
+
+- _What does this paper actually claim about the topic anchor?_
+- _What evidence does it provide and is it clinical, mechanistic, or computational?_
+- _How does this fit alongside neighboring papers in the topic?_
+
+## Connections
+
+- [Resistance Topic Hub](../topics/immunotherapy-resistance-and-immune-evasion.md)
+- [Resistance Anchor](../analyses/cancer-resistance-manuscript-anchor.md)
+
+## Sources
+
+- Local PDF: pending acquisition
+- PubMed: <https://pubmed.ncbi.nlm.nih.gov/33857425/>
+- DOI: <https://doi.org/10.1101/082511>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3098059/>
