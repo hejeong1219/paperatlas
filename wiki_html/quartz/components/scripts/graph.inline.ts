@@ -6,6 +6,8 @@ import {
   forceSimulation,
   forceManyBody,
   forceCenter,
+  forceX,
+  forceY,
   forceLink,
   forceCollide,
   forceRadial,
@@ -173,12 +175,29 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const width = graph.offsetWidth
   const height = Math.max(graph.offsetHeight, 250)
 
+  // Topic-clustered x positions (paper/manuscript only — see PaperGraph for color logic)
+  const inferTopicForCluster = (id: string): string => {
+    if (id.startsWith("analyses/") &&
+        (id.includes("ptmanchor") || id.includes("copheemap"))) return "ptmanchor"
+    if (id.startsWith("analyses/") && id.includes("cancer-resistance")) return "resistance"
+    if (id.startsWith("analyses/") && id.includes("b-cell-neoantigen")) return "bcell-neoantigen"
+    return (data.get(id as any)?.topic as string) ?? "other"
+  }
+  const clusterX = (n: NodeData) => {
+    const t = inferTopicForCluster(n.id)
+    if (t === "ptmanchor") return -width * 0.3
+    if (t === "resistance") return 0
+    if (t === "bcell-neoantigen") return width * 0.3
+    return 0
+  }
   // we virtualize the simulation and use pixi to actually render it
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
     .force("charge", forceManyBody().strength(-100 * repelForce))
     .force("center", forceCenter().strength(centerForce))
     .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n) + 1).iterations(2))
+    .force("x", forceX<NodeData>(clusterX).strength(0.18))
+    .force("y", forceY<NodeData>(0).strength(0.06))
     .alphaDecay(0.05)
     .alphaMin(0.02)
     .velocityDecay(0.55)
