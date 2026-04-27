@@ -24,6 +24,10 @@ B cells and TLS represent a major layer of intratumoral immune organization that
 
 > **Driving question (Q19, manuscript writing context).** When TLS density is measured by simple CD20⁺ counting, the predictive value for ICB response is inconsistent across cohorts. Is TLS *maturity* (germinal-center-like architecture: CD21⁺ follicular dendritic cells + CD23⁺ germinal-center B cells + MECA79⁺ high endothelial venules) the variable that actually correlates with response, and how should this be used in B-cell neoantigen proposal scoring?
 
+### 💡 Short answer (manuscript-ready)
+
+**Yes — TLS *maturity* outperforms TLS *density* as an ICB-response predictor.** TLS density alone is necessary but not sufficient: in Helmink 2020 melanoma, raw CD20⁺ density at baseline was non-significant (P = 0.132) while *mature* TLS architecture (CD21⁺ FDC + CD23⁺ GC + MECA79⁺ HEV) tracked tightly with response; in Italiano 2022 (PEMBROSARC sarcoma), pre-selecting TLS-positive (mature follicle morphology) tumors raised ORR from ~5% to **30%**; Petitprez 2020 sarcoma immune-class B/E (TLS + GC + B-cell rich) and Cabrita 2020 melanoma (TLS + memory B cells + plasmablast signature) confirm in independent cohorts. **For the B-cell neoantigen proposal: replace "TLS density" inputs with a graded mature-TLS flag combined with B-cell transcriptomic markers (Cabrita 9-gene + MZB1/JCHAIN/IGLL5 from Helmink).**
+
 ### Where evidence converges (maturity matters more than density)
 
 - **Helmink 2020 (melanoma + RCC, Nature)** — total CD20⁺ B-cell density was higher in responders but not statistically significant at baseline (P = 0.132). The *on-treatment* CD20 density (P = 0.0008) and the **TLS-to-tumor area ratio** (P = 0.002) were stronger. Architectural mIF showed the responder-associated TLS were **mature secondary-follicle-like** structures with CD21⁺/CD23⁺ germinal centers and MECA79⁺ high endothelial venules — i.e., the responder signal is the *organized* fraction, not the *raw count*.

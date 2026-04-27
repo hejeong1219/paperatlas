@@ -20,7 +20,11 @@ manuscript_anchor: "ptmanchor"
 
 # PTM-Correction Confounding: Why Protein Abundance Drives Phosphosite Calls
 
-> **Driving question (manuscript-writing context).** When we observe a "phosphosite is up in tumor", how often is that signal genuinely a regulatory event vs. just a downstream consequence of the host protein being more abundant in the tumor? Quantifying this matters because every phosphoproteomic-driven kinase activity inference, signaling-network reconstruction, and drug target call inherits the answer.
+> **Driving question (Q1, manuscript-writing context).** When we observe a "phosphosite is up in tumor", how often is that signal genuinely a regulatory event vs. just a downstream consequence of the host protein being more abundant in the tumor? Quantifying this matters because every phosphoproteomic-driven kinase activity inference, signaling-network reconstruction, and drug target call inherits the answer.
+
+## 💡 Short answer (manuscript-ready)
+
+**About 38–55% of "raw-up" phosphosites in CPTAC pan-cancer cohorts are protein-driven, not regulation-driven** (mean 46% across 7 phosphoproteomic CPTAC cohorts; Jiang et al. 2025 Nat Commun). The protein-coupling coefficient λ has a broad distribution with median **0.64** in LUAD — the common assumption that λ ≡ 1 (simple subtraction) is violated for most sites. This confounding propagates downstream: 7 kinases (BRAF, CSNK2A1, HIPK2, MAPK13, PRKCG, TBK1, TTK) are recovered only by site-aware correction (λ-aware) and missed by subtraction; conversely 16 kinases that look significant in raw analysis are removed by every correction method, suggesting a substantial false-positive rate in uncorrected pan-cancer kinase calls. **For the ptmanchor manuscript Discussion**: cite "**38–55% protein-driven, median λ = 0.64**" as the concrete motivation; cite the 7-kinase recovery / 16-kinase removal as the downstream-impact evidence.
 
 ## Why this matters for the ptmanchor manuscript
 
