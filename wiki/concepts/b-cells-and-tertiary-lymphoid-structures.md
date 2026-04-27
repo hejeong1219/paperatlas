@@ -24,6 +24,40 @@ B cells and TLS represent a major layer of intratumoral immune organization that
 
 > **Driving question (Q19, manuscript writing context).** When TLS density is measured by simple CD20⁺ counting, the predictive value for ICB response is inconsistent across cohorts. Is TLS *maturity* (germinal-center-like architecture: CD21⁺ follicular dendritic cells + CD23⁺ germinal-center B cells + MECA79⁺ high endothelial venules) the variable that actually correlates with response, and how should this be used in B-cell neoantigen proposal scoring?
 
+### 🕸️ Question-centered graph
+
+```mermaid
+graph LR
+    Q19["**Q19**<br/>TLS maturity<br/>vs density"]:::question
+
+    Helmink["Helmink 2020<br/>Nature · melanoma+RCC"]:::paper
+    Italiano["Italiano 2022<br/>Nat Med · sarcoma<br/>PEMBROSARC"]:::paper
+    Sun["Sun 2022<br/>JITC · NSCLC<br/>neoadjuvant"]:::paper
+    Cabrita["Cabrita 2020<br/>Nature · melanoma"]:::paper
+    Petitprez["Petitprez 2020<br/>Nature · sarcoma<br/>classifier"]:::paper
+    Amisaki["Amisaki 2025<br/>Nature · PDAC<br/>IL-33/ILC2"]:::paper
+    Kasikova["Kasikova 2024<br/>JITC · ovarian"]:::paper
+
+    Anchor[["B-cell neoantigen<br/>proposal anchor"]]:::anchor
+    ConceptB["B-cell+TLS<br/>concept page"]:::concept
+
+    Q19 --> Helmink
+    Q19 --> Italiano
+    Q19 --> Sun
+    Q19 --> Cabrita
+    Q19 --> Petitprez
+    Q19 -.related.-> Amisaki
+    Q19 -.related.-> Kasikova
+
+    Q19 ==> ConceptB
+    ConceptB ==> Anchor
+
+    classDef question fill:#fff3b0,stroke:#d4a017,stroke-width:3px,color:#000
+    classDef paper fill:#4ecdc4,stroke:#2c8a82,color:#000
+    classDef anchor fill:#9aa5b1,stroke:#566175,color:#fff,stroke-width:2px
+    classDef concept fill:#cdb4db,stroke:#7d5ba6,color:#000
+```
+
 ### 💡 Short answer (manuscript-ready)
 
 **Yes — TLS maturity outperforms density**, because density is a *structural* readout but maturity is a *functional* readout: a mature TLS = a functioning ectopic germinal center making **somatically hypermutated, class-switched, antigen-specific B cells** that feed both plasma-cell-derived antibody and CD4-help to local CD8 T cells. Density alone counts the cells; maturity counts the *functioning unit*. The convergence of melanoma (Helmink 2020, Cabrita 2020) and sarcoma (Italiano 2022, Petitprez 2020) cohorts on the same ranking is therefore not a coincidence — it is the same biology surfacing through different tumor microenvironments. **For the B-cell neoantigen proposal**: the immune-context input should be a *functional* score (mature-TLS flag + B-cell transcriptomic signature + somatic hypermutation evidence), not a *structural* count.

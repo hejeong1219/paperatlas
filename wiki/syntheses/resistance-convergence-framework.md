@@ -16,6 +16,44 @@ manuscript_anchor: "resistance"
 
 > **Driving question (Q35, manuscript-writing context).** The user's resistance review proposes that diverse therapy classes (checkpoint blockade, CAR-T, bispecific antibodies, ADCs, EGFR/KRAS-targeted therapy, endocrine therapy, PARP inhibitors) converge on **three immune-evasion axes — visibility, access, effector dysfunction**. Is the convergence claim empirically supported across *all* listed therapy classes, or is it strong for some and weak for others, and where does the framework most need additional evidence?
 
+## 🕸️ Question-centered graph
+
+```mermaid
+graph TB
+    Q35["**Q35**<br/>Convergence framework<br/>across therapy classes?"]:::question
+
+    subgraph Visibility["Visibility axis"]
+        Zaretsky["Zaretsky 2016<br/>NEJM · acquired PD-1<br/>JAK1/2 B2M"]:::paper
+        Shin["Shin 2017<br/>Cancer Discov<br/>primary PD-1 res"]:::paper
+        Orlando["Orlando 2018<br/>Nat Med · CD19 loss"]:::paper
+        Pettitt["Pettitt 2020<br/>Cancer Discov<br/>BRCA reversion"]:::paper
+        Lopez["Lopez 2025<br/>BCR · ESR1+T-cell"]:::paper
+    end
+
+    subgraph Access["Access axis"]
+        Mariathasan["Mariathasan 2018<br/>Nature · TGF-β"]:::paper
+        Manabe["Manabe 2022<br/>JCI · KRAS TME"]:::paper
+        Han["Han 2023<br/>Eur J Cancer<br/>osimertinib TME"]:::paper
+    end
+
+    subgraph Function["Effector function axis"]
+        Sterner["Sterner 2021<br/>Blood Cancer J<br/>CAR-T limits"]:::paper
+        Falchi["Falchi 2023<br/>Blood · BsAb"]:::paper
+        Skoulidis["Skoulidis 2018,2024<br/>STK11/KEAP1"]:::paper
+    end
+
+    Anchor[["Cancer Resistance<br/>review anchor"]]:::anchor
+
+    Q35 ==> Visibility
+    Q35 ==> Access
+    Q35 ==> Function
+    Q35 ==> Anchor
+
+    classDef question fill:#fff3b0,stroke:#d4a017,stroke-width:3px,color:#000
+    classDef paper fill:#ff6b6b,stroke:#c0392b,color:#fff
+    classDef anchor fill:#9aa5b1,stroke:#566175,color:#fff,stroke-width:2px
+```
+
 ## 💡 Short answer (manuscript-ready)
 
 **The three-axis convergence holds with high confidence for checkpoint blockade, CAR-T, BsAb, and targeted therapy (EGFR/KRAS) — moderate confidence for endocrine and ADC — and is genuinely under-tested for PARP.** The framework's strength is that the same three failure modes recur regardless of how a therapy *engages* the tumor (peptide-MHC, surface-protein, chemical, or hormonal); its weakness is that the *weight* of each axis varies enormously by therapy class, and the review must say so explicitly to avoid a "everything is convergence" critique.

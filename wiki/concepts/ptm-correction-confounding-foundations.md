@@ -22,6 +22,39 @@ manuscript_anchor: "ptmanchor"
 
 > **Driving question (Q1, manuscript-writing context).** When we observe a "phosphosite is up in tumor", how often is that signal genuinely a regulatory event vs. just a downstream consequence of the host protein being more abundant in the tumor? Quantifying this matters because every phosphoproteomic-driven kinase activity inference, signaling-network reconstruction, and drug target call inherits the answer.
 
+## 🕸️ Question-centered graph
+
+```mermaid
+graph LR
+    Q1["**Q1**<br/>Why does protein<br/>abundance confound<br/>phosphosite calls?"]:::question
+
+    Jiang["Jiang 2025<br/>Nat Commun<br/>CoPheeMap"]:::paper
+    Muller["Müller-Dott 2025<br/>Nat Commun<br/>Kinase activity benchmark"]:::paper
+    Wu["Wu 2011<br/>Mol Cell Proteomics<br/>protein normalization"]:::paper
+    Mertins["Mertins 2016<br/>Nature<br/>BRCA proteogenomics"]:::paper
+    Gillette["Gillette 2020<br/>Cell · LUAD CPTAC"]:::paper
+
+    Anchor[["ptmanchor<br/>manuscript anchor"]]:::anchor
+    Topic["PTM correction<br/>topic hub"]:::topic
+    DeepDive["CoPheeMap<br/>deep-dive"]:::deepdive
+
+    Q1 --> Jiang
+    Q1 --> Muller
+    Q1 --> Wu
+    Q1 --> Mertins
+    Q1 --> Gillette
+
+    Q1 ==> Anchor
+    Q1 ==> Topic
+    Jiang -.connects.-> DeepDive
+
+    classDef question fill:#fff3b0,stroke:#d4a017,stroke-width:3px,color:#000
+    classDef paper fill:#7b5cff,stroke:#4a3699,color:#fff
+    classDef anchor fill:#9aa5b1,stroke:#566175,color:#fff,stroke-width:2px
+    classDef topic fill:#cdb4db,stroke:#7d5ba6,color:#000
+    classDef deepdive fill:#ffd6a5,stroke:#cc7a00,color:#000
+```
+
 ## 💡 Short answer (manuscript-ready)
 
 **About 38–55% of "raw-up" phosphosites in CPTAC pan-cancer cohorts are protein-driven, not regulation-driven** (mean 46% across 7 phosphoproteomic CPTAC cohorts; Jiang et al. 2025 Nat Commun). The protein-coupling coefficient λ has a broad distribution with median **0.64** in LUAD — the common assumption that λ ≡ 1 (simple subtraction) is violated for most sites. This confounding propagates downstream: 7 kinases (BRAF, CSNK2A1, HIPK2, MAPK13, PRKCG, TBK1, TTK) are recovered only by site-aware correction (λ-aware) and missed by subtraction; conversely 16 kinases that look significant in raw analysis are removed by every correction method, suggesting a substantial false-positive rate in uncorrected pan-cancer kinase calls. **For the ptmanchor manuscript Discussion**: cite "**38–55% protein-driven, median λ = 0.64**" as the concrete motivation; cite the 7-kinase recovery / 16-kinase removal as the downstream-impact evidence.
