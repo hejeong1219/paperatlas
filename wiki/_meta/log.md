@@ -333,3 +333,9 @@ Append-only operational history for this wiki.
   - Falchi 2023 (Blood) — B-NHL bispecific antibodies review
 - Each page replaces "_Abstract pending_" / "_Key claims to be filled in_" placeholders with structured analysis derived from PDF body.
 - 375 placeholder pages with PDFs remain; ScheduleWakeup loop progresses these in batches.
+
+## [2026-04-27] research-questions | queue + first answer
+
+- Generated 50 manuscript-relevance-oriented research questions in wiki/_meta/research-questions-queue.md spanning ptmanchor (17), B-cell neoantigen (17), and cancer resistance (16). Each question is gap-focused (research direction / underexplored area / current evidence shortfall) so the synthesized answer is directly usable in the corresponding manuscript's Discussion or Future Work.
+- Q1 answered: created wiki/concepts/ptm-correction-confounding-foundations.md. Synthesis grounds the ptmanchor manuscript's Discussion with concrete numbers (38–55% raw-up sites are protein-driven across CPTAC; median λ = 0.64 in LUAD; 7 kinases recovered, 16 false-positive kinases removed by correction).
+- Remaining 49 questions queued for ScheduleWakeup batches.
