@@ -559,12 +559,15 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           stage.scale.set(transform.k, transform.k)
           stage.position.set(transform.x, transform.y)
 
+          // counter-scale labels so they stay readable at any zoom level
+          const labelScale = 1 / scale / transform.k
           // zoom adjusts opacity of labels too
-          const scale = transform.k * opacityScale
-          let scaleOpacity = Math.max((scale - 1) / 3.75, 0)
+          const scaleK = transform.k * opacityScale
+          let scaleOpacity = Math.max((scaleK - 1) / 3.75, 0)
           const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
           for (const label of labelsContainer.children) {
+            label.scale.set(labelScale)
             if (!activeNodes.includes(label)) {
               label.alpha = scaleOpacity
             }
