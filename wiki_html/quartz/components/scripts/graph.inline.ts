@@ -97,13 +97,20 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       v,
     ]),
   )
-  // Restrict graph nodes to papers (sources/) and user manuscripts (analyses/*-anchor, *-deep-dive)
-  const isPaperOrManuscript = (s: string) =>
-    (s.startsWith("sources/") && s !== "sources/index") ||
-    (s.startsWith("analyses/") &&
-      (s.endsWith("-manuscript-anchor") ||
-       s.endsWith("-proposal-anchor") ||
-       s.endsWith("-deep-dive")))
+  // Restrict graph nodes to papers, manuscript anchors, deep-dives, AND
+  // any concept/synthesis page so question-driven pages can sit at the center
+  // of their own mini graph (Obsidian-style).
+  const isPaperOrManuscript = (s: string) => {
+    if (s === slug) return true // current page always included as graph node
+    if (s.startsWith("sources/") && s !== "sources/index") return true
+    if (s.startsWith("analyses/") &&
+        (s.endsWith("-manuscript-anchor") ||
+         s.endsWith("-proposal-anchor") ||
+         s.endsWith("-deep-dive"))) return true
+    if (s.startsWith("concepts/") && s !== "concepts/index") return true
+    if (s.startsWith("syntheses/") && s !== "syntheses/index") return true
+    return false
+  }
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
   const validLinks = new Set([...data.keys()].filter((k) => isPaperOrManuscript(k as string)))
