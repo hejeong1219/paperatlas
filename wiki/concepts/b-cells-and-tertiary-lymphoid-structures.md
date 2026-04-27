@@ -26,7 +26,60 @@ B cells and TLS represent a major layer of intratumoral immune organization that
 
 ### 💡 Short answer (manuscript-ready)
 
-**Yes — TLS *maturity* outperforms TLS *density* as an ICB-response predictor.** TLS density alone is necessary but not sufficient: in Helmink 2020 melanoma, raw CD20⁺ density at baseline was non-significant (P = 0.132) while *mature* TLS architecture (CD21⁺ FDC + CD23⁺ GC + MECA79⁺ HEV) tracked tightly with response; in Italiano 2022 (PEMBROSARC sarcoma), pre-selecting TLS-positive (mature follicle morphology) tumors raised ORR from ~5% to **30%**; Petitprez 2020 sarcoma immune-class B/E (TLS + GC + B-cell rich) and Cabrita 2020 melanoma (TLS + memory B cells + plasmablast signature) confirm in independent cohorts. **For the B-cell neoantigen proposal: replace "TLS density" inputs with a graded mature-TLS flag combined with B-cell transcriptomic markers (Cabrita 9-gene + MZB1/JCHAIN/IGLL5 from Helmink).**
+**Yes — TLS maturity outperforms density**, because density is a *structural* readout but maturity is a *functional* readout: a mature TLS = a functioning ectopic germinal center making **somatically hypermutated, class-switched, antigen-specific B cells** that feed both plasma-cell-derived antibody and CD4-help to local CD8 T cells. Density alone counts the cells; maturity counts the *functioning unit*. The convergence of melanoma (Helmink 2020, Cabrita 2020) and sarcoma (Italiano 2022, Petitprez 2020) cohorts on the same ranking is therefore not a coincidence — it is the same biology surfacing through different tumor microenvironments. **For the B-cell neoantigen proposal**: the immune-context input should be a *functional* score (mature-TLS flag + B-cell transcriptomic signature + somatic hypermutation evidence), not a *structural* count.
+
+### Mechanistic model — why maturity is the right axis
+
+A working causal chain that the above papers collectively support:
+
+```
+Tumor antigen presence
+        │
+        ▼
+B-cell aggregation (driven by CXCL13)        ← TLS density measures this
+        │
+        ▼
+Germinal-center formation                     ← mature TLS marker (CD21⁺ FDC + CD23⁺ GC)
+   • somatic hypermutation
+   • class switching (IgG, IgA)
+   • affinity maturation against tumor antigens
+        │
+        ▼
+Plasma cell + memory B cell output            ← functional readout
+   • antibody → ADCC/ADCP
+   • CD4-help → tumor-specific CD8 expansion
+        │
+        ▼
+ICB response amplification                    ← clinical observable
+```
+
+**TLS density** captures the second arrow only (cells aggregating). **TLS maturity** captures arrows 2–4 (the entire functional cascade). This explains why density alone is necessary but not sufficient: an aggregate without GC formation produces no antigen-specific antibody and contributes little to the cycle.
+
+### Why the cross-paper convergence is not coincidence
+
+Same conclusion across very different tumor microenvironments (melanoma = high TMB, hot; sarcoma = low TMB, cold; NSCLC = mixed) means the predictive variable is **upstream of tumor-type biology** — i.e., it is a property of the immune cycle itself, not a tumor-intrinsic factor. This makes mature TLS the right *generic* immune-context biomarker and makes the proposal's reliance on it portable across cancer types.
+
+### Apparent contradictions and how the model resolves them
+
+- **Helmink 2020 baseline P = 0.132 vs on-treatment P < 0.001.** Resolved by the model: at baseline, mature TLS may exist but the GC reaction is not active; ICB releases the brake on T-cell help → GC reaction accelerates → on-treatment density tracks responder status. Density at the right time is informative, density at the wrong time is not.
+- **TCGA-KIRC: B-cell signature *not* prognostic (Helmink 2020 Extended Data).** Resolved by the model: ccRCC has tumor-cell-intrinsic immune evasion (HIF/VHL biology) that overrides immune contexture. The model predicts mature-TLS predictive value should hold *only when tumor-intrinsic immune evasion is not dominant* — which is a testable prediction.
+- **PDAC TLS-induction (Amisaki 2025) shows benefit.** Consistent with the model: PDAC is normally cold; inducing mature TLS via IL-33/ILC2 supplies the missing GC reaction.
+
+### What the model predicts (testable hypotheses for the manuscript Future Work)
+
+1. **HCC/PDAC/prostate**: a quantified mature-TLS score (CD21⁺ + CD23⁺ + somatic hypermutation evidence in BCR-seq) will outperform PD-L1 or TMB for ICB stratification — *prediction*: AUC for mature-TLS score ≥ 0.75, vs PD-L1 ≈ 0.55 in cold tumors.
+2. **TLS-induction therapy** (anti-CD40 agonist + CXCL13 ± IL-21) in TLS-low tumors will convert non-responders to responders at a rate proportional to *de-novo* GC formation (mature TLS gain on biopsy), not to total CD20 density change.
+3. **BCR-Ag pairing in mature TLS** will recover **tumor-neoantigen-specific BCRs at higher frequency than self-reactive BCRs**, formalizing the "functional unit" claim. If this fails (most BCRs are self-reactive), the entire model is wrong and TLS maturity is a self-reactive Treg-rich structure — a pivotal alternative hypothesis.
+4. **Single-cell mature-TLS deconvolution**: scRNA + scBCR will show that mature-TLS-rich tumors carry a distinct "active GC" B-cell state (high SHM, AID expression, IGHG+) that immature-TLS tumors lack, even at matched CD20 density.
+
+### What this changes in the B-cell neoantigen proposal
+
+- **Inputs to the proposal's scoring framework**: replace "TLS density score" with a three-part functional vector:
+  - structural (CD21⁺ + CD23⁺ + MECA79⁺ mIF)
+  - transcriptomic (Cabrita 9-gene or Meylan signature)
+  - clonal (BCR-seq somatic hypermutation index)
+- **Tumor-type prioritization**: predictive value is highest where tumor-intrinsic immune-evasion is moderate (melanoma, sarcoma, NSCLC), lower where it dominates (ccRCC, MSI-CRC). The proposal should rank cancers by predicted *informativeness of TLS score* and prioritize accordingly.
+- **Failure mode to design around**: if BCR-Ag pairing study shows mature TLS BCRs are mostly self-reactive, the proposal's premise needs updating — define this as a go/no-go decision in the proposal's milestones.
 
 ### Where evidence converges (maturity matters more than density)
 
