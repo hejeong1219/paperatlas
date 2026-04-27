@@ -10,7 +10,7 @@ doi: "10.1136/jitc-2024-009126"
 pmid: "39299754"
 pmcid: "PMC11418484"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wessel-2024-spatial-colocalization-combined-survival-benefit.pdf"
 topic: resistance
 tags:
   - "resistance"

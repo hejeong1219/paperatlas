@@ -9,7 +9,7 @@ journal: "Gastroenterology"
 doi: "10.1053/j.gastro.2023.02.045"
 pmid: "36898552"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/cho-2023-refining-classification-cholangiocarcinoma-subtypes-proteogenomic.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

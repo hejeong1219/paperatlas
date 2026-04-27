@@ -9,7 +9,7 @@ journal: "Cell reports"
 doi: "10.1016/j.celrep.2025.116781"
 pmid: "41447530"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ishino-2026-immunopeptidomics-combined-full-length-transcriptomics-uncovers.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

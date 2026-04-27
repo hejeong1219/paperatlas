@@ -9,7 +9,7 @@ doi: "10.1016/j.immuni.2018.03.037"
 pmid: "29669246"
 pmcid: "PMC6347120"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ganesh-2018-tgf--inhibition-immunotherapy-checkmate.pdf"
 topic: resistance
 tags:
   - "resistance"

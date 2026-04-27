@@ -9,7 +9,7 @@ journal: "Cancer cell"
 doi: "10.1016/j.ccell.2024.02.013"
 pmid: "38490213"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/beck-2024-long-lasting-mrna-encoded-interleukin-2-restores-cd8.pdf"
 topic: resistance
 tags:
   - "resistance"

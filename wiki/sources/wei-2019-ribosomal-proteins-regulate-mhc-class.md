@@ -10,7 +10,7 @@ doi: "10.1016/j.molcel.2018.12.020"
 pmid: "30712990"
 pmcid: "PMC6697054"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wei-2019-ribosomal-proteins-regulate-mhc-class.pdf"
 topic: resistance
 tags:
   - "resistance"

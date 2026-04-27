@@ -42,6 +42,18 @@ INCLUDE_KEYWORDS_HUMAN = [
 ]
 
 TOPIC_QUERIES = {
+    "pancancer-neoantigen": [
+        '("pan-cancer"[Title] OR pancan[Title] OR "across cancer types"[Title]) AND (neoantigen[Title] OR neoepitope[Title]) AND ("2020"[PDAT] : "2026"[PDAT])',
+        '("shared neoantigen"[Title] OR "public neoantigen"[Title] OR "shared neoepitope"[Title])',
+        '(neoantigen[Title]) AND (immunopeptidom*[Title/Abstract] OR proteogenom*[Title/Abstract]) AND ("2020"[PDAT] : "2026"[PDAT])',
+        '(neoantigen[Title]) AND (HLA[Title] OR MHC[Title]) AND (presentation OR landscape) AND ("2020"[PDAT] : "2026"[PDAT])',
+        '("neoantigen prediction"[Title] OR "neoepitope prediction"[Title] OR "pHLA prediction"[Title])',
+        '("neoantigen vaccine"[Title] OR "personalized vaccine"[Title] OR "personalized cancer vaccine"[Title]) AND ("2022"[PDAT] : "2026"[PDAT])',
+        '("noncanonical"[Title] OR "non-canonical"[Title] OR cryptic[Title]) AND (neoantigen OR peptide) AND cancer',
+        '("frameshift neoantigen"[Title] OR "indel neoantigen"[Title] OR "fusion neoantigen"[Title])',
+        '("TCR"[Title] OR "T cell receptor"[Title]) AND neoantigen[Title] AND ("2022"[PDAT] : "2026"[PDAT])',
+        '("MANA"[Title] OR "mutation-associated neoantigen"[Title])',
+    ],
     "bcell-neoantigen": [
         '(neoantigen[Title] OR neoepitope[Title]) AND (cancer OR tumor OR tumour) AND human[Title/Abstract] AND ("2015"[PDAT] : "2026"[PDAT])',
         '(immunopeptidom*[Title]) AND (cancer OR tumor) AND human[Title/Abstract] AND ("2015"[PDAT] : "2026"[PDAT])',
@@ -187,7 +199,7 @@ def existing_slugs(out_dir):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--topic", required=True, choices=list(TOPIC_QUERIES.keys()))
+    ap.add_argument("--topic", required=True)
     ap.add_argument("--target", type=int, default=150)
     ap.add_argument("--limit_search", type=int, default=80)
     ap.add_argument("--out_json", default=None)

@@ -10,7 +10,7 @@ doi: "10.1016/j.cell.2021.03.031"
 pmid: "33848463"
 pmcid: "PMC8127962"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tulpule-2021-kinase-mediated-ras-signaling-membraneless-cytoplasmic.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

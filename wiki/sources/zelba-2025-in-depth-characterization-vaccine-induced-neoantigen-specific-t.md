@@ -10,7 +10,7 @@ doi: "10.1136/jitc-2024-011070"
 pmid: "40480654"
 pmcid: "PMC12142095"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zelba-2025-in-depth-characterization-vaccine-induced-neoantigen-specific-t.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

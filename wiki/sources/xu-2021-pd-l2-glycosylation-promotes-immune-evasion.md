@@ -10,7 +10,7 @@ doi: "10.1136/jitc-2021-002699"
 pmid: "34697216"
 pmcid: "PMC8547513"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/xu-2021-pd-l2-glycosylation-promotes-immune-evasion.pdf"
 topic: resistance
 tags:
   - "resistance"

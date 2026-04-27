@@ -125,12 +125,13 @@ def to_ref_struct(meta):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--topic", required=True, choices=["bcell-neoantigen", "ptmanchor", "resistance"])
+    ap.add_argument("--input", default=None, help="alternate expansion JSON path; defaults to /tmp/wiki_work/{topic}_expansion.json")
     ap.add_argument("--target", type=int, default=150)
     ap.add_argument("--current", type=int, required=True, help="current source count for topic")
     ap.add_argument("--workers", type=int, default=8)
     args = ap.parse_args()
 
-    exp_path = Path(f"/tmp/wiki_work/{args.topic}_expansion.json")
+    exp_path = Path(args.input) if args.input else Path(f"/tmp/wiki_work/{args.topic}_expansion.json")
     candidates = json.loads(exp_path.read_text())["accepted"]
     out_dir = Path("wiki/sources")
     pdf_dir = Path("raw/inbox/papers")

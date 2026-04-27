@@ -315,3 +315,21 @@ Append-only operational history for this wiki.
 - 566 of 669 pages already carry a real abstract (auto-pulled during expansion ingest); 103 remain placeholder, with 95 of those lacking a confirmed PMID.
 - Reran scripts/ingest/update_anchor_links.py — counts unchanged (ptmanchor 210, resistance 253, bcell-neoantigen 205).
 - Quartz rebuilt and pushed to https://github.com/hejeong1219/paperatlas (auto-deploys to https://hejeong1219.github.io/paperatlas).
+
+## [2026-04-27] ingest | pan-cancer neoantigen expansion (user request)
+
+- Added pancancer-neoantigen query set to scripts/ingest/expand_topic.py with 10 PubMed queries covering pan-cancer neoantigen, shared/public neoantigen, immunopeptidomics/proteogenomics, HLA presentation, prediction, vaccines, noncanonical/cryptic peptides, frameshift/indel/fusion neoantigens, TCR, MANA.
+- 377 unique PMIDs returned; 358 accepted after filters (excluded MDPI/PLOS One/iScience/Sci Reports, prefer 2020+, human-cancer signal). Top-scored 124 ingested into the bcell-neoantigen topic.
+- KU EZproxy + cookies pulled 54 additional PDFs through publisher landing pages.
+- Final counts: ptmanchor 210 / resistance 253 / bcell-neoantigen 329 (793 total source pages); 522 PDFs in raw/inbox/papers/.
+- Anchors and topic hubs re-synced.
+
+## [2026-04-27] analysis | first deep-dive batch (4 papers)
+
+- Wrote real Summary + Key Points + Methods + Limitations + Relevance + Open Questions for:
+  - Helmink 2020 (Nature) — B cells + TLS in ICB response
+  - Yarchoan 2024 (Nat Med) — HCC GT-30 personalized neoantigen vaccine
+  - D'Alise 2026 (Nat Med) — Nous-209 Lynch syndrome cancer interception
+  - Falchi 2023 (Blood) — B-NHL bispecific antibodies review
+- Each page replaces "_Abstract pending_" / "_Key claims to be filled in_" placeholders with structured analysis derived from PDF body.
+- 375 placeholder pages with PDFs remain; ScheduleWakeup loop progresses these in batches.
