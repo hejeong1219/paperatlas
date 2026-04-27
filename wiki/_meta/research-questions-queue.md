@@ -44,7 +44,7 @@
 
 ## Cancer resistance (16)
 
-- [ ] **Q35.** Does the convergence framework (visibility / access / effector dysfunction) hold across all therapy classes — checkpoint, CAR-T, BsAb, ADC, targeted, endocrine, PARP? → synthesis page
+- [x] **Q35.** Does the convergence framework (visibility / access / effector dysfunction) hold across all therapy classes — checkpoint, CAR-T, BsAb, ADC, targeted, endocrine, PARP? → created [syntheses/resistance-convergence-framework.md](../syntheses/resistance-convergence-framework.md)
 - [ ] **Q36.** Do EGFR, KRAS, ESR1, and PARP resistance share an immune-evasion endpoint, and is the mechanism convergent or independent? → analyses page
 - [ ] **Q37.** Antigen loss (CD19, CD20, BCMA, HER2): is it a clonal selection event, a transient adaptation, or both? → concept page (antigen-loss-lineage-switch-and-target-escape)
 - [ ] **Q38.** What is the precise mechanism by which STK11/KEAP1 co-mutation creates an immune-cold phenotype in lung adenocarcinoma? → concept page
