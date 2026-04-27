@@ -4,13 +4,13 @@ authors:
   - "You"
   - "Shen"
   - "Lin"
-year: 2025
+year: "2025"
 journal: "Nature genetics"
 doi: "10.1038/s41588-025-02253-8"
 pmid: "40691404"
 pmcid: "9895078"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/you-2025-single-cell-spatial-transcriptomics-reveal-mechanisms.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

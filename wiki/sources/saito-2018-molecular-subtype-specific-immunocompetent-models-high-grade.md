@@ -4,13 +4,13 @@ authors:
   - "Saito"
   - "Smith"
   - "Utsumi"
-year: 2018
+year: "2018"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-18-0173"
 pmid: "29784854"
-pmcid: "PMC4744499"
+pmcid: "PMC6157276"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/saito-2018-molecular-subtype-specific-immunocompetent-models-high-grade.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

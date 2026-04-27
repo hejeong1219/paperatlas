@@ -4,13 +4,13 @@ authors:
   - "Brunner"
   - "Itzel"
   - "Rubner"
-year: 2017
+year: "2017"
 journal: "Oncotarget"
-doi: "10.18632/oncotarget.7869"
+doi: "10.18632/oncotarget.20238"
 pmid: "29050338"
-pmcid: "PMC5008328"
+pmcid: "PMC5642613"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/brunner-2017-tumor-infiltrating-b-cells-producing-antitumor.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

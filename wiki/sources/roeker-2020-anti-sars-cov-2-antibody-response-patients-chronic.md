@@ -4,13 +4,13 @@ authors:
   - "Roeker"
   - "Knorr"
   - "Pessin"
-year: 2020
+year: "2020"
 journal: "Leukemia"
-doi: "10.1056/NEJMoa2022483"
+doi: "10.1038/s41375-020-01030-2"
 pmid: "32855439"
-pmcid: "PMC7377258"
+pmcid: "PMC7450257"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/roeker-2020-anti-sars-cov-2-antibody-response-patients-chronic.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

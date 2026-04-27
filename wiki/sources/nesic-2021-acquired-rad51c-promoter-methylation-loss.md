@@ -4,13 +4,13 @@ authors:
   - "Nesic"
   - "Kondrashova"
   - "Hurley"
-year: 2021
+year: "2021"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-21-0774"
 pmid: "34321239"
-pmcid: "PMC6334391"
+pmcid: "PMC12593227"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/nesic-2021-acquired-rad51c-promoter-methylation-loss.pdf"
 topic: resistance
 tags:
   - "resistance"

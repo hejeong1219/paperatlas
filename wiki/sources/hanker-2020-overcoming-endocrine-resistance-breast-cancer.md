@@ -4,11 +4,11 @@ authors:
   - "Hanker"
   - "Sudhan"
   - "Arteaga"
-year: 2020
+year: "2020"
 journal: "Cancer cell"
-doi: "10.1007/s10549-10020-05575-10549"
+doi: "10.1016/j.ccell.2020.03.009"
 pmid: "32289273"
-pmcid: "PMC3878717"
+pmcid: "PMC7169993"
 paper_kind: research
 pdf_status: pending
 topic: resistance

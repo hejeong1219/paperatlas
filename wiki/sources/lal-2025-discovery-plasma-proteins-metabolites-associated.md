@@ -4,13 +4,13 @@ authors:
   - "Lal"
   - "Fang"
   - "Hussain"
-year: 2025
+year: "2025"
 journal: "Cardio-oncology (London, England)"
-doi: "10.1161/CIRCRESAHA.118.312706"
+doi: "10.1186/s40959-025-00309-6"
 pmid: "39948601"
-pmcid: "PMC8041906"
+pmcid: "PMC11823021"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/lal-2025-discovery-plasma-proteins-metabolites-associated.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

@@ -4,13 +4,13 @@ authors:
   - "Boutelle"
   - "Mabene"
   - "Yao"
-year: 2025
+year: "2025"
 journal: "Cell death and differentiation"
-doi: "10.1093/nar/gkab1038"
+doi: "10.1038/s41418-025-01513-8"
 pmid: "40263541"
-pmcid: "PMC7735755"
+pmcid: "PMC12572384"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/boutelle-2025-integrative-multiomic-approaches-reveal-zmat3.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

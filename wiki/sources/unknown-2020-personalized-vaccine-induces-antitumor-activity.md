@@ -1,11 +1,11 @@
 ---
 title: "Personalized Vaccine Induces Antitumor Activity."
-year: 2020
+year: "2020"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-NB2020-064"
 pmid: "32576589"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/unknown-2020-personalized-vaccine-induces-antitumor-activity.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

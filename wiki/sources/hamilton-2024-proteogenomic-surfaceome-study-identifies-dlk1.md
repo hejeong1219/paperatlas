@@ -4,13 +4,13 @@ authors:
   - "Hamilton"
   - "Radaoui"
   - "Tsang"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
-doi: "10.1093/bioinformatics/btw313"
+doi: "10.1016/j.ccell.2024.10.003"
 pmid: "39454577"
-pmcid: "PMC7267825"
+pmcid: "PMC11560519"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/hamilton-2024-proteogenomic-surfaceome-study-identifies-dlk1.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

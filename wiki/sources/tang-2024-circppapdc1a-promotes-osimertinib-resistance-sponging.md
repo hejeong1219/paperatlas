@@ -4,13 +4,13 @@ authors:
   - "Tang"
   - "Liu"
   - "Zhang"
-year: 2024
+year: "2024"
 journal: "Molecular cancer"
-doi: "10.1038/s41392-024-01740-4"
+doi: "10.1186/s12943-024-01998-w"
 pmid: "38715012"
-pmcid: "PMC10859382"
+pmcid: "PMC11075361"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tang-2024-circppapdc1a-promotes-osimertinib-resistance-sponging.pdf"
 topic: resistance
 tags:
   - "resistance"

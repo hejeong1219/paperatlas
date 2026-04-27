@@ -4,11 +4,11 @@ authors:
   - "Zhang"
   - "Lou"
   - "Yang"
-year: 2019
+year: "2019"
 journal: "Gut"
-doi: "10.1038/s41591-018-0096-5"
+doi: "10.1136/gutjnl-2019-318912"
 pmid: "31227589"
-pmcid: "PMC4823077"
+pmcid: "PMC6839802"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

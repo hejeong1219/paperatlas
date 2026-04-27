@@ -4,11 +4,11 @@ authors:
   - "Osorio"
   - "Knorr"
   - "Weitzenfeld"
-year: 2025
+year: "2025"
 journal: "Cancer cell"
-doi: "10.1016/j.immuni.2005.05.010"
+doi: "10.1016/j.ccell.2025.07.013"
 pmid: "40816292"
-pmcid: "PMC10171177"
+pmcid: "PMC12360484"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

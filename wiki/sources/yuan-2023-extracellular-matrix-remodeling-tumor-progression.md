@@ -4,13 +4,13 @@ authors:
   - "Yuan"
   - "Li"
   - "Zhang"
-year: 2023
+year: "2023"
 journal: "Molecular cancer"
-doi: "10.1021/acs.jmedchem.0c01197"
+doi: "10.1186/s12943-023-01744-8"
 pmid: "36906534"
-pmcid: "PMC8324049"
+pmcid: "PMC10007858"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yuan-2023-extracellular-matrix-remodeling-tumor-progression.pdf"
 topic: resistance
 tags:
   - "resistance"

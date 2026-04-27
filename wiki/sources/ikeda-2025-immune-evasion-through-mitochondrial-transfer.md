@@ -4,13 +4,13 @@ authors:
   - "Ikeda"
   - "Kawase"
   - "Nishi"
-year: 2025
+year: "2025"
 journal: "Nature"
 doi: "10.1038/s41586-024-08439-0"
 pmid: "39843734"
-pmcid: "PMC10073338"
+pmcid: "PMC11798832"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ikeda-2025-immune-evasion-through-mitochondrial-transfer.pdf"
 topic: resistance
 tags:
   - "resistance"

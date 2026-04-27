@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Zhang"
   - "Gong"
-year: 2018
+year: "2018"
 journal: "Nature communications"
-doi: "10.1038/nprot.2008.211"
+doi: "10.1038/s41467-018-07463-9"
 pmid: "30464175"
-pmcid: "PMC4643835"
+pmcid: "PMC6249217"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2018-time-resolved-multi-omic-atlas-developing-mouse.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

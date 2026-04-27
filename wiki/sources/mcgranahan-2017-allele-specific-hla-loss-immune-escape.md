@@ -4,11 +4,11 @@ authors:
   - "McGranahan"
   - "Rosenthal"
   - "Hiley"
-year: 2017
+year: "2017"
 journal: "Cell"
 doi: "10.1016/j.cell.2017.10.001"
 pmid: "29107330"
-pmcid: "PMC5007206"
+pmcid: "PMC5720478"
 paper_kind: research
 pdf_status: pending
 topic: resistance

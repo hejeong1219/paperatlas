@@ -4,13 +4,13 @@ authors:
   - "Cadzow"
   - "Brenneman"
   - "Tobin"
-year: 2024
+year: "2024"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-24-0293"
 pmid: "39402989"
-pmcid: "PMC8975806"
+pmcid: "PMC11474170"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/cadzow-2024-usp1-inhibitor-ksq-4279-overcomes-parp.pdf"
 topic: resistance
 tags:
   - "resistance"

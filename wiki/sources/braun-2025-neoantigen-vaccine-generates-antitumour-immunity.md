@@ -4,13 +4,13 @@ authors:
   - "Braun"
   - "Moranzoni"
   - "Chea"
-year: 2025
+year: "2025"
 journal: "Nature"
-doi: "10.1038/s41467-021-23324-4"
+doi: "10.1038/s41586-024-08507-5"
 pmid: "39910301"
-pmcid: "PMC8137700"
+pmcid: "PMC11903305"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/braun-2025-neoantigen-vaccine-generates-antitumour-immunity.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

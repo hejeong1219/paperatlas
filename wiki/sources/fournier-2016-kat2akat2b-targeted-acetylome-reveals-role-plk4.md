@@ -4,13 +4,13 @@ authors:
   - "Fournier"
   - "Orpinell"
   - "Grauffel"
-year: 2016
+year: "2016"
 journal: "Nature communications"
 doi: "10.1038/ncomms13227"
 pmid: "27796307"
-pmcid: "PMC4702828"
+pmcid: "PMC5095585"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/fournier-2016-kat2akat2b-targeted-acetylome-reveals-role-plk4.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

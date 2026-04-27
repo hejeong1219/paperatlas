@@ -4,7 +4,7 @@ authors:
   - "Schott"
   - "León-Periñán"
   - "Splendiani"
-year: 2024
+year: "2024"
 journal: "Cell"
 doi: "10.1016/j.cell.2024.05.055"
 pmid: "38917789"

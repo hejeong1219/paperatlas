@@ -4,13 +4,13 @@ authors:
   - "Khaliq"
   - "Rajamohan"
   - "Saeed"
-year: 2024
+year: "2024"
 journal: "Nature genetics"
-doi: "10.1038/s41467-023-43120-6"
+doi: "10.1038/s41588-024-01914-4"
 pmid: "39294496"
 pmcid: "10676408"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/khaliq-2024-spatial-transcriptomic-analysis-primary-metastatic.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

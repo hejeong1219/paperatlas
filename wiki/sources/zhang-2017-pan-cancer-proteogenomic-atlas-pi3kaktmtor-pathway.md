@@ -4,11 +4,11 @@ authors:
   - "Zhang"
   - "Kwok-Shing"
   - "Kucherlapati"
-year: 2017
+year: "2017"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2017.04.013"
 pmid: "28528867"
-pmcid: "PMC3966983"
+pmcid: "PMC5502825"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

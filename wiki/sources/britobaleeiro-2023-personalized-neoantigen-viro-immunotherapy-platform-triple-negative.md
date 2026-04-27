@@ -4,11 +4,11 @@ authors:
   - "Brito"
   - "Liu"
   - "Chard"
-year: 2023
+year: "2023"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1093/nar/18.20.6097"
+doi: "10.1136/jitc-2023-007336"
 pmid: "37586771"
-pmcid: "PMC332411"
+pmcid: "PMC10432671"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

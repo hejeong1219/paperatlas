@@ -4,13 +4,13 @@ authors:
   - "Tai"
   - "Chow"
   - "Han"
-year: 2024
+year: "2024"
 journal: "EMBO molecular medicine"
-doi: "10.1002/JLB.5RU0222-082R"
+doi: "10.1038/s44321-024-00094-2"
 pmid: "38956205"
-pmcid: "PMC9148445"
+pmcid: "PMC11319505"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tai-2024-flt1-activation-cancer-cells-promotes.pdf"
 topic: resistance
 tags:
   - "resistance"

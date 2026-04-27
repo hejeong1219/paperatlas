@@ -4,13 +4,13 @@ authors:
   - "Yoshiji"
   - "Lu"
   - "Butler-Laporte"
-year: 2025
+year: "2025"
 journal: "Nature genetics"
-doi: "10.1016/j.xgen.2023.100346"
+doi: "10.1038/s41588-024-02052-7"
 pmid: "39856218"
 pmcid: "PMC11821532"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/yoshiji-2025-integrative-proteogenomic-analysis-identifies-col6a3-derived.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

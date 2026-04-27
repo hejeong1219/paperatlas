@@ -4,7 +4,7 @@ authors:
   - "Clark"
   - "Dhanasekaran"
   - "Petralia"
-year: 2020
+year: "2020"
 journal: "Cell"
 doi: "10.1016/j.cell.2019.12.026"
 pmid: "31923397"

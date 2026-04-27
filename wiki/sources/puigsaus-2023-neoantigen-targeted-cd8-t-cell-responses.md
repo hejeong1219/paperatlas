@@ -4,13 +4,13 @@ authors:
   - "Puig-Saus"
   - "Sennino"
   - "Peng"
-year: 2023
+year: "2023"
 journal: "Nature"
-doi: "10.1101/2020.05.04.20085779"
+doi: "10.1038/s41586-023-05787-1"
 pmid: "36890230"
-pmcid: "PMC4383898"
+pmcid: "PMC10441586"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/puigsaus-2023-neoantigen-targeted-cd8-t-cell-responses.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

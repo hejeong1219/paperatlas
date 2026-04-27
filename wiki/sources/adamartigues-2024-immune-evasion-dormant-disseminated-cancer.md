@@ -4,11 +4,11 @@ authors:
   - "Adam-Artigues"
   - "Valencia"
   - "Aguirre-Ghiso"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2023.12.017"
 pmid: "38194913"
-pmcid: "PMC8800302"
+pmcid: "PMC11034720"
 paper_kind: research
 pdf_status: pending
 topic: resistance

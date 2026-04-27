@@ -4,13 +4,13 @@ authors:
   - "Kim"
   - "Fritsche"
   - "Bunk"
-year: 2022
+year: "2022"
 journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.abo6135"
 pmid: "36044599"
-pmcid: "PMC5929999"
+pmcid: "PMC10130759"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kim-2022-quantitative-immunopeptidomics-reveals-tumor-stroma-specific.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

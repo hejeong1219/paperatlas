@@ -4,11 +4,11 @@ authors:
   - "Chen"
   - "Li"
   - "Qiu"
-year: 2022
+year: "2022"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/nri.2015.3"
+doi: "10.1136/jitc-2021-004389"
 pmid: "36113894"
-pmcid: "PMC5458068"
+pmcid: "PMC9486396"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

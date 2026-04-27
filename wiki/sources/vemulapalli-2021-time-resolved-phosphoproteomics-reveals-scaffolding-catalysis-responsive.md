@@ -4,13 +4,13 @@ authors:
   - "Vemulapalli"
   - "Chylek"
   - "Erickson"
-year: 2021
+year: "2021"
 journal: "eLife"
-doi: "10.1074/jbc.275.8.5453"
+doi: "10.7554/eLife.64251"
 pmid: "33755016"
-pmcid: "PMC3371732"
+pmcid: "PMC8024022"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/vemulapalli-2021-time-resolved-phosphoproteomics-reveals-scaffolding-catalysis-responsive.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

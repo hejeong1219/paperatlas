@@ -4,13 +4,13 @@ authors:
   - "Ott"
   - "Hu"
   - "Keskin"
-year: 2017
+year: "2017"
 journal: "Nature"
-doi: "10.1093/nar/gkn202"
+doi: "10.1038/nature22991"
 pmid: "28678778"
-pmcid: "PMC2447772"
+pmcid: "PMC5577644"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ott-2017-immunogenic-personal-neoantigen-vaccine-patients.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

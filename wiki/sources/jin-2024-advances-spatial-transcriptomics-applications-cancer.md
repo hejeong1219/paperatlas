@@ -4,13 +4,13 @@ authors:
   - "Jin"
   - "Zuo"
   - "Li"
-year: 2024
+year: "2024"
 journal: "Molecular cancer"
-doi: "10.1038/s41467-022-28523-1"
+doi: "10.1186/s12943-024-02040-9"
 pmid: "38902727"
-pmcid: "PMC8854421"
+pmcid: "PMC11188176"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/jin-2024-advances-spatial-transcriptomics-applications-cancer.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

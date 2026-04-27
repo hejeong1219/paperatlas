@@ -4,7 +4,7 @@ authors:
   - "Fu"
   - "Song"
   - "Liu"
-year: 2026
+year: "2026"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2025.12.014"
 pmid: "41512870"

@@ -4,11 +4,11 @@ authors:
   - "Zou"
   - "Lin"
   - "Cheng"
-year: 2023
+year: "2023"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1080/2162402X.2015.1066062"
+doi: "10.1136/jitc-2023-006698"
 pmid: "37364934"
-pmcid: "PMC4839331"
+pmcid: "PMC10410893"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

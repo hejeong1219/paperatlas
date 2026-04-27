@@ -4,13 +4,13 @@ authors:
   - "Wu"
   - "Gao"
   - "Xiao"
-year: 2025
+year: "2025"
 journal: "Neuromolecular medicine"
-doi: "10.1038/s41467-019-09234-6"
+doi: "10.1007/s12017-025-08873-x"
 pmid: "40676322"
 pmcid: "6447622"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wu-2025-ca2-affinitive-non-ca2-affinitive-synaptotagmins-human-pan-cancer.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

@@ -4,13 +4,13 @@ authors:
   - "Hu"
   - "Wu"
   - "Liu"
-year: 2024
+year: "2024"
 journal: "Nature genetics"
-doi: "10.1038/s41587-021-00994-5"
+doi: "10.1038/s41588-024-01703-z"
 pmid: "38565644"
 pmcid: "8506910"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/hu-2024-proteogenomic-insights-early-onset-endometrioid-endometrial.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

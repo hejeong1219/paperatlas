@@ -4,13 +4,13 @@ authors:
   - "Chandran"
   - "Ma"
   - "Klatt"
-year: 2022
+year: "2022"
 journal: "Nature medicine"
-doi: "10.1038/nbt.3344"
+doi: "10.1038/s41591-022-01786-3"
 pmid: "35484264"
-pmcid: "PMC4747795"
+pmcid: "PMC9117146"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/chandran-2022-immunogenicity-therapeutic-targeting-public-neoantigen.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

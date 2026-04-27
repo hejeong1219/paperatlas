@@ -4,11 +4,11 @@ authors:
   - "Petralia"
   - "Ma"
   - "Yaron"
-year: 2024
+year: "2024"
 journal: "Cell"
-doi: "10.48550/arXiv.2003.10778"
+doi: "10.1016/j.cell.2024.01.027"
 pmid: "38359819"
-pmcid: "PMC3637064"
+pmcid: "PMC10988632"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

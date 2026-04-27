@@ -4,13 +4,13 @@ authors:
   - "Feola"
   - "Chiaro"
   - "Martins"
-year: 2022
+year: "2022"
 journal: "eLife"
-doi: "10.1038/s41571-021-00508-x"
+doi: "10.7554/eLife.71156"
 pmid: "35314027"
-pmcid: "PMC3339379"
+pmcid: "PMC8989416"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/feola-2022-novel-immunopeptidomic-based-pipeline-generation-personalized.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

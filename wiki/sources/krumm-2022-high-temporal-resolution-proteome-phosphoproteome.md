@@ -4,7 +4,7 @@ authors:
   - "Krumm"
   - "Sekine"
   - "Samaras"
-year: 2022
+year: "2022"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2022.110604"
 pmid: "35354033"

@@ -4,11 +4,11 @@ authors:
   - "Wessel"
   - "Ageeb"
   - "Obeid"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1016/j.immuni.2018.09.016"
+doi: "10.1136/jitc-2024-009126"
 pmid: "39299754"
-pmcid: "PMC6488306"
+pmcid: "PMC11418484"
 paper_kind: research
 pdf_status: pending
 topic: resistance

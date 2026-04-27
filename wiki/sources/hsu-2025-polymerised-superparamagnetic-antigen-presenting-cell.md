@@ -4,13 +4,13 @@ authors:
   - "Hsu"
   - "Tsai"
   - "Lin"
-year: 2025
+year: "2025"
 journal: "Nature communications"
-doi: "10.1002/advs.202206521"
+doi: "10.1038/s41467-025-60321-3"
 pmid: "40456725"
-pmcid: "PMC10265066"
+pmcid: "PMC12130322"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/hsu-2025-polymerised-superparamagnetic-antigen-presenting-cell.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

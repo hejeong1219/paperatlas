@@ -4,13 +4,13 @@ authors:
   - "Elosua-Bayes"
   - "Nieto"
   - "Mereu"
-year: 2021
+year: "2021"
 journal: "Nucleic acids research"
-doi: "10.1101/762773"
+doi: "10.1093/nar/gkab043"
 pmid: "33544846"
-pmcid: "PMC5762154"
+pmcid: "PMC8136778"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/elosuabayes-2021-spotlight-seeded-nmf-regression-deconvolute.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

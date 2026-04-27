@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Jiang"
   - "Zhang"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1016/j.gpb.2021.08.001"
+doi: "10.1038/s41467-023-37440-w"
 pmid: "36966136"
-pmcid: "PMC9039563"
+pmcid: "PMC10039899"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2023-integrative-proteogenomic-characterization-early-esophageal.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

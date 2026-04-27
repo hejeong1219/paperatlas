@@ -4,11 +4,11 @@ authors:
   - "Xu-Monette"
   - "Zhou"
   - "Young"
-year: 2018
+year: "2018"
 journal: "Blood"
 doi: "10.1182/blood-2017-07-740993"
 pmid: "29118007"
-pmcid: "PMC5693219"
+pmcid: "PMC5755041"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

@@ -4,13 +4,13 @@ authors:
   - "Ren"
   - "Wu"
   - "Li"
-year: 2025
+year: "2025"
 journal: "Discover oncology"
-doi: "10.3389/fimmu.2019.02348"
+doi: "10.1007/s12672-025-02745-3"
 pmid: "40478518"
-pmcid: "PMC7219778"
+pmcid: "PMC12144028"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ren-2025-integrated-analysis-unraveling-immunologic-clinical.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

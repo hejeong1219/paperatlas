@@ -4,13 +4,13 @@ authors:
   - "He"
   - "Lin"
   - "Gao"
-year: 2025
+year: "2025"
 journal: "Cell communication and signaling : CCS"
-doi: "10.1371/journal.pgen.1009440"
+doi: "10.1186/s12964-025-02568-3"
 pmid: "41402890"
-pmcid: "PMC8504726"
+pmcid: "PMC12853910"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/he-2025-proteogenomic-gene-signature-defines-prognostic.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

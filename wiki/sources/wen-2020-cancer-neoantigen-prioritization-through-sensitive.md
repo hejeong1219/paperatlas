@@ -4,13 +4,13 @@ authors:
   - "Wen"
   - "Li"
   - "Zhang"
-year: 2020
+year: "2020"
 journal: "Nature communications"
-doi: "10.1038/nbt.3820"
+doi: "10.1038/s41467-020-15456-w"
 pmid: "32273506"
-pmcid: "PMC6546179"
+pmcid: "PMC7145864"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/wen-2020-cancer-neoantigen-prioritization-through-sensitive.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

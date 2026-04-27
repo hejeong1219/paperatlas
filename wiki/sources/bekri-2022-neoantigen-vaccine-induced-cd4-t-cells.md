@@ -4,11 +4,11 @@ authors:
   - "Bekri"
   - "Rodney-Sandy"
   - "Gruenstein"
-year: 2022
+year: "2022"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/s41467-019-13438-1"
+doi: "10.1136/jitc-2021-003572"
 pmid: "35190376"
-pmcid: "PMC6892909"
+pmcid: "PMC8862454"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

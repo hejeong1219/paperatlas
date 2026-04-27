@@ -4,13 +4,13 @@ authors:
   - "Yao"
   - "Wang"
   - "Jayasinghe"
-year: 2023
+year: "2023"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-22-1769"
 pmid: "36779841"
-pmcid: "PMC4860950"
+pmcid: "PMC10102848"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yao-2023-single-cell-discovery-multiomic-characterization-therapeutic.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

@@ -4,7 +4,7 @@ authors:
   - "Li"
   - "Lai"
   - "Yin"
-year: 2024
+year: "2024"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2024.114613"
 pmid: "39116206"

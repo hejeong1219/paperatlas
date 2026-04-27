@@ -4,13 +4,13 @@ authors:
   - "Shen"
   - "Lu"
   - "Song"
-year: 2022
+year: "2022"
 journal: "Nature communications"
-doi: "10.1016/S1097-2765(01)00187-3"
+doi: "10.1038/s41467-022-31141-6"
 pmid: "35701426"
-pmcid: "PMC4148853"
+pmcid: "PMC9198048"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/shen-2022-ursodeoxycholic-acid-reduces-antitumor-immunosuppression.pdf"
 topic: resistance
 tags:
   - "resistance"

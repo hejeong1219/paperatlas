@@ -4,7 +4,7 @@ authors:
   - "Ju"
   - "Jin"
   - "Zheng"
-year: 2025
+year: "2025"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2025.116563"
 pmid: "41252251"

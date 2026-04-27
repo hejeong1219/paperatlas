@@ -4,13 +4,13 @@ authors:
   - "Yamamoto"
   - "Venida"
   - "Yano"
-year: 2020
+year: "2020"
 journal: "Nature"
-doi: "10.3791/51677"
+doi: "10.1038/s41586-020-2229-5"
 pmid: "32376951"
-pmcid: "PMC1239896"
+pmcid: "PMC7296553"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yamamoto-2020-autophagy-promotes-immune-evasion-pancreatic.pdf"
 topic: resistance
 tags:
   - "resistance"

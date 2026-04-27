@@ -4,13 +4,13 @@ authors:
   - "Ziff"
   - "Clarke"
   - "Taha"
-year: 2022
+year: "2022"
 journal: "Genome research"
-doi: "10.1093/nar/gkab115"
+doi: "10.1101/gr.275939.121"
 pmid: "34963663"
-pmcid: "PMC8034657"
+pmcid: "PMC8744676"
 paper_kind: meta-analysis
-pdf_status: pending
+pdf: "raw/inbox/papers/ziff-2022-meta-analysis-human-mouse-als-astrocytes.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

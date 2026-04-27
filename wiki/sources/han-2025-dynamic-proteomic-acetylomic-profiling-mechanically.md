@@ -4,7 +4,7 @@ authors:
   - "Han"
   - "Wu"
   - "Yang"
-year: 2025
+year: "2025"
 journal: "Proteomics"
 doi: "10.1002/pmic.202400409"
 pmid: "39981796"

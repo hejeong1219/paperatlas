@@ -4,12 +4,12 @@ authors:
   - "Corcoran"
   - "Phelan"
   - "Choi"
-year: 2024
+year: "2024"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-23-0802"
 pmid: "38683128"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/corcoran-2024-molecular-determinants-sensitivity-polatuzumab-vedotin.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

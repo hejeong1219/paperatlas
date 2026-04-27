@@ -4,13 +4,13 @@ authors:
   - "Mørk"
   - "Skadborg"
   - "Albieri"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/s41573-021-00387-y"
+doi: "10.1136/jitc-2024-008817"
 pmid: "38782542"
-pmcid: "PMC7612664"
+pmcid: "PMC11116868"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/mrk-2024-dose-escalation-study-personalized-peptide-based.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

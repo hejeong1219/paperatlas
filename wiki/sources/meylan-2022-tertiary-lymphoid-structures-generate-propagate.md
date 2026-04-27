@@ -4,7 +4,7 @@ authors:
   - "Meylan"
   - "Petitprez"
   - "Becht"
-year: 2022
+year: "2022"
 journal: "Immunity"
 doi: "10.1016/j.immuni.2022.02.001"
 pmid: "35231421"

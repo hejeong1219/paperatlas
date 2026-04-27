@@ -4,12 +4,12 @@ authors:
   - "Ding"
   - "Liu"
   - "Zhang"
-year: 2024
+year: "2024"
 journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.adh9940"
 pmid: "39504356"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ding-2024-integrative-multiomic-analysis-identifies-distinct.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

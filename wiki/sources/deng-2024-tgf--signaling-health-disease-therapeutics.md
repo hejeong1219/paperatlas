@@ -4,13 +4,13 @@ authors:
   - "Deng"
   - "Fan"
   - "Xiao"
-year: 2024
+year: "2024"
 journal: "Signal transduction and targeted therapy"
-doi: "10.3389/fonc.2023.1124080"
+doi: "10.1038/s41392-024-01764-w"
 pmid: "38514615"
-pmcid: "PMC9911835"
+pmcid: "PMC10958066"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/deng-2024-tgf--signaling-health-disease-therapeutics.pdf"
 topic: resistance
 tags:
   - "resistance"

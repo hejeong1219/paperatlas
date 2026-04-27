@@ -4,13 +4,13 @@ authors:
   - "Lancaster"
   - "Sinitcyn"
   - "Forny"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1093/nar/gkaa1011"
+doi: "10.1038/s41467-024-51274-0"
 pmid: "39147754"
-pmcid: "PMC7778944"
+pmcid: "PMC11327265"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/lancaster-2024-fast-deep-phosphoproteome-analysis-orbitrap.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

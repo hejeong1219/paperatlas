@@ -4,11 +4,11 @@ authors:
   - "Gebert"
   - "Gelincik"
   - "Oezcan-Wahlbrink"
-year: 2021
+year: "2021"
 journal: "Gastroenterology"
 doi: "10.1053/j.gastro.2021.06.073"
 pmid: "34224739"
-pmcid: "PMC4152047"
+pmcid: "PMC10184299"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

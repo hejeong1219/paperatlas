@@ -4,11 +4,11 @@ authors:
   - "Shi"
   - "He"
   - "Chen"
-year: 2025
+year: "2025"
 journal: "Cell insight"
 doi: "10.1016/j.cellin.2025.100248"
 pmid: "40336591"
-pmcid: "PMC4859220"
+pmcid: "PMC12056969"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

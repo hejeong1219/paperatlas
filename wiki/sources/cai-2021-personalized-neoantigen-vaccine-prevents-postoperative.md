@@ -4,13 +4,13 @@ authors:
   - "Cai"
   - "Su"
   - "Qiu"
-year: 2021
+year: "2021"
 journal: "Molecular cancer"
-doi: "10.1016/j.cell.2020.08.053"
+doi: "10.1186/s12943-021-01467-8"
 pmid: "34903219"
-pmcid: "PMC7645989"
+pmcid: "PMC8667400"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/cai-2021-personalized-neoantigen-vaccine-prevents-postoperative.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

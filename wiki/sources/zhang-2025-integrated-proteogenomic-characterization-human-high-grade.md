@@ -4,7 +4,7 @@ authors:
   - "Zhang"
   - "Liu"
   - "Zhang"
-year: 2025
+year: "2025"
 journal: "Cell"
 doi: "10.1016/j.cell.2025.10.043"
 pmid: "41187752"

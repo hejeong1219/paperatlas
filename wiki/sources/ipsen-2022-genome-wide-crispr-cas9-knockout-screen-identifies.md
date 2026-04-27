@@ -4,13 +4,13 @@ authors:
   - "Ipsen"
   - "Sørensen"
   - "Thomsen"
-year: 2022
+year: "2022"
 journal: "Oncogene"
-doi: "10.1007/978-1-4939-9170-9_7"
+doi: "10.1038/s41388-022-02427-2"
 pmid: "35933519"
 pmcid: "8073512"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ipsen-2022-genome-wide-crispr-cas9-knockout-screen-identifies.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -4,13 +4,13 @@ authors:
   - "Lenkala"
   - "Kohler"
   - "McCarthy"
-year: 2026
+year: "2026"
 journal: "Nature communications"
-doi: "10.1186/s13059-020-02015-1"
+doi: "10.1038/s41467-026-68680-1"
 pmid: "41644530"
-pmcid: "PMC7212577"
+pmcid: "PMC13099984"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/lenkala-2026-neo-stim-advances-personalized-neoantigen-specific-adoptive.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Rademacher"
   - "Huseynov"
   - "Bortolomeazzi"
-year: 2025
+year: "2025"
 journal: "Genome biology"
-doi: "10.1111/j.2517-6161.1995.tb02031.x"
+doi: "10.1186/s13059-025-03624-4"
 pmid: "40542418"
-pmcid: "PMC10774372"
+pmcid: "PMC12180266"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/rademacher-2025-comparison-spatial-transcriptomics-technologies-using.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Zhang"
   - "Jiang"
   - "Jiang"
-year: 2024
+year: "2024"
 journal: "British journal of cancer"
-doi: "10.1200/JCO.2017.35.15_suppl.11504"
+doi: "10.1038/s41416-024-02712-9"
 pmid: "38762674"
-pmcid: "PMC5784541"
+pmcid: "PMC11231239"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2024-hla-a-tertiary-lymphoid-structures-reactivated.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

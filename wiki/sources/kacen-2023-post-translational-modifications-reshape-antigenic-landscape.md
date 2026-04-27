@@ -4,13 +4,13 @@ authors:
   - "Kacen"
   - "Javitt"
   - "Kramer"
-year: 2023
+year: "2023"
 journal: "Nature biotechnology"
-doi: "10.1021/cm0020051"
+doi: "10.1038/s41587-022-01464-2"
 pmid: "36203013"
-pmcid: "PMC3231580"
+pmcid: "PMC11197725"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kacen-2023-post-translational-modifications-reshape-antigenic-landscape.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

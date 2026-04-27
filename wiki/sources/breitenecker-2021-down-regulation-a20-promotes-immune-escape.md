@@ -4,13 +4,13 @@ authors:
   - "Breitenecker"
   - "Homolya"
   - "Luca"
-year: 2021
+year: "2021"
 journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.abc3911"
 pmid: "34233950"
-pmcid: "PMC7878409"
+pmcid: "PMC7611502"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/breitenecker-2021-down-regulation-a20-promotes-immune-escape.pdf"
 topic: resistance
 tags:
   - "resistance"

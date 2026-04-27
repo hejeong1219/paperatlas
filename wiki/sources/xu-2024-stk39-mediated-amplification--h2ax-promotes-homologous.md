@@ -4,13 +4,13 @@ authors:
   - "Xu"
   - "Li"
   - "Yin"
-year: 2024
+year: "2024"
 journal: "Nucleic acids research"
 doi: "10.1093/nar/gkae1099"
 pmid: "39588777"
-pmcid: "PMC9074467"
+pmcid: "PMC11662673"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/xu-2024-stk39-mediated-amplification--h2ax-promotes-homologous.pdf"
 topic: resistance
 tags:
   - "resistance"

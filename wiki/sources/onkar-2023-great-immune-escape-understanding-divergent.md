@@ -4,13 +4,13 @@ authors:
   - "Onkar"
   - "Carleton"
   - "Lucas"
-year: 2023
+year: "2023"
 journal: "Cancer discovery"
-doi: "10.1007/s10549-022-06572-w"
+doi: "10.1158/2159-8290.CD-22-0475"
 pmid: "36620880"
-pmcid: "PMC8343924"
+pmcid: "PMC9833841"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/onkar-2023-great-immune-escape-understanding-divergent.pdf"
 topic: resistance
 tags:
   - "resistance"

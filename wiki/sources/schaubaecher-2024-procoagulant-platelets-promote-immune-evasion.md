@@ -4,12 +4,12 @@ authors:
   - "Schaubaecher"
   - "Smiljanov"
   - "Haring"
-year: 2024
+year: "2024"
 journal: "Blood"
 doi: "10.1182/blood.2023022928"
 pmid: "38648571"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/schaubaecher-2024-procoagulant-platelets-promote-immune-evasion.pdf"
 topic: resistance
 tags:
   - "resistance"

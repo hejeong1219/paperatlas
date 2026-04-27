@@ -4,7 +4,7 @@ authors:
   - "Ehx"
   - "Larouche"
   - "Durette"
-year: 2021
+year: "2021"
 journal: "Immunity"
 doi: "10.1016/j.immuni.2021.03.001"
 pmid: "33740418"

@@ -4,13 +4,13 @@ authors:
   - "Schiavon"
   - "Hrebien"
   - "Garcia-Murillas"
-year: 2015
+year: "2015"
 journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.aac7551"
 pmid: "26560360"
-pmcid: "PMC2723002"
+pmcid: "PMC4998737"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/schiavon-2015-analysis-esr1-mutation-circulating-tumor.pdf"
 topic: resistance
 tags:
   - "resistance"

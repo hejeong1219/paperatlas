@@ -4,13 +4,13 @@ authors:
   - "Pettitt"
   - "Shao"
   - "Zatreanu"
-year: 2023
+year: "2023"
 journal: "Oncogene"
-doi: "10.1093/nar/gkab1038"
+doi: "10.1038/s41388-023-02782-8"
 pmid: "37491606"
-pmcid: "PMC5308896"
+pmcid: "PMC10473960"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/pettitt-2023-huwe1-defect-causes-parp-inhibitor.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -4,13 +4,13 @@ authors:
   - "Schöpf"
   - "Uhrig"
   - "Heilig"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1101/cshperspect.a008342"
+doi: "10.1038/s41467-023-44360-2"
 pmid: "38168093"
-pmcid: "PMC5508521"
+pmcid: "PMC10761971"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/schpf-2024-multi-omic-functional-analysis-classification-treatment.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

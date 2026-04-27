@@ -4,11 +4,11 @@ authors:
   - "Seed"
   - "Beije"
   - "Yuan"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
-doi: "10.1038/s41467-017-00965-y"
+doi: "10.1016/j.ccell.2024.10.015"
 pmid: "39577422"
-pmcid: "PMC5673918"
+pmcid: "PMC7618010"
 paper_kind: research
 pdf_status: pending
 topic: resistance

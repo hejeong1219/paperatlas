@@ -4,11 +4,11 @@ authors:
   - "Sharma"
   - "Hu-Lieskovan"
   - "Wargo"
-year: 2017
+year: "2017"
 journal: "Cell"
 doi: "10.1016/j.cell.2017.01.017"
 pmid: "28187290"
-pmcid: "PMC4859220"
+pmcid: "PMC5391692"
 paper_kind: research
 pdf_status: pending
 topic: resistance

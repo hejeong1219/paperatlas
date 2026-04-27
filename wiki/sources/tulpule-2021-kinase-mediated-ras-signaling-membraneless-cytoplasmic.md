@@ -4,11 +4,11 @@ authors:
   - "Tulpule"
   - "Guan"
   - "Neel"
-year: 2021
+year: "2021"
 journal: "Cell"
-doi: "10.1002/0471142727.mb1420s92"
+doi: "10.1016/j.cell.2021.03.031"
 pmid: "33848463"
-pmcid: "PMC4987297"
+pmcid: "PMC8127962"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

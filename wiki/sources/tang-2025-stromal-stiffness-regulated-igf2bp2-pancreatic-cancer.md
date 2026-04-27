@@ -4,7 +4,7 @@ authors:
   - "Tang"
   - "Zhang"
   - "Liu"
-year: 2025
+year: "2025"
 journal: "Gastroenterology"
 doi: "10.1053/j.gastro.2025.03.019"
 pmid: "40158738"

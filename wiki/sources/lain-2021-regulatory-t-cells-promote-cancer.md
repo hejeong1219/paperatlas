@@ -4,13 +4,13 @@ authors:
   - "Lainé"
   - "Labiad"
   - "Hernandez-Vargas"
-year: 2021
+year: "2021"
 journal: "Nature communications"
-doi: "10.1006/abio.1994.1042"
+doi: "10.1038/s41467-021-26352-2"
 pmid: "34711823"
-pmcid: "PMC8340852"
+pmcid: "PMC8553942"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/lain-2021-regulatory-t-cells-promote-cancer.pdf"
 topic: resistance
 tags:
   - "resistance"

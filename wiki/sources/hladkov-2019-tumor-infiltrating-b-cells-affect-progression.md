@@ -4,11 +4,11 @@ authors:
   - "Hladíková"
   - "Koucký"
   - "Bouček"
-year: 2019
+year: "2019"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1111/j.0300-9475.2004.01517.x"
+doi: "10.1186/s40425-019-0726-6"
 pmid: "31623665"
-pmcid: "PMC5988856"
+pmcid: "PMC6796441"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

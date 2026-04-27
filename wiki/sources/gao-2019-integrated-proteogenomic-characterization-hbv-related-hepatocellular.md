@@ -4,7 +4,7 @@ authors:
   - "Gao"
   - "Zhu"
   - "Dong"
-year: 2019
+year: "2019"
 journal: "Cell"
 doi: "10.1016/j.cell.2019.08.052"
 pmid: "31585088"

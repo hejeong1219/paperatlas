@@ -4,13 +4,13 @@ authors:
   - "Mullins"
   - "Pal"
   - "Barrett"
-year: 2022
+year: "2022"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-21-4370"
 pmid: "35363853"
-pmcid: "PMC9014559"
+pmcid: "PMC9256788"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/mullins-2022-epithelial-mesenchymal-plasticity-tumor-immune-evasion.pdf"
 topic: resistance
 tags:
   - "resistance"

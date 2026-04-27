@@ -4,13 +4,13 @@ authors:
   - "Wei"
   - "Sun"
   - "Shen"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1186/1471-2105-14-7"
+doi: "10.1038/s41467-023-43980-y"
 pmid: "38065972"
-pmcid: "PMC3618321"
+pmcid: "PMC10709603"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wei-2023-delineating-early-dissemination-mechanisms-acral.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

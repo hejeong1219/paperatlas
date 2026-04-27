@@ -4,13 +4,13 @@ authors:
   - "Vallée"
   - "Drezet"
   - "Arutkin"
-year: 2025
+year: "2025"
 journal: "Frontiers in immunology"
-doi: "10.1002/cyto.a.24940"
+doi: "10.3389/fimmu.2025.1672312"
 pmid: "41122166"
-pmcid: "PMC6656694"
+pmcid: "PMC12535963"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/valle-2025-pan-cancer-convergence-tumour-immune-microenvironment-motifs.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

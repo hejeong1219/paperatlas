@@ -4,13 +4,13 @@ authors:
   - "Al"
   - "Taylor"
   - "Starkey"
-year: 2022
+year: "2022"
 journal: "British journal of cancer"
-doi: "10.1038/s41591-021-01377-8"
+doi: "10.1038/s41416-022-01951-y"
 pmid: "36224402"
-pmcid: "PMC8820244"
+pmcid: "PMC9555704"
 paper_kind: review
-pdf_status: pending
+pdf: "raw/inbox/papers/alhajji-2022-antibody-response-third-booster-dose.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

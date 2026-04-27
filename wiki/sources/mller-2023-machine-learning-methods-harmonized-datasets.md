@@ -4,7 +4,7 @@ authors:
   - "Müller"
   - "Huber"
   - "Arnaud"
-year: 2023
+year: "2023"
 journal: "Immunity"
 doi: "10.1016/j.immuni.2023.09.002"
 pmid: "37816353"

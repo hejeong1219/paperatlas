@@ -4,7 +4,7 @@ authors:
   - "Melcher"
   - "Yu"
   - "Duong"
-year: 2022
+year: "2022"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2022.111051"
 pmid: "35830810"

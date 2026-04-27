@@ -4,9 +4,9 @@ authors:
   - "Yi"
   - "Li"
   - "Huang"
-year: 2022
+year: "2022"
 journal: "Oncogene"
-doi: "10.1080/15384047.2016.1195045"
+doi: "10.1038/s41388-022-02438-z"
 pmid: "35986102"
 pmcid: "6614655"
 paper_kind: research

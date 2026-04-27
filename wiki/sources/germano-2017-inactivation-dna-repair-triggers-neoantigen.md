@@ -4,12 +4,12 @@ authors:
   - "Germano"
   - "Lamba"
   - "Rospo"
-year: 2017
+year: "2017"
 journal: "Nature"
 doi: "10.1038/nature24673"
 pmid: "29186113"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/germano-2017-inactivation-dna-repair-triggers-neoantigen.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

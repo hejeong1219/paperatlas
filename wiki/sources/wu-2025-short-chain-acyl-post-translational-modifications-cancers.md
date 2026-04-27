@@ -4,13 +4,13 @@ authors:
   - "Wu"
   - "Zhao"
   - "Zhang"
-year: 2025
+year: "2025"
 journal: "Cancer communications (London, England)"
 doi: "10.1002/cac2.70048"
 pmid: "40703012"
-pmcid: "PMC11814237"
+pmcid: "PMC12531430"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wu-2025-short-chain-acyl-post-translational-modifications-cancers.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

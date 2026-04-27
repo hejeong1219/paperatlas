@@ -4,13 +4,13 @@ authors:
   - "Álvez"
   - "Edfors"
   - "von"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.2307/2531595"
+doi: "10.1038/s41467-023-39765-y"
 pmid: "37463882"
-pmcid: "PMC4402510"
+pmcid: "PMC10354027"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/lvez-2023-next-generation-pan-cancer-blood-proteome.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

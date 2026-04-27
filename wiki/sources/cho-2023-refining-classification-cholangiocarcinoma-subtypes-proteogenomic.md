@@ -4,7 +4,7 @@ authors:
   - "Cho"
   - "Hwang"
   - "Kim"
-year: 2023
+year: "2023"
 journal: "Gastroenterology"
 doi: "10.1053/j.gastro.2023.02.045"
 pmid: "36898552"

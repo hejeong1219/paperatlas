@@ -4,11 +4,11 @@ authors:
   - "Liu"
   - "Abad"
   - "Chatterjee"
-year: 2026
+year: "2026"
 journal: "Mass spectrometry reviews"
-doi: "10.1101/2024.02.01.578358"
+doi: "10.1002/mas.21887"
 pmid: "38742660"
-pmcid: "PMC3692113"
+pmcid: "PMC11561166"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

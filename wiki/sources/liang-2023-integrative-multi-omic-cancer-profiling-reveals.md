@@ -4,11 +4,11 @@ authors:
   - "Liang"
   - "Lu"
   - "Jayasinghe"
-year: 2023
+year: "2023"
 journal: "Cancer cell"
-doi: "10.1101/2020.07.21.214205"
+doi: "10.1016/j.ccell.2023.07.013"
 pmid: "37582362"
-pmcid: "PMC3749880"
+pmcid: "PMC11613269"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

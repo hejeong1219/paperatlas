@@ -4,13 +4,13 @@ authors:
   - "Pugazenthi"
   - "Pari"
   - "Zhang"
-year: 2025
+year: "2025"
 journal: "Frontiers in medicine"
-doi: "10.1007/s10278-024-01153-3"
+doi: "10.3389/fmed.2025.1629621"
 pmid: "40959438"
-pmcid: "PMC11612092"
+pmcid: "PMC12434087"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/pugazenthi-2025-evolution-application-multi-omic-analysis-pituitary.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

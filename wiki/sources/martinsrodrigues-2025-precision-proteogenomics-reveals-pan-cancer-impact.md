@@ -4,11 +4,11 @@ authors:
   - "Martins"
   - "Terekhanova"
   - "Imbach"
-year: 2025
+year: "2025"
 journal: "Cell"
-doi: "10.1039/C5MB00663E"
+doi: "10.1016/j.cell.2025.03.026"
 pmid: "40233739"
-pmcid: "PMC6323986"
+pmcid: "PMC12326532"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: bcell-neoantigen

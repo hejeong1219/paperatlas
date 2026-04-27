@@ -4,7 +4,7 @@ authors:
   - "Lin"
   - "Wu"
   - "Liu"
-year: 2025
+year: "2025"
 journal: "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
 doi: "10.1096/fj.202500722RR"
 pmid: "40857034"

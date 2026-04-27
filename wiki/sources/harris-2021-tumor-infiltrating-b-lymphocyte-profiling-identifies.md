@@ -4,13 +4,13 @@ authors:
   - "Harris"
   - "Cheung"
   - "Ng"
-year: 2021
+year: "2021"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-20-3773"
 pmid: "34224371"
-pmcid: "PMC6193548"
+pmcid: "PMC7611538"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/harris-2021-tumor-infiltrating-b-lymphocyte-profiling-identifies.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

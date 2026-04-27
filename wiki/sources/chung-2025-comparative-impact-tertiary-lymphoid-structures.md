@@ -4,11 +4,11 @@ authors:
   - "Chung"
   - "Yeh"
   - "Huang"
-year: 2025
+year: "2025"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.3389/fimmu.2023.1166497"
+doi: "10.1136/jitc-2024-010173"
 pmid: "39870490"
-pmcid: "PMC10206168"
+pmcid: "PMC11772930"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

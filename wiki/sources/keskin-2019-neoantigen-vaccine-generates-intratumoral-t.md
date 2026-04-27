@@ -4,11 +4,11 @@ authors:
   - "Keskin"
   - "Anandappa"
   - "Sun"
-year: 2019
+year: "2019"
 journal: "Nature"
-doi: "10.7908/C11G0KM9"
+doi: "10.1038/s41586-018-0792-9"
 pmid: "30568305"
-pmcid: "PMC4048962"
+pmcid: "PMC6546179"
 paper_kind: clinical-trial
 pdf: "raw/inbox/papers/keskin-2019-neoantigen-vaccine-generates-intratumoral-t.pdf"
 topic: bcell-neoantigen

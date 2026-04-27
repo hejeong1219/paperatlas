@@ -4,12 +4,12 @@ authors:
   - "Fan"
   - "Xu"
   - "Yao"
-year: 2024
+year: "2024"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-23-1443"
 pmid: "38038966"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/fan-2024-osteoclast-cancer-cell-metabolic-cross-talk.pdf"
 topic: resistance
 tags:
   - "resistance"

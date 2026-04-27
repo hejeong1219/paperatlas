@@ -4,13 +4,13 @@ authors:
   - "Ou"
   - "Zhang"
   - "Li"
-year: 2025
+year: "2025"
 journal: "Nature communications"
 doi: "10.1038/s41467-025-58569-w"
 pmid: "40180929"
-pmcid: "PMC4486245"
+pmcid: "PMC11968977"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/ou-2025-integrated-proteogenomic-characterization-localized-prostate.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

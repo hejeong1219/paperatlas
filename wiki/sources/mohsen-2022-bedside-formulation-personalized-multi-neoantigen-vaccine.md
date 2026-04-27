@@ -4,11 +4,11 @@ authors:
   - "Mohsen"
   - "Speiser"
   - "Michaux"
-year: 2022
+year: "2022"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.3389/fimmu.2017.01367"
+doi: "10.1136/jitc-2021-002927"
 pmid: "35017147"
-pmcid: "PMC5654951"
+pmcid: "PMC8753436"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

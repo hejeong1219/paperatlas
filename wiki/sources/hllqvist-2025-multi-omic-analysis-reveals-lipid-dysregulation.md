@@ -4,13 +4,13 @@ authors:
   - "Hällqvist"
   - "Toomey"
   - "Pinto"
-year: 2025
+year: "2025"
 journal: "Nature communications"
-doi: "10.1111/j.2517-6161.1995.tb02031.x"
+doi: "10.1038/s41467-025-65489-2"
 pmid: "41290621"
-pmcid: "PMC3471674"
+pmcid: "PMC12647800"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/hllqvist-2025-multi-omic-analysis-reveals-lipid-dysregulation.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

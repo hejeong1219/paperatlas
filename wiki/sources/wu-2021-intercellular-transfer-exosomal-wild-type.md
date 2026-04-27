@@ -4,13 +4,13 @@ authors:
   - "Wu"
   - "Luo"
   - "To"
-year: 2021
+year: "2021"
 journal: "Molecular cancer"
-doi: "10.1007/s13277-015-3251-3"
+doi: "10.1186/s12943-021-01307-9"
 pmid: "33461557"
-pmcid: "PMC6249867"
+pmcid: "PMC7812728"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wu-2021-intercellular-transfer-exosomal-wild-type.pdf"
 topic: resistance
 tags:
   - "resistance"

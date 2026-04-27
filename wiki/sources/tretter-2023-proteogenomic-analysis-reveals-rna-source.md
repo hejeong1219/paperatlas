@@ -4,13 +4,13 @@ authors:
   - "Tretter"
   - "de"
   - "Pecoraro"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1093/nar/gkab1038"
+doi: "10.1038/s41467-023-39570-7"
 pmid: "37532709"
-pmcid: "PMC8728295"
+pmcid: "PMC10397250"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/tretter-2023-proteogenomic-analysis-reveals-rna-source.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

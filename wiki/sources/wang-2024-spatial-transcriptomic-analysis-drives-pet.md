@@ -4,13 +4,13 @@ authors:
   - "Wang"
   - "Seo"
   - "Kare"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1002/mp.13789"
+doi: "10.1038/s41467-024-54761-6"
 pmid: "39737976"
-pmcid: "PMC7685392"
+pmcid: "PMC11686138"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wang-2024-spatial-transcriptomic-analysis-drives-pet.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Rivero-Hinojosa"
   - "Grant"
   - "Panigrahi"
-year: 2021
+year: "2021"
 journal: "Nature communications"
 doi: "10.1038/s41467-021-26936-y"
 pmid: "34795224"
-pmcid: "PMC6323896"
+pmcid: "PMC8602676"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/riverohinojosa-2021-proteogenomic-discovery-neoantigens-facilitates-personalized.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

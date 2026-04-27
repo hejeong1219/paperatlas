@@ -4,13 +4,13 @@ authors:
   - "Nesic"
   - "Krais"
   - "Wang"
-year: 2024
+year: "2024"
 journal: "Molecular cancer"
-doi: "10.1038/s41375-021-01328-9"
+doi: "10.1186/s12943-024-02048-1"
 pmid: "39103848"
-pmcid: "PMC8632688"
+pmcid: "PMC11299415"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/nesic-2024-brca1-secondary-splice-site-mutations-drive.pdf"
 topic: resistance
 tags:
   - "resistance"

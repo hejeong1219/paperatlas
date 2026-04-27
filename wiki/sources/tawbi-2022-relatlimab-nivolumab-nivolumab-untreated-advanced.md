@@ -4,10 +4,10 @@ authors:
   - "Tawbi"
   - "Schadendorf"
   - "Lipson"
-year: 2022
-journal: "N Engl J Med"
+year: "2022"
+journal: "The New England journal of medicine"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tawbi-2022-relatlimab-nivolumab-nivolumab-untreated-advanced.pdf"
 topic: resistance
 tags:
   - "resistance"
@@ -18,6 +18,9 @@ themes:
   - "immune-evasion"
   - "resistance-framework"
   - "translational-oncology"
+pmid: "35544394"
+doi: "10.1056/NEJMc2201558"
+
 ---
 # Relatlimab and Nivolumab versus Nivolumab in Untreated Advanced Melanoma
 

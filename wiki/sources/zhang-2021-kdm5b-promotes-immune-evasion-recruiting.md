@@ -4,13 +4,13 @@ authors:
   - "Zhang"
   - "Cai"
   - "Liu"
-year: 2021
+year: "2021"
 journal: "Nature"
 doi: "10.1038/s41586-021-03994-2"
 pmid: "34671158"
-pmcid: "PMC4409480"
+pmcid: "PMC8555464"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2021-kdm5b-promotes-immune-evasion-recruiting.pdf"
 topic: resistance
 tags:
   - "resistance"

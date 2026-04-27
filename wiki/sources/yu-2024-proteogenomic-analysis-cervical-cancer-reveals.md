@@ -4,13 +4,13 @@ authors:
   - "Yu"
   - "Gui"
   - "Zou"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1093/nar/gkab1038"
+doi: "10.1038/s41467-024-53830-0"
 pmid: "39578447"
-pmcid: "PMC8728295"
+pmcid: "PMC11584810"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/yu-2024-proteogenomic-analysis-cervical-cancer-reveals.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

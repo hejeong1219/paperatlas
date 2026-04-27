@@ -4,9 +4,9 @@ authors:
   - "Rappaport"
   - "Kyi"
   - "Lane"
-year: 2024
+year: "2024"
 journal: "Nature medicine"
-doi: "10.1093/nar/gkw227"
+doi: "10.1038/s41591-024-02851-9"
 pmid: "38538867"
 pmcid: "4914105"
 paper_kind: clinical-trial

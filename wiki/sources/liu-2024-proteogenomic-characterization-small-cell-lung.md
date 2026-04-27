@@ -4,7 +4,7 @@ authors:
   - "Liu"
   - "Zhang"
   - "Guo"
-year: 2024
+year: "2024"
 journal: "Cell"
 doi: "10.1016/j.cell.2023.12.004"
 pmid: "38181741"

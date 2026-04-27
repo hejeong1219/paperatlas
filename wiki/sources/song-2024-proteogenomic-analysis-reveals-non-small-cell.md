@@ -4,13 +4,13 @@ authors:
   - "Song"
   - "Choi"
   - "Kim"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1093/nar/gkw1080"
+doi: "10.1038/s41467-024-54434-4"
 pmid: "39580524"
-pmcid: "PMC5210561"
+pmcid: "PMC11585665"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/song-2024-proteogenomic-analysis-reveals-non-small-cell.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

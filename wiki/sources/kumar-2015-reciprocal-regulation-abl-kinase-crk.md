@@ -4,13 +4,13 @@ authors:
   - "Kumar"
   - "Lu"
   - "Dixit"
-year: 2015
+year: "2015"
 journal: "Oncotarget"
-doi: "10.1126/scisignal.2004088"
+doi: "10.18632/oncotarget.6096"
 pmid: "26473374"
-pmcid: "PMC3935732"
+pmcid: "PMC4741966"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kumar-2015-reciprocal-regulation-abl-kinase-crk.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

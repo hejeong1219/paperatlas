@@ -4,13 +4,13 @@ authors:
   - "Tufail"
   - "Jiang"
   - "Li"
-year: 2025
+year: "2025"
 journal: "Signal transduction and targeted therapy"
 doi: "10.1038/s41392-025-02280-1"
 pmid: "40739089"
-pmcid: "PMC6992935"
+pmcid: "PMC12311175"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tufail-2025-immune-evasion-cancer-mechanisms-cutting-edge.pdf"
 topic: resistance
 tags:
   - "resistance"

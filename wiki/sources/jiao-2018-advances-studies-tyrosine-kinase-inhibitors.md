@@ -4,13 +4,13 @@ authors:
   - "Jiao"
   - "Bi"
   - "Ren"
-year: 2018
+year: "2018"
 journal: "Molecular cancer"
-doi: "10.1007/978-1-4471-6458-6_13"
+doi: "10.1186/s12943-018-0801-5"
 pmid: "29455664"
-pmcid: "PMC4671849"
+pmcid: "PMC5817861"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/jiao-2018-advances-studies-tyrosine-kinase-inhibitors.pdf"
 topic: resistance
 tags:
   - "resistance"

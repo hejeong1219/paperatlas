@@ -4,11 +4,11 @@ authors:
   - "Tinoco"
   - "Saunders"
   - "Werner"
-year: 2025
+year: "2025"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1158/2159-8290.CD-23-0519"
+doi: "10.1136/jitc-2024-010179"
 pmid: "40102028"
-pmcid: "PMC10850946"
+pmcid: "PMC11927445"
 paper_kind: research
 pdf_status: pending
 topic: resistance

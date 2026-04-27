@@ -4,11 +4,11 @@ authors:
   - "Yen"
   - "Sharma"
   - "Cols"
-year: 2019
+year: "2019"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2019.04.011"
 pmid: "31042474"
-pmcid: "PMC2773645"
+pmcid: "PMC6527137"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

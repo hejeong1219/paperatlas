@@ -4,13 +4,13 @@ authors:
   - "Zhang"
   - "Liu"
   - "Wang"
-year: 2024
+year: "2024"
 journal: "eLife"
-doi: "10.1038/s41467-019-09234-6"
+doi: "10.7554/eLife.95453"
 pmid: "39432560"
-pmcid: "PMC6447622"
+pmcid: "PMC11493407"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2024-proteogenomic-analysis-air-pollution-associated-lung-cancer.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

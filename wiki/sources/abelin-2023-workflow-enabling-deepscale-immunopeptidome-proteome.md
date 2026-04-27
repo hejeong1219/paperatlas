@@ -4,13 +4,13 @@ authors:
   - "Abelin"
   - "Bergstrom"
   - "Rivera"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1109/TVCG.2014.2346248"
+doi: "10.1038/s41467-023-37547-0"
 pmid: "37012232"
-pmcid: "PMC4720993"
+pmcid: "PMC10070353"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

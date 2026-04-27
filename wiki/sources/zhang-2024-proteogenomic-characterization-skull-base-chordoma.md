@@ -4,13 +4,13 @@ authors:
   - "Zhang"
   - "Xu"
   - "Han"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1093/bioinformatics/btn297"
+doi: "10.1038/s41467-024-52285-7"
 pmid: "39333076"
-pmcid: "PMC2238828"
+pmcid: "PMC11436687"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2024-proteogenomic-characterization-skull-base-chordoma.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

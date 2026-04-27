@@ -4,13 +4,13 @@ authors:
   - "Henriques"
   - "Salvany-Celades"
   - "Nieto"
-year: 2025
+year: "2025"
 journal: "Nature genetics"
-doi: "10.1016/j.cell.2021.08.003"
+doi: "10.1038/s41588-025-02380-2"
 pmid: "41203813"
 pmcid: "8772395"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/henriques-2025-tgf--builds-dual-immune-barrier.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -4,13 +4,13 @@ authors:
   - "Han"
   - "Dong"
   - "Zhu"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1038/nmeth.3337"
+doi: "10.1038/s41467-024-45361-5"
 pmid: "38331912"
-pmcid: "PMC4739640"
+pmcid: "PMC10853168"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/han-2024-assessment-human-leukocyte-antigen-based-neoantigen.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,11 +4,11 @@ authors:
   - "Li"
   - "Dou"
   - "Da"
-year: 2023
+year: "2023"
 journal: "Cancer cell"
-doi: "10.1016/j.ccell.2021.12.006"
+doi: "10.1016/j.ccell.2023.06.009"
 pmid: "37582339"
-pmcid: "PMC9640541"
+pmcid: "PMC10506762"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

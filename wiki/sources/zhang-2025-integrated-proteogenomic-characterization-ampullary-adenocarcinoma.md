@@ -4,13 +4,13 @@ authors:
   - "Zhang"
   - "Xu"
   - "Jiang"
-year: 2025
+year: "2025"
 journal: "Cell discovery"
-doi: "10.1038/ncomms3612"
+doi: "10.1038/s41421-024-00742-4"
 pmid: "39762212"
-pmcid: "PMC3826632"
+pmcid: "PMC11704194"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2025-integrated-proteogenomic-characterization-ampullary-adenocarcinoma.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

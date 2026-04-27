@@ -4,7 +4,7 @@ authors:
   - "Caron"
   - "Aebersold"
   - "Banaei-Esfahani"
-year: 2017
+year: "2017"
 journal: "Immunity"
 doi: "10.1016/j.immuni.2017.07.010"
 pmid: "28813649"

@@ -3,7 +3,7 @@ title: "Plasticity and immune evasion in childhood ALL."
 authors:
   - "DePasquale"
   - "van"
-year: 2022
+year: "2022"
 journal: "Blood"
 doi: "10.1182/blood.2021015117"
 pmid: "35389444"

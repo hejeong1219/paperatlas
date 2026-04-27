@@ -4,12 +4,12 @@ authors:
   - "Xie"
   - "Wang"
   - "Fernandez"
-year: 2026
+year: "2026"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-25-3237"
 pmid: "41941751"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/xie-2026-adaptive-regulation-dntp-homeostasis-confers.pdf"
 topic: resistance
 tags:
   - "resistance"

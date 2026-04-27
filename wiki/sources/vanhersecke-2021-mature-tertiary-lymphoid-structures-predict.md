@@ -4,13 +4,13 @@ authors:
   - "Vanhersecke"
   - "Brunet"
   - "Guégan"
-year: 2021
+year: "2021"
 journal: "Nature cancer"
 doi: "10.1038/s43018-021-00232-6"
 pmid: "35118423"
-pmcid: "PMC5737828"
+pmcid: "PMC8809887"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/vanhersecke-2021-mature-tertiary-lymphoid-structures-predict.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

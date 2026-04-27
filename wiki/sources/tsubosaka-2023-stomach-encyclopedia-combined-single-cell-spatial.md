@@ -4,7 +4,7 @@ authors:
   - "Tsubosaka"
   - "Komura"
   - "Kakiuchi"
-year: 2023
+year: "2023"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2023.113236"
 pmid: "37819756"

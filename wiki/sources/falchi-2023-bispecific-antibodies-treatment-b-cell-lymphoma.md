@@ -4,13 +4,13 @@ authors:
   - "Falchi"
   - "Vardhana"
   - "Salles"
-year: 2023
+year: "2023"
 journal: "Blood"
 doi: "10.1182/blood.2021011994"
 pmid: "36322929"
-pmcid: "PMC7286441"
+pmcid: "PMC9936308"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/falchi-2023-bispecific-antibodies-treatment-b-cell-lymphoma.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

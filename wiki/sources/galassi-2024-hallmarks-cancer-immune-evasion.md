@@ -4,7 +4,7 @@ authors:
   - "Galassi"
   - "Chan"
   - "Vitale"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2024.09.010"
 pmid: "39393356"

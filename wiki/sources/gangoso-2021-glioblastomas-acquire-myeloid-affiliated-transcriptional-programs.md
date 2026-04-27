@@ -4,13 +4,13 @@ authors:
   - "Gangoso"
   - "Southgate"
   - "Bradley"
-year: 2021
+year: "2021"
 journal: "Cell"
-doi: "10.1101/082511"
+doi: "10.1016/j.cell.2021.03.023"
 pmid: "33857425"
-pmcid: "PMC3098059"
+pmcid: "PMC8099351"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/gangoso-2021-glioblastomas-acquire-myeloid-affiliated-transcriptional-programs.pdf"
 topic: resistance
 tags:
   - "resistance"

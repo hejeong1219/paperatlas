@@ -4,13 +4,13 @@ authors:
   - "Coscia"
   - "Nielsen"
   - "Weigert"
-year: 2025
+year: "2025"
 journal: "Clinical cancer research : an official journal of the American Association for Cancer Research"
-doi: "10.1038/s41467-020-18819-5"
+doi: "10.1158/1078-0432.CCR-24-1763"
 pmid: "40145935"
-pmcid: "PMC7065171"
+pmcid: "PMC12203618"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/coscia-2025-proteogenomic-view-synchronous-endometrioid-endometrial.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

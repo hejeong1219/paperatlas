@@ -4,11 +4,11 @@ authors:
   - "Klein"
   - "Wang"
   - "Strand"
-year: 2024
+year: "2024"
 journal: "Molecular cancer"
-doi: "10.1016/j.molmed.2013.04.001"
+doi: "10.1186/s12943-024-02168-8"
 pmid: "39548577"
-pmcid: "PMC9513866"
+pmcid: "PMC11566467"
 paper_kind: research
 pdf: "raw/inbox/papers/klein-2024-single-cell-spatial-transcriptomics-identify-col6a3.pdf"
 topic: bcell-neoantigen

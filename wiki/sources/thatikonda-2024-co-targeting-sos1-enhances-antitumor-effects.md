@@ -4,13 +4,13 @@ authors:
   - "Thatikonda"
   - "Lyu"
   - "Jurado"
-year: 2024
+year: "2024"
 journal: "Nature cancer"
-doi: "10.1158/1535-7163.MCT-20-0462"
+doi: "10.1038/s43018-024-00800-6"
 pmid: "39103541"
-pmcid: "PMC8444277"
+pmcid: "PMC11424490"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/thatikonda-2024-co-targeting-sos1-enhances-antitumor-effects.pdf"
 topic: resistance
 tags:
   - "resistance"

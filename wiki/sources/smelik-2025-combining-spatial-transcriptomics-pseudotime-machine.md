@@ -4,13 +4,13 @@ authors:
   - "Smelik"
   - "Diaz-Roncero"
   - "An"
-year: 2025
+year: "2025"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-25-0269"
 pmid: "40293712"
-pmcid: "PMC11570627"
+pmcid: "PMC12214874"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/smelik-2025-combining-spatial-transcriptomics-pseudotime-machine.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

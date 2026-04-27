@@ -4,13 +4,13 @@ authors:
   - "Cheng"
   - "Zhang"
   - "Chang"
-year: 2025
+year: "2025"
 journal: "Nature communications"
 doi: "10.1038/s41467-025-62234-7"
 pmid: "40830093"
 pmcid: "PMC12365320"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/cheng-2025-integrative-proteogenomic-characterization-wilms-tumor.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

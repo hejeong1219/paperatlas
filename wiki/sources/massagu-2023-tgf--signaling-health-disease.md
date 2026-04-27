@@ -3,11 +3,11 @@ title: "TGF-β signaling in health and disease."
 authors:
   - "Massagué"
   - "Sheppard"
-year: 2023
+year: "2023"
 journal: "Cell"
-doi: "10.1016/s0140-6736(04)15732-2"
+doi: "10.1016/j.cell.2023.07.036"
 pmid: "37714133"
-pmcid: "PMC384955"
+pmcid: "PMC10772989"
 paper_kind: research
 pdf_status: pending
 topic: resistance

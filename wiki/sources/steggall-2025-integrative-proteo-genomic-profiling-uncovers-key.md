@@ -4,13 +4,13 @@ authors:
   - "Steggall"
   - "Rajeeve"
   - "Al-Subaie"
-year: 2025
+year: "2025"
 journal: "British journal of cancer"
-doi: "10.1016/j.ccr.2006.10.008"
+doi: "10.1038/s41416-025-03174-3"
 pmid: "40946111"
-pmcid: "PMC2730521"
+pmcid: "PMC12603111"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/steggall-2025-integrative-proteo-genomic-profiling-uncovers-key.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

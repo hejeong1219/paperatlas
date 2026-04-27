@@ -4,11 +4,11 @@ authors:
   - "Newey"
   - "Griffiths"
   - "Michaux"
-year: 2019
+year: "2019"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1093/nar/gky1106"
+doi: "10.1186/s40425-019-0769-8"
 pmid: "31735170"
-pmcid: "PMC6323896"
+pmcid: "PMC6859637"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

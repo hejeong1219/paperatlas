@@ -4,11 +4,11 @@ authors:
   - "Luan"
   - "Lin"
   - "Zhao"
-year: 2026
+year: "2026"
 journal: "Clinical and translational medicine"
-doi: "10.1016/j.cels.2015.12.004"
+doi: "10.1002/ctm2.70572"
 pmid: "41472554"
-pmcid: "PMC4707969"
+pmcid: "PMC12754573"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

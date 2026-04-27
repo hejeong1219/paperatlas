@@ -4,7 +4,7 @@ authors:
   - "Wei"
   - "Deng"
   - "Lee"
-year: 2026
+year: "2026"
 journal: "Cell reports. Medicine"
 doi: "10.1016/j.xcrm.2026.102716"
 pmid: "41916292"

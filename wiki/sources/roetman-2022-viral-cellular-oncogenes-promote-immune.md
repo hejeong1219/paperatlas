@@ -4,13 +4,13 @@ authors:
   - "Roetman"
   - "Apostolova"
   - "Philip"
-year: 2022
+year: "2022"
 journal: "Oncogene"
 doi: "10.1038/s41388-021-02145-1"
 pmid: "35022539"
-pmcid: "PMC5223230"
+pmcid: "PMC8851748"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/roetman-2022-viral-cellular-oncogenes-promote-immune.pdf"
 topic: resistance
 tags:
   - "resistance"

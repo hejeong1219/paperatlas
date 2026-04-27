@@ -4,11 +4,11 @@ authors:
   - "Gonçalves"
   - "Poulos"
   - "Cai"
-year: 2022
+year: "2022"
 journal: "Cancer cell"
-doi: "10.5281/ZENODO.3509134"
+doi: "10.1016/j.ccell.2022.06.010"
 pmid: "35839778"
-pmcid: "PMC3531057"
+pmcid: "PMC9387775"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

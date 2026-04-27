@@ -4,13 +4,13 @@ authors:
   - "Ushakumary"
   - "Sontag"
   - "Posso"
-year: 2025
+year: "2025"
 journal: "Cell communication and signaling : CCS"
-doi: "10.1046/j.1471-4159.2003.02054.x"
+doi: "10.1186/s12964-025-02573-6"
 pmid: "41382216"
-pmcid: "PMC6675460"
+pmcid: "PMC12801440"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/ushakumary-2025-phosphoproteomics-unveils-signaling-dynamics-neuronal.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

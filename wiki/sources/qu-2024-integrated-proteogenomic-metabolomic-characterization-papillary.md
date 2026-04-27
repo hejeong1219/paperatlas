@@ -4,13 +4,13 @@ authors:
   - "Qu"
   - "Chen"
   - "Ma"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1093/nar/gkab1038"
+doi: "10.1038/s41467-024-47581-1"
 pmid: "38609408"
-pmcid: "PMC7145518"
+pmcid: "PMC11014849"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/qu-2024-integrated-proteogenomic-metabolomic-characterization-papillary.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

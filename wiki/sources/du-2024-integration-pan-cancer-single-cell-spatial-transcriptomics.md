@@ -4,12 +4,12 @@ authors:
   - "Du"
   - "Shi"
   - "Wang"
-year: 2024
+year: "2024"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-23-1418"
 pmid: "38225927"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/du-2024-integration-pan-cancer-single-cell-spatial-transcriptomics.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

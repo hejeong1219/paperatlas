@@ -4,11 +4,11 @@ authors:
   - "Dou"
   - "Katsnelson"
   - "Gritsenko"
-year: 2023
+year: "2023"
 journal: "Cancer cell"
-doi: "10.1093/database/baw100"
+doi: "10.1016/j.ccell.2023.07.007"
 pmid: "37567170"
-pmcid: "PMC4914110"
+pmcid: "PMC10631452"
 paper_kind: clinical-trial
 pdf_status: pending
 topic: bcell-neoantigen

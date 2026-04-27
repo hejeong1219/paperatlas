@@ -4,11 +4,11 @@ authors:
   - "MacFawn"
   - "Magnon"
   - "Gorecki"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
-doi: "10.1080/14653240600855905"
+doi: "10.1016/j.ccell.2024.09.007"
 pmid: "39393357"
-pmcid: "PMC3956037"
+pmcid: "PMC12236807"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

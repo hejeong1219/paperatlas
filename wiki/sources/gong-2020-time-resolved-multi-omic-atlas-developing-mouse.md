@@ -4,11 +4,11 @@ authors:
   - "Gong"
   - "Zhang"
   - "Ni"
-year: 2020
+year: "2020"
 journal: "Genome research"
-doi: "10.1242/dev.029140"
+doi: "10.1101/gr.253328.119"
 pmid: "32051188"
-pmcid: "PMC2673761"
+pmcid: "PMC7050524"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

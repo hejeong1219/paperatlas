@@ -4,11 +4,11 @@ authors:
   - "Hu"
   - "Xu"
   - "Cui"
-year: 2025
+year: "2025"
 journal: "Biomolecules"
-doi: "10.1002/jms.5116"
+doi: "10.3390/biom15050702"
 pmid: "40427595"
-pmcid: "PMC11836596"
+pmcid: "PMC12109037"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

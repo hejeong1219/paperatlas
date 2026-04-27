@@ -4,11 +4,11 @@ authors:
   - "Cheung"
   - "Mauguen"
   - "Modak"
-year: 2023
+year: "2023"
 journal: "JAMA oncology"
-doi: "10.1001/jamaoncol.2018.4005"
+doi: "10.1001/jamaoncol.2022.5999"
 pmid: "36547975"
-pmcid: "PMC6440722"
+pmcid: "PMC9936346"
 paper_kind: clinical-trial
 pdf_status: pending
 topic: bcell-neoantigen

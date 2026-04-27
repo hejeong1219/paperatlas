@@ -4,13 +4,13 @@ authors:
   - "Kim"
   - "Diamond"
   - "Yuan"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1016/j.cell.2021.04.048"
+doi: "10.1038/s41467-024-46048-7"
 pmid: "38378697"
-pmcid: "PMC8238499"
+pmcid: "PMC10879147"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kim-2024-plasticity-induced-repression-irf6-underlies-acquired.pdf"
 topic: resistance
 tags:
   - "resistance"

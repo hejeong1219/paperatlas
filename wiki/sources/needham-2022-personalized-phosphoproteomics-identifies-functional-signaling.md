@@ -4,13 +4,13 @@ authors:
   - "Needham"
   - "Hingst"
   - "Parker"
-year: 2022
+year: "2022"
 journal: "Nature biotechnology"
-doi: "10.1038/nature19356"
+doi: "10.1038/s41587-021-01099-9"
 pmid: "34857927"
 pmcid: "5295821"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/needham-2022-personalized-phosphoproteomics-identifies-functional-signaling.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

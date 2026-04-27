@@ -4,13 +4,13 @@ authors:
   - "Zhang"
   - "Chen"
   - "Tran"
-year: 2025
+year: "2025"
 journal: "Nature communications"
 doi: "10.1038/s41467-025-62593-1"
 pmid: "40764306"
-pmcid: "PMC6884693"
+pmcid: "PMC12325965"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2025-thor-platform-cell-level-investigation-spatial.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

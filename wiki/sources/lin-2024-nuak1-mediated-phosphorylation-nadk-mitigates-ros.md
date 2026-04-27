@@ -4,12 +4,12 @@ authors:
   - "Lin"
   - "Wang"
   - "Wu"
-year: 2024
+year: "2024"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-24-0249"
 pmid: "39159134"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/lin-2024-nuak1-mediated-phosphorylation-nadk-mitigates-ros.pdf"
 topic: resistance
 tags:
   - "resistance"

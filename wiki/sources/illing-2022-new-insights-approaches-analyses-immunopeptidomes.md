@@ -4,7 +4,7 @@ authors:
   - "Illing"
   - "Ramarathinam"
   - "Purcell"
-year: 2022
+year: "2022"
 journal: "Current opinion in immunology"
 doi: "10.1016/j.coi.2022.102216"
 pmid: "35716458"

@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Liu"
   - "Wu"
-year: 2020
+year: "2020"
 journal: "Molecular cancer"
 doi: "10.1186/s12943-020-01227-0"
 pmid: "32563252"
-pmcid: "PMC5799770"
+pmcid: "PMC7305609"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2020-parp-inhibitor-resistance-underlying-mechanisms.pdf"
 topic: resistance
 tags:
   - "resistance"

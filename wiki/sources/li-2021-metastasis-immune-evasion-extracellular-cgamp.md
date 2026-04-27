@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Duran"
   - "Dhanota"
-year: 2021
+year: "2021"
 journal: "Cancer discovery"
-doi: "10.1073/pnas.0506580102"
+doi: "10.1158/2159-8290.CD-20-0387"
 pmid: "33372007"
-pmcid: "PMC1239896"
+pmcid: "PMC8102348"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2021-metastasis-immune-evasion-extracellular-cgamp.pdf"
 topic: resistance
 tags:
   - "resistance"

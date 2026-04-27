@@ -4,11 +4,11 @@ authors:
   - "Radtke"
   - "Postovalova"
   - "Varlamova"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
-doi: "10.1038/ncb898"
+doi: "10.1016/j.ccell.2024.02.001"
 pmid: "38428410"
-pmcid: "PMC11422789"
+pmcid: "PMC10966827"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

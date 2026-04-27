@@ -4,12 +4,12 @@ authors:
   - "Miller"
   - "Koşaloğlu-Yalçın"
   - "Westernberg"
-year: 2024
+year: "2024"
 journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.abj9905"
 pmid: "38416845"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/miller-2024-functional-identification-platform-reveals-frequent.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

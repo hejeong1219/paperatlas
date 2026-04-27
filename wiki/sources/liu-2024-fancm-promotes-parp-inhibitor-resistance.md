@@ -4,7 +4,7 @@ authors:
   - "Liu"
   - "Jiang"
   - "Lee"
-year: 2024
+year: "2024"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2024.114464"
 pmid: "38985669"

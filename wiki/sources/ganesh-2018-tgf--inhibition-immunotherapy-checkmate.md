@@ -3,11 +3,11 @@ title: "TGF-β Inhibition and Immunotherapy: Checkmate."
 authors:
   - "Ganesh"
   - "Massagué"
-year: 2018
+year: "2018"
 journal: "Immunity"
 doi: "10.1016/j.immuni.2018.03.037"
 pmid: "29669246"
-pmcid: "PMC7391259"
+pmcid: "PMC6347120"
 paper_kind: research
 pdf_status: pending
 topic: resistance

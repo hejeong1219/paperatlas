@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Akbani"
   - "Zhao"
-year: 2017
+year: "2017"
 journal: "Cancer research"
-doi: "10.2147/OTT.S98577"
+doi: "10.1158/0008-5472.CAN-17-0369"
 pmid: "29092939"
-pmcid: "PMC4853145"
+pmcid: "PMC5679242"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2017-explore-visualize-analyze-functional-cancer.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

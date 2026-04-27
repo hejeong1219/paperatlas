@@ -4,13 +4,13 @@ authors:
   - "Gomez-Zepeda"
   - "Arnold-Schild"
   - "Beyrle"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1038/s41592-019-0426-7"
+doi: "10.1038/s41467-024-46380-y"
 pmid: "38480730"
-pmcid: "PMC5210561"
+pmcid: "PMC10937930"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/gomezzepeda-2024-thunder-dda-pasef-enables-high-coverage-immunopeptidomics-boosted.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

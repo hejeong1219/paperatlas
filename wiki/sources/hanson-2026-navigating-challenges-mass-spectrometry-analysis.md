@@ -4,11 +4,11 @@ authors:
   - "Hanson"
   - "Bai"
   - "Marto"
-year: 2026
+year: "2026"
 journal: "Biomolecules"
-doi: "10.1186/s12859-023-05555-y"
+doi: "10.3390/biom16030367"
 pmid: "41897302"
-pmcid: "PMC10631047"
+pmcid: "PMC13024198"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

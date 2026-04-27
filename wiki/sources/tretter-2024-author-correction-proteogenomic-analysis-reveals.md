@@ -4,13 +4,13 @@ authors:
   - "Tretter"
   - "de"
   - "Pecoraro"
-year: 2024
+year: "2024"
 journal: "Nature communications"
 doi: "10.1038/s41467-024-46724-8"
 pmid: "38491045"
 pmcid: "PMC10943035"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/tretter-2024-author-correction-proteogenomic-analysis-reveals.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

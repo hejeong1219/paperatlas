@@ -3,13 +3,13 @@ title: "Spatially informed cell-type deconvolution for spatial transcriptomics."
 authors:
   - "Ma"
   - "Zhou"
-year: 2022
+year: "2022"
 journal: "Nature biotechnology"
-doi: "10.1186/s13059-020-02126-9"
+doi: "10.1038/s41587-022-01273-7"
 pmid: "35501392"
-pmcid: "PMC7650528"
+pmcid: "PMC9464662"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ma-2022-spatially-informed-cell-type-deconvolution-spatial.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

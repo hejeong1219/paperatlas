@@ -4,13 +4,13 @@ authors:
   - "Tüshaus"
   - "Eckert"
   - "Schliemann"
-year: 2025
+year: "2025"
 journal: "The EMBO journal"
-doi: "10.1089/omi.2011.0118"
+doi: "10.1038/s44318-024-00289-w"
 pmid: "39558110"
-pmcid: "PMC10698198"
+pmcid: "PMC11697351"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tshaus-2025-towards-routine-proteome-profiling-ffpe.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

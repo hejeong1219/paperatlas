@@ -4,12 +4,12 @@ authors:
   - "Cabrita"
   - "Lauss"
   - "Sanna"
-year: 2020
+year: "2020"
 journal: "Nature"
-doi: "10.1073/pnas.091062498"
+doi: "10.1038/s41586-019-1914-8"
 pmid: "31942071"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/cabrita-2020-tertiary-lymphoid-structures-improve-immunotherapy.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

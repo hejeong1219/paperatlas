@@ -3,11 +3,11 @@ title: "Acquired Resistance to Immune Checkpoint Inhibitors."
 authors:
   - "Schoenfeld"
   - "Hellmann"
-year: 2020
+year: "2020"
 journal: "Cancer cell"
-doi: "10.1200/PO.1218.00321"
+doi: "10.1016/j.ccell.2020.03.017"
 pmid: "32289269"
-pmcid: "PMC2928475"
+pmcid: "PMC7182070"
 paper_kind: research
 pdf_status: pending
 topic: resistance

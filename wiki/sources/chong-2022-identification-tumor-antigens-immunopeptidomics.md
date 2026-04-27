@@ -4,13 +4,13 @@ authors:
   - "Chong"
   - "Coukos"
   - "Bassani-Sternberg"
-year: 2022
+year: "2022"
 journal: "Nature biotechnology"
-doi: "10.1002/pmic.201700465"
+doi: "10.1038/s41587-021-01038-8"
 pmid: "34635837"
 pmcid: "6032843"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/chong-2022-identification-tumor-antigens-immunopeptidomics.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

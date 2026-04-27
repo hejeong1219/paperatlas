@@ -4,13 +4,13 @@ authors:
   - "Pedroza"
   - "Rajamanickam"
   - "Subramani"
-year: 2020
+year: "2020"
 journal: "British journal of cancer"
-doi: "10.1038/s41580-018-0015-0"
+doi: "10.1038/s41416-020-0992-6"
 pmid: "32704174"
-pmcid: "PMC7081834"
+pmcid: "PMC7553958"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/pedroza-2020-progesterone-receptor-membrane-component-1.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

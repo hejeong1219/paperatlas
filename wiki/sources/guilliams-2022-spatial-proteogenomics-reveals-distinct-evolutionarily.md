@@ -4,11 +4,11 @@ authors:
   - "Guilliams"
   - "Bonnardel"
   - "Haest"
-year: 2022
+year: "2022"
 journal: "Cell"
 doi: "10.1016/j.cell.2021.12.018"
 pmid: "35021063"
-pmcid: "PMC7377352"
+pmcid: "PMC8809252"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: bcell-neoantigen

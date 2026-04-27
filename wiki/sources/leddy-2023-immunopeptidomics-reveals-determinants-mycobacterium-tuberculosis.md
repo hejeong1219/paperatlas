@@ -4,13 +4,13 @@ authors:
   - "Leddy"
   - "White"
   - "Bryson"
-year: 2023
+year: "2023"
 journal: "eLife"
-doi: "10.4049/jimmunol.0900441"
+doi: "10.7554/eLife.84070"
 pmid: "37073954"
-pmcid: "PMC6013218"
+pmcid: "PMC10159623"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/leddy-2023-immunopeptidomics-reveals-determinants-mycobacterium-tuberculosis.pdf"
 topic: resistance
 tags:
   - "resistance"

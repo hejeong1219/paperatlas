@@ -4,11 +4,11 @@ authors:
   - "Zhang"
   - "Rohweder"
   - "Ongpipattanakul"
-year: 2022
+year: "2022"
 journal: "Cancer cell"
-doi: "10.1126/scitranslmed.3005661"
+doi: "10.1016/j.ccell.2022.07.005"
 pmid: "36099883"
-pmcid: "PMC9255981"
+pmcid: "PMC10393267"
 paper_kind: research
 pdf_status: pending
 topic: resistance

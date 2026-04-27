@@ -4,13 +4,13 @@ authors:
   - "Arora"
   - "Cao"
   - "Kumar"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1093/nar/gkab1084"
+doi: "10.1038/s41467-023-40271-4"
 pmid: "37596273"
-pmcid: "PMC8728279"
+pmcid: "PMC10439131"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/arora-2023-spatial-transcriptomics-reveals-distinct-conserved.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

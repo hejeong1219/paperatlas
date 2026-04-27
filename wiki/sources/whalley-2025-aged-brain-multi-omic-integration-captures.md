@@ -4,13 +4,13 @@ authors:
   - "Whalley"
   - "Hunsberger"
   - "Bennett"
-year: 2025
+year: "2025"
 journal: "bioRxiv : the preprint server for biology"
 doi: "10.1101/2025.10.10.681695"
 pmid: "41279712"
-pmcid: "PMC8102194"
+pmcid: "PMC12632994"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/whalley-2025-aged-brain-multi-omic-integration-captures.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

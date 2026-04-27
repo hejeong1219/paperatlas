@@ -4,13 +4,13 @@ authors:
   - "Turnham"
   - "Pitea"
   - "Jang"
-year: 2025
+year: "2025"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-24-0456"
 pmid: "39652575"
-pmcid: "PMC9922274"
+pmcid: "PMC11949624"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/turnham-2025-hbv-remodels-pp2a-complexes-rewire.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

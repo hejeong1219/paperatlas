@@ -4,13 +4,13 @@ authors:
   - "Lehtiö"
   - "Arslan"
   - "Siavelis"
-year: 2021
+year: "2021"
 journal: "Nature cancer"
-doi: "10.21203/rs.3.pex-1561/v1"
+doi: "10.1038/s43018-021-00259-9"
 pmid: "34870237"
-pmcid: "PMC148090"
+pmcid: "PMC7612062"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/lehti-2021-proteogenomics-non-small-cell-lung-cancer.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

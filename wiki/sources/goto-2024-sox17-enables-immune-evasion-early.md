@@ -4,13 +4,13 @@ authors:
   - "Goto"
   - "Westcott"
   - "Goto"
-year: 2024
+year: "2024"
 journal: "Nature"
-doi: "10.1016/j.cell.2021.04.048"
+doi: "10.1038/s41586-024-07135-3"
 pmid: "38418875"
-pmcid: "PMC8238499"
+pmcid: "PMC11969226"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/goto-2024-sox17-enables-immune-evasion-early.pdf"
 topic: resistance
 tags:
   - "resistance"

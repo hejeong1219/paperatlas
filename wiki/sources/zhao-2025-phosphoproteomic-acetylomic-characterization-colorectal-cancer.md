@@ -4,13 +4,13 @@ authors:
   - "Zhao"
   - "Zhang"
   - "Zhou"
-year: 2025
+year: "2025"
 journal: "ACS pharmacology & translational science"
-doi: "10.1093/bioinformatics/bty1033"
+doi: "10.1021/acsptsci.5c00398"
 pmid: "40969873"
-pmcid: "PMC4349993"
+pmcid: "PMC12441852"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/zhao-2025-phosphoproteomic-acetylomic-characterization-colorectal-cancer.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

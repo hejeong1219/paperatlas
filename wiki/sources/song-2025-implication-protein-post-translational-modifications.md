@@ -4,13 +4,13 @@ authors:
   - "Song"
   - "Zhang"
   - "Guo"
-year: 2025
+year: "2025"
 journal: "Frontiers in cell and developmental biology"
-doi: "10.1186/s12964-023-01050-2"
+doi: "10.3389/fcell.2025.1523958"
 pmid: "39968176"
-pmcid: "PMC9938551"
+pmcid: "PMC11833226"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/song-2025-implication-protein-post-translational-modifications.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

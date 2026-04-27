@@ -1,11 +1,11 @@
 ---
 title: "Immune Checkpoint Blockade Enhances Efficacy of Neoantigen Vaccine."
-year: 2022
+year: "2022"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-RW2022-065"
 pmid: "35426915"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/unknown-2022-immune-checkpoint-blockade-enhances-efficacy.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

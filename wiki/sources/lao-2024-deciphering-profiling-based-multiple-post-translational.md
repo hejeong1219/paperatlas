@@ -4,13 +4,13 @@ authors:
   - "Lao"
   - "Jin"
   - "Wu"
-year: 2024
+year: "2024"
 journal: "Molecular cancer"
 doi: "10.1186/s12943-024-02199-1"
 pmid: "39732660"
-pmcid: "PMC4599268"
+pmcid: "PMC11681642"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/lao-2024-deciphering-profiling-based-multiple-post-translational.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

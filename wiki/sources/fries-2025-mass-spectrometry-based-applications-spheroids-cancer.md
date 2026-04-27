@@ -3,11 +3,11 @@ title: "Mass Spectrometry-Based Applications of Spheroids in Cancer Biology."
 authors:
   - "Fries"
   - "Hummon"
-year: 2025
+year: "2025"
 journal: "Annual review of analytical chemistry (Palo Alto, Calif.)"
 doi: "10.1146/annurev-anchem-061424-090547"
 pmid: "39809466"
-pmcid: "PMC10007898"
+pmcid: "PMC12148362"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

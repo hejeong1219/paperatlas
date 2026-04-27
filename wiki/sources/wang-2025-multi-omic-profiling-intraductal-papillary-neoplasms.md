@@ -4,13 +4,13 @@ authors:
   - "Wang"
   - "Lih"
   - "Lee"
-year: 2025
+year: "2025"
 journal: "Cancer cell"
-doi: "10.1073/pnas.1908626116"
+doi: "10.1016/j.ccell.2025.08.001"
 pmid: "40882635"
-pmcid: "PMC6765243"
+pmcid: "PMC12482137"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wang-2025-multi-omic-profiling-intraductal-papillary-neoplasms.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

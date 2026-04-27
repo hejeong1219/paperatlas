@@ -4,13 +4,13 @@ authors:
   - "Liu"
   - "Li"
   - "Xu"
-year: 2024
+year: "2024"
 journal: "Molecular cancer"
-doi: "10.1038/s41598-022-16623-3"
+doi: "10.1186/s12943-024-02025-8"
 pmid: "38778348"
-pmcid: "PMC9304387"
+pmcid: "PMC11110363"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/liu-2024-parp1-dot1l-transcription-axis-drives-acquired.pdf"
 topic: resistance
 tags:
   - "resistance"

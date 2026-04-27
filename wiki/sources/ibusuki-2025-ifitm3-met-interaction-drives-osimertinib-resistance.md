@@ -4,13 +4,13 @@ authors:
   - "Ibusuki"
   - "Iwama"
   - "Shimauchi"
-year: 2025
+year: "2025"
 journal: "Molecular cancer"
-doi: "10.1158/2159-8290.CD-18-1022"
+doi: "10.1186/s12943-025-02493-6"
 pmid: "41152910"
-pmcid: "PMC6279502"
+pmcid: "PMC12570849"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ibusuki-2025-ifitm3-met-interaction-drives-osimertinib-resistance.pdf"
 topic: resistance
 tags:
   - "resistance"

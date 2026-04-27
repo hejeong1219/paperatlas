@@ -4,12 +4,12 @@ authors:
   - "Yu"
   - "Wang"
   - "Gong"
-year: 2023
+year: "2023"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-23-0015"
 pmid: "37463119"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yu-2023-lncrna-agpg-confers-endocrine-resistance.pdf"
 topic: resistance
 tags:
   - "resistance"

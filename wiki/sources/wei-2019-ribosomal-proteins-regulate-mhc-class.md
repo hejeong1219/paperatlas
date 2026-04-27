@@ -4,11 +4,11 @@ authors:
   - "Wei"
   - "Kishton"
   - "Angel"
-year: 2019
+year: "2019"
 journal: "Molecular cell"
 doi: "10.1016/j.molcel.2018.12.020"
 pmid: "30712990"
-pmcid: "PMC4868770"
+pmcid: "PMC6697054"
 paper_kind: research
 pdf_status: pending
 topic: resistance

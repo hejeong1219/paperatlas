@@ -4,13 +4,13 @@ authors:
   - "Peng"
   - "Mo"
   - "Wang"
-year: 2019
+year: "2019"
 journal: "Molecular cancer"
-doi: "10.1016/j.immuni.2017.07.010"
+doi: "10.1186/s12943-019-1055-6"
 pmid: "31443694"
-pmcid: "PMC5525357"
+pmcid: "PMC6708248"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/peng-2019-neoantigen-vaccine-emerging-tumor-immunotherapy.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

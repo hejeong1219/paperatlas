@@ -3,7 +3,7 @@ title: "Multiomic Medulloblastomas."
 authors:
   - "Rahmann"
   - "Gilbertson"
-year: 2018
+year: "2018"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2018.08.010"
 pmid: "30205039"

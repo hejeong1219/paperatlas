@@ -4,11 +4,11 @@ authors:
   - "Schiantarelli"
   - "Benamar"
   - "Park"
-year: 2025
+year: "2025"
 journal: "Cancer cell"
-doi: "10.1126/sciimmunol.adf4968"
+doi: "10.1016/j.ccell.2025.01.009"
 pmid: "39933900"
-pmcid: "PMC10794154"
+pmcid: "PMC12232206"
 paper_kind: research
 pdf_status: pending
 topic: resistance

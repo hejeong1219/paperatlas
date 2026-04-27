@@ -4,13 +4,13 @@ authors:
   - "Wang"
   - "Venet"
   - "Lifrange"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.2307/2532836"
+doi: "10.1038/s41467-024-54145-w"
 pmid: "39592577"
 pmcid: "PMC11599601"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wang-2024-spatial-transcriptomics-reveals-substantial-heterogeneity.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

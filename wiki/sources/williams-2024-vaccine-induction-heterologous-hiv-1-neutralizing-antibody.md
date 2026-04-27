@@ -4,11 +4,11 @@ authors:
   - "Williams"
   - "Alam"
   - "Ofek"
-year: 2024
+year: "2024"
 journal: "Cell"
 doi: "10.1016/j.cell.2024.04.033"
 pmid: "38761800"
-pmcid: "PMC6250425"
+pmcid: "PMC11993910"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

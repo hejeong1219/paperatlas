@@ -4,11 +4,11 @@ authors:
   - "Takahashi"
   - "Chong"
   - "Zhang"
-year: 2024
+year: "2024"
 journal: "Cell"
-doi: "10.1021/bc00013a001"
+doi: "10.1016/j.cell.2024.03.027"
 pmid: "38653237"
-pmcid: "PMC215109"
+pmcid: "PMC11143475"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

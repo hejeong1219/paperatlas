@@ -4,7 +4,7 @@ authors:
   - "Zhang"
   - "Liu"
   - "Zeng"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2024.07.006"
 pmid: "39137726"

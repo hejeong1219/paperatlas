@@ -4,11 +4,11 @@ authors:
   - "Rozalén"
   - "Sangrador"
   - "Avalle"
-year: 2025
+year: "2025"
 journal: "Cancer cell"
-doi: "10.1038/s41586-020-2024-3"
+doi: "10.1016/j.ccell.2025.06.015"
 pmid: "40645187"
-pmcid: "PMC4707969"
+pmcid: "PMC12416865"
 paper_kind: research
 pdf_status: pending
 topic: resistance

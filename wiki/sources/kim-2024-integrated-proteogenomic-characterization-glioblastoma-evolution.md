@@ -4,11 +4,11 @@ authors:
   - "Kim"
   - "Migliozzi"
   - "Koo"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
-doi: "10.1038/35053072"
+doi: "10.1016/j.ccell.2023.12.015"
 pmid: "38215747"
-pmcid: "PMC5107872"
+pmcid: "PMC10939876"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

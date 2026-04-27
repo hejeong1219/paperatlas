@@ -4,13 +4,13 @@ authors:
   - "Chiaro"
   - "Antignani"
   - "Feola"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1182/blood.2019002121"
+doi: "10.1038/s41467-023-42668-7"
 pmid: "37923723"
-pmcid: "PMC7098811"
+pmcid: "PMC10624665"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/chiaro-2023-development-mesothelioma-specific-oncolytic-immunotherapy-enabled.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

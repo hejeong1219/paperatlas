@@ -4,12 +4,12 @@ authors:
   - "Salgia"
   - "Dizman"
   - "Pal"
-year: 2025
+year: "2025"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2025.03.001"
 pmid: "40118047"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/salgia-2025-hifs-hervs-neoantigen-generation-kidney.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

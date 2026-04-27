@@ -4,11 +4,11 @@ authors:
   - "Chelvanambi"
   - "Fecek"
   - "Taylor"
-year: 2021
+year: "2021"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1186/s12935-015-0260-7"
+doi: "10.1136/jitc-2020-001906"
 pmid: "33526609"
-pmcid: "PMC4635545"
+pmcid: "PMC7852948"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

@@ -4,11 +4,11 @@ authors:
   - "Overacre-Delgoffe"
   - "Bumgarner"
   - "Cillo"
-year: 2021
+year: "2021"
 journal: "Immunity"
 doi: "10.1016/j.immuni.2021.11.003"
 pmid: "34861182"
-pmcid: "PMC3892781"
+pmcid: "PMC8865366"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

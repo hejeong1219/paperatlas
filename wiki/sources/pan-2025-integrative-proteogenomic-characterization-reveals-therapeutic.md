@@ -4,13 +4,13 @@ authors:
   - "Pan"
   - "Tan"
   - "Xu"
-year: 2025
+year: "2025"
 journal: "Nature communications"
-doi: "10.1016/j.intimp.2024.112102"
+doi: "10.1038/s41467-025-58910-3"
 pmid: "40234451"
-pmcid: "PMC5688663"
+pmcid: "PMC12000556"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/pan-2025-integrative-proteogenomic-characterization-reveals-therapeutic.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

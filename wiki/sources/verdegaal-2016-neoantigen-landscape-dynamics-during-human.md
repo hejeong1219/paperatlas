@@ -4,12 +4,12 @@ authors:
   - "Verdegaal"
   - "de"
   - "Visser"
-year: 2016
+year: "2016"
 journal: "Nature"
 doi: "10.1038/nature18945"
 pmid: "27350335"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/verdegaal-2016-neoantigen-landscape-dynamics-during-human.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

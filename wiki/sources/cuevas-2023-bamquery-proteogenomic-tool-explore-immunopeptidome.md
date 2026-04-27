@@ -4,13 +4,13 @@ authors:
   - "Cuevas"
   - "Hardy"
   - "Larouche"
-year: 2023
+year: "2023"
 journal: "Genome biology"
-doi: "10.1038/nature10166"
+doi: "10.1186/s13059-023-03029-1"
 pmid: "37582761"
-pmcid: "PMC3163504"
+pmcid: "PMC10426134"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/cuevas-2023-bamquery-proteogenomic-tool-explore-immunopeptidome.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Yarchoan"
   - "Gane"
   - "Marron"
-year: 2024
+year: "2024"
 journal: "Nature medicine"
-doi: "10.1126/science.aay2767"
+doi: "10.1038/s41591-024-02894-y"
 pmid: "38584166"
-pmcid: "PMC7646930"
+pmcid: "PMC11031401"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/yarchoan-2024-personalized-neoantigen-vaccine-pembrolizumab-advanced.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

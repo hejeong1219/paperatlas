@@ -4,13 +4,13 @@ authors:
   - "Ren"
   - "Huang"
   - "Zhou"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1016/j.cell.2017.07.016"
+doi: "10.1038/s41467-023-36707-6"
 pmid: "36823172"
-pmcid: "PMC5587159"
+pmcid: "PMC9950149"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ren-2023-spatial-transcriptomics-reveals-niche-specific-enrichment.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

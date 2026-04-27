@@ -4,12 +4,12 @@ authors:
   - "Wu"
   - "Xun"
   - "Han"
-year: 2025
+year: "2025"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-25-1793"
 pmid: "41150905"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wu-2025-artificial-intelligence-multimodality-data-integration.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

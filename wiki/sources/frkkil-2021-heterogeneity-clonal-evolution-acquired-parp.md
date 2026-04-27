@@ -4,13 +4,13 @@ authors:
   - "Färkkilä"
   - "Rodríguez"
   - "Oikkonen"
-year: 2021
+year: "2021"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-20-2912"
 pmid: "33514515"
-pmcid: "PMC6155543"
+pmcid: "PMC8323804"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/frkkil-2021-heterogeneity-clonal-evolution-acquired-parp.pdf"
 topic: resistance
 tags:
   - "resistance"

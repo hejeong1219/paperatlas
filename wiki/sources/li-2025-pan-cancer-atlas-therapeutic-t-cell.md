@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Guzmán-Bringas"
   - "Sharma"
-year: 2025
+year: "2025"
 journal: "bioRxiv : the preprint server for biology"
-doi: "10.1038/nprot.2014.064"
+doi: "10.1101/2025.01.22.634237"
 pmid: "40672284"
-pmcid: "PMC4312138"
+pmcid: "PMC12265682"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2025-pan-cancer-atlas-therapeutic-t-cell.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

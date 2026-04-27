@@ -4,11 +4,11 @@ authors:
   - "Scharffenberger"
   - "Wan"
   - "Homad"
-year: 2024
+year: "2024"
 journal: "Cell reports"
-doi: "10.1038/s41375-019-0531-8"
+doi: "10.1016/j.celrep.2024.114811"
 pmid: "39383036"
-pmcid: "PMC8132108"
+pmcid: "PMC11496930"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

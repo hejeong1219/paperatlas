@@ -2,12 +2,12 @@
 title: "Primary mediastinal large B-cell lymphoma."
 authors:
   - "Savage"
-year: 2022
+year: "2022"
 journal: "Blood"
 doi: "10.1182/blood.2020008376"
 pmid: "34496020"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/savage-2022-primary-mediastinal-large-b-cell-lymphoma.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

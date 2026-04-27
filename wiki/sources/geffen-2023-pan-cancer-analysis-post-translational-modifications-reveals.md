@@ -4,11 +4,11 @@ authors:
   - "Geffen"
   - "Anand"
   - "Akiyama"
-year: 2023
+year: "2023"
 journal: "Cell"
-doi: "10.1158/1078-0432.CCR-20-3017"
+doi: "10.1016/j.cell.2023.07.013"
 pmid: "37582358"
-pmcid: "PMC8075007"
+pmcid: "PMC10680287"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

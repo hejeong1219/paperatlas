@@ -4,13 +4,13 @@ authors:
   - "Chen"
   - "Liu"
   - "Tao"
-year: 2020
+year: "2020"
 journal: "Signal transduction and targeted therapy"
 doi: "10.1038/s41392-020-0196-9"
 pmid: "32532965"
-pmcid: "PMC1157004"
+pmcid: "PMC7293209"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/chen-2020-regulating-tumor-suppressor-genes-post-translational.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

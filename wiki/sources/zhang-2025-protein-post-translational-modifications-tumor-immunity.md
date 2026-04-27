@@ -4,12 +4,12 @@ authors:
   - "Zhang"
   - "Yan"
   - "Jiang"
-year: 2025
+year: "2025"
 journal: "Physics of life reviews"
 doi: "10.1016/j.plrev.2025.10.001"
 pmid: "41130034"
 paper_kind: review
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2025-protein-post-translational-modifications-tumor-immunity.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

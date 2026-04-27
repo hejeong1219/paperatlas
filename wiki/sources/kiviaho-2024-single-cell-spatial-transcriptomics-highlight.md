@@ -4,13 +4,13 @@ authors:
   - "Kiviaho"
   - "Eerola"
   - "Kallio"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1073/pnas.1902651116"
+doi: "10.1038/s41467-024-54364-1"
 pmid: "39550375"
-pmcid: "PMC10502239"
+pmcid: "PMC11569175"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kiviaho-2024-single-cell-spatial-transcriptomics-highlight.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Peng"
   - "Fu"
   - "Wang"
-year: 2022
+year: "2022"
 journal: "Molecular cancer"
-doi: "10.1161/CIRCULATIONAHA.117.029622"
+doi: "10.1186/s12943-022-01569-x"
 pmid: "35461253"
-pmcid: "PMC5812838"
+pmcid: "PMC9033932"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/peng-2022-targeting-tgf--signal-transduction-fibrosis.pdf"
 topic: resistance
 tags:
   - "resistance"

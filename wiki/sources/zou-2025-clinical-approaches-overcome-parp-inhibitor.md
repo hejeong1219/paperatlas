@@ -4,13 +4,13 @@ authors:
   - "Zou"
   - "Zhang"
   - "Chen"
-year: 2025
+year: "2025"
 journal: "Molecular cancer"
-doi: "10.1038/s43018-024-00857-3"
+doi: "10.1186/s12943-025-02355-1"
 pmid: "40442774"
-pmcid: "PMC11290694"
+pmcid: "PMC12123805"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zou-2025-clinical-approaches-overcome-parp-inhibitor.pdf"
 topic: resistance
 tags:
   - "resistance"

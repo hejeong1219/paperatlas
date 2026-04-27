@@ -4,13 +4,13 @@ authors:
   - "Hijazi"
   - "Smith"
   - "Rajeeve"
-year: 2020
+year: "2020"
 journal: "Nature biotechnology"
-doi: "10.1038/nmeth.2968"
+doi: "10.1038/s41587-019-0391-9"
 pmid: "31959955"
 pmcid: "1239896"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/hijazi-2020-reconstructing-kinase-network-topologies-phosphoproteomics.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

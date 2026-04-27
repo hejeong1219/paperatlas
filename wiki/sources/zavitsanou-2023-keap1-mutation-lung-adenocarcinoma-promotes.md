@@ -4,11 +4,11 @@ authors:
   - "Zavitsanou"
   - "Pillai"
   - "Hao"
-year: 2023
+year: "2023"
 journal: "Cell reports"
-doi: "10.1016/j.cell.2019.05.031"
+doi: "10.1016/j.celrep.2023.113295"
 pmid: "37889752"
-pmcid: "PMC6687398"
+pmcid: "PMC10755970"
 paper_kind: research
 pdf_status: pending
 topic: resistance

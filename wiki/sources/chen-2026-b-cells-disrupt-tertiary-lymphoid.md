@@ -4,7 +4,7 @@ authors:
   - "Chen"
   - "An"
   - "Zheng"
-year: 2026
+year: "2026"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2025.12.011"
 pmid: "41512868"

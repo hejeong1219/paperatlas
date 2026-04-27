@@ -3,11 +3,11 @@ title: "Bioinspired vaccines to enhance MHC class-I antigen cross-presentation."
 authors:
   - "Baljon"
   - "Wilson"
-year: 2022
+year: "2022"
 journal: "Current opinion in immunology"
 doi: "10.1016/j.coi.2022.102215"
 pmid: "35667222"
-pmcid: "PMC7834447"
+pmcid: "PMC9695705"
 paper_kind: research
 pdf_status: pending
 topic: resistance

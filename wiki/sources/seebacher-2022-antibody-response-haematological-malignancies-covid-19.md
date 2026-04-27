@@ -2,13 +2,13 @@
 title: "The antibody response of haematological malignancies to COVID-19 infection and vaccination."
 authors:
   - "Seebacher"
-year: 2022
+year: "2022"
 journal: "British journal of cancer"
-doi: "10.1016/S1470-2045(21)00155-8"
+doi: "10.1038/s41416-021-01682-6"
 pmid: "35017657"
-pmcid: "PMC8016402"
+pmcid: "PMC8751459"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/seebacher-2022-antibody-response-haematological-malignancies-covid-19.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

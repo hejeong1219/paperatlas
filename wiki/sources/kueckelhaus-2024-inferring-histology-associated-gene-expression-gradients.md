@@ -4,13 +4,13 @@ authors:
   - "Kueckelhaus"
   - "Frerich"
   - "Kada-Benotmane"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1093/bioinformatics/btz700"
+doi: "10.1038/s41467-024-50904-x"
 pmid: "39179527"
-pmcid: "PMC7998712"
+pmcid: "PMC11343836"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kueckelhaus-2024-inferring-histology-associated-gene-expression-gradients.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

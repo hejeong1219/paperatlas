@@ -4,13 +4,13 @@ authors:
   - "Chen"
   - "Hu"
   - "Hu"
-year: 2022
+year: "2022"
 journal: "Nature communications"
-doi: "10.1016/j.cell.2020.05.012"
+doi: "10.1038/s41467-022-29754-y"
 pmid: "35440133"
-pmcid: "PMC6313174"
+pmcid: "PMC9018773"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/chen-2022-denr-controls-jak2-translation-induce.pdf"
 topic: resistance
 tags:
   - "resistance"

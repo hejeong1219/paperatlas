@@ -4,13 +4,13 @@ authors:
   - "Yaeger"
   - "Mezzadra"
   - "Sinopoli"
-year: 2023
+year: "2023"
 journal: "Cancer discovery"
-doi: "10.1101/861054"
+doi: "10.1158/2159-8290.CD-22-0405"
 pmid: "36355783"
-pmcid: "PMC6771278"
+pmcid: "PMC9827113"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr.pdf"
 topic: resistance
 tags:
   - "resistance"

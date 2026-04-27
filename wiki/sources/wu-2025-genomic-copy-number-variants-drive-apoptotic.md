@@ -4,11 +4,11 @@ authors:
   - "Wu"
   - "Yang"
   - "Yang"
-year: 2025
+year: "2025"
 journal: "Immunity"
-doi: "10.1016/j.ccell.2025.01.009"
+doi: "10.1016/j.immuni.2025.10.001"
 pmid: "41175874"
-pmcid: "PMC12232206"
+pmcid: "PMC12693071"
 paper_kind: research
 pdf_status: pending
 topic: resistance

@@ -4,11 +4,11 @@ authors:
   - "Malladi"
   - "Macalinao"
   - "Jin"
-year: 2016
+year: "2016"
 journal: "Cell"
 doi: "10.1016/j.cell.2016.02.025"
 pmid: "27015306"
-pmcid: "PMC2749247"
+pmcid: "PMC4808520"
 paper_kind: research
 pdf_status: pending
 topic: resistance

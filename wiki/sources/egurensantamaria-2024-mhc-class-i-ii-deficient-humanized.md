@@ -4,11 +4,11 @@ authors:
   - "Eguren-Santamaria"
   - "Fernández"
   - "Camps"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1146/annurev-immunol-042617-053402"
+doi: "10.1136/jitc-2023-008516"
 pmid: "39244214"
-pmcid: "PMC5776085"
+pmcid: "PMC11381650"
 paper_kind: research
 pdf_status: pending
 topic: resistance

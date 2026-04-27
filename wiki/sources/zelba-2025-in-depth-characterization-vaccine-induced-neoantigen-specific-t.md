@@ -4,11 +4,11 @@ authors:
   - "Zelba"
   - "Shao"
   - "Rabsteyn"
-year: 2025
+year: "2025"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1093/annonc/mdw013"
+doi: "10.1136/jitc-2024-011070"
 pmid: "40480654"
-pmcid: "PMC6072595"
+pmcid: "PMC12142095"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

@@ -4,13 +4,13 @@ authors:
   - "Asuzu"
   - "Mullaney"
   - "Mandal"
-year: 2025
+year: "2025"
 journal: "bioRxiv : the preprint server for biology"
 doi: "10.1101/2025.09.28.679056"
 pmid: "41473325"
 pmcid: "PMC12747271"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/asuzu-2025-phosphoproteomic-dysregulation-drives-tumor-proliferation.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

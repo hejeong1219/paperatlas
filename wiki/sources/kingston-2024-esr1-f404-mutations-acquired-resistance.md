@@ -4,13 +4,13 @@ authors:
   - "Kingston"
   - "Pearson"
   - "Herrera-Abreu"
-year: 2024
+year: "2024"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-22-1387"
 pmid: "37982575"
-pmcid: "PMC4892362"
+pmcid: "PMC10850945"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kingston-2024-esr1-f404-mutations-acquired-resistance.pdf"
 topic: resistance
 tags:
   - "resistance"

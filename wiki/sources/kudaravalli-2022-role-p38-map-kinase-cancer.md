@@ -4,13 +4,13 @@ authors:
   - "Kudaravalli"
   - "den"
   - "Mani"
-year: 2022
+year: "2022"
 journal: "Oncogene"
-doi: "10.1002/mc.23090"
+doi: "10.1038/s41388-022-02329-3"
 pmid: "35501462"
-pmcid: "PMC6628067"
+pmcid: "PMC9166676"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kudaravalli-2022-role-p38-map-kinase-cancer.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

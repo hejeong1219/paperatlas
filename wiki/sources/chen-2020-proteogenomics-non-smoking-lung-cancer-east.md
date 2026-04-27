@@ -4,7 +4,7 @@ authors:
   - "Chen"
   - "Roumeliotis"
   - "Chang"
-year: 2020
+year: "2020"
 journal: "Cell"
 doi: "10.1016/j.cell.2020.06.012"
 pmid: "32649875"

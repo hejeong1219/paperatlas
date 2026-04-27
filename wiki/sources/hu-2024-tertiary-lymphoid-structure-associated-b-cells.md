@@ -4,7 +4,7 @@ authors:
   - "Hu"
   - "You"
   - "Kong"
-year: 2024
+year: "2024"
 journal: "Gastroenterology"
 doi: "10.1053/j.gastro.2023.10.022"
 pmid: "38445519"

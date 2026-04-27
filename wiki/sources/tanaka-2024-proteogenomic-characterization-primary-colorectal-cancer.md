@@ -4,11 +4,11 @@ authors:
   - "Tanaka"
   - "Ogawa"
   - "Zhou"
-year: 2024
+year: "2024"
 journal: "Cell reports"
-doi: "10.1038/sdata.2017.30"
+doi: "10.1016/j.celrep.2024.113810"
 pmid: "38377004"
-pmcid: "PMC5369318"
+pmcid: "PMC11288375"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: bcell-neoantigen

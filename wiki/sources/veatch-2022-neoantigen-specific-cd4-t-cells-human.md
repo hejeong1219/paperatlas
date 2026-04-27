@@ -4,11 +4,11 @@ authors:
   - "Veatch"
   - "Lee"
   - "Shasha"
-year: 2022
+year: "2022"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2022.03.006"
 pmid: "35413271"
-pmcid: "PMC6648657"
+pmcid: "PMC9011147"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

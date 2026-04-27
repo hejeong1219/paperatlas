@@ -4,13 +4,13 @@ authors:
   - "Wang"
   - "Bernhardy"
   - "Nacson"
-year: 2019
+year: "2019"
 journal: "Nature communications"
-doi: "10.1073/pnas.1115052108"
+doi: "10.1038/s41467-019-13530-6"
 pmid: "31827092"
-pmcid: "PMC3207658"
+pmcid: "PMC6906494"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wang-2019-brca1-intronic-alu-elements-drive.pdf"
 topic: resistance
 tags:
   - "resistance"

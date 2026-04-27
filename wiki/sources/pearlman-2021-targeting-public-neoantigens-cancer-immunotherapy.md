@@ -4,8 +4,8 @@ authors:
   - "Pearlman"
   - "Hwang"
   - "Konig"
-year: 2021
-journal: "Nat Cancer"
+year: "2021"
+journal: "Nature cancer"
 paper_kind: research
 pdf: "raw/inbox/papers/pearlman-2021-targeting-public-neoantigens-cancer-immunotherapy.pdf"
 topic: resistance
@@ -18,6 +18,10 @@ themes:
   - "immune-evasion"
   - "resistance-framework"
   - "translational-oncology"
+pmid: "35122030"
+doi: "10.1038/s43018-021-00246-0"
+pmcid: "PMC11003703"
+
 ---
 # Targeting public neoantigens for cancer immunotherapy
 

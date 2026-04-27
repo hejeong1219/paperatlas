@@ -1,11 +1,11 @@
 ---
 title: "Uncovering a Culprit in CAR-T Resistance."
-year: 2021
+year: "2021"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-NB2020-111"
 pmid: "33303492"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/unknown-2021-uncovering-culprit-car-t-resistance.pdf"
 topic: resistance
 tags:
   - "resistance"

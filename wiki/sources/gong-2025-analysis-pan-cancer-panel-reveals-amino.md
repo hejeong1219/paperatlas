@@ -4,13 +4,13 @@ authors:
   - "Gong"
   - "Yang"
   - "Pan"
-year: 2025
+year: "2025"
 journal: "Experimental and therapeutic medicine"
-doi: "10.1002/1878-0261.13608"
+doi: "10.3892/etm.2025.12892"
 pmid: "40462856"
-pmcid: "PMC11161724"
+pmcid: "PMC12131308"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/gong-2025-analysis-pan-cancer-panel-reveals-amino.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

@@ -4,13 +4,13 @@ authors:
   - "Roehle"
   - "Qiang"
   - "Ventre"
-year: 2021
+year: "2021"
 journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.abf5058"
 pmid: "34011631"
-pmcid: "PMC4676162"
+pmcid: "PMC8406785"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/roehle-2021-ciap12-antagonism-eliminates-mhc-class.pdf"
 topic: resistance
 tags:
   - "resistance"

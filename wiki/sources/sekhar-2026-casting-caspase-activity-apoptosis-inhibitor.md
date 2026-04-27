@@ -4,7 +4,7 @@ authors:
   - "Sekhar"
   - "Fahma"
   - "Gopalakrishnan"
-year: 2026
+year: "2026"
 journal: "Omics : a journal of integrative biology"
 doi: "10.1177/15578100261419491"
 pmid: "41701571"

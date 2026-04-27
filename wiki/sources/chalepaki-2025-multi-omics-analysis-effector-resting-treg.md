@@ -4,7 +4,7 @@ authors:
   - "Chalepaki"
   - "Gkoris"
   - "Chondrou"
-year: 2025
+year: "2025"
 journal: "Computers in biology and medicine"
 doi: "10.1016/j.compbiomed.2025.110021"
 pmid: "40088713"

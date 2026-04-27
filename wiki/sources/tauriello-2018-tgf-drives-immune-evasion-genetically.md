@@ -4,12 +4,12 @@ authors:
   - "Tauriello"
   - "Palomo-Ponce"
   - "Stork"
-year: 2018
+year: "2018"
 journal: "Nature"
 doi: "10.1038/nature25492"
 pmid: "29443964"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tauriello-2018-tgf-drives-immune-evasion-genetically.pdf"
 topic: resistance
 tags:
   - "resistance"

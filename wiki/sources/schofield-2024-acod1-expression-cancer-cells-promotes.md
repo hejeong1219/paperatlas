@@ -4,11 +4,11 @@ authors:
   - "Schofield"
   - "Longo"
   - "Sheldon"
-year: 2024
+year: "2024"
 journal: "Cell reports"
-doi: "10.1016/j.immuni.2019.09.003"
+doi: "10.1016/j.celrep.2024.113984"
 pmid: "38520689"
-pmcid: "PMC10068808"
+pmcid: "PMC11090053"
 paper_kind: research
 pdf_status: pending
 topic: resistance

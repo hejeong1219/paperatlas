@@ -4,13 +4,13 @@ authors:
   - "Shi"
   - "Simon"
   - "Cimen"
-year: 2025
+year: "2025"
 journal: "Nature genetics"
 doi: "10.1038/s41588-025-02268-1"
 pmid: "40721532"
-pmcid: "PMC8377590"
+pmcid: "PMC12339365"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/shi-2025-massively-parallel-immunopeptidome-dna-sequencing.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

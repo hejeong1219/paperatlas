@@ -4,13 +4,13 @@ authors:
   - "Zapata"
   - "Pich"
   - "Serrano"
-year: 2018
+year: "2018"
 journal: "Genome biology"
 doi: "10.1186/s13059-018-1434-0"
 pmid: "29855388"
-pmcid: "PMC4747795"
+pmcid: "PMC5984361"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zapata-2018-negative-selection-tumor-genome-evolution.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,11 +4,11 @@ authors:
   - "Rossetti"
   - "Tordesillas"
   - "Beatty"
-year: 2025
+year: "2025"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1016/j.cell.2024.06.038"
+doi: "10.1136/jitc-2024-011066"
 pmid: "40199608"
-pmcid: "PMC7537389"
+pmcid: "PMC11979601"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

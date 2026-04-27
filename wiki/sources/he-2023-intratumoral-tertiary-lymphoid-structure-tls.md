@@ -4,11 +4,11 @@ authors:
   - "He"
   - "He"
   - "Cai"
-year: 2023
+year: "2023"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/ni.2294"
+doi: "10.1136/jitc-2022-005539"
 pmid: "37072348"
-pmcid: "PMC3362691"
+pmcid: "PMC10124324"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

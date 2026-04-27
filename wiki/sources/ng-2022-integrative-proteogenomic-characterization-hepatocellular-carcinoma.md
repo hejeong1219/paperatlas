@@ -4,13 +4,13 @@ authors:
   - "Ng"
   - "Dazert"
   - "Boldanova"
-year: 2022
+year: "2022"
 journal: "Nature communications"
-doi: "10.3389/fgene.2018.00002"
+doi: "10.1038/s41467-022-29960-8"
 pmid: "35508466"
-pmcid: "PMC5801302"
+pmcid: "PMC9068765"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/ng-2022-integrative-proteogenomic-characterization-hepatocellular-carcinoma.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

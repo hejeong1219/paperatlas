@@ -4,13 +4,13 @@ authors:
   - "Zhu"
   - "Orre"
   - "Johansson"
-year: 2018
+year: "2018"
 journal: "Nature communications"
-doi: "10.1101/gr.3715005"
+doi: "10.1038/s41467-018-03311-y"
 pmid: "29500430"
-pmcid: "PMC1182216"
+pmcid: "PMC5834625"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/zhu-2018-discovery-coding-regions-human-genome.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

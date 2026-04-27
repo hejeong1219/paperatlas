@@ -4,13 +4,13 @@ authors:
   - "Hu"
   - "Wang"
   - "Hou"
-year: 2024
+year: "2024"
 journal: "Nature genetics"
-doi: "10.1093/nar/gkab951"
+doi: "10.1038/s41588-024-01662-5"
 pmid: "38361033"
-pmcid: "PMC8728233"
+pmcid: "PMC10937392"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/hu-2024-multi-omic-profiling-clear-cell-renal.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

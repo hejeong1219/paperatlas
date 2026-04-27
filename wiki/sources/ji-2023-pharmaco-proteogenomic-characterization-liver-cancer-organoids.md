@@ -4,13 +4,13 @@ authors:
   - "Ji"
   - "Feng"
   - "Fu"
-year: 2023
+year: "2023"
 journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.adg3358"
 pmid: "37494474"
-pmcid: "PMC5461595"
+pmcid: "PMC10949980"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/ji-2023-pharmaco-proteogenomic-characterization-liver-cancer-organoids.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

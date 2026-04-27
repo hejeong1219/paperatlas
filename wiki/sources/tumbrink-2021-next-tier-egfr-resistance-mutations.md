@@ -4,13 +4,13 @@ authors:
   - "Tumbrink"
   - "Heimsoeth"
   - "Sos"
-year: 2021
+year: "2021"
 journal: "Oncogene"
-doi: "10.1093/annonc/mdy005"
+doi: "10.1038/s41388-020-01510-w"
 pmid: "33060857"
 pmcid: "5913609"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tumbrink-2021-next-tier-egfr-resistance-mutations.pdf"
 topic: resistance
 tags:
   - "resistance"

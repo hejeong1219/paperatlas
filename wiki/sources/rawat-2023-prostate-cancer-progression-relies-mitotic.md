@@ -4,13 +4,13 @@ authors:
   - "Rawat"
   - "Ben-Salem"
   - "Singh"
-year: 2023
+year: "2023"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-23-0883"
 pmid: "37801613"
-pmcid: "PMC7583603"
+pmcid: "PMC10841833"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/rawat-2023-prostate-cancer-progression-relies-mitotic.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

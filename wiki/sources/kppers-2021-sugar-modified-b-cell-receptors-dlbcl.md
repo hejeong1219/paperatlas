@@ -2,12 +2,12 @@
 title: "Sugar-modified B-cell receptors in DLBCL."
 authors:
   - "Küppers"
-year: 2021
+year: "2021"
 journal: "Blood"
 doi: "10.1182/blood.2021013629"
 pmid: "34709382"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kppers-2021-sugar-modified-b-cell-receptors-dlbcl.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

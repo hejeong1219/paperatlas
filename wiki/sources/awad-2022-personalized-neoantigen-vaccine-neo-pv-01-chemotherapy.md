@@ -4,7 +4,7 @@ authors:
   - "Awad"
   - "Govindan"
   - "Balogh"
-year: 2022
+year: "2022"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2022.08.003"
 pmid: "36027916"

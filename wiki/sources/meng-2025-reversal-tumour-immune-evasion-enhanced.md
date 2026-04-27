@@ -4,13 +4,13 @@ authors:
   - "Meng"
   - "Zhang"
   - "Yi"
-year: 2025
+year: "2025"
 journal: "Molecular cancer"
-doi: "10.1016/j.hbpd.2022.08.003"
+doi: "10.1186/s12943-025-02480-x"
 pmid: "41088223"
-pmcid: "PMC7905014"
+pmcid: "PMC12522306"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/meng-2025-reversal-tumour-immune-evasion-enhanced.pdf"
 topic: resistance
 tags:
   - "resistance"

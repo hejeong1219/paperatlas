@@ -4,7 +4,7 @@ authors:
   - "Kinker"
   - "Vitiello"
   - "Diniz"
-year: 2023
+year: "2023"
 journal: "Gut"
 doi: "10.1136/gutjnl-2022-328697"
 pmid: "37230755"

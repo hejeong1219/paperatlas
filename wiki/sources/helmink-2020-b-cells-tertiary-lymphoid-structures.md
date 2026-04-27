@@ -4,13 +4,13 @@ authors:
   - "Helmink"
   - "Reddy"
   - "Gao"
-year: 2020
+year: "2020"
 journal: "Nature"
-doi: "10.1038/s41586-019-1906-8"
+doi: "10.1038/s41586-019-1922-8"
 pmid: "31942075"
-pmcid: "PMC5775029"
+pmcid: "PMC8762581"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/helmink-2020-b-cells-tertiary-lymphoid-structures.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

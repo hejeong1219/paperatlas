@@ -4,11 +4,11 @@ authors:
   - "Volkmar"
   - "Hoser"
   - "Lauenstein"
-year: 2025
+year: "2025"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1016/j.iotech.2022.100089"
+doi: "10.1136/jitc-2025-011802"
 pmid: "40461160"
-pmcid: "PMC9293760"
+pmcid: "PMC12142143"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

@@ -4,13 +4,13 @@ authors:
   - "Hirz"
   - "Mei"
   - "Sarkar"
-year: 2023
+year: "2023"
 journal: "Nature communications"
 doi: "10.1038/s41467-023-36325-2"
 pmid: "36750562"
-pmcid: "PMC7612850"
+pmcid: "PMC9905093"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/hirz-2023-dissecting-immune-suppressive-human-prostate.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

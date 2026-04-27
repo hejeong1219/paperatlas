@@ -4,13 +4,13 @@ authors:
   - "Ferri-Borgogno"
   - "Zhu"
   - "Sheng"
-year: 2023
+year: "2023"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-22-1821"
 pmid: "36787106"
-pmcid: "PMC6315167"
+pmcid: "PMC10159916"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ferriborgogno-2023-spatial-transcriptomics-depict-ligand-receptor-cross-talk.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Rosenthal"
   - "Cadieux"
   - "Salgado"
-year: 2019
+year: "2019"
 journal: "Nature"
-doi: "10.1080/2162402X.2018.1445458"
+doi: "10.1038/s41586-019-1032-7"
 pmid: "30894752"
-pmcid: "PMC5993488"
+pmcid: "PMC6954100"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/rosenthal-2019-neoantigen-directed-immune-escape-lung-cancer.pdf"
 topic: resistance
 tags:
   - "resistance"

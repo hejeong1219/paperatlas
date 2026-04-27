@@ -4,11 +4,11 @@ authors:
   - "Gertz"
   - "Chin"
   - "Tomoiaga"
-year: 2020
+year: "2020"
 journal: "Cell reports"
-doi: "10.1101/2020.11.10.374645"
+doi: "10.1016/j.celrep.2020.108429"
 pmid: "33242408"
-pmcid: "PMC3042641"
+pmcid: "PMC9444344"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

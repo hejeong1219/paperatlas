@@ -4,11 +4,11 @@ authors:
   - "Chong"
   - "Müller"
   - "Pak"
-year: 2020
+year: "2020"
 journal: "Nature communications"
-doi: "10.1093/nar/gky1106"
+doi: "10.1038/s41467-020-14968-9"
 pmid: "32157095"
-pmcid: "PMC6323896"
+pmcid: "PMC7064602"
 paper_kind: proteogenomic
 pdf: "raw/inbox/papers/chong-2020-integrated-proteogenomic-deep-sequencing-analytics.pdf"
 topic: bcell-neoantigen

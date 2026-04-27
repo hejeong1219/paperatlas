@@ -3,11 +3,11 @@ title: "Current perspectives on mass spectrometry-based immunopeptidomics: the c
 authors:
   - "Zhang"
   - "Bassani-Sternberg"
-year: 2023
+year: "2023"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1093/nar/gkx664"
+doi: "10.1136/jitc-2023-007073"
 pmid: "37899131"
-pmcid: "PMC5753376"
+pmcid: "PMC10619091"
 paper_kind: review
 pdf_status: pending
 topic: bcell-neoantigen

@@ -4,13 +4,13 @@ authors:
   - "Zhao"
   - "Jin"
   - "Wang"
-year: 2024
+year: "2024"
 journal: "Signal transduction and targeted therapy"
-doi: "10.3389/fimmu.2022.865596"
+doi: "10.1038/s41392-024-01947-5"
 pmid: "39198425"
-pmcid: "PMC9130862"
+pmcid: "PMC11358547"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zhao-2024-tertiary-lymphoid-structures-diseases-immune.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

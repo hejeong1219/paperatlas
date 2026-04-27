@@ -4,7 +4,7 @@ authors:
   - "Herhaus"
   - "Gestal-Mato"
   - "Eapen"
-year: 2024
+year: "2024"
 journal: "Cell"
 doi: "10.1016/j.cell.2024.09.048"
 pmid: "39481378"

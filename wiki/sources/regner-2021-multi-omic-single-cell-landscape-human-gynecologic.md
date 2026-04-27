@@ -4,11 +4,11 @@ authors:
   - "Regner"
   - "Wisniewska"
   - "Garcia-Recio"
-year: 2021
+year: "2021"
 journal: "Molecular cell"
 doi: "10.1016/j.molcel.2021.10.013"
 pmid: "34739872"
-pmcid: "PMC3098059"
+pmcid: "PMC8642316"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

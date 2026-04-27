@@ -4,13 +4,13 @@ authors:
   - "Darr"
   - "Klochendler"
   - "Isaac"
-year: 2015
+year: "2015"
 journal: "Molecular cancer"
-doi: "10.1038/ng1180"
+doi: "10.1186/s12943-015-0439-5"
 pmid: "26370283"
-pmcid: "PMC1239896"
+pmcid: "PMC4570560"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/darr-2015-phosphoproteomic-analysis-reveals-smarcb1-dependent.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

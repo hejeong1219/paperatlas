@@ -4,13 +4,13 @@ authors:
   - "Bergholz"
   - "Wang"
   - "Wang"
-year: 2023
+year: "2023"
 journal: "Nature"
-doi: "10.1126/scisignal.2004088"
+doi: "10.1038/s41586-023-05940-w"
 pmid: "37076617"
-pmcid: "PMC4160307"
+pmcid: "PMC10494520"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/bergholz-2023-pi3k-controls-immune-evasion-pten-deficient.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -4,13 +4,13 @@ authors:
   - "Hoenisch"
   - "Nelde"
   - "Bauer"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1093/nar/gky1106"
+doi: "10.1038/s41467-023-42692-7"
 pmid: "37978195"
-pmcid: "PMC6323896"
+pmcid: "PMC10656517"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/hoenischgravel-2023-tofims-mass-spectrometry-based-immunopeptidomics-refines.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

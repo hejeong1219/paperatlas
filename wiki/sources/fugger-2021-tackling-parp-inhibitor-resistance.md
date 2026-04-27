@@ -4,7 +4,7 @@ authors:
   - "Fugger"
   - "Hewitt"
   - "West"
-year: 2021
+year: "2021"
 journal: "Trends in cancer"
 doi: "10.1016/j.trecan.2021.08.007"
 pmid: "34563478"

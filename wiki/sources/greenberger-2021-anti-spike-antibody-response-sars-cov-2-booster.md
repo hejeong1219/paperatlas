@@ -4,11 +4,11 @@ authors:
   - "Greenberger"
   - "Saltzman"
   - "Senefeld"
-year: 2021
+year: "2021"
 journal: "Cancer cell"
-doi: "10.1182/blood.2020008824"
+doi: "10.1016/j.ccell.2021.09.001"
 pmid: "34509182"
-pmcid: "PMC7746126"
+pmcid: "PMC8421105"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

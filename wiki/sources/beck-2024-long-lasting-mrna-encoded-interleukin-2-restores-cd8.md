@@ -4,7 +4,7 @@ authors:
   - "Beck"
   - "Diken"
   - "Suchan"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2024.02.013"
 pmid: "38490213"

@@ -4,13 +4,13 @@ authors:
   - "Liu"
   - "Chen"
   - "Zhang"
-year: 2022
+year: "2022"
 journal: "Nature cancer"
 doi: "10.1038/s43018-022-00352-7"
 pmid: "35393580"
-pmcid: "PMC4993001"
+pmcid: "PMC9050907"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/liu-2022-concurrent-delivery-immune-checkpoint-blockade.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

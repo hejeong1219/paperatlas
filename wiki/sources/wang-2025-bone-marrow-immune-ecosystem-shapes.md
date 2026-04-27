@@ -4,13 +4,13 @@ authors:
   - "Wang"
   - "Chen"
   - "Liang"
-year: 2025
+year: "2025"
 journal: "Leukemia"
-doi: "10.1038/s43018-023-00657-1"
+doi: "10.1038/s41375-025-02712-5"
 pmid: "40750676"
-pmcid: "PMC10046400"
+pmcid: "PMC12463669"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wang-2025-bone-marrow-immune-ecosystem-shapes.pdf"
 topic: resistance
 tags:
   - "resistance"

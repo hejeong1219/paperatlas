@@ -4,9 +4,9 @@ authors:
   - "Lemke"
   - "Dubbelaar"
   - "Zimmermann"
-year: 2025
+year: "2025"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.3389/fimmu.2021.626308"
+doi: "10.1136/jitc-2024-011366"
 pmid: "40234091"
 pmcid: "PMC12001369"
 paper_kind: research

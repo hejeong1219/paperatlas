@@ -4,13 +4,13 @@ authors:
   - "Macdonald"
   - "McWhirter"
   - "Vaidyanathan"
-year: 2026
+year: "2026"
 journal: "British journal of cancer"
-doi: "10.1038/s41388-024-03227-6"
+doi: "10.1038/s41416-026-03423-z"
 pmid: "41998207"
 pmcid: "6360369"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/macdonald-2026-identification-novel-drug-specific-parp-inhibitor.pdf"
 topic: resistance
 tags:
   - "resistance"

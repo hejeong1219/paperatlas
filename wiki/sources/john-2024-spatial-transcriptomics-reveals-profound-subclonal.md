@@ -4,12 +4,12 @@ authors:
   - "John"
   - "Helal"
   - "Duell"
-year: 2024
+year: "2024"
 journal: "Blood"
 doi: "10.1182/blood.2024024590"
 pmid: "39172759"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/john-2024-spatial-transcriptomics-reveals-profound-subclonal.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,12 +4,12 @@ authors:
   - "Singh"
   - "Weindorfer"
   - "Nandi"
-year: 2025
+year: "2025"
 journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.adr6207"
 pmid: "41191774"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/singh-2025-dll1-responsive-pd-l1-tumor-associated-macrophages-promote.pdf"
 topic: resistance
 tags:
   - "resistance"

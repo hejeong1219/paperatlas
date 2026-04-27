@@ -4,12 +4,12 @@ authors:
   - "Lin"
   - "Li"
   - "Zhang"
-year: 2023
+year: "2023"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-22-3059"
 pmid: "37061993"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/lin-2023-metabolic-reprogramming-driven-igf2bp3-promotes.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -4,7 +4,7 @@ authors:
   - "Chen"
   - "Gao"
   - "Ning"
-year: 2025
+year: "2025"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2025.06.020"
 pmid: "40680743"

@@ -4,13 +4,13 @@ authors:
   - "Cheung"
   - "Yang"
   - "Fang"
-year: 2022
+year: "2022"
 journal: "Nature communications"
 doi: "10.1038/s41467-021-27088-9"
 pmid: "35013174"
-pmcid: "PMC3241621"
+pmcid: "PMC8748938"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/cheung-2022-progranulin-mediates-immune-evasion-pancreatic.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -4,13 +4,13 @@ authors:
   - "Starrett"
   - "Guernet"
   - "Cuomo"
-year: 2020
+year: "2020"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-19-3819"
 pmid: "32193290"
-pmcid: "PMC4767465"
+pmcid: "PMC7392201"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/starrett-2020-drug-sensitivity-allele-specificity-first-line.pdf"
 topic: resistance
 tags:
   - "resistance"

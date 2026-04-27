@@ -4,11 +4,11 @@ authors:
   - "Zhao"
   - "Fan"
   - "Tao"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/ni.3836"
+doi: "10.1136/jitc-2024-009232"
 pmid: "39067874"
-pmcid: "PMC7326247"
+pmcid: "PMC11284839"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

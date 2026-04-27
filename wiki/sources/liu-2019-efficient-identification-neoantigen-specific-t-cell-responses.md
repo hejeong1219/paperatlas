@@ -4,11 +4,11 @@ authors:
   - "Liu"
   - "Matsuzaki"
   - "Wei"
-year: 2019
+year: "2019"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/srep14896"
+doi: "10.1186/s40425-019-0629-6"
 pmid: "31221207"
-pmcid: "PMC4597193"
+pmcid: "PMC6587259"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

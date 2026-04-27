@@ -4,11 +4,11 @@ authors:
   - "Krug"
   - "Jaehnig"
   - "Satpathy"
-year: 2020
+year: "2020"
 journal: "Cell"
-doi: "10.1101/201178"
+doi: "10.1016/j.cell.2020.10.036"
 pmid: "33212010"
-pmcid: "PMC6448780"
+pmcid: "PMC8077737"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: bcell-neoantigen

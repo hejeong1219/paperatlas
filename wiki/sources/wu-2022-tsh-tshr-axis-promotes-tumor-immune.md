@@ -4,11 +4,11 @@ authors:
   - "Wu"
   - "Xi"
   - "Xiao"
-year: 2022
+year: "2022"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/nn.4610"
+doi: "10.1136/jitc-2021-004049"
 pmid: "35101946"
-pmcid: "PMC7327710"
+pmcid: "PMC8804696"
 paper_kind: research
 pdf_status: pending
 topic: resistance

@@ -4,13 +4,13 @@ authors:
   - "Gordon"
   - "Perner"
   - "MacPherson"
-year: 2025
+year: "2025"
 journal: "Cancer discovery"
-doi: "10.7554/eLife.65872"
+doi: "10.1158/2159-8290.CD-24-1517"
 pmid: "40536420"
-pmcid: "PMC10928517"
+pmcid: "PMC12641537"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/gordon-2025-catalytic-inhibition-kat6kat7-enhances-efficacy.pdf"
 topic: resistance
 tags:
   - "resistance"

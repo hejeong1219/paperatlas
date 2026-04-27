@@ -4,13 +4,13 @@ authors:
   - "Khan"
   - "Fahma"
   - "Mahin"
-year: 2026
+year: "2026"
 journal: "Protoplasma"
-doi: "10.1128/iai.00465-22"
+doi: "10.1007/s00709-025-02145-y"
 pmid: "41364128"
 pmcid: "8567320"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/khan-2026-integrative-phosphoproteomic-network-analysis-identifies.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

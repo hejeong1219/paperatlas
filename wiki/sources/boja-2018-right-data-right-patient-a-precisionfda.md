@@ -4,13 +4,13 @@ authors:
   - "Boja"
   - "Težak"
   - "Zhang"
-year: 2018
+year: "2018"
 journal: "Nature medicine"
-doi: "10.1038/nbt.2877"
+doi: "10.1038/s41591-018-0180-x"
 pmid: "30194412"
-pmcid: "PMC4547623"
+pmcid: "PMC6892367"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/boja-2018-right-data-right-patient-a-precisionfda.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

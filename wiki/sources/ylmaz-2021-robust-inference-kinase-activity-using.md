@@ -4,13 +4,13 @@ authors:
   - "Yılmaz"
   - "Ayati"
   - "Schlatzer"
-year: 2021
+year: "2021"
 journal: "Nature communications"
-doi: "10.1074/mcp.RA119.001540"
+doi: "10.1038/s41467-021-21211-6"
 pmid: "33608514"
-pmcid: "PMC6692771"
+pmcid: "PMC7895941"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ylmaz-2021-robust-inference-kinase-activity-using.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

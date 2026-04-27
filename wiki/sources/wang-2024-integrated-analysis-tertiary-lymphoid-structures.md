@@ -4,11 +4,11 @@ authors:
   - "Wang"
   - "Chen"
   - "Zhou"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1053/j.seminoncol.2018.08.006"
+doi: "10.1136/jitc-2023-008613"
 pmid: "38908856"
-pmcid: "PMC7377404"
+pmcid: "PMC11331356"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

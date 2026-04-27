@@ -4,13 +4,13 @@ authors:
   - "Moncada"
   - "Barkley"
   - "Wagner"
-year: 2020
+year: "2020"
 journal: "Nature biotechnology"
 doi: "10.1038/s41587-019-0392-8"
 pmid: "31932730"
 pmcid: "1434777"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/moncada-2020-integrating-microarray-based-spatial-transcriptomics-single-cell.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Ishak"
   - "Marhon"
   - "Tchrakian"
-year: 2025
+year: "2025"
 journal: "Cancer discovery"
-doi: "10.1038/s41590-018-0276-y"
+doi: "10.1158/2159-8290.CD-24-0094"
 pmid: "39776167"
-pmcid: "PMC6340744"
+pmcid: "PMC12776606"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ishak-2025-chronic-viral-mimicry-induction-following.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -4,13 +4,13 @@ authors:
   - "Ferreira"
   - "Stevenson"
   - "Pak"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1093/nar/gky1106"
+doi: "10.1038/s41467-024-46408-3"
 pmid: "38490980"
-pmcid: "PMC6323896"
+pmcid: "PMC10943130"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ferreira-2024-immunopeptidomics-based-identification-naturally-presented-non-canonical.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

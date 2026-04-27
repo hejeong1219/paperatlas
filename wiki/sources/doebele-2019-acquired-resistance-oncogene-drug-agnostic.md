@@ -2,11 +2,11 @@
 title: "Acquired Resistance Is Oncogene and Drug Agnostic."
 authors:
   - "Doebele"
-year: 2019
+year: "2019"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2019.09.011"
 pmid: "31614114"
-pmcid: "PMC5516930"
+pmcid: "PMC7437928"
 paper_kind: research
 pdf_status: pending
 topic: resistance

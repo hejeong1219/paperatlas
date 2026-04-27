@@ -4,7 +4,7 @@ authors:
   - "Ishikawa"
   - "Lennon"
   - "Forneris"
-year: 2025
+year: "2025"
 journal: "Matrix biology : journal of the International Society for Matrix Biology"
 doi: "10.1016/j.matbio.2025.07.002"
 pmid: "40618934"

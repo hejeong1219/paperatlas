@@ -1,11 +1,11 @@
 ---
 title: "BDTX-1535 Goes after Osimertinib Resistance."
-year: 2021
+year: "2021"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-NB2021-0395"
 pmid: "34702733"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/unknown-2021-bdtx-1535-goes-after-osimertinib-resistance.pdf"
 topic: resistance
 tags:
   - "resistance"

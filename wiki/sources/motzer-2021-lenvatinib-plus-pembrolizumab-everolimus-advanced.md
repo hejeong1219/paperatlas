@@ -4,10 +4,10 @@ authors:
   - "Motzer"
   - "Alekseev"
   - "Rha"
-year: 2021
-journal: "N Engl J Med"
+year: "2021"
+journal: "The New England journal of medicine"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/motzer-2021-lenvatinib-plus-pembrolizumab-everolimus-advanced.pdf"
 topic: resistance
 tags:
   - "resistance"
@@ -18,6 +18,9 @@ themes:
   - "immune-evasion"
   - "resistance-framework"
   - "translational-oncology"
+pmid: "34260846"
+doi: "10.1056/NEJMc2107518"
+
 ---
 # Lenvatinib plus Pembrolizumab or Everolimus for Advanced Renal Cell Carcinoma
 

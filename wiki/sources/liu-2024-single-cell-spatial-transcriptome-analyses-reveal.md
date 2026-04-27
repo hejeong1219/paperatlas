@@ -4,13 +4,13 @@ authors:
   - "Liu"
   - "Ye"
   - "He"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1186/s13046-021-01878-x"
+doi: "10.1038/s41467-024-52153-4"
 pmid: "39231979"
 pmcid: "PMC11375053"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/liu-2024-single-cell-spatial-transcriptome-analyses-reveal.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Bai"
   - "Lyu"
   - "Feng"
-year: 2026
+year: "2026"
 journal: "Nature biomedical engineering"
-doi: "10.1186/1471-2105-14-7"
+doi: "10.1038/s41551-025-01448-y"
 pmid: "40603747"
 pmcid: "3618321"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/bai-2026-cancer-biomarkers-discovered-using-pan-cancer.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

@@ -4,13 +4,13 @@ authors:
   - "De"
   - "Xue"
   - "Park"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1038/s41592-020-0905-x"
+doi: "10.1038/s41467-024-48700-8"
 pmid: "38782901"
-pmcid: "PMC7437817"
+pmcid: "PMC11116453"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/dezuani-2024-single-cell-spatial-transcriptomics-analysis-non-small.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

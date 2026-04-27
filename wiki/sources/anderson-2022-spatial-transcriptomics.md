@@ -4,7 +4,7 @@ authors:
   - "Anderson"
   - "Yanai"
   - "Yates"
-year: 2022
+year: "2022"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2022.08.021"
 pmid: "36099884"

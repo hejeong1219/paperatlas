@@ -4,7 +4,7 @@ authors:
   - "Groeneveldt"
   - "van"
   - "van"
-year: 2020
+year: "2020"
 journal: "Trends in immunology"
 doi: "10.1016/j.it.2020.03.003"
 pmid: "32223932"

@@ -4,13 +4,13 @@ authors:
   - "Shah"
   - "Chari"
   - "Scott"
-year: 2020
+year: "2020"
 journal: "Leukemia"
-doi: "10.1158/2159-8290.CD-12-0548"
+doi: "10.1038/s41375-020-0734-z"
 pmid: "32055000"
-pmcid: "PMC3667586"
+pmcid: "PMC7214244"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/shah-2020-b-cell-maturation-antigen-bcma-multiple.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

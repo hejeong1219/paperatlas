@@ -4,11 +4,11 @@ authors:
   - "Zhang"
   - "Wang"
   - "Zhou"
-year: 2025
+year: "2025"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/srep23642"
+doi: "10.1136/jitc-2024-010787"
 pmid: "40010763"
-pmcid: "PMC4804330"
+pmcid: "PMC11865799"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

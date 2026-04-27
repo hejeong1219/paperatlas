@@ -4,12 +4,12 @@ authors:
   - "Qin"
   - "Jiang"
   - "Yu"
-year: 2025
+year: "2025"
 journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.adt0214"
 pmid: "40498854"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/qin-2025-proteogenomic-characterization-reveals-lipid-droplet.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

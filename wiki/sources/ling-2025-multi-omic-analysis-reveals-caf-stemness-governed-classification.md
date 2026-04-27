@@ -4,13 +4,13 @@ authors:
   - "Ling"
   - "Yu"
   - "Zhan"
-year: 2025
+year: "2025"
 journal: "Nature communications"
-doi: "10.1038/s41698-021-00167-2"
+doi: "10.1038/s41467-025-59745-8"
 pmid: "40355422"
-pmcid: "PMC7997876"
+pmcid: "PMC12069600"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ling-2025-multi-omic-analysis-reveals-caf-stemness-governed-classification.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

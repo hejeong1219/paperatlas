@@ -4,11 +4,11 @@ authors:
   - "Jaehnig"
   - "Fernandez-Martinez"
   - "Vashist"
-year: 2025
+year: "2025"
 journal: "Cell reports. Medicine"
-doi: "10.1007/978-1-60761-444-9_5"
+doi: "10.1016/j.xcrm.2025.102154"
 pmid: "40480221"
-pmcid: "PMC2922680"
+pmcid: "PMC12208316"
 paper_kind: clinical-trial
 pdf_status: pending
 topic: ptmanchor

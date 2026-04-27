@@ -4,7 +4,7 @@ authors:
   - "Yang"
   - "Chen"
   - "Pan"
-year: 2024
+year: "2024"
 journal: "Cell"
 doi: "10.1016/j.cell.2024.06.038"
 pmid: "39047727"

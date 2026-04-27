@@ -4,11 +4,11 @@ authors:
   - "Weingarten-Gabbay"
   - "Chen"
   - "Sarkizova"
-year: 2024
+year: "2024"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2023.113596"
 pmid: "38117652"
-pmcid: "PMC7094943"
+pmcid: "PMC10860710"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

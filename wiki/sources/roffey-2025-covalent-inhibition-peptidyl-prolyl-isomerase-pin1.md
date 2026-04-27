@@ -4,11 +4,11 @@ authors:
   - "Roffey"
   - "Hovey"
   - "Jurcic"
-year: 2025
+year: "2025"
 journal: "Proteomics"
 doi: "10.1002/pmic.13980"
 pmid: "40546013"
-pmcid: "PMC5702644"
+pmcid: "PMC12284463"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

@@ -4,11 +4,11 @@ authors:
   - "Foster"
   - "Januszyk"
   - "Delitto"
-year: 2022
+year: "2022"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2022.09.015"
 pmid: "36270275"
-pmcid: "PMC8383340"
+pmcid: "PMC9669239"
 paper_kind: research
 pdf: "raw/inbox/papers/foster-2022-multiomic-analysis-reveals-conservation-cancer-associated.pdf"
 topic: ptmanchor

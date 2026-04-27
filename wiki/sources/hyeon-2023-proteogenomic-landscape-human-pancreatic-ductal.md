@@ -4,13 +4,13 @@ authors:
   - "Hyeon"
   - "Nam"
   - "Han"
-year: 2023
+year: "2023"
 journal: "Nature cancer"
-doi: "10.1038/s41586-019-1186-3"
+doi: "10.1038/s43018-022-00479-7"
 pmid: "36550235"
 pmcid: "6697103"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/hyeon-2023-proteogenomic-landscape-human-pancreatic-ductal.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

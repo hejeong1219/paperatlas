@@ -4,11 +4,11 @@ authors:
   - "Savage"
   - "Yi"
   - "Lei"
-year: 2024
+year: "2024"
 journal: "Cell"
-doi: "10.1093/glycob/cwz072"
+doi: "10.1016/j.cell.2024.05.039"
 pmid: "38917788"
-pmcid: "PMC3245126"
+pmcid: "PMC12010439"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: bcell-neoantigen

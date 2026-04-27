@@ -4,9 +4,9 @@ authors:
   - "Jin"
   - "Zhang"
   - "Li"
-year: 2025
+year: "2025"
 journal: "Proceedings of the National Academy of Sciences of the United States of America"
-doi: "10.1371/journal.pone.0276294"
+doi: "10.1073/pnas.2424061122"
 pmid: "40030035"
 pmcid: "PMC11912420"
 paper_kind: research

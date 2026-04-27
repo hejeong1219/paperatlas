@@ -4,7 +4,7 @@ authors:
   - "Tang"
   - "Bai"
   - "Fang"
-year: 2025
+year: "2025"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2025.03.011"
 pmid: "40185093"

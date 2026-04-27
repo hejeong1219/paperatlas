@@ -4,13 +4,13 @@ authors:
   - "Xu"
   - "Ritchie"
   - "Liang"
-year: 2023
+year: "2023"
 journal: "Nature"
-doi: "10.1038/S41588-022-01274-X"
+doi: "10.1038/s41586-023-05844-9"
 pmid: "36991119"
-pmcid: "PMC8224424"
+pmcid: "PMC10323211"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/xu-2023-atlas-genetic-scores-predict-multi-omic.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

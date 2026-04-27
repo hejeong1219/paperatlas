@@ -4,13 +4,13 @@ authors:
   - "Egeland"
   - "Seip"
   - "Skourti"
-year: 2024
+year: "2024"
 journal: "British journal of cancer"
-doi: "10.1158/0008-5472.CAN-13-2175"
+doi: "10.1038/s41416-024-02875-5"
 pmid: "39390250"
-pmcid: "PMC3946502"
+pmcid: "PMC11554838"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/egeland-2024-src-family-serves-therapeutic-target-triple.pdf"
 topic: resistance
 tags:
   - "resistance"

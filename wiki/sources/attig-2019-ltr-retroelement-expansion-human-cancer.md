@@ -4,13 +4,13 @@ authors:
   - "Attig"
   - "Young"
   - "Hosie"
-year: 2019
+year: "2019"
 journal: "Genome research"
-doi: "10.1038/s41467-018-03311-y"
+doi: "10.1101/gr.248922.119"
 pmid: "31537638"
-pmcid: "PMC5834625"
+pmcid: "PMC6771403"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/attig-2019-ltr-retroelement-expansion-human-cancer.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

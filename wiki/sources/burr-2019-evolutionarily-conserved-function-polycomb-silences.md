@@ -4,13 +4,13 @@ authors:
   - "Burr"
   - "Sparbier"
   - "Chan"
-year: 2019
+year: "2019"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2019.08.008"
 pmid: "31564637"
-pmcid: "PMC6310397"
+pmcid: "PMC6876280"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/burr-2019-evolutionarily-conserved-function-polycomb-silences.pdf"
 topic: resistance
 tags:
   - "resistance"

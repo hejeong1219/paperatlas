@@ -4,11 +4,11 @@ authors:
   - "Westhrin"
   - "Blazevski"
   - "Textor"
-year: 2023
+year: "2023"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1158/1538-7445.AM2019-5003"
+doi: "10.1136/jitc-2023-006944"
 pmid: "37607769"
-pmcid: "PMC8862454"
+pmcid: "PMC10445383"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

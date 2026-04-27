@@ -4,12 +4,12 @@ authors:
   - "Leveille"
   - "Kothari"
   - "Cosgun"
-year: 2024
+year: "2024"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-24-0644"
 pmid: "39228298"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/leveille-2024-tuning-responses-polatuzumab-vedotin-b-cell.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

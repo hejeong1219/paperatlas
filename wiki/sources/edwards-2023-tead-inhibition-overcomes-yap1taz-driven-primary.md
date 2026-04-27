@@ -4,13 +4,13 @@ authors:
   - "Edwards"
   - "Stalnecker"
   - "Jean"
-year: 2023
+year: "2023"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-23-2994"
 pmid: "37934103"
-pmcid: "PMC10841254"
+pmcid: "PMC10821578"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/edwards-2023-tead-inhibition-overcomes-yap1taz-driven-primary.pdf"
 topic: resistance
 tags:
   - "resistance"

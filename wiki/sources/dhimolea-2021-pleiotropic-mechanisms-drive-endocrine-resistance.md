@@ -4,13 +4,13 @@ authors:
   - "Dhimolea"
   - "de"
   - "Kansara"
-year: 2021
+year: "2021"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-20-0571"
 pmid: "32859606"
-pmcid: "PMC4748123"
+pmcid: "PMC8445072"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/dhimolea-2021-pleiotropic-mechanisms-drive-endocrine-resistance.pdf"
 topic: resistance
 tags:
   - "resistance"

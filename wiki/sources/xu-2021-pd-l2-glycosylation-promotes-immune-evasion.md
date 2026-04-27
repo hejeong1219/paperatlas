@@ -4,11 +4,11 @@ authors:
   - "Xu"
   - "Gao"
   - "Hu"
-year: 2021
+year: "2021"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1016/j.ccell.2016.10.010"
+doi: "10.1136/jitc-2021-002699"
 pmid: "34697216"
-pmcid: "PMC5171205"
+pmcid: "PMC8547513"
 paper_kind: research
 pdf_status: pending
 topic: resistance

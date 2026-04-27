@@ -4,13 +4,13 @@ authors:
   - "Yang"
   - "Wang"
   - "Liu"
-year: 2022
+year: "2022"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-21-1463"
 pmid: "35638972"
-pmcid: "PMC5718706"
+pmcid: "PMC9357203"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yang-2022-enhancing-pd-l1-degradation-itch-during.pdf"
 topic: resistance
 tags:
   - "resistance"

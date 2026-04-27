@@ -4,13 +4,13 @@ authors:
   - "Oliveira"
   - "Romero"
   - "Chung"
-year: 2025
+year: "2025"
 journal: "Nature genetics"
-doi: "10.1038/s41587-021-00830-w"
+doi: "10.1038/s41588-025-02193-3"
 pmid: "40473992"
 pmcid: "PMC12165841"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/oliveira-2025-high-definition-spatial-transcriptomic-profiling-immune.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

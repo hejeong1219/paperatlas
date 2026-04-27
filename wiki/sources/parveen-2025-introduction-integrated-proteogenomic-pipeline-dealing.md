@@ -3,13 +3,13 @@ title: "Introduction to Integrated Proteogenomic Pipeline for Dealing with Patho
 authors:
   - "Parveen"
   - "Kumar"
-year: 2025
+year: "2025"
 journal: "Methods in molecular biology (Clifton, N.J.)"
-doi: "10.1016/j.ejmech.2011.01.023"
+doi: "10.1007/978-1-0716-4152-1_6"
 pmid: "39436598"
 pmcid: "3734590"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/parveen-2025-introduction-integrated-proteogenomic-pipeline-dealing.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

@@ -4,13 +4,13 @@ authors:
   - "Zhong"
   - "Hou"
   - "Yao"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1038/s42256-022-00519-y"
+doi: "10.1038/s41467-024-46413-6"
 pmid: "38431724"
 pmcid: "PMC10908802"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zhong-2024-domain-generalization-enables-general-cancer.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

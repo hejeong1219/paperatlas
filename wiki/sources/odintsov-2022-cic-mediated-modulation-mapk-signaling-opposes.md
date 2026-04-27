@@ -4,13 +4,13 @@ authors:
   - "Odintsov"
   - "Ortiz"
   - "Khodos"
-year: 2022
+year: "2022"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-21-1397"
 pmid: "35074756"
-pmcid: "PMC3170506"
+pmcid: "PMC8930606"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/odintsov-2022-cic-mediated-modulation-mapk-signaling-opposes.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

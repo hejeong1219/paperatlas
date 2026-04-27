@@ -4,11 +4,11 @@ authors:
   - "Reid"
   - "Oronsky"
   - "Williams"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.3389/fimmu.2021.754436"
+doi: "10.1136/jitc-2024-009613"
 pmid: "39461878"
-pmcid: "PMC8569352"
+pmcid: "PMC11529498"
 paper_kind: research
 pdf_status: pending
 topic: resistance

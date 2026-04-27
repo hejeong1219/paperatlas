@@ -4,13 +4,13 @@ authors:
   - "Scheid"
   - "Lemke"
   - "Hoenisch-Gravel"
-year: 2025
+year: "2025"
 journal: "Genome biology"
-doi: "10.3389/fimmu.2021.705974"
+doi: "10.1186/s13059-025-03763-8"
 pmid: "40983925"
-pmcid: "PMC5121339"
+pmcid: "PMC12455830"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/scheid-2025-mhcquant2-refines-immunopeptidomics-tumor-antigen.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

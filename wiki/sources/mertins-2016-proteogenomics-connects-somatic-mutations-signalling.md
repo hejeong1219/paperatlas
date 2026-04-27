@@ -4,13 +4,13 @@ authors:
   - "Mertins"
   - "Mani"
   - "Ruggles"
-year: 2016
+year: "2016"
 journal: "Nature"
 doi: "10.1038/nature18003"
 pmid: "27251275"
-pmcid: "PMC3945918"
+pmcid: "PMC5102256"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/mertins-2016-proteogenomics-connects-somatic-mutations-signalling.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

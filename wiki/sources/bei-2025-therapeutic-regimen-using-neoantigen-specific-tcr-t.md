@@ -4,13 +4,13 @@ authors:
   - "Bei"
   - "Huang"
   - "Wu"
-year: 2025
+year: "2025"
 journal: "EMBO molecular medicine"
 doi: "10.1038/s44321-024-00184-1"
 pmid: "39748060"
-pmcid: "PMC9719518"
+pmcid: "PMC11821884"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/bei-2025-therapeutic-regimen-using-neoantigen-specific-tcr-t.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

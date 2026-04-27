@@ -4,11 +4,11 @@ authors:
   - "Matsuda"
   - "Revandkar"
   - "Dubash"
-year: 2023
+year: "2023"
 journal: "Cell reports"
-doi: "10.1158/2159-8290.CD-13-0631"
+doi: "10.1016/j.celrep.2023.112129"
 pmid: "36821441"
-pmcid: "PMC3947296"
+pmcid: "PMC10187541"
 paper_kind: research
 pdf_status: pending
 topic: resistance

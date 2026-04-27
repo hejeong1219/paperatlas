@@ -4,13 +4,13 @@ authors:
   - "Soula"
   - "Unlu"
   - "Welch"
-year: 2024
+year: "2024"
 journal: "Nature"
-doi: "10.1126/science.abe6474"
+doi: "10.1038/s41586-024-07787-1"
 pmid: "39112706"
-pmcid: "PMC5982584"
+pmcid: "PMC11892728"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/soula-2024-glycosphingolipid-synthesis-mediates-immune-evasion.pdf"
 topic: resistance
 tags:
   - "resistance"

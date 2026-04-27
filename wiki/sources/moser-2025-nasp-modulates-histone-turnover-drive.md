@@ -4,13 +4,13 @@ authors:
   - "Moser"
   - "Khalizieva"
   - "Roehsner"
-year: 2025
+year: "2025"
 journal: "Nature"
-doi: "10.1016/j.jsb.2011.03.017"
+doi: "10.1038/s41586-025-09414-z"
 pmid: "40804522"
 pmcid: "8826356"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/moser-2025-nasp-modulates-histone-turnover-drive.pdf"
 topic: resistance
 tags:
   - "resistance"

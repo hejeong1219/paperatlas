@@ -4,13 +4,13 @@ authors:
   - "Horeweg"
   - "Workel"
   - "Loiero"
-year: 2022
+year: "2022"
 journal: "Nature communications"
-doi: "10.1089/omi.2011.0118"
+doi: "10.1038/s41467-022-29040-x"
 pmid: "35296668"
-pmcid: "PMC8454663"
+pmcid: "PMC8927106"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/horeweg-2022-tertiary-lymphoid-structures-critical-prognosis.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

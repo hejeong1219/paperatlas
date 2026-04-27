@@ -4,13 +4,13 @@ authors:
   - "Godbole"
   - "Voß"
   - "Gocke"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1038/nmeth.2019"
+doi: "10.1038/s41467-024-50554-z"
 pmid: "39043693"
-pmcid: "PMC3855844"
+pmcid: "PMC11266559"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/godbole-2024-multiomic-profiling-medulloblastoma-reveals-subtype-specific.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

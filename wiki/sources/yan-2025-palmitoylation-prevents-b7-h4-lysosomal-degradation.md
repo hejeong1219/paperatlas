@@ -4,13 +4,13 @@ authors:
   - "Yan"
   - "Yu"
   - "Wang"
-year: 2025
+year: "2025"
 journal: "Nature communications"
-doi: "10.1038/nprot.2007.225"
+doi: "10.1038/s41467-025-58552-5"
 pmid: "40341398"
-pmcid: "PMC3969858"
+pmcid: "PMC12062253"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yan-2025-palmitoylation-prevents-b7-h4-lysosomal-degradation.pdf"
 topic: resistance
 tags:
   - "resistance"

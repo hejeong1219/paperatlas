@@ -4,13 +4,13 @@ authors:
   - "Wang"
   - "Sun"
   - "Yuan"
-year: 2025
+year: "2025"
 journal: "Molecular cancer"
-doi: "10.1186/s40425-017-0306-6"
+doi: "10.1186/s12943-025-02277-y"
 pmid: "40102867"
-pmcid: "PMC5735525"
+pmcid: "PMC11921617"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/wang-2025-autophagy-tumor-immune-escape-immunotherapy.pdf"
 topic: resistance
 tags:
   - "resistance"

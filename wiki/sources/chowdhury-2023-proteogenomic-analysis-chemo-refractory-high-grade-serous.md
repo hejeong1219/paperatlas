@@ -4,11 +4,11 @@ authors:
   - "Chowdhury"
   - "Kennedy"
   - "Ivey"
-year: 2023
+year: "2023"
 journal: "Cell"
-doi: "10.1093/nar/gku1267"
+doi: "10.1016/j.cell.2023.07.004"
 pmid: "37541199"
-pmcid: "PMC4383998"
+pmcid: "PMC10414761"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

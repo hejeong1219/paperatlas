@@ -4,13 +4,13 @@ authors:
   - "Hotchkiss"
   - "Zhang"
   - "Corcoran"
-year: 2025
+year: "2025"
 journal: "bioRxiv : the preprint server for biology"
 doi: "10.1101/2025.03.26.645566"
 pmid: "40236001"
 pmcid: "PMC11996311"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/hotchkiss-2025-spatial-multi-omic-framework-identifies-gliomas.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

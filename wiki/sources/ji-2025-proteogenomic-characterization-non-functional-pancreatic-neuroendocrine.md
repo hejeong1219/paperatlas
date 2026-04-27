@@ -4,7 +4,7 @@ authors:
   - "Ji"
   - "Cao"
   - "Gao"
-year: 2025
+year: "2025"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2025.03.016"
 pmid: "40185092"

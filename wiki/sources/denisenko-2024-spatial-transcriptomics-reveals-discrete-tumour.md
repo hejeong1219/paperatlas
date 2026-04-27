@@ -4,13 +4,13 @@ authors:
   - "Denisenko"
   - "de"
   - "Tan"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1186/s13059-017-1382-0"
+doi: "10.1038/s41467-024-47271-y"
 pmid: "38570491"
 pmcid: "PMC10991508"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/denisenko-2024-spatial-transcriptomics-reveals-discrete-tumour.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

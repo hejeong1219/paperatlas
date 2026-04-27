@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Zhang"
   - "Zhang"
-year: 2024
+year: "2024"
 journal: "Molecular cancer"
-doi: "10.4049/jimmunol.173.6.3825"
+doi: "10.1186/s12943-024-02126-4"
 pmid: "39350165"
-pmcid: "PMC9842223"
+pmcid: "PMC11441145"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2024-deciphering-role-lgals2-insights-tertiary.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

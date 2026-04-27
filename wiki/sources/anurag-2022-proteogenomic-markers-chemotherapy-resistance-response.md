@@ -4,13 +4,13 @@ authors:
   - "Anurag"
   - "Jaehnig"
   - "Krug"
-year: 2022
+year: "2022"
 journal: "Cancer discovery"
-doi: "10.1101/2021.08.20.457116"
+doi: "10.1158/2159-8290.CD-22-0200"
 pmid: "36001024"
-pmcid: "PMC5982584"
+pmcid: "PMC9627136"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

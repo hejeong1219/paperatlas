@@ -4,13 +4,13 @@ authors:
   - "Herbst"
   - "Vesterlund"
   - "Helmboldt"
-year: 2022
+year: "2022"
 journal: "Nature communications"
-doi: "10.1093/bioinformatics/btr260"
+doi: "10.1038/s41467-022-33385-8"
 pmid: "36266272"
-pmcid: "PMC3106198"
+pmcid: "PMC9584885"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/herbst-2022-proteogenomics-refines-molecular-classification-chronic.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

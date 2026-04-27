@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Poire"
   - "Jeong"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1038/s41586-018-0698-6"
+doi: "10.1038/s41467-024-48637-y"
 pmid: "38802355"
-pmcid: "PMC7612850"
+pmcid: "PMC11130309"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2024-c5ar1-inhibition-reprograms-tumor-associated.pdf"
 topic: resistance
 tags:
   - "resistance"

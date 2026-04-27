@@ -4,13 +4,13 @@ authors:
   - "Lu"
   - "Chen"
   - "Jiang"
-year: 2023
+year: "2023"
 journal: "Nature communications"
 doi: "10.1038/s41467-023-42010-1"
 pmid: "37828002"
-pmcid: "PMC5734394"
+pmcid: "PMC10570350"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/lu-2023-kras-g12v-neoantigen-specific-t.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

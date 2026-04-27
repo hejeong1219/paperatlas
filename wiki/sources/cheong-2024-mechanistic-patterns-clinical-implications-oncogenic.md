@@ -4,13 +4,13 @@ authors:
   - "Cheong"
   - "Jang"
   - "Wang"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1093/nar/gkx1153"
+doi: "10.1038/s41467-024-49499-0"
 pmid: "38877018"
-pmcid: "PMC5753237"
+pmcid: "PMC11178778"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/cheong-2024-mechanistic-patterns-clinical-implications-oncogenic.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

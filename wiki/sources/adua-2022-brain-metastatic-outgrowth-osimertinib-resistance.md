@@ -4,13 +4,13 @@ authors:
   - "Adua"
   - "Arnal-Estapé"
   - "Zhao"
-year: 2022
+year: "2022"
 journal: "Nature communications"
-doi: "10.1126/science.1247005"
+doi: "10.1038/s41467-022-34889-z"
 pmid: "36509758"
-pmcid: "PMC4089965"
+pmcid: "PMC9744876"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/adua-2022-brain-metastatic-outgrowth-osimertinib-resistance.pdf"
 topic: resistance
 tags:
   - "resistance"

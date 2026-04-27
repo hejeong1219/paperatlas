@@ -4,11 +4,11 @@ authors:
   - "von"
   - "Garcés-Lázaro"
   - "Balzasch"
-year: 2025
+year: "2025"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1002/ijc.26072"
+doi: "10.1136/jitc-2025-012988"
 pmid: "41360426"
-pmcid: "PMC10240188"
+pmcid: "PMC12684226"
 paper_kind: research
 pdf_status: pending
 topic: resistance

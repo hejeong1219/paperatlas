@@ -3,13 +3,13 @@ title: "ACK1/TNK2 tyrosine kinase: molecular signaling and evolving role in canc
 authors:
   - "Mahajan"
   - "Mahajan"
-year: 2015
+year: "2015"
 journal: "Oncogene"
 doi: "10.1038/onc.2014.350"
 pmid: "25347744"
-pmcid: "PMC3930897"
+pmcid: "PMC4411206"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/mahajan-2015-ack1tnk2-tyrosine-kinase-molecular-signaling.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

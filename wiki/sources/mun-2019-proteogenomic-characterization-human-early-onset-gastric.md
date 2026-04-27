@@ -4,7 +4,7 @@ authors:
   - "Mun"
   - "Bhin"
   - "Kim"
-year: 2019
+year: "2019"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2018.12.003"
 pmid: "30645970"

@@ -4,11 +4,11 @@ authors:
   - "Koudelka"
   - "Bassot"
   - "Piazza"
-year: 2025
+year: "2025"
 journal: "Molecular & cellular proteomics : MCP"
-doi: "10.1038/s41587-023-02099-7"
+doi: "10.1016/j.mcpro.2025.100945"
 pmid: "40089063"
-pmcid: "PMC8728295"
+pmcid: "PMC12022698"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

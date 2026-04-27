@@ -4,13 +4,13 @@ authors:
   - "Jia"
   - "Jiang"
   - "Shen"
-year: 2025
+year: "2025"
 journal: "Molecular cancer"
-doi: "10.1038/nrc1913"
+doi: "10.1186/s12943-025-02397-5"
 pmid: "40629335"
-pmcid: "PMC10320469"
+pmcid: "PMC12236040"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/jia-2025-post-translational-modifications-cancer-immune-checkpoints.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

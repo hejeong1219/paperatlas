@@ -4,13 +4,13 @@ authors:
   - "Liu"
   - "Wu"
   - "Xu"
-year: 2025
+year: "2025"
 journal: "Nature communications"
-doi: "10.1016/j.cell.2014.12.033"
+doi: "10.1038/s41467-025-58675-9"
 pmid: "40222975"
-pmcid: "PMC4856474"
+pmcid: "PMC11994800"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/liu-2025-multimodal-fusion-radio-pathology-proteogenomics-identify.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

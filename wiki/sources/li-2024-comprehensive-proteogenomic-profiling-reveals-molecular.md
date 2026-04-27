@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Jiang"
   - "Liu"
-year: 2024
+year: "2024"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-23-1878"
 pmid: "38861363"
-pmcid: "PMC3427139"
+pmcid: "PMC11372369"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2024-comprehensive-proteogenomic-profiling-reveals-molecular.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

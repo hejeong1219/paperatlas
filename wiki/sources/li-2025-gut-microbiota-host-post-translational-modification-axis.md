@@ -4,7 +4,7 @@ authors:
   - "Li"
   - "Guo"
   - "An"
-year: 2025
+year: "2025"
 journal: "Trends in immunology"
 doi: "10.1016/j.it.2025.06.006"
 pmid: "40695628"

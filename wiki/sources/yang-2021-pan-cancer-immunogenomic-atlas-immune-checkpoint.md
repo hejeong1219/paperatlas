@@ -4,13 +4,13 @@ authors:
   - "Yang"
   - "Zhao"
   - "Wang"
-year: 2021
+year: "2021"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-21-2335"
 pmid: "34903605"
-pmcid: "PMC6353899"
+pmcid: "PMC9189237"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yang-2021-pan-cancer-immunogenomic-atlas-immune-checkpoint.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

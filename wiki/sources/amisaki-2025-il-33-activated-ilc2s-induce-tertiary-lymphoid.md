@@ -4,13 +4,13 @@ authors:
   - "Amisaki"
   - "Zebboudj"
   - "Yano"
-year: 2025
+year: "2025"
 journal: "Nature"
-doi: "10.1186/gb-2010-11-3-r25"
+doi: "10.1038/s41586-024-08426-5"
 pmid: "39814891"
-pmcid: "PMC2864565"
+pmcid: "PMC11864983"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/amisaki-2025-il-33-activated-ilc2s-induce-tertiary-lymphoid.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Yarmolinsky"
   - "Lee"
   - "Lau"
-year: 2025
+year: "2025"
 journal: "Journal of the National Cancer Institute"
-doi: "10.1053/j.gastro.2019.06.047"
+doi: "10.1093/jnci/djaf137"
 pmid: "40511612"
-pmcid: "PMC6981249"
+pmcid: "PMC12415964"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/yarmolinsky-2025-proteogenomic-observational-evidence-implicate-angptl4.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

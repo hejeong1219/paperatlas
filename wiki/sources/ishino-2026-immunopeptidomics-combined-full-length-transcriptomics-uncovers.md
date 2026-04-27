@@ -4,7 +4,7 @@ authors:
   - "Ishino"
   - "Watanabe"
   - "Tokita"
-year: 2026
+year: "2026"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2025.116781"
 pmid: "41447530"

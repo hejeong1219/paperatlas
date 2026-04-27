@@ -4,11 +4,11 @@ authors:
   - "Petralia"
   - "Tignor"
   - "Reva"
-year: 2020
+year: "2020"
 journal: "Cell"
 doi: "10.1016/j.cell.2020.10.044"
 pmid: "33242424"
-pmcid: "PMC3197439"
+pmcid: "PMC8143193"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

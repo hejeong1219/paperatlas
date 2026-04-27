@@ -4,13 +4,13 @@ authors:
   - "Jiang"
   - "Liu"
   - "Qin"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1038/s41590-020-0791-5"
+doi: "10.1038/s41467-024-51708-9"
 pmid: "39181865"
-pmcid: "PMC10954546"
+pmcid: "PMC11344794"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/jiang-2024-meti-deep-profiling-tumor-ecosystems.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

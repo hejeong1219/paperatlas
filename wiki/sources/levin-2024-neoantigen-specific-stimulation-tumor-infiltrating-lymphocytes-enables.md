@@ -4,11 +4,11 @@ authors:
   - "Levin"
   - "Kim"
   - "Marquardt"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1097/00002371-200307000-00005"
+doi: "10.1136/jitc-2023-008645"
 pmid: "38816232"
-pmcid: "PMC2305721"
+pmcid: "PMC11141192"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

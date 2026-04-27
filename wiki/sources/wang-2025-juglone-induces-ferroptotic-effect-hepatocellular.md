@@ -4,7 +4,7 @@ authors:
   - "Wang"
   - "Zhao"
   - "Peng"
-year: 2025
+year: "2025"
 journal: "Phytomedicine : international journal of phytotherapy and phytopharmacology"
 doi: "10.1016/j.phymed.2025.156417"
 pmid: "39923427"

@@ -4,11 +4,11 @@ authors:
   - "Dagotto"
   - "Colarusso"
   - "Patio"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1128/JVI.02696-06"
+doi: "10.1136/jitc-2024-009644"
 pmid: "39694702"
-pmcid: "PMC1900173"
+pmcid: "PMC11660326"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

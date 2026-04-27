@@ -4,13 +4,13 @@ authors:
   - "Fan"
   - "Lu"
   - "Qin"
-year: 2023
+year: "2023"
 journal: "Nature genetics"
-doi: "10.1038/nprot.2007.261"
+doi: "10.1038/s41588-023-01570-0"
 pmid: "37985817"
 pmcid: "7889871"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/fan-2023-multiomic-analysis-cervical-squamous-cell.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

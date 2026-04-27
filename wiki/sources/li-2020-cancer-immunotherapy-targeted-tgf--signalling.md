@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Liu"
   - "Do"
-year: 2020
+year: "2020"
 journal: "Nature"
-doi: "10.1038/357695a0"
+doi: "10.1038/s41586-020-2850-3"
 pmid: "33087933"
-pmcid: "PMC3271928"
+pmcid: "PMC8353603"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2020-cancer-immunotherapy-targeted-tgf--signalling.pdf"
 topic: resistance
 tags:
   - "resistance"

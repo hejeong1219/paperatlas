@@ -4,13 +4,13 @@ authors:
   - "Jiang"
   - "Ma"
   - "Jin"
-year: 2024
+year: "2024"
 journal: "Nature cancer"
-doi: "10.1016/j.cell.2017.11.010"
+doi: "10.1038/s43018-024-00725-0"
 pmid: "38347143"
 pmcid: "6656687"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/jiang-2024-integrated-multiomic-profiling-breast-cancer.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

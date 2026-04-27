@@ -3,7 +3,7 @@ title: "Itaconate promotes an unexpected tumor immune escape mechanism."
 authors:
   - "Haase"
   - "Frezza"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2024.10.011"
 pmid: "39547232"

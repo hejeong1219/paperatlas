@@ -4,11 +4,11 @@ authors:
   - "Smeyers"
   - "Oses-Prieto"
   - "Yadanar"
-year: 2025
+year: "2025"
 journal: "Cell reports"
-doi: "10.1038/s41586-021-03819-2"
+doi: "10.1016/j.celrep.2025.116494"
 pmid: "41171761"
-pmcid: "PMC8371605"
+pmcid: "PMC12967247"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

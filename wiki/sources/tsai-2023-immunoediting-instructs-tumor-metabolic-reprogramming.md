@@ -4,11 +4,11 @@ authors:
   - "Tsai"
   - "Chuang"
   - "Li"
-year: 2023
+year: "2023"
 journal: "Cell metabolism"
-doi: "10.1016/j.immuni.2021.01.001"
+doi: "10.1016/j.cmet.2022.12.003"
 pmid: "36599297"
-pmcid: "PMC4930834"
+pmcid: "PMC10375941"
 paper_kind: research
 pdf_status: pending
 topic: resistance

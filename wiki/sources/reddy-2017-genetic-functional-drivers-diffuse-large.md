@@ -4,11 +4,11 @@ authors:
   - "Reddy"
   - "Zhang"
   - "Davis"
-year: 2017
+year: "2017"
 journal: "Cell"
 doi: "10.1016/j.cell.2017.09.027"
 pmid: "28985567"
-pmcid: "PMC4014841"
+pmcid: "PMC5659841"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

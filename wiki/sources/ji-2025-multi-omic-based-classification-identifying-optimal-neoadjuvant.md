@@ -4,13 +4,13 @@ authors:
   - "Ji"
   - "Chen"
   - "Yang"
-year: 2025
+year: "2025"
 journal: "Science China. Life sciences"
-doi: "10.1002/ijc.33830"
+doi: "10.1007/s11427-024-2809-y"
 pmid: "40715701"
 pmcid: "5665046"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ji-2025-multi-omic-based-classification-identifying-optimal-neoadjuvant.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

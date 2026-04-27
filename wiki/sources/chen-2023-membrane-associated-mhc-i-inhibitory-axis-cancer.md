@@ -4,11 +4,11 @@ authors:
   - "Chen"
   - "Lu"
   - "Zhou"
-year: 2023
+year: "2023"
 journal: "Cell"
-doi: "10.1073/pnas.1111561108"
+doi: "10.1016/j.cell.2023.07.016"
 pmid: "37557169"
-pmcid: "PMC3258597"
+pmcid: "PMC10961051"
 paper_kind: research
 pdf_status: pending
 topic: resistance

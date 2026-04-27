@@ -4,11 +4,11 @@ authors:
   - "Long"
   - "Li"
   - "Chen"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1148/radiol.2021202553"
+doi: "10.1136/jitc-2024-009879"
 pmid: "39675785"
-pmcid: "PMC7924519"
+pmcid: "PMC11647298"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

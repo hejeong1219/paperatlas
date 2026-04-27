@@ -4,7 +4,7 @@ authors:
   - "Hafstrand"
   - "Aflalo"
   - "Boyle"
-year: 2021
+year: "2021"
 journal: "Current opinion in immunology"
 doi: "10.1016/j.coi.2021.04.011"
 pmid: "34052734"

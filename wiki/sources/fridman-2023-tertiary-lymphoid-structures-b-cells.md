@@ -4,7 +4,7 @@ authors:
   - "Fridman"
   - "Meylan"
   - "Pupier"
-year: 2023
+year: "2023"
 journal: "Immunity"
 doi: "10.1016/j.immuni.2023.08.009"
 pmid: "37699391"

@@ -4,11 +4,11 @@ authors:
   - "Li"
   - "Goldberg"
   - "Chen"
-year: 2022
+year: "2022"
 journal: "Molecular cell"
 doi: "10.1016/j.molcel.2022.09.007"
 pmid: "36206767"
-pmcid: "PMC5893360"
+pmcid: "PMC9588679"
 paper_kind: research
 pdf_status: pending
 topic: resistance

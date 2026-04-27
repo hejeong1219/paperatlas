@@ -4,13 +4,13 @@ authors:
   - "Maeng"
   - "Jang"
   - "Du"
-year: 2023
+year: "2023"
 journal: "Genome research"
-doi: "10.1016/j.cell.2012.12.023"
+doi: "10.1101/gr.277061.122"
 pmid: "38065624"
-pmcid: "PMC3629564"
+pmcid: "PMC10760525"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/maeng-2023-using-long-read-cage-sequencing-profile.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Ji"
   - "Chen"
   - "He"
-year: 2025
+year: "2025"
 journal: "Oncogene"
 doi: "10.1038/s41388-024-03238-3"
 pmid: "39623076"
-pmcid: "PMC8077737"
+pmcid: "PMC11832415"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ji-2025-reversal-endocrine-resistance-n6amt1-nedd4l-pathway-mediated.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -4,11 +4,11 @@ authors:
   - "Liu"
   - "Chen"
   - "Wang"
-year: 2025
+year: "2025"
 journal: "Biomolecules"
-doi: "10.1038/s41568-020-00322-0"
+doi: "10.3390/biom15060894"
 pmid: "40563534"
-pmcid: "PMC11062250"
+pmcid: "PMC12190523"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

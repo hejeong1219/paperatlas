@@ -4,13 +4,13 @@ authors:
   - "Łuksza"
   - "Sethna"
   - "Rojas"
-year: 2022
+year: "2022"
 journal: "Nature"
-doi: "10.1056/NEJMoa1604958"
+doi: "10.1038/s41586-022-04735-9"
 pmid: "35589842"
-pmcid: "PMC5007206"
+pmcid: "PMC9177421"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/uksza-2022-neoantigen-quality-predicts-immunoediting-survivors.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

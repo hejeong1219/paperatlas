@@ -4,11 +4,11 @@ authors:
   - "Li"
   - "Lih"
   - "Dhanasekaran"
-year: 2023
+year: "2023"
 journal: "Cancer cell"
-doi: "10.1002/pmic.201900359"
+doi: "10.1016/j.ccell.2022.12.001"
 pmid: "36563681"
-pmcid: "PMC7677200"
+pmcid: "PMC9839644"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

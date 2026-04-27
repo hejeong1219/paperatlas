@@ -4,13 +4,13 @@ authors:
   - "Zhang"
   - "Abdo"
   - "Iosef"
-year: 2022
+year: "2022"
 journal: "Nature communications"
-doi: "10.1126/scisignal.2004088"
+doi: "10.1038/s41467-022-33365-y"
 pmid: "36216799"
-pmcid: "PMC4160307"
+pmcid: "PMC9551067"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2022-spatial-transcriptomic-landscape-non-small-cell.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

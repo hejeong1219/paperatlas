@@ -3,7 +3,7 @@ title: "Targeting mTOR Kinase for Cancer Treatment: A Comprehensive Review With 
 authors:
   - "Hossain"
   - "Hossain"
-year: 2025
+year: "2025"
 journal: "Drug development research"
 doi: "10.1002/ddr.70167"
 pmid: "41046532"

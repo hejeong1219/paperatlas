@@ -4,13 +4,13 @@ authors:
   - "Mehta"
   - "Cheney"
   - "Hartl"
-year: 2021
+year: "2021"
 journal: "Nature cancer"
-doi: "10.1158/0008-5472.CAN-18-2077"
+doi: "10.1038/s43018-020-00148-7"
 pmid: "33738458"
-pmcid: "PMC6366562"
+pmcid: "PMC7963404"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/mehta-2021-targeting-immunosuppressive-macrophages-overcomes-parp.pdf"
 topic: resistance
 tags:
   - "resistance"

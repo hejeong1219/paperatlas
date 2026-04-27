@@ -4,13 +4,13 @@ authors:
   - "Satpathy"
   - "Jaehnig"
   - "Krug"
-year: 2020
+year: "2020"
 journal: "Nature communications"
-doi: "10.1186/s13059-017-1349-1"
+doi: "10.1038/s41467-020-14381-2"
 pmid: "31988290"
-pmcid: "PMC5688663"
+pmcid: "PMC6985126"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/satpathy-2020-microscaled-proteogenomic-methods-precision-oncology.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,13 +4,13 @@ authors:
   - "Jung"
   - "Kim"
   - "Kim"
-year: 2019
+year: "2019"
 journal: "Nature communications"
-doi: "10.1093/biostatistics/kxj037"
+doi: "10.1038/s41467-019-12159-9"
 pmid: "31537801"
-pmcid: "PMC3826632"
+pmcid: "PMC6753140"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/jung-2019-dna-methylation-loss-promotes-immune.pdf"
 topic: resistance
 tags:
   - "resistance"

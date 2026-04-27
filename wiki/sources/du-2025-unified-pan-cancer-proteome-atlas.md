@@ -3,7 +3,7 @@ title: "A unified pan-cancer proteome atlas."
 authors:
   - "Du"
   - "Wu"
-year: 2025
+year: "2025"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2025.05.012"
 pmid: "40513574"

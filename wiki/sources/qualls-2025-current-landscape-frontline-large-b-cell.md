@@ -4,13 +4,13 @@ authors:
   - "Qualls"
   - "Armand"
   - "Salles"
-year: 2025
+year: "2025"
 journal: "Blood"
 doi: "10.1182/blood.2023023789"
 pmid: "39316716"
-pmcid: "PMC10489211"
+pmcid: "PMC11738023"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/qualls-2025-current-landscape-frontline-large-b-cell.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

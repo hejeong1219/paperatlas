@@ -4,13 +4,13 @@ authors:
   - "Yu"
   - "Liu"
   - "Cao"
-year: 2025
+year: "2025"
 journal: "Molecular cancer"
-doi: "10.1038/bjc.2014.271"
+doi: "10.1186/s12943-025-02482-9"
 pmid: "41088170"
-pmcid: "PMC4090734"
+pmcid: "PMC12522462"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/yu-2025-purine-metabolism-pan-cancer-metabolic-dysregulation.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

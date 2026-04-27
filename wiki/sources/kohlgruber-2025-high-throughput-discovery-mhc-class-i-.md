@@ -4,13 +4,13 @@ authors:
   - "Kohlgruber"
   - "Dezfulian"
   - "Sie"
-year: 2025
+year: "2025"
 journal: "Nature biotechnology"
-doi: "10.1038/nmeth.1923"
+doi: "10.1038/s41587-024-02248-6"
 pmid: "38956325"
-pmcid: "PMC3322381"
+pmcid: "PMC11994455"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kohlgruber-2025-high-throughput-discovery-mhc-class-i-.pdf"
 topic: resistance
 tags:
   - "resistance"

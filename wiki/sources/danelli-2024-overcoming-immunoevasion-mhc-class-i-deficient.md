@@ -2,12 +2,12 @@
 title: "Overcoming immunoevasion in MHC class I-deficient cancers."
 authors:
   - "Danelli"
-year: 2024
+year: "2024"
 journal: "Nature cancer"
 doi: "10.1038/s43018-024-00852-8"
 pmid: "39690216"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/danelli-2024-overcoming-immunoevasion-mhc-class-i-deficient.pdf"
 topic: resistance
 tags:
   - "resistance"

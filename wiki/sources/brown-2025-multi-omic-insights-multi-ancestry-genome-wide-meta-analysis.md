@@ -4,13 +4,13 @@ authors:
   - "Brown"
   - "Li"
   - "Wu"
-year: 2025
+year: "2025"
 journal: "Research square"
 doi: "10.21203/rs.3.rs-6917334/v1"
 pmid: "40709250"
-pmcid: "PMC4402510"
+pmcid: "PMC12288525"
 paper_kind: meta-analysis
-pdf_status: pending
+pdf: "raw/inbox/papers/brown-2025-multi-omic-insights-multi-ancestry-genome-wide-meta-analysis.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

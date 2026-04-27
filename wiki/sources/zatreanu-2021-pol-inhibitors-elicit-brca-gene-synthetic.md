@@ -4,13 +4,13 @@ authors:
   - "Zatreanu"
   - "Robinson"
   - "Alkhatib"
-year: 2021
+year: "2021"
 journal: "Nature communications"
 doi: "10.1038/s41467-021-23463-8"
 pmid: "34140467"
-pmcid: "PMC4521473"
+pmcid: "PMC8211653"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zatreanu-2021-pol-inhibitors-elicit-brca-gene-synthetic.pdf"
 topic: resistance
 tags:
   - "resistance"

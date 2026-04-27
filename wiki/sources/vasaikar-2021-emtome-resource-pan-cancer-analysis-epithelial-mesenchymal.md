@@ -4,13 +4,13 @@ authors:
   - "Vasaikar"
   - "Deshmukh"
   - "den"
-year: 2021
+year: "2021"
 journal: "British journal of cancer"
 doi: "10.1038/s41416-020-01178-9"
 pmid: "33299129"
-pmcid: "PMC5010989"
+pmcid: "PMC7782839"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/vasaikar-2021-emtome-resource-pan-cancer-analysis-epithelial-mesenchymal.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

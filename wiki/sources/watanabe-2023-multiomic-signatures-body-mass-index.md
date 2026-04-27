@@ -4,13 +4,13 @@ authors:
   - "Watanabe"
   - "Wilmanski"
   - "Diener"
-year: 2023
+year: "2023"
 journal: "Nature medicine"
-doi: "10.1093/bioinformatics/btu393"
+doi: "10.1038/s41591-023-02248-0"
 pmid: "36941332"
-pmcid: "PMC3068975"
+pmcid: "PMC10115644"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/watanabe-2023-multiomic-signatures-body-mass-index.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

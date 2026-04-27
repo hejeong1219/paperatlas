@@ -4,13 +4,13 @@ authors:
   - "Huschner"
   - "Głowacka-Walas"
   - "Mills"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1089/omi.2011.0118"
+doi: "10.1038/s41467-023-42855-6"
 pmid: "37996417"
 pmcid: "PMC10667269"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/huschner-2023-molecular-epistop-comprehensive-multi-omic-analysis.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

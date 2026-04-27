@@ -4,13 +4,13 @@ authors:
   - "Zhang"
   - "Pan"
   - "Wang"
-year: 2025
+year: "2025"
 journal: "Frontiers in oncology"
-doi: "10.1007/s10495-024-01982-1"
+doi: "10.3389/fonc.2025.1615898"
 pmid: "41347086"
-pmcid: "PMC10574217"
+pmcid: "PMC12672329"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/zhang-2025-pan-cancer-landscape-ubdfat10-experimental-validation.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

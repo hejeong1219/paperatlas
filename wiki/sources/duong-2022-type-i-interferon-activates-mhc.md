@@ -4,11 +4,11 @@ authors:
   - "Duong"
   - "Fessenden"
   - "Lutz"
-year: 2022
+year: "2022"
 journal: "Immunity"
 doi: "10.1016/j.immuni.2021.10.020"
 pmid: "34800368"
-pmcid: "PMC6620049"
+pmcid: "PMC10827482"
 paper_kind: research
 pdf_status: pending
 topic: resistance

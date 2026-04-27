@@ -4,12 +4,12 @@ authors:
   - "Voli"
   - "Valli"
   - "Lerra"
-year: 2020
+year: "2020"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-20-0471"
 pmid: "32816860"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/voli-2020-intratumoral-copper-modulates-pd-l1-expression.pdf"
 topic: resistance
 tags:
   - "resistance"

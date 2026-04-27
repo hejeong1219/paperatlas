@@ -4,7 +4,7 @@ authors:
   - "Iozzo"
   - "Pardella"
   - "Giannoni"
-year: 2025
+year: "2025"
 journal: "Molecular cell"
 doi: "10.1016/j.molcel.2025.02.011"
 pmid: "40073861"

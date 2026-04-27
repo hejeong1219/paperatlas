@@ -4,11 +4,11 @@ authors:
   - "Rodriguez"
   - "Peske"
   - "Woods"
-year: 2021
+year: "2021"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2021.109422"
 pmid: "34289373"
-pmcid: "PMC2387226"
+pmcid: "PMC8362934"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

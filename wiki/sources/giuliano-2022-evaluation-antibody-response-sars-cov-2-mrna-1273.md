@@ -4,13 +4,13 @@ authors:
   - "Giuliano"
   - "Lancet"
   - "Pilon-Thomas"
-year: 2022
+year: "2022"
 journal: "JAMA oncology"
-doi: "10.1056/NEJMoa2028436"
+doi: "10.1001/jamaoncol.2022.0001"
 pmid: "35266953"
-pmcid: "PMC7556339"
+pmcid: "PMC8914884"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/giuliano-2022-evaluation-antibody-response-sars-cov-2-mrna-1273.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

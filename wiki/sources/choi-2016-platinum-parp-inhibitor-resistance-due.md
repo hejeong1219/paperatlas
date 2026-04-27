@@ -4,11 +4,11 @@ authors:
   - "Choi"
   - "Meghani"
   - "Brault"
-year: 2016
+year: "2016"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2015.12.046"
 pmid: "26774475"
-pmcid: "PMC4671316"
+pmcid: "PMC4731274"
 paper_kind: research
 pdf_status: pending
 topic: resistance

@@ -4,13 +4,13 @@ authors:
   - "Dharanipragada"
   - "Zhang"
   - "Liu"
-year: 2023
+year: "2023"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-22-0787"
 pmid: "36700848"
-pmcid: "PMC3893054"
+pmcid: "PMC10068459"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/dharanipragada-2023-blocking-genomic-instability-prevents-acquired.pdf"
 topic: resistance
 tags:
   - "resistance"

@@ -4,11 +4,11 @@ authors:
   - "Jayavelu"
   - "Wolf"
   - "Buettner"
-year: 2022
+year: "2022"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2022.02.006"
 pmid: "35245447"
-pmcid: "PMC1239896"
+pmcid: "PMC12882723"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

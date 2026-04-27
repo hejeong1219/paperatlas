@@ -4,11 +4,11 @@ authors:
   - "Soundararajan"
   - "Maurin"
   - "Rodriguez-Silva"
-year: 2025
+year: "2025"
 journal: "Gut"
-doi: "10.3322/caac.21388"
+doi: "10.1136/gutjnl-2024-332535"
 pmid: "39658263"
-pmcid: "PMC10794731"
+pmcid: "PMC11885055"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

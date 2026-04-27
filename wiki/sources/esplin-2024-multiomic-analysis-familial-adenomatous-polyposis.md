@@ -4,13 +4,13 @@ authors:
   - "Esplin"
   - "Hanson"
   - "Wu"
-year: 2024
+year: "2024"
 journal: "Nature cancer"
-doi: "10.15252/msb.20178124"
+doi: "10.1038/s43018-024-00831-z"
 pmid: "39478120"
-pmcid: "PMC6010767"
+pmcid: "PMC11584401"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/esplin-2024-multiomic-analysis-familial-adenomatous-polyposis.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

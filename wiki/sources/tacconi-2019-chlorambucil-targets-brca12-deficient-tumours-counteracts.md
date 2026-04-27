@@ -4,13 +4,13 @@ authors:
   - "Tacconi"
   - "Badie"
   - "De"
-year: 2019
+year: "2019"
 journal: "EMBO molecular medicine"
 doi: "10.15252/emmm.201809982"
 pmid: "31273933"
-pmcid: "PMC6071917"
+pmcid: "PMC6609913"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tacconi-2019-chlorambucil-targets-brca12-deficient-tumours-counteracts.pdf"
 topic: resistance
 tags:
   - "resistance"

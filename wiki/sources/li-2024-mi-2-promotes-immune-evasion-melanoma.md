@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Wang"
   - "Yao"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1016/j.cell.2016.07.043"
+doi: "10.1038/s41467-024-46422-5"
 pmid: "38461299"
-pmcid: "PMC4086086"
+pmcid: "PMC10924921"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2024-mi-2-promotes-immune-evasion-melanoma.pdf"
 topic: resistance
 tags:
   - "resistance"

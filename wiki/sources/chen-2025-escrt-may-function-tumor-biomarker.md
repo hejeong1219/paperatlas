@@ -4,13 +4,13 @@ authors:
   - "Chen"
   - "Tan"
   - "Zhang"
-year: 2025
+year: "2025"
 journal: "Frontiers in immunology"
-doi: "10.1016/j.ejmg.2022.104579"
+doi: "10.3389/fimmu.2025.1531940"
 pmid: "40230849"
-pmcid: "PMC7578027"
+pmcid: "PMC11994712"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/chen-2025-escrt-may-function-tumor-biomarker.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

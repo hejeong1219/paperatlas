@@ -4,13 +4,13 @@ authors:
   - "Li"
   - "Zhang"
   - "Zhang"
-year: 2025
+year: "2025"
 journal: "Nature communications"
-doi: "10.1038/s41587-020-0605-1"
+doi: "10.1038/s41467-025-59341-w"
 pmid: "40335494"
-pmcid: "PMC7610525"
+pmcid: "PMC12059173"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/li-2025-mature-tertiary-lymphoid-structures-evoke.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

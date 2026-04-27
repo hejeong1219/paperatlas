@@ -4,13 +4,13 @@ authors:
   - "Kim"
   - "Bose"
   - "Araínga"
-year: 2024
+year: "2024"
 journal: "Nature communications"
-doi: "10.1186/s13059-014-0550-8"
+doi: "10.1038/s41467-024-45555-x"
 pmid: "38355731"
-pmcid: "PMC4302049"
+pmcid: "PMC10867093"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/kim-2024-tgf--blockade-drives-transitional-effector.pdf"
 topic: resistance
 tags:
   - "resistance"

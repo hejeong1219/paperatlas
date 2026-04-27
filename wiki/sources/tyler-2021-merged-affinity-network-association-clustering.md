@@ -4,11 +4,11 @@ authors:
   - "Tyler"
   - "Chun"
   - "Ribeiro"
-year: 2021
+year: "2021"
 journal: "Cell reports"
-doi: "10.1016/emea.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/16s/16s-metagenomic-library-prep-guide-15044223-b.pdf"
+doi: "10.1016/j.celrep.2021.108975"
 pmid: "33852839"
-pmcid: "PMC6915697"
+pmcid: "PMC8195153"
 paper_kind: research
 pdf_status: pending
 topic: ptmanchor

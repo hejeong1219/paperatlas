@@ -4,13 +4,13 @@ authors:
   - "Wakamatsu"
   - "Muramatsu"
   - "Sato"
-year: 2024
+year: "2024"
 journal: "Leukemia"
-doi: "10.3324/haematol.2011.057489"
+doi: "10.1038/s41375-024-02263-1"
 pmid: "38740980"
-pmcid: "PMC3436231"
+pmcid: "PMC11147772"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/wakamatsu-2024-integrated-proteogenomic-analysis-inherited-bone.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

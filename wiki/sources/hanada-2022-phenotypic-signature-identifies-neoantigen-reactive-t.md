@@ -4,11 +4,11 @@ authors:
   - "Hanada"
   - "Zhao"
   - "Gil-Hoyos"
-year: 2022
+year: "2022"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2022.03.012"
 pmid: "35452604"
-pmcid: "PMC6348479"
+pmcid: "PMC9196205"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

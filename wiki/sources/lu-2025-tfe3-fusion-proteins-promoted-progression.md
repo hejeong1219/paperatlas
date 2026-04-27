@@ -4,13 +4,13 @@ authors:
   - "Lu"
   - "Chen"
   - "Pan"
-year: 2025
+year: "2025"
 journal: "Cellular oncology (Dordrecht, Netherlands)"
-doi: "10.1038/ncb1753"
+doi: "10.1007/s13402-025-01125-x"
 pmid: "41171371"
-pmcid: "PMC2711503"
+pmcid: "PMC12698746"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/lu-2025-tfe3-fusion-proteins-promoted-progression.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

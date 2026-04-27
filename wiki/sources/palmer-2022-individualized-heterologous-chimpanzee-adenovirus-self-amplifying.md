@@ -4,13 +4,13 @@ authors:
   - "Palmer"
   - "Rappaport"
   - "Davis"
-year: 2022
+year: "2022"
 journal: "Nature medicine"
-doi: "10.1186/s13073-017-0424-2"
+doi: "10.1038/s41591-022-01937-6"
 pmid: "35970920"
 pmcid: "5395719"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/palmer-2022-individualized-heterologous-chimpanzee-adenovirus-self-amplifying.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

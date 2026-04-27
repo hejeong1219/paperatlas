@@ -4,13 +4,13 @@ authors:
   - "Memon"
   - "Schoenfeld"
   - "Ye"
-year: 2024
+year: "2024"
 journal: "Cancer cell"
-doi: "10.1016/j.immuni.2019.11.002"
+doi: "10.1016/j.ccell.2023.12.013"
 pmid: "38215748"
-pmcid: "PMC6920571"
+pmcid: "PMC11249385"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/memon-2024-clinical-molecular-features-acquired-resistance.pdf"
 topic: resistance
 tags:
   - "resistance"

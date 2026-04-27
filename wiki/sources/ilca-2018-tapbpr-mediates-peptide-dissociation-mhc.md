@@ -4,13 +4,13 @@ authors:
   - "Ilca"
   - "Neerincx"
   - "Hermann"
-year: 2018
+year: "2018"
 journal: "eLife"
-doi: "10.1016/S1074-7613(02)00304-7"
+doi: "10.7554/eLife.40126"
 pmid: "30484775"
-pmcid: "PMC553793"
+pmcid: "PMC6307860"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ilca-2018-tapbpr-mediates-peptide-dissociation-mhc.pdf"
 topic: resistance
 tags:
   - "resistance"

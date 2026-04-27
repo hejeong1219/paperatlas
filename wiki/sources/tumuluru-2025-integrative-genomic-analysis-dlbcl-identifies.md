@@ -4,13 +4,13 @@ authors:
   - "Tumuluru"
   - "Godfrey"
   - "Cooper"
-year: 2025
+year: "2025"
 journal: "Blood"
 doi: "10.1182/blood.2024025355"
 pmid: "39869833"
-pmcid: "PMC2869521"
+pmcid: "PMC12163739"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/tumuluru-2025-integrative-genomic-analysis-dlbcl-identifies.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

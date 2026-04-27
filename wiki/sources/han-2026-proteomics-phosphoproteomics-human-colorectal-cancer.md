@@ -4,11 +4,11 @@ authors:
   - "Han"
   - "Lim"
   - "Kim"
-year: 2026
+year: "2026"
 journal: "Animal cells and systems"
-doi: "10.1371/journal.pone.0023262"
+doi: "10.1080/19768354.2026.2625524"
 pmid: "41669566"
-pmcid: "PMC3149646"
+pmcid: "PMC12885026"
 paper_kind: proteogenomic
 pdf_status: pending
 topic: ptmanchor

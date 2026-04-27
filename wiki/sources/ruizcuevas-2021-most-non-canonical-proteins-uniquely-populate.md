@@ -4,11 +4,11 @@ authors:
   - "Ruiz"
   - "Hardy"
   - "Hollý"
-year: 2021
+year: "2021"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2021.108815"
 pmid: "33691108"
-pmcid: "PMC5016099"
+pmcid: "PMC8040094"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

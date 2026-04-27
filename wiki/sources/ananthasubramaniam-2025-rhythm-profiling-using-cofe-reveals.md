@@ -3,13 +3,13 @@ title: "Rhythm profiling using COFE reveals multi-omic circadian rhythms in huma
 authors:
   - "Ananthasubramaniam"
   - "Venkataramanan"
-year: 2025
+year: "2025"
 journal: "PLoS biology"
-doi: "10.1371/journal.pbio.3000580"
+doi: "10.1371/journal.pbio.3003196"
 pmid: "40424435"
-pmcid: "PMC6959563"
+pmcid: "PMC12136439"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/ananthasubramaniam-2025-rhythm-profiling-using-cofe-reveals.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

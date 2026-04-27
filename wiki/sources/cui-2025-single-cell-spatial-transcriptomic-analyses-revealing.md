@@ -4,13 +4,13 @@ authors:
   - "Cui"
   - "Liu"
   - "Song"
-year: 2025
+year: "2025"
 journal: "Molecular cancer"
-doi: "10.1038/s41598-020-80336-8"
+doi: "10.1186/s12943-025-02287-w"
 pmid: "40205583"
-pmcid: "PMC7806772"
+pmcid: "PMC11980172"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/cui-2025-single-cell-spatial-transcriptomic-analyses-revealing.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

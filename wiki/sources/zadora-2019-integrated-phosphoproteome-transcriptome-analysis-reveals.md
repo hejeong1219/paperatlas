@@ -4,7 +4,7 @@ authors:
   - "Zadora"
   - "Chumduri"
   - "Imami"
-year: 2019
+year: "2019"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2019.01.006"
 pmid: "30699355"

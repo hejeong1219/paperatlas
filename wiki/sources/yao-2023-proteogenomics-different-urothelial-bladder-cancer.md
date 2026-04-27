@@ -4,13 +4,13 @@ authors:
   - "Yao"
   - "Xu"
   - "Shang"
-year: 2023
+year: "2023"
 journal: "Nature communications"
-doi: "10.1093/bioinformatics/btn297"
+doi: "10.1038/s41467-023-41139-3"
 pmid: "37704624"
-pmcid: "PMC2238828"
+pmcid: "PMC10499981"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/yao-2023-proteogenomics-different-urothelial-bladder-cancer.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"

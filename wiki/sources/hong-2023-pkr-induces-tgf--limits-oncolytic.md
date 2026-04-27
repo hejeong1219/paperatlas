@@ -4,11 +4,11 @@ authors:
   - "Hong"
   - "Sahu"
   - "Mullarkey"
-year: 2023
+year: "2023"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/s41467-021-21246-9"
+doi: "10.1136/jitc-2022-006164"
 pmid: "36796878"
-pmcid: "PMC7889871"
+pmcid: "PMC9936322"
 paper_kind: research
 pdf: "raw/inbox/papers/hong-2023-pkr-induces-tgf--limits-oncolytic.pdf"
 topic: resistance

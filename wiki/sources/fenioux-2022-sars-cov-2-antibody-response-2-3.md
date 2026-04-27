@@ -4,13 +4,13 @@ authors:
   - "Fenioux"
   - "Teixeira"
   - "Fourati"
-year: 2022
+year: "2022"
 journal: "JAMA oncology"
-doi: "10.1038/s41586-021-03777-9"
+doi: "10.1001/jamaoncol.2021.7777"
 pmid: "34994776"
-pmcid: "PMC8604724"
+pmcid: "PMC8742219"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/fenioux-2022-sars-cov-2-antibody-response-2-3.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

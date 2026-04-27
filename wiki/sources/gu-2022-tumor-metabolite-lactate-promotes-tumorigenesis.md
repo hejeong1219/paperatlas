@@ -4,7 +4,7 @@ authors:
   - "Gu"
   - "Zhou"
   - "Chen"
-year: 2022
+year: "2022"
 journal: "Cell reports"
 doi: "10.1016/j.celrep.2022.110986"
 pmid: "35732125"

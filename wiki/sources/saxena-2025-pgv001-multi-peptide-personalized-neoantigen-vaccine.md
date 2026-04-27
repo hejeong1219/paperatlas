@@ -4,12 +4,12 @@ authors:
   - "Saxena"
   - "Marron"
   - "Kodysh"
-year: 2025
+year: "2025"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-24-0934"
 pmid: "40094414"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/saxena-2025-pgv001-multi-peptide-personalized-neoantigen-vaccine.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

@@ -4,11 +4,11 @@ authors:
   - "Roerden"
   - "Castro"
   - "Cui"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.1038/s41587-020-0613-1"
+doi: "10.1136/jitc-2024-010249"
 pmid: "39521615"
-pmcid: "PMC7854852"
+pmcid: "PMC11552027"
 paper_kind: research
 pdf_status: pending
 topic: resistance

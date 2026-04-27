@@ -4,13 +4,13 @@ authors:
   - "Vázquez-García"
   - "Uhlitz"
   - "Ceglia"
-year: 2022
+year: "2022"
 journal: "Nature"
-doi: "10.1038/s41598-017-17204-5"
+doi: "10.1038/s41586-022-05496-1"
 pmid: "36517593"
-pmcid: "PMC5715110"
+pmcid: "PMC9771812"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/vzquezgarca-2022-ovarian-cancer-mutational-processes-drive.pdf"
 topic: resistance
 tags:
   - "resistance"

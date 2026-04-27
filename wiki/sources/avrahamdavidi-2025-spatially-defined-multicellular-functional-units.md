@@ -4,13 +4,13 @@ authors:
   - "Avraham-Davidi"
   - "Mages"
   - "Klughammer"
-year: 2025
+year: "2025"
 journal: "eLife"
-doi: "10.1177/1947601911432334"
+doi: "10.7554/eLife.104815"
 pmid: "41384492"
-pmcid: "PMC3411131"
+pmcid: "PMC12700527"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/avrahamdavidi-2025-spatially-defined-multicellular-functional-units.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

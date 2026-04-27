@@ -4,11 +4,11 @@ authors:
   - "Zheng"
   - "Yang"
   - "Shen"
-year: 2024
+year: "2024"
 journal: "Journal for immunotherapy of cancer"
-doi: "10.2337/db20-0585"
+doi: "10.1136/jitc-2024-009642"
 pmid: "39174053"
-pmcid: "PMC7576570"
+pmcid: "PMC11340705"
 paper_kind: research
 pdf_status: pending
 topic: resistance

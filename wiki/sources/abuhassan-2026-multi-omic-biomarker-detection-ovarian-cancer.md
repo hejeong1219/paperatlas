@@ -4,7 +4,7 @@ authors:
   - "Abuhassan"
   - "Al-Assi"
   - "Rekha"
-year: 2026
+year: "2026"
 journal: "Clinica chimica acta; international journal of clinical chemistry"
 doi: "10.1016/j.cca.2025.120758"
 pmid: "41349936"

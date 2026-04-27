@@ -4,11 +4,11 @@ authors:
   - "Bassiouni"
   - "Idowu"
   - "Gibbs"
-year: 2023
+year: "2023"
 journal: "Cancer research"
 doi: "10.1158/0008-5472.CAN-22-2682"
 pmid: "36283023"
-pmcid: "PMC8222665"
+pmcid: "PMC9812886"
 paper_kind: research
 pdf_status: pending
 topic: bcell-neoantigen

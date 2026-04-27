@@ -4,11 +4,11 @@ authors:
   - "Gupta"
   - "Kumar"
   - "Penn"
-year: 2025
+year: "2025"
 journal: "Trends in immunology"
 doi: "10.1016/j.it.2024.12.006"
 pmid: "39855990"
-pmcid: "PMC11417341"
+pmcid: "PMC11835538"
 paper_kind: research
 pdf_status: pending
 topic: resistance

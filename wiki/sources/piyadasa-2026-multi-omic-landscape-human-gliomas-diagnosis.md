@@ -4,7 +4,7 @@ authors:
   - "Piyadasa"
   - "Oberlton"
   - "Ribi"
-year: 2026
+year: "2026"
 journal: "Cancer cell"
 doi: "10.1016/j.ccell.2025.11.006"
 pmid: "41386224"

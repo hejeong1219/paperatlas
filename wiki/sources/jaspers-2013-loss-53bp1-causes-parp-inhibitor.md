@@ -4,13 +4,13 @@ authors:
   - "Jaspers"
   - "Kersbergen"
   - "Boon"
-year: 2013
+year: "2013"
 journal: "Cancer discovery"
 doi: "10.1158/2159-8290.CD-12-0049"
 pmid: "23103855"
-pmcid: "PMC2766769"
+pmcid: "PMC7518105"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/jaspers-2013-loss-53bp1-causes-parp-inhibitor.pdf"
 topic: resistance
 tags:
   - "resistance"

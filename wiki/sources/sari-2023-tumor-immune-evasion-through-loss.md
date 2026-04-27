@@ -3,11 +3,11 @@ title: "Tumor immune evasion through loss of MHC class-I antigen presentation."
 authors:
   - "Sari"
   - "Rock"
-year: 2023
+year: "2023"
 journal: "Current opinion in immunology"
 doi: "10.1016/j.coi.2023.102329"
 pmid: "37130455"
-pmcid: "PMC7409324"
+pmcid: "PMC10524158"
 paper_kind: research
 pdf_status: pending
 topic: resistance

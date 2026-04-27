@@ -4,9 +4,9 @@ authors:
   - "Jiang"
   - "Jaehnig"
   - "Liao"
-year: 2025
+year: "2025"
 journal: "Nature communications"
-doi: "10.1093/nar/gkz401"
+doi: "10.1038/s41467-025-57993-2"
 pmid: "40113755"
 pmcid: "PMC11926083"
 paper_kind: proteogenomic
