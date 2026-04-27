@@ -32,4 +32,5 @@ Reusable topic pages that connect multiple papers into stable themes. These page
 - [ESR1 Mutations and Endocrine Resistance in Breast Cancer](./esr1-mutations-and-endocrine-resistance-in-breast-cancer.md)
 - [CDK4/6 Inhibition, Senescence, and Tumor Immunogenicity](./cdk46-inhibition-senescence-and-tumor-immunogenicity.md)
 - [AR Pathway Resistance and Immune Context in Prostate Cancer](./ar-pathway-resistance-and-immune-context-in-prostate-cancer.md)
+- [PTM-Correction Confounding: Why Protein Abundance Drives Phosphosite Calls](./ptm-correction-confounding-foundations.md)
 - [LLM Wiki](./llm-wiki.md)
