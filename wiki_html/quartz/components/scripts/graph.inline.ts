@@ -561,15 +561,18 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
           // counter-scale labels so they stay readable at any zoom level
           const labelScale = 1 / scale / transform.k
-          // zoom adjusts opacity of labels too
-          const scaleK = transform.k * opacityScale
-          let scaleOpacity = Math.max((scaleK - 1) / 3.75, 0)
           const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
           for (const label of labelsContainer.children) {
             label.scale.set(labelScale)
+            // labels stay hidden at normal zoom; hover handles visibility.
+            // only show all labels once user has clearly zoomed in (>= 3x).
             if (!activeNodes.includes(label)) {
-              label.alpha = scaleOpacity
+              if (transform.k >= 3) {
+                label.alpha = Math.min(1, (transform.k - 3) * 1.0)
+              } else {
+                label.alpha = 0
+              }
             }
           }
         }),
