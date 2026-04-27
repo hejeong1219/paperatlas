@@ -37,13 +37,8 @@ DOI: [10.1007/s10549-022-06572-w](https://doi.org/10.1007/s10549-022-06572-w)
 
 ## Key Points
 
-- _Key claims to be filled in from full text. This page was created automatically as a placeholder._
+_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
 
-## Open Questions
-
-- _What does this paper actually claim about the topic anchor?_
-- _What evidence does it provide and is it clinical, mechanistic, or computational?_
-- _How does this fit alongside neighboring papers in the topic?_
 
 ## Connections
 

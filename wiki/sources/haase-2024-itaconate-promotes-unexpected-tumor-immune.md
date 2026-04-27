@@ -33,13 +33,8 @@ Itaconate is a metabolite produced by macrophages upon infection and acts as an 
 
 ## Key Points
 
-- _Key claims to be filled in from full text. This page was created automatically as a placeholder._
+_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
 
-## Open Questions
-
-- _What does this paper actually claim about the topic anchor?_
-- _What evidence does it provide and is it clinical, mechanistic, or computational?_
-- _How does this fit alongside neighboring papers in the topic?_
 
 ## Connections
 
