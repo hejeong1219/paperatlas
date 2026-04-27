@@ -185,10 +185,17 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
   const clusterX = (n: NodeData) => {
     const t = inferTopicForCluster(n.id)
-    if (t === "ptmanchor") return -width * 0.3
+    if (t === "ptmanchor") return -width * 0.32
     if (t === "resistance") return 0
-    if (t === "bcell-neoantigen") return width * 0.3
+    if (t === "bcell-neoantigen") return width * 0.32
     return 0
+  }
+  // Pre-position nodes near their cluster center so they don't all start at (0,0)
+  for (const n of graphData.nodes as any[]) {
+    const t = inferTopicForCluster(n.id)
+    const cx = t === "ptmanchor" ? -width * 0.32 : t === "bcell-neoantigen" ? width * 0.32 : 0
+    n.x = cx + (Math.random() - 0.5) * width * 0.25
+    n.y = (Math.random() - 0.5) * height * 0.6
   }
   // we virtualize the simulation and use pixi to actually render it
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
@@ -196,11 +203,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     .force("center", forceCenter().strength(centerForce))
     .force("link", forceLink(graphData.links).distance(linkDistance))
     .force("collide", forceCollide<NodeData>((n) => nodeRadius(n) + 1).iterations(2))
-    .force("x", forceX<NodeData>(clusterX).strength(0.18))
-    .force("y", forceY<NodeData>(0).strength(0.06))
-    .alphaDecay(0.05)
+    .force("x", forceX<NodeData>(clusterX).strength(0.4))
+    .force("y", forceY<NodeData>(0).strength(0.2))
+    .alphaDecay(0.04)
     .alphaMin(0.02)
-    .velocityDecay(0.55)
+    .velocityDecay(0.5)
 
   const radius = (Math.min(width, height) / 2) * 0.8
   if (enableRadial) simulation.force("radial", forceRadial(radius).strength(0.2))

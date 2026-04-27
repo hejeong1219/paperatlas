@@ -2,14 +2,38 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { resolveRelative } from "../util/path"
 import style from "./styles/homeAtlas.scss"
 import { byDateAndAlphabetical } from "./PageList"
-import PaperGraph from "./PaperGraph"
+import Graph from "./Graph"
 import { concatenateResources } from "../util/resources"
 
-const HomeMainGraph = PaperGraph({
-  title: "Paper Network",
-  eyebrow: "Research Graph",
-  helpText: "Each node is a paper, colored by topic. Drag, scroll-zoom, click to open the paper.",
-  linkOnly: true,
+const HomeMainGraph = Graph({
+  localGraph: {
+    drag: true,
+    zoom: true,
+    depth: -1,
+    scale: 1.0,
+    repelForce: 0.7,
+    centerForce: 0.15,
+    linkDistance: 60,
+    fontSize: 0.55,
+    opacityScale: 1,
+    showTags: false,
+    focusOnHover: true,
+    removeTags: ["pmid"],
+  },
+  globalGraph: {
+    drag: true,
+    zoom: true,
+    depth: -1,
+    scale: 1.0,
+    repelForce: 1.0,
+    centerForce: 0.15,
+    linkDistance: 60,
+    fontSize: 0.6,
+    opacityScale: 1,
+    showTags: false,
+    focusOnHover: true,
+    removeTags: [],
+  },
 })
 
 function asList(value: unknown): string[] {
