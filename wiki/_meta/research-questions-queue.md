@@ -25,7 +25,7 @@
 ## B-cell neoantigen (17)
 
 - [ ] **Q18.** Are tumor B cells neoantigen-specific or self-reactive, and what is the evidence in human studies? → concept page
-- [ ] **Q19.** Does TLS maturity (germinal center presence, CD23⁺ B cells) predict ICB response better than TLS density alone? → concept page (b-cells-and-tertiary-lymphoid-structures)
+- [x] **Q19.** Does TLS maturity (germinal center presence, CD23⁺ B cells) predict ICB response better than TLS density alone? → expanded [concepts/b-cells-and-tertiary-lymphoid-structures.md](../concepts/b-cells-and-tertiary-lymphoid-structures.md) with new section "TLS Maturity vs TLS Density"
 - [ ] **Q20.** Can mature TLS convert immune-cold tumors to hot, and what are the documented interventions to induce TLS? → concept page
 - [ ] **Q21.** Do BCR repertoire features (clonality, isotype switching, mutation load) predict ICB response, and how do they map to T-cell repertoire? → analyses page
 - [ ] **Q22.** What is the role of plasma cells vs memory B cells in tumor microenvironment — distinct functional axes or a continuum? → concept page
