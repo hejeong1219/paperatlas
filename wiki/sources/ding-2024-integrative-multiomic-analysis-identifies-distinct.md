@@ -1,50 +1,52 @@
 ---
 title: "Integrative multiomic analysis identifies distinct molecular subtypes of NAFLD in a Chinese population."
-authors:
-  - "Ding"
-  - "Liu"
-  - "Zhang"
 year: "2024"
-journal: "Science translational medicine"
-doi: "10.1126/scitranslmed.adh9940"
-pmid: "39504356"
-paper_kind: research
+paper_kind: "tumor or pan-cancer study"
 pdf: "raw/inbox/papers/ding-2024-integrative-multiomic-analysis-identifies-distinct.pdf"
-topic: ptmanchor
+topic: "multiomics-proteomics-ptm-identification"
 tags:
-  - "ptmanchor"
-  - "proteomics"
-  - "ptm"
+  - "multiomics-proteomics-ptm-identification"
+  - "local-pdf-ingest"
+  - "cancer-proteomics"
   - "phosphoproteomics"
-  - "cancer-proteomics"
-  - "pmid-39504356"
 themes:
-  - "ptm-correction"
-  - "kinase-signaling"
-  - "cancer-proteomics"
+  - "multiomics-identification"
+  - "ptm-methodology"
 ---
 # Integrative multiomic analysis identifies distinct molecular subtypes of NAFLD in a Chinese population.
 
-_Science translational medicine, 2024._ PMID: [39504356](https://pubmed.ncbi.nlm.nih.gov/39504356/).
-
-DOI: [10.1126/scitranslmed.adh9940](https://doi.org/10.1126/scitranslmed.adh9940)
-
 ## Summary
 
-Nonalcoholic fatty liver disease (NAFLD) has become a common health care burden worldwide. The high heterogeneity of NAFLD remains elusive and impairs outcomes of clinical diagnosis and pharmacotherapy. Several NAFLD classifications have been proposed on the basis of clinical, genetic, alcoholic, or serum metabolic analyses. Yet, accurately predicting the progression of NAFLD to cirrhosis or hepatocellular carcinoma (HCC) in patients remains a challenge. Here, on the basis of a Chinese cohort of patients, we classified NAFLD into three distinct molecular subtypes (NAFLD-mSI, NAFLD-mSII, and NAFLD-mSIII) using integrative multiomics including whole-genome sequencing (WGS), proteomics, phosphoproteomics, lipidomics, and metabolomics across a broad range of liver, blood, and urine specimens. We found that NAFLD-mSI had higher expression of CYP1A2 and CYP3A4, which alleviate hepatic steatosis through mediating free fatty acid/bile acid-mTOR-FXR/PPARα signaling. NAFLD-mSII displayed an elevated risk of liver cirrhosis along with increased hepatic infiltration of M1 and M2 macrophages because of lipid-triggered hepatic CCL2 and CRP production. NAFLD-mSIII exhibited a potential risk for HCC development by increased transcription of CEBPB- and ERCC3-regulated oncogenes because of activation of the EGF-EGFR/CHKA/PI3K-PDK1-AKT cascade. Next, we validated the existence of these three NAFLD molecular subtypes in an external cohort comprising 92 patients with NAFLD across three different Chinese hospitals. These findings may aid in understanding the molecular features underlying NAFLD heterogeneity, thereby facilitating clinical diagnosis and treatment strategies with the aim of preventing the development of liver cirrhosis and HCC.
+Local-PDF ingest note for the cancer multiomics/PTM atlas. Here, on the basis of a Chinese cohort of patients, we classified NAFLD into three distinct molecular subtypes (NAFLD-­mSI, NAFLD-­mSII, and NAFLD-­mSIII) using integrative multiomics including whole-­genome se- quencing (WGS), proteomics, phosphoproteomics, lipidomics, and metabolomics across a broad range of liver, blood, and urine specimens.
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Atlas classification: tumor or pan-cancer study.
+- Quantitative atlas row: candidate.
+- Claims in this page were extracted from the local PDF text; web pages were not used as evidence.
 
+## Multi-Omics Identification Extraction
+
+- Cohort/scope: Hepatocellular carcinoma; classification `tumor or pan-cancer study`.
+- Proteome count candidate: 103.
+- Phosphoproteome count candidate: not confidently extracted from main PDF text.
+- Acetylome count candidate: not confidently extracted from main PDF text.
+- Method/instrument evidence from local PDF:
+  - mSIII Drug metabolism 0 P value 0 - cytochrome P450 mSI mSII mSIII mSI mSII mSIII 5 B 10 0.001 0.002 0.003 Protein number 15 Metabolism of xenobiotics Chemical Metabolism of xenobiotics by cytochrome P450 by cytochrome P450 GSTA2 GSTT2B carcinogenesis 4 2.0 Drug metabolism - cytochrome P450 Relative protein Linoleic acid metabolism Retinol metabolism Chem...
+  - TMT, tandem mass tag; LC-­MS/ MS, liquid chromatography–tandem mass spectrometry; HPLC, high-­performance liquid chromatography; HIF-­1, hypoxia-­inducible factor 1.
+- Count evidence snippets from local PDF:
+  - ferent non-­NAFLD control individual, and 103 biopsied liver samples Enrolled patients The internal NAFLD cohort The external NAFLD cohort Liver Proteome Identified three NAFLD (CTR n = 17, NAFLD n = 103) molecular subtypes NAFLD molecular ?
+  - Three distinct molecular subtypes of NAFLD were identified alongside their potential pathogenic mechanisms and clinical or multiomic characteristics.
+  - These data sup- A total of 7205 proteins were quantified by proteomics for both non-­ port that the three NAFLD molecular subtypes differ from traditional NAFLD and NAFLD groups (Fig.
+  - Of these, 921 proteins were sig- liver histological subtypes (from NAFL to NASH, with and without nificantly up-­regulated and 321 down-­regulated (P < 0.05) in patients fibrosis).
+  - acid/BAs-­mTOR-­FXR/PPARα signaling Next, 1346 proteins (those with the top 25% coefficient of varia- Liver proteomic and bioinformatic analysis revealed 103 differen- tion) in the NAFLD group were analyzed by NMF (fig.
+- Interpretation note: preserve the reported unit; do not convert protein groups, phosphosites, phosphopeptides, acetylsites, and phosphoproteins into a false common metric.
 
 ## Connections
 
-- [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
-- [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
+- [Multiomics PTM Corpus Queue](../analyses/multiomics-ptm-corpus-queue.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
-- PubMed: <https://pubmed.ncbi.nlm.nih.gov/39504356/>
-- DOI: <https://doi.org/10.1126/scitranslmed.adh9940>
+- Local PDF: `raw/inbox/papers/ding-2024-integrative-multiomic-analysis-identifies-distinct.pdf`

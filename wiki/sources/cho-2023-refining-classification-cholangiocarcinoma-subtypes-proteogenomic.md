@@ -1,56 +1,47 @@
 ---
 title: "Refining Classification of Cholangiocarcinoma Subtypes via Proteogenomic Integration Reveals New Therapeutic Prospects."
-authors:
-  - "Cho"
-  - "Hwang"
-  - "Kim"
 year: "2023"
-journal: "Gastroenterology"
-doi: "10.1053/j.gastro.2023.02.045"
-pmid: "36898552"
-paper_kind: proteogenomic
+paper_kind: "tumor or pan-cancer study"
 pdf: "raw/inbox/papers/cho-2023-refining-classification-cholangiocarcinoma-subtypes-proteogenomic.pdf"
-topic: ptmanchor
+topic: "multiomics-proteomics-ptm-identification"
 tags:
-  - "ptmanchor"
-  - "proteomics"
-  - "ptm"
+  - "multiomics-proteomics-ptm-identification"
+  - "local-pdf-ingest"
+  - "cancer-proteomics"
   - "phosphoproteomics"
-  - "cancer-proteomics"
-  - "pmid-36898552"
 themes:
-  - "ptm-correction"
-  - "kinase-signaling"
-  - "cancer-proteomics"
+  - "multiomics-identification"
+  - "ptm-methodology"
 ---
 # Refining Classification of Cholangiocarcinoma Subtypes via Proteogenomic Integration Reveals New Therapeutic Prospects.
 
-_Gastroenterology, 2023._ PMID: [36898552](https://pubmed.ncbi.nlm.nih.gov/36898552/).
-
-DOI: [10.1053/j.gastro.2023.02.045](https://doi.org/10.1053/j.gastro.2023.02.045)
-
 ## Summary
 
-**BACKGROUND & AIMS**: Intrahepatic cholangiocarcinomas (iCCs) are characterized by their rarity, difficult diagnosis, and overall poor prognosis. The iCC molecular classification for developing precision medicine strategies was investigated.
-
-**METHODS**: Comprehensive genomic, transcriptomic, proteomic, and phosphoproteomic analyses were performed on treatment-naïve tumor samples from 102 patients with iCC who underwent surgical resection with curative intent. An organoid model was constructed for testing therapeutic potential.
-
-**RESULTS**: Three clinically supported subtypes (stem-like, poorly immunogenic, and metabolism) were identified. NCT-501 (aldehyde dehydrogenase 1 family member A1 [ALDH1A1] inhibitor) exhibited synergism with nanoparticle albumin-bound-paclitaxel in the organoid model for the stem-like subtype. The oncometabolite dysregulations were associated with different clinical outcomes in the stem-like and metabolism subtypes. The poorly immunogenic subtype harbors the non-T-cell tumor infiltration. Integrated multiomics analysis not only reproduced the 3 subtypes but also showed heterogeneity in iCC.
-
-**CONCLUSIONS**: This large-scale proteogenomic analysis provides information beyond that obtained with genomic analysis, allowing the functional impact of genomic alterations to be discerned. These findings may assist in the stratification of patients with iCC and in developing rational therapeutic strategies.
+Local-PDF ingest note for the cancer multiomics/PTM atlas. i An update to this article is included at the end Gastroenterology 2023;164:1293–1309 Reﬁning Classiﬁcation of Cholangiocarcinoma Subtypes via Proteogenomic Integration Reveals New Therapeutic Prospects Soo Young Cho,1,2 Heeyoun Hwang,3,4 Yun-Hee Kim,1,5 Byong Chul Yoo,1,5 Nayoung Han,6 Sun-Young Kong,1,5,7 Min-Jeong Baek,1 Kyung-Hee Kim,1,5 Mi Rim Lee,1...
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Atlas classification: tumor or pan-cancer study.
+- Quantitative atlas row: candidate.
+- Claims in this page were extracted from the local PDF text; web pages were not used as evidence.
 
+## Multi-Omics Identification Extraction
+
+- Cohort/scope: Cholangiocarcinoma; classification `tumor or pan-cancer study`.
+- Proteome count candidate: not confidently extracted from main PDF text.
+- Phosphoproteome count candidate: not confidently extracted from main PDF text.
+- Acetylome count candidate: not confidently extracted from main PDF text.
+- Method/instrument evidence from local PDF:
+  - Method/instrument phrases were not confidently exposed in the extractable main PDF text.
+- Count evidence snippets from local PDF:
+  - Count phrases were not confidently exposed in the extractable main PDF text.
+- Interpretation note: preserve the reported unit; do not convert protein groups, phosphosites, phosphopeptides, acetylsites, and phosphoproteins into a false common metric.
 
 ## Connections
 
-- [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
-- [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
+- [Multiomics PTM Corpus Queue](../analyses/multiomics-ptm-corpus-queue.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
-- PubMed: <https://pubmed.ncbi.nlm.nih.gov/36898552/>
-- DOI: <https://doi.org/10.1053/j.gastro.2023.02.045>
+- Local PDF: `raw/inbox/papers/cho-2023-refining-classification-cholangiocarcinoma-subtypes-proteogenomic.pdf`

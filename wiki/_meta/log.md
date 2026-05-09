@@ -392,3 +392,11 @@ Append-only operational history for this wiki.
 - The interactive now contains 67 rows: 26 extracted rows with numeric values, 35 rows with PDFs pending extraction, 4 rows still pending PDF acquisition, and 2 blocked PDF/correction-only rows.
 - Added extraction-status badges to the Korean HTML cards and evidence table so incomplete rows are visible without being confused with quantified entries.
 - Updated the embedded fallback JSON in `index.html` to match the 67-row dataset for local viewing.
+
+## [2026-05-09] ingest+visualization | extra 32 local-PDF multiomics pass
+
+- Processed the 32 extra locally downloaded PDFs from the expanded 2016-2026 multiomics/PTM candidate set without using web evidence for scientific claims.
+- Created or updated 25 source pages and preserved 7 existing curated source notes that already had stronger extraction sections.
+- Added caveated `Multi-Omics Identification Extraction` notes for newly ingested PDFs, labeling methods/tool papers and out-of-scope/broader multiomics papers separately from quantitative atlas rows.
+- Promoted 15 additional local-PDF-backed rows into `autodidact/multiomics-ptm-cancer/data/studies.json`; the standalone Autodidact corpus now covers 82 rows, with 33 rows carrying at least one candidate numeric count.
+- Rebuilt the standalone Autodidact HTML so the embedded corpus, hero chips, timeline, and catalog reflect the 82-row corpus.

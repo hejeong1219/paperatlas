@@ -1,54 +1,55 @@
 ---
 title: "Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer."
-authors:
-  - "Anurag"
-  - "Jaehnig"
-  - "Krug"
 year: "2022"
-journal: "Cancer discovery"
-doi: "10.1158/2159-8290.CD-22-0200"
-pmid: "36001024"
-pmcid: "PMC9627136"
-paper_kind: proteogenomic
+paper_kind: "cell-line/xenograft perturbation"
 pdf: "raw/inbox/papers/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response.pdf"
-topic: ptmanchor
+topic: "multiomics-proteomics-ptm-identification"
 tags:
-  - "ptmanchor"
-  - "proteomics"
-  - "ptm"
+  - "multiomics-proteomics-ptm-identification"
+  - "local-pdf-ingest"
+  - "cancer-proteomics"
   - "phosphoproteomics"
-  - "cancer-proteomics"
-  - "pmid-36001024"
 themes:
-  - "ptm-correction"
-  - "kinase-signaling"
-  - "cancer-proteomics"
+  - "multiomics-identification"
+  - "ptm-methodology"
 ---
 # Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer.
 
-_Cancer discovery, 2022._ PMID: [36001024](https://pubmed.ncbi.nlm.nih.gov/36001024/).
-
-DOI: [10.1101/2021.08.20.457116](https://doi.org/10.1101/2021.08.20.457116)
-
 ## Summary
 
-**UNLABELLED**: Microscaled proteogenomics was deployed to probe the molecular basis for differential response to neoadjuvant carboplatin and docetaxel combination chemotherapy for triple-negative breast cancer (TNBC). Proteomic analyses of pretreatment patient biopsies uniquely revealed metabolic pathways, including oxidative phosphorylation, adipogenesis, and fatty acid metabolism, that were associated with resistance. Both proteomics and transcriptomics revealed that sensitivity was marked by elevation of DNA repair, E2F targets, G2-M checkpoint, interferon-gamma signaling, and immune-checkpoint components. Proteogenomic analyses of somatic copy-number aberrations identified a resistance-associated 19q13.31-33 deletion where LIG1, POLD1, and XRCC1 are located. In orthogonal datasets, LIG1 (DNA ligase I) gene deletion and/or low mRNA expression levels were associated with lack of pathologic complete response, higher chromosomal instability index (CIN), and poor prognosis in TNBC, as well as carboplatin-selective resistance in TNBC preclinical models. Hemizygous loss of LIG1 was also associated with higher CIN and poor prognosis in other cancer types, demonstrating broader clinical implications.
-
-**SIGNIFICANCE**: Proteogenomic analysis of triple-negative breast tumors revealed a complex landscape of chemotherapy response associations, including a 19q13.31-33 somatic deletion encoding genes serving lagging-strand DNA synthesis (LIG1, POLD1, and XRCC1), that correlate with lack of pathologic response, carboplatin-selective resistance, and, in pan-cancer studies, poor prognosis and CIN. This article is highlighted in the In This Issue feature, p. 2483.
+Local-PDF ingest note for the cancer multiomics/PTM atlas. RESEARCH ARTICLE Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer Downloaded from http://aacrjournals.org/cancerdiscovery/article-pdf/12/11/2586/3218265/2586.pdf by Korea University Medical Library user on 27 April 2026 Meenakshi Anurag1, Eric J.
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Atlas classification: cell-line/xenograft perturbation.
+- Quantitative atlas row: candidate.
+- Claims in this page were extracted from the local PDF text; web pages were not used as evidence.
 
+## Multi-Omics Identification Extraction
+
+- Cohort/scope: Breast cancer; classification `cell-line/xenograft perturbation`.
+- Proteome count candidate: not confidently extracted from main PDF text.
+- Phosphoproteome count candidate: not confidently extracted from main PDF text.
+- Acetylome count candidate: not confidently extracted from main PDF text.
+- Method/instrument evidence from local PDF:
+  - Genes Downloaded from http://aacrjournals.org/cancerdiscovery/article-pdf/12/11/2586/3218265/2586.pdf by Korea University Medical Library user on 27 April 2026 exome DNA sequencing (WES), RNA sequencing (RNA-seq), with lower correlations were enriched in pathways containing and tandem mass tag (TMT)–based proteomics and phos- large protein complexes servi...
+  - (100×), RNA-seq, and quantitative, multiplexed (TMT) mass Expected associations for pCR with germline mutations in spectrometry (MS)–based proteomics and phosphoproteomics the homologous recombination genes BRCA1/2 and PALB2 (Fig.
+  - TMT11 with high RCB (II or III; P = 0.03; Supplementary Fig.
+  - (interferon alpha and gamma response) and cell cycle (G2–M 2588 | CANCER DISCOVERY NOVEMBER 2022 AACRJournals.org Proteogenomic Markers of Chemotherapy Resistance in TNBC RESEARCH ARTICLE A NCT02124902 (WashU) and B NCT02547987 (BCM) pCR (N = 22) Non-pCR (N = 37) Treatment = Docetaxel + Carboplatin RCB Patients enrolled in trial Race Mutation N = 87 patie...
+  - Mutation and copy-number data were derived from WES and RNA from RNA-seq, and protein data were obtained from TMT proteomics generated by this current study.
+- Count evidence snippets from local PDF:
+  - Proteogenomic analyses of somatic copy- number aberrations identified a resistance-associated 19q13.31–33 deletion where LIG1, POLD1, and XRCC1 are located.
+  - Sets of phosphosites induced by treatment chemotherapy (NCT02547987 and NCT02124902).
+  - 1E; phosphoproteomic analysis quantified ∼27,000 phospho- Supplementary Table S6).
+  - In contrast, immune signaling rylation sites in ∼5,000 distinct phosphoproteins (Fig.
+  - baseline MYC TARGETS V1 MYC TARGETS V2 E2F TARGETS G2M CHECKPOINT 4 FATTY ACID METABOLISM C MITOTIC SPINDLE Signed −log10 (FDR) from 1,745 OXIDATIVE PHOSPHORYLATION MTORC1 SIGNALING 177 2 PI3K AKT MTOR SIGNALING UNFOLDED PROTEIN RESPONSE Protein (11,063) ADIPOGENESIS GLYCOLYSIS 6,091 0 APICAL JUNCTION Phosphoprotein NOTCH SIGNALING GSEA based on different...
+- Interpretation note: preserve the reported unit; do not convert protein groups, phosphosites, phosphopeptides, acetylsites, and phosphoproteins into a false common metric.
 
 ## Connections
 
-- [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
-- [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
+- [Multiomics PTM Corpus Queue](../analyses/multiomics-ptm-corpus-queue.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
-- PubMed: <https://pubmed.ncbi.nlm.nih.gov/36001024/>
-- DOI: <https://doi.org/10.1101/2021.08.20.457116>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5982584/>
+- Local PDF: `raw/inbox/papers/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response.pdf`
