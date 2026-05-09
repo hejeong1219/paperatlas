@@ -23,7 +23,8 @@ There are three layers:
 1. `raw/`: source of truth, never edited by the agent except for optional file moves from `raw/inbox/` to `raw/processed/` when the user wants archival organization.
 2. `wiki/`: LLM-authored markdown pages that summarize, synthesize, compare, and connect information.
 3. `wiki_html/`: Quartz-based publish layer that renders `wiki/` into static HTML for GitHub Pages.
-4. `AGENTS.md`: this operating schema, which governs structure and workflow.
+4. `interactives/`: standalone Korean HTML visualizations derived from the wiki plus re-read source PDFs.
+5. `AGENTS.md`: this operating schema, which governs structure and workflow.
 
 ## Directory conventions
 
@@ -33,6 +34,11 @@ There are three layers:
 - `wiki/concepts/`: recurring ideas, methods, themes, arguments, frameworks
 - `wiki/analyses/`: user-driven analyses, comparisons, Q&A outputs worth preserving
 - `wiki/syntheses/`: top-level overviews, theses, and long-running summaries
+- `interactives/`: source-controlled interactive HTML projects, one subfolder per visualization
+- `interactives/<slug>/index.html`: primary hosted visualization entry point
+- `interactives/<slug>/data/`: curated CSV/JSON data extracted from wiki pages and source PDFs
+- `interactives/<slug>/assets/`: local images, styles, or static assets for that visualization
+- `interactives/<slug>/README.md`: provenance note, source list, and update status
 - `wiki/_meta/index.md`: authoritative page catalog
 - `wiki/_meta/log.md`: append-only operational log
 - `wiki_html/content/`: synchronized copy of `wiki/` used for public publishing
@@ -93,6 +99,13 @@ Use the conventions in `wiki/_meta/paper-frontmatter-schema.md` and favor stable
 - Distinguish observed facts from inferred synthesis.
 - If sources disagree, keep both views and label the conflict.
 
+## Source boundary
+
+- Do not use web search or general web pages as evidence for wiki claims, scientific summaries, extracted numeric values, or visualization data.
+- Scientific content must come from local raw papers, local supplementary files, and maintained wiki pages that cite those local sources.
+- Web access is allowed only for non-scientific operational tasks such as checking a visual design reference, GitHub Pages behavior, package documentation, or repository tooling, and those web pages must not be cited as evidence for the research content.
+- If a needed value is not present in the local paper/PDF/supplement or existing wiki, mark it as missing and ask for the paper or supplement instead of filling it from the web.
+
 ## Ingest workflow
 
 When the user asks to ingest a source:
@@ -147,10 +160,27 @@ Record meaningful maintenance passes in the log.
 When the user asks to publish or update the site:
 
 1. Update or create content in `wiki/`.
-2. Run `./bin/sync-wiki-html` to copy public markdown into `wiki_html/content/`.
-3. Build or serve Quartz from `wiki_html/`.
+2. Run `./bin/sync-wiki-html` to copy public markdown into `wiki_html/content/` and interactive HTML projects into `wiki_html/content/interactives/`.
+3. Build or serve Quartz from `wiki_html/`. Production builds run `./bin/copy-interactives-public` after Quartz so each `interactives/<slug>/index.html` overrides Quartz's folder page and becomes the hosted entry point.
 4. Keep `wiki/_meta/` and `raw/` out of the public site unless explicitly requested.
 5. Record meaningful publishing setup changes in `wiki/_meta/log.md`.
+
+## Interactive visualization workflow
+
+When the user asks for an interactive plot or visual HTML:
+
+1. Start with `wiki/_meta/index.md`, then search the wiki using `./bin/qmd search "<terms>"`.
+2. Open relevant wiki source/topic/concept pages and identify the source PDFs behind the claims.
+3. Re-read the original PDFs in `raw/`, especially Methods, Supplementary Tables, Data Availability, and figure legends, because the wiki summary may not contain enough numeric detail.
+4. Extract the requested fields into a small, auditable dataset in `interactives/<slug>/data/`.
+5. Build a standalone Korean `interactives/<slug>/index.html` with interactive plots, filters, tooltips, and clear uncertainty labels.
+6. Include a `README.md` in the interactive folder listing source pages, raw PDFs, extraction assumptions, missing values, and update status.
+7. Run `./bin/sync-wiki-html`, then build or serve Quartz from `wiki_html/`.
+8. If the user asks to host it, commit and push to GitHub so Pages serves it at `/interactives/<slug>/`.
+
+Interactive pages should be in Korean by default when the user asks in Korean. Preserve uncertainty: if a paper reports proteins, phosphosites, acetylsites, peptides, or quantified IDs differently, keep the paper's original definition visible instead of forcing all values into a false common metric.
+
+For visual style, an external example site may be used only as a layout or interaction reference. Do not copy its scientific content, and do not use web pages to fill any study-level data.
 
 ## Index format
 

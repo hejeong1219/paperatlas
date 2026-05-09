@@ -4,6 +4,8 @@ set -eu
 REPO_ROOT="$(CDPATH= cd -- "$(dirname "$0")/.." && pwd)"
 SRC="$REPO_ROOT/wiki/"
 DST="$REPO_ROOT/wiki_html/content/"
+INTERACTIVES_SRC="$REPO_ROOT/interactives/"
+INTERACTIVES_DST="$REPO_ROOT/wiki_html/content/interactives/"
 
 mkdir -p "$DST"
 
@@ -13,5 +15,13 @@ rsync -a --delete \
   "$SRC" "$DST"
 
 rm -f "$DST/.gitkeep"
+
+if [ -d "$INTERACTIVES_SRC" ]; then
+  mkdir -p "$INTERACTIVES_DST"
+  rsync -a --delete \
+    --exclude ".DS_Store" \
+    "$INTERACTIVES_SRC" "$INTERACTIVES_DST"
+  printf '%s\n' "Synced interactives/ -> wiki_html/content/interactives/"
+fi
 
 printf '%s\n' "Synced wiki/ -> wiki_html/content/"

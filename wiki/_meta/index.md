@@ -6,6 +6,10 @@ Catalog of maintained wiki pages.
 
 - [Overview](../syntheses/overview.md) - Top-level summary of the wiki's purpose, current scope, and growth areas.
 
+## Interactives
+
+- [Multiomics Proteomics PTM Identification](../../interactives/multiomics-proteomics-ptm-identification/README.md) - Scaffold for a Korean interactive HTML visualization of recent multi-omics proteomics, phosphoproteomics, acetylomics identification counts, MS methods, and instruments.
+
 ## Sources
 
 - [Oncology Meets Immunology: The Cancer-Immunity Cycle](../sources/chen-2013-cancer-immunity-cycle.md) - Foundational review that frames antitumor immunity as a stepwise cycle with multiple therapeutic failure points.

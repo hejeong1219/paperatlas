@@ -339,3 +339,14 @@ Append-only operational history for this wiki.
 - Generated 50 manuscript-relevance-oriented research questions in wiki/_meta/research-questions-queue.md spanning ptmanchor (17), B-cell neoantigen (17), and cancer resistance (16). Each question is gap-focused (research direction / underexplored area / current evidence shortfall) so the synthesized answer is directly usable in the corresponding manuscript's Discussion or Future Work.
 - Q1 answered: created wiki/concepts/ptm-correction-confounding-foundations.md. Synthesis grounds the ptmanchor manuscript's Discussion with concrete numbers (38–55% raw-up sites are protein-driven across CPTAC; median λ = 0.64 in LUAD; 7 kinases recovered, 16 false-positive kinases removed by correction).
 - Remaining 49 questions queued for ScheduleWakeup batches.
+
+## [2026-05-09] tooling | interactive visualization folder scaffold
+
+- Added root-level `interactives/` as the source-controlled home for standalone Korean HTML visualizations.
+- Created `interactives/multiomics-proteomics-ptm-identification/` with `index.html`, `data/studies.json`, `data/`, `assets/`, and provenance README.
+- Updated `./bin/sync-wiki-html` so interactive projects sync into `wiki_html/content/interactives/` for GitHub Pages publishing.
+- Documented the workflow: search wiki first, re-read original PDFs for numeric extraction, build Korean interactive HTML, then publish through Quartz/GitHub Pages.
+- Added a strict source-boundary rule: no web search or general web pages for scientific wiki claims, extracted numeric values, or visualization data; external websites may guide layout only.
+- Populated the multiomics interactive dataset from local PDFs for Mertins 2016, Dou 2020, Gillette 2020, Huang 2021, Cao 2021, Satpathy 2021, Zhang 2022, Li 2023, and Zhao 2025.
+- Built a Korean standalone interactive HTML with filters, comparative bars, study cards, and evidence table for protein/phosphosite/acetylsite counts plus MS method and instrument notes.
+- Added `./bin/copy-interactives-public` and wired `wiki_html/package.json` so production builds overwrite Quartz folder pages with each interactive project's standalone `index.html`.

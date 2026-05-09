@@ -6,6 +6,7 @@ This repository separates:
 
 - `raw/`: immutable source material
 - `wiki/`: LLM-maintained markdown knowledge base
+- `interactives/`: standalone interactive HTML visualizations generated from wiki research plus source PDFs
 - `wiki_html/`: Quartz-based publish layer for GitHub Pages
 - `AGENTS.md`: operating schema for Codex and future agent sessions
 
@@ -20,6 +21,7 @@ This repository separates:
 - `wiki/concepts/`: recurring ideas, themes, methods, frameworks
 - `wiki/analyses/`: comparison pages, Q&A outputs, focused investigations
 - `wiki/syntheses/`: higher-level overviews and evolving theses
+- `interactives/`: hosted visualization projects, each with `index.html`, `data/`, `assets/`, and `README.md`
 - `wiki/_meta/`: navigation and maintenance files
 - `wiki_html/`: static site generator config, build scripts, and generated HTML
 
@@ -29,6 +31,7 @@ This repository separates:
 2. Ask Codex to ingest it into the wiki.
 3. Review the updated pages in `wiki/`.
 4. Ask follow-up questions and file useful answers back into the wiki.
+5. For visual outputs, ask for a Korean interactive HTML page under `interactives/<slug>/`.
 
 For papers, use:
 
@@ -63,13 +66,17 @@ Notes:
 
 ## Publishing
 
-`wiki/` is the source of truth. `wiki_html/` is a Quartz publish layer that turns `wiki/` into a GitHub Pages site.
+`wiki/` is the source of truth for markdown knowledge. `interactives/` is the source of truth for standalone HTML visualizations. `wiki_html/` is a Quartz publish layer that turns both into a GitHub Pages site.
 
-- Sync content: `./bin/sync-wiki-html`
+- Sync content and interactives: `./bin/sync-wiki-html`
 - Preview locally: `cd wiki_html && npm run serve:wiki`
 - Production build: `cd wiki_html && npm run build:wiki`
 
-The sync step copies `wiki/` into `wiki_html/content/` and excludes internal `_meta/` files from the public site.
+The sync step copies `wiki/` into `wiki_html/content/`, copies `interactives/` into `wiki_html/content/interactives/`, and excludes internal `_meta/` files from the public site.
+
+Interactive visualizations should usually be created by re-reading the original PDFs in `raw/`, not only the wiki summaries, then documenting extracted fields and missing values in the interactive folder's `README.md`.
+
+Production builds also run `./bin/copy-interactives-public` after Quartz emits the site, so each interactive project's own `index.html` becomes the public folder entry page.
 
 ## Suggested workflow
 

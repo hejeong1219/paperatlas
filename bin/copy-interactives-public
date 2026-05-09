@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+
+REPO_ROOT="$(CDPATH= cd -- "$(dirname "$0")/.." && pwd)"
+SRC="$REPO_ROOT/interactives/"
+DST="$REPO_ROOT/wiki_html/public/interactives/"
+
+if [ ! -d "$SRC" ]; then
+  exit 0
+fi
+
+mkdir -p "$DST"
+rsync -a --delete \
+  --exclude ".DS_Store" \
+  "$SRC" "$DST"
+
+printf '%s\n' "Copied interactives/ -> wiki_html/public/interactives/"

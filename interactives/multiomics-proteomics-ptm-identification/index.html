@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>최근 10년 멀티오믹스 MS 식별 수 아틀라스</title>
+    <style>
+      :root {
+        --bg: #f7f5ee;
+        --ink: #1d1c19;
+        --muted: #65625b;
+        --line: #d8d3c6;
+        --panel: #fffdfa;
+        --panel-2: #efebe0;
+        --protein: #176087;
+        --phospho: #5f7f3f;
+        --acetyl: #a4473f;
+        --warn: #a46a13;
+        --shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family:
+          IBM Plex Sans,
+          Apple SD Gothic Neo,
+          Noto Sans KR,
+          system-ui,
+          sans-serif;
+        letter-spacing: 0;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        display: grid;
+        grid-template-columns: 280px minmax(0, 1fr);
+        min-height: 100vh;
+      }
+
+      aside {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        border-right: 1px solid var(--line);
+        background: #ebe7dc;
+        padding: 24px 18px;
+        overflow: auto;
+      }
+
+      main {
+        min-width: 0;
+        padding: 28px;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(30px, 4vw, 52px);
+        line-height: 1.08;
+      }
+
+      h2 {
+        margin: 0 0 14px;
+        font-size: 20px;
+      }
+
+      h3 {
+        margin: 0 0 8px;
+        font-size: 15px;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .eyebrow {
+        margin-bottom: 10px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .lead {
+        max-width: 860px;
+        color: var(--muted);
+        font-size: 17px;
+        line-height: 1.65;
+      }
+
+      .rule {
+        margin-top: 18px;
+        border: 1px solid #dcc99f;
+        background: #fff7df;
+        color: #463716;
+        border-radius: 8px;
+        padding: 12px 14px;
+        line-height: 1.5;
+        font-size: 14px;
+      }
+
+      .controls {
+        display: grid;
+        gap: 12px;
+        margin-top: 22px;
+      }
+
+      label {
+        display: grid;
+        gap: 6px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      select,
+      input {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--panel);
+        color: var(--ink);
+        padding: 10px 11px;
+        font: inherit;
+        font-size: 14px;
+      }
+
+      .legend {
+        display: grid;
+        gap: 8px;
+        margin-top: 22px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .legend span {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .swatch {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 330px;
+        gap: 20px;
+        align-items: end;
+        margin-bottom: 22px;
+      }
+
+      .metric-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .metric,
+      .panel,
+      .study-card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .metric {
+        padding: 14px;
+        min-height: 105px;
+      }
+
+      .metric .label {
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .metric .value {
+        margin-top: 6px;
+        font-size: 30px;
+        font-weight: 800;
+      }
+
+      .metric .value.red {
+        color: var(--acetyl);
+      }
+
+      .metric .value.green {
+        color: var(--phospho);
+      }
+
+      .metric .sub {
+        margin-top: 5px;
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.35;
+      }
+
+      .panel {
+        padding: 18px;
+        margin-bottom: 16px;
+      }
+
+      .chart {
+        display: grid;
+        gap: 10px;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 160px minmax(0, 1fr);
+        gap: 12px;
+        align-items: center;
+      }
+
+      .row-label {
+        min-width: 0;
+      }
+
+      .row-label strong {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 13px;
+      }
+
+      .row-label span {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .bars {
+        display: grid;
+        gap: 4px;
+      }
+
+      .bar-line {
+        display: grid;
+        grid-template-columns: 86px minmax(0, 1fr) 92px;
+        gap: 8px;
+        align-items: center;
+        min-height: 22px;
+      }
+
+      .bar-name {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .track {
+        height: 12px;
+        border-radius: 999px;
+        background: var(--panel-2);
+        overflow: hidden;
+      }
+
+      .bar {
+        height: 100%;
+        min-width: 2px;
+        border-radius: 999px;
+      }
+
+      .bar-value {
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+        font-size: 12px;
+        text-align: right;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 12px;
+      }
+
+      .study-card {
+        padding: 15px;
+        display: grid;
+        gap: 10px;
+      }
+
+      .study-card header {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .tag {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 3px 8px;
+        color: var(--muted);
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+      .counts {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 7px;
+      }
+
+      .count {
+        border-radius: 6px;
+        background: var(--panel-2);
+        padding: 8px;
+      }
+
+      .count b {
+        display: block;
+        font-size: 18px;
+      }
+
+      .count span {
+        color: var(--muted);
+        font-size: 11px;
+      }
+
+      .note {
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 900px;
+        font-size: 13px;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 10px 8px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .empty {
+        color: var(--warn);
+      }
+
+      @media (max-width: 980px) {
+        .shell {
+          grid-template-columns: 1fr;
+        }
+
+        aside {
+          position: static;
+          height: auto;
+        }
+
+        main {
+          padding: 20px 16px 36px;
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .metric-grid,
+        .counts {
+          grid-template-columns: 1fr;
+        }
+
+        .row {
+          grid-template-columns: 1fr;
+        }
+
+        .bar-line {
+          grid-template-columns: 70px minmax(0, 1fr) 76px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <aside>
+        <div class="eyebrow">PaperAtlas Interactive</div>
+        <h2>필터</h2>
+        <div class="controls">
+          <label>
+            암종/범위
+            <select id="cancerFilter"></select>
+          </label>
+          <label>
+            연구 유형
+            <select id="typeFilter"></select>
+          </label>
+          <label>
+            검색
+            <input id="searchBox" type="search" placeholder="논문, 암종, 장비 검색" />
+          </label>
+        </div>
+        <div class="legend">
+          <span><i class="swatch" style="background: var(--protein)"></i>단백체</span>
+          <span><i class="swatch" style="background: var(--phospho)"></i>인산화 단백체/PTM</span>
+          <span><i class="swatch" style="background: var(--acetyl)"></i>아세틸 단백체/PTM</span>
+        </div>
+        <div class="rule">
+          근거 규칙: 웹 검색값을 사용하지 않고, 로컬 위키 source page와 원문 PDF에서 다시 읽은 값만 넣었습니다.
+          값이 PDF text에서 단일 수치로 확인되지 않으면 비워두었습니다.
+        </div>
+      </aside>
+
+      <main>
+        <section class="hero">
+          <div>
+            <div class="eyebrow">최근 10년 멀티오믹스 연구</div>
+            <h1>단백체, 인산화, 아세틸화 식별 수와 MS 플랫폼</h1>
+            <p class="lead">
+              CPTAC 계열 암 proteogenomics 논문과 최근 PTM perturbation 논문에서 보고된
+              protein, phosphosite/phosphopeptide, acetylsite 식별 또는 정량 규모를 같은 화면에서
+              비교합니다. 논문마다 보고 단위가 다르므로, 막대 아래의 정의와 근거 문장을 함께 확인해야 합니다.
+            </p>
+          </div>
+          <div class="metric-grid">
+            <div class="metric">
+              <div class="label">표시 논문</div>
+              <div class="value" id="studyCount">0</div>
+              <div class="sub">로컬 PDF 재확인 기준</div>
+            </div>
+            <div class="metric">
+              <div class="label">아세틸화 포함</div>
+              <div class="value red" id="acetylCount">0</div>
+              <div class="sub">acetylsite 값이 확인된 연구</div>
+            </div>
+            <div class="metric">
+              <div class="label">최대 PTM 규모</div>
+              <div class="value green" id="maxPtm">0</div>
+              <div class="sub">phospho 또는 acetyl count 기준</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>식별/정량 규모 비교</h2>
+          <div id="chart" class="chart"></div>
+        </section>
+
+        <section class="panel">
+          <h2>연구 카드</h2>
+          <div id="cards" class="cards"></div>
+        </section>
+
+        <section class="panel">
+          <h2>근거 테이블</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>연구</th>
+                  <th>범위</th>
+                  <th>단백체</th>
+                  <th>인산화</th>
+                  <th>아세틸화</th>
+                  <th>MS 방법/장비</th>
+                  <th>PDF 근거</th>
+                </tr>
+              </thead>
+              <tbody id="evidenceTable"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      const fmt = new Intl.NumberFormat("ko-KR")
+      const metricDefs = [
+        ["protein_count", "단백체", "protein", "var(--protein)"],
+        ["phospho_count", "인산화", "phospho", "var(--phospho)"],
+        ["acetyl_count", "아세틸화", "acetyl", "var(--acetyl)"],
+      ]
+
+      let studies = []
+
+      function valueText(value) {
+        return value == null ? "미보고" : fmt.format(value)
+      }
+
+      function byFilters(row) {
+        const cancer = document.querySelector("#cancerFilter").value
+        const type = document.querySelector("#typeFilter").value
+        const term = document.querySelector("#searchBox").value.trim().toLowerCase()
+        const haystack = [row.study, row.title, row.cancer, row.method, row.instrument, row.notes]
+          .join(" ")
+          .toLowerCase()
+        return (
+          (cancer === "all" || row.cancer === cancer) &&
+          (type === "all" || row.cohort_type === type) &&
+          (!term || haystack.includes(term))
+        )
+      }
+
+      function setupFilters() {
+        const cancerOptions = ["all", ...new Set(studies.map((d) => d.cancer))]
+        const typeOptions = ["all", ...new Set(studies.map((d) => d.cohort_type))]
+        document.querySelector("#cancerFilter").innerHTML = cancerOptions
+          .map((d) => `<option value="${d}">${d === "all" ? "전체" : d}</option>`)
+          .join("")
+        document.querySelector("#typeFilter").innerHTML = typeOptions
+          .map((d) => `<option value="${d}">${d === "all" ? "전체" : d}</option>`)
+          .join("")
+        document.querySelectorAll("select, input").forEach((el) => el.addEventListener("input", render))
+      }
+
+      function render() {
+        const rows = studies.filter(byFilters)
+        const maxValue = Math.max(1, ...rows.flatMap((d) => metricDefs.map(([key]) => d[key] || 0)))
+        document.querySelector("#studyCount").textContent = fmt.format(rows.length)
+        document.querySelector("#acetylCount").textContent = fmt.format(rows.filter((d) => d.acetyl_count).length)
+        document.querySelector("#maxPtm").textContent = valueText(
+          Math.max(0, ...rows.map((d) => Math.max(d.phospho_count || 0, d.acetyl_count || 0))),
+        )
+
+        document.querySelector("#chart").innerHTML = rows
+          .map((row) => {
+            const lines = metricDefs
+              .map(([key, label, cls, color]) => {
+                const value = row[key]
+                const width = value == null ? 0 : Math.max(0.5, (value / maxValue) * 100)
+                const type = row[`${cls}_count_type`] || row[`${cls}_type`] || ""
+                return `<div class="bar-line" title="${type}">
+                  <div class="bar-name">${label}</div>
+                  <div class="track"><div class="bar" style="width:${width}%;background:${color}"></div></div>
+                  <div class="bar-value ${value == null ? "empty" : ""}">${valueText(value)}</div>
+                </div>`
+              })
+              .join("")
+            return `<div class="row">
+              <div class="row-label"><strong>${row.study} ${row.year}</strong><span>${row.cancer}</span></div>
+              <div class="bars">${lines}</div>
+            </div>`
+          })
+          .join("")
+
+        document.querySelector("#cards").innerHTML = rows
+          .map(
+            (row) => `<article class="study-card">
+              <header>
+                <div>
+                  <h3>${row.study} ${row.year}</h3>
+                  <p class="note">${row.cancer}</p>
+                </div>
+                <span class="tag">${row.cohort_type}</span>
+              </header>
+              <div class="counts">
+                <div class="count"><b style="color:var(--protein)">${valueText(row.protein_count)}</b><span>${row.protein_count_type}</span></div>
+                <div class="count"><b style="color:var(--phospho)">${valueText(row.phospho_count)}</b><span>${row.phospho_count_type}</span></div>
+                <div class="count"><b style="color:var(--acetyl)">${valueText(row.acetyl_count)}</b><span>${row.acetyl_count_type}</span></div>
+              </div>
+              <p class="note">${row.method}</p>
+              <p class="note">${row.instrument}</p>
+            </article>`,
+          )
+          .join("")
+
+        document.querySelector("#evidenceTable").innerHTML = rows
+          .map(
+            (row) => `<tr>
+              <td><strong>${row.study} ${row.year}</strong><br />${row.title}</td>
+              <td>${row.cohort}</td>
+              <td>${valueText(row.protein_count)}<br /><span class="note">${row.protein_count_type}</span></td>
+              <td>${valueText(row.phospho_count)}<br /><span class="note">${row.phospho_count_type}</span></td>
+              <td>${valueText(row.acetyl_count)}<br /><span class="note">${row.acetyl_count_type}</span></td>
+              <td>${row.method}<br /><span class="note">${row.instrument}</span></td>
+              <td>${row.evidence}<br /><span class="note">${row.raw_pdf}</span></td>
+            </tr>`,
+          )
+          .join("")
+      }
+
+      fetch("data/studies.json")
+        .then((response) => response.json())
+        .then((data) => {
+          studies = data.sort((a, b) => a.year - b.year)
+          setupFilters()
+          render()
+        })
+        .catch((error) => {
+          document.querySelector("#chart").innerHTML = `<p class="empty">데이터를 불러오지 못했습니다: ${error.message}</p>`
+        })
+    </script>
+  </body>
+</html>
