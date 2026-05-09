@@ -400,3 +400,9 @@ Append-only operational history for this wiki.
 - Added caveated `Multi-Omics Identification Extraction` notes for newly ingested PDFs, labeling methods/tool papers and out-of-scope/broader multiomics papers separately from quantitative atlas rows.
 - Promoted 15 additional local-PDF-backed rows into `autodidact/multiomics-ptm-cancer/data/studies.json`; the standalone Autodidact corpus now covers 82 rows, with 33 rows carrying at least one candidate numeric count.
 - Rebuilt the standalone Autodidact HTML so the embedded corpus, hero chips, timeline, and catalog reflect the 82-row corpus.
+
+## [2026-05-09] governance | interactive artifact dashboard
+
+- Compared the repository against external LLM Wiki / AI-for-biology management examples and clarified that this repo uses `AGENTS.md` as the operating contract rather than `CLAUDE.md`.
+- Added public artifact management rules to `AGENTS.md`: keep topic hub, source queue, interactive artifact, corpus counts, status caveats, and logs synchronized.
+- Added `interactives/index.html` as a lightweight dashboard for standalone HTML artifacts and current corpus status.

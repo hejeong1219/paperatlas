@@ -26,6 +26,8 @@ There are three layers:
 4. `interactives/`: standalone Korean HTML visualizations derived from the wiki plus re-read source PDFs.
 5. `AGENTS.md`: this operating schema, which governs structure and workflow.
 
+This repository follows the LLM Wiki pattern in spirit: raw PDFs are immutable evidence, `wiki/sources/` pages are source-level compiled notes, topic/concept/analysis pages are synthesized knowledge, and HTML/interactive pages are public artifacts derived from that maintained wiki. Do not treat a generated HTML page as the source of truth; update the wiki and data provenance first, then rebuild the public artifact.
+
 ## Directory conventions
 
 - `wiki/sources/`: source summaries, one page per ingested source
@@ -35,6 +37,7 @@ There are three layers:
 - `wiki/analyses/`: user-driven analyses, comparisons, Q&A outputs worth preserving
 - `wiki/syntheses/`: top-level overviews, theses, and long-running summaries
 - `interactives/`: source-controlled interactive HTML projects, one subfolder per visualization
+- `interactives/index.html`: lightweight dashboard listing current interactive artifacts, corpus status, public path, and update state
 - `interactives/<slug>/index.html`: primary hosted visualization entry point
 - `interactives/<slug>/data/`: curated CSV/JSON data extracted from wiki pages and source PDFs
 - `interactives/<slug>/assets/`: local images, styles, or static assets for that visualization
@@ -175,12 +178,20 @@ When the user asks for an interactive plot or visual HTML:
 4. Extract the requested fields into a small, auditable dataset in `interactives/<slug>/data/`.
 5. Build a standalone Korean `interactives/<slug>/index.html` with interactive plots, filters, tooltips, and clear uncertainty labels.
 6. Include a `README.md` in the interactive folder listing source pages, raw PDFs, extraction assumptions, missing values, and update status.
-7. Run `./bin/sync-wiki-html`, then build or serve Quartz from `wiki_html/`.
-8. If the user asks to host it, commit and push to GitHub so Pages serves it at `/interactives/<slug>/`.
+7. Update `interactives/index.html` whenever an interactive artifact is created, renamed, substantially expanded, or published.
+8. Run `./bin/sync-wiki-html`, then build or serve Quartz from `wiki_html/`.
+9. If the user asks to host it, commit and push to GitHub so Pages serves it at `/interactives/<slug>/`.
 
 Interactive pages should be in Korean by default when the user asks in Korean. Preserve uncertainty: if a paper reports proteins, phosphosites, acetylsites, peptides, or quantified IDs differently, keep the paper's original definition visible instead of forcing all values into a false common metric.
 
 For visual style, an external example site may be used only as a layout or interaction reference. Do not copy its scientific content, and do not use web pages to fill any study-level data.
+
+## Public artifact management
+
+- Keep a visible status spine for public outputs: topic hub in `wiki/topics/`, source queue or analysis page in `wiki/analyses/`, standalone artifact in `interactives/`, and build output through `wiki_html/`.
+- Every substantial artifact should answer: what corpus it uses, how many source rows are reflected, which values are PDF-confirmed versus caveated, what remains pending, and where it will be hosted.
+- When corpus size changes, update the data file, embedded HTML data, artifact dashboard, relevant topic/analysis pages, `wiki/_meta/index.md`, and `wiki/_meta/log.md`.
+- Do not inflate corpus counts with methods-only, tool/database, review, or out-of-scope papers. They can be source notes and context, but quantitative visualization rows need explicit local-PDF evidence and caveats.
 
 ## Index format
 
