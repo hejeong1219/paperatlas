@@ -34,8 +34,23 @@ We present a proteogenomic study of 108 human papilloma virus (HPV)-negative hea
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- This paper contributes to the multi-omics/PTM atlas as a tumor/normal cohort.
+- The extracted visualization fields are protein-scale, phosphorylation-scale, acetylation-scale, MS method, and instrument/platform.
+- Count units are not harmonized when the paper reports different entities such as proteins, protein groups, phosphosites, phosphopeptides, acetylsites, or phospho-protein features.
 
+
+## Multi-Omics Identification Extraction
+
+This section was added for the interactive atlas on recent multi-omics proteomics/PTM identification scale. Values are taken from the local PDF and preserve the paper's own reporting unit.
+
+- Cohort/scope: 108 tumors; paired NAT subset used for tumor-normal comparisons.
+- Proteome: 11,744 (identified proteins).
+- Phosphoproteome: 56,959 (confidently localized phosphosites).
+- Acetylome: not assayed or not reported as a single extractable count (not assayed/reported).
+- MS method: TMT-11; bRPLC fractionation; Fe-IMAC phosphopeptide enrichment; global proteome and phosphoproteome.
+- Instrument/platform: Easy nLC 1200 UHPLC coupled to Thermo Fusion Lumos.
+- Extraction evidence: Results text: 11,744 proteins; 97,210 phosphopeptides covering 56,959 confidently localized phosphosites from 8,133 genes.
+- Interpretation note: No acetylome layer was described in the extracted paper text.
 
 ## Connections
 

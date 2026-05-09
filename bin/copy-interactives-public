@@ -4,14 +4,21 @@ set -eu
 REPO_ROOT="$(CDPATH= cd -- "$(dirname "$0")/.." && pwd)"
 SRC="$REPO_ROOT/interactives/"
 DST="$REPO_ROOT/wiki_html/public/interactives/"
+AUTODIDACT_SRC="$REPO_ROOT/autodidact/"
+AUTODIDACT_DST="$REPO_ROOT/wiki_html/public/autodidact/"
 
-if [ ! -d "$SRC" ]; then
-  exit 0
+if [ -d "$SRC" ]; then
+  mkdir -p "$DST"
+  rsync -a --delete \
+    --exclude ".DS_Store" \
+    "$SRC" "$DST"
+  printf '%s\n' "Copied interactives/ -> wiki_html/public/interactives/"
 fi
 
-mkdir -p "$DST"
-rsync -a --delete \
-  --exclude ".DS_Store" \
-  "$SRC" "$DST"
-
-printf '%s\n' "Copied interactives/ -> wiki_html/public/interactives/"
+if [ -d "$AUTODIDACT_SRC" ]; then
+  mkdir -p "$AUTODIDACT_DST"
+  rsync -a --delete \
+    --exclude ".DS_Store" \
+    "$AUTODIDACT_SRC" "$AUTODIDACT_DST"
+  printf '%s\n' "Copied autodidact/ -> wiki_html/public/autodidact/"
+fi

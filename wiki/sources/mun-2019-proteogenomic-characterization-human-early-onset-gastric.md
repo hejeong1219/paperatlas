@@ -9,7 +9,7 @@ journal: "Cancer cell"
 doi: "10.1016/j.ccell.2018.12.003"
 pmid: "30645970"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/mun-2019-proteogenomic-characterization-human-early-onset-gastric.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"
@@ -37,14 +37,28 @@ We report proteogenomic analysis of diffuse gastric cancers (GCs) in young popul
 
 _Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
 
+## Multi-Omics Identification Extraction
+
+- Cohort / scope: diffuse gastric cancers in young populations, with paired tumor and adjacent normal samples from 80 patients.
+- Proteome: on average 156,135 peptides and 9,625 protein groups were identified from global proteomes.
+- Phosphoproteome: on average 28,944 phosphopeptides were identified; a spectral library later compiled 136,933 non-redundant phosphopeptides across 80 tissue pairs.
+- Acetylome: not reported as a measured acetylome layer in the extracted PDF text.
+- Other PTM layer: 4,376 N-glycopeptides identified on average; N-glycoproteome is central to the study but should not be plotted as acetylome.
+- MS method: iTRAQ labeling, global proteome profiling, sequential IMAC phosphopeptide enrichment, and lectin-based N-glycopeptide enrichment.
+- Instrument / platform: Q Exactive Orbitrap mass spectrometer coupled to automated LC-MS/MS with alternating analytical/SPE columns.
+- Software / search: sample-specific customized databases, PE-MMR precursor mass correction, MS-GF+ search, bipartite protein-group rollup, protein-level FDR about 1.33%.
+- Extraction evidence: local PDF Results report 9,625 protein groups, 28,944 phosphopeptides, and 4,376 N-glycopeptides; STAR Methods report iTRAQ, IMAC, N-glycopeptide enrichment, Q Exactive Orbitrap, and PE-MMR/MS-GF+.
+- Interpretation note: include as proteome/phosphoproteome with glycoproteome note; acetylome remains not reported.
 
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/mun-2019-proteogenomic-characterization-human-early-onset-gastric.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/30645970/>
 - DOI: <https://doi.org/10.1016/j.ccell.2018.12.003>

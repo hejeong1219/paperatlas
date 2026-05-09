@@ -28,7 +28,7 @@ themes:
 
 _Nature communications, 2023._ PMID: [37012232](https://pubmed.ncbi.nlm.nih.gov/37012232/).
 
-DOI: [10.1109/TVCG.2014.2346248](https://doi.org/10.1109/TVCG.2014.2346248)
+DOI: [10.1038/s41467-023-37547-0](https://doi.org/10.1038/s41467-023-37547-0)
 
 ## Summary
 
@@ -36,17 +36,33 @@ Serial multi-omic analysis of proteome, phosphoproteome, and acetylome provides 
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- MONTE is a serial sample-limited tissue workflow, not a large patient atlas; it is useful for the interactive atlas mainly as a methods/platform reference for simultaneous proteome, phosphoproteome, acetylome, ubiquitylome, and immunopeptidome acquisition.
+- The paper demonstrates that sequential HLA-I/HLA-II immunopeptidome capture can be combined with downstream UbiFast, proteome, phosphoproteome, and acetylome workflows without losing the main PTM readouts.
+- The LUAD demonstration and PDX validation make this a strong source for PTM method and instrument metadata, while cohort-scale biological conclusions should be treated cautiously because the workflow validation uses small sample sets.
+
+## Multi-Omics Identification Extraction
+
+This section was added for the interactive atlas on recent multi-omics proteomics/PTM identification scale. Values are taken from the local PDF and preserve the paper's own reporting unit.
+
+- Cohort/scope: MONTE workflow validation using patient lung adenocarcinoma tissues and PDX material; included as a workflow/method paper rather than a population-scale tumor cohort.
+- Proteome: PDX validation reports 9,402 proteins identified and quantified in the UbiFast flow-through experiment.
+- Phosphoproteome: PDX validation reports 28,523 phosphorylation sites identified and quantified; LUAD MONTE comparison reports 26,681 phosphosites / 6,745 phosphoproteins in the no-HLA branch and 22,339 phosphosites / 6,235 phosphoproteins in the HLA-flow-through branch.
+- Acetylome: PDX validation reports 6,294 lysine acetylation sites identified and quantified; LUAD MONTE comparison reports 3,702 internal K-acetylsites in the no-HLA branch and 5,380 internal K-acetylsites in the HLA-flow-through branch.
+- MS method: MONTE serial HLA-I/HLA-II immunopeptidome capture followed by UbiFast K-e-GG, proteome, AssayMAP IMAC phosphopeptide enrichment, and PTMScan acetyl-lysine enrichment; TMTpro/TMT multiplexing; Spectrum Mill database search and TMT quantification.
+- Instrument/platform: Orbitrap Exploris 480 LC-MS/MS platform is reported for the workflow runs.
+- Extraction evidence: local PDF Results and Methods report the PDX 9,402 protein / 28,523 phosphosite / 6,294 acetylsite validation counts and LUAD branch-specific phosphosite and acetylsite counts.
+- Interpretation note: Use as a methods point for serialized multi-omics depth and instrument design, not as a direct comparison to tumor-cohort CPTAC-style atlases.
 
 
 ## Connections
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/37012232/>
-- DOI: <https://doi.org/10.1109/TVCG.2014.2346248>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4720993/>
+- DOI: <https://doi.org/10.1038/s41467-023-37547-0>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10070353/>

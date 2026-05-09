@@ -19,3 +19,4 @@ wiki_html/public/
 /tmp/wiki_work/
 .DS_Store
 scripts/ingest/__pycache__/
+.cookies/

@@ -34,10 +34,27 @@ To explore the biology of lung adenocarcinoma (LUAD) and identify new therapeuti
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- This paper contributes to the multi-omics/PTM atlas as a tumor/normal cohort.
+- The extracted visualization fields are protein-scale, phosphorylation-scale, acetylation-scale, MS method, and instrument/platform.
+- Count units are not harmonized when the paper reports different entities such as proteins, protein groups, phosphosites, phosphopeptides, acetylsites, or phospho-protein features.
 
+
+## Multi-Omics Identification Extraction
+
+This section was added for the interactive atlas on recent multi-omics proteomics/PTM identification scale. Values are taken from the local PDF and preserve the paper's own reporting unit.
+
+- Cohort/scope: 110 tumors and 101 matched normal adjacent tissues.
+- Proteome: 10,165 (filtered protein features used for tumor-NAT PCA).
+- Phosphoproteome: 65,103 (VM-site polished phosphosites).
+- Acetylome: 13,480 (VM-site polished acetylsites).
+- MS method: TMT-10; global proteome, IMAC phosphoproteome, acetylproteome; Spectrum Mill processing.
+- Instrument/platform: Q Exactive HF-X for proteome; Orbitrap Fusion Lumos for phosphoproteome and acetylproteome.
+- Extraction evidence: STAR Methods: VM-site polishing yielded 65,103 phosphosites and 13,480 acetylsites; tumor-NAT PCA used 10,165 proteins, 40,845 phosphosites, and 6,984 acetylsites.
+- Interpretation note: Protein count is the filtered analysis feature count visible in extracted text, not necessarily the total raw protein identification count.
 
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)

@@ -6,6 +6,8 @@ SRC="$REPO_ROOT/wiki/"
 DST="$REPO_ROOT/wiki_html/content/"
 INTERACTIVES_SRC="$REPO_ROOT/interactives/"
 INTERACTIVES_DST="$REPO_ROOT/wiki_html/content/interactives/"
+AUTODIDACT_SRC="$REPO_ROOT/autodidact/"
+AUTODIDACT_DST="$REPO_ROOT/wiki_html/content/autodidact/"
 
 mkdir -p "$DST"
 
@@ -22,6 +24,14 @@ if [ -d "$INTERACTIVES_SRC" ]; then
     --exclude ".DS_Store" \
     "$INTERACTIVES_SRC" "$INTERACTIVES_DST"
   printf '%s\n' "Synced interactives/ -> wiki_html/content/interactives/"
+fi
+
+if [ -d "$AUTODIDACT_SRC" ]; then
+  mkdir -p "$AUTODIDACT_DST"
+  rsync -a --delete \
+    --exclude ".DS_Store" \
+    "$AUTODIDACT_SRC" "$AUTODIDACT_DST"
+  printf '%s\n' "Synced autodidact/ -> wiki_html/content/autodidact/"
 fi
 
 printf '%s\n' "Synced wiki/ -> wiki_html/content/"

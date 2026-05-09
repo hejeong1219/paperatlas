@@ -33,8 +33,23 @@ Cancer driver events refer to key genetic aberrations that drive oncogenesis; ho
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- This paper contributes to the multi-omics/PTM atlas as a pan-cancer compendium.
+- The extracted visualization fields are protein-scale, phosphorylation-scale, acetylation-scale, MS method, and instrument/platform.
+- Count units are not harmonized when the paper reports different entities such as proteins, protein groups, phosphosites, phosphopeptides, acetylsites, or phospho-protein features.
 
+
+## Multi-Omics Identification Extraction
+
+This section was added for the interactive atlas on recent multi-omics proteomics/PTM identification scale. Values are taken from the local PDF and preserve the paper's own reporting unit.
+
+- Cohort/scope: 1064 participants across seven CPTAC tumor types.
+- Proteome: 15,699 (quantified proteins).
+- Phosphoproteome: 110,274 (quantified phosphosites).
+- Acetylome: not assayed or not reported as a single extractable count (not part of reported cross-cancer feature set).
+- MS method: Integrated CPTAC mass-spectrometry proteomic and phosphoproteomic data.
+- Instrument/platform: varied by contributing CPTAC source study.
+- Extraction evidence: Intro/results text: mass-spectrometry-based proteomic and phosphoproteomic data expanded quantified features to 15,699 proteins and 110,274 phosphosites.
+- Interpretation note: Acetylome was not included in the extracted pan-cancer feature-count statement.
 
 ## Connections
 

@@ -10,7 +10,7 @@ doi: "10.1016/j.cell.2024.05.039"
 pmid: "38917788"
 pmcid: "PMC12010439"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/savage-2024-pan-cancer-proteogenomics-expands-landscape-therapeutic.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"
@@ -40,6 +40,8 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
 - [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)

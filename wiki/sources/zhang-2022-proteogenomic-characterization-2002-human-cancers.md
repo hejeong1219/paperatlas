@@ -45,7 +45,22 @@ Large human pan-cancer proteogenomics compendium showing that protein-level subt
 - Useful background for abundance-aware PTM interpretation because it frames the proteome as an informative system layer with pathway structure and subtype resolution.
 - Not a direct phosphosite-correction paper, but an important landmark context paper for any pan-cancer protein-plus-PTM methodology.
 
+## Multi-Omics Identification Extraction
+
+This section was added for the interactive atlas on recent multi-omics proteomics/PTM identification scale. Values are taken from the local PDF and preserve the paper's own reporting unit.
+
+- Cohort/scope: 2002 primary tumors across 14 cancer types and 17 studies.
+- Proteome: 15,439 (unique genes represented by total-protein compendium).
+- Phosphoproteome: 199,284 (phospho-protein features).
+- Acetylome: not assayed or not reported as a single extractable count (not part of compendium summary).
+- MS method: Integrated processed LC-MS/MS proteomic and phosphoproteomic datasets from CPTAC/public studies.
+- Instrument/platform: varied by contributing source study.
+- Extraction evidence: Methods: total proteins covered 15,439 unique genes; phosphoprotein compendium contained 199,284 phospho-protein features involving 11,671 genes.
+- Interpretation note: This is a cross-study compendium rather than a single newly acquired MS experiment.
+
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [ptmanchor Manuscript Anchor](../analyses/ptmanchor-manuscript-anchor.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)

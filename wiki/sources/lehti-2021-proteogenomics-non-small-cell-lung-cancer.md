@@ -41,6 +41,8 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 ## Connections
 
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
+
 - [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
 - [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
 

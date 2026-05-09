@@ -109,6 +109,9 @@ Catalog of maintained wiki pages.
 - [Proteogenomics connects somatic mutations to signalling in breast cancer](../sources/mertins-2016-proteogenomics-somatic-mutations-signalling-breast-cancer.md) - Landmark breast cancer proteogenomics paper connecting genomic lesions to phosphoproteomic signaling and kinase targets.
 - [Proteogenomic characterization of human colon and rectal cancer](../sources/zhang-2014-proteogenomic-characterization-colon-rectal-cancer.md) - Foundational colorectal proteogenomics paper showing why protein-level interpretation refines subtype and driver inference.
 - [Proteogenomics of clear cell renal cell carcinoma response to tyrosine kinase inhibitor](../sources/zhang-2023-proteogenomics-clear-cell-renal-response-tyrosine-kinase-inhibitor.md) - Human ccRCC treatment-response proteogenomics study linking mTOR and phosphoproteomic programs to sunitinib outcome.
+- [SAHA Treatment Reveals Crosstalk Among Proteome, Phosphoproteome, and Acetylome in Nasopharyngeal Carcinoma Cells](../sources/huang-2022-suberoylanilide-hydroxamic-acid-saha-treatment.md) - Cell-line perturbation study with proteome, phosphoproteome, and acetylome count fields for the multiomics PTM atlas.
+- [Multi-omics characterization of esophageal squamous cell carcinoma identifies molecular subtypes and therapeutic targets](../sources/zhao-2024-multi-omics-characterization-esophageal-squamous-cell.md) - ESCC tumor/normal cohort with TMT proteome and phosphoproteome identification counts.
+- [Integrated pharmaco-proteogenomics defines two subgroups in IDH-wild-type glioblastoma](../sources/oh-2020-integrated-pharmaco-proteogenomics-defines-two-subgroups.md) - GBM TMT proteome/phosphoproteome cohort with Q Exactive/MaxQuant extraction metadata.
 - [Breast cancer quantitative proteome and proteogenomic landscape](../sources/gillette-2019-breast-cancer-quantitative-proteome-proteogenomic-landscape.md) - Breast cancer proteogenomic landscape study showing protein-level subtype refinement and limits of RNA-only classification.
 - [Integrate and conquer: pan-cancer proteogenomics uncovers cancer vulnerabilities and therapeutic opportunities](../sources/chakraborty-2024-pan-cancer-proteogenomics-vulnerabilities-opportunities.md) - Review highlighting how integrated pan-cancer proteogenomics can expose targetable dependencies and therapeutic opportunities.
 
@@ -145,6 +148,7 @@ Catalog of maintained wiki pages.
 
 - [B-Cell Neoantigen Research Map](../topics/b-cell-neoantigen-human-cancer.md) - First curated atlas topic linking neoantigen pipelines with B-cell and TLS biology.
 - [Immunotherapy Resistance and Immune Evasion](../topics/immunotherapy-resistance-and-immune-evasion.md) - Curated entry point for checkpoint, CAR-T, and bispecific resistance mechanisms.
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md) - Independent topic hub for recent MS-based proteome, phosphoproteome, and acetylome identification-count atlas work.
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md) - Topic hub for protein-aware PTM interpretation and kinase-signaling inference in cancer proteomics.
 
 ## Analyses
@@ -155,6 +159,8 @@ Catalog of maintained wiki pages.
 - [B-Cell Neoantigen Proposal Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md) - Project-side anchor for a multi-cancer proteogenomic B-cell neoantigen and TLS research plan.
 - [Cancer Resistance Manuscript Anchor](../analyses/cancer-resistance-manuscript-anchor.md) - Active review anchor framing therapy resistance through shared immune-evasion axes.
 - [Gist Feature Adoption Roadmap](../analyses/gist-feature-adoption-roadmap.md) - Working adaptation plan for bringing gist-style ingest, topic growth, and atlas publishing features into this repo.
+- [Multiomics PTM Corpus Queue](../analyses/multiomics-ptm-corpus-queue.md) - Corpus-first acquisition and ingest queue for the proteome, phosphoproteome, acetylome identification-count interactive atlas.
+- [Multiomics Proteomics PTM Identification Atlas](../analyses/multiomics-proteomics-ptm-identification-atlas.md) - Draft analysis backing the Korean interactive atlas with PDF-derived extraction values and caveats.
 - [Next Download Candidates](../analyses/next-download-candidates.md) - Immediate high-impact human-cancer download queue for the underfilled B-cell neoantigen and PTM anchors.
 - [Priority Target Corpora](../analyses/priority-target-corpora.md) - Concrete next-wave acquisition queue for high-impact, human-cancer-centered papers across the three active anchors.
 - [ptmanchor Manuscript Anchor](../analyses/ptmanchor-manuscript-anchor.md) - Manuscript-side anchor for PTM correction and kinase-signaling analysis across cancer proteomics cohorts.

@@ -10,7 +10,7 @@ doi: "10.1016/j.xcrm.2025.102154"
 pmid: "40480221"
 pmcid: "PMC12208316"
 paper_kind: clinical-trial
-pdf_status: pending
+pdf: "raw/inbox/papers/jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"
@@ -40,6 +40,8 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)

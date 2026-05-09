@@ -10,7 +10,7 @@ doi: "10.1016/j.cell.2024.01.027"
 pmid: "38359819"
 pmcid: "PMC10988632"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"
@@ -28,7 +28,7 @@ themes:
 
 _Cell, 2024._ PMID: [38359819](https://pubmed.ncbi.nlm.nih.gov/38359819/).
 
-DOI: [10.48550/arXiv.2003.10778](https://doi.org/10.48550/arXiv.2003.10778)
+DOI: [10.1016/j.cell.2024.01.027](https://doi.org/10.1016/j.cell.2024.01.027)
 
 ## Summary
 
@@ -38,15 +38,28 @@ Despite the successes of immunotherapy in cancer treatment over recent decades, 
 
 _Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
 
+## Multi-Omics Identification Extraction
+
+- Cohort / scope: pan-cancer CPTAC immune landscape across more than 1,000 tumors from ten cancer types.
+- Proteome: uses harmonized CPTAC quantitative proteomics; the extracted PDF text does not report a single global newly identified protein count for this paper because it is a pan-cancer reanalysis.
+- Phosphoproteome: uses deep CPTAC phosphoproteomics; the Methods describe phosphosite-level analysis and kinase enrichment, but no single global newly identified phosphosite count is reported in extracted text.
+- Acetylome: not part of the core reported measurement layer in the extracted PDF text.
+- MS method: reanalysis/harmonization of CPTAC proteomics and phosphoproteomics, with PDC-distributed proteomics and phosphoproteomics files.
+- Instrument / platform: varied by contributing CPTAC source studies rather than a single acquisition platform.
+- Software / search: University of Michigan pipeline with MSFragger, Philosopher, TMT-Integrator, median normalization, outlier TMT-multiplex removal, Combat batch correction where needed, DreamAI imputation, BCM phosphosite reannotation.
+- Extraction evidence: local PDF Methods describe PDC pan-cancer data, MSFragger/Philosopher/TMT-Integrator processing, TMT outlier handling, and phosphosite normalization.
+- Interpretation note: include as a pan-cancer compendium/context row only if the interactive has a separate compendium class; do not plot it as a single acquisition experiment.
 
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/38359819/>
-- DOI: <https://doi.org/10.48550/arXiv.2003.10778>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3637064/>
+- DOI: <https://doi.org/10.1016/j.cell.2024.01.027>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10988632/>

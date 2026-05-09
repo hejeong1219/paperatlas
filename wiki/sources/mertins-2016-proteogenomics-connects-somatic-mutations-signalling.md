@@ -36,10 +36,27 @@ Somatic mutations have been extensively characterized in breast cancer, but the 
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- This paper contributes to the multi-omics/PTM atlas as a tumor cohort.
+- The extracted visualization fields are protein-scale, phosphorylation-scale, acetylation-scale, MS method, and instrument/platform.
+- Count units are not harmonized when the paper reports different entities such as proteins, protein groups, phosphosites, phosphopeptides, acetylsites, or phospho-protein features.
 
+
+## Multi-Omics Identification Extraction
+
+This section was added for the interactive atlas on recent multi-omics proteomics/PTM identification scale. Values are taken from the local PDF and preserve the paper's own reporting unit.
+
+- Cohort/scope: 105 TCGA breast tumors analyzed; 77 high-quality tumors emphasized for integrated analysis.
+- Proteome: 15,369 (identified proteins).
+- Phosphoproteome: 62,679 (identified phosphosites).
+- Acetylome: not assayed or not reported as a single extractable count (not assayed/reported).
+- MS method: iTRAQ 4-plex; global proteome plus phosphopeptide enrichment.
+- Instrument/platform: not explicit in extracted main PDF text.
+- Extraction evidence: Main PDF text: 15,369 proteins and 62,679 phosphosites identified; 12,553 proteins and 33,239 phosphosites quantified after filtering.
+- Interpretation note: Acetylome was not part of the reported CPTAC breast proteogenomic dataset in the extracted PDF text.
 
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
 - [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)

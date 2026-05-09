@@ -36,8 +36,20 @@ We performed the first proteogenomic study on a prospectively collected colon c
 
 _Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
 
+## Multi-Omics Identification Extraction
+
+- Cohort / scope: prospective colon cancer cohort with matched tumor and normal adjacent tissues.
+- Proteome: TMT global proteomic analysis identified 8,067 proteins; 6,422 proteins were quantified in at least 50% of samples.
+- Phosphoproteome: 7,295 phosphorylation sites were quantified in at least 50% of samples. The PDF text also reports 63 cancer-associated phosphosites mapping to 50 proteins after differential filtering.
+- Acetylome: not reported as a separate acetylome layer in the extracted PDF text.
+- MS method: TMT 10-plex global proteome and phosphoproteome profiling; phosphoproteome analyzed at phosphopeptide/site level after enrichment.
+- Instrument / platform: Q Exactive Plus for TMT global proteome; Orbitrap Fusion Lumos for TMT phosphoproteome; nanoACQUITY UPLC for phosphoproteome separations.
+- Extraction evidence: local PDF Results and STAR Methods sections report the 8,067 protein groups, 6,422 quantifiable proteins, 7,295 phosphorylation sites, TMT 10 labeling, Q Exactive Plus, and Orbitrap Fusion Lumos details.
+- Interpretation note: this is proteome/phosphoproteome only for the requested atlas; acetylome should remain blank rather than inferred from N-terminal acetylation search settings.
 
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)

@@ -2,6 +2,8 @@
 
 Korean interactive visualization project for recent-10-year multi-omics studies comparing identification counts and mass-spectrometry methods.
 
+Canonical wiki topic: `wiki/topics/multiomics-proteomics-ptm-identification.md`.
+
 ## Intended Scope
 
 - Time window: recent 10 years from the request date unless the user specifies exact dates.
@@ -26,15 +28,9 @@ Do not use web search or general web pages to fill study values. The `audodidact
 
 ## Included Sources
 
-- Mertins 2016 breast cancer proteogenomics.
-- Dou 2020 endometrial carcinoma proteogenomics.
-- Gillette 2020 lung adenocarcinoma proteogenomics.
-- Huang 2021 HPV-negative HNSCC proteogenomics.
-- Cao 2021 pancreatic ductal adenocarcinoma proteogenomics.
-- Satpathy 2021 lung squamous cell carcinoma proteogenomics.
-- Zhang 2022 pan-cancer proteogenomic compendium.
-- Li 2023 pan-cancer CPTAC proteogenomics.
-- Zhao 2025 colorectal cancer cell-line kinase-inhibitor proteome/phosphoproteome/acetylome perturbation.
+- `data/studies.json` currently contains 67 rows spanning the 2016-2026 corpus and extra downloaded candidates.
+- Rows have `extraction_status` values: `extracted`, `pdf_pending_extraction`, `pdf_pending`, or `blocked_pdf`.
+- Quantitative bars are meaningful only where count fields were extracted from verified local PDFs/source pages; pending rows are shown for coverage and triage visibility.
 
 ## Extraction Notes
 
@@ -44,6 +40,14 @@ Do not use web search or general web pages to fill study values. The `audodidact
 - If a single global value was not visible in extracted PDF text, the field remains empty instead of being filled from the web.
 - Pan-cancer compendia are marked separately from single-cohort MS experiments because their counts aggregate processed data across multiple contributing studies.
 
-## Status
+## Corpus-First Status
 
-Initial interactive visualization created from local PDFs. Further refinement should add supplementary-table-derived values where local supplements become available.
+The current HTML has moved from a small seed dataset to a corpus-coverage atlas. The intended production workflow is:
+
+1. Curate the paper corpus in `wiki/analyses/multiomics-ptm-corpus-queue.md`.
+2. Download or locate every needed PDF and supplement in `raw/`.
+3. Ingest each source page with a `Multi-Omics Identification Extraction` section.
+4. Rebuild `data/studies.json` from those source pages, preserving status fields when extraction is incomplete.
+5. Rebuild and publish the interactive site.
+
+Further refinement should add supplementary-table-derived values where local supplements become available.

@@ -34,8 +34,23 @@ Lung squamous cell carcinoma (LSCC) remains a leading cause of cancer death with
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- This paper contributes to the multi-omics/PTM atlas as a tumor/normal cohort.
+- The extracted visualization fields are protein-scale, phosphorylation-scale, acetylation-scale, MS method, and instrument/platform.
+- Count units are not harmonized when the paper reports different entities such as proteins, protein groups, phosphosites, phosphopeptides, acetylsites, or phospho-protein features.
 
+
+## Multi-Omics Identification Extraction
+
+This section was added for the interactive atlas on recent multi-omics proteomics/PTM identification scale. Values are taken from the local PDF and preserve the paper's own reporting unit.
+
+- Cohort/scope: 108 tumors and 99 paired NATs.
+- Proteome: not reported as a single extractable count (not explicit in extracted main PDF text).
+- Phosphoproteome: 68,674 (VM-site polished phosphosites).
+- Acetylome: 15,186 (VM-site polished acetylsites).
+- MS method: TMT-11; serial proteome/phosphoproteome/acetylproteome workflow; K-GG ubiquitylproteome subset.
+- Instrument/platform: Q Exactive HF-X for proteome/acetylproteome; Orbitrap Fusion Lumos for phosphoproteome/ubiquitylproteome.
+- Extraction evidence: STAR Methods: VM-site polishing yielded 68,674 phosphosites, 15,186 acetylsites, and 25,489 ubiquitylsites.
+- Interpretation note: Figure S1B contains per-plex quantified protein bars, but the extracted PDF text did not expose a single global protein count.
 
 ## Connections
 

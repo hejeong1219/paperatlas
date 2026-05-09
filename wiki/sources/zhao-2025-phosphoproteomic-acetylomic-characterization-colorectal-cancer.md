@@ -28,7 +28,7 @@ themes:
 
 _ACS pharmacology & translational science, 2025._ PMID: [40969873](https://pubmed.ncbi.nlm.nih.gov/40969873/).
 
-DOI: [10.1093/bioinformatics/bty1033](https://doi.org/10.1093/bioinformatics/bty1033)
+DOI: [10.1021/acsptsci.5c00398](https://doi.org/10.1021/acsptsci.5c00398)
 
 ## Summary
 
@@ -36,17 +36,33 @@ Kinase inhibitors have long been studied to be developed into therapeutic drugs 
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- This paper contributes to the multi-omics/PTM atlas as a cell-line perturbation.
+- The extracted visualization fields are protein-scale, phosphorylation-scale, acetylation-scale, MS method, and instrument/platform.
+- Count units are not harmonized when the paper reports different entities such as proteins, protein groups, phosphosites, phosphopeptides, acetylsites, or phospho-protein features.
 
+
+## Multi-Omics Identification Extraction
+
+This section was added for the interactive atlas on recent multi-omics proteomics/PTM identification scale. Values are taken from the local PDF and preserve the paper's own reporting unit.
+
+- Cohort/scope: HCT116 cells treated with seven kinase inhibitors plus DMSO; two replicates per inhibitor.
+- Proteome: 6,147 (quantified proteins).
+- Phosphoproteome: 6,213 (phosphorylated sites).
+- Acetylome: 185 (acetylated sites).
+- MS method: TMTpro 16-plex; TiO2 phosphopeptide enrichment; acetylated peptide enrichment; MaxQuant.
+- Instrument/platform: Orbitrap Fusion.
+- Extraction evidence: Results text: 6,147 proteins; 6,213 phosphorylated sites including 5,048 class I sites and 2,552 proteins; 185 acetylated sites corresponding to 135 proteins.
+- Interpretation note: Included as a recent perturbational PTM multi-omics study, not as a patient tumor cohort.
 
 ## Connections
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/zhao-2025-phosphoproteomic-acetylomic-characterization-colorectal-cancer.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/40969873/>
-- DOI: <https://doi.org/10.1093/bioinformatics/bty1033>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4349993/>
+- DOI: <https://doi.org/10.1021/acsptsci.5c00398>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12441852/>

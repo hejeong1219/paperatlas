@@ -28,7 +28,7 @@ themes:
 
 _Nature communications, 2022._ PMID: [35508466](https://pubmed.ncbi.nlm.nih.gov/35508466/).
 
-DOI: [10.3389/fgene.2018.00002](https://doi.org/10.3389/fgene.2018.00002)
+DOI: [10.1038/s41467-022-29960-8](https://doi.org/10.1038/s41467-022-29960-8)
 
 ## Summary
 
@@ -38,15 +38,27 @@ Proteogenomic analyses of hepatocellular carcinomas (HCC) have focused on early-
 
 _Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
 
+## Multi-Omics Identification Extraction
+
+- Cohort / scope: hepatocellular carcinoma across etiologies and stages; 122 tumors with global proteome and a subset of 51 tumors with phosphoproteome profiling.
+- Proteome: 6,167 proteins quantified in at least one HCC; 5,612 proteins quantified in at least 26 HCCs; 1,997 proteins quantified in all 51 HCCs. After missingness filtering, 5,631 proteins were used for further analysis.
+- Phosphoproteome: 12,205 phosphorylation sites in 4,230 proteins were quantified.
+- Acetylome: not reported as a separate acetylome layer in the extracted PDF text.
+- MS method: label-free SWATH/DIA-style global proteome profiling and label-free DDA phosphoproteome profiling.
+- Instrument / platform: Q Exactive HF mass spectrometer for proteome/phosphoproteome LC-MS/MS.
+- Extraction evidence: local PDF Methods sections report the protein and phosphosite counts, the subset sizes, and Q Exactive HF platform.
+- Interpretation note: the requested atlas should label this as label-free proteome/phosphoproteome, not TMT/CPTAC-style multiplexed profiling.
 
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/ng-2022-integrative-proteogenomic-characterization-hepatocellular-carcinoma.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/35508466/>
-- DOI: <https://doi.org/10.3389/fgene.2018.00002>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5801302/>
+- DOI: <https://doi.org/10.1038/s41467-022-29960-8>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9068765/>

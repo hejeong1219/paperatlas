@@ -10,7 +10,7 @@ doi: "10.1016/j.celrep.2024.113810"
 pmid: "38377004"
 pmcid: "PMC11288375"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/tanaka-2024-proteogenomic-characterization-primary-colorectal-cancer.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"
@@ -40,6 +40,8 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 
 ## Connections
+
+- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
 - [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)

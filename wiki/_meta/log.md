@@ -350,3 +350,45 @@ Append-only operational history for this wiki.
 - Populated the multiomics interactive dataset from local PDFs for Mertins 2016, Dou 2020, Gillette 2020, Huang 2021, Cao 2021, Satpathy 2021, Zhang 2022, Li 2023, and Zhao 2025.
 - Built a Korean standalone interactive HTML with filters, comparative bars, study cards, and evidence table for protein/phosphosite/acetylsite counts plus MS method and instrument notes.
 - Added `./bin/copy-interactives-public` and wired `wiki_html/package.json` so production builds overwrite Quartz folder pages with each interactive project's standalone `index.html`.
+
+## [2026-05-09] ingest | multiomics PTM corpus-first correction
+
+- Added `wiki/analyses/multiomics-ptm-corpus-queue.md` to make PDF/supplement ingestion the gate before quantitative interactive updates.
+- Deep-read local PDFs for Clark 2020 ccRCC, Vasaikar 2019 colon cancer, Wang 2021 GBM, and Ng 2022 HCC and added `Multi-Omics Identification Extraction` sections to their source pages.
+- Corrected stale source metadata where local PDFs already existed and fixed the Ng 2022 DOI/PMC entries.
+- Marked the current multiomics interactive as a draft shell seeded by local PDFs, not a final exhaustive 10-year corpus.
+- Created `wiki/topics/multiomics-proteomics-ptm-identification.md` as a standalone topic hub instead of treating this as only a `ptmanchor` subtask.
+- Built a 60-paper 2016-2026 acquisition corpus for the new topic; resolver plus KU/EZproxy cookies recovered 55 local PDFs.
+- Created or updated 60 source pages so each candidate links to the standalone multiomics topic and records whether the local PDF is available.
+- Added an acquisition snapshot to the corpus queue; numeric visualization remains gated on full PDF/supplement extraction rather than metadata.
+
+## [2026-05-09] ingest | multiomics PTM extraction progress check
+
+- Verified that acquisition and registration are not the same as completed ingest: the corpus has 60 candidates, 56 resolver-confirmed local PDFs, but at least one local PDF is a title/DOI mismatch and is blocked from extraction.
+- Corrected stale DOI/PMC/local-PDF metadata for Abelin 2023 MONTE and Zhao 2025 HCT116 kinase-inhibitor PTM perturbation pages.
+- Added PDF-backed extraction details for Abelin 2023, Shi 2022 medullary thyroid carcinoma, Deng 2023 cholangiocarcinoma, and Li 2023 early duodenal cancer.
+- Marked Xu 2022 urothelial carcinoma as blocked because the local PDF extracts as an unrelated nasopharyngeal carcinoma clinical-trials review.
+- Updated the corpus queue with an extraction snapshot: 50 source pages currently carry the extraction section, 27 are still placeholders, and visualization rows remain gated on verified PDF-derived values.
+
+## [2026-05-09] ingest+visualization | multiomics PTM batch update
+
+- Parallel-checked Dong 2024, Ramberger 2024, Holt 2025, Park 2024, and Su 2025 local PDFs against the multiomics extraction fields.
+- Marked Dong 2024 as blocked because the local PDF is a publisher correction notice rather than the full Nature Cancer article.
+- Filled PDF-backed extraction sections for Ramberger 2024, Holt 2025, Park 2024, and Su 2025, including protein/phosphoproteome counts, MS method, instrument, and acetylome absence.
+- Updated the interactive dataset from 9 to 13 rows using only source pages with verified PDF-derived numeric values.
+- Placeholder extraction count decreased from 27 to 22; blocked source count increased to 2.
+
+## [2026-05-09] acquisition+ingest | extra multiomics PDF expansion
+
+- Selected 50 additional 2016-2026 candidates from the 336-paper discovery set after filtering away obvious reviews, prediction tools, and non-MS-only papers as much as possible.
+- Basic resolver recovered 14/50 PDFs; KU/cookie retry recovered 18/36 remaining PDFs, giving 32/50 extra PDFs acquired in this pass.
+- Triaged newly recovered PDFs and promoted three directly usable studies into the atlas: Huang 2022 NPC SAHA perturbation, Zhao 2024 ESCC, and Oh 2020 IDH-wild-type glioblastoma.
+- Created source pages with PDF-backed `Multi-Omics Identification Extraction` sections for those three studies and updated the interactive dataset from 13 to 16 rows.
+- Deferred Ren 2025 HPSCC and several method/tool papers because the extracted main text did not expose complete identification-count fields or because they are better treated as methods/context rather than atlas rows.
+
+## [2026-05-09] visualization | expand multiomics atlas to 50+ row corpus coverage
+
+- Rebuilt `interactives/multiomics-proteomics-ptm-identification/data/studies.json` as a corpus-coverage file rather than an extracted-only subset.
+- The interactive now contains 67 rows: 26 extracted rows with numeric values, 35 rows with PDFs pending extraction, 4 rows still pending PDF acquisition, and 2 blocked PDF/correction-only rows.
+- Added extraction-status badges to the Korean HTML cards and evidence table so incomplete rows are visible without being confused with quantified entries.
+- Updated the embedded fallback JSON in `index.html` to match the 67-row dataset for local viewing.
