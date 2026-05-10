@@ -13,11 +13,16 @@
 #   # add line (matches local timezone — d1 is KST):
 #   0 10 * * * /home/hejeong/paperatlas/scripts/daily_digest/cron_entry.sh >> /home/hejeong/paperatlas/logs/cron-wrapper.log 2>&1
 
-set -uo pipefail
+set -o pipefail
+# Note: do NOT enable `set -u` here — conda's profile.d/conda.sh references
+# unset variables internally and would silently kill this wrapper.
 
-# 1. Conda — try common install locations
-for p in "$HOME/anaconda3" "$HOME/miniconda3" "$HOME/miniforge3" "/opt/anaconda3" "/opt/miniconda3"; do
+# 1. Conda — try common install locations (the user's `(base)` prompt
+# implies conda is active in their interactive shell; in cron we must
+# load it explicitly).
+for p in "$HOME/anaconda3" "$HOME/miniconda3" "$HOME/miniforge3" "/opt/anaconda3" "/opt/miniconda3" "/opt/conda"; do
     if [ -f "$p/etc/profile.d/conda.sh" ]; then
+        echo "[cron_entry] sourcing conda from $p" >&2
         # shellcheck disable=SC1091
         source "$p/etc/profile.d/conda.sh"
         conda activate base 2>/dev/null || true
@@ -36,5 +41,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 cd "$REPO_ROOT" || exit 1
 
-# Default DIGEST_DAYS=7 (strict daily); override via env if needed
-exec /usr/bin/env DIGEST_DAYS="${DIGEST_DAYS:-7}" bash "$SCRIPT_DIR/run.sh"
+echo "[cron_entry] launching run.sh from $REPO_ROOT (DIGEST_DAYS=${DIGEST_DAYS:-7}, DRY_RUN=${DRY_RUN:-0})" >&2
+
+# Default DIGEST_DAYS=7 (strict daily); override via env if needed.
+# Forward DRY_RUN if set, so manual testing works.
+DIGEST_DAYS="${DIGEST_DAYS:-7}" DRY_RUN="${DRY_RUN:-0}" bash "$SCRIPT_DIR/run.sh"
