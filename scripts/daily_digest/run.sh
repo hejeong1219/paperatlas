@@ -65,20 +65,11 @@ else
     echo "    Phase B: $PHASE_B_COUNT candidates with full PDF text"
 fi
 
-# Step 3: decide whether to post
+# Step 3: build combined input for claude
 echo "[3/5] Preparing input for claude..."
-if [ "$PHASE_B_COUNT" -eq 0 ]; then
-    # No new PubMed papers today — skip silently. User explicitly chose
-    # "신규 없으면 패스" (no backlog fallback). Channel stays clean.
-    echo "    No fresh PubMed candidates today. Skipping post (per user policy: no backlog fallback)."
-    echo "================================================================"
-    echo "Done @ $(date -Iseconds) — no post"
-    echo "================================================================"
-    exit 0
-fi
-
-# Phase B has candidates → build combined input
-python3 -c "
+if [ "$PHASE_B_COUNT" -gt 0 ]; then
+    # Phase B has candidates → use them
+    python3 -c "
 import json
 phaseb = json.load(open('$PHASE_B_JSON'))
 out = {'mode': 'phase_b', 'date': phaseb['date'],
@@ -87,7 +78,25 @@ out = {'mode': 'phase_b', 'date': phaseb['date'],
        'after_filter': phaseb.get('after_filter', 0)}
 json.dump(out, open('$COMBINED', 'w'), ensure_ascii=False, indent=2)
 "
-echo "    Mode: phase_b ($PHASE_B_COUNT candidates)"
+    echo "    Mode: phase_b ($PHASE_B_COUNT candidates)"
+else
+    # Fallback: pick from backlog
+    echo "    No fresh PubMed candidates; falling back to backlog"
+    python3 scripts/daily_digest/select_papers.py > "$PHASE_A_JSON"
+    SEL_COUNT=$(python3 -c "import json; print(len(json.load(open('$PHASE_A_JSON'))['selected']))")
+    if [ "$SEL_COUNT" -lt 2 ]; then
+        echo "ERROR: backlog also exhausted (only $SEL_COUNT papers). Aborting."
+        exit 1
+    fi
+    python3 -c "
+import json
+phasea = json.load(open('$PHASE_A_JSON'))
+out = {'mode': 'phase_a_fallback', 'date': phasea['date'],
+       'selected': phasea['selected'], 'candidates': []}
+json.dump(out, open('$COMBINED', 'w'), ensure_ascii=False, indent=2)
+"
+    echo "    Mode: phase_a_fallback ($SEL_COUNT backlog papers)"
+fi
 
 # Quick summary for log
 python3 -c "

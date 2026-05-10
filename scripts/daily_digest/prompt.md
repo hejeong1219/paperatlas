@@ -5,19 +5,19 @@ You are running the daily 한미암 paper digest task.
 1. `/tmp/digest_today.json` — JSON with this schema:
    ```
    {
-     "mode": "phase_b",
+     "mode": "phase_b" | "phase_a_fallback",
      "date": "YYYY-MM-DD",
-     "candidates": [...]   // from fetch_new_papers.py — full PDF text included
+     "candidates": [...],   // from fetch_new_papers.py (when mode=phase_b)
+     "selected":   [...]    // from select_papers.py (when mode=phase_a_fallback)
    }
    ```
-   (Phase A backlog mode disabled per user policy: no posting on days with 0 fresh PubMed candidates.)
 
 2. `wiki/_meta/han-mi-am-project-context.md` — also appended to your system
    prompt. Use it to write the "활용 가능성" sections.
 
 3. `wiki/_meta/slack-posted.json` — current state (slugs + pmids + history).
 
-## Phase B — new papers from PubMed (the only mode)
+## Mode A: phase_b — new papers from PubMed
 
 Each `candidates[i]` has: `pmid`, `slug`, `title`, `authors`, `year`, `journal`,
 `doi`, `pmcid`, `pdf_path`, `full_text` (~30K chars).
@@ -114,7 +114,7 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
      * `~방향성을 시사합니다.`
      같은 표현을 매일 반복하지 말고 적절히 다양화.
    - **Tone**: formal but readable; ~합니다 / ~입니다. Avoid translating English technical terms (proteogenomics, phosphoproteome, neoantigen 그대로).
-   - **Do NOT invent results**. If `full_text` doesn't say it, don't claim it.
+   - **Do NOT invent results**. If `full_text` (Phase B) or wiki Summary/Key Points (Phase A) doesn't say it, don't claim it.
 
 4. **Post to Slack** via `slack` MCP tool — single `chat_postMessage` call to
    channel `C0B2RQ97Y3U` with the entire composed text in `text` field.
@@ -167,6 +167,14 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
 
 6. **Update slack-posted.json**: append posted PMIDs to `pmids[]`, slugs to
    `slugs[]`, and add a history entry. Preserve existing entries.
+
+## Mode B: phase_a_fallback — backlog only
+
+If mode is `phase_a_fallback` (PubMed yielded 0 valid new papers OR all skipped):
+- Use `selected` array directly (already 2 papers from select_papers.py).
+- Read each wiki source path, format Slack post per template (skip Tier
+  judgment — already curated by user).
+- Post to Slack, update slack-posted.json.
 
 ## Failure handling
 
