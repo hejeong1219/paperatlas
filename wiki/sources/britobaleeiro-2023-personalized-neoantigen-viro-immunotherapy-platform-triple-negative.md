@@ -10,7 +10,7 @@ doi: "10.1136/jitc-2023-007336"
 pmid: "37586771"
 pmcid: "PMC10432671"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/britobaleeiro-2023-personalized-neoantigen-viro-immunotherapy-platform-triple-negative.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

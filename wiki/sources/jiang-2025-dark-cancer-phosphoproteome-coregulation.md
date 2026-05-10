@@ -47,6 +47,8 @@ Pan-cancer machine-learning study that uses tumor phosphoproteomics to infer co-
 
 ## Connections
 
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- Cancer Multiomics 요약: [Jiang 2025 - Dark Cancer Phosphoproteome](../analyses/cancer-multiomics-literature/jiang-2025-dark-cancer-phosphoproteome.md)
 - [ptmanchor Manuscript Anchor](../analyses/ptmanchor-manuscript-anchor.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Pan-Cancer](../cancers/pan-cancer.md)

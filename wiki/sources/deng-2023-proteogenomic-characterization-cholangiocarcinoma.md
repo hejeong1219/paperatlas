@@ -48,6 +48,12 @@ Cholangiocarcinoma (CCA) is a highly heterogeneous cancer with limited understan
 - Phosphoproteomics supports kinase-activity interpretation and subtype-specific therapeutic hypotheses.
 - The source is suitable for the quantitative atlas as a large patient-cohort proteome/phosphoproteome study, but not an acetylome study.
 
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제의 핵심인 **WES/WGS 이벤트를 단백체·인산화단백체 기능 상태(kinase/pathway)로 번역**하는 대표적인 대규모 환자 코호트 proteogenomics 레퍼런스다.
+- CCA라는 특정 암종이 Cancer Multiomics 코호트와 다르더라도, “(1) WES 기반 driver/SCNA → (2) protein/phosphoprotein cis-effect/functional state → (3) subtype/therapy hypothesis”의 분석 구성은 재사용 가능하다.
+- 면역 관련 feature(항원제시/침윤 등)와 phosphoproteome 기반 kinase 해석을 함께 두는 구조라, “WGS + phosphoproteomics로 치료반응/내성 feature를 설명”하려는 과제 방향과 직접 맞닿는다.
+
 ## Open Questions
 
 - Which exact LC-MS/MS instrument and enrichment workflow are listed in the supplementary methods?
@@ -55,6 +61,7 @@ Cholangiocarcinoma (CCA) is a highly heterogeneous cancer with limited understan
 ## Connections
 
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

@@ -17,6 +17,7 @@ Curated topic collection for how cancers evade checkpoint blockade, CAR-T, and b
 ## Entry Points
 
 - [Cancer Resistance Manuscript Anchor](../analyses/cancer-resistance-manuscript-anchor.md)
+- 질문 확장 맵: [Four-Topic Question Expansion Map](../analyses/topic-question-expansion-map.md) (Topic 2)
 - [Cancer-Immunity Cycle and Immune Set Point](../concepts/cancer-immunity-cycle-and-set-point.md)
 - [Antigen Loss, Lineage Switch, and Target Escape](../concepts/antigen-loss-lineage-switch-and-target-escape.md)
 - [Bispecific Antibodies in Oncology](../concepts/bispecific-antibodies-in-oncology.md)

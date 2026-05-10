@@ -1,52 +1,76 @@
 ---
-title: "Integrated proteogenomic and metabolomic characterization of papillary thyroid cancer with different recurrence risks."
-authors:
-  - "Qu"
-  - "Chen"
-  - "Ma"
-year: "2024"
-journal: "Nature communications"
+title: "Integrated proteogenomic and metabolomic characterization of papillary thyroid cancer with different recurrence risks"
+year: 2024
+journal: "Nature Communications"
 doi: "10.1038/s41467-024-47581-1"
 pmid: "38609408"
 pmcid: "PMC11014849"
-paper_kind: proteogenomic
-pdf: "raw/inbox/papers/qu-2024-integrated-proteogenomic-metabolomic-characterization-papillary.pdf"
-topic: ptmanchor
-tags:
-  - "ptmanchor"
-  - "proteomics"
-  - "ptm"
-  - "phosphoproteomics"
-  - "cancer-proteomics"
-  - "pmid-38609408"
+paper_kind: resource
+cancer_types:
+  - papillary-thyroid-cancer
+modalities:
+  - proteogenomics
+  - phosphoproteomics
+  - metabolomics
+  - whole-exome-sequencing
+  - recurrence-risk-stratification
 themes:
-  - "ptm-correction"
-  - "kinase-signaling"
-  - "cancer-proteomics"
+  - recurrence-risk
+  - metabolism
+  - immune-subtype
+  - tert-promoter
+  - ret-fusion
+tags:
+  - source
+  - cancer-multiomics
+  - papillary-thyroid-cancer
+  - proteogenomics
+  - phosphoproteomics
+  - metabolomics
+  - pmid-38609408
+pdf: "raw/inbox/papers/qu-2024-integrated-proteogenomic-metabolomic-characterization-papillary.pdf"
 ---
-# Integrated proteogenomic and metabolomic characterization of papillary thyroid cancer with different recurrence risks.
+# Integrated proteogenomic and metabolomic characterization of papillary thyroid cancer with different recurrence risks
 
-_Nature communications, 2024._ PMID: [38609408](https://pubmed.ncbi.nlm.nih.gov/38609408/).
+_Nature Communications, 2024._ PMID: [38609408](https://pubmed.ncbi.nlm.nih.gov/38609408/).
 
-DOI: [10.1093/nar/gkab1038](https://doi.org/10.1093/nar/gkab1038)
+DOI: [10.1038/s41467-024-47581-1](https://doi.org/10.1038/s41467-024-47581-1)
 
 ## Summary
 
-Although papillary thyroid cancer (PTC) has a good prognosis, its recurrence rate is high and remains a core concern in the clinic. Molecular factors contributing to different recurrence risks (RRs) remain poorly defined. Here, we perform an integrative proteogenomic and metabolomic characterization of 102 Chinese PTC patients with different RRs. Genomic profiling reveals that mutations in MUC16 and TERT promoter as well as multiple gene fusions like NCOA4-RET are enriched by the high RR. Integrative multi-omics analyses further describe the multi-dimensional characteristics of PTC, especially in metabolism pathways, and delineate dominated molecular patterns of different RRs. Moreover, the PTC patients are clustered into four subtypes (CS1: low RR and BRAF-like; CS2: high RR and metabolism type, worst prognosis; CS3: high RR and immune type, better prognosis; CS4: high RR and BRAF-like) based on the omics data. Notably, the subtypes display significant differences considering BRAF and TERT promoter mutations, metabolism and immune pathway profiles, epithelial cell compositions, and various clinical factors (especially RRs and prognosis) as well as druggable targets. This study can provide insights into the complex molecular characteristics of PTC recurrences and help promote early diagnosis and precision treatment of recurrent PTC.
+Multi-omics papillary-thyroid-cancer (PTC) resource in 102 Chinese patients integrating WES, RNA-seq, proteome, phosphoproteome, and metabolome to stratify recurrence risk, define four molecular subtypes (including metabolism- and immune-skewed high-risk groups), and connect recurrent-risk features to candidate targets.
+
+## Multi-Omics Identification Extraction
+
+- Cohort/scope: 102 Chinese PTC tumor samples profiled across multiple omics layers; recurrence-risk labels (low/intermediate/high) reported in the main PDF text.
+- Genomics: WES (reported as WES-based genomics; 97 tumor samples mentioned in the PDF text for mutation/indel calls).
+- Transcriptome: RNA-seq (reported for 92 tumors and 34 paired normal tissues in the main PDF text).
+- Metabolome: metabolomics profiling reports 503 metabolites.
+- Proteome/PTM: proteomics reports 3,147 proteins; phospho-proteomics reports 652 phospho-proteomics features (as reported in the main PDF text; verify precise definition/count in Methods).
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Recurrence-risk stratification: high-risk group enrichment reported for TERT promoter mutations and specific fusion events (e.g., RET fusions) alongside other genomic features.
+- Defines four subtypes (CS1–CS4) combining recurrence risk with pathway emphases (BRAF-like, metabolism type, immune type) and links them to prognosis differences.
+- Highlights metabolism and immune pathway profiles as subtype axes beyond single-driver genetics, enabling a “functional state” framing for recurrence risk.
 
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제의 “genomics만으로 설명되지 않는 임상적 차이(여기서는 재발 위험)”를 **proteome/phosphoproteome + metabolome**로 분해하는 분석 틀을 제공한다.
+- 아시아(중국) 코호트 기반이어서, 한국 코호트에서의 multi-omics subtype/feature 설득력(인구집단·임상환경 유사성) 측면에서 보조 레퍼런스로 활용 가능하다.
+
+## Open Questions
+
+- Phospho-proteomics 수치(“652”)가 phosphoprotein/phosphosite/feature 중 무엇을 의미하는지 Methods에서 명확화 필요.
 
 ## Connections
 
-- [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
-- [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/qu-2024-integrated-proteogenomic-metabolomic-characterization-papillary.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/38609408/>
-- DOI: <https://doi.org/10.1093/nar/gkab1038>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145518/>
+- DOI: <https://doi.org/10.1038/s41467-024-47581-1>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11014849/>

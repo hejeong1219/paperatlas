@@ -44,19 +44,30 @@ Lung squamous cell carcinoma (LSCC) remains a leading cause of cancer death with
 This section was added for the interactive atlas on recent multi-omics proteomics/PTM identification scale. Values are taken from the local PDF and preserve the paper's own reporting unit.
 
 - Cohort/scope: 108 tumors and 99 paired NATs.
-- Proteome: not reported as a single extractable count (not explicit in extracted main PDF text).
+- Proteome: 11,575 (quantified proteins; used for RNA–protein correlation across samples in Methods).
 - Phosphoproteome: 68,674 (VM-site polished phosphosites).
 - Acetylome: 15,186 (VM-site polished acetylsites).
 - MS method: TMT-11; serial proteome/phosphoproteome/acetylproteome workflow; K-GG ubiquitylproteome subset.
 - Instrument/platform: Q Exactive HF-X for proteome/acetylproteome; Orbitrap Fusion Lumos for phosphoproteome/ubiquitylproteome.
-- Extraction evidence: STAR Methods: VM-site polishing yielded 68,674 phosphosites, 15,186 acetylsites, and 25,489 ubiquitylsites.
+- Extraction evidence: STAR Methods: VM-site polishing yielded 68,674 phosphosites, 15,186 acetylsites, and 25,489 ubiquitylsites; Methods: RNA–protein correlation section names “global proteome with 11,575 quantified proteins”.
 - Interpretation note: Figure S1B contains per-plex quantified protein bars, but the extracted PDF text did not expose a single global protein count.
+- Follow-up needed: confirm whether the paper also reports a broader “identified proteins/protein groups” total distinct from the 11,575 quantified proteins.
+
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제의 “WGS–(phospho/acetyl/ubiquityl)proteome 통합” 축에서, **WGS/WES + multi-PTM + 면역 조절**을 한 코호트에서 동시에 다룬 대표적인 reference다.
+- CDKN2A/RB1 축을 “유전 변이”만으로 단정하지 않고 **protein 및 phosphorylation 상태로 기능적으로 재평가**하는 논리는, Cancer Multiomics에서 반응/내성 feature를 설계할 때 직접 적용 가능하다.
 
 ## Connections
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics brief: Satpathy 2021](../analyses/cancer-multiomics-literature/satpathy-2021-proteogenomic-portrait-lung-squamous-cell.md)
 
 ## Sources
 
 - Local PDF: `raw/inbox/papers/satpathy-2021-proteogenomic-portrait-lung-squamous-cell.pdf`
+- PubMed: <https://pubmed.ncbi.nlm.nih.gov/34358469/>
+- DOI: <https://doi.org/10.1016/j.cell.2021.07.016>
+- PMC: <https://pmc.ncbi.nlm.nih.gov/articles/PMC8475722/>

@@ -8,19 +8,29 @@ This page is the acquisition and ingest queue for the Korean interactive atlas o
 - Web search or general web pages may help locate candidate papers or downloadable files, but values used in the wiki and visualization must come from local PDFs, local supplements, or maintained source pages.
 - Studies should be separated into patient-cohort MS studies, pan-cancer reanalysis/compendia, methods/workflow papers, and cell-line perturbation papers so the plot does not imply false comparability.
 
+## Extraction Priority Rules (for new additions)
+
+When expanding the corpus, prefer adding papers that improve interpretability and comparability rather than only increasing row count.
+
+- **PTM breadth**: prioritize studies reporting phosphoproteome + acetylome (or other PTMs) over proteome-only papers, unless the paper is a cohort landmark.
+- **Cohort signal**: patient cohort MS studies (tumor ± NAT) outrank cell-line-only perturbations for the atlas “biology” view; perturbations are still valuable as a separate category.
+- **Method novelty**: include when a paper changes what “identification count” means (new acquisition, enrichment, search strategy, localization thresholds).
+- **Supplement availability**: prefer papers where a single global count is clearly stated in the PDF or a supplement table is locally accessible.
+- **Unit integrity**: do not coerce units; preserve the paper’s unit (protein vs protein group vs site vs peptide) and capture it explicitly in the extraction section.
+
 ## Included / Extraction Started
 
 | Source | Local PDF | Source page | Extraction status | Atlas status |
 |---|---|---|---|---|
-| Mertins 2016 breast cancer proteogenomics | yes | yes | protein/phospho extracted; acetyl not reported | included, needs instrument confirmation |
+| Mertins 2016 breast cancer proteogenomics | yes | yes | protein/phospho extracted; acetyl not reported; instrument not named in main PDF | included, needs supplement for instrument |
 | Vasaikar 2019 colon cancer proteogenomics | yes | yes | protein/phospho extracted; acetyl not reported | candidate to add |
 | Clark 2020 clear cell renal cell carcinoma | yes | yes | protein/phospho extracted; acetyl not reported | candidate to add |
 | Dou 2020 endometrial carcinoma | yes | yes | protein/phospho/acetyl extracted | included |
 | Gillette 2020 lung adenocarcinoma | yes | yes | protein/phospho/acetyl extracted | included |
-| Wang 2021 glioblastoma | yes | yes | methods and measured-gene counts extracted; exact identification totals need supplements | hold until supplement check |
+| Wang 2021 glioblastoma | yes | yes | instrument/method confirmed; exact identification totals need supplements | hold until supplement check |
 | Huang 2021 HPV-negative HNSCC | yes | yes | protein/phospho extracted; acetyl not reported | included |
 | Cao 2021 pancreatic ductal adenocarcinoma | yes | yes | protein/phospho/glyco extracted; acetyl not reported | included with caveat |
-| Satpathy 2021 lung squamous cell carcinoma | yes | yes | phospho/acetyl extracted; protein total needs confirmation | included, needs protein count confirmation |
+| Satpathy 2021 lung squamous cell carcinoma | yes | yes | protein/phospho/acetyl extracted | included |
 | Ng 2022 hepatocellular carcinoma | yes | yes | protein/phospho extracted; acetyl not reported | candidate to add |
 | Zhang 2022 pan-cancer proteogenomic compendium | yes | yes | aggregate protein/phospho extracted | included as compendium |
 | Li 2023 pan-cancer CPTAC proteogenomics | yes | yes | aggregate protein/phospho extracted | included as compendium |

@@ -1,52 +1,60 @@
 ---
-title: "Sensitive neoantigen discovery by real-time mutanome-guided immunopeptidomics."
+title: "Sensitive neoantigen discovery by real-time mutanome-guided immunopeptidomics"
 authors:
   - "Shapiro"
   - "Huber"
   - "Michaux"
+  - "Bassani-Sternberg"
 year: 2025
-journal: "Nature communications"
+journal: "Nature Communications"
 doi: "10.1038/s41467-025-62647-4"
 pmid: "40775223"
-pmcid: "PMC8728295"
-paper_kind: research
-pdf: "raw/inbox/papers/shapiro-2025-sensitive-neoantigen-discovery-real-time-mutanome-guided.pdf"
-topic: bcell-neoantigen
-tags:
-  - "bcell-neoantigen"
-  - "neoantigen"
-  - "b-cells"
-  - "tls"
-  - "immunology"
-  - "pmid-40775223"
+paper_kind: methods
+cancer_types:
+  - "uveal melanoma (example application)"
+modalities:
+  - "WES"
+  - "RNA-seq"
+  - "immunopeptidomics"
+  - "real-time MS acquisition"
 themes:
   - "neoantigen-discovery"
-  - "tls-biology"
-  - "clinical-translation"
+  - "immunopeptidomics-workflow"
+  - "real-time-search"
+  - "targeted-acquisition"
+tags:
+  - "cancer-multiomics"
+  - "local-pdf-ingest"
+extra_topics:
+  - "cancer-multiomics"
+pdf: "raw/inbox/papers/shapiro-2025-sensitive-neoantigen-discovery-real-time-mutanome-guided.pdf"
 ---
-# Sensitive neoantigen discovery by real-time mutanome-guided immunopeptidomics.
-
-_Nature communications, 2025._ PMID: [40775223](https://pubmed.ncbi.nlm.nih.gov/40775223/).
-
-DOI: [10.1038/s41467-025-62647-4](https://doi.org/10.1038/s41467-025-62647-4)
+# Sensitive neoantigen discovery by real-time mutanome-guided immunopeptidomics
 
 ## Summary
 
-Targeting cancer-specific HLA-peptide complexes is a promising approach in immunotherapy. Mutated neoantigens are excellent targets due to their immunogenicity and cancer-specificity. Mass spectrometry (MS)-based immunopeptidomics guides the selection of naturally presented immunogenic targets within the immunopeptidome, refining immunogenicity predictions. Implementation in clinical settings, however, must achieve global depth, capturing the entirety of the immunopeptidome, maintain high target sensitivity, and cater to scarce sample inputs and short turnaround time. Here, we present NeoDiscMS, an extension of NeoDisc that enables the acquisition of personalized immunopeptidomics data. Leveraging next-generation sequencing-guided real-time spectral acquisitions, NeoDiscMS maximizes sensitivity with minimal loss of global depth. Designed for effectiveness and ease of use, with minimal effort required for implementation, NeoDiscMS enhances the detection of peptides derived from tumor-associated antigens by up to 20% and improves confidence in neoantigen identification compared to the gold standard method. NeoDiscMS advances personalization in clinical antigen discovery with more confident neoantigen detection and easy implementation.
+NeoDiscMS extends the NeoDisc clinical antigen discovery pipeline to enable real-time, NGS-guided immunopeptidomics acquisitions that preserve global depth while increasing sensitivity for prioritized candidate neoantigens and tumor antigens. The method combines (1) a targeted real-time search branch (triggering high-sensitivity scans when a precursor matches an inclusion list and retention-time window) and (2) a discovery branch using wider isolation windows and chimeric-spectrum deconvolution to retain global peptide coverage. The paper includes concrete data/code availability for clinical-style deployments.
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Pipeline context: NeoDiscMS is integrated into NeoDisc and targets end-to-end clinical antigen discovery (NGS → candidate list → immunopeptidomics acquisition → identification/prioritization).
+- Acquisition design: a 3-second cycle partitions time across MS1, a targeted branch (real-time search on scouting scans; triggers high-sensitivity scans), and a discovery branch (DDA) for global coverage.
+- Discovery-branch boost: uses wider isolation windows (e.g., 3.2 Th) and chimeric-spectrum deconvolution (MSFragger DDA+ mode) to recover identifications from co-isolated precursors.
+- Reported sensitivity gain: tumor-associated antigen detection improves “up to ~20%” compared to a gold-standard acquisition scheme (as stated in the PDF).
+- Example clinical application: in an uveal melanoma case with three lesions, NeoDiscMS identifies 14,797 / 16,033 / 11,968 unique peptides per lesion (numbers as reported in the PDF text).
+- Data availability (as stated in PDF): PRIDE/ProteomeXchange deposit `PXD059824` for raw files/RTS tables/PSMs; WES/RNA-seq for lesions deposited to EGA `EGAD50000001422`.
+- Code availability (as stated in PDF): NeoDiscMS is integrated within NeoDisc and is available via the NeoDisc site.
 
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제에서 “WGS 기반 neoantigen 후보”를 실제 검증 후보로 좁힐 때, **NGS-guided immunopeptidomics**를 임상 TAT 제약 안에 넣는 acquisition 설계(reference)가 된다.
+- WGS-only prediction 대비, “측정 기반(자연 제시 peptide)” 확인 루틴을 어디에 붙일지(샘플량, sensitivity vs depth trade-off)를 구체화하는 데 유용하다.
 
 ## Connections
 
-- [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
-- [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [B-Cell Neoantigen Research Map](../topics/b-cell-neoantigen-human-cancer.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
-- PubMed: <https://pubmed.ncbi.nlm.nih.gov/40775223/>
-- DOI: <https://doi.org/10.1038/s41467-025-62647-4>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728295/>
+- Local PDF: `raw/inbox/papers/shapiro-2025-sensitive-neoantigen-discovery-real-time-mutanome-guided.pdf`

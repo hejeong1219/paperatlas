@@ -40,6 +40,19 @@ Do not use web search or general web pages to fill study values. The `audodidact
 - If a single global value was not visible in extracted PDF text, the field remains empty instead of being filled from the web.
 - Pan-cancer compendia are marked separately from single-cohort MS experiments because their counts aggregate processed data across multiple contributing studies.
 
+## Standard Keys (unit-preserving)
+
+To prevent accidental “unit conversion,” `data/studies.json` should keep both value and unit/type fields for each omics layer.
+
+- `proteome_count_value` + `proteome_count_unit` + `proteome_count_type`
+- `phospho_count_value` + `phospho_count_unit` + `phospho_count_type`
+- `acetyl_count_value` + `acetyl_count_unit` + `acetyl_count_type`
+
+Recommended controlled values:
+
+- `*_count_unit`: `protein`, `protein_group`, `gene`, `phosphosite`, `localized_phosphosite`, `phosphopeptide`, `acetylsite`, `localized_acetylsite`, `acetylpeptide`, `ubiquitylsite`, `not_reported`, `unknown`
+- `*_count_type`: `identified_total`, `quantified_filtered`, `site_polished`, `analysis_feature_set`, `aggregate_compendium`, `not_reported`, `unknown`
+
 ## Corpus-First Status
 
 The current HTML has moved from a small seed dataset to a corpus-coverage atlas. The intended production workflow is:

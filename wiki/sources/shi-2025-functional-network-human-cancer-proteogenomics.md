@@ -47,6 +47,8 @@ Pan-cancer CPTAC-based study showing that protein-level coexpression can be used
 
 ## Connections
 
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- Cancer Multiomics 요약: [Shi 2025 - Functional Network of Human Cancer](../analyses/cancer-multiomics-literature/shi-2025-functional-network-human-cancer.md)
 - [ptmanchor Manuscript Anchor](../analyses/ptmanchor-manuscript-anchor.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Pan-Cancer](../cancers/pan-cancer.md)

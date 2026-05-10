@@ -10,7 +10,7 @@ doi: "10.1001/jamaoncol.2019.5570"
 pmid: "34518289"
 pmcid: "PMC6990933"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/brunlein-2021-functional-analysis-peripheral-intratumoral-neoantigen-specific.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

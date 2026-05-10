@@ -51,6 +51,8 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 ## Connections
 
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- Cancer Multiomics 요약: [Chen 2020 - Non-Smoking Lung Cancer Proteogenomics](../analyses/cancer-multiomics-literature/chen-2020-non-smoking-lung-cancer-proteogenomics.md)
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)

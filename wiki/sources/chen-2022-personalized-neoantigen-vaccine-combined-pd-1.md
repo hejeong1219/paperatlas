@@ -10,7 +10,7 @@ doi: "10.1136/jitc-2021-004389"
 pmid: "36113894"
 pmcid: "PMC9486396"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/chen-2022-personalized-neoantigen-vaccine-combined-pd-1.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

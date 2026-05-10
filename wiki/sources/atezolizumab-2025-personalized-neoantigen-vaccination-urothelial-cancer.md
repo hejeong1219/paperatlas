@@ -38,9 +38,15 @@ Phase 1 human urothelial cancer study showing that personalized neoantigen vacci
 
 - Combines atezolizumab with the personalized neoantigen vaccine platform `PGV001` in urothelial cancer.
 - Uses feasibility and safety as primary endpoints, including neoantigen identification, peptide synthesis, production time, and successful vaccine administration.
-- Reports successful vaccine preparation for most enrolled participants and completion of the priming cycle for all treated participants.
-- Shows emergence of neoantigen-specific T-cell responses in all treated participants, supporting biological activity beyond mere feasibility.
-- Provides early clinical signal in both adjuvant and metastatic settings, though cohort size is small and the study remains exploratory.
+- Feasibility scale (as reported in the PDF text): vaccine successfully prepared for 10/12 enrolled participants with a median end-to-end time of 20.3 weeks; 10 participants initiated protocol treatment.
+- Clinical signal (small n): adjuvant cohort shows 3/4 recurrence-free at a reported median ~39.5 months follow-up; metastatic cohort includes objective responses among participants with measurable disease.
+- Immunogenicity: all treated participants demonstrate on-treatment emergence of neoantigen-specific T-cell responses; the PDF text reports a substantial fraction of selected peptides eliciting responses and a median multi-fold IFNγ increase among responding peptides.
+- Provides a recent high-impact “deployment” reference for how personalized neoantigen selection/manufacture interfaces with checkpoint blockade in real patients.
+
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제의 neoantigen 축에서, “WGS 기반 후보 생성”이 실제 임상에서 **제조·시간·투여·면역반응 readout**이라는 운영 지표로 어떻게 번역되는지 보여주는 트랜슬레이션 anchor다.
+- phosphoproteomics 중심 논문은 아니지만, 면역치료 반응/내성 예측을 위해 WGS feature와 면역 readout(neoantigen-specific T cell response)을 연결하는 프레임을 제공한다.
 
 ## Relevance
 
@@ -52,6 +58,7 @@ Phase 1 human urothelial cancer study showing that personalized neoantigen vacci
 
 - [B-Cell Neoantigen Proposal Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
 - [B-Cell Neoantigen Research Map](../topics/b-cell-neoantigen-human-cancer.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
 - [Neoantigen Discovery Pipelines](../concepts/neoantigen-discovery-pipelines.md)
 - [Proteogenomic analysis reveals RNA as a source for tumor-agnostic neoantigen identification](./nature-2023-rna-source-tumor-agnostic-neoantigen-identification.md)
 - [Personalized neoantigen vaccine and pembrolizumab in advanced hepatocellular carcinoma: a phase 1/2 trial](./yarchoan-2024-personalized-neoantigen-vaccine-and-pembrolizumab.md)

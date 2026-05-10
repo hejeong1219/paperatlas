@@ -35,7 +35,13 @@ Glycosylation and phosphorylation are two of the most important forms of post-tr
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Methods chapter describing a sequential enrichment workflow for post-translationally modified (PTM) MHC peptides, focusing on glycosylated and phosphorylated immunopeptidome fractions.
+- Pipeline outline (as described): isolate immunopeptidome via MHC immunoprecipitation; enrich glycopeptides via HILIC solid-phase extraction (HILIC SPE); enrich phosphopeptides via TiO2 nanoparticles; analyze enriched peptides by LC–MS/MS; identify PTM-MHC peptides via database searching.
+- Demonstration context: applied to cultured Calu-3 lung cancer cells; reported pattern that most glycosylated peptides are found among MHC class II-associated peptides, whereas most phosphorylated peptides are identified among MHC class I-associated peptides.
+
+## Notes
+
+- This is primarily a workflow reference (enrichment strategy + assay sequence) rather than a cohort-scale biological discovery paper.
 
 
 ## Connections
@@ -45,7 +51,7 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/chen-2026-enrichment-phosphorylated-glycosylated-mhc-peptides.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/41085622/>
 - DOI: <https://doi.org/10.1007/978-1-0716-4832-2_8>
 - PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/8933705/>

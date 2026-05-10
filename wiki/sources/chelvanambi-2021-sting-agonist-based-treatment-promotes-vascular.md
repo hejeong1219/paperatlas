@@ -10,7 +10,7 @@ doi: "10.1136/jitc-2020-001906"
 pmid: "33526609"
 pmcid: "PMC7852948"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/chelvanambi-2021-sting-agonist-based-treatment-promotes-vascular.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

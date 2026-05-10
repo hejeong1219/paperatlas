@@ -50,9 +50,13 @@ This section was added for the interactive atlas on recent multi-omics proteomic
 - Phosphoproteome: 62,679 (identified phosphosites).
 - Acetylome: not assayed or not reported as a single extractable count (not assayed/reported).
 - MS method: iTRAQ 4-plex; global proteome plus phosphopeptide enrichment.
-- Instrument/platform: not explicit in extracted main PDF text.
+- Instrument/platform: the main PDF text extract does not name the LC-MS/MS instrument model; treat as `needs_supplement` until supplementary methods (or CPTAC portal technical summary) are locally available.
 - Extraction evidence: Main PDF text: 15,369 proteins and 62,679 phosphosites identified; 12,553 proteins and 33,239 phosphosites quantified after filtering.
 - Interpretation note: Acetylome was not part of the reported CPTAC breast proteogenomic dataset in the extracted PDF text.
+
+## Open Questions
+
+- Supplementary Methods 또는 CPTAC 기술 요약에서 사용한 MS instrument/platform(모델명)은 무엇인가?
 
 ## Connections
 
@@ -63,7 +67,7 @@ This section was added for the interactive atlas on recent multi-omics proteomic
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/mertins-2016-proteogenomics-connects-somatic-mutations-signalling.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/27251275/>
 - DOI: <https://doi.org/10.1038/nature18003>
 - PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3945918/>

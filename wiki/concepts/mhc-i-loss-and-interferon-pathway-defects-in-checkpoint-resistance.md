@@ -22,6 +22,24 @@ One of the most reusable resistance frameworks in immuno-oncology is that tumors
 - Not all lesions are irreversible structural deletions: epigenetic silencing programs such as the `USP22-EZH2` axis may phenocopy antigen-presentation loss while remaining pharmacologically targetable.
 - The framework generalizes across melanoma, lung cancer, colorectal cancer, and neoantigen-directed cell therapy, even though the exact genomic lesions differ by setting.
 
+## Genetic vs Adaptive Downregulation (reading checklist)
+
+When summarizing a paper, explicitly label which bucket the evidence supports. Many studies mix both.
+
+| Bucket | What it looks like | Minimum evidence to cite | Reversibility hypothesis |
+| --- | --- | --- | --- |
+| Genetic / structural loss | `B2M` LOF, HLA LOH, deletions, truncations | DNA (WES/WGS) + clonality; sometimes protein IHC | Often hard to reverse; bypass strategies (NK, bispecifics, vaccines targeting remaining HLA alleles) |
+| Pathway defect in IFN sensing | `JAK1/2` LOF, downstream pathway disruption | DNA + loss of IFN response signature; functional IFN assays when available | Hard to reverse genetically; may require combination strategies or alternative immune effectors |
+| Adaptive transcriptional downregulation | reduced HLA/APPM expression without clear DNA lesion | RNA/protein reduction + context (hypoxia, EMT, inflammation) | Potentially reversible (epigenetic drugs, cytokines, pathway inhibitors) |
+| Epigenetic silencing phenocopy | chromatin regulators linked to MHC-I suppression | perturbation evidence (e.g., inhibitor/KO rescue) + RNA/protein | Reversible in principle; targetability depends on toxicity/therapeutic window |
+
+## What to Extract from PDFs (minimum)
+
+- Which lesion class is claimed (`B2M`/HLA vs IFN/JAK vs adaptive downregulation)?
+- What is the evidence tier (DNA only; DNA+RNA; RNA+protein; functional rescue)?
+- Is this **primary** resistance, **acquired** resistance, or **immunoediting** during progression?
+- Do authors discuss measurement context (pre-treatment vs on-treatment; metastasis site; biopsy timing)?
+
 ## Connections
 
 - [Cancer-Immunity Cycle and Immune Set Point](./cancer-immunity-cycle-and-set-point.md)

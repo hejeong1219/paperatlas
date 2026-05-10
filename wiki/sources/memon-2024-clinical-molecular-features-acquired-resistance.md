@@ -27,7 +27,7 @@ themes:
 
 _Cancer cell, 2024._ PMID: [38215748](https://pubmed.ncbi.nlm.nih.gov/38215748/).
 
-DOI: [10.1016/j.immuni.2019.11.002](https://doi.org/10.1016/j.immuni.2019.11.002)
+DOI: [10.1016/j.ccell.2023.12.013](https://doi.org/10.1016/j.ccell.2023.12.013)
 
 ## Summary
 
@@ -35,17 +35,23 @@ Although immunotherapy with PD-(L)1 blockade is routine for lung cancer, little 
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Clinical cohort: among 1,201 NSCLC patients treated with PD-(L)1 blockade, acquired resistance among initial responders is common (paper reports an estimated 5-year cumulative AR rate of 61% in responders).
+- Molecular profiling subset: paired pre/post tissue was analyzed with whole-transcriptome expression (29 patients; 42 tumors) and WES (22 patients; 34 tumors), with post-treatment samples obtained after radiographic progression and before new systemic therapy.
+- Transcriptional pattern: treatment-induced progression toward a persistently inflamed state, including increased IFNα/IFNγ response signatures and immune infiltration signals; patients can be stratified by IFNγ-response “stable” vs “increase”.
+- Genomic pattern: antigen presentation pathway disruption is highlighted as a putative acquired resistance route, including examples of post-treatment B2M loss-of-function mutations and decreased class I HLA/B2M protein expression in selected cases.
+- Interpretation framing: acquired resistance is not necessarily immune-excluded/deserted; it can be “ongoing but altered IFN response” with immune dysfunction.
 
 
 ## Connections
 
 - [Resistance Topic Hub](../topics/immunotherapy-resistance-and-immune-evasion.md)
 - [Resistance Anchor](../analyses/cancer-resistance-manuscript-anchor.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- Cancer Multiomics brief: [Memon 2024 - Acquired Resistance to PD-(L)1 Blockade in NSCLC](../analyses/cancer-multiomics-literature/memon-2024-clinical-molecular-features-acquired-resistance.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/memon-2024-clinical-molecular-features-acquired-resistance.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/38215748/>
-- DOI: <https://doi.org/10.1016/j.immuni.2019.11.002>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6920571/>
+- DOI: <https://doi.org/10.1016/j.ccell.2023.12.013>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11249385/>

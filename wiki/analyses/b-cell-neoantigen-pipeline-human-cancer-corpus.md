@@ -45,6 +45,21 @@ The direct literature on a single named "B-cell neoantigen pipeline" in human ca
 - [Mature tertiary lymphoid structures evoke intra-tumoral T and B cell responses via progenitor exhausted CD4+ T cells in head and neck cancer](../sources/li-2025-mature-tertiary-lymphoid-structures-headneck.md)
 - [B cells and tertiary lymphoid structures in cancer therapy response](../sources/hegoburu-2025-b-cells-and-tertiary-structures.md)
 
+## Priority Reading Queue (bridge: neoantigen → immune architecture → response)
+
+The goal of this short queue is to force a minimal “end-to-end” reading path that connects upstream neoantigen selection to downstream tumor immune organization (B cells/TLS) and clinical outcome signals, using only local PDFs/source pages.
+
+1. [A comprehensive proteogenomic pipeline for neoantigen discovery to advance personalized cancer immunotherapy](../sources/huber-2025-comprehensive-proteogenomic-pipeline-neoantigen-discovery.md)
+   - Verify: how the pipeline treats HLA-I vs HLA-II, noncanonical sources, and APPM/HLA LOH defects (these determine whether “good neoantigen” assumptions hold).
+2. [Personalized neoantigen vaccine and pembrolizumab in advanced hepatocellular carcinoma: a phase 1/2 trial](../sources/yarchoan-2024-personalized-neoantigen-vaccine-and-pembrolizumab.md)
+   - Verify: what is measured as response (clinical + immune), and what evidence exists for presentation/immunogenicity.
+3. [A shared neoantigen vaccine combined with immune checkpoint blockade for advanced metastatic solid tumors: phase 1 trial interim results](../sources/rappaport-2024-shared-neoantigen-vaccine-checkpoint-blockade.md)
+   - Verify: what “shared” means operationally (HLA restriction, allele frequency, coverage) and whether immune architecture features are discussed or measured.
+4. [Mature tertiary lymphoid structures evoke intra-tumoral T and B cell responses via progenitor exhausted CD4+ T cells in head and neck cancer](../sources/li-2025-mature-tertiary-lymphoid-structures-headneck.md)
+   - Verify: TLS maturity definition and whether the paper implies causal direction (TLS drives response vs therapy induces TLS).
+5. [Tertiary lymphoid structures and B cells determine clinically relevant T cell phenotypes in ovarian cancer](../sources/kasikova-2024-tertiary-lymphoid-structures-b-cells.md)
+   - Verify: which B-cell/TLS features map onto “effector competence” (CD8 phenotype, exhaustion trajectory, antigen presentation arguments).
+
 ## Open Questions
 
 - Which TLS or B-cell features best predict benefit from neoantigen vaccines or adoptive neoantigen-specific cell products?

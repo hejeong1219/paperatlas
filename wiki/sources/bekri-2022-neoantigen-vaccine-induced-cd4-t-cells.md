@@ -10,7 +10,7 @@ doi: "10.1136/jitc-2021-003572"
 pmid: "35190376"
 pmcid: "PMC8862454"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/bekri-2022-neoantigen-vaccine-induced-cd4-t-cells.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

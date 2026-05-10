@@ -1,52 +1,58 @@
 ---
-title: "MHCquant2 refines immunopeptidomics tumor antigen discovery."
+title: "MHCquant2 refines immunopeptidomics tumor antigen discovery"
 authors:
   - "Scheid"
   - "Lemke"
-  - "Hoenisch-Gravel"
-year: "2025"
-journal: "Genome biology"
+  - "Walz"
+  - "Nahnsen"
+year: 2025
+journal: "Genome Biology"
 doi: "10.1186/s13059-025-03763-8"
 pmid: "40983925"
-pmcid: "PMC12455830"
-paper_kind: research
-pdf: "raw/inbox/papers/scheid-2025-mhcquant2-refines-immunopeptidomics-tumor-antigen.pdf"
-topic: bcell-neoantigen
-tags:
-  - "bcell-neoantigen"
-  - "neoantigen"
-  - "b-cells"
-  - "tls"
-  - "immunology"
-  - "pmid-40983925"
+paper_kind: software
+modalities:
+  - "immunopeptidomics"
+  - "Nextflow (nf-core)"
+  - "OpenMS"
+  - "DeepLC"
+  - "MS2PIP"
 themes:
+  - "immunopeptidomics-workflow"
+  - "pipeline-standardization"
   - "neoantigen-discovery"
-  - "tls-biology"
-  - "clinical-translation"
+tags:
+  - "cancer-multiomics"
+  - "local-pdf-ingest"
+extra_topics:
+  - "cancer-multiomics"
+pdf: "raw/inbox/papers/scheid-2025-mhcquant2-refines-immunopeptidomics-tumor-antigen.pdf"
 ---
-# MHCquant2 refines immunopeptidomics tumor antigen discovery.
-
-_Genome biology, 2025._ PMID: [40983925](https://pubmed.ncbi.nlm.nih.gov/40983925/).
-
-DOI: [10.3389/fimmu.2021.705974](https://doi.org/10.3389/fimmu.2021.705974)
+# MHCquant2 refines immunopeptidomics tumor antigen discovery
 
 ## Summary
 
-Confident identification of human leukocyte antigen (HLA)-presented peptides is crucial for advancing cancer immunotherapy. We present MHCquant2, a scalable and modular Nextflow pipeline integrated into nf-core as a reproducible, portable, and standardized workflow for immunopeptidomics. This integration allows a community-driven, robust solution for high-throughput analyses across operating systems and cloud infrastructures. MHCquant2 integrates open-source tools including OpenMS, DeepLC, and MS2PIP, improving peptide identifications by up to 27% across diverse MS platforms, particularly enriching low-abundant peptides. MHCquant2 demonstrates state-of-the-art performance on our novel benignMHCquant2 dataset (n = 92) and expands the benign human immunopeptidome by over 160,000 unique naturally presented HLA peptides.
+MHCquant2 is an open-source, nf-core integrated Nextflow pipeline for scalable immunopeptidomics identification and quantification with an emphasis on reproducibility and high sensitivity. It combines OpenMS-based processing with peptide-property predictors (DeepLC, MS2PIP) and rescoring to improve peptide identifications and to standardize large-scale HLA peptide datasets. The work also builds and applies a large benign immunopeptidome reference to refine tumor-associated antigen definition and to support discovery of tumor-exclusive antigens and low-abundance neoepitopes.
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Workflow: modular Nextflow DSL2 pipeline integrated into nf-core, designed for reproducible immunopeptidomics processing across platforms and infrastructures.
+- Sensitivity claim (as stated in PDF): integrates OpenMS, DeepLC, and MS2PIP, improving peptide identifications by up to ~27% across diverse MS platforms.
+- Reference resource: introduces a novel benign immunopeptidomics dataset (`benignMHCquant2`, n=92) and merges it with existing benign datasets into a comprehensive benign reference.
+- Benign reference scale (as stated in PDF): comprehensive benign reference includes 420 HLA class I samples (213,462 unique binders) and 415 HLA class II samples (423,438 peptides); `benignMHCquant2` contributes substantial new binders/peptides to this reference.
+- Tumor antigen refinement: uses the expanded benign reference to filter putative TAAs and to prioritize tumor-exclusive peptides; re-analyses published AML/CLL/OvCa and melanoma datasets to demonstrate impact.
+- Data availability (as stated in PDF): the dataset generated in the study is deposited to PRIDE under `PXD058436`.
+- Code availability (as stated in PDF): pipeline is available via nf-core/GitHub and archived on Zenodo (versioned release cited in the PDF).
 
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제에서 “WGS 기반 neoantigen 후보”를 immunopeptidomics로 확인/정량하는 경우, **재현 가능한 표준 파이프라인(nf-core)** 레퍼런스로 바로 사용할 수 있다.
+- “benign reference로 TAA를 정의/필터링”하는 프레임은, 한국인 코호트에서 on-target/off-tumor 리스크를 더 보수적으로 관리하려는 논리의 기반이 된다.
 
 ## Connections
 
-- [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
-- [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [B-Cell Neoantigen Research Map](../topics/b-cell-neoantigen-human-cancer.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
-- PubMed: <https://pubmed.ncbi.nlm.nih.gov/40983925/>
-- DOI: <https://doi.org/10.3389/fimmu.2021.705974>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5121339/>
+- Local PDF: `raw/inbox/papers/scheid-2025-mhcquant2-refines-immunopeptidomics-tumor-antigen.pdf`

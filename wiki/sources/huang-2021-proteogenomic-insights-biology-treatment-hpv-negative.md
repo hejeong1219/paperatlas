@@ -54,6 +54,8 @@ This section was added for the interactive atlas on recent multi-omics proteomic
 
 ## Connections
 
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- Cancer Multiomics 요약: [Huang 2021 - HPV-Negative HNSCC Proteogenomics](../analyses/cancer-multiomics-literature/huang-2021-hnscc-proteogenomics.md)
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
 

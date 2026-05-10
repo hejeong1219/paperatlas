@@ -6,10 +6,16 @@ authors:
   - "Petralia"
 year: "2019"
 journal: "Cell"
-paper_kind: proteogenomic
+paper_kind: resource
+cancer_types:
+  - clear-cell-renal-cell-carcinoma
+modalities:
+  - proteogenomics
+  - phosphoproteomics
 pdf: "raw/inbox/papers/clark-2019-integrated-proteogenomic-characterization-clear-cell.pdf"
 topic: ptmanchor
 tags:
+  - "source"
   - "ptmanchor"
   - "proteomics"
   - "ptm"
@@ -34,7 +40,14 @@ To elucidate the deregulated functional modules that drive clear cell renal cell
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- **110 treatment-naive RCC tumors**와 **84 paired NAT**를 포함한 CPTAC-style ccRCC proteogenomics 리소스이며, 분석 본문에서는 **103 treatment-naive ccRCC** 중심으로 기능 모듈을 해석한다.
+- Genomic instability와 연관된 subgroup을 포함해, 유전 이벤트가 proteome/phosphoproteome 수준에서 어떻게 “기능 상태”로 나타나는지(대사, 번역, phospho-signaling 모듈)를 제시한다.
+- microenvironment cell signature 기반으로 **4개의 immune-based ccRCC subtype**을 정의하고, subtype별 pathway 차이를 서술한다.
+
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics에서 WGS/SV/CNA 신호를 phosphoproteome/kinase pathway와 연결할 때, **genome→protein/PTM 기능 모듈**로의 translation을 cohort-scale로 보여주는 reference다.
+- 면역 침윤/immune subtype을 multi-omics에서 같이 두는 구성은, 표적치료+면역치료 반응/내성 모델에서 **WGS-derived immune feature + phosphoproteome** 결합 설계에 참고 가능하다.
 
 
 ## Connections
@@ -43,6 +56,8 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Clark 2019 - ccRCC CPTAC Proteogenomics (Tumor+NAT; immune subtypes)](../analyses/cancer-multiomics-literature/clark-2019-integrated-proteogenomic-characterization-clear-cell.md)
 
 ## Sources
 

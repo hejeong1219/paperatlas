@@ -1,42 +1,34 @@
 ---
-title: "Comprehensive evaluation of phosphoproteomic-based kinase activity inference"
+title: "Publisher Correction: Comprehensive evaluation of phosphoproteomic-based kinase activity inference"
 authors:
   - "Muller-Dott"
-  - "Jaehnig"
-  - "Munchic"
 year: 2025
-journal: "Nat Commun"
-paper_kind: proteogenomic
+journal: "Nature Communications"
+doi: "10.1038/s41467-025-62094-1"
+paper_kind: correction
 pdf: "raw/inbox/papers/mullerdott-2025-comprehensive-evaluation-phosphoproteomic-based-kinase-activity.pdf"
-topic: ptmanchor
 tags:
-  - "ptmanchor"
-  - "proteomics"
-  - "ptm"
-  - "phosphoproteomics"
-  - "cancer-proteomics"
+  - "local-pdf-ingest"
 themes:
-  - "ptm-correction"
-  - "kinase-signaling"
-  - "cancer-proteomics"
+  - "publisher-correction"
 ---
-# Comprehensive evaluation of phosphoproteomic-based kinase activity inference
+# Publisher Correction: Comprehensive evaluation of phosphoproteomic-based kinase activity inference
 
 _Nat Commun, 2025._
 
 ## Summary
 
-_Abstract pending — see source PDF or external link for full content._
+This PDF is a publisher correction notice, not the full benchmarKIN article. The correction notes that figure caption headings for Figures 4–6 were in an incorrect order in the initially published version and have been amended.
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- This item is a correction notice (DOI `10.1038/s41467-025-62094-1`), not the primary research article.
+- For the full study (benchmarKIN evaluation of kinase activity inference), see: [Comprehensive evaluation of phosphoproteomic-based kinase activity inference](./muller-dott-2025-phosphoproteomic-kinase-activity-inference.md).
 
 
 ## Connections
 
-- [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
-- [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 
 ## Sources
 

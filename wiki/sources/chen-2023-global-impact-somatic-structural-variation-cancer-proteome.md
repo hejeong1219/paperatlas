@@ -5,9 +5,8 @@ authors:
 year: 2023
 journal: "Nature Communications"
 doi: "10.1038/s41467-023-41374-8"
-url: "https://www.nature.com/articles/s41467-023-41374-8"
 pdf: "raw/inbox/papers/chen-2023-global-impact-somatic-structural-variation-cancer-proteome.pdf"
-paper_kind: cohort-study
+paper_kind: computational
 cancer_types:
   - pan-cancer
 modalities:
@@ -29,21 +28,24 @@ topic: ptmanchor
 ---
 # Global impact of somatic structural variation on the cancer proteome
 
-Pan-cancer proteogenomics study showing how somatic structural variation can affect nearby protein expression and extend clinically relevant pathway alteration beyond coding mutations alone.
+Pan-cancer proteogenomics analysis that connects **somatic structural variants (SVs)** from WGS to **protein-level** consequences, emphasizing non-coding SV mechanisms (e.g., enhancer hijacking) that propagate from RNA to protein in a subset of events.
+
+## Summary
+
+Using public-domain mass-spectrometry proteomics combined with whole-genome sequencing across **1307 tumors**, the authors quantify how often SV breakpoint-associated cis-regulatory effects observed at mRNA also appear at protein, and argue that SV-aware proteogenomics expands the number of tumors recognized as altered in clinically relevant pathways.
 
 ## Key Points
 
-- Combines mass-spectrometry-based proteomics with whole-genome sequencing across 1307 human tumors spanning multiple tissues.
-- Shows that a meaningful subset of SV-associated cis-regulatory changes observed at the RNA level also propagate to the protein level.
+- Combines mass-spectrometry proteomics with WGS across **1307 human tumors** spanning multiple tissues.
+- Reports that ~**25%** of genes with SV-associated cis-regulatory alterations at the mRNA level are similarly associated at the protein level.
 - Links enhancer hijacking, retrotransposon translocation, altered DNA methylation, and fusion-associated events to protein overexpression.
 - Argues that structural-variation-aware proteogenomics can expand the number of patients recognized as altered for important pathways.
 - Demonstrates that non-coding genome events can have interpretable consequences in the human cancer proteome.
 
-## Relevance
+## Cancer Multiomics Project Relevance
 
-- Relevant to the ptmanchor manuscript because it reinforces the broader protein-level interpretation framework: DNA or RNA alteration does not fully define functional output unless protein consequences are measured.
-- Useful as a systems background paper for why multi-layer models should not stop at transcriptomics when interpreting signaling and regulation in tumors.
-- Not PTM-specific, but it strengthens the rationale for abundance-aware proteogenomic interpretation across human cancer cohorts.
+- Cancer Multiomics 과제에서 WGS의 SV/breakpoint 패턴을 “유전 이벤트”로만 두지 않고, **protein-level consequence**(abundance/functional state)로 연결해야 한다는 시스템 프레임을 제공한다.
+- PTM-specific 논문은 아니지만, WGS 기반 feature를 반응/내성 모델에 넣을 때 **RNA proxy 한계**와 “protein evidence가 필요한 이유”를 명확히 해준다.
 
 ## Connections
 
@@ -52,8 +54,9 @@ Pan-cancer proteogenomics study showing how somatic structural variation can aff
 - [Pan-Cancer](../cancers/pan-cancer.md)
 - [Proteogenomic characterization of 2002 human cancers reveals pan-cancer molecular subtypes and associated pathways](./zhang-2022-proteogenomic-characterization-2002-human-cancers.md)
 - [Mapping the functional network of human cancer through machine learning and pan-cancer proteogenomics](./shi-2025-functional-network-human-cancer-proteogenomics.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Chen 2023 - SV Breakpoints → Protein Consequences (Pan-cancer WGS+Proteomics)](../analyses/cancer-multiomics-literature/chen-2023-global-impact-somatic-structural-variation-cancer-proteome.md)
 
 ## Sources
 
-- PDF: [chen-2023-global-impact-somatic-structural-variation-cancer-proteome.pdf](../../raw/inbox/papers/chen-2023-global-impact-somatic-structural-variation-cancer-proteome.pdf)
-- Article: <https://www.nature.com/articles/s41467-023-41374-8>
+- Local PDF: `raw/inbox/papers/chen-2023-global-impact-somatic-structural-variation-cancer-proteome.pdf`

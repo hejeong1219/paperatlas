@@ -1,35 +1,44 @@
 ---
-title: "Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer."
-year: "2022"
-paper_kind: "cell-line/xenograft perturbation"
+title: "Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer"
+authors:
+  - "Anurag"
+year: 2022
+journal: "Cancer Discovery"
+doi: "10.1158/2159-8290.CD-22-0200"
+paper_kind: proteogenomic
 pdf: "raw/inbox/papers/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response.pdf"
 topic: "multiomics-proteomics-ptm-identification"
+extra_topics:
+  - "cancer-multiomics"
 tags:
   - "multiomics-proteomics-ptm-identification"
   - "local-pdf-ingest"
   - "cancer-proteomics"
   - "phosphoproteomics"
+  - "cancer-multiomics"
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
 ---
-# Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer.
+# Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer
 
 ## Summary
 
-Local-PDF ingest note for the cancer multiomics/PTM atlas. RESEARCH ARTICLE Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer Downloaded from http://aacrjournals.org/cancerdiscovery/article-pdf/12/11/2586/3218265/2586.pdf by Korea University Medical Library user on 27 April 2026 Meenakshi Anurag1, Eric J.
+Pretreatment TNBC biopsies from neoadjuvant carboplatin + docetaxel trials are profiled with WES, RNA-seq, and TMT-based proteomics/phosphoproteomics to identify multi-omic features associated with pathologic complete response (pCR) versus non-response. The study reports response-linked pathway programs (cell-cycle/DNA-repair/immune features) and highlights a resistance-associated 19q13.31–33 deletion (including LIG1/POLD1/XRCC1) connected to genomic instability and poorer outcomes.
 
 ## Key Points
 
-- Atlas classification: cell-line/xenograft perturbation.
-- Quantitative atlas row: candidate.
-- Claims in this page were extracted from the local PDF text; web pages were not used as evidence.
+- Cohort/setting: pretreatment TNBC biopsies from neoadjuvant carboplatin + docetaxel clinical trials, analyzed with pCR/RCB outcomes.
+- Data layers: WES (~100×), RNA-seq, and quantitative TMT proteomics + phosphoproteomics from the same biopsy material (multi-analyte extraction).
+- Scale cues (as stated in the PDF text): ~11,063 proteins and ~27,000 phosphorylation sites across ~5,000 phosphoproteins are referenced as the proteome/phosphoproteome measurement scale.
+- Response-linked biology: sensitivity-associated programs include DNA repair / E2F / G2–M checkpoint alongside immune/IFN-γ and immune-checkpoint components; non-response associates with distinct kinase-target enrichment and resistance programs.
+- Genomic marker candidate: a resistance-associated 19q13.31–33 deletion (LIG1/POLD1/XRCC1) is highlighted and connected to carboplatin-selective resistance and higher chromosomal instability in external/orthogonal contexts.
 
 ## Multi-Omics Identification Extraction
 
-- Cohort/scope: Breast cancer; classification `cell-line/xenograft perturbation`.
-- Proteome count candidate: not confidently extracted from main PDF text.
-- Phosphoproteome count candidate: not confidently extracted from main PDF text.
+- Cohort/scope: TNBC pretreatment biopsies from neoadjuvant carboplatin + docetaxel trials (clinical response-labeled cohort).
+- Proteome count cue (PDF text): protein layer references ~11,063 proteins.
+- Phosphoproteome count cue (PDF text): phosphoproteomic layer references ~27,000 phosphorylation sites across ~5,000 phosphoproteins.
 - Acetylome count candidate: not confidently extracted from main PDF text.
 - Method/instrument evidence from local PDF:
   - Genes Downloaded from http://aacrjournals.org/cancerdiscovery/article-pdf/12/11/2586/3218265/2586.pdf by Korea University Medical Library user on 27 April 2026 exome DNA sequencing (WES), RNA sequencing (RNA-seq), with lower correlations were enriched in pathways containing and tandem mass tag (TMT)–based proteomics and phos- large protein complexes servi...
@@ -45,10 +54,16 @@ Local-PDF ingest note for the cancer multiomics/PTM atlas. RESEARCH ARTICLE Prot
   - baseline MYC TARGETS V1 MYC TARGETS V2 E2F TARGETS G2M CHECKPOINT 4 FATTY ACID METABOLISM C MITOTIC SPINDLE Signed −log10 (FDR) from 1,745 OXIDATIVE PHOSPHORYLATION MTORC1 SIGNALING 177 2 PI3K AKT MTOR SIGNALING UNFOLDED PROTEIN RESPONSE Protein (11,063) ADIPOGENESIS GLYCOLYSIS 6,091 0 APICAL JUNCTION Phosphoprotein NOTCH SIGNALING GSEA based on different...
 - Interpretation note: preserve the reported unit; do not convert protein groups, phosphosites, phosphopeptides, acetylsites, and phosphoproteins into a false common metric.
 
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제에서 “치료 반응/내성 예측 모델”을 만들 때, **WES + proteome/phosphoproteome feature를 같은 환자 바이옵시에서 연결**하는 대표 사례로 참고할 수 있다.
+- 특히 pCR vs non-pCR처럼 임상 라벨이 있는 데이터에서, 유전적 feature(예: 특정 SCNA)와 phosphoproteome-driven pathway/kinase feature를 동시에 보는 분석 흐름은 Cancer Multiomics 코호트의 분석 설계에 직접적인 힌트를 준다.
+
 ## Connections
 
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 - [Multiomics PTM Corpus Queue](../analyses/multiomics-ptm-corpus-queue.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

@@ -5,6 +5,7 @@
 ## Key Points
 
 - 이 주제는 `ptmanchor`의 보조 자료가 아니라, 교수님 요청에 맞춘 별도 interactive atlas 주제다.
+- 질문 확장 맵: [Four-Topic Question Expansion Map](../analyses/topic-question-expansion-map.md) (Topic 3)
 - 포함 기준은 MS 기반 proteome, phosphoproteome, acetylome 또는 acetyl-proteome 계층을 실제로 측정한 논문이다.
 - 시각화에 들어가는 숫자는 웹 검색 결과가 아니라 로컬 PDF, 보충자료, 그리고 그 PDF에서 ingest된 source page만 근거로 삼는다.
 - 단백질, protein group, gene-level protein abundance, phosphopeptide, phosphosite, acetylsite, acetylated peptide는 서로 다른 단위로 보존한다.

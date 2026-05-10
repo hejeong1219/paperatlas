@@ -20,6 +20,7 @@ Curated topic collection for how neoantigen discovery, B-cell and tertiary lymph
 - [B-Cell Neoantigen Research Map Synthesis](../syntheses/b-cell-neoantigen-research-map.md)
 - [B-Cell Neoantigen Pipeline in Human Cancer](../analyses/b-cell-neoantigen-pipeline-human-cancer-corpus.md)
 - [B-Cell Neoantigen Proposal Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
+- 질문 확장 맵: [Four-Topic Question Expansion Map](../analyses/topic-question-expansion-map.md) (Topic 1)
 
 ## Core Concept Pages
 
@@ -295,7 +296,6 @@ Curated topic collection for how neoantigen discovery, B-cell and tertiary lymph
 - [SARS-CoV-2 Antibody Response to 2 or 3 Doses of the BNT162b2 Vaccine in Patients Treated With Anticancer Agents.](../sources/fenioux-2022-sars-cov-2-antibody-response-2-3.md)
 - [SPOTlight: seeded NMF regression to deconvolute spatial transcriptomics spots with single-cell transcriptomes.](../sources/elosuabayes-2021-spotlight-seeded-nmf-regression-deconvolute.md)
 - [STING agonist-based treatment promotes vascular normalization and tertiary lymphoid structure formation in the therapeutic melanoma microenvironment.](../sources/chelvanambi-2021-sting-agonist-based-treatment-promotes-vascular.md)
-- [SVNeoPP: A Workflow for Structural-Variant-Derived Neoantigen Prediction and Prioritization Using Multi-Omics Data.](../sources/an-2026-svneopp-workflow-structural-variant-derived-neoantigen-prediction.md)
 - [Selective expansion of T-cell receptor engineered T cells with increased stem-like phenotypes using neoantigen stimulation.](../sources/kim-2025-selective-expansion-t-cell-receptor-engineered.md)
 - [Sensitive neoantigen discovery by real-time mutanome-guided immunopeptidomics.](../sources/shapiro-2025-sensitive-neoantigen-discovery-real-time-mutanome-guided.md)
 - [Single cell and spatial transcriptomics highlight the interaction of club-like cells with immunosuppressive myeloid cells in prostate cancer.](../sources/kiviaho-2024-single-cell-spatial-transcriptomics-highlight.md)

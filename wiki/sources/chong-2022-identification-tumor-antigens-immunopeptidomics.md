@@ -28,7 +28,7 @@ themes:
 
 _Nature biotechnology, 2022._ PMID: [34635837](https://pubmed.ncbi.nlm.nih.gov/34635837/).
 
-DOI: [10.1002/pmic.201700465](https://doi.org/10.1002/pmic.201700465)
+DOI: [10.1038/s41587-021-01038-8](https://doi.org/10.1038/s41587-021-01038-8)
 
 ## Summary
 
@@ -36,7 +36,16 @@ The identification of actionable tumor antigens is indispensable for the develop
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Review overview: immunopeptidomics identifies HLA-presented tumor antigens directly from eluted HLA-bound peptides measured by LC–MS/MS, enabling both canonical and noncanonical antigen discovery.
+- Canonical sources: tumor-associated antigens (e.g., CTAs) and mutation-derived neoantigens (SNVs/indels, gene fusions) that alter protein-coding regions.
+- Noncanonical sources emphasized: peptides arising from noncoding regions or atypical processing (alternative splicing/intron retention, noncanonical ORFs, lncRNAs/pseudogenes, transposable elements/ERVs, DRiPs, proteasome-spliced peptides, PTM-bearing peptides).
+- Central computational tension: expanding the search database to include noncanonical candidates increases false-positive risk; the review highlights the need for strict FDR control, orthogonal evidence (transcriptomics/ribosome profiling), and targeted/functional validation.
+- Clinical linkage: antigen discovery supports TCR-engineered cell therapies and personalized vaccines; “shared” noncanonical antigens are framed as attractive off-the-shelf targets if validated and tumor-specific.
+
+## Limitations / Open Questions
+
+- Sample constraints (tumor material, purity, HLA allele coverage) and method variability (IP reagents, LC–MS depth, search parameters) can dominate detected antigen sets.
+- How to standardize “noncanonical” reference construction and validation thresholds remains a key barrier for clinical translation.
 
 
 ## Connections
@@ -46,7 +55,7 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/chong-2022-identification-tumor-antigens-immunopeptidomics.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/34635837/>
-- DOI: <https://doi.org/10.1002/pmic.201700465>
+- DOI: <https://doi.org/10.1038/s41587-021-01038-8>
 - PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/6032843/>

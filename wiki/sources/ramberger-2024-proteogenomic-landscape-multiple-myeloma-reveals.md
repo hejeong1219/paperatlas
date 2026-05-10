@@ -52,9 +52,16 @@ Multiple myeloma (MM) is a plasma cell malignancy of the bone marrow. Despite th
 
 - Should the interactive display the approximate identified counts (`>10,000`, `>50,000`) or only the exact quantified-in-half counts?
 
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제의 “WGS/구조변이·CNA 축”과 “phosphoproteome/kinase signaling 축”을 연결할 때, **nanopore whole-genome DNA sequencing 기반 CNV + TMT phosphoproteomics 통합**이라는 설계 자체가 직접 참고가 된다.
+- 코호트 내 고위험군을 genetic lesion과 독립적으로 phosphoproteomic pathway clustering으로 분리한 사례는, Cancer Multiomics에서 “genome feature가 약할 때”도 기능 상태 기반 분류가 가능한지 검증하는 레퍼런스로 유용하다.
+
 ## Connections
 
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics brief: Ramsberger 2024](../analyses/cancer-multiomics-literature/ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals.md)
 
 ## Sources
 

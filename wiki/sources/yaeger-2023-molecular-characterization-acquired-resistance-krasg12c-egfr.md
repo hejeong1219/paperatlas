@@ -14,7 +14,6 @@ pdf: "raw/inbox/papers/yaeger-2023-molecular-characterization-acquired-resistanc
 topic: resistance
 tags:
   - "resistance"
-  - "resistance"
   - "immune-evasion"
   - "immunotherapy"
   - "pmid-36355783"
@@ -27,7 +26,7 @@ themes:
 
 _Cancer discovery, 2023._ PMID: [36355783](https://pubmed.ncbi.nlm.nih.gov/36355783/).
 
-DOI: [10.1101/861054](https://doi.org/10.1101/861054)
+DOI: [10.1158/2159-8290.CD-22-0405](https://doi.org/10.1158/2159-8290.CD-22-0405)
 
 ## Summary
 
@@ -37,17 +36,27 @@ DOI: [10.1101/861054](https://doi.org/10.1101/861054)
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- The paper frames acquired resistance to KRASG12C–EGFR inhibition in CRC as predominantly mechanisms that prevent ERK pathway suppression at progression.
+- Serial on-treatment blood monitoring suggests many resistance alterations remain low-frequency/subclonal, while KRASG12C amplification can rise over time with clinical progression.
+- After drug withdrawal, KRASG12C amplification-associated resistant cells undergo oncogene-induced senescence; circulating DNA levels of the alteration can rapidly fall.
+- In the post-withdrawal state, drug resumption is described as ineffective with elevated mTOR signaling, motivating exploration of senescence-targeting strategies.
+
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제의 “획득내성(acquired resistance)” 축에서, **ctDNA 기반 시계열(WGS/WES 파생 변이 추적)**과 “경로 재활성화(ERK)–대체 경로(mTOR)” 전환 프레임을 제공한다.
+- 반응/내성 모델을 만들 때 “단일 최종 시점”이 아니라 **치료 중/중단/재투여 시점별 분자 상태 전환**을 feature로 넣을 필요가 있음을 강하게 시사한다.
 
 
 ## Connections
 
 - [Resistance Topic Hub](../topics/immunotherapy-resistance-and-immune-evasion.md)
 - [Resistance Anchor](../analyses/cancer-resistance-manuscript-anchor.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics brief: Yaeger 2023](../analyses/cancer-multiomics-literature/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/36355783/>
-- DOI: <https://doi.org/10.1101/861054>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6771278/>
+- DOI: <https://doi.org/10.1158/2159-8290.CD-22-0405>
+- PMC: <https://pmc.ncbi.nlm.nih.gov/articles/PMC9827113/>

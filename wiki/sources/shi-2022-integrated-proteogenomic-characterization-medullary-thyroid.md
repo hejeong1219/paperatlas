@@ -38,7 +38,7 @@ Medullary thyroid carcinoma (MTC) is a rare neuroendocrine malignancy derived fr
 - Phosphoproteome: 3,073 quantifiable phosphopeptides detected in more than half of the 74 phosphoproteome samples.
 - Acetylome: not reported as a separate acetylome layer in the local PDF.
 - MS method: label-free global proteomics and phosphoproteomics; XIC-based quantification, column-median normalization, log2 transformation, and KNN imputation.
-- Instrument/platform: the main PDF notes continuous LC-MS/MS acquisition and mass spectrometer stability monitoring but does not name the exact model in the extractable main text; instrument detail may require supplementary methods.
+- Instrument/platform: the Methods text in the local PDF describes continuous LC-MS/MS acquisition and instrument stability monitoring but does not name the mass spectrometer model; treat the instrument as “not reported in main PDF” until supplementary methods are locally available.
 - Extraction evidence: local PDF Methods report 6,607 quantifiable proteins and 3,073 quantifiable phosphopeptides, with detection thresholds of at least 51/102 global-proteome samples and at least 37/74 phosphoproteome samples.
 - Interpretation note: counts are filtered quantifiable analysis features, not necessarily all raw identifications.
 

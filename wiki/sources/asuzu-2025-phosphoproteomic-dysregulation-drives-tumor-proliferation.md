@@ -36,7 +36,14 @@ Pituitary adenomas constitute up to 20% of primary brain tumors, yet somatic mut
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Built paired multi-omics datasets comparing human Cushing’s disease (CD) pituitary adenomas vs margin adult human pituitary tissue, including chromatin accessibility, DNA methylation, transcriptomics, proteomics, and phosphoproteomics.
+- Reported an epigenetically reactivated “neurodevelopmental phosphoprotein program” in CD adenomas that is typically lost post-natally.
+- Highlighted PPP1R17 upregulation as a putative driver mechanism: PPP1R17 is described as an endogenous inhibitor of PP2A, shifting the kinase–phosphatase balance toward hyperphosphorylation.
+- Functional validation: PPP1R17 overexpression in normal murine pituitary cells is reported to recapitulate an adenoma-like phenotype; a small-molecule PP2A agonist is reported to reverse PPP1R17-mediated tumorigenesis in vitro and in vivo.
+
+## Notes
+
+- This is a benign-tumor system (pituitary adenoma) but the mechanistic framing (phosphatase inhibition → phosphoproteome dysregulation → proliferation; druggability via PP2A agonism) is reusable when thinking about kinase/phosphatase balance as a causal lever beyond purely genomic drivers.
 
 
 ## Connections
@@ -46,7 +53,7 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/asuzu-2025-phosphoproteomic-dysregulation-drives-tumor-proliferation.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/41473325/>
 - DOI: <https://doi.org/10.1101/2025.09.28.679056>
 - PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12747271/>

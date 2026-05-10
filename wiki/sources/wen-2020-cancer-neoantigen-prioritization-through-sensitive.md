@@ -28,7 +28,7 @@ themes:
 
 _Nature communications, 2020._ PMID: [32273506](https://pubmed.ncbi.nlm.nih.gov/32273506/).
 
-DOI: [10.1038/nbt.3820](https://doi.org/10.1038/nbt.3820)
+DOI: [10.1038/s41467-020-15456-w](https://doi.org/10.1038/s41467-020-15456-w)
 
 ## Summary
 
@@ -41,12 +41,14 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 ## Connections
 
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- Cancer Multiomics 요약: [Wen 2020 - NeoFlow Proteogenomic Neoantigen Prioritization](../analyses/cancer-multiomics-literature/wen-2020-neoflow-neoantigen-prioritization.md)
 - [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
 - [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/wen-2020-cancer-neoantigen-prioritization-through-sensitive.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/32273506/>
-- DOI: <https://doi.org/10.1038/nbt.3820>
+- DOI: <https://doi.org/10.1038/s41467-020-15456-w>
 - PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6546179/>

@@ -406,3 +406,127 @@ Append-only operational history for this wiki.
 - Compared the repository against external LLM Wiki / AI-for-biology management examples and clarified that this repo uses `AGENTS.md` as the operating contract rather than `CLAUDE.md`.
 - Added public artifact management rules to `AGENTS.md`: keep topic hub, source queue, interactive artifact, corpus counts, status caveats, and logs synchronized.
 - Added `interactives/index.html` as a lightweight dashboard for standalone HTML artifacts and current corpus status.
+
+## [2026-05-10] topic | Cancer Multiomics phosphoproteomics literature monitor
+
+- Read the Cancer Multiomics HWP research plan by extracting local HWP text into `/private/tmp/hwp_extract/cancer_multiomics_plan_extracted.txt`.
+- Created `wiki/topics/cancer-multiomics-literature.md` as the project-specific literature monitor for WGS, phosphoproteomics, ppQTL, neoantigen, immune evasion, response prediction, and Slack-ready summaries.
+- Added eight seed paper subpages under `wiki/analyses/cancer-multiomics-literature/` using the requested template: paper information, one-line summary, Cancer Multiomics relevance, major results, and Slack message draft.
+- Updated `wiki/_meta/index.md` so the new topic and seed summaries are discoverable from the wiki catalog.
+
+## [2026-05-10] expansion | four-topic question maps + Cancer Multiomics crosslinks
+
+- Rebuilt `wiki/analyses/topic-question-expansion-map.md` as the durable 4-track question bank covering (1) B-cell neoantigen, (2) immunotherapy resistance, (3) multiomics PTM identification, (4) Cancer Multiomics WGS/phosphoproteomics literature monitoring.
+- Added a dedicated ptmanchor question bank in `wiki/analyses/ptm-correction-and-kinase-signaling-question-expansion-map.md` to keep PTM correction depth without mixing it into the four user-facing tracks.
+- Linked the four topic hubs back to the question bank and added Cancer Multiomics crosslinks from the eight seed source pages to the Cancer Multiomics topic hub + Slack-ready subpages.
+
+## [2026-05-10] cancer-multiomics | initialize 100-paper queue + add 7 briefs
+
+- Created `wiki/analyses/cancer-multiomics-corpus-queue.md` to track target=100, acquired/ingested/briefed counts, blocked items, and a rolling shortlist.
+- Added seven Cancer Multiomics Slack-ready subpages: Abelin 2023 (MONTE), Asuzu 2025 (PP2A/PPP1R17), Zhao 2025 (kinase inhibitor multi-PTM), Chong 2022 (immunopeptidomics review), Chen 2026 (PTM-MHC enrichment methods), Han 2024 (HLA presentation score vs ICI response), Muller-Dott 2025 (kinase inference benchmark).
+- Updated `wiki/topics/cancer-multiomics-literature.md` to link the new briefs under the appropriate classification headers and added a direct link to the queue page.
+- Upgraded placeholder source pages to PDF-backed Key Points for `asuzu-2025-*`, `chong-2022-*`, and `chen-2026-*`, including fixing the incorrect DOI line on the Chong review page and updating local-PDF pointers.
+- Discovered a misnamed PDF/metadata mismatch: renamed the wrongly labeled “SVNeoPP” source/PDF to `jiao-2025-gastric-cancer-reference-human-pangenomes` and rewrote the source page to match the actual Life Science Alliance pangenome/SV paper content.
+- Marked `dong-2024-integrative-proteogenomic-profiling-high-risk-prostate` as blocked because the local PDF is a publisher correction notice rather than the full article.
+
+## [2026-05-10] expansion | add growth targets + Cancer Multiomics checklist normalization
+
+- Extended `wiki/analyses/topic-question-expansion-map.md` with per-topic concrete growth targets so questions resolve into specific edits and artifacts.
+- Added a fixed “치료 맥락 / 데이터 레이어 / 데이터 공개” checklist + a 5-PDF Cancer Multiomics candidate shortlist to `wiki/topics/cancer-multiomics-literature.md`.
+- Normalized the Cancer Multiomics seed briefs (Chen 2020, Huang 2021, Li 2023, Petralia 2024, Wen 2020, Huber 2025, Jiang 2025, Shi 2025) by adding the same 3 metadata bullets and marking unknowns as “PDF 확인 필요”.
+
+## [2026-05-10] cancer-multiomics | ingest 5 acquired PDFs into briefs
+
+- Created 5 new Cancer Multiomics Slack-ready subpages under `wiki/analyses/cancer-multiomics-literature/`: Cheng 2025 (WT), Deng 2023 (CCA), Haas 2024 (radioresistance), Anurag 2022 (TNBC chemo response), Saxena 2025 (atezolizumab + personalized neoantigen vaccination).
+- Upgraded/edited the corresponding source pages in `wiki/sources/` with PDF-backed Key Points and added `Cancer Multiomics Project Relevance` sections for Cancer Multiomics linking.
+- Updated `wiki/topics/cancer-multiomics-literature.md` to link the new briefs under the right classification headers and to point “Next Candidates” to the queue page.
+- Refreshed `wiki/analyses/cancer-multiomics-corpus-queue.md` counts (selected/acquired/ingested/briefed) and split “selected set” vs “next up” items; recorded three discovery candidates as PDF-pending due to resolver network restrictions.
+- Updated `wiki/_meta/index.md` to include the 5 new Cancer Multiomics briefs in the wiki catalog.
+
+## [2026-05-10] expansion | question-map targets executed + Skoulidis 2024 Cancer Multiomics brief
+
+- Updated Topic 1 concept pages to add unit/evidence definitions and a TLS reading checklist: `wiki/concepts/b-cell-and-tls-context-for-neoantigen-research.md`, `wiki/concepts/neoantigen-discovery-and-prioritization.md`.
+- Added a 5-paper “bridge” priority queue to `wiki/analyses/b-cell-neoantigen-pipeline-human-cancer-corpus.md` to connect neoantigen selection to B/TLS immune architecture and response.
+- Added resistance extraction templates: genetic vs adaptive checklist in `wiki/concepts/mhc-i-loss-and-interferon-pathway-defects-in-checkpoint-resistance.md`, and observation-layer standard in `wiki/concepts/antigen-loss-lineage-switch-and-target-escape.md`.
+- Added a resistance class × evidence-type draft matrix to `wiki/analyses/cancer-resistance-manuscript-anchor.md`.
+- Strengthened Topic 3 corpus rules and unit-preserving keys: `wiki/analyses/multiomics-ptm-corpus-queue.md`, `interactives/multiomics-proteomics-ptm-identification/README.md`.
+- Deepened the NeoDisc source page with PDF-backed pipeline specifics and worked-example numbers: `wiki/sources/huber-2025-comprehensive-proteogenomic-pipeline-neoantigen-discovery.md`.
+- Deepened the Skoulidis 2024 source page with PDF-backed cohort context and extracted survival numbers; created a Cancer Multiomics Slack-ready brief and linked it into the Cancer Multiomics hub and queue: `wiki/sources/skoulidis-2024-ctla4-abrogates-keap1-stk11-resistance.md`, `wiki/analyses/cancer-multiomics-literature/skoulidis-2024-ctla4-abrogates-keap1-stk11-resistance.md`, `wiki/topics/cancer-multiomics-literature.md`, `wiki/analyses/cancer-multiomics-corpus-queue.md`.
+- Updated `wiki/analyses/topic-question-expansion-map.md` to mark executed growth targets and define the next deep-dive targets.
+- Refreshed `wiki/_meta/index.md` so the new Cancer Multiomics brief is discoverable.
+
+## [2026-05-10] cancer-multiomics | ingest 5 “next up” PDFs into briefs
+
+- Created 5 new Cancer Multiomics subpages under `wiki/analyses/cancer-multiomics-literature/`: Savage 2024 (CPTAC therapeutic targets), Shapiro 2025 (NeoDiscMS), Scheid 2025 (MHCquant2), Weber 2024 (KEYNOTE-942 V940), Khan 2026 (public phospho network meta-analysis).
+- Rewrote/updated the matching source pages in `wiki/sources/` to be PDF-backed (fixed wrong DOI lines, removed “Local PDF pending” placeholders, added Cancer Multiomics relevance + corrected Connections).
+- Reclassified `mullerdott-2025-comprehensive-evaluation-*` as a **publisher correction notice** and pointed it to the real benchmarKIN paper source page.
+- Updated `wiki/topics/cancer-multiomics-literature.md` and `wiki/analyses/cancer-multiomics-corpus-queue.md` to reflect the new briefs and the cleaned “next up” list.
+- Updated `wiki/_meta/index.md` to include the 5 new Cancer Multiomics briefs in the catalog.
+
+## [2026-05-10] cancer-multiomics | add Memon 2024 acquired-resistance brief
+
+- Created a new Cancer Multiomics Slack-ready brief page for NSCLC acquired resistance to PD-(L)1 blockade: `wiki/analyses/cancer-multiomics-literature/memon-2024-clinical-molecular-features-acquired-resistance.md`.
+- Fixed the corresponding source page DOI + local-PDF pointer and upgraded Key Points from the local PDF: `wiki/sources/memon-2024-clinical-molecular-features-acquired-resistance.md`.
+- Linked the new brief into the Cancer Multiomics topic hub and updated the rolling counts/table in the Cancer Multiomics high-impact queue: `wiki/topics/cancer-multiomics-literature.md`, `wiki/analyses/cancer-multiomics-corpus-queue.md`.
+- Updated the question-expansion map to reflect the latest Topic 3 extraction target status: `wiki/analyses/topic-question-expansion-map.md`.
+
+## [2026-05-10] cancer-multiomics | ingest 5 existing local-PDF cohort papers into briefs
+
+- Upgraded 4 placeholder `wiki/sources/*` pages (Song 2024 NSCLC, Yu 2024 cervical, Qu 2024 PTC recurrence, Tanaka 2024 CRC metastasis) into PDF-backed notes with corrected DOI/PMC links, extracted cohort-layer metadata, and `Cancer Multiomics Project Relevance`.
+- Tightened the existing Zhang 2023 ccRCC sunitinib-response source page by adding `Cancer Multiomics Project Relevance` and Cancer Multiomics topic connections: `wiki/sources/zhang-2023-proteogenomics-clear-cell-renal-response-tyrosine-kinase-inhibitor.md`.
+- Created 5 new Cancer Multiomics Slack-ready briefs under `wiki/analyses/cancer-multiomics-literature/` for Song 2024, Yu 2024, Qu 2024, Tanaka 2024, and Zhang 2023 (ccRCC sunitinib response).
+- Updated the Cancer Multiomics topic hub to link the new briefs under WGS/proteogenomics and response-prediction sections: `wiki/topics/cancer-multiomics-literature.md`.
+- Updated the Cancer Multiomics high-impact queue counts (selected/acquired/ingested/briefed) and appended the 5 new basenames to the tracking table: `wiki/analyses/cancer-multiomics-corpus-queue.md`.
+- Updated `wiki/_meta/index.md` to include the 5 new Cancer Multiomics briefs in the wiki catalog.
+
+## [2026-05-10] topic3 | PTM atlas cohort pages upgraded
+
+- Upgraded three proteogenomics cohort source pages from “placeholder Key Points” to PDF-backed summaries and clarified atlas caveats (units, missing totals, supplement needs): `wiki/sources/vasaikar-2019-proteogenomic-analysis-human-colon-cancer.md`, `wiki/sources/clark-2020-integrated-proteogenomic-characterization-clear-cell.md`, `wiki/sources/wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma.md`.
+- Clarified that Mertins 2016 does not name the MS instrument model in the main PDF and should be treated as `needs_supplement` for atlas instrumentation: `wiki/sources/mertins-2016-proteogenomics-connects-somatic-mutations-signalling.md`.
+- Updated the Topic 3 queue and the four-topic question expansion map to reflect executed upgrades and the remaining supplement-driven extraction blockers: `wiki/analyses/multiomics-ptm-corpus-queue.md`, `wiki/analyses/topic-question-expansion-map.md`.
+- Updated the navigation index to list the upgraded PTM-atlas cohort sources: `wiki/_meta/index.md`.
+
+## [2026-05-10] cancer-multiomics | ingest 5 additional local-PDF papers into briefs
+
+- Created 5 new Cancer Multiomics Slack-ready brief pages under `wiki/analyses/cancer-multiomics-literature/`: Ramsberger 2024 (MM; nanopore WGS + phosphoproteome), Satpathy 2021 (LSCC; multi-PTM), Dou 2020 (endometrial; WES/WGS + phospho/acetyl + immune), Yaeger 2023 (KRASG12C–EGFR acquired resistance; ctDNA), Keskin 2019 (GBM neoantigen vaccine; steroid effect + TCR tracking).
+- Updated the corresponding source pages in `wiki/sources/` to remove “Local PDF pending” placeholders, fix DOI/PMC links, and add `Cancer Multiomics Project Relevance` + brief/topic crosslinks.
+- Updated the Cancer Multiomics topic hub and corpus queue counts/table to reflect the new briefs: `wiki/topics/cancer-multiomics-literature.md`, `wiki/analyses/cancer-multiomics-corpus-queue.md`.
+- Updated `wiki/_meta/index.md` to include the 5 new Cancer Multiomics briefs.
+
+## [2026-05-10] cancer-multiomics | add Braun 2025 peptide PCV brief + split PTM question bank
+
+- Upgraded `wiki/sources/braun-2025-neoantigen-vaccine-generates-antitumour-immunity.md` from placeholder to PDF-backed Key Points (fixed wrong DOI line, added trial/vaccine/immunogenicity/autologous-tumor-reactivity facts, and linked to Cancer Multiomics hub).
+- Created a new Cancer Multiomics Slack-ready brief page (template-compliant): `wiki/analyses/cancer-multiomics-literature/braun-2025-neoantigen-vaccine-generates-antitumour-immunity.md`.
+- Wired the new brief into the Cancer Multiomics topic hub + 100-paper queue and refreshed rolling counts/table: `wiki/topics/cancer-multiomics-literature.md`, `wiki/analyses/cancer-multiomics-corpus-queue.md`.
+- Split out the PTM correction/kinase-signaling question bank into a standalone page and linked it from the four-topic map growth targets: `wiki/analyses/ptm-correction-kinase-signaling-question-bank.md`, `wiki/analyses/topic-question-expansion-map.md`.
+- Updated the page catalog so the new brief/question bank are discoverable: `wiki/_meta/index.md`.
+
+## [2026-05-10] cancer-multiomics | ingest 5 CPTAC + SV papers into briefs
+
+- Created 5 new Cancer Multiomics Slack-ready brief pages under `wiki/analyses/cancer-multiomics-literature/`: Cao 2021 (PDAC CPTAC), Gillette 2020 (LUAD CPTAC), Krug 2020 (breast CPTAC), Clark 2019 (ccRCC CPTAC), Chen 2023 (pan-cancer SV→protein).
+- Upgraded the corresponding source pages in `wiki/sources/` to be PDF-backed (filled Summary/Key Points, normalized frontmatter to the paper schema values, and added `Cancer Multiomics Project Relevance` + Cancer Multiomics links).
+- Added a blocked stub source page for Chen 2026 germline SV→proteome because the local “PDF” is actually an HTML download: `wiki/sources/chen-2026-global-impact-germline-structural-variation-cancer-proteome.md`.
+- Updated the Cancer Multiomics topic hub and the 100-paper queue counts/table to reflect the new briefs and the new blocked item: `wiki/topics/cancer-multiomics-literature.md`, `wiki/analyses/cancer-multiomics-corpus-queue.md`.
+- Updated `wiki/_meta/index.md` to include the 5 new Cancer Multiomics briefs.
+
+## [2026-05-10] topic4 | V940(mRNA-4157) 면역원성 bridge 보강
+
+- PDF 기반으로 Gainor 2024(KEYNOTE-603) source page를 “placeholder”에서 해제하고, ELISpot/ICS 기반 면역원성 핵심 수치(예: 238 predicted 중 29.8% immunogenic; immunogenic 중 84.5% de novo)와 추출 포인트를 기록: `wiki/sources/gainor-2024-t-cell-responses-individualized-neoantigen-therapy.md`.
+- Gainor 2024를 Cancer Multiomics Slack-ready brief로 추가해, KEYNOTE-942(Weber 2024)와 연결되는 “예측→면역반응” 중간기전 근거를 보존: `wiki/analyses/cancer-multiomics-literature/gainor-2024-t-cell-responses-individualized-neoantigen-therapy.md`.
+- Weber 2024(KEYNOTE-942) source page에 “로컬 PDF가 요약/부분 형태”임을 명시하고, 추가 확인이 필요한 제조/면역/바이오마커 질문을 고정: `wiki/sources/weber-2024-individualised-neoantigen-therapy-mrna-4157-v940.md`.
+- Topic 4 질문 확장 맵의 실행 항목(DONE) 목록을 정리하고 들여쓰기 오류를 수정: `wiki/analyses/topic-question-expansion-map.md`.
+- Cancer Multiomics 100-paper 큐에서 Gainor 2024의 상태/노트(면역원성 수치) 및 ingested 카운트를 갱신: `wiki/analyses/cancer-multiomics-corpus-queue.md`.
+
+## [2026-05-10] cancer-multiomics | rename project surface + daily discovery automation
+
+- Renamed the durable project surface from Hanmi wording to Cancer Multiomics: topic hub, corpus queue, analysis folder, index links, and source-page relevance wording now use Cancer Multiomics.
+- Updated the paper acquisition automation to run every morning and to use PubMed/bibliographic discovery for candidate finding and PDF resolution only; scientific summaries remain local-PDF/source-page based.
+- Moved the Gainor 2024 KEYNOTE-603 neoantigen vaccine immunogenicity brief into the Cancer Multiomics analysis folder and linked it from the topic hub, queue, and index.
+
+## [2026-05-10] cancer-multiomics | Notion 시드 27편 + OpenAlex 관련논문 18편 ingest
+
+- Notion 'Cancer Multiomics > 참고 논문 및 아이디어' 페이지 27편 ingest: 20편 PDF 자동 다운로드, 7편 manual_pending (bioRxiv 2026 미등록 DOI 5편 + Cell Press anti-bot 2편).
+- 시드 DOI를 OpenAlex citation graph로 확장: referenced_works + related_works 852개 → cancer/multiomics 키워드 + DOI dedup 후 442개 → 2023+ score≥3 shortlist 50편 → 사용자 승인 후 Top-18 (score≥6) 자동 ingest. 16편 PDF 다운로드, 2편 Cell Press manual_pending.
+- 새 도구: `scripts/ingest/find_related_via_openalex.py` (OpenAlex 인용 그래프 발굴), `scripts/ingest/fallback_direct_url.py` (arXiv/bioRxiv 직접 URL 패턴 fallback). `scripts/ingest/ku_download.py`에 `--include-file`/`--require-substr` 플래그 추가.
+- 토픽 허브 §6 "2026-05 Expansion: AI/Spatial/ecDNA/CAR-T 보강 (45편)" 신설하고 7개 sub-theme으로 그룹화. 코퍼스 큐는 91 selected / 80 acquired / 90 ingested / 11 blocked로 갱신.
+- 향후 deep-dive: 36편의 PDF 확보 stub은 `wiki/analyses/cancer-multiomics-literature/` 하위 페이지로 brief 작성 대기.

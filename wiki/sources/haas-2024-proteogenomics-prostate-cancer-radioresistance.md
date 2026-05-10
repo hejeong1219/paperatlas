@@ -33,12 +33,22 @@ Prostate cancer is frequently treated with radiotherapy. Unfortunately, aggressi
 
 ## Multi-Omics Identification Extraction
 
-- Extraction status: PDF downloaded; exact proteome/phosphoproteome/acetylome identification counts still require full-text and supplement review.
-- Fields to extract: protein/protein-group count, phosphosite/phosphopeptide count, acetylsite/acetylated-peptide count, enrichment method, LC-MS/MS platform, instrument, search software, and count-unit caveats.
+- Extraction status: PDF downloaded; this study is primarily WES + RNA-seq + (subcellular) shotgun proteomics (no dedicated phosphoproteome layer identified in the extractable PDF text).
+- Data layers (as described in Methods/abstract): whole-exome sequencing (WES), RNA-seq, miRNA profiling (NanoString), and proteomics with subcellular fractionation.
+- Proteomics platform cues: Easy nLC 1000 coupled to a Thermo Q Exactive HF, data-dependent acquisition (top-25), long gradient (reported ~265 min).
+- Open question: does any supplementary dataset report global phosphoproteomics or PTM enrichment beyond total-proteome shotgun MS?
 
 ## Key Points
 
-- _To be filled after local PDF and supplementary table review._
+- Radiotherapy resistance can differ by fractionation schedule: conventional fractionation (CF) and hypofractionation (HF) generate distinct molecular response patterns.
+- Across schedules, resistant states show widespread genomic instability and abrogation of DNA mismatch repair, linking DNA maintenance programs to radiorecurrence risk.
+- Integrative multi-omic profiling nominates POLQ (DNA polymerase theta) as a radiosensitizer; genetic/pharmacologic POLQ suppression re-sensitizes resistant models.
+- Subcellular fractionation proteomics provides a mechanistic layer for how radiation alters protein localization/compartmental responses beyond RNA-level effects.
+
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제의 “치료 내성/반응 예측” 축에서, **WES(유전적 불안정/수선 결함) + proteome 변화**를 함께 놓고 모델링하는 설계(특히 schedule-dependent phenotype 분리)가 참고가 된다.
+- 본 논문은 phosphoproteomics 중심은 아니지만, Cancer Multiomics 코호트에서 인산화단백체를 추가할 경우 “(WGS/WES) 변이·불안정성 지표 → kinase signaling/기능상태 → 치료 내성” 연결 가설을 세우는 비교 기준을 제공한다.
 
 ## Open Questions
 
@@ -49,6 +59,7 @@ Prostate cancer is frequently treated with radiotherapy. Unfortunately, aggressi
 ## Connections
 
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

@@ -10,7 +10,7 @@ doi: "10.1158/0008-5472.CAN-22-2682"
 pmid: "36283023"
 pmcid: "PMC9812886"
 paper_kind: research
-pdf_status: pending
+pdf: "raw/inbox/papers/bassiouni-2023-spatial-transcriptomic-analysis-diverse-patient.pdf"
 topic: bcell-neoantigen
 tags:
   - "bcell-neoantigen"

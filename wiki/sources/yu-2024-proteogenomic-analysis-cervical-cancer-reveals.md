@@ -1,54 +1,78 @@
 ---
-title: "A proteogenomic analysis of cervical cancer reveals therapeutic and biological insights."
-authors:
-  - "Yu"
-  - "Gui"
-  - "Zou"
-year: "2024"
-journal: "Nature communications"
+title: "A proteogenomic analysis of cervical cancer reveals therapeutic and biological insights"
+year: 2024
+journal: "Nature Communications"
 doi: "10.1038/s41467-024-53830-0"
 pmid: "39578447"
 pmcid: "PMC11584810"
-paper_kind: proteogenomic
-pdf: "raw/inbox/papers/yu-2024-proteogenomic-analysis-cervical-cancer-reveals.pdf"
-topic: ptmanchor
-tags:
-  - "ptmanchor"
-  - "proteomics"
-  - "ptm"
-  - "phosphoproteomics"
-  - "cancer-proteomics"
-  - "pmid-39578447"
+paper_kind: resource
+cancer_types:
+  - cervical-cancer
+modalities:
+  - proteogenomics
+  - phosphoproteomics
+  - acetylproteomics
+  - whole-exome-sequencing
+  - radiotherapy
 themes:
-  - "ptm-correction"
-  - "kinase-signaling"
-  - "cancer-proteomics"
+  - hpv-associated
+  - ep300
+  - fosl2-acetylation
+  - radioresponse-biomarker
+  - proteomic-subtypes
+tags:
+  - source
+  - cancer-multiomics
+  - cervical-cancer
+  - proteogenomics
+  - phosphoproteomics
+  - acetylproteomics
+  - pmid-39578447
+pdf: "raw/inbox/papers/yu-2024-proteogenomic-analysis-cervical-cancer-reveals.pdf"
 ---
-# A proteogenomic analysis of cervical cancer reveals therapeutic and biological insights.
+# A proteogenomic analysis of cervical cancer reveals therapeutic and biological insights
 
-_Nature communications, 2024._ PMID: [39578447](https://pubmed.ncbi.nlm.nih.gov/39578447/).
+_Nature Communications, 2024._ PMID: [39578447](https://pubmed.ncbi.nlm.nih.gov/39578447/).
 
-DOI: [10.1093/nar/gkab1038](https://doi.org/10.1093/nar/gkab1038)
+DOI: [10.1038/s41467-024-53830-0](https://doi.org/10.1038/s41467-024-53830-0)
 
 ## Summary
 
-Although the incidence of cervical cancer (CC) has been reduced in high-income countries due to human papillomavirus (HPV) vaccination and screening strategies, it remains a significant public health issue that poses a threat to women's health in low-income countries. Here, we perform a comprehensive proteogenomic profiling of CC tumors obtained from 139 Chinese women. Integrated proteogenomic analysis links genetic aberrations to downstream pathogenesis-related pathways and reveals the landscape of HPV-associated multi-omic changes. EP300 is found to enhance the acetylation of FOSL2-K222, consequently accelerating the malignant proliferation of CC cells. Proteomic stratification identifies three patient subgroups with distinct features in prognosis, genetic alterations, immune infiltration, and post-translational modification regulations. PRKCB is further identified as a potential radioresponse-related biomarker of CC patients. This study provides a valuable public resource for researchers and clinicians to delve into the molecular basis of CC, to identify potential treatments and to ultimately advance clinical practice.
+Comprehensive cervical-cancer proteogenomics resource in 139 Chinese patients integrating WES, RNA-seq, proteome, phosphoproteome, and acetylproteome to connect HPV-associated genomic events to downstream pathway/PTM phenotypes, define proteomic subgroups with distinct prognosis/immune/PTM regulation, and nominate radioresponse-related biomarkers.
+
+## Multi-Omics Identification Extraction
+
+- Cohort/scope: 139 cervical-cancer patients with paired tumor and normal-adjacent tissues (NAT) collected at Peking Union Medical College (as described in the main PDF text).
+- Genomics: whole-exome sequencing (WES); reports somatic mutation landscape and copy-number alteration analyses.
+- Transcriptome: RNA-seq (reported in the main PDF text as part of the integrated study design).
+- Proteome: TMT-based proteomics plus DIA-based proteomics (DIA reports 11,904 proteins in the main PDF text).
+- Phosphoproteome: reports 41,448 high-confidence phosphosites (7,721 phosphoproteins) detected in the main PDF text.
+- Acetylome: reports 5,749 high-confidence acetylation sites (2,456 acetylproteins) detected in the main PDF text.
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Links HPV-associated multi-omic perturbations to downstream pathway changes by integrating WES/RNA/protein/PTM layers.
+- Mechanistic highlight: EP300-mediated acetylation of FOSL2-K222 is reported to promote malignant proliferation (exact causal evidence should be traced to the relevant figures/assays in the PDF).
+- Proteomic stratification identifies three patient subgroups with differences in prognosis, genetic alterations, immune infiltration, and PTM regulation.
+- Nominate PRKCB as a potential radioresponse-related biomarker, providing an anchor for “omics-informed radiotherapy response” framing.
 
+## Cancer Multiomics Project Relevance
+
+- Cancer Multiomics 과제에서 목표로 하는 “**WGS/WES → protein/phosphoprotein/acetyl-protein functional state**” 연결을 같은 논리로 구현한 대규모 reference다.
+- 치료 반응/내성 축에서 **방사선 반응성(radioresponse)** 바이오마커를 proteome/PTM 층까지 포함해 다루는 예시라, “유전변이만으로는 설명되지 않는 반응 차이”를 PTM 특징으로 설명하는 서사를 보강한다.
+
+## Open Questions
+
+- Data availability(ProteomeXchange/PRIDE, sequencing repository 등)와 재분석 가능한 수준의 raw/processed 공개 여부를 PDF의 Data Availability에서 확인 필요.
 
 ## Connections
 
-- [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
-
-- [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
-- [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/yu-2024-proteogenomic-analysis-cervical-cancer-reveals.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/39578447/>
-- DOI: <https://doi.org/10.1093/nar/gkab1038>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728295/>
+- DOI: <https://doi.org/10.1038/s41467-024-53830-0>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11584810/>

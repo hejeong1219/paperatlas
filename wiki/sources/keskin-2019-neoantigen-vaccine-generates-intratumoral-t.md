@@ -28,7 +28,7 @@ themes:
 
 _Nature, 2019._ PMID: [30568305](https://pubmed.ncbi.nlm.nih.gov/30568305/).
 
-DOI: [10.7908/C11G0KM9](https://doi.org/10.7908/C11G0KM9)
+DOI: [10.1038/s41586-018-0792-9](https://doi.org/10.1038/s41586-018-0792-9)
 
 ## Summary
 
@@ -36,17 +36,27 @@ Neoantigens, which are derived from tumour-specific protein-coding mutations, ar
 
 ## Key Points
 
-_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+- Phase I/Ib personalized neoantigen long-peptide vaccination is shown to be feasible in newly diagnosed glioblastoma after surgery and conventional radiotherapy.
+- Patients not receiving dexamethasone during vaccine priming generate robust circulating neoantigen-specific CD4+ and CD8+ T cell responses, while those receiving dexamethasone during priming fail to generate IFNγ ELISPOT responses (as described in the paper).
+- Vaccine-reactive T cells show a memory-like phenotype and polyfunctionality (e.g., IFNγ/IL-2/TNF combinations for CD4+ responses).
+- Post-vaccination tumor samples (in a subset) show increased tumor-infiltrating T cells in the non-dexamethasone patients, and scTCR-based tracking supports blood-to-tumor migration of neoantigen-specific clones.
+
+## Cancer Multiomics Project Relevance
+
+- “WGS/WES 기반 neoantigen 후보”를 **환자 유래 샘플에서 면역 반응(혈액/종양 내 T 세포)으로 연결**하는 임상형 reference로, Cancer Multiomics의 neoantigen/면역 축에 직접 연결된다.
+- 임상 메타데이터(예: 스테로이드(dexamethasone) 사용)가 면역 반응을 강하게 교란할 수 있음을 보여줘, Cancer Multiomics cohort에서 **치료 동반약물/시점 정보의 표준화** 필요성을 강조한다.
 
 
 ## Connections
 
 - [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
 - [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics brief: Keskin 2019](../analyses/cancer-multiomics-literature/keskin-2019-neoantigen-vaccine-generates-intratumoral-t.md)
 
 ## Sources
 
-- Local PDF: pending acquisition
+- Local PDF: `raw/inbox/papers/keskin-2019-neoantigen-vaccine-generates-intratumoral-t.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/30568305/>
-- DOI: <https://doi.org/10.7908/C11G0KM9>
-- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4048962/>
+- DOI: <https://doi.org/10.1038/s41586-018-0792-9>
+- PMC: <https://pmc.ncbi.nlm.nih.gov/articles/PMC6546179/>

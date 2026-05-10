@@ -123,7 +123,19 @@ def main():
     ap.add_argument("--cookies", default=".cookies/oca.cookies.txt")
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--include-file", default=None,
+                    help="Path to a file with one slug (filename without .md) per line; only those will be processed.")
+    ap.add_argument("--require-substr", default=None,
+                    help="Only process pages whose markdown contains this substring (e.g. 'topic: cancer-multiomics-literature').")
     args = ap.parse_args()
+
+    include_slugs = None
+    if args.include_file:
+        include_slugs = set()
+        for line in Path(args.include_file).read_text().splitlines():
+            s = line.strip()
+            if s and not s.startswith("#"):
+                include_slugs.add(s.removesuffix(".md"))
 
     cj = load_cookies(args.cookies)
     print(f"Loaded {sum(1 for _ in cj)} cookies", file=sys.stderr)
@@ -135,8 +147,10 @@ def main():
     targets = []
     for f in sorted(sources.glob("*.md")):
         if f.stem == "index": continue
+        if include_slugs is not None and f.stem not in include_slugs: continue
         text = f.read_text()
         if "pdf_status: pending" not in text: continue
+        if args.require_substr and args.require_substr not in text: continue
         pmid, doi = parse_pmid_doi(text)
         if not doi: continue
         out = pdf_dir / (f.stem + ".pdf")

@@ -22,6 +22,22 @@ Active manuscript anchor for the resistance review arguing that diverse cancer t
 - This makes the page useful as a manuscript-side anchor for judging whether downloaded papers are directly relevant to the review, mechanistically adjacent, or mostly background.
 - The document should be treated as a durable interpretive layer, not just a file reference, because later source pages can link back here when they strengthen or complicate the review's framework.
 
+## Resistance Class × Evidence Type (draft matrix)
+
+This matrix is a practical template for summarizing new papers into the review’s common language. It is intentionally lightweight and should be refined as the manuscript evolves.
+
+| Resistance class | Clinical evidence | Molecular evidence | Functional evidence | What to extract (minimum) |
+| --- | --- | --- | --- | --- |
+| Primary (baseline) | low ORR/PFS on first exposure | pre-treatment lesions/signatures | baseline immune suppression assays | treatment context, biomarkers, baseline immune phenotype |
+| Adaptive (on-treatment) | early non-response or transient response | on-treatment transcriptional rewiring | reversible suppression (e.g., cytokine-driven) | timing, reversibility claim, intervention/rescue logic |
+| Acquired (after response) | relapse after initial benefit | new lesions or clonal selection | loss-of-target / pathway ablation | longitudinal sampling, clonal evidence, mechanistic axis |
+
+Evidence-type checklist (for any paper):
+
+- **Clinical**: who, what regimen, what endpoint, when sampled?
+- **Molecular**: which layer (DNA/RNA/protein/surface/spatial) supports the claim?
+- **Functional**: did authors demonstrate rescue, causality, or mechanism beyond association?
+
 ## Connections
 
 - [Immunotherapy Resistance and Immune Evasion](../topics/immunotherapy-resistance-and-immune-evasion.md)

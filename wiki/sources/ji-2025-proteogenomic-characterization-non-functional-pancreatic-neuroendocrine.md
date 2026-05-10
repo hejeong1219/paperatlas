@@ -9,7 +9,7 @@ journal: "Cancer cell"
 doi: "10.1016/j.ccell.2025.03.016"
 pmid: "40185092"
 paper_kind: proteogenomic
-pdf_status: pending
+pdf: "raw/inbox/papers/ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine.pdf"
 topic: ptmanchor
 tags:
   - "ptmanchor"
