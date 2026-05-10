@@ -74,11 +74,11 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
    - `단백유전체 및 항암제 반응성 분야의 최근 논문 N편입니다.`
    - `다음은 proteogenomics × 항암제 반응성 주제의 최근 논문 N편입니다.`
    - `오늘의 디지스트 — 단백유전체·항암제 반응성 분야 N편을 공유드립니다.`
-   - `proteogenomics × 항암제 반응성 영역에서 큐레이션된 N편의 논문입니다.`
+   - `오늘의 참고 논문 — proteogenomics × 항암제 반응성 분야 N편입니다.`
    - `오늘의 참고 논문 — 단백유전체 및 항암제 반응성 주제 N편입니다.`
    - `PubMed 최신 proteogenomics·phosphoproteome 논문 N편을 안내드립니다.`
-   - `단백유전체·항암제 반응성 분야 큐레이션 N편입니다.`
-   - `오늘의 큐레이션: proteogenomics × 항암제 반응성 분야 N편을 공유드립니다.`
+   - `단백유전체 및 항암제 반응성 분야 N편을 소개드립니다.`
+   - `오늘의 디지스트입니다 — proteogenomics × 항암제 반응성 분야 N편.`
 
    해당 날짜의 논문 주제(예: 신생항원 위주, ppQTL 위주, 임상 trial 위주)에 맞게 단어 살짝 조정해도 됨.
    단, 위의 사람-주체 동사는 절대 X.
