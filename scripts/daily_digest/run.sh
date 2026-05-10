@@ -1,16 +1,18 @@
 #!/usr/bin/env bash
 # Daily 한미암 paper digest — runs at 10am via cron on ubuntu-d1.
 #
-# Pulls latest wiki, picks 2 backlog papers, hands them to `claude` CLI which
-# uses the slack MCP to post to #한미암_관련논문 (C0B2RQ97Y3U).
+# Phase B: search PubMed for new papers, download full PDFs, extract text,
+# hand to claude CLI for relevance judgment + summary + Slack post.
+# Phase A fallback: if no new candidates, post 2 from wiki backlog.
 #
 # Usage:
-#   bash scripts/daily_digest/run.sh           # normal run
-#   DRY_RUN=1 bash scripts/daily_digest/run.sh # pick papers but don't post
+#   bash scripts/daily_digest/run.sh                 # normal run
+#   DRY_RUN=1 bash scripts/daily_digest/run.sh       # search/download but don't post
+#   DIGEST_DAYS=14 bash scripts/daily_digest/run.sh  # widen PubMed window
+#   PHASE=A bash scripts/daily_digest/run.sh         # force backlog mode
 
 set -euo pipefail
 
-# Resolve repo root from this script's location
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 cd "$REPO_ROOT"
@@ -20,7 +22,6 @@ mkdir -p "$LOG_DIR"
 TODAY="$(date +%F)"
 LOG_FILE="$LOG_DIR/digest-$TODAY.log"
 
-# Tee everything to log too
 exec > >(tee -a "$LOG_FILE") 2>&1
 
 echo "================================================================"
@@ -28,55 +29,108 @@ echo "Daily digest run @ $(date -Iseconds)"
 echo "Repo: $REPO_ROOT"
 echo "================================================================"
 
-# Step 1: Sync latest wiki from GitHub (in case Mac pushed new sources today)
-echo "[1/4] Pulling latest wiki..."
-git pull --quiet --ff-only origin main || {
-    echo "WARN: git pull failed; continuing with current local state"
-}
+# Step 1: sync latest wiki
+echo "[1/5] Pulling latest wiki..."
+git pull --quiet --ff-only origin main || echo "WARN: git pull failed"
 
-# Step 2: Select 2 papers
-echo "[2/4] Selecting papers..."
-python3 scripts/daily_digest/select_papers.py > /tmp/digest_today.json
-SELECTED_COUNT=$(python3 -c "import json; print(len(json.load(open('/tmp/digest_today.json'))['selected']))")
-TOTAL_CAND=$(python3 -c "import json; print(json.load(open('/tmp/digest_today.json'))['total_candidates'])")
-echo "    Selected $SELECTED_COUNT papers from $TOTAL_CAND candidates"
-if [ "$SELECTED_COUNT" -lt 2 ]; then
-    echo "ERROR: fewer than 2 papers selected. Backlog may be exhausted."
-    exit 1
+# Step 2: PubMed monitor (Phase B), unless forced to Phase A
+PHASE="${PHASE:-auto}"
+DAYS="${DIGEST_DAYS:-7}"
+PHASE_B_JSON="/tmp/digest_phaseb_$TODAY.json"
+PHASE_A_JSON="/tmp/digest_phasea_$TODAY.json"
+COMBINED="/tmp/digest_today.json"
+
+if [ "$PHASE" = "A" ]; then
+    echo "[2/5] PHASE=A forced; skipping PubMed search."
+    PHASE_B_COUNT=0
+else
+    echo "[2/5] PubMed search (window=$DAYS days)..."
+    # stdout = JSON, stderr = progress log → captured separately
+    set +e
+    python3 scripts/daily_digest/fetch_new_papers.py --days "$DAYS" \
+        > "$PHASE_B_JSON" 2> "$LOG_DIR/phaseb-$TODAY.stderr"
+    FETCH_RC=$?
+    set -e
+    cat "$LOG_DIR/phaseb-$TODAY.stderr"
+    if [ "$FETCH_RC" -ne 0 ]; then
+        echo "WARN: fetch_new_papers returned $FETCH_RC; treating as no candidates"
+        echo '{"candidates":[],"date":"'$TODAY'","note":"fetch failed"}' > "$PHASE_B_JSON"
+    fi
+    PHASE_B_COUNT=$(python3 -c "import json; print(len(json.load(open('$PHASE_B_JSON')).get('candidates', [])))" 2>/dev/null || echo 0)
+    echo "    Phase B: $PHASE_B_COUNT candidates with full PDF text"
 fi
 
-# Show selection for log readability
+# Step 3: build combined input for claude
+echo "[3/5] Preparing input for claude..."
+if [ "$PHASE_B_COUNT" -gt 0 ]; then
+    # Phase B has candidates → use them
+    python3 -c "
+import json
+phaseb = json.load(open('$PHASE_B_JSON'))
+out = {'mode': 'phase_b', 'date': phaseb['date'],
+       'candidates': phaseb['candidates'],
+       'esearch_count': phaseb.get('esearch_count', 0),
+       'after_filter': phaseb.get('after_filter', 0)}
+json.dump(out, open('$COMBINED', 'w'), ensure_ascii=False, indent=2)
+"
+    echo "    Mode: phase_b ($PHASE_B_COUNT candidates)"
+else
+    # Fallback: pick from backlog
+    echo "    No fresh PubMed candidates; falling back to backlog"
+    python3 scripts/daily_digest/select_papers.py > "$PHASE_A_JSON"
+    SEL_COUNT=$(python3 -c "import json; print(len(json.load(open('$PHASE_A_JSON'))['selected']))")
+    if [ "$SEL_COUNT" -lt 2 ]; then
+        echo "ERROR: backlog also exhausted (only $SEL_COUNT papers). Aborting."
+        exit 1
+    fi
+    python3 -c "
+import json
+phasea = json.load(open('$PHASE_A_JSON'))
+out = {'mode': 'phase_a_fallback', 'date': phasea['date'],
+       'selected': phasea['selected'], 'candidates': []}
+json.dump(out, open('$COMBINED', 'w'), ensure_ascii=False, indent=2)
+"
+    echo "    Mode: phase_a_fallback ($SEL_COUNT backlog papers)"
+fi
+
+# Quick summary for log
 python3 -c "
 import json
-d = json.load(open('/tmp/digest_today.json'))
-for i, p in enumerate(d['selected'], 1):
-    m = p['meta']
-    print(f'  #{i} [{p[\"score\"]}] {m.get(\"year\", \"?\")} {m.get(\"journal\", \"?\")} — {p[\"slug\"]}')"
+d = json.load(open('$COMBINED'))
+print(f'    Mode: {d[\"mode\"]}, Date: {d[\"date\"]}')
+if d['mode'] == 'phase_b':
+    for i, c in enumerate(d['candidates'], 1):
+        print(f'      Phase B #{i}: PMID {c[\"pmid\"]} — {c[\"journal\"][:40]} — {c[\"title\"][:60]}...')
+else:
+    for i, s in enumerate(d['selected'], 1):
+        print(f'      Phase A #{i}: {s[\"slug\"][:60]}')
+"
 
 if [ "${DRY_RUN:-0}" = "1" ]; then
     echo "[DRY_RUN=1] Stopping before Slack post."
-    cat /tmp/digest_today.json
+    echo "Combined input written to: $COMBINED"
     exit 0
 fi
 
-# Step 3: Hand to Claude CLI to format + post via Slack MCP
-echo "[3/4] Posting to Slack via claude + slack MCP..."
+# Make symlink so claude can find it at the standard path
+ln -sf "$COMBINED" /tmp/digest_today.json
+
+# Step 4: hand to claude
+echo "[4/5] Posting to Slack via claude + slack MCP..."
 PROMPT_FILE="$REPO_ROOT/scripts/daily_digest/prompt.md"
 CONTEXT_FILE="$REPO_ROOT/wiki/_meta/han-mi-am-project-context.md"
 
-# Pass: prompt as user message, project context as appended system prompt.
-# `claude -p` runs in non-interactive mode and exits when done.
 claude -p "$(cat "$PROMPT_FILE")" \
     --append-system-prompt "$(cat "$CONTEXT_FILE")" \
     --allowed-tools "Read,Edit,Write,Bash,mcp__slack" \
     || {
-        echo "ERROR: claude run failed"
+        echo "ERROR: claude run failed (exit $?)"
         exit 2
     }
 
-# Step 4: Commit any changes (slack-posted.json + new wiki entries)
-echo "[4/4] Committing wiki state..."
-git add wiki/_meta/slack-posted.json 2>/dev/null || true
+# Step 5: commit any state changes
+echo "[5/5] Committing wiki state..."
+git add wiki/_meta/slack-posted.json wiki/sources/ 2>/dev/null || true
 if ! git diff --cached --quiet; then
     git -c user.email="paper-digest-bot@noreply" -c user.name="paper-digest-bot" \
         commit -m "Daily digest: posted $TODAY" --quiet
