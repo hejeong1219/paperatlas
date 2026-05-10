@@ -40,7 +40,7 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 ## Multi-Omics Identification Extraction
 
 - Cohort / scope: diffuse gastric cancers in young populations, with paired tumor and adjacent normal samples from 80 patients.
-- Proteome: on average 156,135 peptides and 9,625 protein groups were identified from global proteomes.
+- Proteome: 9,625 protein groups were identified from global proteomes on average; the same result text also reports 156,135 peptides, which should not be used as the protein count.
 - Phosphoproteome: on average 28,944 phosphopeptides were identified; a spectral library later compiled 136,933 non-redundant phosphopeptides across 80 tissue pairs.
 - Acetylome: not reported as a measured acetylome layer in the extracted PDF text.
 - Other PTM layer: 4,376 N-glycopeptides identified on average; N-glycoproteome is central to the study but should not be plotted as acetylome.
