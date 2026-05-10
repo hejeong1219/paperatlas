@@ -4,13 +4,17 @@
     "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
     "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression",
     "bai-2026-cancer-biomarkers-discovered-using-pan-cancer",
-    "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate"
+    "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate",
+    "ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals",
+    "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor"
   ],
   "pmids": [
     "40749681",
     "40069142",
     "40603747",
-    "39242942"
+    "39242942",
+    "38942927",
+    "40830093"
   ],
   "history": [
     {
@@ -29,6 +33,15 @@
       "posted": [
         {"slug": "bai-2026-cancer-biomarkers-discovered-using-pan-cancer", "pmid": "40603747"},
         {"slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate", "pmid": "39242942"}
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "version": "v9",
+      "ts": "1778424695.893679",
+      "posted": [
+        {"slug": "ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals", "pmid": "38942927"},
+        {"slug": "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor", "pmid": "40830093"}
       ]
     }
   ],
