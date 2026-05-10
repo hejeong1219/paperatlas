@@ -19,4 +19,8 @@ wiki_html/public/
 /tmp/wiki_work/
 .DS_Store
 scripts/ingest/__pycache__/
+scripts/daily_digest/__pycache__/
 .cookies/
+
+# Daily digest cron logs (local-only)
+logs/
