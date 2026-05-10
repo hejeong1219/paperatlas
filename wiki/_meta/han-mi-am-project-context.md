@@ -86,7 +86,7 @@ AI 기반 치료반응성 예측 모형을 만드는 4년 과제.
   신생항원 파이프라인 / AI 예측 모형 / 데이터 전처리 등)에 매핑할 것
 - 새로운 도구·개념을 그냥 던지지 말고, 본 과제의 어느 단계에 어떻게 들어갈지로 변환
 
-## 게시 포맷 템플릿 (Slack — 1 message per day, 2 papers inside)
+## 게시 포맷 템플릿 (Slack — 1 message per day, 2 papers inside, 3 lines per paper)
 
 ```
 *:books: 오늘의 참고 논문 (YYYY-MM-DD)*
@@ -94,16 +94,26 @@ AI 기반 치료반응성 예측 모형을 만드는 4년 과제.
 한미암 프로젝트 관련 proteogenomics × 항암제 반응성 논문 N편을 공유드립니다.
 
 *<DOI URL|FirstAuthor Year, Journal>*
-3-4문장의 본문 (~합니다/~입니다). 한미암 프로젝트 관점에서, 활용 가능성 1-2문장.
+[Line 1] 무엇을 했는지 + 핵심 결과 1-2문장.
+[Line 2] 한미암 활용 1문장 (한미암 과제의 ___단계에서, ___로 활용 가능합니다 형식).
 
 *<DOI URL|FirstAuthor Year, Journal>*
-같은 구조.
+같은 3줄.
 ```
 
 핵심 규칙:
-- **citation 자체가 하이퍼링크** (`<URL|Holt 2025, Cell Rep Med>` 형태). 끝에 별도 "논문 사이트" 링크 X.
-- **저널명**: 괄호 위치정보 제거 (`Advanced science (Weinheim...)` → `Advanced Science`). 긴 이름은 약어 가능 (`Cell reports. Medicine` → `Cell Rep Med`, `Nature communications` → `Nat Commun`).
-- **본문 길이**: 3-4 문장 (논문 무엇/결과 2-3 + 한미암 활용 1-2).
-- **활용 sentence 시작**: `한미암 프로젝트 관점에서,` 또는 `한미암 과제의 ___단계에서,` — 시각적 구분 도움.
-- **본문 강조**: `*...*` 볼드는 핵심 메서드/결과 1-2개에만 (`*GSK3B-S9 인산화*` 같이) — 스캔 용이성 위해.
-- **단일 메시지**: 헤더 + 2편을 한 chat_postMessage 호출로. 따로 X.
+- **3줄 구조 per paper** + 논문 사이 빈 줄.
+- **Citation 헤더가 하이퍼링크** (`*<URL|Holt 2025, Cell Rep Med>*`). 끝에 별도 "논문 사이트" 링크 X.
+- **한글 본문 안에서 인라인 `*...*` 볼드 절대 사용 금지** — Slack mrkdwn이 한글 인접 `*`를 bold로 인식 안 함 (`*PCSK9 표적*는` → 별표 그대로 보임). Bold는 citation 헤더에만.
+- **저널명**: 괄호 위치정보 제거 (`Advanced science (Weinheim...)` → `Advanced Science`). 약어 OK (`Cell reports. Medicine` → `Cell Rep Med`, `Nature communications` → `Nat Commun`, `Journal of Clinical Oncology` → `J Clin Oncol`).
+- **본문 길이**: 두 본문 줄 합쳐 2-3문장 max. COMPACT.
+- **활용 line 시작**: `한미암 과제의 ___단계에서,` 또는 `한미암 프로젝트 관점에서,` — SPECIFIC 단계 (1차 내성 / 2차 획득 내성 / 신생항원 파이프라인 / AI 예측 모형 / ppQTL 분석 / 인산화단백체 파이프라인 구축) 중 하나에 매핑.
+- **단일 메시지**: 헤더 + 2편을 한 chat_postMessage 호출로.
+
+## 톤 예시 (Holt 2025 = 목표 분량과 톤)
+
+```
+*<https://doi.org/10.1016/j.xcrm.2025.102255|Holt 2025, Cell Rep Med>*
+근육침윤성 방광암 환자 종양 60건의 proteogenomics-phosphoproteomics 통합 분석으로, ATAD1 isoform과 GSK3B-S9 인산화 매개 Wnt/JAK-STAT 경로가 화학요법 내성 극복의 잠재 표적으로 제시됩니다.
+한미암 과제의 1차 내성 인산화단백체–WGS 통합 분석 단계에서, 환자 층화·표적 도출 파이프라인 설계의 직접 레퍼런스로 활용 가능합니다.
+```
