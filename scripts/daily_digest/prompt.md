@@ -76,13 +76,43 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
    - **Citation header is the hyperlink anchor**: `*<URL|Author Year, Journal>*`. Bold works here because line-start is a word boundary in Slack mrkdwn. Do NOT add separate "논문 사이트" link at end.
    - **NO mid-sentence bold (`*...*`) in Korean text**. Slack mrkdwn does NOT recognize `*` as bold when adjacent to Korean characters (e.g. `이러한 *PCSK9 표적 제거*는` shows literal asterisks). Bold ONLY in citation header. For emphasis on English technical terms, leave them plain or in backticks `PCSK9`.
    - **Journal name**: strip parenthetical location (`Advanced science (Weinheim,...)` → `Advanced Science`). Use common abbreviations for long names: `Cell reports. Medicine` → `Cell Rep Med`, `Nature communications` → `Nat Commun`, `Journal of Clinical Oncology` → `J Clin Oncol`.
-   - **Total body length per paper**: 2-3 sentences max across the two body lines combined. Keep COMPACT. The example below is the target verbosity:
+   - **Total body length per paper**: 2-3 sentences across body + 활용 line (활용 line 자체는 1-2 sentences 가능). 청중이 짧은 글에서 actionable한 그림이 보이게 하는 게 우선.
 
-     ```
-     *<.../102255|Holt 2025, Cell Rep Med>*
-     근육침윤성 방광암 환자 종양 60건의 proteogenomics-phosphoproteomics 통합 분석으로, ATAD1 isoform과 GSK3B-S9 인산화 매개 Wnt/JAK-STAT 경로가 화학요법 내성 극복의 잠재 표적으로 제시됩니다.
-     한미암 과제의 1차 내성 인산화단백체–WGS 통합 분석 단계에서, 환자 층화·표적 도출 파이프라인 설계 시 참고해볼 수 있는 레퍼런스로 보입니다.
-     ```
+   ### 활용 line의 깊이 — 절대로 얕게 쓰지 말 것
+
+   ❌ **얕은 활용 line (피해야 할 패턴)** — "어쩌라고" 느낌:
+   - "한미암 과제 관점에서, 단백체 기반 환자 분류·바이오마커 검증 프레임워크는 AI 치료반응성 예측 모형 설계 시 참고해볼 수 있는 사례로 사료됩니다."
+   - "본 연구가 보고한 FOXA1 Ser331 인산화 매개 cistrome 조절 기전은, 한미암 과제의 인산화단백체-WGS 통합 분석에서 검토해볼 만한 신호 축으로 보입니다."
+
+   문제점:
+   - "참고해볼 수 있는 사례", "검토해볼 만한 신호 축" 같은 *추상 명사구*만 있음
+   - 한미암의 *구체적 어떤 작업*을 할 때, *논문의 어떤 측면*을, *어떻게* 쓸지가 안 보임
+
+   ✅ **깊은 활용 line (목표 패턴)** — 시야를 실제로 넓혀줌:
+
+   사용자가 제시한 reference 예시 톤:
+   - "한미암 후향적 병리/멀티오믹스 분석에서 **TME를 공간적 ecosystem state로 요약**하는 레퍼런스로 활용할 수 있겠습니다."
+   - "한미암의 병리 이미지·임상정보·다중오믹스 데이터를 연결하는 분석 축과 직접적으로 맞닿으며, 특히 **실측 spatial transcriptomics가 없는 샘플을** 공간 분자 가설로 **확장하는 전략**을 보여줍니다."
+   - "한미암에서 Xenium·CosMx 등 데이터를 치료반응 biomarker로 쓸 때, **cell-cell proximity signal이 artifact인지 실제 biology인지 구분**하는 데 중요한 참고 자료가 될 것으로 보입니다."
+
+   특징:
+   - **구체 작업·시나리오 명시**: "TF activity inference 시", "외부 코호트 검증 시", "subtype 층화 시", "transcript spillover 의심 시" 등
+   - **논문의 specific 측면 적시**: 단백질 이름·기전·디자인 등 결과에서 직접 인용
+   - **어떻게**가 보임: "...로 요약하는", "...로 확장하는", "...를 구분하는", "...의 hypothesis prior로"
+
+   ### 깊은 활용 line 작성 체크리스트 (3개 다 충족해야 함)
+
+   1. **What** — 본문의 *구체적 발견/디자인/메서드*가 무엇인지 인용 (숫자·단백질명·메서드명·디자인 특징 등)
+   2. **Where** — 한미암의 *어떤 작업/분석/단계*에 연결되는지 (TF activity inference, subtype 층화, AI 모형 외부 검증, 1차/2차 내성 비교, 신생항원 우선순위 등 구체 작업명)
+   3. **How** — 그 발견을 *어떻게* 적용/참고할지 (가설 prior, 검증 프레임워크 구성, hypothesis 확장 전략, artifact 판별 기준 등)
+
+   체크리스트 통과 못 하면 다시 작성. "참고해볼 수 있는 사례로 보입니다" 같은 추상 명사구로 끝내지 말고 *구체 작업 + 구체 사용 방식*까지 적시.
+
+   ### 깊이 강화 예시 (Holt 2025)
+
+   - 얕은 (피하기): "한미암 과제의 1차 내성 인산화단백체–WGS 통합 분석 단계에서, 환자 층화·표적 도출 파이프라인 설계 시 참고해볼 수 있는 레퍼런스로 보입니다."
+
+   - 깊은 (목표): "ATAD1 short isoform과 GSK3B-S9 인산화 매개 Wnt/JAK-STAT 축이 화학내성 극복 표적으로 제시된 점은, 한미암 코호트의 인산화단백체 데이터에서 화학요법 반응성 환자군을 층화할 때 *isoform-level peptide quantification*과 *Wnt-axis phospho-signature*를 우선 후보 변수로 고려해볼 수 있는 단서를 제공합니다. 또한 치료 전 46건 + 치료 후 14건의 종단 디자인은 한미암 과제의 1차 vs 2차 내성 phospho-network 변화 비교 시 참고할 만한 코호트 규모와 비교 구조의 사례로 보입니다."
 
    - **활용 line**: 한미암 과제와의 연결 1문장. **앵글은 매일 다양화** — 모든 논문을 "파이프라인 참고"로만 매핑하지 마세요. 다음 5가지 앵글 중 *논문 내용에 가장 자연스러운 것* 선택:
 

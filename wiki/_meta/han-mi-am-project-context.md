@@ -123,12 +123,21 @@ AI 기반 치료반응성 예측 모형을 만드는 4년 과제.
 - **활용 line 시작**: `한미암 과제의 ___단계에서,` 또는 `한미암 프로젝트 관점에서,` — SPECIFIC 단계 (1차 내성 / 2차 획득 내성 / 신생항원 파이프라인 / AI 예측 모형 / ppQTL 분석 / 인산화단백체 파이프라인 구축) 중 하나에 매핑.
 - **단일 메시지**: 헤더 + 2편을 한 chat_postMessage 호출로.
 
-## 톤 예시 (Holt 2025 = 목표 분량과 톤)
+## 활용 line 깊이 — 매우 중요
+
+청중이 디지스트를 읽고 "어쩌라고"가 아니라 *"아 이런 식으로 한미암에 가져다 쓸 수 있겠구나"*가 떠올라야 함.
+"참고해볼 수 있는 사례로 보입니다" 같은 추상 명사구로 끝나면 안 됨. **구체 What + Where + How**:
+
+- **What**: 논문의 어떤 발견/디자인/메서드를 (구체 단백질·기전·메서드명·숫자)
+- **Where**: 한미암의 어떤 작업·분석에서 (TF activity inference / subtype 층화 / AI 외부 검증 / 1차 vs 2차 내성 비교 등 구체 작업명)
+- **How**: 어떻게 적용·참고할지 (가설 prior / 검증 프레임워크 / artifact 판별 기준 / hypothesis 확장 전략 등)
+
+## 톤 예시 (Holt 2025 — 목표 깊이)
 
 ```
 *<https://doi.org/10.1016/j.xcrm.2025.102255|Holt 2025, Cell Rep Med>*
-근육침윤성 방광암 환자 종양 60건의 proteogenomics-phosphoproteomics 통합 분석으로, ATAD1 isoform과 GSK3B-S9 인산화 매개 Wnt/JAK-STAT 경로가 화학요법 내성 극복의 잠재 표적으로 제시됩니다.
-한미암 과제의 1차 내성 인산화단백체–WGS 통합 분석 단계에서, 환자 층화·표적 도출 파이프라인 설계 시 참고해볼 수 있는 레퍼런스로 보입니다.
+근육침윤성 방광암 환자 종양 60건의 proteogenomics-phosphoproteomics 통합 분석으로, ATAD1 isoform과 GSK3B-S9 인산화 매개 Wnt/JAK-STAT 축이 화학내성 극복의 잠재 표적으로 제시됩니다.
+ATAD1 short isoform과 Wnt-axis phospho-signature는 한미암 코호트에서 화학요법 반응성 환자군 층화 시 우선 후보 변수로 고려해볼 만한 단서를 제공하며, 치료 전 46건 + 치료 후 14건의 종단 디자인은 1차 vs 2차 내성 phospho-network 비교의 코호트 규모·구조 사례로 참고할 수 있겠습니다.
 ```
 
 ## 활용 line 종결 — 매우 중요
