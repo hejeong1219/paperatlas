@@ -1,45 +1,27 @@
 {
   "_description": "Slugs/PMIDs of papers already posted to #한미암_관련논문 Slack channel. Updated by scripts/daily_digest/run.sh after a successful daily post.",
-  "slugs": [
-    "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
-    "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression",
-    "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate",
-    "bai-2026-cancer-biomarkers-discovered-using-pan-cancer"
-  ],
-  "pmids": [
-    "40749681",
-    "40069142",
-    "39242942",
-    "40603747"
-  ],
-  "history": [
+  "slugs": [],
+  "pmids": [],
+  "history": [],
+  "_attempts": [
     {
       "date": "2026-05-10",
-      "mode": "phase_a_fallback",
-      "ts": "1778421948.478849",
+      "version": "v1-old",
+      "note": "Old format: 2 separate Slack messages, link at end as '논문 사이트'. Rolled back.",
       "posted": [
-        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681"},
-        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"}
+        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681", "ts": "1778420558.409799"},
+        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142", "ts": "1778420565.033809"}
       ]
     },
     {
       "date": "2026-05-10",
-      "mode": "phase_a_fallback",
-      "ts": "1778422395.981579",
+      "version": "v2-new-format",
+      "note": "New format: single message + citation header link + 3 lines per paper. Korean inline *bold* did NOT render and 활용 line ended with directive 활용 가능합니다 — too prescriptive for PI audience. Rolling back to v3 with softened 시사·참고 tone.",
       "posted": [
-        {"slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate", "pmid": "39242942"},
+        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681", "ts": "1778421948.478849"},
+        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"},
+        {"slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate", "pmid": "39242942", "ts": "1778422395.981579"},
         {"slug": "bai-2026-cancer-biomarkers-discovered-using-pan-cancer", "pmid": "40603747"}
-      ]
-    }
-  ],
-  "_attempts": [
-    {
-      "date": "2026-05-10",
-      "mode": "phase_a_fallback",
-      "note": "First trial run used old prompt format (2 separate messages, link at end). Rolled back so Holt 2025 + Su 2025 can be re-posted in the new single-message format with citation as the hyperlink.",
-      "posted": [
-        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681", "ts": "1778420558.409799"},
-        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142", "ts": "1778420565.033809"}
       ]
     }
   ]

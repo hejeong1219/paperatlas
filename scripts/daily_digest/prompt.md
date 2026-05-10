@@ -66,10 +66,20 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
      ```
      *<.../102255|Holt 2025, Cell Rep Med>*
      근육침윤성 방광암 환자 종양 60건의 proteogenomics-phosphoproteomics 통합 분석으로, ATAD1 isoform과 GSK3B-S9 인산화 매개 Wnt/JAK-STAT 경로가 화학요법 내성 극복의 잠재 표적으로 제시됩니다.
-     한미암 과제의 1차 내성 인산화단백체–WGS 통합 분석 단계에서, 환자 층화·표적 도출 파이프라인 설계의 직접 레퍼런스로 활용 가능합니다.
+     한미암 과제의 1차 내성 인산화단백체–WGS 통합 분석 단계에서, 환자 층화·표적 도출 파이프라인 설계 시 참고해볼 수 있는 레퍼런스로 보입니다.
      ```
 
    - **활용 line**: 항상 `한미암 과제의 ___단계에서,` 또는 `한미암 프로젝트 관점에서,` 로 시작. 본 과제 SPECIFIC 단계 (1차 내성 분석, 2차 획득 내성 분석, 신생항원 파이프라인, AI 예측 모형, 데이터 전처리, ppQTL 분석, 인산화단백체 파이프라인 구축 중 하나)에 매핑.
+
+   - **활용 line의 종결어 — 톤 매우 중요**. "활용 가능합니다", "사용해야 합니다", "적용해야 합니다" 등 **단정·지시형 종결 절대 금지**. 청중이 임상·기초 교수님이라 "당장 해봐"로 읽힐 수 있음. **가능성·시사·참고 톤**으로 마무리하세요. 권장 종결 패턴:
+     * `~참고해볼 수 있는 레퍼런스로 보입니다.`
+     * `~검토해볼 만한 자료로 사료됩니다.`
+     * `~시사점을 줄 수 있을 것으로 보입니다.`
+     * `~고민해볼 가치가 있어 보입니다.`
+     * `~생각해볼 만한 분석 축이 될 수 있겠습니다.`
+     * `~참고할 만한 사례로 보입니다.`
+     * `~방향성을 시사합니다.`
+     같은 표현을 매일 반복하지 말고 적절히 다양화.
    - **Tone**: formal but readable; ~합니다 / ~입니다. Avoid translating English technical terms (proteogenomics, phosphoproteome, neoantigen 그대로).
    - **Do NOT invent results**. If `full_text` (Phase B) or wiki Summary/Key Points (Phase A) doesn't say it, don't claim it.
 
