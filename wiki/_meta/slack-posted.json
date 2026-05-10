@@ -2,11 +2,15 @@
   "_description": "Slugs/PMIDs of papers already posted to #한미암_관련논문 Slack channel. Updated by scripts/daily_digest/run.sh after a successful daily post.",
   "slugs": [
     "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
-    "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression"
+    "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression",
+    "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate",
+    "bai-2026-cancer-biomarkers-discovered-using-pan-cancer"
   ],
   "pmids": [
     "40749681",
-    "40069142"
+    "40069142",
+    "39242942",
+    "40603747"
   ],
   "history": [
     {
@@ -16,6 +20,15 @@
       "posted": [
         {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681"},
         {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"}
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "mode": "phase_a_fallback",
+      "ts": "1778422395.981579",
+      "posted": [
+        {"slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate", "pmid": "39242942"},
+        {"slug": "bai-2026-cancer-biomarkers-discovered-using-pan-cancer", "pmid": "40603747"}
       ]
     }
   ],
