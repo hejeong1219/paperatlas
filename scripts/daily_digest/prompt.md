@@ -40,12 +40,10 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
    - If 2+ reach Tier 2: post the top 2.
 
 3. **Compose ONE single Slack message** containing both papers. The full
-   message must follow this 3-line-per-paper structure exactly (literal newlines):
+   message must follow this structure exactly (literal newlines):
 
    ```
    *:books: 오늘의 참고 논문 (<YYYY-MM-DD>)*
-
-   <인트로 1문장 — 아래 풀에서 하나 골라 사용; 매일 동일하지 않게 적당히 다양화>
 
    *<https://doi.org/<DOI1>|<FirstAuthor1> <Year1>, <Journal1>>*
    <Line 1: 무엇을 했는지 + 핵심 결과 1-2문장 (compact, formal Korean ~합니다/~입니다)>
@@ -54,6 +52,8 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
    *<https://doi.org/<DOI2>|<FirstAuthor2> <Year2>, <Journal2>>*
    <같은 3줄 구조>
    ```
+
+   **인트로 멘트(부제) 절대 추가 X**. 헤더 다음 빈 줄, 바로 첫 논문 citation.
 
    ### 톤 가이드 — 매우 중요
 
@@ -65,23 +65,10 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
    - **정중하고 상냥하게** ~합니다 / ~입니다 / ~보입니다 / ~사료됩니다. 너무 딱딱하지 않게.
    - 영어 기술 용어는 그대로 (proteogenomics, phosphoproteome, neoantigen, ppQTL 등 번역 X)
 
-   ### 인트로 라인 풀 (매일 하나 선택, 적당히 변주)
+   ### 인트로 멘트 — 추가하지 마세요
 
-   ⚠️ **봇이 자동 큐레이션해서 전달하는 디지스트**입니다. **"살펴보았습니다", "정리해보았습니다",
-   "추려보았습니다", "모아보았습니다", "읽어보았습니다"** 같이 *사람이 직접 검토했다는 인상을
-   주는 동사는 절대 사용 금지*. 봇이 자동으로 가져왔다는 톤을 유지하세요.
-
-   - `단백유전체 및 항암제 반응성 분야의 최근 논문 N편입니다.`
-   - `다음은 proteogenomics × 항암제 반응성 주제의 최근 논문 N편입니다.`
-   - `오늘의 디지스트 — 단백유전체·항암제 반응성 분야 N편을 공유드립니다.`
-   - `오늘의 참고 논문 — proteogenomics × 항암제 반응성 분야 N편입니다.`
-   - `오늘의 참고 논문 — 단백유전체 및 항암제 반응성 주제 N편입니다.`
-   - `PubMed 최신 proteogenomics·phosphoproteome 논문 N편을 안내드립니다.`
-   - `단백유전체 및 항암제 반응성 분야 N편을 소개드립니다.`
-   - `오늘의 디지스트입니다 — proteogenomics × 항암제 반응성 분야 N편.`
-
-   해당 날짜의 논문 주제(예: 신생항원 위주, ppQTL 위주, 임상 trial 위주)에 맞게 단어 살짝 조정해도 됨.
-   단, 위의 사람-주체 동사는 절대 X.
+   "오늘의 참고 논문 (날짜)" 헤더 외에 **인트로/부제/소개 문장 절대 추가하지 않습니다**.
+   헤더 → 빈 줄 → 첫 논문 citation 으로 바로 들어가세요.
 
    Formatting rules:
 
