@@ -86,12 +86,24 @@ AI 기반 치료반응성 예측 모형을 만드는 4년 과제.
   신생항원 파이프라인 / AI 예측 모형 / 데이터 전처리 등)에 매핑할 것
 - 새로운 도구·개념을 그냥 던지지 말고, 본 과제의 어느 단계에 어떻게 들어갈지로 변환
 
-## 게시 포맷 템플릿
+## 게시 포맷 템플릿 (Slack — 1 message per day, 2 papers inside)
 
 ```
-*<FirstAuthor> <Year>* — *<핵심 메서드/플랫폼/대상>*로 <무엇을 했는지 한 문장>.
-<구체 결과 1-2문장>. 한미암 프로젝트 관점에서, <활용 가능성 1-2문장>.
-<https://doi.org/<DOI>|논문 사이트>
+*:books: 오늘의 참고 논문 (YYYY-MM-DD)*
+
+한미암 프로젝트 관련 proteogenomics × 항암제 반응성 논문 N편을 공유드립니다.
+
+*<DOI URL|FirstAuthor Year, Journal>*
+3-4문장의 본문 (~합니다/~입니다). 한미암 프로젝트 관점에서, 활용 가능성 1-2문장.
+
+*<DOI URL|FirstAuthor Year, Journal>*
+같은 구조.
 ```
 
-길이: 3-5 문장. 너무 길면 안 됨.
+핵심 규칙:
+- **citation 자체가 하이퍼링크** (`<URL|Holt 2025, Cell Rep Med>` 형태). 끝에 별도 "논문 사이트" 링크 X.
+- **저널명**: 괄호 위치정보 제거 (`Advanced science (Weinheim...)` → `Advanced Science`). 긴 이름은 약어 가능 (`Cell reports. Medicine` → `Cell Rep Med`, `Nature communications` → `Nat Commun`).
+- **본문 길이**: 3-4 문장 (논문 무엇/결과 2-3 + 한미암 활용 1-2).
+- **활용 sentence 시작**: `한미암 프로젝트 관점에서,` 또는 `한미암 과제의 ___단계에서,` — 시각적 구분 도움.
+- **본문 강조**: `*...*` 볼드는 핵심 메서드/결과 1-2개에만 (`*GSK3B-S9 인산화*` 같이) — 스캔 용이성 위해.
+- **단일 메시지**: 헤더 + 2편을 한 chat_postMessage 호출로. 따로 X.
