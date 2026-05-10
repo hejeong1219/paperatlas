@@ -1,8 +1,24 @@
 {
   "_description": "Slugs/PMIDs of papers already posted to #한미암_관련논문 Slack channel. Updated by scripts/daily_digest/run.sh after a successful daily post.",
-  "slugs": [],
-  "pmids": [],
-  "history": [],
+  "slugs": [
+    "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
+    "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression"
+  ],
+  "pmids": [
+    "40749681",
+    "40069142"
+  ],
+  "history": [
+    {
+      "date": "2026-05-10",
+      "version": "v6",
+      "ts": "1778423557.908999",
+      "posted": [
+        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681"},
+        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"}
+      ]
+    }
+  ],
   "_attempts": [
     {
       "date": "2026-05-10",
