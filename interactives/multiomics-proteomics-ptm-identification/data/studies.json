@@ -22,7 +22,9 @@
     "evidence": "Main PDF text: 15,369 proteins and 62,679 phosphosites identified; 12,553 proteins and 33,239 phosphosites quantified after filtering.",
     "notes": "Acetylome was not part of the reported CPTAC breast proteogenomic dataset in the extracted PDF text.",
     "extraction_status": "extracted",
-    "corpus_slug": "mertins-2016-proteogenomics-connects-somatic-mutations-signalling"
+    "corpus_slug": "mertins-2016-proteogenomics-connects-somatic-mutations-signalling",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "zhang-2016-integrated-proteogenomic-characterization-human-high-grade",
@@ -45,7 +47,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "zhang-2016-integrated-proteogenomic-characterization-human-high-grade"
+    "corpus_slug": "zhang-2016-integrated-proteogenomic-characterization-human-high-grade",
+    "verified_for_plot": false
   },
   {
     "id": "song-2017-targeted-proteomic-assays-quantitation-proteins",
@@ -68,7 +71,40 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Scientific data",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "song-2017-targeted-proteomic-assays-quantitation-proteins"
+    "corpus_slug": "song-2017-targeted-proteomic-assays-quantitation-proteins",
+    "verified_for_plot": false
+  },
+  {
+    "id": "gkmenpolar-2018-quantitative-phosphoproteomic-analysis-identifies-novel",
+    "corpus_slug": "gkmenpolar-2018-quantitative-phosphoproteomic-analysis-identifies-novel",
+    "study": "Gkmenpolar et al.",
+    "year": 2018,
+    "title": "Quantitative phosphoproteomic analysis identifies novel functional pathways of tumor suppressor DLC1 in estrogen receptor positive breast cancer.",
+    "cancer": "Breast cancer",
+    "cohort_type": "cell-line perturbation",
+    "protein_count": null,
+    "protein_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "phospho_count": null,
+    "phospho_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/gkmenpolar-2018-quantitative-phosphoproteomic-analysis-identifies-novel.md",
+    "raw_pdf": "raw/inbox/papers/gkmenpolar-2018-quantitative-phosphoproteomic-analysis-identifies-novel.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "proteome",
+      "phosphoproteome",
+      "perturbation"
+    ],
+    "verification_note": "자동 추출 후보 또는 supplement 확인 필요 항목이라 정량 plot에서 제외.",
+    "verified_for_plot": false
   },
   {
     "id": "zhao-2018-credentialing-individual-samples-proteogenomic-analysis",
@@ -91,7 +127,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Molecular & cellular proteomics : MCP",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "zhao-2018-credentialing-individual-samples-proteogenomic-analysis"
+    "corpus_slug": "zhao-2018-credentialing-individual-samples-proteogenomic-analysis",
+    "verified_for_plot": false
   },
   {
     "id": "clark-2019-integrated-proteogenomic-characterization-clear-cell",
@@ -114,7 +151,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "clark-2019-integrated-proteogenomic-characterization-clear-cell"
+    "corpus_slug": "clark-2019-integrated-proteogenomic-characterization-clear-cell",
+    "verified_for_plot": false
   },
   {
     "id": "mun-2019-proteogenomic-characterization-human-early-onset-gastric",
@@ -137,7 +175,9 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Cancer cell",
     "extraction_status": "extracted",
-    "corpus_slug": "mun-2019-proteogenomic-characterization-human-early-onset-gastric"
+    "corpus_slug": "mun-2019-proteogenomic-characterization-human-early-onset-gastric",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "vasaikar-2019-proteogenomic-analysis-human-colon-cancer",
@@ -160,7 +200,9 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Cell",
     "extraction_status": "extracted",
-    "corpus_slug": "vasaikar-2019-proteogenomic-analysis-human-colon-cancer"
+    "corpus_slug": "vasaikar-2019-proteogenomic-analysis-human-colon-cancer",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "chen-2020-proteogenomics-non-smoking-lung-cancer-east",
@@ -183,7 +225,9 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Cell",
     "extraction_status": "extracted",
-    "corpus_slug": "chen-2020-proteogenomics-non-smoking-lung-cancer-east"
+    "corpus_slug": "chen-2020-proteogenomics-non-smoking-lung-cancer-east",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "dou-2020-ucec",
@@ -208,7 +252,9 @@
     "evidence": "STAR Methods: 12,153 proteins, 73,212 phosphosites, and 10,862 lysine acetylation sites across all tumors.",
     "notes": "Average per tumor was also reported: 10,088 proteins, 29,710 phosphosites, and 3,821 acetylation sites.",
     "extraction_status": "extracted",
-    "corpus_slug": "dou-2020-proteogenomic-characterization-endometrial-carcinoma"
+    "corpus_slug": "dou-2020-proteogenomic-characterization-endometrial-carcinoma",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "gillette-2020-luad",
@@ -234,7 +280,9 @@
     "evidence": "STAR Methods: VM-site polishing yielded 65,103 phosphosites and 13,480 acetylsites; tumor-NAT PCA used 10,165 proteins, 40,845 phosphosites, and 6,984 acetylsites.",
     "notes": "Protein count is the filtered analysis feature count visible in extracted text, not necessarily the total raw protein identification count.",
     "extraction_status": "extracted",
-    "corpus_slug": "gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities"
+    "corpus_slug": "gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "krug-2020-proteogenomic-landscape-breast-cancer-tumorigenesis",
@@ -257,7 +305,9 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Cell",
     "extraction_status": "extracted",
-    "corpus_slug": "krug-2020-proteogenomic-landscape-breast-cancer-tumorigenesis"
+    "corpus_slug": "krug-2020-proteogenomic-landscape-breast-cancer-tumorigenesis",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "mcdermott-2020-proteogenomic-characterization-ovarian-hgsc-implicates",
@@ -280,7 +330,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell reports. Medicine",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "mcdermott-2020-proteogenomic-characterization-ovarian-hgsc-implicates"
+    "corpus_slug": "mcdermott-2020-proteogenomic-characterization-ovarian-hgsc-implicates",
+    "verified_for_plot": false
   },
   {
     "id": "oh-2020-gbm",
@@ -305,7 +356,9 @@
     "raw_pdf": "raw/inbox/papers/oh-2020-integrated-pharmaco-proteogenomics-defines-two-subgroups.pdf",
     "evidence": "Results and Methods: 9,367 protein groups, 8,019 phosphorylation sites, 16,377 phosphorylated peptides; Q Exactive and MaxQuant.",
     "notes": "N-terminal acetylation was a search modification only; no acetylome dataset.",
-    "extraction_status": "extracted"
+    "extraction_status": "extracted",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "petralia-2020-integrated-proteogenomic-characterization-across-major",
@@ -328,7 +381,9 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Cell",
     "extraction_status": "extracted",
-    "corpus_slug": "petralia-2020-integrated-proteogenomic-characterization-across-major"
+    "corpus_slug": "petralia-2020-integrated-proteogenomic-characterization-across-major",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "cao-2021-pdac",
@@ -354,7 +409,40 @@
     "evidence": "Results text: proteomics, phosphoproteomics, and glycoproteomics identified and quantified 11,662 proteins, 51,469 phosphosites, and 34,024 glycopeptides.",
     "notes": "This study used glycoproteomics rather than acetylomics.",
     "extraction_status": "extracted",
-    "corpus_slug": "cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma"
+    "corpus_slug": "cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
+  },
+  {
+    "id": "elmas-2021-pan-cancer-proteogenomic-investigations-identify-post-transcriptional",
+    "corpus_slug": "elmas-2021-pan-cancer-proteogenomic-investigations-identify-post-transcriptional",
+    "study": "Elmas et al.",
+    "year": 2021,
+    "title": "Pan-cancer proteogenomic investigations identify post-transcriptional kinase targets.",
+    "cancer": "Pan-cancer",
+    "cohort_type": "pan-cancer compendium",
+    "protein_count": null,
+    "protein_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/elmas-2021-pan-cancer-proteogenomic-investigations-identify-post-transcriptional.md",
+    "raw_pdf": "raw/inbox/papers/elmas-2021-pan-cancer-proteogenomic-investigations-identify-post-transcriptional.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "proteome",
+      "pan-cancer"
+    ],
+    "verification_note": "자동 추출 후보 또는 supplement 확인 필요 항목이라 정량 plot에서 제외.",
+    "verified_for_plot": false
   },
   {
     "id": "huang-2021-hnscc",
@@ -378,7 +466,40 @@
     "raw_pdf": "raw/inbox/papers/huang-2021-proteogenomic-insights-biology-treatment-hpv-negative.pdf",
     "evidence": "Results text: 11,744 proteins; 97,210 phosphopeptides covering 56,959 confidently localized phosphosites from 8,133 genes.",
     "notes": "No acetylome layer was described in the extracted paper text.",
-    "extraction_status": "extracted"
+    "extraction_status": "extracted",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
+  },
+  {
+    "id": "keshishian-2021-highly-multiplexed-quantitative-phosphosite-assay",
+    "corpus_slug": "keshishian-2021-highly-multiplexed-quantitative-phosphosite-assay",
+    "study": "Keshishian et al.",
+    "year": 2021,
+    "title": "A highly multiplexed quantitative phosphosite assay for biology and preclinical studies.",
+    "cancer": "Breast cancer",
+    "cohort_type": "methods/workflow",
+    "protein_count": null,
+    "protein_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "phospho_count": null,
+    "phospho_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/keshishian-2021-highly-multiplexed-quantitative-phosphosite-assay.md",
+    "raw_pdf": "raw/inbox/papers/keshishian-2021-highly-multiplexed-quantitative-phosphosite-assay.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "proteome",
+      "phosphoproteome"
+    ],
+    "verification_note": "자동 추출 후보 또는 supplement 확인 필요 항목이라 정량 plot에서 제외.",
+    "verified_for_plot": false
   },
   {
     "id": "lehti-2021-proteogenomics-non-small-cell-lung-cancer",
@@ -401,7 +522,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Nature cancer",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "lehti-2021-proteogenomics-non-small-cell-lung-cancer"
+    "corpus_slug": "lehti-2021-proteogenomics-non-small-cell-lung-cancer",
+    "verified_for_plot": false
   },
   {
     "id": "satpathy-2021-lscc",
@@ -424,7 +546,96 @@
     "raw_pdf": "raw/inbox/papers/satpathy-2021-proteogenomic-portrait-lung-squamous-cell.pdf",
     "evidence": "STAR Methods: VM-site polishing yielded 68,674 phosphosites, 15,186 acetylsites, and 25,489 ubiquitylsites.",
     "notes": "Figure S1B contains per-plex quantified protein bars, but the extracted PDF text did not expose a single global protein count.",
-    "extraction_status": "extracted"
+    "extraction_status": "extracted",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
+  },
+  {
+    "id": "wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma",
+    "corpus_slug": "wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma",
+    "study": "Wang et al.",
+    "year": 2021,
+    "title": "Proteogenomic and metabolomic characterization of human glioblastoma.",
+    "cancer": "Glioblastoma",
+    "cohort_type": "tumor cohort",
+    "protein_count": null,
+    "protein_count_type": "Main PDF text shows RefSeq hg38 search database size (41,734 proteins), not an identified protein count; total proteome identification count needs supplementary-table confirmation before plotting.",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma.md",
+    "raw_pdf": "raw/inbox/papers/wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma.pdf",
+    "extraction_status": "needs_supplement_for_count",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "proteome"
+    ],
+    "verified_for_plot": false
+  },
+  {
+    "id": "anurag-2022-proteogenomic-markers-chemotherapy-resistance-response",
+    "corpus_slug": "anurag-2022-proteogenomic-markers-chemotherapy-resistance-response",
+    "study": "Anurag et al.",
+    "year": 2022,
+    "title": "Proteogenomic Markers of Chemotherapy Resistance and Response in Triple-Negative Breast Cancer.",
+    "cancer": "Breast cancer",
+    "cohort_type": "cell-line perturbation",
+    "protein_count": null,
+    "protein_count_type": "",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response.md",
+    "raw_pdf": "raw/inbox/papers/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "perturbation"
+    ],
+    "verified_for_plot": false
+  },
+  {
+    "id": "chong-2022-integrated-multi-omics-characterization-kras-mutant",
+    "corpus_slug": "chong-2022-integrated-multi-omics-characterization-kras-mutant",
+    "study": "Chong et al.",
+    "year": 2022,
+    "title": "Integrated multi-omics characterization of KRAS mutant colorectal cancer.",
+    "cancer": "Colorectal cancer",
+    "cohort_type": "cell-line perturbation",
+    "protein_count": null,
+    "protein_count_type": "",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/chong-2022-integrated-multi-omics-characterization-kras-mutant.md",
+    "raw_pdf": "raw/inbox/papers/chong-2022-integrated-multi-omics-characterization-kras-mutant.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "perturbation"
+    ],
+    "verified_for_plot": false
   },
   {
     "id": "huang-2022-npc-saha",
@@ -449,7 +660,9 @@
     "raw_pdf": "raw/inbox/papers/huang-2022-suberoylanilide-hydroxamic-acid-saha-treatment.pdf",
     "evidence": "PDF abstract/methods: 6,491 proteins, 2,456 phosphorylated proteins, 228 acetylated proteins; Results: 441 acetylation sites identified and 333 quantified.",
     "notes": "Cell-line perturbation; phosphoproteome count is reported as phosphorylated proteins, not sites.",
-    "extraction_status": "extracted"
+    "extraction_status": "extracted",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "ng-2022-integrative-proteogenomic-characterization-hepatocellular-carcinoma",
@@ -472,7 +685,9 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Nature communications",
     "extraction_status": "extracted",
-    "corpus_slug": "ng-2022-integrative-proteogenomic-characterization-hepatocellular-carcinoma"
+    "corpus_slug": "ng-2022-integrative-proteogenomic-characterization-hepatocellular-carcinoma",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "qu-2022-proteogenomic-characterization-mit-family-translocation",
@@ -495,7 +710,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Nature communications",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "qu-2022-proteogenomic-characterization-mit-family-translocation"
+    "corpus_slug": "qu-2022-proteogenomic-characterization-mit-family-translocation",
+    "verified_for_plot": false
   },
   {
     "id": "shi-2022-integrated-proteogenomic-characterization-medullary-thyroid",
@@ -518,7 +734,9 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Cell discovery",
     "extraction_status": "extracted",
-    "corpus_slug": "shi-2022-integrated-proteogenomic-characterization-medullary-thyroid"
+    "corpus_slug": "shi-2022-integrated-proteogenomic-characterization-medullary-thyroid",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "soltis-2022-proteogenomic-analysis-lung-adenocarcinoma-reveals",
@@ -541,7 +759,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell reports. Medicine",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "soltis-2022-proteogenomic-analysis-lung-adenocarcinoma-reveals"
+    "corpus_slug": "soltis-2022-proteogenomic-analysis-lung-adenocarcinoma-reveals",
+    "verified_for_plot": false
   },
   {
     "id": "xu-2022-integrated-proteogenomic-characterization-urothelial-carcinoma",
@@ -564,30 +783,8 @@
     "evidence": "로컬 PDF가 잘못 매칭되었거나 correction-only PDF라 정량 반영에서 제외.",
     "notes": "Journal of hematology & oncology",
     "extraction_status": "blocked_pdf",
-    "corpus_slug": "xu-2022-integrated-proteogenomic-characterization-urothelial-carcinoma"
-  },
-  {
-    "id": "zhang-2022-pancancer",
-    "study": "Zhang et al.",
-    "year": 2022,
-    "title": "Proteogenomic characterization of 2002 human cancers reveals pan-cancer molecular subtypes and associated pathways",
-    "cancer": "Pan-cancer",
-    "cohort": "2002 primary tumors across 14 cancer types and 17 studies",
-    "cohort_type": "pan-cancer compendium",
-    "protein_count": 15439,
-    "protein_count_type": "unique genes represented by total-protein compendium",
-    "phospho_count": 199284,
-    "phospho_count_type": "phospho-protein features",
-    "acetyl_count": null,
-    "acetyl_count_type": "not part of compendium summary",
-    "method": "Integrated processed LC-MS/MS proteomic and phosphoproteomic datasets from CPTAC/public studies",
-    "instrument": "varied by contributing source study",
-    "source_page": "wiki/sources/zhang-2022-proteogenomic-characterization-2002-human-cancers.md",
-    "raw_pdf": "raw/inbox/papers/zhang-2022-proteogenomic-characterization-2002-human-cancers.pdf",
-    "evidence": "Methods: total proteins covered 15,439 unique genes; phosphoprotein compendium contained 199,284 phospho-protein features involving 11,671 genes.",
-    "notes": "This is a cross-study compendium rather than a single newly acquired MS experiment.",
-    "extraction_status": "extracted",
-    "corpus_slug": "zhang-2022-proteogenomic-characterization-2002-human-cancers"
+    "corpus_slug": "xu-2022-integrated-proteogenomic-characterization-urothelial-carcinoma",
+    "verified_for_plot": false
   },
   {
     "id": "zhang-2022-integrated-proteogenomic-characterization-across-major",
@@ -610,7 +807,92 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell research",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "zhang-2022-integrated-proteogenomic-characterization-across-major"
+    "corpus_slug": "zhang-2022-integrated-proteogenomic-characterization-across-major",
+    "verified_for_plot": false
+  },
+  {
+    "id": "zhang-2022-pancancer",
+    "study": "Zhang et al.",
+    "year": 2022,
+    "title": "Proteogenomic characterization of 2002 human cancers reveals pan-cancer molecular subtypes and associated pathways",
+    "cancer": "Pan-cancer",
+    "cohort": "2002 primary tumors across 14 cancer types and 17 studies",
+    "cohort_type": "pan-cancer compendium",
+    "protein_count": 15439,
+    "protein_count_type": "unique genes represented by total-protein compendium",
+    "phospho_count": 199284,
+    "phospho_count_type": "phospho-protein features",
+    "acetyl_count": null,
+    "acetyl_count_type": "not part of compendium summary",
+    "method": "Integrated processed LC-MS/MS proteomic and phosphoproteomic datasets from CPTAC/public studies",
+    "instrument": "varied by contributing source study",
+    "source_page": "wiki/sources/zhang-2022-proteogenomic-characterization-2002-human-cancers.md",
+    "raw_pdf": "raw/inbox/papers/zhang-2022-proteogenomic-characterization-2002-human-cancers.pdf",
+    "evidence": "Methods: total proteins covered 15,439 unique genes; phosphoprotein compendium contained 199,284 phospho-protein features involving 11,671 genes.",
+    "notes": "This is a cross-study compendium rather than a single newly acquired MS experiment.",
+    "extraction_status": "extracted",
+    "corpus_slug": "zhang-2022-proteogenomic-characterization-2002-human-cancers",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
+  },
+  {
+    "id": "abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome",
+    "corpus_slug": "abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome",
+    "study": "Abelin et al.",
+    "year": 2023,
+    "title": "Workflow enabling deepscale immunopeptidome, proteome, ubiquitylome, phosphoproteome, and acetylome analyses of sample-limited tissues.",
+    "cancer": "Lung cancer",
+    "cohort_type": "methods/workflow",
+    "protein_count": null,
+    "protein_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "phospho_count": null,
+    "phospho_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome.md",
+    "raw_pdf": "raw/inbox/papers/abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "proteome",
+      "phosphoproteome"
+    ],
+    "verification_note": "자동 추출 후보 또는 supplement 확인 필요 항목이라 정량 plot에서 제외.",
+    "verified_for_plot": false
+  },
+  {
+    "id": "cho-2023-refining-classification-cholangiocarcinoma-subtypes-proteogenomic",
+    "corpus_slug": "cho-2023-refining-classification-cholangiocarcinoma-subtypes-proteogenomic",
+    "study": "Cho et al.",
+    "year": 2023,
+    "title": "Refining Classification of Cholangiocarcinoma Subtypes via Proteogenomic Integration Reveals New Therapeutic Prospects.",
+    "cancer": "Cholangiocarcinoma",
+    "cohort_type": "tumor cohort",
+    "protein_count": null,
+    "protein_count_type": "",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/cho-2023-refining-classification-cholangiocarcinoma-subtypes-proteogenomic.md",
+    "raw_pdf": "raw/inbox/papers/cho-2023-refining-classification-cholangiocarcinoma-subtypes-proteogenomic.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog"
+    ],
+    "verified_for_plot": false
   },
   {
     "id": "deng-2023-proteogenomic-characterization-cholangiocarcinoma",
@@ -633,7 +915,9 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Hepatology (Baltimore, Md.)",
     "extraction_status": "extracted",
-    "corpus_slug": "deng-2023-proteogenomic-characterization-cholangiocarcinoma"
+    "corpus_slug": "deng-2023-proteogenomic-characterization-cholangiocarcinoma",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "ji-2023-pharmaco-proteogenomic-characterization-liver-cancer-organoids",
@@ -656,30 +940,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Science translational medicine",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "ji-2023-pharmaco-proteogenomic-characterization-liver-cancer-organoids"
-  },
-  {
-    "id": "li-2023-histopathologic-proteogenomic-heterogeneity-reveals-features",
-    "study": "Li et al.",
-    "year": 2023,
-    "title": "Histopathologic and proteogenomic heterogeneity reveals features of clear cell renal cell carcinoma aggressiveness",
-    "cancer": "Renal cell carcinoma",
-    "cohort": "Clear cell renal cell carcinomas (ccRCCs) represent ∼75% of RCC cases and account for most RCC-associated deaths. Inter- and intratumoral heterogeneity (ITH) results in varying prognosis and treatment outcomes. To obtain...",
-    "cohort_type": "cell-line perturbation",
-    "protein_count": null,
-    "protein_count_type": "PDF 확보, 수치 추출 대기",
-    "phospho_count": null,
-    "phospho_count_type": "PDF 확보, 수치 추출 대기",
-    "acetyl_count": null,
-    "acetyl_count_type": "미확인 또는 미보고",
-    "method": "PDF 확보됨; MS 방법 추출 대기",
-    "instrument": "PDF 확보됨; 장비명 추출 대기",
-    "source_page": "wiki/sources/li-2023-histopathologic-proteogenomic-heterogeneity-reveals-features.md",
-    "raw_pdf": "raw/inbox/papers/li-2023-histopathologic-proteogenomic-heterogeneity-reveals-features.pdf",
-    "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
-    "notes": "Cancer cell",
-    "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "li-2023-histopathologic-proteogenomic-heterogeneity-reveals-features"
+    "corpus_slug": "ji-2023-pharmaco-proteogenomic-characterization-liver-cancer-organoids",
+    "verified_for_plot": false
   },
   {
     "id": "li-2023-comprehensive-proteogenomic-characterization-early-duodenal",
@@ -702,7 +964,33 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Nature communications",
     "extraction_status": "extracted",
-    "corpus_slug": "li-2023-comprehensive-proteogenomic-characterization-early-duodenal"
+    "corpus_slug": "li-2023-comprehensive-proteogenomic-characterization-early-duodenal",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
+  },
+  {
+    "id": "li-2023-histopathologic-proteogenomic-heterogeneity-reveals-features",
+    "study": "Li et al.",
+    "year": 2023,
+    "title": "Histopathologic and proteogenomic heterogeneity reveals features of clear cell renal cell carcinoma aggressiveness",
+    "cancer": "Renal cell carcinoma",
+    "cohort": "Clear cell renal cell carcinomas (ccRCCs) represent ∼75% of RCC cases and account for most RCC-associated deaths. Inter- and intratumoral heterogeneity (ITH) results in varying prognosis and treatment outcomes. To obtain...",
+    "cohort_type": "cell-line perturbation",
+    "protein_count": null,
+    "protein_count_type": "PDF 확보, 수치 추출 대기",
+    "phospho_count": null,
+    "phospho_count_type": "PDF 확보, 수치 추출 대기",
+    "acetyl_count": null,
+    "acetyl_count_type": "미확인 또는 미보고",
+    "method": "PDF 확보됨; MS 방법 추출 대기",
+    "instrument": "PDF 확보됨; 장비명 추출 대기",
+    "source_page": "wiki/sources/li-2023-histopathologic-proteogenomic-heterogeneity-reveals-features.md",
+    "raw_pdf": "raw/inbox/papers/li-2023-histopathologic-proteogenomic-heterogeneity-reveals-features.pdf",
+    "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
+    "notes": "Cancer cell",
+    "extraction_status": "pdf_pending_extraction",
+    "corpus_slug": "li-2023-histopathologic-proteogenomic-heterogeneity-reveals-features",
+    "verified_for_plot": false
   },
   {
     "id": "li-2023-pancancer",
@@ -724,7 +1012,9 @@
     "raw_pdf": "raw/inbox/papers/li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers.pdf",
     "evidence": "Intro/results text: mass-spectrometry-based proteomic and phosphoproteomic data expanded quantified features to 15,699 proteins and 110,274 phosphosites.",
     "notes": "Acetylome was not included in the extracted pan-cancer feature-count statement.",
-    "extraction_status": "extracted"
+    "extraction_status": "extracted",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "shen-2023-tissue-proteogenomic-landscape-reveals-role",
@@ -747,7 +1037,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Journal of proteome research",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "shen-2023-tissue-proteogenomic-landscape-reveals-role"
+    "corpus_slug": "shen-2023-tissue-proteogenomic-landscape-reveals-role",
+    "verified_for_plot": false
   },
   {
     "id": "wang-2023-proteogenomic-characterization-ferroptosis-regulators-reveals",
@@ -770,7 +1061,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "BMC cancer",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "wang-2023-proteogenomic-characterization-ferroptosis-regulators-reveals"
+    "corpus_slug": "wang-2023-proteogenomic-characterization-ferroptosis-regulators-reveals",
+    "verified_for_plot": false
   },
   {
     "id": "zhang-2023-proteogenomics-clear-cell-renal-cell",
@@ -793,7 +1085,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Nature communications",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "zhang-2023-proteogenomics-clear-cell-renal-cell"
+    "corpus_slug": "zhang-2023-proteogenomics-clear-cell-renal-cell",
+    "verified_for_plot": false
   },
   {
     "id": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate",
@@ -816,7 +1109,8 @@
     "evidence": "로컬 PDF가 잘못 매칭되었거나 correction-only PDF라 정량 반영에서 제외.",
     "notes": "Nature cancer",
     "extraction_status": "blocked_pdf",
-    "corpus_slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate"
+    "corpus_slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate",
+    "verified_for_plot": false
   },
   {
     "id": "garciadelrio-2024-deciphering-ghost-proteome-ovarian-cancer",
@@ -839,7 +1133,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell death & disease",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "garciadelrio-2024-deciphering-ghost-proteome-ovarian-cancer"
+    "corpus_slug": "garciadelrio-2024-deciphering-ghost-proteome-ovarian-cancer",
+    "verified_for_plot": false
   },
   {
     "id": "haas-2024-proteogenomics-prostate-cancer-radioresistance",
@@ -862,7 +1157,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cancer research communications",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "haas-2024-proteogenomics-prostate-cancer-radioresistance"
+    "corpus_slug": "haas-2024-proteogenomics-prostate-cancer-radioresistance",
+    "verified_for_plot": false
   },
   {
     "id": "kaur-2024-integrated-proteogenomic-analysis-reveals-distinct",
@@ -885,7 +1181,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cancers",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "kaur-2024-integrated-proteogenomic-analysis-reveals-distinct"
+    "corpus_slug": "kaur-2024-integrated-proteogenomic-analysis-reveals-distinct",
+    "verified_for_plot": false
   },
   {
     "id": "kim-2024-integrated-proteogenomic-characterization-glioblastoma-evolution",
@@ -908,7 +1205,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cancer cell",
     "extraction_status": "pdf_pending",
-    "corpus_slug": "kim-2024-integrated-proteogenomic-characterization-glioblastoma-evolution"
+    "corpus_slug": "kim-2024-integrated-proteogenomic-characterization-glioblastoma-evolution",
+    "verified_for_plot": false
   },
   {
     "id": "kim-2024-proteogenomic-characterization-identifies-clinical-subgroups",
@@ -931,7 +1229,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Experimental & molecular medicine",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "kim-2024-proteogenomic-characterization-identifies-clinical-subgroups"
+    "corpus_slug": "kim-2024-proteogenomic-characterization-identifies-clinical-subgroups",
+    "verified_for_plot": false
   },
   {
     "id": "lee-2024-proteogenomic-analysis-adiposity-colorectal-cancer",
@@ -954,7 +1253,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "International journal of epidemiology",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "lee-2024-proteogenomic-analysis-adiposity-colorectal-cancer"
+    "corpus_slug": "lee-2024-proteogenomic-analysis-adiposity-colorectal-cancer",
+    "verified_for_plot": false
   },
   {
     "id": "naru-2024-proteogenomic-characterization-highly-enriched-viable",
@@ -977,7 +1277,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "EJHaem",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "naru-2024-proteogenomic-characterization-highly-enriched-viable"
+    "corpus_slug": "naru-2024-proteogenomic-characterization-highly-enriched-viable",
+    "verified_for_plot": false
   },
   {
     "id": "park-2024-nsla",
@@ -1002,7 +1303,9 @@
     "evidence": "Methods text: identified and quantified 13,102 proteins and 12,135 phosphosites; 8,064 proteins and 3,516 phosphosites were found in more than 50% of samples.",
     "notes": "No acetylome layer was reported in the extracted PDF text.",
     "extraction_status": "extracted",
-    "corpus_slug": "park-2024-proteogenomic-characterization-reveals-estrogen-signaling"
+    "corpus_slug": "park-2024-proteogenomic-characterization-reveals-estrogen-signaling",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity",
@@ -1025,7 +1328,9 @@
     "evidence": "Source page의 Multi-Omics Identification Extraction 섹션에서 PDF 기반으로 추출.",
     "notes": "Cell",
     "extraction_status": "extracted",
-    "corpus_slug": "petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity"
+    "corpus_slug": "petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "rajkumar-2024-proteogenomic-characterization-difficult-to-treat-breast-cancer",
@@ -1048,7 +1353,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Breast cancer research : BCR",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "rajkumar-2024-proteogenomic-characterization-difficult-to-treat-breast-cancer"
+    "corpus_slug": "rajkumar-2024-proteogenomic-characterization-difficult-to-treat-breast-cancer",
+    "verified_for_plot": false
   },
   {
     "id": "ramberger-2024-myeloma",
@@ -1073,7 +1379,9 @@
     "evidence": "Main PDF text: over 10,000 proteins and 50,000 phosphopeptides identified; 8,336 proteins and 25,131 phosphopeptides quantified in at least half of samples.",
     "notes": "Approximate identified counts are encoded as lower-bound display values; exact quantified counts are provided separately.",
     "extraction_status": "extracted",
-    "corpus_slug": "ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals"
+    "corpus_slug": "ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "savage-2024-pan-cancer-proteogenomics-expands-landscape-therapeutic",
@@ -1096,7 +1404,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "savage-2024-pan-cancer-proteogenomics-expands-landscape-therapeutic"
+    "corpus_slug": "savage-2024-pan-cancer-proteogenomics-expands-landscape-therapeutic",
+    "verified_for_plot": false
   },
   {
     "id": "tanaka-2024-proteogenomic-characterization-primary-colorectal-cancer",
@@ -1119,7 +1428,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell reports",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "tanaka-2024-proteogenomic-characterization-primary-colorectal-cancer"
+    "corpus_slug": "tanaka-2024-proteogenomic-characterization-primary-colorectal-cancer",
+    "verified_for_plot": false
   },
   {
     "id": "yu-2024-proteogenomic-analysis-cervical-cancer-reveals",
@@ -1142,30 +1452,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Nature communications",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "yu-2024-proteogenomic-analysis-cervical-cancer-reveals"
-  },
-  {
-    "id": "zhang-2024-proteogenomic-characterization-skull-base-chordoma",
-    "study": "Zhang et al.",
-    "year": 2024,
-    "title": "Proteogenomic characterization of skull-base chordoma",
-    "cancer": "Chordoma",
-    "cohort": "Skull-base chordoma is a rare, aggressive bone cancer with a high recurrence rate. Despite advances in genomic studies, its molecular characteristics and effective therapies remain unknown. Here, we conduct integrative g...",
-    "cohort_type": "tumor/normal cohort",
-    "protein_count": null,
-    "protein_count_type": "PDF 확보, 수치 추출 대기",
-    "phospho_count": null,
-    "phospho_count_type": "PDF 확보, 수치 추출 대기",
-    "acetyl_count": null,
-    "acetyl_count_type": "미확인 또는 미보고",
-    "method": "PDF 확보됨; MS 방법 추출 대기",
-    "instrument": "PDF 확보됨; 장비명 추출 대기",
-    "source_page": "wiki/sources/zhang-2024-proteogenomic-characterization-skull-base-chordoma.md",
-    "raw_pdf": "raw/inbox/papers/zhang-2024-proteogenomic-characterization-skull-base-chordoma.pdf",
-    "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
-    "notes": "Nature communications",
-    "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "zhang-2024-proteogenomic-characterization-skull-base-chordoma"
+    "corpus_slug": "yu-2024-proteogenomic-analysis-cervical-cancer-reveals",
+    "verified_for_plot": false
   },
   {
     "id": "zhang-2024-evolutionary-proteogenomic-landscape-pre-invasive-invasive",
@@ -1188,7 +1476,32 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell reports. Medicine",
     "extraction_status": "pdf_pending",
-    "corpus_slug": "zhang-2024-evolutionary-proteogenomic-landscape-pre-invasive-invasive"
+    "corpus_slug": "zhang-2024-evolutionary-proteogenomic-landscape-pre-invasive-invasive",
+    "verified_for_plot": false
+  },
+  {
+    "id": "zhang-2024-proteogenomic-characterization-skull-base-chordoma",
+    "study": "Zhang et al.",
+    "year": 2024,
+    "title": "Proteogenomic characterization of skull-base chordoma",
+    "cancer": "Chordoma",
+    "cohort": "Skull-base chordoma is a rare, aggressive bone cancer with a high recurrence rate. Despite advances in genomic studies, its molecular characteristics and effective therapies remain unknown. Here, we conduct integrative g...",
+    "cohort_type": "tumor/normal cohort",
+    "protein_count": null,
+    "protein_count_type": "PDF 확보, 수치 추출 대기",
+    "phospho_count": null,
+    "phospho_count_type": "PDF 확보, 수치 추출 대기",
+    "acetyl_count": null,
+    "acetyl_count_type": "미확인 또는 미보고",
+    "method": "PDF 확보됨; MS 방법 추출 대기",
+    "instrument": "PDF 확보됨; 장비명 추출 대기",
+    "source_page": "wiki/sources/zhang-2024-proteogenomic-characterization-skull-base-chordoma.md",
+    "raw_pdf": "raw/inbox/papers/zhang-2024-proteogenomic-characterization-skull-base-chordoma.pdf",
+    "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
+    "notes": "Nature communications",
+    "extraction_status": "pdf_pending_extraction",
+    "corpus_slug": "zhang-2024-proteogenomic-characterization-skull-base-chordoma",
+    "verified_for_plot": false
   },
   {
     "id": "zhao-2024-escc",
@@ -1213,7 +1526,40 @@
     "raw_pdf": "raw/inbox/papers/zhao-2024-multi-omics-characterization-esophageal-squamous-cell.pdf",
     "evidence": "Results text: 100,898 nonphosphorylated peptides, 28,853 phosphopeptides, 9,261 proteins, 18,944 phosphosites, and 5,213 phosphoproteins.",
     "notes": "No acetylome layer was reported in the extracted PDF text.",
-    "extraction_status": "extracted"
+    "extraction_status": "extracted",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
+  },
+  {
+    "id": "chen-2025-wnk1-promotes-head-neck-squamous",
+    "corpus_slug": "chen-2025-wnk1-promotes-head-neck-squamous",
+    "study": "Chen et al.",
+    "year": 2025,
+    "title": "WNK1 promotes head and neck squamous cell carcinoma progression through activation of NF-κB signaling pathway.",
+    "cancer": "Colorectal cancer",
+    "cohort_type": "cell-line perturbation",
+    "protein_count": null,
+    "protein_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/chen-2025-wnk1-promotes-head-neck-squamous.md",
+    "raw_pdf": "raw/inbox/papers/chen-2025-wnk1-promotes-head-neck-squamous.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "proteome",
+      "perturbation"
+    ],
+    "verification_note": "자동 추출 후보 또는 supplement 확인 필요 항목이라 정량 plot에서 제외.",
+    "verified_for_plot": false
   },
   {
     "id": "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor",
@@ -1236,7 +1582,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Nature communications",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor"
+    "corpus_slug": "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor",
+    "verified_for_plot": false
   },
   {
     "id": "holt-2025-mibc",
@@ -1261,7 +1608,38 @@
     "evidence": "Main PDF text: 11,596 gene products identified from 206,856 peptides; 11,799 phosphosites quantified.",
     "notes": "Phosphosite count is quantified sites: 9,143 serine, 2,266 threonine, and 390 tyrosine.",
     "extraction_status": "extracted",
-    "corpus_slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated"
+    "corpus_slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
+  },
+  {
+    "id": "hu-2025-map3k1map2k4-mutations-drive-breast-cancer",
+    "corpus_slug": "hu-2025-map3k1map2k4-mutations-drive-breast-cancer",
+    "study": "Hu et al.",
+    "year": 2025,
+    "title": "MAP3K1/MAP2K4 mutations drive breast cancer progression by compensating for TP53 loss through inactivation of the JNK2-p53-FOSL1 axis.",
+    "cancer": "Breast cancer",
+    "cohort_type": "cell-line perturbation",
+    "protein_count": null,
+    "protein_count_type": "",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/hu-2025-map3k1map2k4-mutations-drive-breast-cancer.md",
+    "raw_pdf": "raw/inbox/papers/hu-2025-map3k1map2k4-mutations-drive-breast-cancer.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "perturbation"
+    ],
+    "verified_for_plot": false
   },
   {
     "id": "jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance",
@@ -1284,7 +1662,37 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell reports. Medicine",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance"
+    "corpus_slug": "jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance",
+    "verified_for_plot": false
+  },
+  {
+    "id": "ji-2025-multi-omic-based-classification-identifying-optimal-neoadjuvant",
+    "corpus_slug": "ji-2025-multi-omic-based-classification-identifying-optimal-neoadjuvant",
+    "study": "Ji et al.",
+    "year": 2025,
+    "title": "Multi-omic-based classification for identifying optimal neoadjuvant treatment strategies for high-risk early-stage breast cancer.",
+    "cancer": "Breast cancer",
+    "cohort_type": "cell-line perturbation",
+    "protein_count": null,
+    "protein_count_type": "",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/ji-2025-multi-omic-based-classification-identifying-optimal-neoadjuvant.md",
+    "raw_pdf": "raw/inbox/papers/ji-2025-multi-omic-based-classification-identifying-optimal-neoadjuvant.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "perturbation"
+    ],
+    "verified_for_plot": false
   },
   {
     "id": "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine",
@@ -1307,7 +1715,40 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cancer cell",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine"
+    "corpus_slug": "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine",
+    "verified_for_plot": false
+  },
+  {
+    "id": "li-2025-cdk1-driven-phosphorylation-networks-promote-glioblastoma",
+    "corpus_slug": "li-2025-cdk1-driven-phosphorylation-networks-promote-glioblastoma",
+    "study": "Li et al.",
+    "year": 2025,
+    "title": "CDK1-driven phosphorylation networks promote glioblastoma progression via MAP1B-mediated microtubule destabilization.",
+    "cancer": "Glioblastoma",
+    "cohort_type": "cell-line perturbation",
+    "protein_count": null,
+    "protein_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "phospho_count": null,
+    "phospho_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/li-2025-cdk1-driven-phosphorylation-networks-promote-glioblastoma.md",
+    "raw_pdf": "raw/inbox/papers/li-2025-cdk1-driven-phosphorylation-networks-promote-glioblastoma.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "proteome",
+      "phosphoproteome",
+      "perturbation"
+    ],
+    "verification_note": "자동 추출 후보 또는 supplement 확인 필요 항목이라 정량 plot에서 제외.",
+    "verified_for_plot": false
   },
   {
     "id": "ou-2025-integrated-proteogenomic-characterization-localized-prostate",
@@ -1330,7 +1771,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Nature communications",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "ou-2025-integrated-proteogenomic-characterization-localized-prostate"
+    "corpus_slug": "ou-2025-integrated-proteogenomic-characterization-localized-prostate",
+    "verified_for_plot": false
   },
   {
     "id": "pan-2025-integrative-proteogenomic-characterization-reveals-therapeutic",
@@ -1353,7 +1795,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Nature communications",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "pan-2025-integrative-proteogenomic-characterization-reveals-therapeutic"
+    "corpus_slug": "pan-2025-integrative-proteogenomic-characterization-reveals-therapeutic",
+    "verified_for_plot": false
   },
   {
     "id": "qin-2025-proteogenomic-characterization-reveals-lipid-droplet",
@@ -1376,7 +1819,38 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Science translational medicine",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "qin-2025-proteogenomic-characterization-reveals-lipid-droplet"
+    "corpus_slug": "qin-2025-proteogenomic-characterization-reveals-lipid-droplet",
+    "verified_for_plot": false
+  },
+  {
+    "id": "ren-2025-multi-omics-insights-molecular-signature-prognosis",
+    "corpus_slug": "ren-2025-multi-omics-insights-molecular-signature-prognosis",
+    "study": "Ren et al.",
+    "year": 2025,
+    "title": "Multi-omics insights into the molecular signature and prognosis of hypopharyngeal squamous cell carcinoma.",
+    "cancer": "Head and neck squamous cell carcinoma",
+    "cohort_type": "tumor cohort",
+    "protein_count": null,
+    "protein_count_type": "",
+    "phospho_count": null,
+    "phospho_count_type": "원문 단위 수동 검증 전까지 정량 plot 제외",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/ren-2025-multi-omics-insights-molecular-signature-prognosis.md",
+    "raw_pdf": "raw/inbox/papers/ren-2025-multi-omics-insights-molecular-signature-prognosis.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "phosphoproteome"
+    ],
+    "verification_note": "자동 추출 후보 또는 supplement 확인 필요 항목이라 정량 plot에서 제외.",
+    "verified_for_plot": false
   },
   {
     "id": "ryu-2025-proteogenomic-analysis-rna-m6a-modification-associated",
@@ -1399,7 +1873,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "International journal of medical sciences",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "ryu-2025-proteogenomic-analysis-rna-m6a-modification-associated"
+    "corpus_slug": "ryu-2025-proteogenomic-analysis-rna-m6a-modification-associated",
+    "verified_for_plot": false
   },
   {
     "id": "shi-2025-mapping-functional-network-human-cancer",
@@ -1422,7 +1897,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Nature cancer",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "shi-2025-mapping-functional-network-human-cancer"
+    "corpus_slug": "shi-2025-mapping-functional-network-human-cancer",
+    "verified_for_plot": false
   },
   {
     "id": "su-2025-luad-ssn",
@@ -1448,7 +1924,9 @@
     "evidence": "Results text: 10,255 proteins, 27,283 phosphosites, and 12,480 glycopeptides identified and quantified.",
     "notes": "This paper has glycoproteomics rather than acetylomics.",
     "extraction_status": "extracted",
-    "corpus_slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression"
+    "corpus_slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
   },
   {
     "id": "tanaka-2025-deep-proteogenomic-characterization-pancreatic-solid",
@@ -1471,7 +1949,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Biomarker research",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "tanaka-2025-deep-proteogenomic-characterization-pancreatic-solid"
+    "corpus_slug": "tanaka-2025-deep-proteogenomic-characterization-pancreatic-solid",
+    "verified_for_plot": false
   },
   {
     "id": "zhang-2025-integrated-proteogenomic-characterization-ampullary-adenocarcinoma",
@@ -1494,7 +1973,37 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Cell discovery",
     "extraction_status": "pdf_pending_extraction",
-    "corpus_slug": "zhang-2025-integrated-proteogenomic-characterization-ampullary-adenocarcinoma"
+    "corpus_slug": "zhang-2025-integrated-proteogenomic-characterization-ampullary-adenocarcinoma",
+    "verified_for_plot": false
+  },
+  {
+    "id": "zhang-2025-multiomics-profiling-identifies-mcmbp-prognostic",
+    "corpus_slug": "zhang-2025-multiomics-profiling-identifies-mcmbp-prognostic",
+    "study": "Zhang et al.",
+    "year": 2025,
+    "title": "Multiomics profiling Identifies MCMBP as a prognostic biomarker and a potential immune-related target in pancreatic ductal adenocarcinoma via the JAK-STAT3 pathway.",
+    "cancer": "Pancreatic cancer",
+    "cohort_type": "cell-line perturbation",
+    "protein_count": null,
+    "protein_count_type": "",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/zhang-2025-multiomics-profiling-identifies-mcmbp-prognostic.md",
+    "raw_pdf": "raw/inbox/papers/zhang-2025-multiomics-profiling-identifies-mcmbp-prognostic.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog",
+      "perturbation"
+    ],
+    "verified_for_plot": false
   },
   {
     "id": "zhao-2025-crc-cell",
@@ -1521,7 +2030,37 @@
     "raw_pdf": "raw/inbox/papers/zhao-2025-phosphoproteomic-acetylomic-characterization-colorectal-cancer.pdf",
     "evidence": "Results text: 6,147 proteins; 6,213 phosphorylated sites including 5,048 class I sites and 2,552 proteins; 185 acetylated sites corresponding to 135 proteins.",
     "notes": "Included as a recent perturbational PTM multi-omics study, not as a patient tumor cohort.",
-    "extraction_status": "extracted"
+    "extraction_status": "extracted",
+    "verified_for_plot": true,
+    "verification_note": "원문 PDF/source extraction에서 count 단위와 evidence 문장을 확인한 항목만 정량 plot에 사용."
+  },
+  {
+    "id": "lee-2026-tp53-loss-fuels-mtorc1-activation",
+    "corpus_slug": "lee-2026-tp53-loss-fuels-mtorc1-activation",
+    "study": "Lee et al.",
+    "year": 2026,
+    "title": "TP53 Loss Fuels mTORC1 Activation and Autophagy Suppression to Drive Immune-Cold Colorectal Cancer.",
+    "cancer": "Colorectal cancer",
+    "cohort_type": "tumor cohort",
+    "protein_count": null,
+    "protein_count_type": "",
+    "phospho_count": null,
+    "phospho_count_type": "",
+    "acetyl_count": null,
+    "acetyl_count_type": "",
+    "protein_quantified": null,
+    "phospho_quantified": null,
+    "method": "원문 방법 수동 검증 전",
+    "instrument": "원문 장비 수동 검증 전",
+    "source_page": "wiki/sources/lee-2026-tp53-loss-fuels-mtorc1-activation.md",
+    "raw_pdf": "raw/inbox/papers/lee-2026-tp53-loss-fuels-mtorc1-activation.pdf",
+    "extraction_status": "pending_manual_verification",
+    "notes": "정량 수치와 방법/장비 단위가 수동 검증되기 전까지 카탈로그에만 포함하고 plot에서는 제외.",
+    "evidence": "원문 단위 수동 검증 전.",
+    "tags": [
+      "catalog"
+    ],
+    "verified_for_plot": false
   },
   {
     "id": "xu-2026-proteogenomic-characterization-reveals-subtype-specific-therapeutic",
@@ -1544,7 +2083,8 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
     "extraction_status": "pdf_pending",
-    "corpus_slug": "xu-2026-proteogenomic-characterization-reveals-subtype-specific-therapeutic"
+    "corpus_slug": "xu-2026-proteogenomic-characterization-reveals-subtype-specific-therapeutic",
+    "verified_for_plot": false
   },
   {
     "id": "zhao-2026-proteogenomic-characterization-reveals-metabolic-vulnerabilities",
@@ -1567,6 +2107,7 @@
     "evidence": "10년 corpus에는 포함하되, count/method/instrument는 PDF deep-read 대기.",
     "notes": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
     "extraction_status": "pdf_pending",
-    "corpus_slug": "zhao-2026-proteogenomic-characterization-reveals-metabolic-vulnerabilities"
+    "corpus_slug": "zhao-2026-proteogenomic-characterization-reveals-metabolic-vulnerabilities",
+    "verified_for_plot": false
   }
 ]
