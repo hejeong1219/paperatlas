@@ -178,6 +178,8 @@ def load_posted() -> set:
 def main():
     posted = load_posted()
     candidates = []
+    skipped_pending = 0
+    skipped_no_keypoints = 0
     for p in sorted(SOURCES.glob("*.md")):
         if p.stem in posted:
             continue
@@ -190,6 +192,21 @@ def main():
         meta = parse_frontmatter(text)
         if not meta:
             continue
+        # HARD FILTER: skip papers where the user has not yet finished
+        # full-PDF-based analysis. Posting these would violate the
+        # "no abstract-only judgment" rule.
+        if str(meta.get("pdf_status", "")).strip().lower() == "pending":
+            skipped_pending += 1
+            continue
+        # Extra safety: require a non-placeholder Key Points section.
+        # The placeholder line is "_To be filled after local PDF...".
+        body = text[text.find("\n---\n", 4) + 5:] if text.startswith("---") else text
+        if "## Key Points" in body:
+            kp_idx = body.find("## Key Points")
+            kp_block = body[kp_idx:kp_idx + 800]
+            if "_To be filled" in kp_block or "to be filled" in kp_block.lower():
+                skipped_no_keypoints += 1
+                continue
         s = score_paper(meta)
         if s < 5:
             continue
@@ -212,6 +229,8 @@ def main():
     out = {
         "date": datetime.date.today().isoformat(),
         "total_candidates": len(candidates),
+        "skipped_pending_pdf": skipped_pending,
+        "skipped_placeholder_keypoints": skipped_no_keypoints,
         "selected": selected,
     }
     json.dump(out, sys.stdout, indent=2, ensure_ascii=False)
