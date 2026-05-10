@@ -29,9 +29,13 @@ echo "Daily digest run @ $(date -Iseconds)"
 echo "Repo: $REPO_ROOT"
 echo "================================================================"
 
-# Step 1: sync latest wiki
+# Step 1: sync latest wiki (use rebase + autostash to handle local commits
+# created by previous runs gracefully)
 echo "[1/5] Pulling latest wiki..."
-git pull --quiet --ff-only origin main || echo "WARN: git pull failed"
+git pull --quiet --rebase --autostash origin main || {
+    echo "WARN: rebase pull failed; trying merge"
+    git pull --quiet --no-rebase origin main || echo "WARN: pull still failed; continuing with current local state"
+}
 
 # Step 2: PubMed monitor (Phase B), unless forced to Phase A
 PHASE="${PHASE:-auto}"
