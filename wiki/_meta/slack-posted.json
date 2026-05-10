@@ -1,25 +1,8 @@
 {
   "_description": "Slugs/PMIDs of papers already posted to #한미암_관련논문 Slack channel. Updated by scripts/daily_digest/run.sh after a successful daily post.",
-  "slugs": [
-    "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
-    "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression"
-  ],
-  "pmids": [
-    "40749681",
-    "40069142"
-  ],
-  "history": [
-    {
-      "date": "2026-05-10",
-      "mode": "phase_a_fallback",
-      "version": "v4",
-      "ts": "1778423033.548139",
-      "posted": [
-        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681"},
-        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"}
-      ]
-    }
-  ],
+  "slugs": [],
+  "pmids": [],
+  "history": [],
   "_attempts": [
     {
       "date": "2026-05-10",
@@ -33,12 +16,21 @@
     {
       "date": "2026-05-10",
       "version": "v2-new-format",
-      "note": "New format: single message + citation header link + 3 lines per paper. Korean inline *bold* did NOT render and 활용 line ended with directive 활용 가능합니다 — too prescriptive for PI audience. Rolling back to v3 with softened 시사·참고 tone.",
+      "note": "New format: single message + citation header link + 3 lines per paper. Korean inline *bold* did NOT render and 활용 line ended with directive 활용 가능합니다 — too prescriptive for PI audience. Rolling back.",
       "posted": [
         {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681", "ts": "1778421948.478849"},
         {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"},
         {"slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate", "pmid": "39242942", "ts": "1778422395.981579"},
         {"slug": "bai-2026-cancer-biomarkers-discovered-using-pan-cancer", "pmid": "40603747"}
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "version": "v4",
+      "note": "v4 added intro pool + softer 활용 endings. But intro line used '살펴보았습니다' which implies human review (this is a bot digest). Rolling back to retry with v5 (forbid first-person verbs).",
+      "posted": [
+        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681", "ts": "1778423033.548139"},
+        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"}
       ]
     }
   ]
