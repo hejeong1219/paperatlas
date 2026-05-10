@@ -38,7 +38,8 @@ PHASE="${PHASE:-auto}"
 DAYS="${DIGEST_DAYS:-7}"
 PHASE_B_JSON="/tmp/digest_phaseb_$TODAY.json"
 PHASE_A_JSON="/tmp/digest_phasea_$TODAY.json"
-COMBINED="/tmp/digest_today.json"
+COMBINED="/tmp/digest_combined_$TODAY.json"
+STANDARD_PATH="/tmp/digest_today.json"
 
 if [ "$PHASE" = "A" ]; then
     echo "[2/5] PHASE=A forced; skipping PubMed search."
@@ -112,8 +113,9 @@ if [ "${DRY_RUN:-0}" = "1" ]; then
     exit 0
 fi
 
-# Make symlink so claude can find it at the standard path
-ln -sf "$COMBINED" /tmp/digest_today.json
+# Symlink so claude (and prompt.md) can read from a stable path
+rm -f "$STANDARD_PATH"
+ln -s "$COMBINED" "$STANDARD_PATH"
 
 # Step 4: hand to claude
 echo "[4/5] Posting to Slack via claude + slack MCP..."
