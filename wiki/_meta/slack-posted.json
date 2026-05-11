@@ -6,7 +6,9 @@
     "bai-2026-cancer-biomarkers-discovered-using-pan-cancer",
     "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate",
     "ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals",
-    "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor"
+    "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor",
+    "he-2025-proteogenomic-gene-signature-defines-prognostic",
+    "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine"
   ],
   "pmids": [
     "40749681",
@@ -14,7 +16,9 @@
     "40603747",
     "39242942",
     "38942927",
-    "40830093"
+    "40830093",
+    "41402890",
+    "40185092"
   ],
   "history": [
     {
@@ -42,6 +46,15 @@
       "posted": [
         {"slug": "ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals", "pmid": "38942927"},
         {"slug": "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor", "pmid": "40830093"}
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "version": "v9",
+      "ts": "1778461357.842799",
+      "posted": [
+        {"slug": "he-2025-proteogenomic-gene-signature-defines-prognostic", "pmid": "41402890"},
+        {"slug": "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine", "pmid": "40185092"}
       ]
     }
   ],
