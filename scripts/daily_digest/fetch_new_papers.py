@@ -47,17 +47,35 @@ from extract_pdf_text import extract as pdf_extract  # noqa: E402
 NCBI = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
-# Default query — proteogenomics × drug response × cancer × human
-# Tier 1 (phospho × resistance) gets boosted via OR with tighter terms.
+# Default query — proteogenomics × (drug response OR molecular stratification) × cancer × human
+# Two intents bundled in the phenotype axis (OR'd together):
+#   (1) Tier 1: phospho/proteogenomic × treatment-response/resistance — direct drug-response biology.
+#   (2) "Basket-trial enabling" analyses: proteogenomic profiling that stratifies patients by
+#       molecular subtype/landscape (across organ types), proposing therapeutic vulnerabilities
+#       per subtype rather than per organ.
+# Method axis stays strict (proteogenomic/phospho/pQTL — NOT plain multi-omic) to avoid
+# pulling in single-biomarker / TME-only papers.
 DEFAULT_QUERY = (
-    "((phosphoproteomic*[All] OR proteogenomic*[All] OR ppQTL[All] OR pQTL[All]) "
-    "AND (drug response[All] OR drug resistance[All] OR chemoresistance[All] "
+    "(("
+    "phosphoproteomic*[All] OR proteogenomic*[All] OR ppQTL[All] OR pQTL[All]"
+    ") "
+    "AND ("
+    # (1) drug-response biology
+    "drug response[All] OR drug resistance[All] OR chemoresistance[All] "
     "OR treatment response[All] OR therapy resistance[All] "
-    "OR targeted therapy[All] OR immunotherapy[MeSH] "
-    "OR kinase inhibitor[All] OR neoantigen*[All]) "
+    "OR targeted therapy[All] OR immunotherapy[MeSH] OR kinase inhibitor[All] "
+    "OR neoantigen*[All] "
+    # (2) molecular-subtype-driven stratification / pan-cancer landscape
+    "OR pan-cancer[All] OR pan cancer[All] "
+    "OR molecular subtyp*[All] OR proteogenomic subtyp*[All] "
+    "OR molecular stratification[All] OR molecular taxonomy[All] "
+    "OR molecular landscape[All] OR molecular characteriz*[All] "
+    "OR proteogenomic characteriz*[All] OR proteogenomic landscape[All] "
+    "OR tumor agnostic[All] OR tumour agnostic[All] OR tissue agnostic[All] "
+    "OR therapeutic vulnerabilit*[All] OR precision oncology[All]"
+    ") "
     "AND (cancer[MeSH Terms] OR neoplasm*[MeSH Terms] OR tumor*[All]) "
-    "AND humans[Filter] "
-    "AND English[lang])"
+    "AND humans[Filter] AND English[lang])"
 )
 
 SKIP_TITLE_WORDS = {
