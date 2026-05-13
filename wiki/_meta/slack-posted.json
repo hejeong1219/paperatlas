@@ -8,7 +8,9 @@
     "ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals",
     "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor",
     "he-2025-proteogenomic-gene-signature-defines-prognostic",
-    "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine"
+    "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine",
+    "jiang-2025-deciphering-dark-cancer-phosphoproteome-using",
+    "liu-2025-multimodal-fusion-radio-pathology-proteogenomics-identify"
   ],
   "pmids": [
     "40749681",
@@ -18,7 +20,9 @@
     "38942927",
     "40830093",
     "41402890",
-    "40185092"
+    "40185092",
+    "40113755",
+    "40222975"
   ],
   "history": [
     {
@@ -26,8 +30,14 @@
       "version": "v6",
       "ts": "1778423557.908999",
       "posted": [
-        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681"},
-        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"}
+        {
+          "slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
+          "pmid": "40749681"
+        },
+        {
+          "slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression",
+          "pmid": "40069142"
+        }
       ]
     },
     {
@@ -35,8 +45,14 @@
       "version": "v7",
       "ts": "1778424289.623209",
       "posted": [
-        {"slug": "bai-2026-cancer-biomarkers-discovered-using-pan-cancer", "pmid": "40603747"},
-        {"slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate", "pmid": "39242942"}
+        {
+          "slug": "bai-2026-cancer-biomarkers-discovered-using-pan-cancer",
+          "pmid": "40603747"
+        },
+        {
+          "slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate",
+          "pmid": "39242942"
+        }
       ]
     },
     {
@@ -44,8 +60,14 @@
       "version": "v9",
       "ts": "1778424695.893679",
       "posted": [
-        {"slug": "ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals", "pmid": "38942927"},
-        {"slug": "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor", "pmid": "40830093"}
+        {
+          "slug": "ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals",
+          "pmid": "38942927"
+        },
+        {
+          "slug": "cheng-2025-integrative-proteogenomic-characterization-wilms-tumor",
+          "pmid": "40830093"
+        }
       ]
     },
     {
@@ -53,8 +75,29 @@
       "version": "v9",
       "ts": "1778461357.842799",
       "posted": [
-        {"slug": "he-2025-proteogenomic-gene-signature-defines-prognostic", "pmid": "41402890"},
-        {"slug": "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine", "pmid": "40185092"}
+        {
+          "slug": "he-2025-proteogenomic-gene-signature-defines-prognostic",
+          "pmid": "41402890"
+        },
+        {
+          "slug": "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine",
+          "pmid": "40185092"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "version": "split-stage-v1",
+      "ts": "1778634000.419679",
+      "posted": [
+        {
+          "slug": "jiang-2025-deciphering-dark-cancer-phosphoproteome-using",
+          "pmid": "40113755"
+        },
+        {
+          "slug": "liu-2025-multimodal-fusion-radio-pathology-proteogenomics-identify",
+          "pmid": "40222975"
+        }
       ]
     }
   ],
@@ -64,8 +107,16 @@
       "version": "v1-old",
       "note": "Old format: 2 separate Slack messages, link at end as '논문 사이트'. Rolled back.",
       "posted": [
-        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681", "ts": "1778420558.409799"},
-        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142", "ts": "1778420565.033809"}
+        {
+          "slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
+          "pmid": "40749681",
+          "ts": "1778420558.409799"
+        },
+        {
+          "slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression",
+          "pmid": "40069142",
+          "ts": "1778420565.033809"
+        }
       ]
     },
     {
@@ -73,10 +124,24 @@
       "version": "v2-new-format",
       "note": "New format: single message + citation header link + 3 lines per paper. Korean inline *bold* did NOT render and 활용 line ended with directive 활용 가능합니다 — too prescriptive for PI audience. Rolling back.",
       "posted": [
-        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681", "ts": "1778421948.478849"},
-        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"},
-        {"slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate", "pmid": "39242942", "ts": "1778422395.981579"},
-        {"slug": "bai-2026-cancer-biomarkers-discovered-using-pan-cancer", "pmid": "40603747"}
+        {
+          "slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
+          "pmid": "40749681",
+          "ts": "1778421948.478849"
+        },
+        {
+          "slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression",
+          "pmid": "40069142"
+        },
+        {
+          "slug": "dong-2024-integrative-proteogenomic-profiling-high-risk-prostate",
+          "pmid": "39242942",
+          "ts": "1778422395.981579"
+        },
+        {
+          "slug": "bai-2026-cancer-biomarkers-discovered-using-pan-cancer",
+          "pmid": "40603747"
+        }
       ]
     },
     {
@@ -84,8 +149,15 @@
       "version": "v4",
       "note": "v4 added intro pool + softer 활용 endings. But intro line used '살펴보았습니다' which implies human review (this is a bot digest). Rolling back to retry with v5 (forbid first-person verbs).",
       "posted": [
-        {"slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "pmid": "40749681", "ts": "1778423033.548139"},
-        {"slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression", "pmid": "40069142"}
+        {
+          "slug": "holt-2025-proteogenomic-characterization-unveils-biomarkers-associated",
+          "pmid": "40749681",
+          "ts": "1778423033.548139"
+        },
+        {
+          "slug": "su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression",
+          "pmid": "40069142"
+        }
       ]
     }
   ]
