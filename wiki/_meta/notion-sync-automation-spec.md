@@ -21,7 +21,7 @@
 |---|---|---|
 | 1 | Phospho × drug resistance × cancer, ppQTL, kinase × targeted therapy | Stub MD + PDF 다운로드 + Notion Notes 캡처 |
 | 2 | pQTL/proteogenomics × WGS, neoantigen, CPTAC, basket trial, AI drug response | Stub MD + PDF 다운로드 + Notion Notes 캡처 |
-| 3 | WGS SV, noncoding driver, tumor heterogeneity, PTM crosstalk methods, multi-omics cohort | Stub MD + Notion Notes 캡처 (**PDF 다운로드 skip**) |
+| 3 | WGS SV, noncoding driver, tumor heterogeneity, PTM crosstalk methods, multi-omics cohort | state에만 마킹 + skip (사용자 결정 2026-05-14) |
 | 0 | 동물·세포주 only, 비암 질환, abstract only | state에만 마킹 + skip |
 
 ---
@@ -67,10 +67,9 @@ scripts/notion_sync/run.sh
   │             1) claude -p로 1편 Tier 판단 호출
   │                (input: candidate JSON + han-mi-am-project-context.md;
   │                 output: {tier, reason, paper_kind})
-  │             2) Tier 0 → state에 {page_id, tier:0, reason} append, skip
+  │             2) Tier 0 또는 Tier 3 → state에 {page_id, tier, reason, skipped:true} append, skip
   │             3) Tier 1/2 → PDF 다운로드 시도 (아래 PDF resolver 참고)
-  │                Tier 3 → PDF skip
-  │             4) stub MD 생성 (Write)
+  │             4) Tier 1/2만 stub MD 생성 (Write)
   │             5) state JSON에 entry append (incremental flush — 다음 candidate 처리 전에 디스크 반영)
   │         · 마지막에 wiki/_meta/log.md 엔트리 append (한 줄)
   ├─ [4/5] git add wiki/sources/ wiki/_meta/notion-synced.json wiki/_meta/log.md raw/inbox/papers/
@@ -206,30 +205,25 @@ for cand in candidates[:limit]:
         judgment = run_claude_judge(cand)
         # judgment = {"tier": 1|2|3|0, "reason": "...", "paper_kind": "..."}
 
-        # 2) Tier 0 → state만 마킹
-        if judgment["tier"] == 0:
-            entry = {"page_id": cand["page_id"], "tier": 0,
+        # 2) Tier 0 또는 Tier 3 → state만 마킹, skip (stub MD/PDF 없음)
+        if judgment["tier"] in (0, 3):
+            entry = {"page_id": cand["page_id"], "tier": judgment["tier"],
                      "tier_reason": judgment["reason"], "skipped": True,
                      "synced_at": now()}
             append_state_entry_and_flush(state, entry)   # ← incremental flush
             continue
 
-        # 3) Tier 1/2 → PDF, Tier 3 → skip
-        if judgment["tier"] in (1, 2):
-            pdf_result = pdf_resolver.resolve_with_doi(cand, Path("raw/inbox/papers"))
-            if pdf_result["downloaded"]:
-                pdf_status = "downloaded"
-                pdf_path = pdf_result["pdf_path"]
-            else:
-                pdf_status = "manual"
-                pdf_path = None
-            pdf_attempts = pdf_result["tried"]
-        else:  # Tier 3
-            pdf_status = "skipped_tier3"
+        # 3) Tier 1/2 → PDF 다운로드 시도
+        pdf_result = pdf_resolver.resolve_with_doi(cand, Path("raw/inbox/papers"))
+        if pdf_result["downloaded"]:
+            pdf_status = "downloaded"
+            pdf_path = pdf_result["pdf_path"]
+        else:
+            pdf_status = "manual"
             pdf_path = None
-            pdf_attempts = []
+        pdf_attempts = pdf_result["tried"]
 
-        # 4) Stub MD write
+        # 4) Stub MD write (Tier 1/2만)
         write_stub_md(cand, judgment, pdf_status, pdf_path, pdf_attempts)
 
         # 5) Incremental state flush (CRITICAL — 부분실패 safe)
@@ -271,6 +265,8 @@ append_to_log_md(state)
 
 ## Stub MD 구조
 
+**적용 대상**: Tier 1/2만 stub MD 생성. Tier 0/3은 state에만 마킹 (wiki 파일 생성 없음).
+
 **공통 frontmatter** (paper-frontmatter-schema.md 준수):
 
 ```yaml
@@ -300,16 +296,12 @@ ingest_date: <YYYY-MM-DD>
 ---
 ```
 
-**Tier 1/2 (PDF 다운로드 시도)** — 위 + 다음 필드:
+**PDF 필드** (Tier 1/2 stub MD에 추가):
 - 다운로드 성공: `pdf: "raw/inbox/papers/<slug>.pdf"`, **`pdf_status` 필드 생략** (기존 ezproxy_download.py 동작과 일관)
 - 다운로드 실패: `pdf_status: manual`, `pdf_attempts:` 리스트로 시도 내역 보존
 - 다운로드 pending (예: dry-run 또는 future re-attempt): `pdf_status: pending` (정확히 이 문자열 — ku/ezproxy_download.py가 이걸로 스캔)
 
-**Tier 3 (PDF 미다운로드)**:
-- `pdf_status: skipped_tier3`
-- `pdf` / `pdf_attempts` 필드 없음
-
-**본문 (공통)**:
+**본문 (Tier 1/2)**:
 
 ```markdown
 # <Title>
@@ -344,12 +336,10 @@ _사용자 노션 메모 (출처: [<notion_url>](<notion_url>)):_
 
 ## Sources
 
-<Tier 1/2 다운로드 성공:>
+<다운로드 성공:>
 - Local PDF: `raw/inbox/papers/<slug>.pdf`
-<Tier 1/2 다운로드 실패:>
+<다운로드 실패:>
 - Local PDF: pending (manual queue) — `pdf_attempts` frontmatter 참고
-<Tier 3:>
-- (Local PDF 줄 생략)
 
 - Notion: <notion_url>
 - DOI: <https://doi.org/<doi>>
@@ -397,14 +387,22 @@ _사용자 노션 메모 (출처: [<notion_url>](<notion_url>)):_
       "tier": 0,
       "tier_reason": "Nextflow pipeline reproducibility review only, no human cancer data — Tier 0",
       "skipped": true
+    },
+    {
+      "page_id": "351302d9-c598-8000-aaaa-bbbbccccdddd",
+      "synced_at": "2026-05-14T09:00:32+09:00",
+      "tier": 3,
+      "tier_reason": "WGS SV review, supportive but not core — Tier 3",
+      "skipped": true
     }
   ],
   "history": [
     {
       "date": "2026-05-14",
       "candidates_fetched": 23,
-      "tier_1": 2, "tier_2": 8, "tier_3": 5, "tier_0_skipped": 8,
-      "pdf_downloaded": 7, "pdf_manual": 3, "pdf_skipped_tier3": 5,
+      "tier_1": 2, "tier_2": 8,
+      "tier_3_skipped": 5, "tier_0_skipped": 8,
+      "pdf_downloaded": 7, "pdf_manual": 3,
       "errors": 0
     }
   ]
@@ -438,7 +436,7 @@ _사용자 노션 메모 (출처: [<notion_url>](<notion_url>)):_
 1. **DRY_RUN**: `DRY_RUN=1 bash scripts/notion_sync/run.sh` → fetch JSON만 emit, Claude 호출 skip
 2. **단일 페이지 테스트**: `ONLY_PAGE_ID=<id> bash run.sh` → 한 페이지만 처리
 3. **State integrity**: `jq '.synced | length' wiki/_meta/notion-synced.json` ≥ `grep -l "ingest_via: notion-sync-cron" wiki/sources/*.md | wc -l`
-4. **Tier 분포 sanity check**: history 배열 마지막 엔트리에서 `tier_0_skipped > candidates_fetched * 0.7`이면 alert (Tier 판단이 과도하게 보수적인지 의심)
+4. **Tier 분포 sanity check**: history 배열 마지막 엔트리에서 `(tier_0_skipped + tier_3_skipped) > candidates_fetched * 0.7`이면 alert (Tier 판단이 과도하게 보수적인지 의심)
 5. **PDF 실패율**: `pdf_manual / (pdf_downloaded + pdf_manual) > 0.5` 이면 KU 쿠키 점검 권유
 
 ---
