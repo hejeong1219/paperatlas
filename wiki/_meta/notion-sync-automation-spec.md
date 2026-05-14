@@ -30,8 +30,10 @@
 
 ```
 scripts/notion_sync/                           # 신규
-├── fetch_notion_pages.py                      # Notion API → candidates JSON
-├── prompt.md                                  # Claude relevance judge + stub writer
+├── fetch_notion_pages.py                      # Notion API → candidates JSON (DOI 이중 dedup)
+├── sync_papers.py                             # per-candidate orchestrator (claude judge + PDF + MD + incremental state)
+├── pdf_resolver.py                            # DOI-first wrapper (resolve_pdf + ezproxy library import)
+├── prompt.md                                  # Claude relevance judge 프롬프트 (per-paper)
 └── run.sh                                     # cron orchestrator
 
 wiki/_meta/notion-synced.json                  # 신규 state file
@@ -55,28 +57,57 @@ scripts/notion_sync/run.sh
   │         · 노션 부모 페이지 fetch → 자식 페이지 enumerate
   │         · 각 자식 fetch → DOI/title/authors/year/journal/notion_body 추출
   │         · DOI 없으면 skip + warn
-  │         · wiki/sources/<slug>.md 존재 시 dedup (slug-only)
-  ├─ [3/5] claude -p "$(cat prompt.md)" --append-system-prompt "$(cat han-mi-am-project-context.md)" --allowed-tools "Read,Write,Edit,Bash"
-  │         · 각 candidate 마다:
-  │           a) Tier 1-3 판단
-  │           b) Tier 0 → state JSON에만 마킹
-  │           c) Tier 1/2 → Bash로 PDF 다운로드 (resolve_pdf → ezproxy fallback) → stub MD Write
-  │           d) Tier 3 → stub MD Write (PDF skip)
-  │         · wiki/_meta/notion-synced.json 갱신
-  │         · wiki/_meta/log.md 엔트리 append
-  ├─ [4/5] git add wiki/sources/ wiki/_meta/notion-synced.json wiki/_meta/log.md
+  │         · Dedup (이중 체크):
+  │             (a) wiki/sources/<slug>.md 존재 시 skip
+  │             (b) wiki/sources/*.md 에서 `doi: "<doi>"` 매칭되면 skip
+  │             — author-year 충돌(Zhang 2026 다편) 대비
+  │         · env vars: LIMIT (처리 cap), ONLY_PAGE_ID (단일 page 디버그)
+  ├─ [3/5] python sync_papers.py /tmp/notion_candidates_<date>.json
+  │         · 각 candidate iterate (개별 try/except — 부분 실패 격리):
+  │             1) claude -p로 1편 Tier 판단 호출
+  │                (input: candidate JSON + han-mi-am-project-context.md;
+  │                 output: {tier, reason, paper_kind})
+  │             2) Tier 0 → state에 {page_id, tier:0, reason} append, skip
+  │             3) Tier 1/2 → PDF 다운로드 시도 (아래 PDF resolver 참고)
+  │                Tier 3 → PDF skip
+  │             4) stub MD 생성 (Write)
+  │             5) state JSON에 entry append (incremental flush — 다음 candidate 처리 전에 디스크 반영)
+  │         · 마지막에 wiki/_meta/log.md 엔트리 append (한 줄)
+  ├─ [4/5] git add wiki/sources/ wiki/_meta/notion-synced.json wiki/_meta/log.md raw/inbox/papers/
   └─ [5/5] git commit + push
 ```
 
+**왜 [3/5]가 sync_papers.py로 wrapping되는가**:
+- Per-candidate incremental state flush가 idempotency 보장 (중간 크래시해도 처리분만큼은 영구화)
+- claude CLI는 1편 단위로 호출 (per-paper relevance judge만 LLM에 위임; PDF 다운로드/MD write는 Python이 담당)
+- 부분 실패(특정 candidate에서 timeout)가 다른 candidate에 전염 안 됨
+
 ---
 
-## fetch_notion_pages.py 출력 schema
+## fetch_notion_pages.py
+
+**입력**: 없음 (Notion parent page ID는 코드 상수). 환경 변수: `NOTION_API_KEY` (필수), `LIMIT` (선택), `ONLY_PAGE_ID` (선택).
+
+**구현**:
+- Notion 공식 Python SDK `notion-client` 사용 (`pip install notion-client`). Notion integration token (`secret_...`) 발급 후 부모 페이지에 명시적 공유 필요.
+- mcp__notion__notion-fetch는 Claude CLI에서만 호출 가능 — Python 스크립트는 SDK 사용.
+
+**Dedup (이중 체크)**:
+1. **State 체크**: `notion-synced.json`의 `synced[]`에 page_id가 있으면 skip
+2. **Slug 체크**: `wiki/sources/<slug_candidate>.md` 존재하면 skip
+3. **DOI 체크**: `wiki/sources/*.md` 전체 grep으로 `doi: "<doi>"` 또는 `doi: <doi>` 매칭되는 파일 있으면 skip
+   - 이유: 슬러그 규칙이 변경되거나 같은 author-year 다른 키워드 조합(예: "Zhang 2026" 3편)으로 slug가 충돌 회피되어 다르게 생성될 수 있음. DOI는 unique identifier.
+
+**출력 schema**:
 
 ```json
 {
   "date": "2026-05-14",
   "parent_page_id": "344302d9-c598-8188-8a05-d5041134fb3d",
   "synced_count": 27,
+  "fetched_total": 50,
+  "after_dedup": 23,
+  "skipped": {"already_synced": 27, "slug_collision": 0, "doi_collision": 0, "no_doi": 0},
   "candidates": [
     {
       "page_id": "35e302d9-c598-815f-8c4d-e8aecdfd83a9",
@@ -93,87 +124,242 @@ scripts/notion_sync/run.sh
 }
 ```
 
+**DOI 추출 규칙**:
+1. 우선 노션 페이지 properties에서 DOI 필드 확인 (해당 DB에 DOI property 있을 수 있음)
+2. 없으면 본문 텍스트에서 정규식 `10\.\d{4,9}/[^\s<>"]+` 매칭 (첫 번째)
+3. fragmented 링크(`href` 속성)도 시도
+4. 그래도 없으면 candidate에서 제외 + log warning. state에는 마킹 안 함 (사용자가 노션에 DOI 추가 후 재실행 가능)
+
 ---
 
-## prompt.md 골격
+## pdf_resolver.py — DOI-first PDF wrapper
 
-Claude CLI가 받는 instruction. 핵심:
+`scripts/ingest/resolve_pdf.py`는 title→PubMed PMID 검색에 의존 — DOI는 있지만 PMID 없는 2026 preprint나 비-PubMed 저널에서는 OA chain 자체가 실행되지 않음 (`result["doi"]`가 None 유지). 본 wrapper가 DOI-first 흐름 보장:
 
-1. `/tmp/notion_candidates_<date>.json` Read
-2. 각 candidate마다:
-   - **Tier 판단**: system prompt(`han-mi-am-project-context.md`)의 Tier 1-3 기준 적용. 1-2문장 reasoning을 state에 기록.
-   - **Tier 0**: state JSON에 `{page_id, tier: 0, reason}` 추가, skip
-   - **Tier 1/2**: Bash로 `python scripts/ingest/resolve_pdf.py` 시도 → 실패 시 `ezproxy_download.py` fallback. PDF 결과 무관 stub MD 생성. PDF 실패 시 `pdf_status: manual`.
-   - **Tier 3**: PDF skip. stub MD 생성, `pdf_status: skipped_tier3`.
-3. **Stub MD 구조** (Write):
-   ```markdown
-   ---
-   title: "<full title>"
-   authors: [<first>, ...]
-   year: <int>
-   journal: "<journal>"
-   doi: "<doi>"
-   url: "https://doi.org/<doi>"
-   paper_kind: <auto-classify>
-   topic: cancer-multiomics-literature
-   tags: [source, cancer-multiomics, notion-sync, tier-<n>]
-   notion_url: <url>
-   notion_page_id: <page_id>
-   pdf_status: <pending|manual|skipped_tier3>
-   ingest_via: notion-sync-cron
-   ingest_date: <YYYY-MM-DD>
-   ---
+```python
+# scripts/notion_sync/pdf_resolver.py (개요)
+import sys
+from pathlib import Path
+REPO = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(REPO / "scripts/ingest"))
+from resolve_pdf import (
+    resolve_and_download, try_europepmc, try_unpaywall,
+    try_doi_direct, try_elsevier, try_springer,
+)
+from ezproxy_download import load_cookies, make_opener, try_ezproxy_pdf
 
-   # <Title>
+def resolve_with_doi(ref, out_dir):
+    """ref: {slug, title, year, first_author_last, doi (required), pmcid (optional)}"""
+    # 1) 기존 resolve_and_download 시도 (PMID hit하면 그대로)
+    result = resolve_and_download(ref, out_dir)
+    if result["downloaded"]:
+        return result
 
-   _<journal>, <year>._ DOI: [<doi>](https://doi.org/<doi>)
+    # 2) PMID 실패해도 ref["doi"]는 있음 → manual chain with seeded DOI
+    out_path = out_dir / (ref["slug"] + ".pdf")
+    for name, fn in [
+        ("unpaywall-doi", lambda: try_unpaywall(ref["doi"], out_path)),
+        ("doi-direct-doi", lambda: try_doi_direct(ref["doi"], result.get("journal"), out_path)),
+        ("elsevier-doi", lambda: try_elsevier(ref["doi"], out_path)),
+        ("springer-doi", lambda: try_springer(ref["doi"], out_path)),
+    ]:
+        ok, msg = fn()
+        result["tried"].append({"src": name, "ok": ok, "msg": msg})
+        if ok:
+            result["downloaded"] = True
+            result["pdf_path"] = str(out_path)
+            result["via"] = f"{name}: {msg}"
+            return result
 
-   ## Summary
+    # 3) KU ezproxy fallback
+    cookies = REPO / ".cookies/oca.cookies.txt"
+    if cookies.exists():
+        opener = make_opener(load_cookies(cookies))
+        ok, info = try_ezproxy_pdf(opener, ref["doi"], out_path)
+        result["tried"].append({"src": "ezproxy", "ok": ok, "msg": info})
+        if ok:
+            result["downloaded"] = True
+            result["pdf_path"] = str(out_path)
+            result["via"] = f"ezproxy: {info}"
 
-   _Awaiting deep-dive._
+    return result
+```
 
-   ## Key Points
+`result["tried"]`는 stub frontmatter의 `pdf_attempts:` 필드에 그대로 보존됨 (사용자 진단용).
 
-   - _Awaiting deep-dive._
+---
 
-   ## Methods
+## sync_papers.py — per-candidate orchestrator
 
-   - _Awaiting deep-dive._
+```python
+# 의사 코드
+candidates = json.load(open(sys.argv[1]))["candidates"]
+state = load_state("wiki/_meta/notion-synced.json")
+limit = int(os.environ.get("LIMIT", "0")) or len(candidates)
+only = os.environ.get("ONLY_PAGE_ID")
 
-   ## Cancer Multiomics Project Relevance
+for cand in candidates[:limit]:
+    if only and cand["page_id"] != only:
+        continue
+    try:
+        # 1) Claude 1회 호출 — Tier 판단만 (사이드이펙트 없음)
+        judgment = run_claude_judge(cand)
+        # judgment = {"tier": 1|2|3|0, "reason": "...", "paper_kind": "..."}
 
-   - _Awaiting deep-dive._ (자동화는 Tier 분류만 수행; 실제 적용 시나리오는 사용자 정독 후 작성)
+        # 2) Tier 0 → state만 마킹
+        if judgment["tier"] == 0:
+            entry = {"page_id": cand["page_id"], "tier": 0,
+                     "tier_reason": judgment["reason"], "skipped": True,
+                     "synced_at": now()}
+            append_state_entry_and_flush(state, entry)   # ← incremental flush
+            continue
 
-   ## Notion Notes
+        # 3) Tier 1/2 → PDF, Tier 3 → skip
+        if judgment["tier"] in (1, 2):
+            pdf_result = pdf_resolver.resolve_with_doi(cand, Path("raw/inbox/papers"))
+            if pdf_result["downloaded"]:
+                pdf_status = "downloaded"
+                pdf_path = pdf_result["pdf_path"]
+            else:
+                pdf_status = "manual"
+                pdf_path = None
+            pdf_attempts = pdf_result["tried"]
+        else:  # Tier 3
+            pdf_status = "skipped_tier3"
+            pdf_path = None
+            pdf_attempts = []
 
-   _사용자 노션 메모 (출처: <notion_url>):_
+        # 4) Stub MD write
+        write_stub_md(cand, judgment, pdf_status, pdf_path, pdf_attempts)
 
-   > <notion_body 전체 인용, blockquote 형식>
+        # 5) Incremental state flush (CRITICAL — 부분실패 safe)
+        entry = {"page_id": cand["page_id"], "tier": judgment["tier"],
+                 "tier_reason": judgment["reason"],
+                 "slug": cand["slug_candidate"], "doi": cand["doi"],
+                 "pdf_status": pdf_status, "synced_at": now()}
+        append_state_entry_and_flush(state, entry)
+    except Exception as e:
+        log_error(cand["page_id"], e)
+        # 다음 candidate로 — 부분실패 격리
 
-   ## Connections
+write_history_entry(state)
+append_to_log_md(state)
+```
 
-   - [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+---
 
-   ## Sources
+## prompt.md — per-paper Tier judgment
 
-   - Local PDF: `raw/inbox/papers/<slug>.pdf` (<pdf_status>)
-   - Notion: <notion_url>
-   - DOI: <https://doi.org/<doi>>
-   ```
-4. wiki/_meta/notion-synced.json 갱신 (Edit)
-5. wiki/_meta/log.md에 한 줄 append (Edit)
+`run_claude_judge()`가 candidate 1편마다 `claude -p` 호출. **출력만 책임, 사이드이펙트 없음**:
+
+- system prompt: `wiki/_meta/han-mi-am-project-context.md` (via `--append-system-prompt`)
+- user prompt: `prompt.md` + candidate 1편 (title, journal, year, doi, notion_body)
+- 응답은 strict JSON 한 줄:
+  ```json
+  {"tier": 1, "reason": "<한 문장 Tier 근거>", "paper_kind": "computational"}
+  ```
+- `paper_kind`: controlled vocab만 — `trial | translational | mechanistic | computational | review | resource`. notion_body로 추정 가능한 카테고리만 사용 (PDF 정독 없음). 추정 불가시 `computational` default.
 
 **Strict rules** (feedback_paper_relevance_writing.md):
-- Notion Notes는 인용만, 추가 narrative 금지
-- Summary/Key Points는 절대 본문 추론으로 채우지 말 것 — placeholder 유지
+- Tier 판단은 system prompt 기준만 사용 — 외부 지식 적용 금지
+- 노션의 "과제 관련성 (한미암)" 섹션 문장을 wiki Project Relevance 섹션으로 **절대 복사 금지** (사용자 본인 추론이지 논문 본문이 아님)
+- Wiki Project Relevance는 항상 `_Awaiting deep-dive._` placeholder 유지
+- Summary/Key Points/Methods 모두 placeholder
 - 평가어 ("최고", "ROI 최고", "step-change", "credible") 사용 금지
-- 여러 논문 인위적 묶음 narrative 금지 (Connections는 단일 hub link만)
+
+---
+
+## Stub MD 구조
+
+**공통 frontmatter** (paper-frontmatter-schema.md 준수):
+
+```yaml
+---
+title: "<full title>"
+authors:
+  - "<First Author>"
+year: <int>
+journal: "<journal>"
+doi: "<doi>"
+url: "https://doi.org/<doi>"
+paper_kind: <trial|translational|mechanistic|computational|review|resource>
+cancer_types: []           # deep-dive 시 채움
+modalities: []             # deep-dive 시 채움
+themes:
+  - cancer-multiomics
+tags:
+  - source
+  - cancer-multiomics
+  - notion-sync
+  - tier-<n>
+topic: cancer-multiomics-literature
+notion_url: "<url>"
+notion_page_id: "<page_id>"
+ingest_via: notion-sync-cron
+ingest_date: <YYYY-MM-DD>
+---
+```
+
+**Tier 1/2 (PDF 다운로드 시도)** — 위 + 다음 필드:
+- 다운로드 성공: `pdf: "raw/inbox/papers/<slug>.pdf"`, **`pdf_status` 필드 생략** (기존 ezproxy_download.py 동작과 일관)
+- 다운로드 실패: `pdf_status: manual`, `pdf_attempts:` 리스트로 시도 내역 보존
+- 다운로드 pending (예: dry-run 또는 future re-attempt): `pdf_status: pending` (정확히 이 문자열 — ku/ezproxy_download.py가 이걸로 스캔)
+
+**Tier 3 (PDF 미다운로드)**:
+- `pdf_status: skipped_tier3`
+- `pdf` / `pdf_attempts` 필드 없음
+
+**본문 (공통)**:
+
+```markdown
+# <Title>
+
+_<journal>, <year>._ DOI: [<doi>](https://doi.org/<doi>)
+
+## Summary
+
+_Awaiting deep-dive._
+
+## Key Points
+
+- _Awaiting deep-dive._
+
+## Methods
+
+- _Awaiting deep-dive._
+
+## Cancer Multiomics Project Relevance
+
+_Awaiting deep-dive._ (자동화는 Tier 분류만 수행; 적용 시나리오는 사용자 정독 후 작성. **노션 메모의 "과제 관련성" 섹션을 여기로 복사 금지**)
+
+## Notion Notes
+
+_사용자 노션 메모 (출처: [<notion_url>](<notion_url>)):_
+
+> <notion_body 전체 인용, blockquote 형식>
+
+## Connections
+
+- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+
+## Sources
+
+<Tier 1/2 다운로드 성공:>
+- Local PDF: `raw/inbox/papers/<slug>.pdf`
+<Tier 1/2 다운로드 실패:>
+- Local PDF: pending (manual queue) — `pdf_attempts` frontmatter 참고
+<Tier 3:>
+- (Local PDF 줄 생략)
+
+- Notion: <notion_url>
+- DOI: <https://doi.org/<doi>>
+```
 
 ---
 
 ## State file schema
 
-`wiki/_meta/notion-synced.json`:
+`wiki/_meta/notion-synced.json` — **incremental flush** (매 candidate 처리 후 disk write):
 
 ```json
 {
@@ -184,15 +370,32 @@ Claude CLI가 받는 instruction. 핵심:
       "synced_at": "2026-05-14T09:00:23+09:00",
       "slug": "xu-2026-her2-low-breast-proteogenomics-lactylome",
       "tier": 2,
-      "tier_reason": "Chinese HER2-low BC proteogenomics + lactylome, Tier 2 (proteogenomics + cancer subtype)",
+      "tier_reason": "Chinese HER2-low BC proteogenomics + lactylome — Tier 2 (proteogenomics + WGS, basket-trial enabling)",
+      "paper_kind": "translational",
       "pdf_status": "downloaded",
+      "pdf_via": "ezproxy: ...",
+      "doi": "10.xxxx/..."
+    },
+    {
+      "page_id": "...",
+      "synced_at": "2026-05-14T09:00:25+09:00",
+      "slug": "lee-2026-korean-tnbc-nac-resistance-proteogenomics",
+      "tier": 1,
+      "tier_reason": "Korean TNBC NAC resistance proteogenomics — Tier 1 (phospho × drug resistance × human cancer)",
+      "paper_kind": "translational",
+      "pdf_status": "manual",
+      "pdf_attempts": [
+        {"src": "europepmc", "ok": false, "msg": "europepmc not-pdf (text/html)"},
+        {"src": "unpaywall-doi", "ok": false, "msg": "unpaywall no oa"},
+        {"src": "ezproxy", "ok": false, "msg": "ezproxy fetch err: HTTP 403"}
+      ],
       "doi": "10.xxxx/..."
     },
     {
       "page_id": "350302d9-c598-8161-b259-ef033859244a",
-      "synced_at": "2026-05-14T09:00:23+09:00",
+      "synced_at": "2026-05-14T09:00:30+09:00",
       "tier": 0,
-      "tier_reason": "Nextflow pipeline review only, no human cancer data — Tier 0",
+      "tier_reason": "Nextflow pipeline reproducibility review only, no human cancer data — Tier 0",
       "skipped": true
     }
   ],
@@ -200,16 +403,18 @@ Claude CLI가 받는 instruction. 핵심:
     {
       "date": "2026-05-14",
       "candidates_fetched": 23,
-      "tier_1": 2,
-      "tier_2": 8,
-      "tier_3": 5,
-      "tier_0_skipped": 8,
-      "pdf_downloaded": 7,
-      "pdf_manual": 3
+      "tier_1": 2, "tier_2": 8, "tier_3": 5, "tier_0_skipped": 8,
+      "pdf_downloaded": 7, "pdf_manual": 3, "pdf_skipped_tier3": 5,
+      "errors": 0
     }
   ]
 }
 ```
+
+**Flush 정책**:
+- 매 candidate 처리 직후 (Tier 0 마킹 또는 stub MD write 직후) 전체 JSON을 임시 파일에 쓰고 atomic rename으로 교체
+- Claude judge가 중간에 timeout / Python이 SIGTERM 받아도 이미 처리된 candidate는 영구화
+- 다음 cron 실행 시 `synced[].page_id`에 있는 건 fetch_notion_pages.py가 자연 skip → idempotent
 
 ---
 
