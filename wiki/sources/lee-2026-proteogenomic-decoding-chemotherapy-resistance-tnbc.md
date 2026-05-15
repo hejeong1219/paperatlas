@@ -54,6 +54,10 @@ tags:
   - grk2
   - akr1c2
   - abca13
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
+ingest_status: full-text-read
+ingested_on: 2026-05-13
 ---
 
 # Proteogenomic decoding of chemotherapy resistance in triple-negative breast cancer
@@ -65,6 +69,20 @@ _Genome Biology (2026) 27:125. Received 2025-08-08, Accepted 2026-03-20, Publish
 ## Summary
 
 Lee et al.은 anthracycline + taxane 기반 neoadjuvant chemotherapy(NAC)를 받은 stage II–III TNBC 환자 50명의 한국인 코호트를 대상으로 baseline(n=41) 및 post-treatment residual tumor(n=22 paired protein, 31 collected) 샘플에서 WES + RNA-seq + TMT global proteome + phosphoproteome을 통합한 prospective 다중오믹스 분석을 수행했다. NMF 통합 클러스터링으로 5개 subtype(immune-enriched, xenobiotic metabolism, EMT, MYC-dependent, mesenchymal+estrogen)을 정의했고, 이는 Lehmann 분류와 부분적으로만 일치했다(pCR 55.6%/0%/0%/—/— 분포). 비반응(non-pCR) 메커니즘으로 (1) **estrogen response 단백질 시그니처 + GRK2 PTM-SEA 활성**(GSVA high vs low pCR 14.3% vs 48.1%, P=0.0328), (2) **ITGB8를 포함한 7p21 cytoband copy gain**(pCR 0%/12.6%/41.7%/80% by gain/diploid/shallow loss/deep loss, P=0.036), (3) **doxorubicin 대사 AKR1C2 + 약물 efflux ABCA13 상향**(Lehmann IM subtype 내부 36.8% non-pCR 설명)이라는 세 축을 도출했다. paired pre/post 분석에서는 residual tumor에 EMT/myogenesis 시그니처와 **AURKB phosphoproteome 신호**가 일관되게 enriched되었고, 저자들은 (i) GRK2 inhibitor(βARK1 inhibitor) + paclitaxel은 MDA-MB-231에서 SynergyFinder 3.0 Bliss 8.08의 시너지, (ii) Aurora B inhibitor barasertib (10 nM) + paclitaxel은 MDA-MB-468·HCC1937·환자 유래 organoid SBO-72에서 cell viability 감소를 in vitro로 검증했다. 다섯 가지 저항인자(estrogen high / GRK2 high / no ITGB8 loss / AKR1C2 high / ABCA13 high)를 통합한 로지스틱 회귀모델은 non-pCR 예측에서 AUC **0.946**으로 Lehmann 분류(AUC 0.781) 및 Lehmann+ESTIMATE immune score(AUC 0.818)를 능가했다. 본 연구는 한국인 TNBC 코호트라는 인종 특수성과 anthracycline-taxane 중심 regimen이라는 임상 맥락에서 proteogenomic NAC response biomarker + druggable target(AURKB·GRK2·ITGB8 ADC)을 모두 제시한 첫 보고이다.
+
+## Batch PDF Ingest Status
+
+- Status: `full-text-read` on 2026-05-13; original batch extraction is superseded by the curated PDF-backed source page below.
+- Local PDF: `raw/inbox/papers/lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc.pdf`.
+- Extracted text length: 20,309 characters.
+- Scope note: local PDF identity was rechecked against title, DOI, journal, and 25-page PDF metadata before promotion.
+- Evidence boundary: scientific claims on this page are curated from the local PDF; external links below are for accession/navigation only.
+- High-signal PDF snippets:
+  - Genome Biology (2026) 27:125 Genome Biology https://doi.org/10.1186/s13059-026-04053-7 RESEARCH Open Access Proteogenomic decoding of chemotherapy resistance in patients with triple‑negative breast cancer Dong Ki Lee1,2†, Min Hwan Kim2†, Yumi Hwang3, Seul‑Gi Kim4, Won‑Ji Ryu3, Geon‑Uk Kim3, Hyun Myoung Yun3, Shinyoung Park3, ...
+  - Abstract † Seho Park and Joohyuk Sohn Background: The clinical utility of integrated proteogenomic biomarkers for predict- jointly supervised this work.
+  - ing chemotherapy response in triple-negative breast cancer remains underexplored.
+  - *Correspondence: We prospectively analyzed paired baseline and post-treatment tumor samples from 50 psh1025@yuhs.ac; patients with stage II–III TNBC treated with anthracycline- and taxane-based neoadju- oncosohn@yuhs.ac vant chemotherapy, integrating whole-exome sequencing, RNA sequencing, global 2 Division of Medical Oncolog...
+  - Department of Internal Medicine, Yonsei Cancer Center, Yonsei Results: Non-negative matrix factorization clustering identifies five proteogenomic University College of Medicine, subtypes.
 
 ## Key Points
 

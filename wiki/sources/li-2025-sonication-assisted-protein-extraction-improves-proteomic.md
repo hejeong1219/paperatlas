@@ -16,12 +16,28 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Sonication-assisted protein extraction improves proteomic detection of membrane-bound and DNA-binding proteins from tumor tissues.
 
 ## Summary
 
 Local-PDF ingest note for the cancer multiomics/PTM atlas. Page 2 Keywords Author Manuscript sonication; global proteomics; phosphoproteomics; tumor-associated proteomics Introduction The MS-based quantitative proteomic analysis is one of the state-of-the-art techniques to investigate cancer-related molecular pathways at protein level.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/li-2025-sonication-assisted-protein-extraction-improves-proteomic.pdf`.
+- Extracted text length: 24,633 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Sonication-assisted protein extraction improves proteomic detection of membrane-bound and DNA-binding proteins from tumor tissues Qing Kay Li*,#, T.
+  - Clark, Author Manuscript Lijun Chen, Michael Schnaubelt, Hui Zhang* Department of Pathology, Johns Hopkins Medical Institutions, Baltimore, MD 21205, USA Abstract Deep-scale, mass spectrometry-based proteomic studies by the Clinical Proteomic Tumor Analysis Consortium (CPTAC) program involves tissue lysis using urea buffer be...
+  - Similar to the initial CPTAC protocol, we identified Author Manuscript >12,000 proteins and >25,000 phosphopeptides in a tandem mass tag (TMT) set containing both nonsonicated and sonicated tumor tissues from patient-derived xenograft mouse models.
+  - EDITORIAL SUMMARY Mass spectrometry-based proteomic studies involve tissue lysis.
+  - Page 2 Keywords Author Manuscript sonication; global proteomics; phosphoproteomics; tumor-associated proteomics Introduction The MS-based quantitative proteomic analysis is one of the state-of-the-art techniques to investigate cancer-related molecular pathways at protein level.
 
 ## Key Points
 

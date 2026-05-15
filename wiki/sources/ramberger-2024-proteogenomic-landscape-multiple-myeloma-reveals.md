@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # The proteogenomic landscape of multiple myeloma reveals insights into disease biology and therapeutic opportunities.
 
@@ -41,6 +43,20 @@ Multiple myeloma (MM) is a plasma cell malignancy of the bone marrow. Despite th
 - Instrument/platform: Q Exactive HF-X for TMT global proteome and phosphoproteome acquisition; Q Exactive Plus and DIA-NN are also used for separate label-free/DIA cell-line follow-up experiments.
 - Extraction evidence: local PDF reports over 10,000 proteins and 50,000 phosphopeptides identified, with 8,336 proteins and 25,131 phosphopeptides quantified in at least half of samples; Methods report TMTpro 16-plex, IMAC enrichment, Q Exactive HF-X, and MaxQuant.
 - Interpretation note: use 10,000+ and 50,000+ as identification-scale values only if the visualization can show approximate values; use 8,336 and 25,131 for quantified comparison.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals.pdf`.
+- Extracted text length: 131,573 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - nature cancer Resource https://doi.org/10.1038/s43018-024-00784-3 The proteogenomic landscape of multiple myeloma reveals insights into disease biology and therapeutic opportunities Received: 21 December 2022 A list of authors and their affiliations appears at the end of the paper Accepted: 15 May 2024 Published online: 28 Ju...
+  - Here we provide a comprehensive multiomics analysis including deep tandem mass tag-based quantitative global (phospho)proteomics, RNA sequencing, and nanopore DNA sequencing of 138 primary patient-derived plasma cell malignancies encompassing treatment-naive MM, plasma cell leukemia and the premalignancy monoclonal gammopathy...
+  - Our study demonstrates the potential of proteogenomics in cancer and provides an easily accessible resource for investigating protein regulation and new therapeutic approaches in MM.
+  - The introduction of effective Primary genetic events define the cytogenetic subgroups of MM2 and therapies including thalidomide analogs, proteasome inhibitors and are associated with a distinct gene expression profile3,4.
+  - Compensation effects of CNAs from RNA to protein levels gain or amplification of chromosome 1q and mutations in NRAS, KRAS, were especially observed for ribosomal, spliceosome and proteasome TP53, TENT5C (FAM46C) and DIS3 (refs.
 
 ## Key Points
 

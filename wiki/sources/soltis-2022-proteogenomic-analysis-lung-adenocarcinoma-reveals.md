@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic analysis of lung adenocarcinoma reveals tumor heterogeneity, survival determinants, and therapeutically relevant pathways.
 
@@ -42,6 +44,20 @@ We present a deep proteogenomic profiling study of 87 lung adenocarcinoma (LUAD)
 - Software / search: Swiss-Prot human database, Proteome Discoverer, ptmRS phosphosite confidence scoring, TMT reporter ion extraction, mode-centered Z-score normalization.
 - Extraction evidence: local PDF figure summary reports 7,614 proteins and 10,093 phosphosites; STAR Methods report TMT-11, TiO2/Fe-NTA enrichment, EASY-nLC 1200, Q Exactive HF, Proteome Discoverer, and ptmRS.
 - Interpretation note: this study uses both MS phosphoproteomics and RPPA; the atlas should use the Orbitrap MS counts for direct comparability.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/soltis-2022-proteogenomic-analysis-lung-adenocarcinoma-reveals.pdf`.
+- Extracted text length: 43,933 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article Proteogenomic analysis of lung adenocarcinoma reveals tumor heterogeneity, survival determinants, and therapeutically relevant pathways Graphical abstract Authors Anthony R.
+  - Browning, Jr., proteogenomic profiling & longitudinal follow up Matthew D.
+  - report a proteogenomic characterization of lung adenocarcinoma from the United States, expanding the disease’s etiology with a structurally altered subtype and connecting expression correlations between RNA molecular subtypes, expression analysis, and protein to tumor immune content.
+  - genome alteration profiles d Tumors with greater immune content have reduced RNA:protein correlation d Protein and RNA signatures predicting survival of patients are identified d Phosphoproteomic networks identify potential therapeutic vulnerabilities among subtypes Soltis et al., 2022, Cell Reports Medicine 3, 100819 Novembe...
+  - Ellison Institute for Transformative Medicine, Los Angeles, CA 90064, USA 11Departments of Medicine, Chemical Engineering and Material Sciences, University of Southern California, Los Angeles, CA 90007, USA 12Center for Applied Proteomics and Molecular Medicine, George Mason University, Manassas, VA 20110, USA 13Department of...
 
 ## Key Points
 

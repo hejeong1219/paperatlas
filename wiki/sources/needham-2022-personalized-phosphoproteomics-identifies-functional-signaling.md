@@ -23,6 +23,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Personalized phosphoproteomics identifies functional signaling.
 
@@ -33,6 +35,20 @@ DOI: [10.1038/nature19356](https://doi.org/10.1038/nature19356)
 ## Summary
 
 Protein phosphorylation dynamically integrates environmental and cellular information to control biological processes. Identifying functional phosphorylation amongst the thousands of phosphosites regulated by a perturbation at a global scale is a major challenge. Here we introduce 'personalized phosphoproteomics', a combination of experimental and computational analyses to link signaling with biological function by utilizing human phenotypic variance. We measure individual subject phosphoproteome responses to interventions with corresponding phenotypes measured in parallel. Applying this approach to investigate how exercise potentiates insulin signaling in human skeletal muscle, we identify both known and previously unidentified phosphosites on proteins involved in glucose metabolism. This includes a cooperative relationship between mTOR and AMPK whereby the former directly phosphorylates the latter on S377, for which we find a role in metabolic regulation. These results establish personalized phosphoproteomics as a general approach for investigating the signal transduction underlying complex biology.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/needham-2022-personalized-phosphoproteomics-identifies-functional-signaling.pdf`.
+- Extracted text length: 82,747 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Articles https://doi.org/10.1038/s41587-021-01099-9 Personalized phosphoproteomics identifies functional signaling Elise J.
+  - Identifying functional phosphorylation amongst the thousands of phosphosites regulated by a perturbation at a global scale is a major challenge.
+  - Here we introduce ‘personalized phosphoproteomics’, a combination of experimental and computational analyses to link signaling with biological function by utilizing human phenotypic variance.
+  - We measure individual subject phosphoproteome responses to interventions with corresponding phenotypes measured in parallel.
+  - Applying this approach to investigate how exercise potentiates insulin signaling in human skeletal muscle, we identify both known and previously uniden- tified phosphosites on proteins involved in glucose metabolism.
 
 ## Key Points
 

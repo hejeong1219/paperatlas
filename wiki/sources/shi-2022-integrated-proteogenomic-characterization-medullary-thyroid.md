@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Integrated proteogenomic characterization of medullary thyroid carcinoma.
 
@@ -41,6 +43,20 @@ Medullary thyroid carcinoma (MTC) is a rare neuroendocrine malignancy derived fr
 - Instrument/platform: the Methods text in the local PDF describes continuous LC-MS/MS acquisition and instrument stability monitoring but does not name the mass spectrometer model; treat the instrument as “not reported in main PDF” until supplementary methods are locally available.
 - Extraction evidence: local PDF Methods report 6,607 quantifiable proteins and 3,073 quantifiable phosphopeptides, with detection thresholds of at least 51/102 global-proteome samples and at least 37/74 phosphoproteome samples.
 - Interpretation note: counts are filtered quantifiable analysis features, not necessarily all raw identifications.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/shi-2022-integrated-proteogenomic-characterization-medullary-thyroid.pdf`.
+- Extracted text length: 22,507 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Cell Discovery (2022)8:120 https://doi.org/10.1038/s41421-022-00479-y Cell Discovery www.nature.com/celldisc ARTICLE Open Access Integrated proteogenomic characterization of medullary thyroid carcinoma Xiao Shi1, Yaoting Sun 2, Cenkai Shen1, Yan Zhang3, Rongliang Shi1, Fan Zhang4, Tian Liao1, Guojun Lv5, Zhengcai Zhu6, Liangh...
+  - Here we presented a comprehensive multi-omics landscape of 102 MTCs through whole-exome sequencing, RNA sequencing, DNA methylation array, proteomic and phosphoproteomic proﬁling.
+  - Furthermore, we explored putative therapeutic targets of each proteomic subtype, and found that two tenascin family members TNC/TNXB might serve as potential prognostic biomarkers for MTC.
+  - Westlake Laboratory of Life Sciences and Biomedicine, Key Laboratory of Structural Biology of Zhejiang Province, School of Life Sciences; Institute of Chemotherapy and radiotherapy seem to offer little Basic Medical Sciences, Westlake Institute for Advanced Study; Research Center clinical beneﬁt, while two Food and Drug Admin...
+  - Cell Discovery (2022)8:120 Page 2 of 22 Recently, selective RET inhibitors pralsetinib (BLU-667) while global proteomics and RNA sequencing (RNA-Seq) and selpercatinib (LOXO-292) have achieved an were performed on tumor samples from 102 and 101 impressive efﬁcacy in RET-altered tumors6,7.
 
 ## Key Points
 

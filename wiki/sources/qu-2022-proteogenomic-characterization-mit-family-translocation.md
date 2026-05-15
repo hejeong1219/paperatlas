@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic characterization of MiT family translocation renal cell carcinoma.
 
@@ -42,6 +44,20 @@ Microphthalmia transcription factor (MiT) family translocation renal cell carcin
 - Software / search: MaxQuant-style processing with iBAQ/FOT protein abundance, phosphosite abundance correction, and DreamAI imputation.
 - Extraction evidence: local PDF Results report 14,073 proteins and 33,853 phosphosites / 6,469 phosphoproteins; Methods report Fe-NTA enrichment, Q Exactive HF-X, and LFQ abundance processing.
 - Interpretation note: useful as a label-free proteome/phosphoproteome cohort; acetylome remains not reported.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/qu-2022-proteogenomic-characterization-mit-family-translocation.pdf`.
+- Extracted text length: 65,971 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article https://doi.org/10.1038/s41467-022-34460-w Proteogenomic characterization of MiT family translocation renal cell carcinoma Received: 2 October 2021 Yuanyuan Qu1,2,6, Xiaohui Wu 1,6, Aihetaimujiang Anwaier1,2,6, Jinwen Feng 1,6, Wenhao Xu1,2,6, Xiaoru Pei1,6, Yu Zhu1,2,6, Yang Liu 1, Lin Bai 1, Guojian Yang1, Accepted:...
+  - Here we show the comprehensive proteogenomic analysis of tRCC tumors and normal adjacent tissues to elucidate the molecular landscape of this disease.
+  - Proteomic and phosphoproteome data identify mTOR signaling pathway as a potential therapeutic target.
+  - This study represents a comprehensive proteogenomic analysis of tRCC, providing valuable insights into its biological mechanisms, disease diagnosis, and prognostication.
+  - Microphthalmia transcription factor (MiT) family translocation renal (ASPL), PRCC, SFPQ (PSF), NONO, CLTC, DVL2, LUC7L3, PARP14, MED15, cell carcinoma (tRCC) is a rare renal cancer subtype characterized by KHSRP, RBM10, ARID1B, MATR3, FUBP1, NEAT1, KAT6A, GRIPAP1, and chromosomal translocations involving transcription factor ...
 
 ## Key Points
 

@@ -29,6 +29,8 @@ pmid: "31675502"
 doi: "10.1016/j.cell.2019.10.007"
 pmcid: "PMC7331093"
 
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Integrated Proteogenomic Characterization of Clear Cell Renal Cell Carcinoma
 
@@ -37,6 +39,20 @@ _Cell, 2019._
 ## Summary
 
 To elucidate the deregulated functional modules that drive clear cell renal cell carcinoma (ccRCC), we performed comprehensive genomic, epigenomic, transcriptomic, proteomic, and phosphoproteomic characterization of treatment-naive ccRCC and paired normal adjacent tissue samples. Genomic analyses identified a distinct molecular subgroup associated with genomic instability. Integration of proteogenomic measurements uniquely identified protein dysregulation of cellular mechanisms impacted by genomic alterations, including oxidative phosphorylation-related metabolism, protein translation processes, and phospho-signaling modules. To assess the degree of immune infiltration in individual tumors, we identified microenvironment cell signatures that delineated four immune-based ccRCC subtypes characterized by distinct cellular pathways. This study reports a large-scale proteogenomic analysis of ccRCC to discern the functional impact of genomic alterations and provides evidence for rational treatment selection stemming from ccRCC pathobiology.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/clark-2019-integrated-proteogenomic-characterization-clear-cell.pdf`.
+- Extracted text length: 30,769 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - i An update to this article is included at the end Resource Integrated Proteogenomic Characterization of Clear Cell Renal Cell Carcinoma Graphical Abstract Authors David J.
+  - Dhanasekaran, Francesca Petralia, ..., Pei Wang, Hui Zhang, Clinical Proteomic Tumor Analysis Consortium Correspondence mcieslik@med.mich.edu (M.C.), dchan@jhmi.edu (D.W.C.), nesvi@med.umich.edu (A.I.N.), pei.wang@mssm.edu (P.W.), huizhang@jhu.edu (H.Z.) In Brief Comprehensive proteogenomic characterization in 103 treatment-n...
+  - d Integrated proteogenomic characterization in 103 ccRCC cases d Delineation of chromosomal translocation events leading to chromosome 3p loss d Tumor-specific proteomic/phosphoproteomic alterations unrevealed by mRNA analysis d Immune-based subtypes of ccRCC defined by mRNA, proteome, and phosphoproteome Clark et al., 2019, ...
+  - https://doi.org/10.1016/j.cell.2019.10.007 Resource Integrated Proteogenomic Characterization of Clear Cell Renal Cell Carcinoma David J.
+  - This To elucidate the deregulated functional modules that study reports a large-scale proteogenomic analysis drive clear cell renal cell carcinoma (ccRCC), we per- of ccRCC to discern the functional impact of genomic formed comprehensive genomic, epigenomic, tran- alterations and provides evidence for rational treat- scriptom...
 
 ## Key Points
 

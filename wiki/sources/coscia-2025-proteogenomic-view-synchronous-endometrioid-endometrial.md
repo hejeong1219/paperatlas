@@ -23,6 +23,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # A Proteogenomic View of Synchronous Endometrioid Endometrial and Ovarian Cancer.
 
@@ -39,6 +41,20 @@ DOI: [10.1038/s41467-020-18819-5](https://doi.org/10.1038/s41467-020-18819-5)
 **RESULTS**: DNA-based panel sequencing confirmed that most SEOCs are clonally related. Global proteome profiling uncovered pronounced differences between SEOCs and single tumors and underscored the importance of the stromal proteome in defining and identifying SEOCs. We identified molecularly unique SEOC stromal proteomes, which were globally more related to single endometrial cancers. We finally derived a proteomic predictor distinguishing SEOCs from single-site ovarian and uterine tumors.
 
 **CONCLUSIONS**: The integrated proteogenomic data show that SEOCs are distinguishable from endometrioid endometrial or endometrioid ovarian cancer. Based on their proteogenomic similarity to EECs, we conclude that most SEOCs represent primary EECs that have metastasized to the ovary.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/coscia-2025-proteogenomic-view-synchronous-endometrioid-endometrial.pdf`.
+- Extracted text length: 67,441 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - CLINICAL CANCER RESEARCH | PRECISION MEDICINE AND IMAGING A Proteogenomic View of Synchronous Endometrioid Endometrial and Ovarian Cancer Downloaded from http://aacrjournals.org/clincancerres/article-pdf/31/11/2230/3608028/ccr-24-1763.pdf by Korea University Medical Library user on 27 April 2026 Fabian Coscia1, Annelaura B.
+  - Global proteome profiling uncovered could reveal functional and disease-specific consequences of known pronounced differences between SEOCs and single tumors and genetic alterations, the directionality of metastasis, and accurate underscored the importance of the stromal proteome in defining histologic markers to distinguish ...
+  - We finally derived a proteomic predictor ternational gynecologic oncology treatment centers (Chicago, distinguishing SEOCs from single-site ovarian and uterine Vancouver, and Tübingen).
+  - site tumors, we included 9 patients with single-site endometrioid Conclusions: The integrated proteogenomic data show that ovarian and 26 patients with single-site endometrioid endome- SEOCs are distinguishable from endometrioid endometrial or trial cancer (EEC).
+  - Based on their proteogenomic of a 275-gene cancer panel combined with compartment-resolved similarity to EECs, we conclude that most SEOCs represent pri- mass spectrometry–based proteomics of consecutive tissue mary EECs that have metastasized to the ovary.
 
 ## Key Points
 

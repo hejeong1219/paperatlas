@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic characterization of difficult-to-treat breast cancer with tumor cells enriched through laser microdissection.
 
@@ -35,6 +37,20 @@ Breast cancer (BC) is the most commonly diagnosed cancer and the leading cause o
 
 - Extraction status: PDF downloaded; exact proteome/phosphoproteome/acetylome identification counts still require full-text and supplement review.
 - Fields to extract: protein/protein-group count, phosphosite/phosphopeptide count, acetylsite/acetylated-peptide count, enrichment method, LC-MS/MS platform, instrument, search software, and count-unit caveats.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/rajkumar-2024-proteogenomic-characterization-difficult-to-treat-breast-cancer.pdf`.
+- Extracted text length: 28,778 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Breast Cancer Research (2024) 26:76 Breast Cancer Research https://doi.org/10.1186/s13058-024-01835-4 RESEARCH Open Access Proteogenomic characterization of difficult‑to‑treat breast cancer with tumor cells enriched through laser microdissection Praveen‑Kumar Raj‑Kumar1,2, Xiaoying Lin1,2, Tao Liu3, Lori A.
+  - This study aims to delineate the proteogenomic landscape of DTBC tumors compared to luminal A (LumA) tumors.
+  - DNA, RNA, and protein were simultaneously extracted from each tumor preparation, followed by whole genome sequencing, paired-end RNA sequencing, global proteomics and phosphoproteomics.
+  - Distinct DTBC and LumA-enriched clusters were observed by proteomic and phosphoproteomic clustering analysis, some with survival differences.
+  - Phosphoproteomics identified two distinct phosphoproteomic profiles for high relapse-risk and low relapse-risk basal-like tumors, involving several genes known to be associated with breast cancer oncogenesis and progression, including KIAA1522, DCK, FOXO3, MYO9B, ARID1A, EPRS, ZC3HAV1, ^ Richard J.
 
 ## Key Points
 

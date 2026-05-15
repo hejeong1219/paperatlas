@@ -16,12 +16,28 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Quantitative phosphoproteomic analysis identifies novel functional pathways of tumor suppressor DLC1 in estrogen receptor positive breast cancer.
 
 ## Summary
 
 Local-PDF ingest note for the cancer multiomics/PTM atlas. This is an respectively, whereas 6,726 were quantified by phosphoproteomics analysis in both condi- open access article distributed under the terms of tions.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/gkmenpolar-2018-quantitative-phosphoproteomic-analysis-identifies-novel.pdf`.
+- Extracted text length: 28,999 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - RESEARCH ARTICLE Quantitative phosphoproteomic analysis identifies novel functional pathways of tumor suppressor DLC1 in estrogen receptor positive breast cancer Yesim Gökmen-Polar ID1*, Jason D.
+  - In this study, expression of DLC1 was correlated with phosphoproteomic analysis identifies novel prognosis using publicly available breast cancer gene expression datasets and quantitative functional pathways of tumor suppressor DLC1 in Reverse Transcription PCR in cohorts of Estrogen Receptor-positive (ER+) breast cancer.
+  - Label-free global proteomic and TiO2 Accepted: September 12, 2018 phosphopeptide enrichment assays (ProteomeXchange identifier PXD008220) showed that Published: October 2, 2018 205 and 122 phosphopeptides were unique to DLC1-FL cells and T-47D-control cells, Copyright: © 2018 Gökmen-Polar et al.
+  - This is an respectively, whereas 6,726 were quantified by phosphoproteomics analysis in both condi- open access article distributed under the terms of tions.
+  - The top three significant clusters of differentially phosphopeptides identified by DAVID the Creative Commons Attribution License, which permits unrestricted use, distribution, and pathway analysis represent cell-cell adhesion, mRNA processing and splicing, and tran- reproduction in any medium, provided the original scription...
 
 ## Key Points
 

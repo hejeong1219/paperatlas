@@ -23,6 +23,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # A proteogenomic gene signature defines prognostic subgroups highlighting PI3K/AKT/mTOR signaling pathway as a therapeutic vulnerability in myeloid malignancies.
 
@@ -39,6 +41,20 @@ DOI: [10.1371/journal.pgen.1009440](https://doi.org/10.1371/journal.pgen.1009440
 **RESULTS**: This gene signature effectively stratified patients by risk, with significant survival differences across the BEAT-AML and TCGA-LAML cohorts, and revealed immune alterations in high-risk groups, including elevated monocyte prevalence and cytokine signaling activity. Single-cell RNA sequencing (scRNA-seq) further suggested enrichment of these genes in progenitor cells and AML blasts. Drug sensitivity predictions suggested that high-risk AML patients may be particularly responsive to PI3K/AKT/mTOR signaling pathway inhibitors. Consistently, we observed upregulation of the genes in cell line models harboring MPN and AML mutations, which was suppressible via dual PI3K/mTOR inhibitor omipalisib. The efficiency of PI3K/mTOR inhibition in myeloid malignancies was further corroborated by results from multiple in vivo models.
 
 **CONCLUSION**: Together, our findings revealed shared molecular features across MPN and AML, identified a prognostic gene signature for risk stratification, and provided rationale for PI3K/mTOR inhibition as a promising therapeutic strategy in myeloid malignancies.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/he-2025-proteogenomic-gene-signature-defines-prognostic.pdf`.
+- Extracted text length: 20,043 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Cell Communication and Signaling (2026) 24:61 Cell Communication https://doi.org/10.1186/s12964-025-02568-3 and Signaling RESEARCH Open Access A proteogenomic gene signature defines prognostic subgroups highlighting PI3K/AKT/ mTOR signaling pathway as a therapeutic vulnerability in myeloid malignancies Fan He1†, Shuyang Lin1†...
+  - To identify mediators of this risk, we integrated population-level plasma proteomics data, identifying 55 proteins associated with MPN.
+  - Upon integrative analysis with the BEAT-AML cohort, we developed a prognostic proteogenomic gene signature, showing that higher expression of CDCP1, CRISP3, and DCXR, alongside lower MPO levels, correlates with worse AML outcomes.
+  - We further performed pharmacogenomic analysis to identify vulnerability to PI3K/AKT/mTOR signaling pathway inhibition in high-risk AML.
+  - In vitro and in vivo experiments validated the efficacy of mTOR inhibition in myeloid malignancies.
 
 ## Key Points
 

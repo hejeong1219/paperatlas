@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Integrated proteogenomic characterization across major histological types of pituitary neuroendocrine tumors.
 
@@ -35,6 +37,20 @@ Pituitary neuroendocrine tumor (PitNET) is one of the most common intracranial t
 
 - Extraction status: PDF downloaded; exact proteome/phosphoproteome/acetylome identification counts still require full-text and supplement review.
 - Fields to extract: protein/protein-group count, phosphosite/phosphopeptide count, acetylsite/acetylated-peptide count, enrichment method, LC-MS/MS platform, instrument, search software, and count-unit caveats.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/zhang-2022-integrated-proteogenomic-characterization-across-major.pdf`.
+- Extracted text length: 81,557 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - www.nature.com/cr Cell Research www.cell-research.com ARTICLE OPEN Integrated proteogenomic characterization across major histological types of pituitary neuroendocrine tumors ✉ Fan Zhang1,10, Qilin Zhang2,3,10 , Jiajun Zhu1,10, Boyuan Yao2,3,10, Chi Ma4,10, Nidan Qiao2,3,10, Shiman He1,10, Zhao Ye2,3,10, Yunzhi Wang , Rui Ha...
+  - Therefore, more studies are needed to improve the current clinicopathological classiﬁcation system, and advanced treatment strategies such as targeted therapy and immunotherapy are yet to be explored.
+  - Here, we performed the largest integrative genomics, transcriptomics, proteomics, and phosphoproteomics analysis reported to date for a cohort of 200 PitNET patients.
+  - Proteomics-based classiﬁcation of PitNETs identiﬁed 7 clusters, among which, tumors overexpressing epithelial- 1234567890();,: mesenchymal transition (EMT) markers clustered into a more invasive subgroup.
+  - Further analysis identiﬁed potential therapeutic targets, including CDK6, TWIST1, EGFR, and VEGFR2, for different clusters.
 
 ## Key Points
 

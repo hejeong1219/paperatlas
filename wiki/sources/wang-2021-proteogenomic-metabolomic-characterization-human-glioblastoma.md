@@ -22,6 +22,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic and metabolomic characterization of human glioblastoma
 
@@ -30,6 +32,20 @@ _Cancer Cell, 2021._
 ## Summary
 
 Adult glioblastoma(GBM) 99예(치료 전)에서 WGS/WES·전사체·단백체·phosphoproteome·acetylome·lipidome·metabolome 및 snRNA-seq를 통합해, (1) RTK-altered tumor에서 PTPN11/PLCG1 phospho signaling hub, (2) bulk omics 기반 4개 immune subtype(후속 snRNA-seq로 확인), (3) EMT signature의 cell-type 특이성(종양세포 vs stroma 분리), (4) classical-like/immune-low에서 histone H2B acetylation 축(브로모도메인/CREBBP/EP300 연계)을 제시한다.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma.pdf`.
+- Extracted text length: 52,286 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article Proteogenomic and metabolomic characterization of human glioblastoma Graphical Abstract Authors Liang-Bo Wang, Alla Karpova, Marina A.
+  - Gritsenko, ..., Tao Liu, Li Ding, Clinical Proteomic Tumor Analysis Consortium Correspondence karin.rodland@pnnl.gov (K.D.R.), tao.liu@pnnl.gov (T.L.), lding@wustl.edu (L.D.) In Brief Wang et al.
+  - perform integrated proteogenomic analysis of adult glioblastoma (GBM), including metabolomics, lipidomics, and single nuclei RNA-Seq, revealing insights into the immune landscape of GBM, cell- specific nature of EMT signatures, histone acetylation in classical GBM, and the existence of signaling hubs which could provide thera...
+  - https://doi.org/10.1016/j.ccell.2021.01.006 ll ll OPEN ACCESS Article Proteogenomic and metabolomic characterization of human glioblastoma Liang-Bo Wang,1,2,48 Alla Karpova,1,2,48 Marina A.
+  - Integrated analysis of genomic, proteomic, post-trans- lational modification and metabolomic data on 99 treatment-naive GBMs provides insights to GBM biology.
 
 ## Key Points
 

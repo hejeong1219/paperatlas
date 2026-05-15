@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic characterization of cholangiocarcinoma.
 
@@ -41,6 +43,20 @@ Cholangiocarcinoma (CCA) is a highly heterogeneous cancer with limited understan
 - Instrument/platform: not named in the extractable main PDF text; supplementary methods or data records should be checked before using an instrument label in the public plot.
 - Extraction evidence: local PDF Results reports 14,994 proteins, 40,682 phosphopeptides, 32,219 phosphosites, 8,398 phosphoproteins, and filtered analysis sets of 6,875 proteins and 3,398 phosphosites.
 - Interpretation note: show both raw identified and filtered analysis counts where the interactive allows it; use raw identified counts for scale comparison and filtered counts for analysis-depth caveats.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/deng-2023-proteogenomic-characterization-cholangiocarcinoma.pdf`.
+- Extracted text length: 23,636 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Received: 08 January 2022 | Revised: 15 June 2022 | Accepted: 15 June 2022 DOI: 10.1002/hep.32624 ORIGINAL ARTICLE Proteogenomic characterization of cholangiocarcinoma Mengjie Deng1 | Peng Ran1 | Lingli Chen2 | Yunzhi Wang1 | Zixiang Yu2 | Ke Cai1 | Jinwen Feng1 | Zhaoyu Qin1 | Yanan Yin1 | Subei Tan1 | Yang Liu1 | Chen Xu2 |...
+  - We aimed at providing a proteogenomic CCA characterization Transplantation, Liver Cancer Institute, Zhong- shan Hospital, Fudan University, and Key to inform biological processes and treatment vulnerabilities.
+  - Proteomic clustering identified three subtypes China.
+  - Phosphoproteomics characterized targetable kinases in CCA, Jian‐Yuan Zhao, Institute for Development and Regenerative Cardiovascular Medicine, MOE‐ suggesting strategies for effective treatment with CDK and MAPK inhibitors.
+  - The characterization of extrahepatic CCA recommended the feasible application of vascular endo- Jian Zhou, Department of Liver Surgery and Transplantation, Liver Cancer Institute, Zhong- thelial‐derived growth factor inhibitors.
 
 ## Key Points
 

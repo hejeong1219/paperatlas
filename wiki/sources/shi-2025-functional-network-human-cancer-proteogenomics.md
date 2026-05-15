@@ -26,10 +26,26 @@ tags:
   - machine-learning
   - network-analysis
 topic: ptmanchor
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Mapping the functional network of human cancer through machine learning and pan-cancer proteogenomics
 
 Pan-cancer CPTAC-based study showing that protein-level coexpression can be used to build a high-precision functional network for interpreting cancer proteins and low-frequency drivers.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/shi-2025-functional-network-human-cancer-proteogenomics.pdf`.
+- Extracted text length: 76,899 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - nature cancer Analysis https://doi.org/10.1038/s43018-024-00869-z Mapping the functional network of human cancer through machine learning and pan-cancer proteogenomics Received: 6 April 2023 Zhiao Shi1,2,3, Jonathan T.
+  - Here we present a network-based approach centered on FunMap, a pan-cancer functional network constructed using supervised machine learning on extensive proteomics and RNA sequencing data from 1,194 individuals spanning 11 cancer types.
+  - mRNA Consortium and the Clinical Proteomic Tumor Analysis Consortium coexpression has also been used to infer functional associations but (CPTAC) have greatly deepened our understanding of cancer, revealing with varied success8,9.
+  - In this paper, we introduce FunMap, a functional network of 10,525 Protein–protein interaction networks have been instrumental genes constructed using a supervised machine learning method that in prioritizing somatic mutations and predicting the functions of integrates proteomics and RNA sequencing (RNAseq) data from 11 uncha...
+  - To facilitate broader tive signals from all 32 proteomics and RNAseq datasets to construct use in cancer research, we provide an interactive web application a comprehensive functional network.
 
 ## Key Points
 

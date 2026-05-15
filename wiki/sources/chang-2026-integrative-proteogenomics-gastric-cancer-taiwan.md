@@ -23,6 +23,8 @@ themes:
   - decision-tree-prognostic-model
 discovery_method: user-shared
 pdf_status: complete
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 
 # Integrative proteogenomics maps multifactorial aetiology, progression and therapeutic vulnerabilities in gastric cancer
@@ -30,6 +32,20 @@ pdf_status: complete
 ## Summary
 
 Chang et al. (Gut 2026;75:886–904, BMJ proprietary, doi:10.1136/gutjnl-2025-337247) report a Taiwan-led multi-omic atlas of **154 treatment-naïve East Asian Han Chinese gastric cancer patients** (NTUH + KMUH, 2022-03 to 2024-12, median age 67, 62% male) integrating **WES (14,134 mut genes) + RNA-seq (19,504 transcripts) + TMT proteome (>10,000 protein groups) + phosphoproteome (30,000 phosphosites) + microbiome (RNA + protein) + IHC** with refined anatomical mapping, HP status (HP_E 69.5%, HP_N 30.5%, HP_A 22.7% culture+CagA+) and 7 carcinogen mutational signatures (G1–G7). The work defines **6 carcinogen clusters (C1–C6)** and identifies the **polycyclic aromatic hydrocarbon (PAH) signature dibenz[a,h]acridine (DBAC)** as a high-risk East-Asia–specific exposure (HR 2.36–3.16 multivariable Cox; diffuse subtype 5.9× EFS risk; Treg p=0.002), absent in TCGA but present in Taiwanese + Japanese cohorts. BaP cell-line invasion (MKN45 3.7×, MKN28 2.7×) functionally validates PAH-driven proinvasive signalling. Microbial RNA + protein profiling defines **4 microbiome clusters** (HP-dominant, Microvirga-dominant ↔ DBAC p=9.3×10⁻¹², Streptococcus-dominant ↔ C1/C3 nitrosamine p=6.8×10⁻¹⁰, Mixed L. reuteri probiotic), and a 185-participant independent KMUH cohort shows **Streptococcus anginosus (SA) prevalence in gastric juice increases from 47.3% (no IM) → 56.9% (IM) → 86.4% (cancer)** with inverse association to tight-junction proteins (CLDN18.2/OCLN/ZO-1). Multilayer proteome–immune integration defines **3 NAT initiation ecologies** (HP-driven inflammatory PN3, non-HP microbiome-enriched immune-silent PN2, HP-free depleted PN1) and **4 tumour proteome clusters PT1–PT4** plus **HP-negative subtypes HP_N T1–T3** with **SA-linked barrier-loss T2** (EMT/IL-17/NOD-like/NF-κB/PI3K-AKT) and **CLDN18.2-high epithelial-stable T1** (42% met 43-14A IHC criteria, late-stage diffuse Bormann type 4). Survival decision-tree integrates stage + DBAC + proteome–immune state and identifies **stage II-III + PT1+IM2/IM3 as exceeding stage IV mortality**. Kinase enrichment 3 (KEA3) maps anatomy-specific upstream kinases (Loc 1 cardia TP53/MAPK; Loc 4 antrum MET/MYC) and nominates **CDK4 as a shared actionable hub** across IHC-positive, proteome-defined-positive (HER2/PD-L1/CLDN18.2 high), and IHC-negative subgroups (49.2% IHC-negative). 5 prognostic biomarkers in Location 4 antrum (SHROOM1 / p-LYST S2627 / XYLT1 / CRIP1 / SPATS2L) validated in KM Plotter (n=118–875).
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/chang-2026-integrative-proteogenomics-gastric-cancer-taiwan.pdf`.
+- Extracted text length: 33,839 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Original research Integrative proteogenomics maps multifactorial aetiology, progression and therapeutic vulnerabilities in gastric cancer Ya-­Hsuan Chang,1,2,3 Tzu-­Chan Hong ,4,5,6 Kuen-­Tyng Lin ,7 Yi-­Jing Hsiao,7 Hsiang-­En Hsu,7 Juanilita T.
+  - Professor Yu-­Ju Chen; ​yujuchen@​as.​edu.​tw​Professor Objective To delineate multifactorial aetiologies and dysbiosis have been implicated in gastric Ming-­Shiang Wu; clinically actionable subtypes/biomarkers of gastric carcinogenesis but have not been linked to ​mingshiang@​ntu.​edu.​tw​ cancer through integrative proteoge...
+  - ​dechwu555@​gmail.​com and whole-­exome sequencing, RNA-­seq, proteome and Associate professor Chia-­Li Han; ​ was@​tmu.​edu.​tw phosphoproteome profiling with carcinogen signatures, HP status, microbiome composition and refined Y-­HC, T-­CH, K-­TL, Y-­JH and H-­EH anatomical mapping.
+  - Cell-­based functional assays tested networks and kinase activity, including CDK4 activation contributed equally.
+  - promoting invasion, immune suppression and poor Conclusion This proteogenomic framework defines survival, significantly exceeding nitrosamine-­linked exposure-­informed and microbiome-­informed gastric Received 16 October 2025 cancer subtypes, providing a molecular schema for Accepted 17 January 2026 risk in this cohort.
 
 ## Key Points
 

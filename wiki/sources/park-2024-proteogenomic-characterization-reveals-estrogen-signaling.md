@@ -19,6 +19,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic Characterization Reveals Estrogen Signaling as a Target for Never-Smoker Lung Adenocarcinoma Patients without EGFR or ALK Alterations.
 
@@ -40,6 +42,20 @@ Never-smoker lung adenocarcinoma (NSLA) is prevalent in Asian populations, parti
 - Instrument/platform: Q Exactive mass spectrometer coupled to LC, operated in data-dependent acquisition mode.
 - Extraction evidence: local PDF Methods report 13,102 proteins, 12,135 phosphosites, per-sample ranges, TMT10 labeling, phosphopeptide enrichment, and Q Exactive acquisition.
 - Interpretation note: use 13,102 proteins and 12,135 phosphosites for identification-scale visualization; filtered counts should be shown as analysis caveats.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/park-2024-proteogenomic-characterization-reveals-estrogen-signaling.pdf`.
+- Extracted text length: 43,113 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - CANCER RESEARCH | CANCER LANDSCAPES Proteogenomic Characterization Reveals Estrogen Signaling as a Target for Never-Smoker Lung Adenocarcinoma Patients without EGFR or ALK Alterations Downloaded from http://aacrjournals.org/cancerres/article-pdf/84/9/1491/3449721/1491.pdf by Korea University Medical Library user on 09 May 202...
+  - EGFR mutations and anaplastic and proteomic changes.
+  - Gene set enrichment analysis revealed lymphoma kinase (ALK) fusions are major genetic alterations estrogen signaling as the key pathway activated in NENA.
+  - Increased observed in NSLA, and NSLA with these alterations have been well estrogen signaling was associated with proteogenomic alterations, studied and can be treated with targeted therapies.
+  - To provide such as copy number deletions in chromosomes 14 and 21, STK11 insights into the molecular proﬁle of NSLA without EGFR and ALK mutation, and DNA hypomethylation of LLGL2 and ST14.
 
 ## Key Points
 

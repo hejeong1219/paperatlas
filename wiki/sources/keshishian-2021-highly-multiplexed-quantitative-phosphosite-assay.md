@@ -16,12 +16,28 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # A highly multiplexed quantitative phosphosite assay for biology and preclinical studies.
 
 ## Summary
 
 Local-PDF ingest note for the cancer multiomics/PTM atlas. As a result, paradoxical activation of RAF isoforms as a consequence of BRAF inhibitors (Hatzivassiliou et al, 2010; Keywords breast cancer; CPTAC; medulloblastoma; post-translational modifi- Poulikakos et al, 2010), or feedback upstream pathway activation cations; targeted mass spectrometry resulting from mTOR inhibitors, was missed until well after the ...
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/keshishian-2021-highly-multiplexed-quantitative-phosphosite-assay.pdf`.
+- Extracted text length: 31,577 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article A highly multiplexed quantitative phosphosite assay for biology and preclinical studies Hasmik Keshishian1,* , E Robert McDonald III2, Filip Mundt1,†,‡, Randy Melanson1, Karsten Krug1, Dale A Porter2,§, Luke Wallace1, Dominique Forestier1, Bokang Rabasha1, Sara E Marlow1, Judit Jane-Valbuena1, Ellen Todres1, Harrison ...
+  - In keeping with this, aberrant (MS) assay that measures 284 phosphosites in 200 phosphopro- phospho-signaling is a hallmark of many diseases including cancer.
+  - In addition to validating lated kinases and phosphatases have thus become important targets previous findings, SigPath detected and quantified a large number for therapeutic development.
+  - This in turn has motivated the desire of differentially regulated phosphosites newly associated with to quantitatively monitor phosphorylation events to determine the disease models and human tumors at baseline or with drug pertur- cellular or organismal activity of such inhibitors.
+  - Our results highlight the potential of SigPath to monitor to the limited ability to robustly quantify hundreds of phosphoryla- phosphoproteomic signaling events and to nominate mechanistic tion events, most drug discovery programs in this area have hypotheses regarding oncogenesis, response, and resistance to followed single ...
 
 ## Key Points
 

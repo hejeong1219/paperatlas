@@ -22,6 +22,8 @@ themes:
   - "immune-evasion"
   - "resistance-framework"
   - "translational-oncology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Intercellular transfer of exosomal wild type EGFR triggers osimertinib resistance in non-small cell lung cancer.
 
@@ -38,6 +40,20 @@ DOI: [10.1007/s13277-015-3251-3](https://doi.org/10.1007/s13277-015-3251-3)
 **RESULTS**: Intercellular transfer of exosomal wild type EGFR protein confers osimertinib resistance to EGFR-mutated sensitive cancer cells in vitro and in vivo. Co-culture of EGFR-mutated sensitive cells and EGFR-nonmutated resistant cells promoted osimertinib resistance phenotype in EGFR-mutated cancer cells, while depletion of exosomes from conditioned medium or blockade of exosomal EGFR by neutralizing antibody alleviated this phenotype. Mechanistically, osimertinib promoted the release of exosomes by upregulated a Rab GTPase (RAB17). Knockdown of RAB17 resulted in the decrease of exosomes secretion. Moreover, exosomes could be internalized by EGFR-mutated cancer cells via Clathrin-dependent endocytosis and then the encapsulated exosomal wild type EGFR protein activated downstream PI3K/AKT and MAPK signaling pathways and triggered osimertinib resistance.
 
 **CONCLUSIONS**: Intercellular transfer of exosomal wild type EGFR promotes osimertinib resistance in NSCLC, which may represent a novel resistant mechanism of osimertinib and provide a proof of concept for targeting exosomes to prevent and reverse the osimertinib resistance.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/wu-2021-intercellular-transfer-exosomal-wild-type.pdf`.
+- Extracted text length: 29,461 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Molecular Cancer (2021) 20:17 https://doi.org/10.1186/s12943-021-01307-9 RESEARCH Open Access Intercellular transfer of exosomal wild type EGFR triggers osimertinib resistance in non- small cell lung cancer Shaocong Wu1, Min Luo1, Kenneth K.
+  - To2, Jianye Zhang3, Chaoyue Su1,3, Hong Zhang1, Sainan An1, Fang Wang1, Da Chen1 and Liwu Fu1* Abstract Background: Epidermal growth factor receptor (EGFR)-mutated lung cancer constitutes a major subgroup of non- small cell lung cancer (NSCLC) and osimertinib is administrated as first-line treatment.
+  - However, most patients with osimertinib treatment eventually relapse within one year.
+  - The underlying mechanisms of osimertinib resistance remain largely unexplored.
+  - Co-culture assays were conducted to explore the alteration of drug sensitivity by cell viability and apoptosis assays.
 
 ## Key Points
 

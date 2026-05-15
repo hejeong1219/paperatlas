@@ -23,6 +23,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Integrative proteogenomic characterization of Wilms tumor.
 
@@ -33,6 +35,20 @@ DOI: [10.1038/s41467-025-62234-7](https://doi.org/10.1038/s41467-025-62234-7)
 ## Summary
 
 Wilms tumor (WT), the most common pediatric renal malignancy, exhibits a relatively low mutational burden compared to adult cancers, which hinders the development of targeted therapies. To elucidate the molecular landscape of WT, we perform integrative proteomic, phosphoproteomic, transcriptomic, and whole-exome sequencing analyses of WT and normal kidney tissue adjacent to tumor. Our multi-omics approach uncovers prognostic genetic alterations, distinct molecular subgroups, immune microenvironment features, and potential biomarkers and therapeutic targets. Proteome- and transcriptome-based stratification identifies three molecular subgroups with unique signatures, correlating with different histopathological subtypes and putative cellular origins at different stages of embryonic kidney development. Notably, we identify EHMT2 as a promising prognostic biomarker and therapeutic target associated with epigenetic regulation and Wnt/β-catenin pathway. In this work, we provide a comprehensive molecular characterization of WT, offering valuable insights into its pathogenesis and a foundational resource for future therapeutic development.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/cheng-2025-integrative-proteogenomic-characterization-wilms-tumor.pdf`.
+- Extracted text length: 72,531 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article https://doi.org/10.1038/s41467-025-62234-7 Integrative proteogenomic characterization of Wilms tumor Received: 9 December 2023 Cheng Cheng 1,12, Li Zhang 2,3,12, Xiaofeng Chang4,12, Kai Chen1,5, Tian He1,5, Jia Shi1,5, Fan Lv1,5, Lijia Pan1, Yangkun Wu1, Qianqian Cheng1,5, Dong Ren6,7, Accepted: 15 July 2025 Yongli Gu...
+  - To elucidate the molecular landscape of WT, we perform integrative proteomic, phosphoproteomic, transcriptomic, and whole-exome sequencing analyses of WT and normal kidney tissue adja- cent to tumor.
+  - Among the phosphorylation sites, 8703 (93.15%) that in adult tumors, which has, to some extent, impeded the devel- were curated from Signor or PhosphoSite databases25,26 (Supplemen- opment of targeted therapies for children with WT10.
+  - Currently, the tary Data 1g), indicating high reliability of our phosphoproteome data.
+  - This may lead to less accurate risk stratiﬁcation or treat- protein pairs identiﬁed by both transcriptomic and proteomic data.
 
 ## Key Points
 

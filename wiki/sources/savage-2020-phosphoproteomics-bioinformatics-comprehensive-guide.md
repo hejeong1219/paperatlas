@@ -26,6 +26,8 @@ related_papers:
   - "jiang-2025-dark-cancer-phosphoproteome-coregulation"
   - "muller-dott-2025-phosphoproteomic-kinase-activity-inference"
 discovery_method: openalex-related-q3
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Using phosphoproteomics data to understand cellular signaling: a comprehensive guide to bioinformatics resources
 
@@ -34,6 +36,20 @@ _Clinical Proteomics 17:27, 2020 (corrected publication 2024)._ PMID: [32636719]
 ## Summary
 
 Savage & Zhang (Bing Zhang's lab — the same group that later released CoPheeMap/CoPheeKSA in Jiang 2025) catalog **16 kinase/phosphatase knowledge bases and 27 phosphorylation-site databases**, and benchmark **4 kinase activity inference tools (KEA2, KSEA App, PHOXTRACK, IKAP)** on a 20-kinase-inhibitor cell-line dataset. They recommend PhosphoSitePlus as the preferred experimentally-curated site resource and KinBase as the primary kinase reference (538 human protein kinases), but flag **systematic ID-mapping errors** (PEG/MELK confusion, PDPK1/PDK1 ambiguity, PTPN11 incorrectly classified as kinase) that propagate from upstream databases into downstream tools. On the activity-inference side: **KSEA App made the most true-positive kinase predictions, PHOXTRACK made the fewest false positives, and IKAP underperformed across the board**. The review's standing observation that **over half of kinase substrate sets contain fewer than 10 substrates** is the empirical basis for the "understudied kinase" threshold later used in Jiang 2025 (CoPheeKSA covers 26 such kinases). The paper is positioned as a practitioner's guide for biologists/clinicians who are not professional bioinformaticians, with explicit usability scoring for each tool.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/savage-2020-phosphoproteomics-bioinformatics-comprehensive-guide.pdf`.
+- Extracted text length: 29,941 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Savage and Zhang ﻿Clinical Proteomics (2020) 17:27 Clinical Proteomics https://doi.org/10.1186/s12014-020-09290-x REVIEW Open Access Using phosphoproteomics data to understand cellular signaling: a comprehensive guide to bioinformatics resources Sara R.
+  - Savage1,2 and Bing Zhang2,3* Abstract Mass spectrometry-based phosphoproteomics is becoming an essential methodology for the study of global cellular signaling.
+  - Numerous bioinformatics resources are available to facilitate the translation of phosphopeptide identifica- tion and quantification results into novel biological and clinical insights, a critical step in phosphoproteomics data analysis.
+  - These resources include knowledge bases of kinases and phosphatases, phosphorylation sites, kinase inhibi- tors, and sequence variants affecting kinase function, and bioinformatics tools that can predict phosphorylation sites in addition to the kinase that phosphorylates them, infer kinase activity, and predict the effect of ...
+  - Therefore, we put together a comprehensive collection of resources related to phosphoproteomics data interpretation, compared the use of tools with similar functions, and assessed the usability from the standpoint of typical biologists or clinicians.
 
 ## Key Points
 

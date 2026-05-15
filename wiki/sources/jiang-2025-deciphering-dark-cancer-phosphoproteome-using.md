@@ -29,6 +29,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Deciphering the dark cancer phosphoproteome using machine-learned co-regulation of phosphosites
 
@@ -37,6 +39,20 @@ _Nature Communications 16:2766, 2025._ PMID: [40113755](https://pubmed.ncbi.nlm.
 ## Summary
 
 Jiang et al. tackle the dark phosphoproteome — the >95% of detected phosphosites with no annotated upstream kinase or function — by mining co-regulation patterns in the CPTAC pan-cancer phosphoproteome (1,195 tumors across 11 cancer types). They first build CoPheeMap, an XGBoost-derived network of 26,280 phosphosites and 764,049 co-regulation edges that integrates sequence similarity, kinase-interaction-profile similarity, and PanCan Pearson correlations. They then plug CoPheeMap embeddings (via Node2Vec) plus a kinase-kinase network (KMap, 352 kinases / 3,238 edges built from STRING + cross-cohort co-expression) into a second XGBoost model, CoPheeKSA, which predicts 24,015 kinase–substrate associations (KSAs) between 9,399 phosphosites and 104 S/T kinases — a 5× expansion over their ground-truth KSA set. CoPheeKSA covers 26 understudied kinases, outperforms NetworKIN/LinkPhinder/PDT on Kinase-Library percentile validation, and is independently corroborated by STRING functional scores and IDPpub PubMed-mining (56 confirmed, 4 refuted). The team illustrates utility on three dark functional phosphosites (CD74-S8 → AKT3/SGK3, PRKCA-T497 → PDK1, HSP90AB1-S226 → CSNK2A1) and on differentially regulated tumor-vs-normal sites where most lacked any prior kinase annotation. The work positions CoPheeMap/CoPheeKSA as a pan-cancer prior for kinase-activity inference and as a hypothesis generator for under-explored kinases as therapeutic targets.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/jiang-2025-deciphering-dark-cancer-phosphoproteome-using.pdf`.
+- Extracted text length: 71,835 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article https://doi.org/10.1038/s41467-025-57993-2 Deciphering the dark cancer phosphoproteome using machine-learned co-regulation of phosphosites Received: 7 July 2024 Wen Jiang1,2, Eric J.
+  - Cantley 6,7 & Accepted: 10 March 2025 Bing Zhang 1,2 Published online: 20 March 2025 Check for updates Mass spectrometry-based phosphoproteomics offers a comprehensive view of 1234567890():,; 1234567890():,; protein phosphorylation, yet our limited knowledge about the regulation and function of most phosphosites hampers the e...
+  - To address this challenge, we integrate machine learning with phosphoproteomic data from 1195 tumor specimens spanning 11 cancer types to construct CoPheeMap, a network that maps the co-regulation of 26,280 phosphosites.
+  - By incorporating network features from CoPheeMap into a second machine learning model, namely CoPheeKSA, we achieve superior performance in predicting kinase-substrate associations.
+  - CoPheeKSA uncovers 24,015 associations between 9399 phosphosites and 104 serine/ threonine kinases, shedding light on many unannotated phosphosites and understudied kinases.
 
 ## Key Points
 

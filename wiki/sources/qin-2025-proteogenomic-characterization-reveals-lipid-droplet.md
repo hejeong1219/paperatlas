@@ -22,6 +22,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic characterization reveals that lipid droplet formation promotes esophageal squamous cell cancer progression.
 
@@ -32,6 +34,20 @@ DOI: [10.1126/scitranslmed.adt0214](https://doi.org/10.1126/scitranslmed.adt0214
 ## Summary
 
 Esophageal cancer is one of the most common cancers and a leading cause of cancer-related mortality in the world. Here, we have performed comprehensive characterization of genetic, transcriptomic, proteomic, and phosphoproteomic features in 293 patients with esophageal squamous cell carcinoma (ESCC). Chromosome 12q13.13 amplification was correlated with the up-regulation of Janus kinase-signal transducer and activator of transcription pathway and keratins at the protein level in ESCC tissues and associated with poor prognosis in patients with well-differentiated and moderately differentiated ESCC tumors. Patients with poorly differentiated ESCC tumors had infiltration of activated T cells in the tumor microenvironment, suggesting their potential responsiveness to immunotherapy. Chromosome 8q amplification was associated with lymph node metastasis in ESCC tissues, characterized by a switch from noncanonical to canonical WNT signaling. Proteomic classification revealed that the subgroup with the worst prognosis had chromosome 2p amplification and up-regulated lipid metabolism in ESCC tissues at the protein level. Lipid droplet formation induced by perilipin-2 and apolipoprotein E promoted cytokine secretion, which, in turn, recruited T cells and enhanced stromalization, thereby suppressing T cell activation and promoting malignant ESCC progression. This study provides a resource for understanding the development of ESCC and identifying potential therapeutic targets for testing.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/qin-2025-proteogenomic-characterization-reveals-lipid-droplet.pdf`.
+- Extracted text length: 31,662 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - S c i e n c e T r a n s l at i o n a l M e d i c i n e | R e s e a r c h A r t i c l e CANCER Copyright © 2025 The Authors, some rights Proteogenomic characterization reveals that lipid reserved; exclusive licensee American droplet formation promotes esophageal squamous cell Association for the Advancement of cancer progressi...
+  - Here, we have performed comprehensive characterization of genetic, transcriptomic, proteomic, and phosphoproteomic features in 293 patients with esophageal squamous cell carcinoma (ESCC).
+  - Chromosome 12q13.13 amplification was correlated with the up-­regulation of Janus kinase–signal transducer and activator of transcription pathway and keratins at the protein level in ESCC tissues and associated with poor prognosis Downloaded from https://www.science.org at Korea University on April 26, 2026 in patients with w...
+  - Patients with poorly differen- tiated ESCC tumors had infiltration of activated T cells in the tumor microenvironment, suggesting their po- tential responsiveness to immunotherapy.
+  - Proteomic studies classified currence, and poor outcomes (12).
 
 ## Key Points
 

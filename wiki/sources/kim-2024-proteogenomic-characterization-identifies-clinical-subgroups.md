@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic characterization identifies clinical subgroups in EGFR and ALK wild-type never-smoker lung adenocarcinoma.
 
@@ -35,6 +37,20 @@ Patients with lung adenocarcinoma who have never smoked (NSLA) and lack key driv
 
 - Extraction status: PDF downloaded; exact proteome/phosphoproteome/acetylome identification counts still require full-text and supplement review.
 - Fields to extract: protein/protein-group count, phosphosite/phosphopeptide count, acetylsite/acetylated-peptide count, enrichment method, LC-MS/MS platform, instrument, search software, and count-unit caveats.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/kim-2024-proteogenomic-characterization-identifies-clinical-subgroups.pdf`.
+- Extracted text length: 39,910 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - www.nature.com/emm ARTICLE OPEN Proteogenomic characterization identiﬁes clinical subgroups in EGFR and ALK wild-type never-smoker lung adenocarcinoma ✉ Hyondeog Kim 1,12, Wonyeop Lee2,12, Youngwook Kim1,3,12 , Sang-Jin Lee4, Wonyoung Choi 5 , Geon Kook Lee6, Seung-Jin Park7,8, 9 7,8,10 9,11 ✉ Shinyeong Ju , Seon-Young Kim , ...
+  - They also tend to have poorer outcomes with immune checkpoint inhibitors than lung cancer patients who have a history of smoking.
+  - The proteogenomic proﬁle of nonsmoking lung adenocarcinoma patients without these oncogenic driver mutations is poorly understood, which complicates the precise molecular classiﬁcation of these cancers and highlights a signiﬁcant area of unmet clinical need.
+  - NSLA tumors without EGFR or ALK driver oncogenes were classiﬁed into four proteogenomic subgroups: proliferation, angiogenesis, immune, and metabolism subgroups.
+  - Proteogenomic analyses suggested several targetable genes and proteins, including CDKs and ATR, as potential therapeutic targets in the proliferation subgroup.
 
 ## Key Points
 

@@ -21,12 +21,28 @@ tags:
 extra_topics:
   - "cancer-multiomics"
 pdf: "raw/inbox/papers/khan-2026-integrative-phosphoproteomic-network-analysis-identifies.pdf"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Integrative phosphoproteomic network analysis identifies CAMK2D as a shared regulator of TPD52 family proteins in cancer
 
 ## Summary
 
 This paper aggregates thousands of public phosphoproteomics datasets to map phosphorylation patterns of the TPD52 protein family (TPD52 / TPD52L1 / TPD52L2) and to infer shared upstream kinases and co-phosphoregulated signaling partners. It highlights recurrent phosphosites and nominates CAMK2D (along with other kinases) as a putative shared regulator, while also describing cross-cancer phosphosite changes using CPTAC-derived resources.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/khan-2026-integrative-phosphoproteomic-network-analysis-identifies.pdf`.
+- Extracted text length: 26,053 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Protoplasma (2026) 263:841–860 https://doi.org/10.1007/s00709-025-02145-y RESEARCH Integrative phosphoproteomic network analysis identifies CAMK2D as a shared regulator of TPD52 family proteins in cancer Noreen A.
+  - Phosphoryla- tion is a key regulator of their functions, yet their phosphoproteomic landscape remains underexplored.
+  - This study inte- grates over 3,825 public human phosphoproteomic datasets to map phosphorylation profiles of TPD52, TPD52L1, and TPD52L2, identifying dominant phosphosites like S171, S176, S149, and S12, S166 within conserved coiled-coil and PEST-like domains.
+  - CAMK2D was identified as a predominant shared kinase, alongside CDK2 and GRK5, associating these modifications with calcium signaling, cell cycle progression, and cytoskeletal remodeling.
+  - Keywords Phosphoproteomics · TPD52 CAMK2D · Kinase cancer Introduction frequently amplified in cancers, consists of 224 amino acids and is implicated in endolysosomal trafficking and malig- The Tumour Protein D52 (TPD52) family, comprising nant transformation (Messenger et al.
 
 ## Key Points
 

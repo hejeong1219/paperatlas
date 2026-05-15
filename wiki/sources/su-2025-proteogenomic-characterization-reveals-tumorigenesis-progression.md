@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic characterization reveals tumorigenesis and progression of lung cancer manifested as subsolid nodules.
 
@@ -41,6 +43,20 @@ Lung adenocarcinoma (LUAD) radiologically displayed as subsolid nodules (SSNs) i
 - Instrument/platform: Q Exactive HF-X mass spectrometer with nano-electrospray source for proteome, phosphoproteome, and glycoproteome LC-MS/MS.
 - Extraction evidence: local PDF Results report 10,255 proteins, 27,283 phosphosites, and 12,480 glycopeptides; Methods report TMT labeling, LC-MS/MS, Q Exactive HF-X, Orbitrap detection, and phosphoproteome/glycoproteome acquisition.
 - Interpretation note: include as proteome/phosphoproteome/glycoproteome study; acetylome field should remain absent.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/su-2025-proteogenomic-characterization-reveals-tumorigenesis-progression.pdf`.
+- Extracted text length: 41,469 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article https://doi.org/10.1038/s41467-025-57364-x Proteogenomic characterization reveals tumorigenesis and progression of lung cancer manifested as subsolid nodules Received: 31 May 2024 Hang Su1,9, Li Chen2,3,9, Jun Wu4,9, Zhongyi Cheng 5,9, Jing Li 6, Yijiu Ren1, Junfang Xu2,3, Yifang Dang2,3, Mengge Zheng2,3, Yajuan Cao2,...
+  - Here, we analyze 66 LUAD displayed as SSNs covering 3 histological stages including adenocarcinoma in situ (AIS), minimally invasive adeno- carcinoma (MIA) and invasive adenocarcinoma (IAC) by incorporating geno- mics, proteomics, phosphoproteomics and glycoproteomics.
+  - Our study provides comprehensive proteogenomic landscape of SSNs, sheds lights on the tumorigenesis and progression of SSNs and suggests preventive and therapeutic strategies for LUAD.
+  - The frequencies of epidermal growth factor recep- understanding of proteomics and post-translational modiﬁcation tor (EGFR), tumor protein 53 (TP53), RNA binding motif protein 10 (PTMs) characteristics from preneoplasia to invasive lung cancer is still (RMB10), and mucin 16 (MUC16) mutation in our study were 51%, 19% undeterm...
+  - Notably, recent research high- EGFR mutation among Asian LUAD populations was about 50–60%,28,29 lights the critical role of glycosylation in cancer advancement, inﬂu- contrasting with 15–20% in white populations30,31.
 
 ## Key Points
 

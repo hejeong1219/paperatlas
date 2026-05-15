@@ -26,10 +26,26 @@ tags:
   - proteomics
   - subtype-analysis
 topic: ptmanchor
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Breast cancer quantitative proteome and proteogenomic landscape
 
 Large-scale breast cancer proteogenomic study showing that quantitative proteomics refines subtype structure, reveals protein modules, and exposes limits of RNA-only classification.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/gillette-2019-breast-cancer-quantitative-proteome-proteogenomic-landscape.pdf`.
+- Extracted text length: 50,403 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - ARTICLE https://doi.org/10.1038/s41467-019-09018-y OPEN Breast cancer quantitative proteome and proteogenomic landscape Henrik J.
+  - Proteome-based networks distinguish functional protein modules for breast tumor groups, with co-expression of EGFR and MET marking ductal carcinoma in situ regions of normal-like tumors and lending to a more accurate classiﬁcation of this poorly deﬁned subtype.
+  - Furthermore, the depth and quality of have proven extremely robust and are still widely used to predict proteome proﬁling enables application of proteogenomic analyses prognosis and design therapeutic regimens2,3.
+  - However, multigene expression assays (e.g., MammaPrintTM, Oncotype DXTM, and Prosigna RORTM) are not readily available Results to all patients, and despite progress in the development of MS-based proteomics quantiﬁcation of a breast tumor cohort.
+  - HiRIEF nanoLC-MS/MS The immaturity of the ﬁeld of high-throughput proteomics relative to transcriptomics is a major obstacle for protein-based studies to drastically alter the clinical approach to breast cancer, Proteomics as Botstein et al.
 
 ## Key Points
 

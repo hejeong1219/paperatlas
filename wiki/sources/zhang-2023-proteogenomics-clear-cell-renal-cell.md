@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomics of clear cell renal cell carcinoma response to tyrosine kinase inhibitor.
 
@@ -42,6 +44,20 @@ The tyrosine kinase inhibitor (TKI) Sunitinib is one the therapies approved for 
 - Software / search: MaxQuant-style LFQ/iBAQ/FOT processing is described in methods, with phosphosite median centroid correction and DreamAI imputation for missing protein values.
 - Extraction evidence: local PDF Results report 12,310 proteins, 37,055 phosphosites, and 7,502 phosphoproteins; Methods report Fe-NTA enrichment, Q Exactive HF-X, and downstream >25% tumor-sample filtering.
 - Interpretation note: label-free total identified counts should be separated from the downstream response-model feature set.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/zhang-2023-proteogenomics-clear-cell-renal-cell.pdf`.
+- Extracted text length: 79,206 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article https://doi.org/10.1038/s41467-023-39981-6 Proteogenomics of clear cell renal cell carcinoma response to tyrosine kinase inhibitor Received: 19 August 2021 Hailiang Zhang 1,2,6, Lin Bai 1,6, Xin-Qiang Wu1,2,6, Xi Tian1,2,6, Jinwen Feng 1,6, Xiaohui Wu 1,6, Guo-Hai Shi1,2,6, Xiaoru Pei1,6, Jiacheng Lyu1,6, Guojian Yang...
+  - Here, we undertake proteogenomic proﬁling of 115 tumors from patients with clear cell renal cell carcinoma (ccRCC) under- going Sunitinib treatment and reveal the molecular basis of differential clinical outcomes with TKI therapy.
+  - We ﬁnd that chromosome 7q gain-induced mTOR signaling activation is associated with poor therapeutic outcomes with Suni- tinib treatment, whereas the aristolochic acid signature and VHL mutation synergistically caused enhanced glycolysis is correlated with better prognosis.
+  - The proteomic and phosphoproteomic analysis further highlights the responsibility of mTOR signaling for non-response to Sunitinib.
+  - Finally, we construct a multi-omics classiﬁer that can detect responder and non-responder patients (receiver operating characteristic–area under the curve, 0.98).
 
 ## Key Points
 

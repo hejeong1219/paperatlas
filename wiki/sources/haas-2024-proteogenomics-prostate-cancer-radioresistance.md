@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # The Proteogenomics of Prostate Cancer Radioresistance.
 
@@ -37,6 +39,20 @@ Prostate cancer is frequently treated with radiotherapy. Unfortunately, aggressi
 - Data layers (as described in Methods/abstract): whole-exome sequencing (WES), RNA-seq, miRNA profiling (NanoString), and proteomics with subcellular fractionation.
 - Proteomics platform cues: Easy nLC 1000 coupled to a Thermo Q Exactive HF, data-dependent acquisition (top-25), long gradient (reported ~265 min).
 - Open question: does any supplementary dataset report global phosphoproteomics or PTM enrichment beyond total-proteome shotgun MS?
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/haas-2024-proteogenomics-prostate-cancer-radioresistance.pdf`.
+- Extracted text length: 44,788 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - RESEARCH ARTICLE https://doi.org/10.1158/2767-9764.CRC-24-0292 OPEN ACCESS Downloaded from http://aacrjournals.org/cancerrescommun/article-pdf/4/9/2463/3498698/crc-24-0292.pdf by Korea University Medical Library user on 09 May 2026 The Proteogenomics of Prostate Cancer Radioresistance Roni Haas1,2,3,4, Gavin Frame5,6, Shahbaz...
+  - Testing preclinical candidates identified in nings of radioresistance are unknown.
+  - evolving to deliver higher doses of radiation in fewer fractions (hypo- POLQ-modulated radioresistance in model systems and was predictive of it fractionation).
+  - The molecular response to radiation is highly teomic data to characterize prostate cancer radioresistance in cells treated multimodal and sheds light on prostate cancer lethality.
+  - Independent of fractionation schedule, resistance to radiotherapy involved Significance: Radiation is standard of care in prostate cancer.
 
 ## Key Points
 

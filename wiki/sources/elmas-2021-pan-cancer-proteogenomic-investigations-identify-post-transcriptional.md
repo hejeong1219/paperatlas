@@ -16,12 +16,28 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Pan-cancer proteogenomic investigations identify post-transcriptional kinase targets.
 
 ## Summary
 
 Local-PDF ingest note for the cancer multiomics/PTM atlas. ARTICLE https://doi.org/10.1038/s42003-021-02636-7 OPEN Pan-cancer proteogenomic investigations identify post-transcriptional kinase targets Abdulkadir Elmas 1, Serena Tharakan1, Suraj Jaladanki 1, Matthew D.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/elmas-2021-pan-cancer-proteogenomic-investigations-identify-post-transcriptional.pdf`.
+- Extracted text length: 27,164 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - ARTICLE https://doi.org/10.1038/s42003-021-02636-7 OPEN Pan-cancer proteogenomic investigations identify post-transcriptional kinase targets Abdulkadir Elmas 1, Serena Tharakan1, Suraj Jaladanki 1, Matthew D.
+  - Galsky2, Tao Liu 3 & Kuan-lin Huang 1 ✉ Identifying genomic alterations of cancer proteins has guided the development of targeted therapies, but proteomic analyses are required to validate and reveal new treatment opportunities.
+  - Herein, we develop a new algorithm, OPPTI, to discover overexpressed kinase proteins across 10 cancer types using global mass spectrometry proteomics data of 1,071 1234567890():,; cases.
+  - OPPTI-identiﬁed overexpression of ERBB2 and EGFR proteins correlates with genomic ampliﬁcations, while CDK4/6, PDK1, and MET protein overexpression frequently occur without corresponding DNA- and RNA-level alterations.
+  - Analyzing CRISPR screen data, we conﬁrm expression-driven dependencies of multiple currently-druggable and new target kinases whose expressions are validated by immunochemistry.
 
 ## Key Points
 

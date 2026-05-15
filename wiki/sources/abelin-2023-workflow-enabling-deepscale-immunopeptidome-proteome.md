@@ -23,6 +23,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Workflow enabling deepscale immunopeptidome, proteome, ubiquitylome, phosphoproteome, and acetylome analyses of sample-limited tissues.
 
@@ -33,6 +35,20 @@ DOI: [10.1038/s41467-023-37547-0](https://doi.org/10.1038/s41467-023-37547-0)
 ## Summary
 
 Serial multi-omic analysis of proteome, phosphoproteome, and acetylome provides insights into changes in protein expression, cell signaling, cross-talk and epigenetic pathways involved in disease pathology and treatment. However, ubiquitylome and HLA peptidome data collection used to understand protein degradation and antigen presentation have not together been serialized, and instead require separate samples for parallel processing using distinct protocols. Here we present MONTE, a highly sensitive multi-omic native tissue enrichment workflow, that enables serial, deep-scale analysis of HLA-I and HLA-II immunopeptidome, ubiquitylome, proteome, phosphoproteome, and acetylome from the same tissue sample. We demonstrate that the depth of coverage and quantitative precision of each 'ome is not compromised by serialization, and the addition of HLA immunopeptidomics enables the identification of peptides derived from cancer/testis antigens and patient specific neoantigens. We evaluate the technical feasibility of the MONTE workflow using a small cohort of patient lung adenocarcinoma tumors.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome.pdf`.
+- Extracted text length: 38,731 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Carr 1 Serial multi-omic analysis of proteome, phosphoproteome, and acetylome provides insights into changes in protein expression, cell signaling, cross-talk and epigenetic pathways involved in disease pathology and treatment.
+  - Here we present MONTE, a highly sensitive multi-omic native tissue enrichment workﬂow, that enables serial, deep-scale analysis of HLA-I and HLA-II immunopeptidome, ubiquitylome, proteome, phosphoproteome, and acetylome from the same tissue sample.
+  - Mass spectrometry–based proteomics is a standing the molecular pathways driving disease progression.
+  - These proven technology for parallel analyses that involve the characteriza- investigations routinely leverage deep-scale, multi-omic characteriza- tion of cell surface immunopeptidomes along with intracellular tions to broadly survey diverse biological pathways, such as cell sig- proteins and their post-translational modiﬁca...
+  - Therefore, workﬂows that ﬂow-throughs of the UbiFast enrichment step containing unlabeled, facilitate a shift from parallel to serial multi-omic data collection are non-K-ɛ-GG peptides are further processed for deep-scale and highly advantageous for large-scale discovery efforts in patient cohorts, as multiplexed measurement ...
 
 ## Key Points
 

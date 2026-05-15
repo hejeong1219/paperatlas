@@ -18,6 +18,8 @@ themes:
   - "multiomics-identification"
   - "proteome-scale"
   - "ptm-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Integrated pharmaco-proteogenomics defines two subgroups in isocitrate dehydrogenase wild-type glioblastoma with prognostic and therapeutic opportunities.
 
@@ -39,6 +41,20 @@ This study combines TMT proteomics/phosphoproteomics with genomics and patient-d
 - Instrument/platform: Eksigent nanoLC-ultra 1D plus system coupled to Q Exactive mass spectrometer.
 - Extraction evidence: local PDF Results and Methods report 9,367 protein groups, 8,019 phosphorylation sites, 16,377 phosphorylated peptides, TMT six-plex, Q Exactive, and MaxQuant.
 - Interpretation note: use raw identification counts for scale comparison and selected all-GIS counts as downstream-analysis caveats.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/oh-2020-integrated-pharmaco-proteogenomics-defines-two-subgroups.pdf`.
+- Extracted text length: 61,082 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - ARTICLE https://doi.org/10.1038/s41467-020-17139-y OPEN Integrated pharmaco-proteogenomics deﬁnes two subgroups in isocitrate dehydrogenase wild-type glioblastoma with prognostic and therapeutic opportunities Sejin Oh 1,2,21, Jeonghun Yeom 3,4,5,21, Hee Jin Cho6,7,21, Ju-Hwa Kim8, Seon-Jin Yoon 2,9, Hakhyun Kim 2, Jason K.
+  - Here, we describe a distinct binary classiﬁcation of IDH wild-type GBM tumors derived from a quan- titative proteomic analysis of 39 IDH wild-type GBMs as well as IDH mutant and low-grade glioma controls.
+  - Speciﬁcally, GBM proteomic cluster 1 (GPC1) tumors exhibit Warburg-like features, neural stem-cell markers, immune checkpoint ligands, and a poor prognostic bio- marker, FKBP prolyl isomerase 9 (FKBP9).
+  - Integrating these proteomic features with the pharmacological proﬁles of matched patient-derived cells (PDCs) reveals that the mTORC1/2 dual inhibitor AZD2014 is cytotoxic to the poor prog- nostic PDCs.
+  - These samples displayed broad coverage of major brain cancer with a median overall survival time of driver mutations5, including EGFR, EGFRvIII (deletion in exon 12–15 months1.
 
 ## Key Points
 

@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Comprehensive proteogenomic characterization of early duodenal cancer reveals the carcinogenesis tracks of different subtypes.
 
@@ -41,6 +43,20 @@ The subtypes of duodenal cancer (DC) are complicated and the carcinogenesis proc
 - Instrument/platform: EASY-nLC 1200 coupled to Q Exactive HF-X Hybrid Quadrupole-Orbitrap for proteome/phosphoproteome LC-MS/MS; separate MALDI-TOF/TOF SCIEX-5800 was used for in vitro alanylation/de-alanylation assays.
 - Extraction evidence: local PDF Results and Methods report 14,426 protein groups, 38,696 phosphosites / 9,716 phosphoproteins, Fe-NTA enrichment, Firmiana/Mascot, iBAQ/FOT, EASY-nLC 1200, and Q Exactive HF-X.
 - Interpretation note: use 14,426 and 38,696 for identification-scale plots; show 7,400 and 12,851 as filtered downstream-analysis counts when caveats are displayed.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/li-2023-comprehensive-proteogenomic-characterization-early-duodenal.pdf`.
+- Extracted text length: 87,812 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article https://doi.org/10.1038/s41467-023-37221-5 Comprehensive proteogenomic character- ization of early duodenal cancer reveals the carcinogenesis tracks of different subtypes Received: 9 November 2021 Lingling Li1,6, Dongxian Jiang 2,6, Hui Liu3,6, Chunmei Guo1,6, Rui Zhao4,6, Qiao Zhang1,6, Chen Xu 2,6, Zhaoyu Qin 1, Jin...
+  - Proteogenomics reveals LYN ampliﬁcation at the chromosome 8q gain func- tioned in the transmit from intraepithelial neoplasia phase to inﬁltration tumor phase via MAPK signaling, and illustrates the DST mutation improves mTOR signaling in the duodenal adenocarcinoma stage.
+  - The drug-targetable alanyl-tRNA synthetase (AARS1) in the high tumor mutation burden/immune inﬁltration is signiﬁcantly enhanced in DC progression, and catalyzes the lysine-alanylation of poly-ADP- ribose polymerases (PARP1), which decreases the apoptosis of cancer cells, eventually promoting cell proliferation and tumorigene...
+  - We assess the proteogenomic landscape of early DC, and provide insights into the molecular features corresponding therapeutic targets.
+  - The effects of mTOR signaling in tumor carcinogenesis9.
 
 ## Key Points
 

@@ -16,12 +16,28 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # cProSite: A web based interactive platform for online proteomics, phosphoproteomics, and genomics data analysis.
 
 ## Summary
 
 Local-PDF ingest note for the cancer multiomics/PTM atlas. Volume 6 • Issue 4 573 Research Article cProSite: A Web Based Interactive Platform for Online Proteomics, Phosphoproteomics, and Genomics Data Analysis Dunrui Wang1*, Xiaolan Qian1, Yi-Chieh Nancy Du2, Beatriz Sanchez-Solana1, Kailing Chen3, Madhu Kanigicherla3, Lisa M Jenkins4, Jason Luo1, Sarah Eng1, Brian Park3, Ben Chen3, Xiaozheng Yao3, Thuong Nguyen...
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/wang-2023-cprosite-web-based-interactive-platform.pdf`.
+- Extracted text length: 25,178 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Volume 6 • Issue 4 573 Research Article cProSite: A Web Based Interactive Platform for Online Proteomics, Phosphoproteomics, and Genomics Data Analysis Dunrui Wang1*, Xiaolan Qian1, Yi-Chieh Nancy Du2, Beatriz Sanchez-Solana1, Kailing Chen3, Madhu Kanigicherla3, Lisa M Jenkins4, Jason Luo1, Sarah Eng1, Brian Park3, Ben Chen3,...
+  - The search results of cProSite can be used for clinical data validation and provide useful strategic information to identify drug targets at proteomic, phosphoproteomic, or genomic levels.
+  - Significance: An interactive database for the expression and correlation for proteins, proteomic phosphorylations, and mRNA levels has been developed Affiliation: for analyzing the molecular alterations between tumors and normal tissues of 1 Laboratory of Cellular Oncology, National Cancer various tumor types.
+  - Institute, National Institutes of Health, Bethesda, USA Introduction Department of Pathology and Laboratory Medicine, 2 Weill Cornell Medicine, New York, USA The National Cancer Institute’s Clinical Proteomic Tumor Analysis Center for Biomedical Informatics and Information 3 Consortium (CPTAC) is a national effort to accelera...
+  - We developed a web-based Collaborative Protein Technology Resource, 4 interactive platform, Cancer Proteogenomic Data Analysis Site (cProSite), National Cancer Institute, National Institutes of that provides on-line proteomics, phosphoproteomics, and genomics analysis Health, Bethesda, USA for the CPTAC data.
 
 ## Key Points
 

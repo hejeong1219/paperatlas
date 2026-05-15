@@ -28,10 +28,26 @@ tags:
 topic: ptmanchor
 extra_topics:
   - "bcell-neoantigen"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Pan-cancer molecular subtypes revealed by mass-spectrometry-based proteomic characterization of more than 500 human cancers
 
 Landmark CPTAC-centered pan-cancer study showing that proteomic and phosphoproteomic profiling can define cross-lineage molecular subtypes not fully captured by transcriptomics.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/chen-2019-pan-cancer-molecular-subtypes-proteomic-characterization.pdf`.
+- Extracted text length: 60,085 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - ARTICLE https://doi.org/10.1038/s41467-019-13528-0 OPEN Pan-cancer molecular subtypes revealed by mass- spectrometry-based proteomic characterization of more than 500 human cancers Fengju Chen1, Darshan S.
+  - Creighton 1,5,6,7* 1234567890():,; Mass-spectrometry-based proteomic proﬁling of human cancers has the potential for pan- cancer analyses to identify molecular subtypes and associated pathway features that might be otherwise missed using transcriptomics.
+  - The proteome-based subtypes are obser- vable in external cancer proteomic datasets surveyed.
+  - common exercises utilizing transcriptomic or proteomic data Mass-spectrometry-based proteomic-proﬁling data of human on human tumors.
+  - We also examine cancer have involved transcriptomic rather than proteomic data, as the proteomic and transcriptomic datasets outside of CPTAC, for advent of DNA microarrays over 20 years ago began the wide- patterns of manifestation of our proteome-based subtypes.
 
 ## Key Points
 

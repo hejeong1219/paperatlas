@@ -23,6 +23,8 @@ pmid: "28655153"
 doi: "10.1093/bioinformatics/btx415"
 pmcid: "PMC5860163"
 
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # The KSEA App: a web-based tool for kinase activity inference from quantitative phosphoproteomics
 
@@ -37,6 +39,20 @@ _Bioinformatics, 2017._
 **CONTACT**: mark.chance@case.edu.
 
 **SUPPLEMENTARY INFORMATION**: Supplementary data are available at Bioinformatics online.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/wiredja-2017-ksea-app-web-based-tool-kinase.pdf`.
+- Extracted text length: 19,091 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Bioinformatics, 33(21), 2017, 3489–3491 doi: 10.1093/bioinformatics/btx415 Advance Access Publication Date: 26 June 2017 Applications Note Downloaded from https://academic.oup.com/bioinformatics/article/33/21/3489/3892392 by KOREA UNIVERSITY MEDICAL LIBRARY user on 27 April 2026 Systems biology The KSEA App: a web-based tool ...
+  - Chance1,* 1 Department of Nutrition, Center for Proteomics and Bioinformatics and 2Department of Electrical Engineering and Computer Science, Case Western Reserve University, Cleveland, OH 44106, USA *To whom correspondence should be addressed.
+  - Associate Editor: Alfonso Valencia Received on February 16, 2017; revised on June 2, 2017; editorial decision on June 21, 2017; accepted on June 23, 2017 Abstract Summary: Computational characterization of differential kinase activity from phosphoproteomics datasets is critical for correctly inferring cellular circuitry and h...
+  - Kinase-Substrate Enrichment Analysis (KSEA) offers a powerful ap- proach to estimating changes in a kinase’s activity based on the collective phosphorylation changes of its identified substrates.
+  - However, KSEA has been limited to programmers who are able to implement the algorithms.
 
 ## Key Points
 

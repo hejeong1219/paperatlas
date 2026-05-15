@@ -26,10 +26,26 @@ tags:
   - proteomics
   - cptac
 topic: ptmanchor
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic characterization of 2002 human cancers reveals pan-cancer molecular subtypes and associated pathways
 
 Large human pan-cancer proteogenomics compendium showing that protein-level subtypes and pathway activity can cut across tumor lineages and reveal genome-proteome relationships not fully captured by transcriptomics alone.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/zhang-2022-proteogenomic-characterization-2002-human-cancers.pdf`.
+- Extracted text length: 79,746 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - ARTICLE https://doi.org/10.1038/s41467-022-30342-3 OPEN Proteogenomic characterization of 2002 human cancers reveals pan-cancer molecular subtypes and associated pathways Yiqun Zhang 1,8, Fengju Chen1,8, Darshan S.
+  - Creighton 1,5,6,7 ✉ 1234567890():,; Mass-spectrometry-based proteomic data on human tumors—combined with corresponding multi-omics data—present opportunities for systematic and pan-cancer proteogenomic analyses.
+  - Here, we assemble a compendium dataset of proteomics data of 2002 primary tumors from 14 cancer types and 17 studies.
+  - Our proteogenomics survey reveals the interplay between genome and pro- teome across tumor lineages.
+  - To facilitate access by advances in mass spectrometry have allowed for large-scale sur- biomedical researchers, we integrated the above proteomic data veys of the cancer proteome.
 
 ## Key Points
 

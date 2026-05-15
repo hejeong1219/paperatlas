@@ -26,10 +26,26 @@ tags:
   - proteomics
   - phosphoproteomics
 topic: ptmanchor
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic characterization of human colon and rectal cancer
 
 Foundational colorectal proteogenomics paper showing that proteome data can prioritize drivers and subtype structure that are only partly visible through genomics or transcriptomics alone.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/zhang-2014-proteogenomic-characterization-colon-rectal-cancer.pdf`.
+- Extracted text length: 70,644 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - ARTICLE doi:10.1038/nature13438 Proteogenomic characterization of human colon and rectal cancer Bing Zhang1,2, Jing Wang1, Xiaojing Wang1, Jing Zhu1, Qi Liu1, Zhiao Shi3,4, Matthew C.
+  - To address this problem, we analysed proteomes of colon and rectal tumours characterized previ- ously by The Cancer Genome Atlas (TCGA) and perform integrated proteogenomic analyses.
+  - Proteomics identified five proteomic subtypes in the TCGA cohort, two of which overlapped with the TCGA ‘microsatellite instability/CpG island methylation phenotype’ transcriptomic subtype, but had distinct mutation, methylation and protein expression patterns associated with different clinical outcomes.
+  - Thus, proteomics data enabled prioritization of candidate driver genes.
+  - The chromosome 20q amplicon was associated with the largest global changes at both mRNA and protein levels; proteomics data highlighted potential 20q candidates, including HNF4A (hepatocyte nuclear factor 4, alpha), TOMM34 (translocase of outer mitochondrial membrane 34) and SRC (SRC proto-oncogene, non-receptor tyrosine kina...
 
 ## Key Points
 

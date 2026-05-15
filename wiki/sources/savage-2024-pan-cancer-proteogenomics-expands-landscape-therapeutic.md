@@ -40,12 +40,28 @@ tags:
 extra_topics:
   - "cancer-multiomics"
 pdf: "raw/inbox/papers/savage-2024-pan-cancer-proteogenomics-expands-landscape-therapeutic.pdf"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Pan-cancer proteogenomics expands the landscape of therapeutic targets
 
 ## Summary
 
 This study integrates harmonized CPTAC pan-cancer proteogenomics (10 cancer types; 1,043 tumors) to map the abundance and regulation of a curated set of druggable proteins and to prioritize therapeutic opportunities that are invisible or unreliable at the mRNA level. The workflow combines tumor proteomics/phosphoproteomics with additional public resources (e.g., genetic screens and drug response data) to nominate druggable dependencies and synthetic-lethal opportunities, and extends the target landscape to peptide targets (candidate “public” neoantigens such as mutant KRAS peptides and shared tumor-associated antigens), with results organized into a companion web portal.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/savage-2024-pan-cancer-proteogenomics-expands-landscape-therapeutic.pdf`.
+- Extracted text length: 24,831 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Pan-cancer proteogenomics expands the landscape of therapeutic targets Sara R.
+  - We integrate CPTAC proteogenomics data from 1,043 patients across 10 cancer types with additional public datasets to identify potential therapeutic targets.
+  - Integration of proteomic data from tumors and genetic screen data from cell lines identifies protein overexpression- or hyperactivation-driven druggable dependencies, enabling accurate predictions of effective drug targets.
+  - Proteogenomic identification of synthetic lethality provides a strategy to target tumor suppressor gene loss.
+  - Combining proteogenomic analysis and MHC binding prediction prioritizes mutant KRAS peptides as promising “public” neoantigens.
 
 ## Key Points
 

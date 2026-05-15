@@ -21,6 +21,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic Characterization of Endometrial Carcinoma
 
@@ -31,6 +33,20 @@ DOI: [10.1016/j.cell.2020.01.026](https://doi.org/10.1016/j.cell.2020.01.026)
 ## Summary
 
 This CPTAC study performs proteogenomic characterization of 95 prospectively collected endometrial carcinomas (83 endometrioid, 12 serous) with 49 normal samples, integrating DNA/RNA layers with deep TMT-based proteome plus phosphoproteome and an extensive acetylome survey. The paper reports subtype-linked oncogenic pathway activity (e.g., p53 and Wnt/β-catenin), protein/PTM consequences of somatic drivers, and an immune landscape view that includes immunogenic alterations and antigen presentation defects (notably in MSI tumors).
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/dou-2020-proteogenomic-characterization-endometrial-carcinoma.pdf`.
+- Extracted text length: 19,752 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Resource Proteogenomic Characterization of Endometrial Carcinoma Graphical Abstract Authors Yongchao Dou, Emily A.
+  - Kawaler, Daniel Cui Zhou, ..., Tao Liu, David Fenyö, the Clinical Proteomic Tumor Analysis Consortium Correspondence karin.rodland@pnnl.gov (K.D.R.), lding@wustl.edu (L.D.), bing.zhang@bcm.edu (B.Z.), tao.liu@pnnl.gov (T.L.), david@fenyolab.org (D.F.) In Brief Proteogenomic analyses of prospectively collected endometrial car...
+  - Highlights d Proteogenomics provides new insights into oncogenic signaling in endometrial carcinoma d Global acetylome and phosphoproteome surveys identify new regulatory mechanisms d QKI, circRNAs, and miRNAs form a potential feedback loop to promote EMT d Antigen presentation defects may render MSI tumors resistant to check...
+  - https://doi.org/10.1016/j.cell.2020.01.026 Resource Proteogenomic Characterization of Endometrial Carcinoma Yongchao Dou,1,2,3,32 Emily A.
+  - Louis, MO 63108, USA 8Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99354, USA 9Department of Medicine, NYU School of Medicine, New York, NY 10016, USA 10The Broad Institute of MIT and Harvard, Cambridge, MA 02142, USA 11Department of Translational Molecular Pathology, The University of Tex...
 
 ## Key Points
 

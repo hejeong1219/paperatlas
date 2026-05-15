@@ -23,6 +23,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Phosphoproteomic analysis reveals Smarcb1 dependent EGFR signaling in Malignant Rhabdoid tumor cells.
 
@@ -39,6 +41,20 @@ DOI: [10.1038/ng1180](https://doi.org/10.1038/ng1180)
 **RESULTS**: This study illustrates broad changes in the regulation of multiple biological networks including cell cycle progression, chromatin remodeling, cytoskeletal regulation and focal adhesion. Specifically, we identify Smarcb1 dependent changes in phosphorylation and expression of the EGF receptor, demonstrate downstream signaling and show that inhibition of EGFR signaling specifically hinders the proliferation of Smarcb1 deficient cells.
 
 **CONCLUSIONS**: These results support recent findings regarding the effectivity of EGFR inhibitors in hindering the proliferation of human MRT cells and demonstrate that activation of EGFR signaling in Rhabdoid tumors is SMARCB1 dependent.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/darr-2015-phosphoproteomic-analysis-reveals-smarcb1-dependent.pdf`.
+- Extracted text length: 26,201 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Molecular Cancer (2015) 14:167 DOI 10.1186/s12943-015-0439-5 RESEARCH Open Access Phosphoproteomic analysis reveals Smarcb1 dependent EGFR signaling in Malignant Rhabdoid tumor cells Jonatan Darr1, Agnes Klochendler1, Sara Isaac1, Tami Geiger2 and Amir Eden1* Abstract Background: The SWI/SNF ATP dependent chromatin remodeling...
+  - Methods: We present a phosphoproteomic study of Smarcb1 dependent changes in signaling networks.
+  - The SILAC (Stable Isotopic Labeling of Amino Acids in Cell Culture) protocol was used to quantify in an unbiased manner any changes in the phosphoproteomic profile of Smarcb1 deficient murine rhabdoid tumor cell lines following Smarcb1 stable re-expression and under different serum conditions.
+  - Specifically, we identify Smarcb1 dependent changes in phosphorylation and expression of the EGF receptor, demonstrate downstream signaling and show that inhibition of EGFR signaling specifically hinders the proliferation of Smarcb1 deficient cells.
+  - Conclusions: These results support recent findings regarding the effectivity of EGFR inhibitors in hindering the proliferation of human MRT cells and demonstrate that activation of EGFR signaling in Rhabdoid tumors is SMARCB1 dependent.
 
 ## Key Points
 

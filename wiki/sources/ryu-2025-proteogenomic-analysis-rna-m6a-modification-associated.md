@@ -20,6 +20,8 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic Analysis on RNA m6A Modification-Associated Genes Identifies a Distinct Subgroup with High IGF2BPs Expression Across Cancer Types.
 
@@ -35,6 +37,20 @@ Background: RNA N6-methyladenosine (m6A) modification is a key epitranscriptomic
 
 - Extraction status: PDF downloaded; exact proteome/phosphoproteome/acetylome identification counts still require full-text and supplement review.
 - Fields to extract: protein/protein-group count, phosphosite/phosphopeptide count, acetylsite/acetylated-peptide count, enrichment method, LC-MS/MS platform, instrument, search software, and count-unit caveats.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/ryu-2025-proteogenomic-analysis-rna-m6a-modification-associated.pdf`.
+- Extracted text length: 26,396 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - doi: 10.7150/ijms.115609 Research Paper Proteogenomic Analysis on RNA m6A Modification- Associated Genes Identifies a Distinct Subgroup with High IGF2BPs Expression Across Cancer Types Yebin Ryu1,2, Eunhyong Chang1,2, Hayoon Park3, Sung-Yup Cho4,5,6, Joon-Yong An1,2,3 1.
+  - Methods: We conducted a pan-cancer proteogenomic analysis of m6A-dependent mechanisms using multi-omics datasets from the Clinical Proteomic Tumor Analysis Consortium, utilizing genomic, transcriptomic, proteomic, and phosphoproteomic data.
+  - The IGF2BP-H subgroup exhibited enhanced cell cycle activity, which was supported by concordant transcriptomic, proteomic, and phosphoproteomic signatures.
+  - Immune deconvolution revealed reduced CD8+ T cell infiltration in IGF2BP-H tumors, suggesting a less inflamed microenvironment and potentially diminished responsiveness to immunotherapy.
+  - 22 3816 governs key processes in gene expression, such as IGF2BPs also shaped the tumor microenvironment by mRNA splicing, translation, stability, and promoting immunosuppressive features and translocation, ultimately shaping the functional influencing responses to immunotherapy.
 
 ## Key Points
 

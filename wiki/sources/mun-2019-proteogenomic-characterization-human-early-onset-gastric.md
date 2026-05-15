@@ -22,6 +22,8 @@ themes:
   - "ptm-correction"
   - "kinase-signaling"
   - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # Proteogenomic Characterization of Human Early-Onset Gastric Cancer.
 
@@ -32,6 +34,20 @@ DOI: [10.1016/j.ccell.2018.12.003](https://doi.org/10.1016/j.ccell.2018.12.003)
 ## Summary
 
 We report proteogenomic analysis of diffuse gastric cancers (GCs) in young populations. Phosphoproteome data elucidated signaling pathways associated with somatic mutations based on mutation-phosphorylation correlations. Moreover, correlations between mRNA and protein abundances provided potential oncogenes and tumor suppressors associated with patient survival. Furthermore, integrated clustering of mRNA, protein, phosphorylation, and N-glycosylation data identified four subtypes of diffuse GCs. Distinguishing these subtypes was possible by proteomic data. Four subtypes were associated with proliferation, immune response, metabolism, and invasion, respectively; and associations of the subtypes with immune- and invasion-related pathways were identified mainly by phosphorylation and N-glycosylation data. Therefore, our proteogenomic analysis provides additional information beyond genomic analyses, which can improve understanding of cancer biology and patient stratification in diffuse GCs.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/mun-2019-proteogenomic-characterization-human-early-onset-gastric.pdf`.
+- Extracted text length: 18,580 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article Proteogenomic Characterization of Human Early- Onset Gastric Cancer Graphical Abstract Authors Dong-Gi Mun, Jinhyuk Bhin, Sangok Kim, ..., Sanghyuk Lee, Sang-Won Lee, Daehee Hwang Correspondence eunyang@kist.re.kr (E.G.Y.), hkim@ncc.re.kr (H.K.K.), eunokpaek@hanyang.ac.kr (E.P.), sanghyuk@ewha.ac.kr (S.L.), sw_lee@kor...
+  - perform proteogenomic analysis of diffuse gastric cancers (DGC) in a young population, identifying that correlations of mRNA-protein abundance associate with survival and defining four subtypes of DGC.
+  - The associations of some subtypes with related pathways are identified mainly by the proteomic data.
+  - https://doi.org/10.1016/j.ccell.2018.12.003 Cancer Cell Article Proteogenomic Characterization of Human Early-Onset Gastric Cancer Dong-Gi Mun,1,21 Jinhyuk Bhin,2,3,21 Sangok Kim,4,21 Hyunwoo Kim,5,6,21 Jae Hun Jung,7,21 Yeonjoo Jung,4 Ye Eun Jang,4 Jong Moon Park,8 Hokeun Kim,1 Yeonhwa Jung,4 Hangyeore Lee,1 Jingi Bae,1 Seun...
+  - Phosphoproteome data elucidated signaling pathways associated with somatic mutations based on mutation-phosphorylation correlations.
 
 ## Key Points
 

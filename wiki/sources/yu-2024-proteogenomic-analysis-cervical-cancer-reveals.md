@@ -29,6 +29,8 @@ tags:
   - acetylproteomics
   - pmid-39578447
 pdf: "raw/inbox/papers/yu-2024-proteogenomic-analysis-cervical-cancer-reveals.pdf"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 # A proteogenomic analysis of cervical cancer reveals therapeutic and biological insights
 
@@ -48,6 +50,20 @@ Comprehensive cervical-cancer proteogenomics resource in 139 Chinese patients in
 - Proteome: TMT-based proteomics plus DIA-based proteomics (DIA reports 11,904 proteins in the main PDF text).
 - Phosphoproteome: reports 41,448 high-confidence phosphosites (7,721 phosphoproteins) detected in the main PDF text.
 - Acetylome: reports 5,749 high-confidence acetylation sites (2,456 acetylproteins) detected in the main PDF text.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/yu-2024-proteogenomic-analysis-cervical-cancer-reveals.pdf`.
+- Extracted text length: 135,505 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Article https://doi.org/10.1038/s41467-024-53830-0 A proteogenomic analysis of cervical cancer reveals therapeutic and biological insights Received: 10 November 2023 Jing Yu1,2,16, Xiuqi Gui3,16, Yunhao Zou 4,5,16, Qian Liu6,16, Zhicheng Yang 5,6, Jusheng An1, Xuan Guo3,5, Kaihua Wang4,5, Jiaming Guo5,6, Manni Huang1, Accepte...
+  - Here, we perform a com- prehensive proteogenomic proﬁling of CC tumors obtained from 139 Chinese women.
+  - Integrated proteogenomic analysis links genetic aberrations to downstream pathogenesis-related pathways and reveals the landscape of HPV- associated multi-omic changes.
+  - Proteomic stratiﬁcation identiﬁes three patient subgroups with distinct fea- tures in prognosis, genetic alterations, immune inﬁltration, and post- translational modiﬁcation regulations.
+  - Some patients do not beneﬁt optimally from radiotherapy numerous other cancers lacking direct etiological association with because of radio-resistance, and the prognosis for those with persis- virus infection, persistent human papillomavirus (HPV) infection is the tent, recurrent, or metastatic CC is poor.
 
 ## Key Points
 

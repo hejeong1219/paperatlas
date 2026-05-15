@@ -48,6 +48,8 @@ tags:
   - wgs
   - phosphoproteomics
   - molecular-oncology-2026
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
 ---
 
 # Integrated genomic and proteomic profiling reveals insights into chemoradiation resistance in cervical cancer
@@ -57,6 +59,20 @@ _Molecular Oncology 20:709–726, 2026 (Institute of Bioinformatics, Bengaluru +
 ## Summary
 
 Sambath, George 등은 인도 자궁경부암 환자 36명(stage IIIB squamous, HPV-positive)에 대해 WGS(n=26: 15 paired + 10 unpaired) + WES(n=10 paired) 기반 첫 comprehensive somatic genome alteration 분석을 보고했다. 동시에 동일 코호트 일부(n=10: 5 sensitive + 5 resistant)에서 TMT 기반 global proteome(8,373 proteins identified / 7,138 quantified)을 측정하고 동일 코호트의 앞서 발표된 phosphoproteome 데이터([38])와 통합했다. 환자는 cisplatin-based CCRT(concurrent chemoradiation therapy) 후 RECIST 1.1로 sensitive 19명 vs resistant 17명으로 분류되었다. 핵심 보고: (i) 변이 분포가 PIK3CA/KMT2D/FBXW7/KMT2C/NOTCH1 등 기존 cervical cancer driver와 대체로 일치하나 KMT2D/KMT2C/CASP8가 TCGA/Chinese cohort 대비 enriched (Fisher P<0.05), (ii) PIK3CA helical domain hotspot(E542K/E545K) + C2 domain(E453K) 변이 분포가 APOBEC 매개 변이(SBS2 84% / SBS13 92%)와 공존, (iii) sensitive 코호트에 9개 focal amplification, resistant 코호트에는 7p EGFR amplification 한 peak (6 환자)에 집중되며 STK11 SV deletion이 resistant 4명에서 고유하게 나타남, (iv) proteome에서 SERPINB7, **STX3**, LBP, EMILIN2, NQO2가 resistant cohort에서 top 5 상향, STX3는 추가 32명(stage IIB + IIIB) IHC validation 코호트에서 resistant 환자에 일관되게 elevated, (v) CNA-proteome 통합으로 6q/9q/11p/22q trans-acting hotspot 식별(6q 단독으로 >200 proteins 영향), (vi) OncoKB 분류로 EGFR amplification(resistant 6명)이 Level 3 evidence(esophagogastric cetuximab/panitumumab 적응증)에 해당하는 actionable target으로 제시. 통합 결론은 DNA repair pathway hyperactivation(ATM/ATR/BRCA2/RAD50 alteration + CSNK2A1/SMC1A phosphorylation activation + STK11 loss/STX3 upregulation을 통한 PI3K-AKT signaling 강화)이 CCRT resistance 핵심 메커니즘이며, STX3 + STK11이 predictive biomarker로 제안된다.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance.pdf`.
+- Extracted text length: 33,289 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - Integrated genomic and proteomic profiling reveals insights into chemoradiation resistance in cervical cancer Janani Sambath1,2 , Irene A.
+  - Despite the standard concurrent chemoradiother- resistant; proteomics; whole-genome apy (CCRT), 30–40% of patients’ experience treatment failure, sequencing underscoring the need for improved therapeutic strategies.
+  - Understanding Correspondence resistance mechanisms and identifying predictive biomarkers are crucial to P.
+  - We con- Bangalore, Karnataka 560066, India ducted a comprehensive genomic and proteomic analysis to identify molec- Tel: +91 9538043430 ular signatures associated with CCRT.
+  - We identified recurrent mutations E-mail: prashant@ibioinformatics.org, in phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha pacificagrawal@gmail.com isoform (PIK3CA) and histone-lysine N-methyltransferase 2D (KMT2D), and with mutation signature analysis revealing a prevalent DNA R.
 
 ## Key Points
 
