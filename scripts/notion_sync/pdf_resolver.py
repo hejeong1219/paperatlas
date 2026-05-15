@@ -78,6 +78,7 @@ def resolve_with_doi(ref, out_dir):
             result["downloaded"] = True
             result["pdf_path"] = str(out_path)
             result["via"] = f"ezproxy: {info}"
+            return result
     else:
         result["tried"].append({"src": "ezproxy", "ok": False, "msg": "no cookies file"})
 
