@@ -10,7 +10,9 @@
     "he-2025-proteogenomic-gene-signature-defines-prognostic",
     "ji-2025-proteogenomic-characterization-non-functional-pancreatic-neuroendocrine",
     "jiang-2025-deciphering-dark-cancer-phosphoproteome-using",
-    "liu-2025-multimodal-fusion-radio-pathology-proteogenomics-identify"
+    "liu-2025-multimodal-fusion-radio-pathology-proteogenomics-identify",
+    "jin-2026-deciphering-mediated-phosphorylated-alterations-cancer-related",
+    "oh-2024-tdxd-cgas-sting-gastric-cancer"
   ],
   "pmids": [
     "40749681",
@@ -22,7 +24,9 @@
     "41402890",
     "40185092",
     "40113755",
-    "40222975"
+    "40222975",
+    "41905699",
+    "39449023"
   ],
   "history": [
     {
@@ -97,6 +101,21 @@
         {
           "slug": "liu-2025-multimodal-fusion-radio-pathology-proteogenomics-identify",
           "pmid": "40222975"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "version": "split-stage-v1",
+      "ts": "1779238834.836199",
+      "posted": [
+        {
+          "slug": "jin-2026-deciphering-mediated-phosphorylated-alterations-cancer-related",
+          "pmid": "41905699"
+        },
+        {
+          "slug": "oh-2024-tdxd-cgas-sting-gastric-cancer",
+          "pmid": "39449023"
         }
       ]
     }
