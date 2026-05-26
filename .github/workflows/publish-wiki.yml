@@ -20,8 +20,10 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Download repository archive
+        run: |
+          curl -L "https://github.com/${{ github.repository }}/archive/${{ github.sha }}.tar.gz" -o repo.tar.gz
+          tar -xzf repo.tar.gz --strip-components=1
 
       - name: Setup Node
         uses: actions/setup-node@v4
