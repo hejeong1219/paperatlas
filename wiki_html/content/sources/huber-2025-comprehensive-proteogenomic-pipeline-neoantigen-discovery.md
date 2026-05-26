@@ -75,7 +75,7 @@ NeoDisc is an end-to-end proteogenomic workflow that integrates immunopeptidomic
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - Cancer Multiomics 요약: [Huber 2025 - NeoDisc Proteogenomic Neoantigen Pipeline](../analyses/cancer-multiomics-literature/huber-2025-neodisc-neoantigen-pipeline.md)
 - [B-Cell Neoantigen Proposal Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
 - [B-Cell Neoantigen Research Map](../topics/b-cell-neoantigen-human-cancer.md)

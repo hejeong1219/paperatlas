@@ -360,7 +360,7 @@
 99. 교수님께 공유할 때 가장 먼저 보여줘야 하는 plot과 가장 먼저 읽혀야 하는 explanation은 무엇인가?
 100. 독자가 methods를 읽고 스스로 count/method caveat를 판단하려면 무엇을 알아야 하는가?
 
-## Topic 4: Cancer Multiomics Literature Monitor (100)
+## Topic 4: Cancer Multiomics Proteogenomic Atlas (100)
 
 1. 이 논문이 다루는 임상 맥락은 무엇인가(암종, 치료제 class, 라인, 반응 라벨)?
 2. primary resistance와 acquired resistance를 논문은 어떤 기준으로 구분하는가(시간/시점/정의)?
@@ -475,7 +475,7 @@
 - [B-Cell Neoantigen Research Map](../topics/b-cell-neoantigen-human-cancer.md)
 - [Immunotherapy Resistance and Immune Evasion](../topics/immunotherapy-resistance-and-immune-evasion.md)
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

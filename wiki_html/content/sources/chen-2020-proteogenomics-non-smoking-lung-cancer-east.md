@@ -136,7 +136,7 @@ Chen et al. build a deep proteogenomic map of treatment-naive, predominantly ear
 - [Drug Response Proof-of-Concept with Global Proteome, Phosphoproteome, and Somatic SNV](../analyses/drug-response-poc-global-phospho-somatic-snv.md)
 - [Drug Response Phospho-Global 100-PDF Bulk Ingest](../analyses/drug-response-phospho-global-100-bulk-ingest.md)
 - [Drug Response Phospho-Global Proteomics Corpus Queue](../analyses/drug-response-phospho-global-100-corpus-queue.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - Cancer Multiomics summary: [Chen 2020 - Non-Smoking Lung Cancer Proteogenomics](../analyses/cancer-multiomics-literature/chen-2020-non-smoking-lung-cancer-proteogenomics.md)
 

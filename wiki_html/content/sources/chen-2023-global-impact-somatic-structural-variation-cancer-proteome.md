@@ -54,7 +54,7 @@ Using public-domain mass-spectrometry proteomics combined with whole-genome sequ
 - [Pan-Cancer](../cancers/pan-cancer.md)
 - [Proteogenomic characterization of 2002 human cancers reveals pan-cancer molecular subtypes and associated pathways](./zhang-2022-proteogenomic-characterization-2002-human-cancers.md)
 - [Mapping the functional network of human cancer through machine learning and pan-cancer proteogenomics](./shi-2025-functional-network-human-cancer-proteogenomics.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Chen 2023 - SV Breakpoints → Protein Consequences (Pan-cancer WGS+Proteomics)](../analyses/cancer-multiomics-literature/chen-2023-global-impact-somatic-structural-variation-cancer-proteome.md)
 
 ## Sources

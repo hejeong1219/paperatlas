@@ -80,7 +80,7 @@ This section was added for the interactive atlas on recent multi-omics proteomic
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics brief: Dou 2020](../analyses/cancer-multiomics-literature/dou-2020-proteogenomic-characterization-endometrial-carcinoma.md)
 
 ## Sources

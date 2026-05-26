@@ -72,7 +72,7 @@ To elucidate the deregulated functional modules that drive clear cell renal cell
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Clark 2019 - ccRCC CPTAC Proteogenomics (Tumor+NAT; immune subtypes)](../analyses/cancer-multiomics-literature/clark-2019-integrated-proteogenomic-characterization-clear-cell.md)
 
 ## Sources

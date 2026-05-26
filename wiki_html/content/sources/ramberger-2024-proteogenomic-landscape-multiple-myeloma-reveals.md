@@ -76,7 +76,7 @@ Multiple myeloma (MM) is a plasma cell malignancy of the bone marrow. Despite th
 ## Connections
 
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics brief: Ramsberger 2024](../analyses/cancer-multiomics-literature/ramberger-2024-proteogenomic-landscape-multiple-myeloma-reveals.md)
 
 ## Sources

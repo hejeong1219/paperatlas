@@ -152,7 +152,7 @@ This CPTAC Cancer Cell study profiles 108 HPV-negative HNSCC tumors and shows ho
 ## Connections
 
 - [Drug Response Proof-of-Concept with Global Proteome, Phosphoproteome, and Somatic SNV](../analyses/drug-response-poc-global-phospho-somatic-snv.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Immunotherapy Resistance and Immune Evasion](../topics/immunotherapy-resistance-and-immune-evasion.md)
 - [Huang 2021 - HPV-Negative HNSCC Proteogenomics](../analyses/cancer-multiomics-literature/huang-2021-hnscc-proteogenomics.md)

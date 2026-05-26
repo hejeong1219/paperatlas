@@ -68,7 +68,7 @@ Wilms tumor (WT), the most common pediatric renal malignancy, exhibits a relativ
 ## Connections
 
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)

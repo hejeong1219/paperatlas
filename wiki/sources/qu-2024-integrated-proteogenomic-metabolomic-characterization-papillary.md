@@ -65,7 +65,7 @@ Multi-omics papillary-thyroid-cancer (PTC) resource in 102 Chinese patients inte
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 
 ## Sources

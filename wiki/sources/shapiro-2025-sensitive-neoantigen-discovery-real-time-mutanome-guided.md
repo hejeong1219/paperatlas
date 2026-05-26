@@ -52,7 +52,7 @@ NeoDiscMS extends the NeoDisc clinical antigen discovery pipeline to enable real
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [B-Cell Neoantigen Research Map](../topics/b-cell-neoantigen-human-cancer.md)
 
 ## Sources

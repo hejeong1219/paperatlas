@@ -69,7 +69,7 @@ This section was added for the interactive atlas on recent multi-omics proteomic
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - Cancer Multiomics 요약: [Li 2023 - Pan-Cancer Driver-to-Functional-State Proteogenomics](../analyses/cancer-multiomics-literature/li-2023-pan-cancer-driver-functional-states.md)
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)

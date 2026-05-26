@@ -42,7 +42,7 @@ _Awaiting deep-dive._ Notion 메모: MolGene-E는 diseased single-cell transcrip
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics Corpus Queue](../analyses/cancer-multiomics-corpus-queue.md)
 
 ## Sources

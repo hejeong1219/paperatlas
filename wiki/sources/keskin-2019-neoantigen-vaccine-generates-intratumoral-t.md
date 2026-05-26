@@ -51,7 +51,7 @@ Neoantigens, which are derived from tumour-specific protein-coding mutations, ar
 
 - [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
 - [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics brief: Keskin 2019](../analyses/cancer-multiomics-literature/keskin-2019-neoantigen-vaccine-generates-intratumoral-t.md)
 
 ## Sources

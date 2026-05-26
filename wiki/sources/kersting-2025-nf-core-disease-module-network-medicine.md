@@ -40,7 +40,7 @@ _Awaiting deep-dive._ Notion 메모: nf-core Nextflow 파이프라인으로 dise
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics Corpus Queue](../analyses/cancer-multiomics-corpus-queue.md)
 
 ## Sources

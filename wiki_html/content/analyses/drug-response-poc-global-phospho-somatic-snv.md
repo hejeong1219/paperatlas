@@ -306,7 +306,7 @@ tags:
 ## Connections
 
 - [100-Question Wiki Expansion Sprint](100-question-wiki-expansion-sprint.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Kinase Activity Inference Under PTM Correction](../syntheses/kinase-activity-inference-under-ptm-correction.md)
 - [PTM Correction and Kinase Signaling Question Bank](ptm-correction-kinase-signaling-question-bank.md)

@@ -43,7 +43,7 @@ _Awaiting deep-dive._ Notion 메모: 서로 다른 RNA assay/platform을 통합�
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics Corpus Queue](../analyses/cancer-multiomics-corpus-queue.md)
 
 ## Sources

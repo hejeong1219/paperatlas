@@ -136,7 +136,7 @@ For the user's global proteome + phosphoproteome + somatic SNV drug-response pro
 
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
 - [Multiomics PTM Corpus Queue](../analyses/multiomics-ptm-corpus-queue.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Drug Response Proof-of-Concept with Global Proteome, Phosphoproteome, and Somatic SNV](../analyses/drug-response-poc-global-phospho-somatic-snv.md)
 - [Drug Response Phospho-Global 100-PDF Bulk Ingest](../analyses/drug-response-phospho-global-100-bulk-ingest.md)
 

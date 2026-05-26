@@ -94,7 +94,7 @@ Jiang et al (CUHK + Tencent AI Lab + Peking U + Zunyi Medical) introduce **3Diso
 
 - [Awasthi 2026 – PEXMap proteogenomic exon/isoform mapping](./awasthi-2026-pexmap-proteogenomic-exon-isoform-mapping.md) — complementary tool: PEXMap maps MS/MS peptides to exon/EXj on annotated isoforms; 3DisoGalaxy supplies the translation-supported isoform reference + structural context to interpret which mappings matter.
 - [Jiang 2025 – Dark Cancer Phosphoproteome](./jiang-2025-deciphering-dark-cancer-phosphoproteome-using.md) — both papers (different Jiang) build hypothesis-generating annotation layers on top of cancer proteomics, with explicit framing of evidence constraints.
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md) — topic hub (Section 1, Proteogenomics 통합 기반).
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md) — topic hub (Section 1, Proteogenomics 통합 기반).
 
 ## Sources
 

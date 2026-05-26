@@ -58,7 +58,7 @@ Phase 1 human urothelial cancer study showing that personalized neoantigen vacci
 
 - [B-Cell Neoantigen Proposal Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
 - [B-Cell Neoantigen Research Map](../topics/b-cell-neoantigen-human-cancer.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Neoantigen Discovery Pipelines](../concepts/neoantigen-discovery-pipelines.md)
 - [Proteogenomic analysis reveals RNA as a source for tumor-agnostic neoantigen identification](./nature-2023-rna-source-tumor-agnostic-neoantigen-identification.md)
 - [Personalized neoantigen vaccine and pembrolizumab in advanced hepatocellular carcinoma: a phase 1/2 trial](./yarchoan-2024-personalized-neoantigen-vaccine-and-pembrolizumab.md)

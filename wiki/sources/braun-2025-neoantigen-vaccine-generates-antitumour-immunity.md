@@ -52,7 +52,7 @@ DOI: [10.1038/s41586-024-08507-5](https://doi.org/10.1038/s41586-024-08507-5)
 
 - [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
 - [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

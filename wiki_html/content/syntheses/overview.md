@@ -38,7 +38,7 @@ This wiki is a persistent knowledge base intended to accumulate structured under
 - [B-Cell Neoantigen Pipeline in Human Cancer](../analyses/b-cell-neoantigen-pipeline-human-cancer-corpus.md)
 - [Neoantigen Discovery Pipelines](../concepts/neoantigen-discovery-pipelines.md)
 - [B Cells and Tertiary Lymphoid Structures](../concepts/b-cells-and-tertiary-lymphoid-structures.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Drug Response Proof-of-Concept with Global Proteome, Phosphoproteome, and Somatic SNV](../analyses/drug-response-poc-global-phospho-somatic-snv.md)
 - [Drug Response Phospho-Global Proteomics Corpus Queue](../analyses/drug-response-phospho-global-100-corpus-queue.md)
 

@@ -891,7 +891,7 @@ def write_stub_md(cand, judgment, pdf_status, pdf_path, pdf_attempts):
         "",
         "## Connections",
         "",
-        "- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)",
+        "- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)",
         "",
         "## Sources",
         "",

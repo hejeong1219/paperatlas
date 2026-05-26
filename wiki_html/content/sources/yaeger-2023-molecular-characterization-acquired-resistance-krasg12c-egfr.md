@@ -67,7 +67,7 @@ DOI: [10.1158/2159-8290.CD-22-0405](https://doi.org/10.1158/2159-8290.CD-22-0405
 
 - [Resistance Topic Hub](../topics/immunotherapy-resistance-and-immune-evasion.md)
 - [Resistance Anchor](../analyses/cancer-resistance-manuscript-anchor.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics brief: Yaeger 2023](../analyses/cancer-multiomics-literature/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr.md)
 
 ## Sources

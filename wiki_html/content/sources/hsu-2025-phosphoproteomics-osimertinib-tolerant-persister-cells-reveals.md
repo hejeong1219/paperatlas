@@ -100,7 +100,7 @@ The authors used Fe-IMAC phosphopeptide enrichment, Orbitrap Fusion Lumos DIA ac
 
 - [Drug Response Proof-of-Concept with Global Proteome, Phosphoproteome, and Somatic SNV](../analyses/drug-response-poc-global-phospho-somatic-snv.md)
 - [Drug Response Phospho-Global Proteomics Corpus Queue](../analyses/drug-response-phospho-global-100-corpus-queue.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Osimertinib Resistance and Immune Remodeling](../concepts/osimertinib-resistance-and-immune-remodeling.md)
 - [EGFR-Mutant NSCLC and Immunotherapy Mismatch](../concepts/egfr-mutant-nsclc-and-immunotherapy-mismatch.md)

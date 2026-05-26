@@ -41,7 +41,7 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - Cancer Multiomics 요약: [Wen 2020 - NeoFlow Proteogenomic Neoantigen Prioritization](../analyses/cancer-multiomics-literature/wen-2020-neoflow-neoantigen-prioritization.md)
 - [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
 - [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)

@@ -81,7 +81,7 @@ Awasthi, Verma & Pandit (IISER Mohali) introduce **PEXMap** (PeptideEXonMapper),
 - [Wen 2020 – NeoFlow Proteogenomic Neoantigen Prioritization](../analyses/cancer-multiomics-literature/wen-2020-neoflow-neoantigen-prioritization.md) — natural upstream pipeline; PEXMap adds isoform-resolution post-annotation.
 - [Huber 2025 – NeoDisc Proteogenomic Neoantigen Pipeline](../analyses/cancer-multiomics-literature/huber-2025-neodisc-neoantigen-pipeline.md) — clinical-grade neoantigen pipeline that could ingest PEXMap EXj evidence for splice-junction antigen hypotheses.
 - [Chong 2022 – Identification of Tumor Antigens with Immunopeptidomics](../analyses/cancer-multiomics-literature/chong-2022-identification-tumor-antigens-immunopeptidomics.md) — review on noncanonical antigen FDR control; relevant for any splice-junction antigen pipeline that would use PEXMap.
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md) — topic hub (Section 1, Proteogenomics 통합 기반).
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md) — topic hub (Section 1, Proteogenomics 통합 기반).
 
 ## Sources
 

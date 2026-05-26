@@ -165,7 +165,7 @@ Krug et al. profile prospectively collected, treatment-naive breast tumors under
 - [Drug Response Proof-of-Concept with Global Proteome, Phosphoproteome, and Somatic SNV](../analyses/drug-response-poc-global-phospho-somatic-snv.md)
 - [Drug Response Phospho/Global 100-Paper Bulk Ingest Tracker](../analyses/drug-response-phospho-global-100-bulk-ingest.md)
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Proteogenomics connects somatic mutations to signalling in breast cancer](mertins-2016-proteogenomics-somatic-mutations-signalling-breast-cancer.md)
 - [Proteogenomic markers of chemotherapy resistance and response in TNBC](anurag-2022-proteogenomic-markers-chemotherapy-resistance-response.md)
 - [Proteogenomic analysis of the CALGB 40601 HER2+ breast cancer neoadjuvant trial reveals resistance biomarkers](jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance.md)

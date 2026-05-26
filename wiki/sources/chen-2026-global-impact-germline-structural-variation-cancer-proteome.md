@@ -136,7 +136,7 @@ CPTAC 11개 종양형 1,637명의 normal sample paired WGS·RNA-seq·정량 단�
 ## Connections
 
 - [Cancer Multiomics Corpus Queue (Target=100)](../analyses/cancer-multiomics-corpus-queue.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Chen 2023 — Global impact of somatic structural variation on the cancer proteome](./chen-2023-global-impact-somatic-structural-variation-cancer-proteome.md) (자매 논문, somatic SV → 단백체 cis-effect)
 - [Martins Rodrigues 2025 — CPTAC pan-cancer germline SNP impact study](./martins-rodrigues-2025-pan-cancer-germline-variant.md) (germline SNP/짧은 변이체 대응 분석; SNP 측면)
 

@@ -64,7 +64,7 @@ Large primary-versus-metastatic colorectal-cancer (CRC) proteogenomics study tha
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

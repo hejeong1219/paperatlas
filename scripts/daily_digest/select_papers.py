@@ -46,9 +46,14 @@ SCRNA_SPATIAL_RE = re.compile(
 )
 
 # Key Points placeholder 패턴 — 아직 deep-dive 안 된 논문은 활용 line 부실해질
-# 위험이 커서 후보에서 제외. "_To be filled", "_Awaiting deep-dive" 둘 다 잡음.
-KP_PLACEHOLDER_RE = re.compile(r"_to be filled|_awaiting deep.dive|awaiting deep.dive",
-                                re.IGNORECASE)
+# 위험이 커서 후보에서 제외. 구 포맷("_To be filled", "_Awaiting deep-dive")과
+# batch-ingest 자동생성 포맷("_Key claims to be filled in from full text. This page
+# was created automatically as a placeholder._") 둘 다 잡아야 함.
+KP_PLACEHOLDER_RE = re.compile(
+    r"_to be filled|_awaiting deep.dive|awaiting deep.dive"
+    r"|to be filled in from full text|created automatically as a placeholder"
+    r"|key claims to be filled",
+    re.IGNORECASE)
 
 # Tier 1 — phosphoproteome × drug response / kinase × targeted therapy
 TIER1 = {"phosphoproteomics", "ptm", "kinase-signaling", "ppqtl",

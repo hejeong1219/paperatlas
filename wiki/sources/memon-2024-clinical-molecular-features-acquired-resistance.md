@@ -46,7 +46,7 @@ Although immunotherapy with PD-(L)1 blockade is routine for lung cancer, little 
 
 - [Resistance Topic Hub](../topics/immunotherapy-resistance-and-immune-evasion.md)
 - [Resistance Anchor](../analyses/cancer-resistance-manuscript-anchor.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - Cancer Multiomics brief: [Memon 2024 - Acquired Resistance to PD-(L)1 Blockade in NSCLC](../analyses/cancer-multiomics-literature/memon-2024-clinical-molecular-features-acquired-resistance.md)
 
 ## Sources

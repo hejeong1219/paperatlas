@@ -332,7 +332,7 @@ _사용자 노션 메모 (출처: [<notion_url>](<notion_url>)):_
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

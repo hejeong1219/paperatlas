@@ -75,7 +75,7 @@ Prostate cancer is frequently treated with radiotherapy. Unfortunately, aggressi
 ## Connections
 
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

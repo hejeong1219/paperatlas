@@ -328,7 +328,7 @@ This chain separates three layers: **established evidence**, **unresolved possib
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics Literature 50-Question Sprint](cancer-multiomics-50q-sprint-2026-05.md)
 - [Drug Response Proof-of-Concept with Global Proteome, Phosphoproteome, and Somatic SNV](drug-response-poc-global-phospho-somatic-snv.md)
 - [Cancer Resistance Manuscript Anchor](cancer-resistance-manuscript-anchor.md)
@@ -337,7 +337,7 @@ This chain separates three layers: **established evidence**, **unresolved possib
 
 ## Sources
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics Literature 50-Question Sprint](cancer-multiomics-50q-sprint-2026-05.md)
 - [Drug Response Proof-of-Concept with Global Proteome, Phosphoproteome, and Somatic SNV](drug-response-poc-global-phospho-somatic-snv.md)
 - [Cancer Resistance Manuscript Anchor](cancer-resistance-manuscript-anchor.md)

@@ -126,7 +126,7 @@ Sambath, George 등은 인도 자궁경부암 환자 36명(stage IIIB squamous, 
 ## Connections
 
 - [Yu 2024 — Cervical Cancer Proteogenomics (Phospho + Acetyl + Radioresponse)](../analyses/cancer-multiomics-literature/yu-2024-proteogenomic-analysis-cervical-cancer-reveals.md) — 자궁경부암 proteogenomics + radioresponse biomarker(PRKCB) 사례; 본 논문(Indian cohort)과 다른 모집단(Chinese cohort) + 다른 데이터 stack(WES vs WGS+WES).
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md) — topic hub (Section 1, Proteogenomics 통합 기반).
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md) — topic hub (Section 1, Proteogenomics 통합 기반).
 
 ## Sources
 

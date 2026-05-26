@@ -40,7 +40,7 @@ _Awaiting deep-dive._ Notion 메모: 림프절 stromal CCR7 ligand (CCL19/CCL21)
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Cancer Multiomics Corpus Queue](../analyses/cancer-multiomics-corpus-queue.md)
 
 ## Sources

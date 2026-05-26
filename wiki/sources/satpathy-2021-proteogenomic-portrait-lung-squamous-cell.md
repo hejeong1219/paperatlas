@@ -180,7 +180,7 @@ Satpathy et al. provide a CPTAC lung squamous cell carcinoma (LSCC) atlas where 
 - [Drug Response Proof-of-Concept with Global Proteome, Phosphoproteome, and Somatic SNV](../analyses/drug-response-poc-global-phospho-somatic-snv.md)
 - [Drug Response Phospho/Global 100-Paper Bulk Ingest Tracker](../analyses/drug-response-phospho-global-100-bulk-ingest.md)
 - [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma](gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities.md)
 - [Proteogenomics of Non-smoking Lung Cancer in East Asia](chen-2020-proteogenomics-non-smoking-lung-cancer-east.md)
 - [Proteogenomic insights into the biology and treatment of HPV-negative head and neck squamous cell carcinoma](huang-2021-proteogenomic-insights-biology-treatment-hpv-negative.md)

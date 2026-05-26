@@ -127,7 +127,7 @@ Sinitcyn, Richards 등은 ENCODE 6개 세포주(H1-hESC, HeLa S3, HepG2, GM12878
 - [Lehe 2026 — MS Instrumentation for Alternative Protein Isoforms (Review)](./lehe-2026-mass-spectrometry-alternative-protein-isoforms-review.md) — Sheynkman lab 리뷰가 본 논문(Sinitcyn 2023)을 "ultra-deep DDA / 4,608 AS events" 대표 사례로 인용. AS 검출 acquisition 매트릭스에서 본 논문이 DDA-deep 축의 reference benchmark로 기록되어 있음.
 - [Awasthi 2026 — PEXMap (k-mer Exon/Isoform Peptide Mapping)](./awasthi-2026-pexmap-proteogenomic-exon-isoform-mapping.md) — PSM ↔ exon/transcript 매핑 도구. 본 deep proteome reference에 PEXMap 적용 시 exon-level / EXj-level 해상도 확장 가능(별도 검증 필요).
 - [Jiang 2026 — 3DisoGalaxy Breast Cancer Isoform Foldome Atlas](./jiang-2026-3disogalaxy-breast-cancer-isoform-foldome.md) — translation-supported isoform atlas. 본 논문이 ENCODE에서 보고한 AS 양방향 검출률 18.6%는 유방암 코호트의 translation-supported ORF set과 직접 비교 가능한 baseline 수치.
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md) — topic hub (Section 7, Methodology / Resource Atlases).
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md) — topic hub (Section 7, Methodology / Resource Atlases).
 
 ## Sources
 

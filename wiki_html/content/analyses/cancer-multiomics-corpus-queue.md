@@ -167,7 +167,7 @@ Notion 'Cancer Multiomics > 참고 논문 및 아이디어' 27편 + OpenAlex cit
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

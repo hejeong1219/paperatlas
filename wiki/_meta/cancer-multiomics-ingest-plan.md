@@ -127,7 +127,7 @@ _Awaiting deep-dive._ Notion 메모: <한줄요약 from Notion>
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - <기타 관련 concept hub>
 
 ## Sources

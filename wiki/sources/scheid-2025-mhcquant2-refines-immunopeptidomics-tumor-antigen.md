@@ -50,7 +50,7 @@ MHCquant2 is an open-source, nf-core integrated Nextflow pipeline for scalable i
 
 ## Connections
 
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 - [B-Cell Neoantigen Research Map](../topics/b-cell-neoantigen-human-cancer.md)
 
 ## Sources

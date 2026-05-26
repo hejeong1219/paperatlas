@@ -98,7 +98,7 @@ tags:
 - [Four-Topic Question Expansion Map](topic-question-expansion-map.md)
 - [PTM Correction and Kinase Signaling Question Bank](ptm-correction-kinase-signaling-question-bank.md)
 - [Cancer Multiomics Corpus Queue (Target=100)](cancer-multiomics-corpus-queue.md)
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md)
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
 
 ## Sources
 

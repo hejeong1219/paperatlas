@@ -95,7 +95,7 @@ This is a methodology review, not a primary research paper. Scope:
 
 - [Awasthi 2026 – PEXMap proteogenomic exon/isoform mapping](./awasthi-2026-pexmap-proteogenomic-exon-isoform-mapping.md) — splice-isoform peptide mapping 도구; 본 리뷰의 splice-junction peptide 검출 workflow와 영역 중첩.
 - [Jiang 2026 – 3DisoGalaxy isoform foldome](./jiang-2026-3disogalaxy-breast-cancer-isoform-foldome.md) — long-read RNA-seq + Ribo-seq 기반 isoform atlas (breast cancer); 본 리뷰가 권장하는 long-read DB build 방향과 영역 중첩.
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md) — topic hub (Section 1, Proteogenomics 통합 기반).
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md) — topic hub (Section 1, Proteogenomics 통합 기반).
 
 ## Sources
 
