@@ -1,0 +1,68 @@
+---
+title: "Integrated proteogenomic analysis for inherited bone marrow failure syndrome."
+authors:
+  - "Wakamatsu"
+  - "Muramatsu"
+  - "Sato"
+year: "2024"
+journal: "Leukemia"
+doi: "10.1038/s41375-024-02263-1"
+pmid: "38740980"
+pmcid: "PMC11147772"
+paper_kind: proteogenomic
+pdf: "raw/inbox/papers/wakamatsu-2024-integrated-proteogenomic-analysis-inherited-bone.pdf"
+topic: ptmanchor
+tags:
+  - "ptmanchor"
+  - "proteomics"
+  - "ptm"
+  - "phosphoproteomics"
+  - "cancer-proteomics"
+  - "pmid-38740980"
+themes:
+  - "ptm-correction"
+  - "kinase-signaling"
+  - "cancer-proteomics"
+batch_ingest_status: pdf-text-extracted
+batch_ingested_on: 2026-05-13
+---
+# Integrated proteogenomic analysis for inherited bone marrow failure syndrome.
+
+_Leukemia, 2024._ PMID: [38740980](https://pubmed.ncbi.nlm.nih.gov/38740980/).
+
+DOI: [10.3324/haematol.2011.057489](https://doi.org/10.3324/haematol.2011.057489)
+
+## Summary
+
+Recent advances in in-depth data-independent acquisition proteomic analysis have enabled comprehensive quantitative analysis of >10,000 proteins. Herein, an integrated proteogenomic analysis for inherited bone marrow failure syndrome (IBMFS) was performed to reveal their biological features and to develop a proteomic-based diagnostic assay in the discovery cohort; dyskeratosis congenita (n = 12), Fanconi anemia (n = 11), Diamond-Blackfan anemia (DBA, n = 9), Shwachman-Diamond syndrome (SDS, n = 6), ADH5/ALDH2 deficiency (n = 4), and other IBMFS (n = 18). Unsupervised proteomic clustering identified eight independent clusters (C1-C8), with the ribosomal pathway specifically downregulated in C1 and C2, enriched for DBA and SDS, respectively. Six patients with SDS had significantly decreased SBDS protein expression, with two of these not diagnosed by DNA sequencing alone. Four patients with ADH5/ALDH2 deficiency showed significantly reduced ADH5 protein expression. To perform a large-scale rapid IBMFS screening, targeted proteomic analysis was performed on 417 samples from patients with IBMFS-related hematological disorders (n = 390) and healthy controls (n = 27). SBDS and ADH5 protein expressions were significantly reduced in SDS and ADH5/ALDH2 deficiency, respectively. The clinical application of this first integrated proteogenomic analysis would be useful for the diagnosis and screening of IBMFS, where appropriate clinical screening tests are lacking.
+
+## Batch PDF Ingest Status
+
+- Status: `pdf-text-extracted` on 2026-05-13.
+- Local PDF: `raw/inbox/papers/wakamatsu-2024-integrated-proteogenomic-analysis-inherited-bone.pdf`.
+- Extracted text length: 49,867 characters.
+- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
+- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
+- High-signal PDF snippets:
+  - www.nature.com/leu Leukemia ARTICLE OPEN ACUTE MYELOID LEUKEMIA Integrated proteogenomic analysis for inherited bone marrow failure syndrome ✉ Manabu Wakamatsu 1, Hideki Muramatsu1 , Hironori Sato 2,3, Masaki Ishikawa2, Ryo Konno2, Daisuke Nakajima2, 1,4 4 ✉ Motoharu Hamada , Yusuke Okuno , Yusuke Kawashima 2 , Asahito Hama 5...
+  - Herein, an integrated proteogenomic analysis for inherited bone marrow failure syndrome (IBMFS) was performed to reveal their biological features and to develop a proteomic-based diagnostic assay in the discovery cohort; dyskeratosis congenita (n = 12), Fanconi anemia (n = 11), Diamond–Blackfan anemia (DBA, n = 9), Shwachman–...
+  - Unsupervised proteomic clustering identiﬁed eight 1234567890();,: independent clusters (C1–C8), with the ribosomal pathway speciﬁcally downregulated in C1 and C2, enriched for DBA and SDS, respectively.
+  - To perform a large-scale rapid IBMFS screening, targeted proteomic analysis was performed on 417 samples from patients with IBMFS-related hematological disorders (n = 390) and healthy controls (n = 27).
+  - The clinical application of this ﬁrst integrated proteogenomic analysis would be useful for the diagnosis and screening of IBMFS, where appropriate clinical screening tests are lacking.
+
+## Key Points
+
+_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+
+
+## Connections
+
+- [Ptmanchor Topic Hub](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
+- [Ptmanchor Anchor](../analyses/ptmanchor-manuscript-anchor.md)
+
+## Sources
+
+- Local PDF: pending acquisition
+- PubMed: <https://pubmed.ncbi.nlm.nih.gov/38740980/>
+- DOI: <https://doi.org/10.3324/haematol.2011.057489>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3436231/>

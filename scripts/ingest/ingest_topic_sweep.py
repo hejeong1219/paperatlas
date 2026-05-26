@@ -125,7 +125,7 @@ def infer_cancer_types(title: str, abstract: str) -> list[str]:
         r"\besophag|oesophag": "esophageal-cancer",
         r"\bsarcoma": "soft-tissue-sarcoma",
         r"\blymphoma|\bdlbcl\b|mantle cell|hodgkin": "lymphoma",
-        r"\bleuk|\baml\b|\ball\b\s|myeloid": "leukemia",
+        r"\bleukemia\b|\baml\b|\bacute myeloid leukemia\b|\bacute lymphoblastic leukemia\b": "leukemia",
         r"\bmyeloma|\bmm\b": "multiple-myeloma",
         r"\bpan.cancer|across cancer|across tumor": "pan-cancer",
         r"\bsolid tumor": "solid-tumors",

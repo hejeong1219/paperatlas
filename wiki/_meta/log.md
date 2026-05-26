@@ -2,6 +2,14 @@
 
 Append-only operational history for this wiki.
 
+## [2026-05-26] ingest | Topic-sweep top-up to close today's 50 new-source target
+
+- Added 8 new `wiki/sources/` pages from a fresh high-impact human-cancer sweep: 5 B-cell / neoantigen-facing papers (`syding-2025`, `sahin-2026`, `wu-2025`, `minati-2025`, `sambanthamoorthy-2026`) and 3 Cancer Multiomics papers (`krossa-2025`, `wang-2025`, `satpathy-2025`).
+- Corrected DOI / PMC metadata for all 8 new stubs against local PDF headers plus PubMed XML before keeping them in the wiki.
+- Fixed `scripts/ingest/update_anchor_links.py` so topic aliases are merged instead of overwriting one another; reran it to restore full `Linked Sources` sections on the B-cell topic/anchor pages and the Cancer Multiomics topic hub.
+- Tightened `scripts/ingest/ingest_topic_sweep.py` cancer-type inference to avoid generic `myeloid` / `all` false positives leaking into leukemia labels.
+- Operationally, this closes the day from 42 committed new source pages to 50 total new source pages in the working tree for 2026-05-26.
+
 ## [2026-05-25] analysis | Refractory gastric cancer resistance-state subtype question pivot
 
 - Refined `wiki/analyses/resistance-state-subtyping-refractory-gastric-cancer.md` around the question of whether a refractory cohort can support **resistance-state subtype** discovery rather than only conventional molecular subtype discovery.

@@ -1,0 +1,52 @@
+---
+title: "NEO-STIM advances personalized neoantigen-specific adoptive T cell therapy."
+authors:
+  - "Lenkala"
+  - "Kohler"
+  - "McCarthy"
+year: "2026"
+journal: "Nature communications"
+doi: "10.1038/s41467-026-68680-1"
+pmid: "41644530"
+pmcid: "PMC13099984"
+paper_kind: research
+pdf: "raw/inbox/papers/lenkala-2026-neo-stim-advances-personalized-neoantigen-specific-adoptive.pdf"
+topic: bcell-neoantigen
+tags:
+  - "bcell-neoantigen"
+  - "neoantigen"
+  - "b-cells"
+  - "tls"
+  - "immunology"
+  - "pmid-41644530"
+themes:
+  - "neoantigen-discovery"
+  - "tls-biology"
+  - "clinical-translation"
+---
+# NEO-STIM advances personalized neoantigen-specific adoptive T cell therapy.
+
+_Nature communications, 2026._ PMID: [41644530](https://pubmed.ncbi.nlm.nih.gov/41644530/).
+
+DOI: [10.1186/s13059-020-02015-1](https://doi.org/10.1186/s13059-020-02015-1)
+
+## Summary
+
+Neoantigen-based adoptive T cell therapies (ACTs) represent a promising avenue in cancer immunotherapy due to their exquisite tumor specificity. The first cell-based immunotherapy for a solid tumor, comprising tumor-infiltrating lymphocytes, recently received FDA approval. Building on this, we designed a distinct ACT approach, where T cell responses against personalized neoantigens are systematically generated from autologous peripheral blood. Here we report the establishment of NEO-STIM, an ex vivo induction process to prime and expand pre-existing memory and de novo CD8+ and CD4+ T cell responses, thereby highlighting critical parameters for generating potent neoantigen-specific T cell responses. The drug products comprise mutant-reactive, polyfunctional, and cytotoxic CD8+ and CD4+ T cells, able to recognize autologous tumor material. Following infusion, T cell responses are detected in tumor and blood of a patient, and display activated/exhausted and cytotoxic phenotypes. A first-in-human clinical trial (NCT04625205) recently further validated proof-of-concept, supporting continued development of this ACT approach.
+
+## Key Points
+
+_Awaiting deep-dive — automated abstract is in the Summary section above. The paper-specific Key Points, Methods, Limitations, and Open Questions will appear here once the full PDF has been read._
+
+
+## Connections
+
+- [Bcell Neoantigen Topic Hub](../topics/b-cell-neoantigen-human-cancer.md)
+- [Bcell Neoantigen Anchor](../analyses/b-cell-neoantigen-proposal-anchor.md)
+
+## Sources
+
+- Local PDF: pending acquisition
+- PubMed: <https://pubmed.ncbi.nlm.nih.gov/41644530/>
+- DOI: <https://doi.org/10.1186/s13059-020-02015-1>
+- PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7212577/>

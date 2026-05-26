@@ -16,13 +16,31 @@ TOPIC_TO_PAGES = {
         Path("wiki/analyses/ptmanchor-manuscript-anchor.md"),
         Path("wiki/topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md"),
     ],
+    "ptm-correction-and-kinase-signaling-in-cancer-proteomics": [
+        Path("wiki/analyses/ptmanchor-manuscript-anchor.md"),
+        Path("wiki/topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md"),
+    ],
     "resistance": [
+        Path("wiki/analyses/cancer-resistance-manuscript-anchor.md"),
+        Path("wiki/topics/immunotherapy-resistance-and-immune-evasion.md"),
+    ],
+    "immunotherapy-resistance-and-immune-evasion": [
         Path("wiki/analyses/cancer-resistance-manuscript-anchor.md"),
         Path("wiki/topics/immunotherapy-resistance-and-immune-evasion.md"),
     ],
     "bcell-neoantigen": [
         Path("wiki/analyses/b-cell-neoantigen-proposal-anchor.md"),
         Path("wiki/topics/b-cell-neoantigen-human-cancer.md"),
+    ],
+    "b-cell-neoantigen-human-cancer": [
+        Path("wiki/analyses/b-cell-neoantigen-proposal-anchor.md"),
+        Path("wiki/topics/b-cell-neoantigen-human-cancer.md"),
+    ],
+    "cancer-multiomics-literature": [
+        Path("wiki/topics/cancer-multiomics-literature.md"),
+    ],
+    "cancer-multiomics": [
+        Path("wiki/topics/cancer-multiomics-literature.md"),
     ],
 }
 
@@ -70,15 +88,21 @@ def upsert_section(text, header, items):
 
 def main():
     by_topic = collect_sources_by_topic()
+    page_to_items = {}
     for topic, items in by_topic.items():
         print(f"{topic}: {len(items)} sources")
         for page in TOPIC_TO_PAGES.get(topic, []):
-            if not page.exists(): continue
-            text = page.read_text()
-            new_text = upsert_section(text, "Linked Sources", sorted(items, key=lambda x: x[1]))
-            if new_text != text:
-                page.write_text(new_text)
-                print(f"  updated {page}")
+            page_to_items.setdefault(page, []).extend(items)
+
+    for page, items in page_to_items.items():
+        if not page.exists():
+            continue
+        deduped = sorted({slug: title for slug, title in items}.items(), key=lambda x: x[1])
+        text = page.read_text()
+        new_text = upsert_section(text, "Linked Sources", deduped)
+        if new_text != text:
+            page.write_text(new_text)
+            print(f"  updated {page} ({len(deduped)} sources)")
 
 
 if __name__ == "__main__":
