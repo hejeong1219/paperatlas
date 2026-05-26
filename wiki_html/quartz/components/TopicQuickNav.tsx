@@ -5,28 +5,39 @@ import style from "./styles/topicQuickNav.scss"
 
 const TOPICS = [
   {
-    id: "ptmanchor",
-    label: "PTM Anchor",
-    color: "#7b5cff",
-    anchor: "analyses/ptmanchor-manuscript-anchor",
-    hub: "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics",
-    description: "PTM-aware cancer proteomics",
+    id: "bcell-neoantigen",
+    label: "B-Cell Neoantigen",
+    color: "#4ecdc4",
+    path: "topics/b-cell-neoantigen-human-cancer",
+    description: "B-cell, TLS, and neoantigen biology",
+  },
+  {
+    id: "cancer-multiomics-literature",
+    label: "Cancer Multiomics Atlas",
+    color: "#176087",
+    path: "topics/cancer-multiomics-literature",
+    description: "Proteogenomic and phosphoproteomic integration",
   },
   {
     id: "resistance",
     label: "Cancer Resistance",
     color: "#ff6b6b",
-    anchor: "analyses/cancer-resistance-manuscript-anchor",
-    hub: "topics/immunotherapy-resistance-and-immune-evasion",
-    description: "Immunotherapy + targeted + endocrine resistance",
+    path: "topics/immunotherapy-resistance-and-immune-evasion",
+    description: "Immune evasion and therapeutic resistance",
   },
   {
-    id: "bcell-neoantigen",
-    label: "B-cell Neoantigen",
-    color: "#4ecdc4",
-    anchor: "analyses/b-cell-neoantigen-proposal-anchor",
-    hub: "topics/b-cell-neoantigen-human-cancer",
-    description: "B-cell + TLS + neoantigen biology",
+    id: "multiomics-proteomics-ptm-identification",
+    label: "PTM Identification",
+    color: "#6c8f6b",
+    path: "topics/multiomics-proteomics-ptm-identification",
+    description: "Proteome, phosphoproteome, and acetylome depth",
+  },
+  {
+    id: "ptmanchor",
+    label: "PTM Signaling",
+    color: "#b76e79",
+    path: "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics",
+    description: "PTM-aware kinase-state interpretation",
   },
 ]
 
@@ -51,7 +62,7 @@ export default (() => {
           {TOPICS.map((t) => (
             <li class="quick-nav-item">
               <a
-                href={resolveRelative(fileData.slug!, t.anchor as any)}
+                href={resolveRelative(fileData.slug!, t.path as any)}
                 class="quick-nav-card"
                 style={{ borderLeftColor: t.color } as any}
               >

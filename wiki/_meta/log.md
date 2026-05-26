@@ -2,6 +2,12 @@
 
 Append-only operational history for this wiki.
 
+## [2026-05-26] naming | Rename Cancer Multiomics topic hub and restore full topic index
+
+- Renamed the public-facing title of `wiki/topics/cancer-multiomics-literature.md` from `Cancer Multiomics Literature Monitor` to `Cancer Multiomics Proteogenomic Atlas` while preserving the stable file slug.
+- Updated `wiki/topics/index.md` so the Topics landing page now lists all five current topic hubs, including the Cancer Multiomics and Multiomics PTM atlas pages that had been omitted.
+- Updated `wiki/_meta/index.md` to use the new Cancer Multiomics topic title and project-facing description.
+
 ## [2026-05-26] ingest | Topic-sweep top-up to close today's 50 new-source target
 
 - Added 8 new `wiki/sources/` pages from a fresh high-impact human-cancer sweep: 5 B-cell / neoantigen-facing papers (`syding-2025`, `sahin-2026`, `wu-2025`, `minati-2025`, `sambanthamoorthy-2026`) and 3 Cancer Multiomics papers (`krossa-2025`, `wang-2025`, `satpathy-2025`).
@@ -887,3 +893,9 @@ Append-only operational history for this wiki.
 - Promoted `wiki/sources/satpathy-2021-proteogenomic-portrait-lung-squamous-cell.md` from batch extracted text to `full-text-read` after re-reading the local 65-page Cell PDF and verifying title/DOI metadata.
 - Replaced the automated source stub with PDF-backed cohort design, assay scale, CNA/methylation effects, five multi-omic subtypes, PDGFRB/ROR2 RTK CBPE, CDK4/6-Rb phosphoproteome logic, NRF2 activity, TP63/SOX2/BIRC5 vulnerability, PTM crosstalk, immune Hot/Warm/Cold landscape, data availability, limitations, and POC relevance.
 - Updated the drug-response POC page, 100-PDF tracker, corpus queue, and page catalog; full-read progress is now 17/100 with 1 wrong-PDF blocker and Quartz sync/build still deferred until the 100-paper ingest/wiki-expansion target is complete.
+
+## [2026-05-26] publishing-ui | Expand TopicQuickNav to all five topic hubs
+
+- Updated the Quartz right-rail `Topics` navigation component to show five public topic hubs instead of the older three-card hardcoded set.
+- Pointed each quick-nav card directly to its topic hub page and aligned the labels/descriptions with the renamed `Cancer Multiomics Proteogenomic Atlas`.
+- Expanded the public home page `Current Topic Collections` section to match the full five-topic navigation set.

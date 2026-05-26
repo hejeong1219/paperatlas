@@ -16,7 +16,9 @@ Topic collections are the main entry point for this atlas. Each topic groups rel
 ## Current Topics
 
 - [B-Cell Neoantigen Research Map](./b-cell-neoantigen-human-cancer.md)
+- [Cancer Multiomics Proteogenomic Atlas](./cancer-multiomics-literature.md)
 - [Immunotherapy Resistance and Immune Evasion](./immunotherapy-resistance-and-immune-evasion.md)
+- [Multiomics Proteomics PTM Identification](./multiomics-proteomics-ptm-identification.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](./ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 
 ## Suggested Use

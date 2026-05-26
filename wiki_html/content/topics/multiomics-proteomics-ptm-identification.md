@@ -1,3 +1,16 @@
+---
+title: Multiomics Proteomics PTM Identification
+tags:
+  - multiomics-proteomics-ptm-identification
+  - proteomics
+  - phosphoproteomics
+  - acetylomics
+themes:
+  - multiomics-identification
+  - ptm-proteomics
+  - atlas
+---
+
 # Multiomics Proteomics PTM Identification
 
 최근 10년간 MS 기반 멀티오믹스 연구에서 단백체, 인산화 단백체, 아세틸 단백체의 identification 규모와 방법론을 비교하기 위한 독립 주제 허브.

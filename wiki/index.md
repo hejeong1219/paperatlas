@@ -21,7 +21,9 @@ Markdown-first paper atlas for building topic collections, concept pages, and cr
 ## Current Topic Collections
 
 - [B-Cell Neoantigen Research Map](./topics/b-cell-neoantigen-human-cancer.md)
+- [Cancer Multiomics Proteogenomic Atlas](./topics/cancer-multiomics-literature.md)
 - [Immunotherapy Resistance and Immune Evasion](./topics/immunotherapy-resistance-and-immune-evasion.md)
+- [Multiomics Proteomics PTM Identification](./topics/multiomics-proteomics-ptm-identification.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](./topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 
 ## Atlas Layers

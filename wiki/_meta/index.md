@@ -184,7 +184,7 @@ Catalog of maintained wiki pages.
 - [Immunotherapy Resistance and Immune Evasion](../topics/immunotherapy-resistance-and-immune-evasion.md) - Curated entry point for checkpoint, CAR-T, and bispecific resistance mechanisms.
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md) - Independent topic hub for recent MS-based proteome, phosphoproteome, and acetylome identification-count atlas work; current visualization corpus covers 82 local-PDF/source-note rows.
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md) - Topic hub for protein-aware PTM interpretation and kinase-signaling inference in cancer proteomics.
-- [Cancer Multiomics Literature Monitor](../topics/cancer-multiomics-literature.md) - Cancer Multiomics-focused high-impact monitor with a fixed “치료/레이어/공개” checklist, candidate PDF shortlist, Slack-ready briefs, the 2026-05 expansion section grouping 45 new AI/Spatial/ecDNA/CAR-T stubs from Notion seeds + OpenAlex citation graph, and a 2026-05-26 top-up of 3 new human-cancer source stubs.
+- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md) - Cancer Multiomics project hub for human-cancer proteogenomics, phosphoproteomics, spatial multiomics, neoantigen, and response-prediction evidence, including the 2026-05 expansion section and the 2026-05-26 top-up of 3 new human-cancer source stubs.
 
 ## Analyses
 

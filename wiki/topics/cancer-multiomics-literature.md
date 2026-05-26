@@ -1,5 +1,5 @@
 ---
-title: Cancer Multiomics Literature Monitor
+title: Cancer Multiomics Proteogenomic Atlas
 tags:
   - cancer-multiomics
   - wgs
@@ -14,9 +14,9 @@ themes:
   - response-prediction
 ---
 
-# Cancer Multiomics Literature Monitor
+# Cancer Multiomics Proteogenomic Atlas
 
-Cancer Multiomics 과제와 연결되는 최신 high-impact 암 단백유전체 논문을 읽고, 전장유전체·인산화단백체·신생항원·면역회피·치료반응 예측 모델 관점에서 교수진에게 공유할 수 있는 형태로 정리하는 topic hub.
+Cancer Multiomics 과제의 중심 질문을 따라 인간암 proteogenomics, phosphoproteomics, spatial multiomics, neoantigen, 치료반응 예측 근거를 구조화한 프로젝트형 topic hub.
 
 ## Key Points
 
