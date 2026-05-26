@@ -6,7 +6,7 @@
 
 - [x] **Q1.** Why does protein abundance confound phosphosite quantification, and how often is a "raw-up" phosphosite actually a protein-driven artifact in CPTAC cohorts? → created [concepts/ptm-correction-confounding-foundations.md](../concepts/ptm-correction-confounding-foundations.md)
 - [ ] **Q2.** When does a single global protein-to-PTM correction (subtraction) outperform a site-specific coupling model, and when does it fail? → analyses page
-- [ ] **Q3.** How much does PTM correction change kinase activity inference (KSEA, NetworKIN, CoPheeKSA), and which kinases gain or lose hits most? → analyses page
+- [x] **Q3.** How much does PTM correction change kinase activity inference (KSEA, NetworKIN, CoPheeKSA), and which kinases gain or lose hits most? → created [syntheses/kinase-activity-inference-under-ptm-correction.md](../syntheses/kinase-activity-inference-under-ptm-correction.md)
 - [ ] **Q4.** Are acetylation and ubiquitylation as protein-confounded as phosphorylation, or do they show different coupling distributions? → concept page
 - [ ] **Q5.** What is the cross-cohort reproducibility of the same phosphosite call (corrected vs uncorrected) across CPTAC tumor types? → analyses page
 - [ ] **Q6.** Does corrected phosphoproteome data improve patient stratification (subtype clustering, survival) over raw data? → analyses page

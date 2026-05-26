@@ -24,6 +24,32 @@ REPO = Path(__file__).resolve().parents[2]
 SOURCES = REPO / "wiki/sources"
 POSTED = REPO / "wiki/_meta/slack-posted.json"
 
+# paper_kind values that mean the paper's main contribution is a NEW analysis
+# tool / model / pipeline / benchmark. 청중이 임상·기초 교수진이라 method-only
+# 논문은 의미 없음 → backlog 후보에서 완전 제외. review도 제외 (사용자 요청:
+# 한미암 슬랙은 리서치 아티클만 올림).
+EXCLUDED_KIND = {"computational", "methods/tool", "software", "method",
+                 "tool", "benchmark", "pipeline", "review"}
+
+# 최근 N년 이내 논문만 후보 — 청중에 너무 오래된 클래식은 의미 낮음.
+RECENT_YEARS = 5
+
+# 위암 키워드 — title/tags/themes에 매칭되면 위암 boost 가산.
+GASTRIC_RE = re.compile(r"\bgastric\b|\bstomach\b", re.IGNORECASE)
+
+# scRNA / spatial transcriptomics 가 main contribution 인 논문 — 한미암 코호트는
+# bulk proteomics/phospho/WGS/RNA 중심이고 scRNA/spatial 데이터 생산 계획이 없어
+# 청중 활용성이 낮음 → 큰 감점 (완전 제외하진 않되 다른 후보가 있으면 밀려나도록).
+SCRNA_SPATIAL_RE = re.compile(
+    r"\bsingle.cell\b|\bsingle.nucleus\b|\bspatial transcriptomic|\bscRNA",
+    re.IGNORECASE,
+)
+
+# Key Points placeholder 패턴 — 아직 deep-dive 안 된 논문은 활용 line 부실해질
+# 위험이 커서 후보에서 제외. "_To be filled", "_Awaiting deep-dive" 둘 다 잡음.
+KP_PLACEHOLDER_RE = re.compile(r"_to be filled|_awaiting deep.dive|awaiting deep.dive",
+                                re.IGNORECASE)
+
 # Tier 1 — phosphoproteome × drug response / kinase × targeted therapy
 TIER1 = {"phosphoproteomics", "ptm", "kinase-signaling", "ppqtl",
          "ptm-anchor", "ptmanchor", "phospho", "ptm-correction"}
@@ -159,6 +185,25 @@ def score_paper(meta: dict) -> int:
     except Exception:
         pass
 
+    # 위암 우선순위 — 한미암 과제의 핵심 암종. title/tags/themes에 gastric/stomach
+    # 매칭되면 큰 가산점으로 같은 tier 안에서 위암 논문이 먼저 선택되도록.
+    title = meta.get("title") or ""
+    gastric_hit = bool(GASTRIC_RE.search(title)) or any(
+        ("gastric" in t) or ("stomach" in t) for t in tags
+    )
+    if gastric_hit:
+        s += 20
+
+    # scRNA / spatial main contribution → 한미암 modality 비매치 → deprioritize.
+    # 같은 위암 논문이라도 scRNA만으로 main contribution이면 코호트에 적용 불가.
+    scrna_hit = bool(SCRNA_SPATIAL_RE.search(title)) or any(
+        ("single-cell" in t) or ("scrna" in t) or
+        ("spatial-transcriptomic" in t) or ("single-nucleus" in t)
+        for t in tags
+    )
+    if scrna_hit:
+        s -= 15
+
     # Need at least one Tier1 or Tier2 hit
     if not (tags & (TIER1 | TIER2)):
         s -= 100
@@ -180,6 +225,9 @@ def main():
     candidates = []
     skipped_pending = 0
     skipped_no_keypoints = 0
+    skipped_method_kind = 0
+    skipped_old_year = 0
+    cutoff_year = datetime.date.today().year - RECENT_YEARS
     for p in sorted(SOURCES.glob("*.md")):
         if p.stem in posted:
             continue
@@ -192,6 +240,22 @@ def main():
         meta = parse_frontmatter(text)
         if not meta:
             continue
+        # HARD FILTER: method/tool/software/review papers are dropped from the
+        # backlog — 청중이 임상·기초 교수진이라 분석 툴 자체가 contribution인 논문이나
+        # 리뷰는 슬랙에 올리지 않음.
+        kind = (meta.get("paper_kind") or "").strip().lower()
+        if kind in EXCLUDED_KIND:
+            skipped_method_kind += 1
+            continue
+        # HARD FILTER: 5년 이내 논문만. 너무 오래된 클래식은 청중이 이미 알고 있을
+        # 가능성이 높고 신선도가 떨어짐.
+        try:
+            year = int(str(meta.get("year") or 0).split(".")[0])
+        except Exception:
+            year = 0
+        if year and year < cutoff_year:
+            skipped_old_year += 1
+            continue
         # HARD FILTER: skip papers where the user has not yet finished
         # full-PDF-based analysis. Posting these would violate the
         # "no abstract-only judgment" rule.
@@ -199,12 +263,12 @@ def main():
             skipped_pending += 1
             continue
         # Extra safety: require a non-placeholder Key Points section.
-        # The placeholder line is "_To be filled after local PDF...".
+        # Placeholders: "_To be filled after local PDF...", "_Awaiting deep-dive...".
         body = text[text.find("\n---\n", 4) + 5:] if text.startswith("---") else text
         if "## Key Points" in body:
             kp_idx = body.find("## Key Points")
             kp_block = body[kp_idx:kp_idx + 800]
-            if "_To be filled" in kp_block or "to be filled" in kp_block.lower():
+            if KP_PLACEHOLDER_RE.search(kp_block):
                 skipped_no_keypoints += 1
                 continue
         s = score_paper(meta)
@@ -231,6 +295,9 @@ def main():
         "total_candidates": len(candidates),
         "skipped_pending_pdf": skipped_pending,
         "skipped_placeholder_keypoints": skipped_no_keypoints,
+        "skipped_method_kind": skipped_method_kind,
+        "skipped_old_year": skipped_old_year,
+        "cutoff_year": cutoff_year,
         "selected": selected,
     }
     json.dump(out, sys.stdout, indent=2, ensure_ascii=False)

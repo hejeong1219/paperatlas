@@ -30,10 +30,25 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
                  targeted therapy resistance mechanism, immunotherapy resistance
    - **Tier 3**: WGS SV in cancer, noncoding driver, tumor heterogeneity,
                  PTM crosstalk, AI drug response prediction
-   - **Tier 0 (skip)**: animal/cell-line only (no human clinical data),
-                        non-cancer disease, weak relevance
+   - **Tier 0 (skip)**:
+     * animal/cell-line only (no human clinical data),
+     * non-cancer disease, weak relevance,
+     * **method/tool/model/pipeline/software paper without clinical or
+       translational findings in cancer patients.** 청중이 임상·기초 교수진이라
+       "새로운 분석 툴/모델/워크플로우 자체"가 본문 contribution인 논문은
+       의사·실험 랩 입장에서 실용성이 낮음. 단, 새로운 메서드를 실제 환자
+       코호트에 적용해 임상·생물학적 발견을 내놓은 논문(예: CPTAC, proteogenomic
+       characterization)은 Tier 0이 아님 — 발견이 main contribution이면 통과.
+     * benchmark/comparison/validation-only studies of existing tools.
 
 2. **Pick top 1-2** with Tier ≥ 2. Prefer Tier 1 over Tier 2 over Tier 3.
+
+   **위암 우선순위 가산** — 후보들이 같은 tier에 있을 때 또는 tier가 비슷할 때,
+   **위암(gastric cancer / stomach cancer / gastric adenocarcinoma / GC) 관련 논문을
+   먼저 선택**. 한미암 과제의 핵심 암종이 위암이므로, 비위암(범암종 pan-cancer
+   포함) 후보보다 위암 특이 코호트·기전·치료 연구를 우선. 단 명백히 더 높은
+   tier의 비위암 논문이 있으면 그쪽 우선 (Tier 1 비위암 > Tier 2 위암).
+   위암 논문이 없으면 평소대로 진행.
    - If 0 candidates reach Tier 2: fall back to phase_a backlog (run
      `python3 scripts/daily_digest/select_papers.py` and use its top 2).
    - If exactly 1 reaches Tier 2: post that 1 + 1 backlog from select_papers.py.
@@ -128,10 +143,14 @@ For each candidate, judge against the 한미암 tier rubric in the system prompt
      * **(D) 코호트·디자인 앵글**: 논문의 종단·비교 디자인이 한미암 1차/2차 내성 비교에 주는 시사점
        예: "치료 전·후 60건 종양의 phosphoproteome 비교 디자인은, 한미암 과제의 1차/2차 내성 분석 설계에 시사점을 줄 수 있을 것으로 보입니다."
 
-     * **(E) 메서드·파이프라인 앵글**: 분석 워크플로·방법론 자체가 한미암 파이프라인 구축에 참고
-       예: "TMT11 + Fe-NTA IMAC + Orbitrap Lumos + Philosopher 워크플로는 한미암 인산화단백체 파이프라인 구축 시 참고할 만한 구성으로 사료됩니다."
-
-   - 매일 같은 앵글(특히 E 메서드)로만 가지 말 것. 가능하면 (A)/(B)/(C) 중 하나를 우선 선택. 논문이 발견 위주면 (A)/(B), 임상·치료 전략 위주면 (C), 종단 디자인 비교면 (D), 순수 메서드 논문이면 (E).
+   - **메서드·파이프라인·툴·모델 자체에 대한 활용 앵글은 사용하지 마세요.** 청중이
+     임상·기초 교수진이라 "TMT11+IMAC 워크플로 참고", "이 AI 모델 구조 참고",
+     "이 deconvolution 툴 적용" 같은 분석 워크플로/방법론/소프트웨어 자체의 채택
+     앵글은 의미가 없습니다. 같은 논문이라도 *발견·표적·바이오마커·디자인* 앵글로
+     돌려서 작성하세요. (메서드 contribution이 주인 논문은 애초에 Tier 0로
+     빠져야 하지만, 임상 발견 있는 논문이라도 활용 line은 발견 쪽으로 잡을 것.)
+   - 가능하면 (A)/(B)/(C) 중 하나를 우선 선택. 논문이 발견 위주면 (A)/(B),
+     임상·치료 전략 위주면 (C), 종단 디자인 비교면 (D).
    - 시작은 자연스럽게: `한미암 과제 관점에서, ...`, `한미암 코호트의 ___ 관점에서, ...`, `본 논문이 보고한 ___은, 한미암 ...`, `본 연구의 ___ 디자인은, 한미암 ...` 등 다양한 도입.
 
    - **활용 line의 종결어 — 톤 매우 중요**. "활용 가능합니다", "사용해야 합니다", "적용해야 합니다" 등 **단정·지시형 종결 절대 금지**. 청중이 임상·기초 교수님이라 "당장 해봐"로 읽힐 수 있음. **가능성·시사·참고 톤**으로 마무리하세요. 권장 종결 패턴:

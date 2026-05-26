@@ -114,17 +114,21 @@ def esearch(query, days, retmax):
     return pmids
 
 
-def efetch_metadata(pmids):
+def efetch_metadata(pmids, chunk_size=100):
     """Return dict pmid -> metadata."""
     if not pmids:
         return {}
-    url = NCBI + "/efetch.fcgi?" + urllib.parse.urlencode({
-        "db": "pubmed",
-        "id": ",".join(pmids),
-        "retmode": "xml",
-    })
-    xml_bytes = http_get_bytes(url)
-    return parse_pubmed_xml(xml_bytes)
+    out = {}
+    for i in range(0, len(pmids), chunk_size):
+        chunk = pmids[i:i + chunk_size]
+        url = NCBI + "/efetch.fcgi?" + urllib.parse.urlencode({
+            "db": "pubmed",
+            "id": ",".join(chunk),
+            "retmode": "xml",
+        })
+        xml_bytes = http_get_bytes(url)
+        out.update(parse_pubmed_xml(xml_bytes))
+    return out
 
 
 def parse_pubmed_xml(xml_bytes):

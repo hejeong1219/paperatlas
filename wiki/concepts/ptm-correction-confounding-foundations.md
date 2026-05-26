@@ -111,6 +111,7 @@ Protein-PTM confounding is the structural reason ptmanchor exists, and it is als
 - [Source: Müller-Dott 2025 — Phosphoproteomic Kinase Activity Inference Benchmark](../sources/muller-dott-2025-phosphoproteomic-kinase-activity-inference.md)
 - [Source: Wu 2011 — Correct Interpretation of Phosphorylation Dynamics](../sources/wu-2011-correct-interpretation-comprehensive-phosphorylation-dynamics.md)
 - [Source: Mertins 2016 — Proteogenomics Connects Somatic Mutations to Signaling in Breast Cancer](../sources/mertins-2016-proteogenomics-somatic-mutations-signalling-breast-cancer.md)
+- [Source: Savage & Zhang 2020 — Phosphoproteomics Bioinformatics Guide](../sources/savage-2020-phosphoproteomics-bioinformatics-comprehensive-guide.md) — same-group prequel to Jiang 2025; catalog of 16 kinase DBs + 27 site DBs + activity-inference tool benchmark
 
 ## Sources
 

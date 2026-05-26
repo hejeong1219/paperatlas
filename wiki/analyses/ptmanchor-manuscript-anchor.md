@@ -25,6 +25,8 @@ Active manuscript anchor for a PTM-aware cancer proteomics project centered on p
 
 ## Connections
 
+- [Synthesis: Kinase Activity Inference Under PTM Correction (Q3)](../syntheses/kinase-activity-inference-under-ptm-correction.md)
+- [PTM Correction Confounding Foundations (Q1 concept)](../concepts/ptm-correction-confounding-foundations.md)
 - [PTM Correction and Kinase Signaling in Cancer Proteomics](../topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics.md)
 - [Pan-Cancer](../cancers/pan-cancer.md)
 - [Comprehensive evaluation of phosphoproteomic-based kinase activity inference](../sources/muller-dott-2025-phosphoproteomic-kinase-activity-inference.md)

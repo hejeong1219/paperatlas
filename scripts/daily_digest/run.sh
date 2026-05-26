@@ -40,8 +40,10 @@ echo "Repo: $REPO_ROOT"
 echo "================================================================"
 
 # ============================================================
-# STAGE=post — skip prep entirely; read pre-composed draft and
-# fire it at Slack at exactly 10:00:00. No Claude call.
+# STAGE=post — read pre-composed draft and post via slack MCP
+# (through a short claude CLI call). Sleeps until 10:00:00 then
+# fires. Claude startup adds ~5-15s so the post lands a few
+# seconds after 10:00:00 rather than exactly on it.
 # ============================================================
 if [ "$STAGE" = "post" ]; then
     if [ ! -f "$MSG_FILE" ]; then
@@ -51,10 +53,6 @@ if [ "$STAGE" = "post" ]; then
     if [ -f "$MSG_FILE.posted" ]; then
         echo "INFO: $MSG_FILE.posted exists — already posted today. Exiting."
         exit 0
-    fi
-    if [ -z "${SLACK_BOT_TOKEN:-}" ]; then
-        echo "ERROR: SLACK_BOT_TOKEN not set (expected from ~/.paperatlas.env via cron_entry.sh)."
-        exit 1
     fi
 
     # Sleep until 10:00:00 local time, but only if the target is in a sane window
@@ -71,27 +69,42 @@ if [ "$STAGE" = "post" ]; then
         echo "[post] WARN: target 10:00:00 is ${SLEEP_SECS}s away (too far) — posting immediately."
     fi
 
-    echo "[post] firing at $(date -Iseconds)"
+    echo "[post] firing at $(date -Iseconds) via slack MCP"
 
-    # Build payload (use python so the message text — Korean, asterisks, newlines —
-    # is encoded properly as JSON without shell-quoting headaches).
-    PAYLOAD=$(python3 -c "
-import json
-m = json.load(open('$MSG_FILE'))
-print(json.dumps({'channel': m['channel'], 'text': m['text']}, ensure_ascii=False))
-")
+    POST_PROMPT="You are posting a pre-composed Slack message via the slack MCP server.
 
-    RESPONSE=$(curl -sS -X POST https://slack.com/api/chat.postMessage \
-        -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
-        -H "Content-Type: application/json; charset=utf-8" \
-        --data "$PAYLOAD")
+Step 1: Use Read tool to read the JSON file at: $MSG_FILE
+        It has shape: {\"channel\": \"<channel_id>\", \"text\": \"<message body>\", ...}
 
-    OK=$(echo "$RESPONSE" | python3 -c "import json,sys; d=json.load(sys.stdin); print('yes' if d.get('ok') else 'no')" 2>/dev/null || echo "no")
-    if [ "$OK" != "yes" ]; then
-        echo "ERROR: Slack post failed. Response: $RESPONSE"
+Step 2: Call mcp__slack__slack_post_message with:
+        - channel_id = the JSON's \"channel\" value
+        - text = the JSON's \"text\" value, EXACTLY as-is (preserve Korean characters,
+          *bold* markers, all \\n newlines, all hyperlinks — do NOT reformat, do NOT
+          edit, do NOT add intros). Pass it byte-for-byte.
+
+Step 3: From the tool response, extract the \"ts\" field.
+        If response indicates failure (no ts, or ok=false), retry the tool call ONCE.
+
+Step 4: As the FINAL line of your output, print exactly: TS=<ts_value>
+        Example: TS=1778634000.419679
+        Do not put anything after this line."
+
+    set +e
+    CLAUDE_OUT=$(claude -p "$POST_PROMPT" --allowed-tools "Read,mcp__slack__slack_post_message" 2>&1)
+    CLAUDE_RC=$?
+    set -e
+    echo "$CLAUDE_OUT"
+
+    if [ "$CLAUDE_RC" -ne 0 ]; then
+        echo "ERROR: claude post call failed (exit $CLAUDE_RC)"
         exit 2
     fi
-    SLACK_TS=$(echo "$RESPONSE" | python3 -c "import json,sys; print(json.load(sys.stdin).get('ts',''))")
+
+    SLACK_TS=$(echo "$CLAUDE_OUT" | grep -oP '^TS=\K[0-9.]+' | tail -1)
+    if [ -z "$SLACK_TS" ]; then
+        echo "ERROR: could not extract TS=<ts> from claude output (slack post may have failed)"
+        exit 3
+    fi
     echo "[post] OK. ts=$SLACK_TS"
 
     # Update slack-posted.json (atomically) before marking the draft as posted,
@@ -241,6 +254,13 @@ PROMPT_FILE="$REPO_ROOT/scripts/daily_digest/prompt.md"
 CONTEXT_FILE="$REPO_ROOT/wiki/_meta/han-mi-am-project-context.md"
 
 if [ "$STAGE" = "compose" ]; then
+    # Manual review lock: if user pre-checked a draft and dropped a sentinel,
+    # don't overwrite — the post stage will use the existing $MSG_FILE.
+    if [ -f "$MSG_FILE.locked" ] && [ -f "$MSG_FILE" ]; then
+        echo "[compose] $MSG_FILE.locked exists — keeping pre-reviewed draft. Skipping claude compose."
+        echo "Compose skipped (locked) @ $(date -Iseconds). Draft ready at $MSG_FILE"
+        exit 0
+    fi
     echo "[4/5] Composing draft via claude (DRAFT mode — no Slack post)..."
     DRAFT_OVERRIDE='
 
