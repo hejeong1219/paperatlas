@@ -5,70 +5,94 @@ authors:
   - "Mezzadra"
   - "Sinopoli"
 year: "2023"
-journal: "Cancer discovery"
+journal: "Cancer Discovery"
 doi: "10.1158/2159-8290.CD-22-0405"
 pmid: "36355783"
 pmcid: "PMC9827113"
 paper_kind: research
 pdf: "raw/inbox/papers/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr.pdf"
+pdf_status: full-text-read
+claim_audit_status: acquired-resistance-patient-serial-ctdna
 topic: resistance
 tags:
-  - "resistance"
-  - "immune-evasion"
-  - "immunotherapy"
-  - "pmid-36355783"
+  - resistance
+  - acquired-resistance
+  - kras-g12c
+  - colorectal-cancer
+  - ctdna
+  - pmid-36355783
 themes:
-  - "immune-evasion"
-  - "resistance-framework"
-  - "translational-oncology"
-batch_ingest_status: pdf-text-extracted
-batch_ingested_on: 2026-05-13
+  - acquired-resistance
+  - serial-ctdna
+  - kras-amplification
+  - erk-signaling
+  - mtor-signaling
+  - senescence
 ---
 # Molecular Characterization of Acquired Resistance to KRASG12C-EGFR Inhibition in Colorectal Cancer.
 
-_Cancer discovery, 2023._ PMID: [36355783](https://pubmed.ncbi.nlm.nih.gov/36355783/).
-
-DOI: [10.1158/2159-8290.CD-22-0405](https://doi.org/10.1158/2159-8290.CD-22-0405)
-
-## Summary
-
-**UNLABELLED**: With the combination of KRASG12C and EGFR inhibitors, KRAS is becoming a druggable target in colorectal cancer. However, secondary resistance limits its efficacy. Using cell lines, patient-derived xenografts, and patient samples, we detected a heterogeneous pattern of putative resistance alterations expected primarily to prevent inhibition of ERK signaling by drugs at progression. Serial analysis of patient blood samples on treatment demonstrates that most of these alterations are detected at a low frequency except for KRASG12C amplification, a recurrent resistance mechanism that rises in step with clinical progression. Upon drug withdrawal, resistant cells with KRASG12C amplification undergo oncogene-induced senescence, and progressing patients experience a rapid fall in levels of this alteration in circulating DNA. In this new state, drug resumption is ineffective as mTOR signaling is elevated. However, our work exposes a potential therapeutic vulnerability, whereby therapies that target the senescence response may overcome acquired resistance.
-
-**SIGNIFICANCE**: Clinical resistance to KRASG12C-EGFR inhibition primarily prevents suppression of ERK signaling. Most resistance mechanisms are subclonal, whereas KRASG12C amplification rises over time to drive a higher portion of resistance. This recurrent resistance mechanism leads to oncogene-induced senescence upon drug withdrawal and creates a potential vulnerability to senolytic approaches. This article is highlighted in the In This Issue feature, p. 1.
-
-## Batch PDF Ingest Status
-
-- Status: `pdf-text-extracted` on 2026-05-13.
-- Local PDF: `raw/inbox/papers/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr.pdf`.
-- Extracted text length: 141,106 characters.
-- Scope note: automated local-PDF text ingest for the 100-paper drug-response/phospho-global batch; not yet a manual full-text deep-dive.
-- Evidence boundary: downstream scientific claims should use this page only after source-specific Key Points are manually promoted or rechecked against the local PDF.
-- High-signal PDF snippets:
-  - RESEARCH RESEARCH BRIEF BRIEF RESEARCH RESEARCH BRIEF RESEARCH BRIEF BRIEF Molecular Molecular Characterization Characterization of of Acquired Acquired Molecular Molecular Characterization Characterization of of Acquired Acquired Molecular Resistance Resistance Characterization to to KRAS KRAS G12C G12C –EGFR –EGFR of Acquir...
-  - Lowe , Neal Rosen1,3,12 1,3,12, and Sandra Misale3 3 Neal Rosen , and Sandra Misale ABSTRACT With the combination of KRASG12C and EGFR inhibitors, KRAS is becoming a drug- ABSTRACT With the combination of KRASG12C and EGFR inhibitors, KRAS is becoming a drug- ABSTRACT gablethe With target in colorectal combination cancer.
-  - of KRAS However, G12C and secondary EGFR resistance inhibitors, KRAS is limits its a becoming efficacy.
-  - KRAS However, G12C and secondary EGFR resistance inhibitors, KRAS is limits its a becoming efficacy.
-  - With the combination of KRAS samples, However, G12C we detected secondary a heterogeneous resistance limits its pattern efficacy.
+Yaeger et al. use cell lines, PDX, patient samples, and serial ctDNA to show that acquired resistance to combined KRASG12C and EGFR inhibition in colorectal cancer is genetically heterogeneous but often converges on failure to suppress ERK signaling, with KRASG12C amplification acting as a recurrent resistance mechanism that changes dynamically with drug pressure.
 
 ## Key Points
 
-- The paper frames acquired resistance to KRASG12C–EGFR inhibition in CRC as predominantly mechanisms that prevent ERK pathway suppression at progression.
-- Serial on-treatment blood monitoring suggests many resistance alterations remain low-frequency/subclonal, while KRASG12C amplification can rise over time with clinical progression.
-- After drug withdrawal, KRASG12C amplification-associated resistant cells undergo oncogene-induced senescence; circulating DNA levels of the alteration can rapidly fall.
-- In the post-withdrawal state, drug resumption is described as ineffective with elevated mTOR signaling, motivating exploration of senescence-targeting strategies.
+- **Claim-audit classification:** acquired-resistance evidence with direct patient serial ctDNA support. This is stronger than a static resistant-sample paper for timing, but it is mainly genomic/ctDNA plus targeted pathway assays rather than broad proteogenomics/phosphoproteomics.
+- **Clinical design:** cfDNA was collected from 12 colorectal cancer patients treated with adagrasib + cetuximab or sotorasib + panitumumab who initially had tumor regression and then developed radiographic or clinical progression.
+- **Serial timing:** in 4 patients, ctDNA was collected during treatment approximately every 6 weeks, allowing resistance alterations to be tracked before and at clinical progression.
+- **Genomic resistance landscape:** emergent resistance alterations included KRASG12C amplification, multiple KRAS secondary mutations, NRAS Q61 mutations, BRAF mutations/fusions, MEK1 mutations, RTK activation events such as MET amplification/fusion, RET fusion, EGFR mutations, and MYC amplification.
+- **Dynamic finding:** many resistance alterations were low-frequency/subclonal and appeared or disappeared over treatment, whereas KRASG12C amplification rose with tumor markers and clinical progression in a recurrent pattern.
+- **State-transition finding:** drug withdrawal in KRASG12C-amplified resistant cells induced oncogene-induced senescence with elevated mTOR pathway signaling; patient tissue collected after drug stop showed acquired high-level KRAS amplification, increased pERK, elevated pS6, and increased p16.
+- **Use for this wiki project:** Yaeger 2023 is a key patient-time-axis paper. It supports the need for serial sampling to call acquired resistance, but it also shows why genomic timing alone leaves a functional-state question: ERK/mTOR/senescence states need pathway/protein/phospho readouts.
+
+## Claim Audit
+
+| Question | Audit result |
+| --- | --- |
+| Is this primary or acquired resistance? | Acquired resistance after initial response to KRASG12C-EGFR combination therapy. |
+| Does it have patient time-axis data? | Yes. Serial ctDNA during treatment in a subset, plus pre/progression tissue evidence in at least one KRASG12C-amplified case. |
+| Does it have broad proteogenomics/phosphoproteomics? | No. It uses genomic/ctDNA tracking plus targeted signaling assays/IHC/western blot rather than global proteome/phosphoproteome. |
+| What claim is safe? | Serial genomic monitoring can reveal acquired resistance dynamics and distinguish low-frequency subclonal alterations from recurrent KRASG12C amplification under drug pressure. |
+| What claim would overreach? | That phosphoproteomics has been shown here to classify acquired resistance states. The paper motivates that need but does not provide broad phosphoproteomic data. |
+
+## Evidence Details
+
+### Patient Serial ctDNA and Resistance Dynamics
+
+The study evaluated cfDNA from 12 colorectal cancer patients treated with KRASG12C inhibitor plus EGFR antibody combinations. All had initial tumor regression followed by radiographic or clinical progression.
+
+Emergent alterations at resistance included KRASG12C amplification, secondary KRAS mutations, NRAS mutations, BRAF/MEK pathway alterations, RTK events, and MYC amplification. Individual patients often had multiple alterations, consistent with polyclonal resistance.
+
+In serial ctDNA from 4 patients, many alterations remained at low VAF and appeared before clinical resistance. The exception was KRASG12C amplification, which increased with clinical progression and tumor marker changes, making it a recurrent and higher-burden acquired resistance mechanism.
+
+### Drug Withdrawal and State Transition
+
+RW7213 resistant cells with high-level KRASG12C amplification were used to model drug withdrawal. Removing cetuximab-sotorasib increased MAPK and PI3K-mTOR pathway activation and induced a senescence-like state with beta-galactosidase positivity, low Ki-67, p16/p21/uPAR expression, and SASP cytokine accumulation.
+
+Patient 12 had pretreatment and progression liver metastasis biopsies. The progression biopsy was collected 8 days after stopping KRASG12C and EGFR inhibitors and before new therapy. Sequencing/FISH showed acquired high-level KRAS amplification; pERK increased, pS6 became elevated, and p16 staining increased, supporting a similar state transition in patient tissue.
+
+### Therapeutic Implication
+
+After drug withdrawal, rechallenge suppressed MAPK signaling incompletely as a therapeutic strategy because mTOR signaling stayed elevated and apoptotic potential was not restored. AZD8055, an mTOR inhibitor proposed as a senolytic agent in this context, selectively inhibited pS6K/pS6 and reduced proliferation in drug-withdrawn KRASG12C-amplified resistant cells, whereas navitoclax did not show the same effect.
 
 ## Cancer Multiomics Project Relevance
 
-- Cancer Multiomics 과제의 “획득내성(acquired resistance)” 축에서, **ctDNA 기반 시계열(WGS/WES 파생 변이 추적)**과 “경로 재활성화(ERK)–대체 경로(mTOR)” 전환 프레임을 제공한다.
-- 반응/내성 모델을 만들 때 “단일 최종 시점”이 아니라 **치료 중/중단/재투여 시점별 분자 상태 전환**을 feature로 넣을 필요가 있음을 강하게 시사한다.
+- **For sampling design:** Yaeger 2023 is a strong example of why acquired resistance requires serial or paired sampling. Static resistant samples would miss the rise/fall of KRASG12C amplification under drug pressure.
+- **For WGS/ctDNA layer:** the paper shows that acquired resistance can be polyclonal and low-frequency, so a single biopsy may underrepresent resistance diversity.
+- **For functional-layer gap:** the main pathway conclusion is ERK suppression failure and mTOR/senescence transition, but the paper does not perform broad phosphoproteomics. It therefore motivates adding phosphoproteome/kinase assays to patient serial resistance designs.
+- **For the current working hypothesis:** Yaeger supplies patient timing evidence; Solanki supplies broad functional-omics model evidence. Together they support a two-level review structure: patient time-axis proof plus mechanistic functional-state decomposition.
 
+## Open Questions
+
+- Which low-frequency ctDNA alterations actually drive resistant lesions versus mark transient subclones?
+- Would paired pre/progression phosphoproteomics separate ERK-reactivated, RTK-reactivated, and mTOR/senescence states more cleanly than ctDNA alone?
+- Can KRASG12C amplification dynamics be paired with tissue proteome/phosphoproteome to distinguish drug-pressure fitness from drug-withdrawal senescence?
+- How general is the one-two punch idea of drug withdrawal plus senolytic/mTOR targeting across other acquired resistance contexts?
 
 ## Connections
 
-- [Resistance Topic Hub](../topics/immunotherapy-resistance-and-immune-evasion.md)
-- [Resistance Anchor](../analyses/cancer-resistance-manuscript-anchor.md)
-- [Cancer Multiomics Proteogenomic Atlas](../topics/cancer-multiomics-literature.md)
+- [Primary and Acquired Resistance Proteogenomics Ingest Map](../analyses/primary-acquired-resistance-proteogenomics-ingest-map.md)
 - [Cancer Multiomics brief: Yaeger 2023](../analyses/cancer-multiomics-literature/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr.md)
+- [KRAS G12C Resistance and Ecosystem Remodeling](../concepts/kras-g12c-resistance-and-ecosystem-remodeling.md)
+- [Cancer Resistance Convergence Framework](../syntheses/resistance-convergence-framework.md)
 
 ## Sources
 
