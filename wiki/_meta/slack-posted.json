@@ -12,7 +12,9 @@
     "jiang-2025-deciphering-dark-cancer-phosphoproteome-using",
     "liu-2025-multimodal-fusion-radio-pathology-proteogenomics-identify",
     "jin-2026-deciphering-mediated-phosphorylated-alterations-cancer-related",
-    "oh-2024-tdxd-cgas-sting-gastric-cancer"
+    "oh-2024-tdxd-cgas-sting-gastric-cancer",
+    "li-2023-comprehensive-proteogenomic-characterization-early-duodenal",
+    "atezolizumab-2025-personalized-neoantigen-vaccination-urothelial-cancer"
   ],
   "pmids": [
     "40749681",
@@ -26,7 +28,8 @@
     "40113755",
     "40222975",
     "41905699",
-    "39449023"
+    "39449023",
+    "36991000"
   ],
   "history": [
     {
@@ -116,6 +119,21 @@
         {
           "slug": "oh-2024-tdxd-cgas-sting-gastric-cancer",
           "pmid": "39449023"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "version": "split-stage-v1",
+      "ts": "1779843635.807829",
+      "posted": [
+        {
+          "slug": "li-2023-comprehensive-proteogenomic-characterization-early-duodenal",
+          "pmid": "36991000"
+        },
+        {
+          "slug": "atezolizumab-2025-personalized-neoantigen-vaccination-urothelial-cancer",
+          "pmid": ""
         }
       ]
     }
