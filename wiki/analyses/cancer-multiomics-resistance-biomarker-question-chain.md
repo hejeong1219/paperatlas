@@ -20,6 +20,32 @@ date: 2026-05-27
 
 This page records a durable LLM-Wiki question chain for the advanced genetics presentation: ask a question, reopen local wiki nodes, expand the wiki, and push the result toward public HTML.
 
+## 생각의 흐름 (Thought Flow)
+
+> 발표용 한 장 요약 — 흐릿한 질문을 쪼개 5개 맥락이 나오고, 그것이 모여 연구 gap → 리서치 질문 → 액션으로 자란 흐름.
+
+```mermaid
+flowchart TB
+  Q0["처음 질문 · 내성 marker를 찾을 수 있나?"]
+  SP["흐릿한 단어 쪼개기 · 사고 규칙"]
+  CTX["5개 맥락 · ① 언제 ② 무엇 ③ 어디 ④ 약제 ⑤ 근거"]
+  REV["곁가지 · 약제 맥락 → 면역회피 수렴 (이전 리뷰)"]
+  GAP["연구 gap · marker가 무슨 내성-상태인지 구분할 틀이 없다"]
+  RQ["리서치 질문 · 유전체로 설명 안 되는 내성을 functional state로 재분류?"]
+  ACT["액션 · 전부-내성 코호트 unsupervised subtyping → genome-unexplained state"]
+  Q0 --> SP
+  SP --> CTX
+  CTX -.-> REV
+  CTX --> GAP
+  GAP --> RQ
+  RQ --> ACT
+  style Q0 fill:#1E2761,color:#ffffff
+  style GAP fill:#C4486B,color:#ffffff
+  style RQ fill:#1E2761,color:#ffffff
+  style ACT fill:#1C9E8F,color:#ffffff
+  style REV fill:#FBF3E4,color:#9A6512
+```
+
 ## Key Points
 
 - This is not a paper summary. It is a saved reasoning trail showing how one broad interest, proteome/phosphoproteome-based anticancer resistance biomarkers, becomes a sharper set of research gaps.
