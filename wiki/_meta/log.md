@@ -2,6 +2,41 @@
 
 Append-only operational history for this wiki.
 
+## [2026-05-28] analysis | Cancer Multiomics resistance biomarker evidence boundary mapping
+
+- Added `wiki/analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map.md` as the second durable question-expansion node after the initial question chain.
+- Reclassified local resistance proteogenomics evidence by biomarker evidence type: baseline primary resistance marker, therapy-emergent acquired-resistance marker, adaptive tolerance marker, refractory-state marker, and feature-design atlas signal.
+- Updated the Cancer Multiomics topic hub so the project question no longer starts from a "genomics is insufficient" framing, but from timing, functional readout, and evidence-type separation.
+- Updated the presentation storyline to show an actual repeated loop: broad question -> question-chain page -> evidence-boundary page -> next validation-strength question.
+- Revised the presentation question chain so it begins with how each paper defines resistance, then separates pre/post or time-course data from resistant-vs-non-resistant snapshot data before moving to protein/phosphosite readouts and multiomics integration methods.
+- Repositioned multiomics integration as a method sub-question rather than the main research question.
+- Connected the user's existing cancer resistance review as a prior LLM-Wiki thought chain: resistance convergence through visibility, access, and effector dysfunction now serves as one slide of background before the Cancer Multiomics biomarker question.
+- Added a "reference presentation takeaways" section using the previous LLM-Wiki presentation and 2026-05-19 class summary only as format guidance, not as a content template.
+- Added a 12-slide PPT spine centered on the user's LLM-use routine: user-defined starting question, LLM-driven question splitting, durable wiki nodes, source-bounded links, method questions kept below concept questions, and next-question preservation.
+- Added a presentation graph-capture plan keyed to the professor's instruction: one question per subgraph, with specific center nodes and connected paper nodes.
+- Added `wiki/analyses/cancer-multiomics-presentation-capture-board.md` as a dedicated capture board so HTML/Obsidian capture targets are grouped by presentation question.
+- Added `wiki/analyses/my-llm-wiki-use-rules.md` as the user's own LLM-Wiki use-rule page, modeled on the class expectation that each presenter should explain their own LLM constraints and routine rather than only a biological classification scheme.
+- Added LLM-use-rule Q&A preparation covering raw-PDF boundary, checking what the evidence permits before writing conclusions, graph capture rationale, and how the user used LLM as a questioning workflow rather than a replacement for research judgment.
+- Added `wiki/analyses/cancer-multiomics-resistance-gap-decision-matrix.md` to separate the biological research gap from data-design subquestions: the talk should not end at data shortage, but ask what functional resistance state each protein/phosphosite program represents.
+- Added `wiki/analyses/cancer-multiomics-final-presentation-brief.md` as the PPT-ready final storyline: the talk now centers on the shift from layer-centered marker discovery to state-centered interpretation, ending with the question of whether cancer multiomics can reclassify genome-unexplained resistance into functional resistance states.
+- Updated the meta index with the new evidence-boundary page.
+
+## [2026-05-27] analysis | Cancer Multiomics presentation storyline
+
+- Added `wiki/analyses/cancer-multiomics-resistance-biomarker-question-chain.md` as an actual question-chain artifact: starting prompt -> reopened wiki nodes -> question ladder -> gaps -> next run. The page uses a stable subject slug rather than a date-based filename.
+- Linked the new question-run page from `wiki/topics/cancer-multiomics-literature.md` under a new `Question Runs` section so the public topic hub exposes the workflow, not only the literature corpus.
+- Added `wiki/analyses/cancer-multiomics-presentation-storyline.md` as a 15-minute presentation narrative for the advanced genetics LLM-Wiki sharing assignment.
+- Reframed the user's Cancer Multiomics wiki work as a question-expansion chain for proteome/phosphoproteome-based anticancer resistance biomarker discovery, centered on the gap between primary resistance, acquired resistance, and static refractory-state interpretations.
+- Added a presentation table tracking each step as question -> wiki-expanded node -> discovered gap -> next question, so the talk shows the research-question development process rather than a generic evidence-layer proposal.
+- Incorporated the 2026-05-19 Zoom summary lesson that the presentation should show LLM-Wiki operating rules, question evolution, and question-specific Obsidian graphs rather than simply summarizing papers.
+
+## [2026-05-26] analysis | Primary/acquired resistance proteogenomics ingest map
+
+- Added `wiki/analyses/primary-acquired-resistance-proteogenomics-ingest-map.md` to convert the presentation question into a source-bounded ingest and deep-dive queue.
+- Reclassified local drug-response/proteogenomics evidence into primary-resistance, acquired-resistance, static refractory-state, and baseline atlas/feature-design buckets.
+- Added a priority deep-dive queue for longitudinal/acquired-resistance papers, emphasizing pre/post or serial sampling over static resistant-patient snapshots.
+- Updated `wiki/_meta/index.md` so the new map is visible from the analysis catalog.
+
 ## [2026-05-26] naming | Rename Cancer Multiomics topic hub and restore full topic index
 
 - Renamed the public-facing title of `wiki/topics/cancer-multiomics-literature.md` from `Cancer Multiomics Literature Monitor` to `Cancer Multiomics Proteogenomic Atlas` while preserving the stable file slug.
@@ -148,12 +183,12 @@ Append-only operational history for this wiki.
 - `wiki/sources/sinitcyn-2023-global-detection-human-variants-isoforms-deep-proteome.md` 풀-텍스트 소스 페이지 생성: Summary / Key Points / Methods / Cancer Multiomics Project Relevance / Connections / Sources 6 섹션 (Sambath 2026과 동일 포맷). `feedback_paper_relevance_writing.md` 규칙 엄수.
 - frontmatter: `paper_kind: resource`, `cancer_types: [pan-cancer]`, `modalities: [deep-proteome-sequencing, multi-protease-proteomics, etd-cad-hcd-fragmentation, proteogenomics, rna-seq]`, `themes`에 proteoform, alternative-splicing-detection, single-amino-acid-polymorphism, sap-variant-detection, multi-protease-strategy, sequence-coverage, encode-cell-lines, de-novo-protein-assembly, methodology-reference 포함.
 - 핵심 정량 포인트: ENCODE 6세포주(H1-hESC/HeLa S3/HepG2/GM12878/K562/HUVEC) × 6 protease(trypsin/LysC/LysN/AspN/GluC/chymotrypsin) × HCD/CAD/ETD × 24–80 HpH-RP fraction × Orbitrap Fusion+Lumos. 2,491 raw files / ~164M MS/MS / 1% FDR에서 17,717 proteins / 1,119,510 unique peptides / 12,151,708 PSMs (실제 PSM 0.06% / peptide 0.4% / protein 0.99%). Median sequence coverage 79.2% (trypsin 단독 56.5%, +22.7%p; 790 proteins 100% coverage). MassIVE all-tryptic 대비 +34.4% (2.12M residues). SAP 5,060 total / transcriptome SNP 73% 단백 매핑 / multi-enzyme로 2배 증가. 미검출 SAP에서 SIFT deleterious P=2e-8, PolyPhen-2 damaging P=1.1e-12 enriched (protein instability 가설 지지). AS event 13,450 → 34.3% 검출, 양방향 6,145 → 18.6%, frame-preserving 64%. XGBoost AUC 0.83 (top features: transcript abundance, PSI, frame status; PSI ~33% optimum). SOAPdenovo-Trans 35,480 scaffold 중 47%(16,496)이 9,695 protein group 매칭. MaxQuant v1.5.7.5 + Andromeda; UniProt+Ensembl GRCh38 release 86.
-- 노블티 claims (저자 명시 표현): "deepest proteomics map collected to date" + "SAP-aware proteogenomic study가 이 정도 깊이로 수행된 적 없음" + multi-enzyme 전략을 "global-scale proteoform 검출에 적용한 사례는 본 시점까지 보고된 바 없음". 트립신-only 분석 한계로 AS-단백체 불일치를 결론낸 두 선행 리뷰(Tress 2017; Blencowe 2017) + Wang 2018 직접 반박.
+- 노블티 표현 (저자 명시): "deepest proteomics map collected to date" + "SAP-aware proteogenomic study가 이 정도 깊이로 수행된 적 없음" + multi-enzyme 전략을 "global-scale proteoform 검출에 적용한 사례는 본 시점까지 보고된 바 없음". 트립신-only 분석 한계로 AS-단백체 불일치를 결론낸 두 선행 리뷰(Tress 2017; Blencowe 2017) + Wang 2018 직접 반박.
 - 한미암 적용 한계 명시 (본 페이지 명시): 본 논문은 cancer 코호트가 아닌 ENCODE 세포주 reference — 환자 cohort 비교 직접 불가. multi-protease + deep fractionation은 reference-quality 자원으로 routine clinical pipeline transfer 불가. MaxQuant 1.5.7.5는 2017 빌드 — DIA/MaxQuant 2.x 등 후속 적용 시 별도 검토. SAP 73% mapping은 normal SNP(germline) 기준이라 somatic으로 외삽 불가.
 - 토픽 허브 `wiki/topics/cancer-multiomics-literature.md`: 신규 Section 7 "Methodology / Resource Atlases (Deep Proteome References)" 추가 (Section 6 batch label 다음). Sinitcyn 2023이 첫 entry.
 - corpus queue 카운트 +1 (Selected 95→96, Acquired 84→85, Ingested 94→95); Selected set 표에 `sinitcyn-2023-...` 신규 row(`needs-brief`, methodology / deep proteome resource).
 - `wiki/_meta/index.md` Proteogenomics / PTM Atlas 섹션에서 Sambath 2026 위(직전)로 링크 추가.
-- Notion 하위 페이지 (`참고 논문 및 아이디어` 344302d9...): 7-section 한국어 포맷(논문 정보 / 한 줄 요약 / 데이터 매트릭스 / 핵심 결과(deep proteome scale + SAP + AS + de novo assembly) / 노블티 주장(저자 명시) / 한미암 적용 + 한계 / 데이터 공개 + 이해관계 메모)으로 생성. 페이지 ID `35e302d9-c598-8136-b962-f7075aea9d9f`. URL `https://www.notion.so/35e302d9c5988136b962f7075aea9d9f`. Strict source-grounded — 논문 본문 + 저자 명시 표현만, 자체 평가어/과장 narrative 없음.
+- Notion 하위 페이지 (`참고 논문 및 아이디어` 344302d9...): 7-section 한국어 포맷(논문 정보 / 한 줄 요약 / 데이터 매트릭스 / 핵심 결과(deep proteome scale + SAP + AS + de novo assembly) / 노블티 표현(저자 명시) / 한미암 적용 + 한계 / 데이터 공개 + 이해관계 메모)으로 생성. 페이지 ID `35e302d9-c598-8136-b962-f7075aea9d9f`. URL `https://www.notion.so/35e302d9c5988136b962f7075aea9d9f`. Strict source-grounded — 논문 본문 + 저자 명시 표현만, 자체 평가어/과장 narrative 없음.
 
 ## [2026-05-11] ingest | Sambath 2026 — Indian cervical cancer CCRT resistance proteogenomics (user-shared)
 
@@ -559,7 +594,7 @@ Append-only operational history for this wiki.
   - Yarchoan 2024 (Nat Med) — HCC GT-30 personalized neoantigen vaccine
   - D'Alise 2026 (Nat Med) — Nous-209 Lynch syndrome cancer interception
   - Falchi 2023 (Blood) — B-NHL bispecific antibodies review
-- Each page replaces "_Abstract pending_" / "_Key claims to be filled in_" placeholders with structured analysis derived from PDF body.
+- Each page replaces "_Abstract pending_" / "_Key points to be filled in_" placeholders with structured analysis derived from PDF body.
 - 375 placeholder pages with PDFs remain; ScheduleWakeup loop progresses these in batches.
 
 ## [2026-04-27] research-questions | queue + first answer
@@ -574,7 +609,7 @@ Append-only operational history for this wiki.
 - Created `interactives/multiomics-proteomics-ptm-identification/` with `index.html`, `data/studies.json`, `data/`, `assets/`, and provenance README.
 - Updated `./bin/sync-wiki-html` so interactive projects sync into `wiki_html/content/interactives/` for GitHub Pages publishing.
 - Documented the workflow: search wiki first, re-read original PDFs for numeric extraction, build Korean interactive HTML, then publish through Quartz/GitHub Pages.
-- Added a strict source-boundary rule: no web search or general web pages for scientific wiki claims, extracted numeric values, or visualization data; external websites may guide layout only.
+- Added a strict source-boundary rule: no web search or general web pages for scientific wiki content, extracted numeric values, or visualization data; external websites may guide layout only.
 - Populated the multiomics interactive dataset from local PDFs for Mertins 2016, Dou 2020, Gillette 2020, Huang 2021, Cao 2021, Satpathy 2021, Zhang 2022, Li 2023, and Zhao 2025.
 - Built a Korean standalone interactive HTML with filters, comparative bars, study cards, and evidence table for protein/phosphosite/acetylsite counts plus MS method and instrument notes.
 - Added `./bin/copy-interactives-public` and wired `wiki_html/package.json` so production builds overwrite Quartz folder pages with each interactive project's standalone `index.html`.
@@ -623,7 +658,7 @@ Append-only operational history for this wiki.
 
 ## [2026-05-09] ingest+visualization | extra 32 local-PDF multiomics pass
 
-- Processed the 32 extra locally downloaded PDFs from the expanded 2016-2026 multiomics/PTM candidate set without using web evidence for scientific claims.
+- Processed the 32 extra locally downloaded PDFs from the expanded 2016-2026 multiomics/PTM candidate set without using web evidence for scientific content.
 - Created or updated 25 source pages and preserved 7 existing curated source notes that already had stronger extraction sections.
 - Added caveated `Multi-Omics Identification Extraction` notes for newly ingested PDFs, labeling methods/tool papers and out-of-scope/broader multiomics papers separately from quantitative atlas rows.
 - Promoted 15 additional local-PDF-backed rows into `autodidact/multiomics-ptm-cancer/data/studies.json`; the standalone Autodidact corpus now covers 82 rows, with 33 rows carrying at least one candidate numeric count.
@@ -774,7 +809,7 @@ Append-only operational history for this wiki.
 
 - Added `wiki/analyses/drug-response-phospho-global-100-corpus-queue.md` to track a recent-10-year target-100 corpus for human cancer global proteome/phosphoproteome drug response and resistance papers.
 - Ran the PubMed/PDF resolver over a 3650-day discovery window; the batch returned 250 PMIDs, 209 fresh by PMID filter, and 40 PDFs downloaded into `raw/inbox/papers/` with 40 placeholder source pages generated under `wiki/sources/`.
-- Marked the batch as triage-needed rather than final scientific evidence; new source stubs must be full-text deep-dived before their claims count toward analyses.
+- Marked the batch as triage-needed rather than final scientific evidence; new source stubs must be full-text deep-dived before their details count toward analyses.
 - Clarified the public topic architecture in `wiki/syntheses/overview.md`: B-cell Neoantigen, Cancer Resistance / Immune Evasion, ptmanchor, and Cancer Multiomics / Drug-response Monitor as a cross-cutting acquisition layer.
 - Linked the specialized drug-response queue from `wiki/topics/cancer-multiomics-literature.md` and `wiki/_meta/index.md`.
 
@@ -790,7 +825,7 @@ Append-only operational history for this wiki.
 - Retried pending PDF downloads before bulk ingest; additional scripted downloads were limited by paywall/PMC challenge behavior (1 newly resolved in this pass).
 - Selected 100 local PDFs for the drug-response/global-proteome/phosphoproteome corpus and added `Batch PDF Ingest Status` sections with extracted-text provenance to each source page.
 - Created `wiki/analyses/drug-response-phospho-global-100-bulk-ingest.md` as the durable 100-row batch tracker.
-- These rows are `pdf-text-extracted`, not automatically `full-text-read`; manual deep-dive promotion remains required before using detailed scientific claims in synthesis.
+- These rows are `pdf-text-extracted`, not automatically `full-text-read`; manual deep-dive promotion remains required before using detailed scientific content in synthesis.
 
 ## [2026-05-13] ingest | Anurag 2022 TNBC chemo response proteogenomics
 
@@ -899,3 +934,41 @@ Append-only operational history for this wiki.
 - Updated the Quartz right-rail `Topics` navigation component to show five public topic hubs instead of the older three-card hardcoded set.
 - Pointed each quick-nav card directly to its topic hub page and aligned the labels/descriptions with the renamed `Cancer Multiomics Proteogenomic Atlas`.
 - Expanded the public home page `Current Topic Collections` section to match the full five-topic navigation set.
+
+## [2026-05-26] analysis | Evidence-boundary run for resistance research question
+
+- Extended `wiki/analyses/primary-acquired-resistance-proteogenomics-ingest-map.md` with an actual LLM-wiki reasoning run rather than only a presentation outline.
+- Defined the operating rule as checking the evidence boundary before synthesis: translate each question into the evidence it would require, then check whether local evidence has the required sampling design.
+- Applied the rule to the current resistance/proteogenomics corpus and reached a bounded research question about phosphoproteomic and immune-state features defining genome-unexplained resistance states.
+
+## [2026-05-26] ingest | Solanki 2026 KRASG12C acquired-resistance evidence boundary mapping
+
+- Promoted `wiki/sources/solanki-2026-ras-gtp-inhibition-overcomes-acquired-resistance.md` from placeholder to `pdf_status: full-text-read` after reading the local PDF text.
+- Added a evidence-boundary classification: acquired-resistance preclinical/model-system evidence, not direct same-patient clinical pre/post evidence.
+- Extracted the three resistance-state classes: KRASG12C amplification/NRASG13R genomic RAS reactivation, WES-negative RTK/wild-type RAS-GTP signaling, and EMT-associated RAS-independent cell-cycle/DDR dependency switching.
+- Updated the primary/acquired resistance ingest map to treat Solanki 2026 as mechanistic support for genome-unexplained functional resistance states while preserving the patient-longitudinal evidence gap.
+
+## [2026-05-26] ingest | Yaeger 2023 KRASG12C-EGFR acquired-resistance evidence boundary mapping
+
+- Promoted `wiki/sources/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr.md` from automated PDF-text extraction to `pdf_status: full-text-read` after local PDF review.
+- Added evidence-boundary classification: patient serial ctDNA acquired-resistance evidence, but not broad proteogenomic/phosphoproteomic evidence.
+- Captured the main timing lesson: many resistance alterations are low-frequency/subclonal, while KRASG12C amplification rises with progression and can fall after drug withdrawal.
+- Updated the primary/acquired resistance ingest map to contrast Yaeger 2023 patient time-axis evidence with Solanki 2026 functional-omics model evidence.
+
+## [2026-05-29] presentation | Cancer Multiomics PPT storyline and AI handoff
+
+- Created `wiki/analyses/cancer-multiomics-ppt-storyline-and-ai-handoff.md` as the full Korean presentation handoff for the Advanced Genetics LLM-Wiki talk.
+- Consolidated the user's constraints, avoided wording, general LLM-Wiki rule, question-by-question expansion, capture targets, final functional resistance-state research question, and 12-slide content plan.
+- Updated the Cancer Multiomics topic hub and page catalog so the handoff is discoverable from the project spine.
+
+## [2026-05-29] presentation | Question-specific node capture pack
+
+- Created `wiki/analyses/cancer-multiomics-question-node-capture-pack.md` to separate professor-requested question-specific captures from the noisy global HTML/wiki graph.
+- Assigned each PPT slide a center node, crop target, caption, and Obsidian/HTML capture rule.
+- Linked the capture pack from the Cancer Multiomics topic hub, handoff page, and page catalog.
+
+## [2026-05-29] presentation | Process-evidence revision after Yeojin deck comparison
+
+- Created `wiki/analyses/cancer-multiomics-ppt-process-evidence-revision.md` after reviewing the user-provided Yeojin LLM-Wiki reference deck and the current Cancer Multiomics PPT.
+- Identified that the current PPT has a good biological storyline but needs stronger LLM-Wiki process evidence: node creation, cross-linking, follow-up append, and next-question growth.
+- Added slide-level revision guidance and an exact prompt for a PPT-editing AI.

@@ -20,12 +20,26 @@ Cancer Multiomics 과제의 중심 질문을 따라 인간암 proteogenomics, ph
 
 ## Key Points
 
-- 과제의 중심 질문은 전장유전체만으로 설명되지 않는 표적-면역치료제 반응성 및 내성 차이를 인산화단백체, kinase network, neoantigen, 면역 관련 feature와 통합해 설명할 수 있는지다.
+- 과제의 중심 질문은 항암제 반응성/내성 신호를 발견하기 전에, 그 신호가 baseline non-response인지, therapy-emergent acquired resistance인지, refractory-state feature인지, 그리고 protein abundance·phosphosite·kinase activity 중 무엇을 반영하는지 구분하는 것이다.
 - 논문 정리는 단순 요약이 아니라 과제의 4개 축에 직접 연결한다: 인산화단백체 분석 파이프라인, WGS-PTM 통합/ppQTL, 신생항원 및 면역회피, 치료반응 예측 모델.
 - 각 논문은 하위 페이지로 정리하고, topic hub에는 분류별로 링크와 Slack 공유용 핵심 포인트만 남긴다.
 - Slack 메시지는 교수진에게 바로 공유 가능한 짧은 형식으로 별도 섹션에 보존한다.
 - 진행 현황/큐: [Cancer Multiomics Corpus Queue (Target=100)](../analyses/cancer-multiomics-corpus-queue.md)
 - 항암제 반응성/내성 + global proteome/phosphoproteome 특화 큐: [Drug Response Phospho-Global Proteomics Corpus Queue (Target=100)](../analyses/drug-response-phospho-global-100-corpus-queue.md)
+
+## Question Runs
+
+- [Cancer Multiomics Resistance Biomarker Question Chain](../analyses/cancer-multiomics-resistance-biomarker-question-chain.md) - 실제 LLM-Wiki 질문 실행 기록. 항암제 내성 단백체·인산화단백체 바이오마커 발굴이라는 broad question을 primary/acquired/refractory/adaptive timing, protein vs phosphosite readout, validation tier 질문으로 확장했다.
+- [Cancer Multiomics Resistance Biomarker Evidence Boundary Map](../analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map.md) - 두 번째 질문 확장 노드. response-labeled proteogenomics와 acquired-resistance 문헌을 baseline marker, therapy-emergent marker, adaptive tolerance marker, refractory-state marker, feature-design atlas signal로 재분류한다.
+- [Cancer Multiomics Resistance Gap Decision Matrix](../analyses/cancer-multiomics-resistance-gap-decision-matrix.md) - 여러 gap 후보 중 resistance-associated protein/phosphosite marker가 어떤 내성 상태를 뜻하는지 구분하는 해석 gap을 발표 중심으로 선택하고, longitudinal data limitation은 그 gap을 설명하는 근거로 배치한다.
+- [Cancer Multiomics Final Presentation Brief](../analyses/cancer-multiomics-final-presentation-brief.md) - 발표용 최종 브리프. 질문을 "어떤 layer가 marker를 찾는가"에서 "각 layer가 어떤 functional resistance state를 읽는가"로 이동시키고, PPT 슬라이드 구성을 고정한다.
+- [Cancer Multiomics PPT Storyline and AI Handoff](../analyses/cancer-multiomics-ppt-storyline-and-ai-handoff.md) - PPT 제작용 전체 handoff. 사용자 요청사항, 피해야 할 표현, 나만의 LLM-Wiki 규칙, 질문 체인, 캡처 노드, 최종 연구질문, 12장 슬라이드 구성을 한 파일로 정리한다.
+- [Cancer Multiomics Question Node Capture Pack](../analyses/cancer-multiomics-question-node-capture-pack.md) - 교수님 공지의 질문별 노드 캡처를 위해 slide별 center node, crop 범위, 캡션, Obsidian/HTML 캡처 설정을 분리한 지시서.
+- [Cancer Multiomics PPT Process Evidence Revision](../analyses/cancer-multiomics-ppt-process-evidence-revision.md) - 여진 reference deck과 비교한 뒤, 현재 PPT에 LLM-Wiki를 실제로 굴린 흔적(node 생성, cross-link, follow-up, 다음 질문)을 강화하기 위한 slide별 수정 지시서.
+- [Cancer Multiomics Presentation Capture Board](../analyses/cancer-multiomics-presentation-capture-board.md) - 발표 캡처 준비용 보드. 질문별 중심 노드, 함께 보여줄 주변 노드, 슬라이드 메시지를 한곳에 모은다.
+- [My LLM-Wiki Use Rules](../analyses/my-llm-wiki-use-rules.md) - 사용자 고유의 LLM 활용 규칙. 내가 질문을 던지고, LLM은 질문을 쪼개며, 답은 위키 노드로 고정하고, local source로 제한하고, 다음 질문을 남기는 방식이다.
+- [Cancer Multiomics Presentation Storyline](../analyses/cancer-multiomics-presentation-storyline.md) - 고급유전학 발표용 15분 스토리라인. 질문-위키확장-HTML 반영 흐름을 발표 구조로 압축한다.
+- [Primary and Acquired Resistance Proteogenomics Ingest Map](../analyses/primary-acquired-resistance-proteogenomics-ingest-map.md) - resistance paper를 timing 기준과 sampling design 기준으로 분류하는 운영 지도.
 
 ## Project Alignment
 
