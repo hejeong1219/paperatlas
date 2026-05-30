@@ -1,155 +1,107 @@
-<!DOCTYPE html>
-<html lang="ko"><head><meta charset="utf-8"><title>Cancer Resistance · LLM-Wiki Graph</title>
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><title>질문이 발전한 길 · LLM-Wiki</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:100%;height:100%;overflow:hidden;background:#181520;font-family:'Pretendard',-apple-system,'Segoe UI',sans-serif}
 #c{display:block;cursor:grab}
-.panel{position:absolute;background:rgba(28,24,38,.82);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.08);border-radius:12px;color:#D8D4DE}
-#info{top:22px;left:22px;width:290px;padding:18px 20px}
-#info h1{font-size:19px;color:#fff;font-weight:700;letter-spacing:-.3px}
+.panel{position:absolute;background:rgba(28,24,38,.85);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.08);border-radius:12px;color:#D8D4DE}
+#info{top:22px;left:22px;width:300px;padding:18px 20px}
+#info h1{font-size:18px;color:#fff;font-weight:700}
 #info .sub{font-size:12.5px;line-height:1.55;color:#9b94a6;margin-top:8px}
-#info .stats{display:flex;gap:18px;margin-top:16px}
-#info .stat b{font-size:22px;color:#fff;font-weight:700}
-#info .stat span{font-size:11px;color:#8a8396;display:block}
-#legend{left:22px;bottom:22px;padding:14px 18px;font-size:12.5px}
-#legend .row{display:flex;align-items:center;gap:9px;margin:7px 0}
+#info .stats{display:flex;gap:20px;margin-top:15px}
+#info .stat b{font-size:21px;color:#fff}#info .stat span{font-size:10.5px;color:#8a8396;display:block}
+#legend{left:22px;bottom:22px;padding:13px 18px;font-size:12.5px}
+#legend .row{display:flex;align-items:center;gap:9px;margin:6px 0}
 #legend .dot{width:13px;height:13px;border-radius:50%}
-#filters{top:22px;left:330px;display:flex;gap:7px}
+#filters{top:22px;left:340px;display:flex;gap:7px}
 .fbtn{padding:7px 15px;font-size:12.5px;color:#e6e1ee;background:rgba(54,48,68,.95);border:1px solid rgba(255,255,255,.18);border-radius:20px;cursor:pointer;font-family:inherit;user-select:none}
-.fbtn:hover{background:rgba(70,62,88,.95)}
-.fbtn.on{background:#E8553A;color:#fff;border-color:#E8553A}
-#detail{top:22px;right:22px;width:280px;padding:18px 20px;display:none}
+.fbtn.on{background:#FF6B4A;color:#fff;border-color:#FF6B4A}.fbtn:hover{background:rgba(70,62,88,.95)}
+#detail{top:22px;right:22px;width:300px;padding:18px 20px;display:none}
 #detail .t{font-size:11px;letter-spacing:.5px;text-transform:uppercase;font-weight:700}
-#detail h2{font-size:17px;color:#fff;margin:6px 0 4px}
-#detail .meta{font-size:12px;color:#9b94a6;margin-bottom:12px}
-#detail .ch{font-size:11px;color:#8a8396;text-transform:uppercase;letter-spacing:.4px;margin:10px 0 6px}
+#detail h2{font-size:15px;color:#fff;margin:7px 0 9px;line-height:1.45}
+#detail .ch{font-size:11px;color:#8a8396;text-transform:uppercase;margin:10px 0 6px}
 #detail .conn{font-size:12.5px;color:#cfc8da;padding:3px 0;border-bottom:1px solid rgba(255,255,255,.05)}
 #hint{right:22px;bottom:22px;padding:9px 14px;font-size:11.5px;color:#7a7388;background:rgba(28,24,38,.6);border-radius:8px}
 </style></head><body>
 <canvas id="c"></canvas>
-<div class="panel" id="info">
- <h1>Cancer Resistance · Wiki</h1>
- <div class="sub">내가 던진 <b style="color:#FF6B4A">질문</b>들이 <b style="color:#E8A33D">개념</b>·<b style="color:#7C84A8">논문</b>과 실제로 어떻게 엮였는지 — 위키의 진짜 링크.</div>
- <div class="stats">
-  <div class="stat"><b id="sN"></b><span>NOTES</span></div>
-  <div class="stat"><b id="sL"></b><span>LINKS</span></div>
-  <div class="stat"><b id="sQ" style="color:#FF6B4A"></b><span>QUESTIONS</span></div>
- </div>
-</div>
+<div class="panel" id="info"><h1>질문이 발전한 길</h1>
+ <div class="sub"><b style="color:#FF6B4A">질문</b> → <b style="color:#34C3A4">답</b> → 그 답에 영향 준 <b style="color:#7C84A8">논문</b>. 각 답이 다음 질문을 낳았다.</div>
+ <div class="stats"><div class="stat"><b id="sQ" style="color:#FF6B4A"></b><span>질문</span></div><div class="stat"><b id="sA" style="color:#34C3A4"></b><span>답</span></div><div class="stat"><b id="sP" style="color:#7C84A8"></b><span>논문</span></div></div></div>
 <div id="filters">
- <div class="fbtn on" data-f="all">전체</div>
- <div class="fbtn" data-f="question">질문</div>
- <div class="fbtn" data-f="concept">개념</div>
- <div class="fbtn" data-f="paper">논문</div>
- <div class="fbtn" id="fit">⊕ 맞춤</div>
-</div>
+ <div class="fbtn on" data-f="all">전체</div><div class="fbtn" data-f="chain">질문↔답만</div>
+ <div class="fbtn" data-f="paper">논문</div><div class="fbtn" id="fit">⊕ 맞춤</div></div>
 <div class="panel" id="legend">
- <div class="row"><div class="dot" style="background:#FF6B4A"></div>질문 (Question)</div>
- <div class="row"><div class="dot" style="background:#E8A33D"></div>개념·프레임 (Concept)</div>
- <div class="row"><div class="dot" style="background:#7C84A8"></div>논문 (Paper)</div>
-</div>
-<div class="panel" id="detail">
- <div class="t" id="dT"></div><h2 id="dH"></h2><div class="meta" id="dM"></div>
- <div class="ch">연결된 노드</div><div id="dC"></div>
-</div>
-<div id="hint">드래그=이동 · 휠=줌 · 노드 클릭=상세</div>
+ <div class="row"><div class="dot" style="background:#FF6B4A"></div>질문 (내가 던진 것)</div>
+ <div class="row"><div class="dot" style="background:#34C3A4"></div>답 (위키가 준 잠정 답)</div>
+ <div class="row"><div class="dot" style="background:#7C84A8"></div>논문 (답에 영향)</div></div>
+<div class="panel" id="detail"><div class="t" id="dT"></div><h2 id="dH"></h2>
+ <div class="ch">연결</div><div id="dC"></div></div>
+<div id="hint">드래그=이동 · 휠=줌 · 노드 클릭=전체 문장</div>
 <script>
-const DATA={"nodes": [{"id": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "label": "Question Chain", "type": "question", "degree": 12}, {"id": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "label": "Evidence Boundary Map", "type": "question", "degree": 16}, {"id": "analyses/cancer-multiomics-resistance-gap-decision-matrix", "label": "Gap Decision Matrix", "type": "question", "degree": 5}, {"id": "analyses/cancer-multiomics-final-presentation-brief", "label": "Final Presentation Brief", "type": "question", "degree": 8}, {"id": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "label": "Primary/Acquired Ingest Map", "type": "question", "degree": 26}, {"id": "analyses/drug-response-poc-global-phospho-somatic-snv", "label": "Drug-Response PoC", "type": "question", "degree": 26}, {"id": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "label": "Refractory Gastric Subtyping", "type": "question", "degree": 25}, {"id": "analyses/ptm-correction-and-kinase-signaling-question-expansion-map", "label": "PTM·Kinase Question Map", "type": "question", "degree": 1}, {"id": "analyses/ptm-correction-kinase-signaling-question-bank", "label": "PTM·Kinase Question Bank", "type": "question", "degree": 4}, {"id": "topics/cancer-multiomics-literature", "label": "Cancer Multiomics Atlas", "type": "concept", "degree": 10}, {"id": "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics", "label": "PTM·Kinase Signaling", "type": "concept", "degree": 8}, {"id": "topics/immunotherapy-resistance-and-immune-evasion", "label": "Immunotherapy Resistance", "type": "concept", "degree": 3}, {"id": "topics/multiomics-proteomics-ptm-identification", "label": "PTM Identification", "type": "concept", "degree": 2}, {"id": "syntheses/resistance-convergence-framework", "label": "Resistance Convergence Framework", "type": "concept", "degree": 5}, {"id": "syntheses/kinase-activity-inference-under-ptm-correction", "label": "Kinase Activity Inference", "type": "concept", "degree": 4}, {"id": "analyses/cancer-resistance-manuscript-anchor", "label": "Resistance Manuscript Anchor", "type": "concept", "degree": 3}, {"id": "sources/lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc", "label": "Lee 2026", "type": "paper", "degree": 5}, {"id": "sources/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response", "label": "Anurag 2022", "type": "paper", "degree": 4}, {"id": "sources/holt-2025-proteogenomic-characterization-unveils-biomarkers-associated", "label": "Holt 2025", "type": "paper", "degree": 5}, {"id": "sources/jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance", "label": "Jaehnig 2025", "type": "paper", "degree": 5}, {"id": "sources/hsu-2025-phosphoproteomics-osimertinib-tolerant-persister-cells-reveals", "label": "Hsu 2025", "type": "paper", "degree": 3}, {"id": "sources/sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance", "label": "Sambath 2026", "type": "paper", "degree": 4}, {"id": "sources/chmielecki-2023-acquired-resistance-first-line-osimertinib", "label": "Chmielecki 2023", "type": "paper", "degree": 4}, {"id": "sources/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr", "label": "Yaeger 2023", "type": "paper", "degree": 2}, {"id": "sources/wei-2026-longitudinal-multi-omic-atlas-reveals-emergence", "label": "Wei 2026", "type": "paper", "degree": 1}, {"id": "sources/solanki-2026-ras-gtp-inhibition-overcomes-acquired-resistance", "label": "Solanki 2026", "type": "paper", "degree": 1}, {"id": "sources/petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity", "label": "Petralia 2024", "type": "paper", "degree": 3}, {"id": "sources/song-2024-proteogenomic-analysis-reveals-non-small-cell", "label": "Song 2024", "type": "paper", "degree": 3}, {"id": "sources/gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities", "label": "Gillette 2020", "type": "paper", "degree": 3}, {"id": "sources/huang-2021-proteogenomic-insights-biology-treatment-hpv-negative", "label": "Huang 2021", "type": "paper", "degree": 3}, {"id": "sources/satpathy-2021-proteogenomic-portrait-lung-squamous-cell", "label": "Satpathy 2021", "type": "paper", "degree": 2}, {"id": "sources/krug-2020-proteogenomic-landscape-breast-cancer-tumorigenesis", "label": "Krug 2020", "type": "paper", "degree": 1}, {"id": "sources/jin-2026-deciphering-mediated-phosphorylated-alterations-cancer-related", "label": "Jin 2026", "type": "paper", "degree": 1}, {"id": "sources/sakai-2026-postn-cafs-chemoradiotherapy-resistance-rectal-cancer", "label": "Sakai 2026", "type": "paper", "degree": 1}, {"id": "sources/zhang-2023-proteogenomics-clear-cell-renal-response-tyrosine-kinase-inhibitor", "label": "Zhang 2023", "type": "paper", "degree": 2}, {"id": "sources/ji-2023-pharmaco-proteogenomic-characterization-liver-cancer-organoids", "label": "Ji 2023", "type": "paper", "degree": 1}, {"id": "sources/xu-2026-proteogenomic-characterization-reveals-subtype-specific-therapeutic", "label": "Xu 2026", "type": "paper", "degree": 2}, {"id": "sources/zhao-2025-phosphoproteomic-acetylomic-characterization-colorectal-cancer", "label": "Zhao 2025", "type": "paper", "degree": 1}, {"id": "sources/chen-2020-proteogenomics-non-smoking-lung-cancer-east", "label": "Chen 2020", "type": "paper", "degree": 1}, {"id": "sources/vasaikar-2019-proteogenomic-analysis-human-colon-cancer", "label": "Vasaikar 2019", "type": "paper", "degree": 1}, {"id": "sources/cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma", "label": "Cao 2021", "type": "paper", "degree": 2}, {"id": "sources/chen-2019-pan-cancer-molecular-subtypes-proteomic-characterization", "label": "Chen 2019", "type": "paper", "degree": 1}, {"id": "sources/zhang-2022-proteogenomic-characterization-2002-human-cancers", "label": "Zhang 2022", "type": "paper", "degree": 1}, {"id": "sources/chang-2026-integrative-proteogenomics-gastric-cancer-taiwan", "label": "Chang 2026", "type": "paper", "degree": 1}, {"id": "sources/chen-2023-global-impact-somatic-structural-variation-cancer-proteome", "label": "Chen 2023", "type": "paper", "degree": 1}, {"id": "sources/chen-2026-global-impact-germline-structural-variation-cancer-proteome", "label": "Chen 2026", "type": "paper", "degree": 1}], "links": [{"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/ji-2023-pharmaco-proteogenomic-characterization-liver-cancer-organoids"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/holt-2025-proteogenomic-characterization-unveils-biomarkers-associated"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "analyses/drug-response-poc-global-phospho-somatic-snv"}, {"source": "analyses/cancer-multiomics-final-presentation-brief", "target": "analyses/cancer-multiomics-resistance-biomarker-question-chain"}, {"source": "analyses/cancer-multiomics-final-presentation-brief", "target": "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "sources/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/zhang-2023-proteogenomics-clear-cell-renal-response-tyrosine-kinase-inhibitor"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "analyses/primary-acquired-resistance-proteogenomics-ingest-map"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "analyses/cancer-multiomics-resistance-gap-decision-matrix"}, {"source": "analyses/cancer-resistance-manuscript-anchor", "target": "analyses/resistance-state-subtyping-refractory-gastric-cancer"}, {"source": "analyses/ptm-correction-kinase-signaling-question-bank", "target": "syntheses/kinase-activity-inference-under-ptm-correction"}, {"source": "analyses/cancer-multiomics-final-presentation-brief", "target": "analyses/drug-response-poc-global-phospho-somatic-snv"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "syntheses/resistance-convergence-framework"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities"}, {"source": "topics/cancer-multiomics-literature", "target": "topics/immunotherapy-resistance-and-immune-evasion"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "sources/hsu-2025-phosphoproteomics-osimertinib-tolerant-persister-cells-reveals"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "syntheses/resistance-convergence-framework"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "sources/jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance"}, {"source": "analyses/cancer-multiomics-final-presentation-brief", "target": "analyses/cancer-multiomics-resistance-gap-decision-matrix"}, {"source": "analyses/ptm-correction-and-kinase-signaling-question-expansion-map", "target": "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/song-2024-proteogenomic-analysis-reveals-non-small-cell"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "analyses/primary-acquired-resistance-proteogenomics-ingest-map"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response"}, {"source": "analyses/cancer-multiomics-resistance-gap-decision-matrix", "target": "topics/cancer-multiomics-literature"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity"}, {"source": "analyses/ptm-correction-kinase-signaling-question-bank", "target": "topics/multiomics-proteomics-ptm-identification"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/chen-2026-global-impact-germline-structural-variation-cancer-proteome"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "topics/cancer-multiomics-literature"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/zhao-2025-phosphoproteomic-acetylomic-characterization-colorectal-cancer"}, {"source": "analyses/cancer-multiomics-final-presentation-brief", "target": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map"}, {"source": "analyses/cancer-multiomics-final-presentation-brief", "target": "analyses/primary-acquired-resistance-proteogenomics-ingest-map"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "topics/cancer-multiomics-literature"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "sources/lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/chang-2026-integrative-proteogenomics-gastric-cancer-taiwan"}, {"source": "analyses/cancer-multiomics-resistance-gap-decision-matrix", "target": "analyses/primary-acquired-resistance-proteogenomics-ingest-map"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/zhang-2022-proteogenomic-characterization-2002-human-cancers"}, {"source": "analyses/ptm-correction-kinase-signaling-question-bank", "target": "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "sources/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/zhang-2023-proteogenomics-clear-cell-renal-response-tyrosine-kinase-inhibitor"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "analyses/resistance-state-subtyping-refractory-gastric-cancer"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/satpathy-2021-proteogenomic-portrait-lung-squamous-cell"}, {"source": "analyses/cancer-resistance-manuscript-anchor", "target": "topics/immunotherapy-resistance-and-immune-evasion"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "sources/holt-2025-proteogenomic-characterization-unveils-biomarkers-associated"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/chmielecki-2023-acquired-resistance-first-line-osimertinib"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "syntheses/kinase-activity-inference-under-ptm-correction"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/satpathy-2021-proteogenomic-portrait-lung-squamous-cell"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/xu-2026-proteogenomic-characterization-reveals-subtype-specific-therapeutic"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/chmielecki-2023-acquired-resistance-first-line-osimertinib"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/chen-2023-global-impact-somatic-structural-variation-cancer-proteome"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/huang-2021-proteogenomic-insights-biology-treatment-hpv-negative"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/wei-2026-longitudinal-multi-omic-atlas-reveals-emergence"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "analyses/resistance-state-subtyping-refractory-gastric-cancer"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "analyses/drug-response-poc-global-phospho-somatic-snv"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/huang-2021-proteogenomic-insights-biology-treatment-hpv-negative"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "analyses/ptm-correction-kinase-signaling-question-bank"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/chen-2020-proteogenomics-non-smoking-lung-cancer-east"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/song-2024-proteogenomic-analysis-reveals-non-small-cell"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/chen-2019-pan-cancer-molecular-subtypes-proteomic-characterization"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/holt-2025-proteogenomic-characterization-unveils-biomarkers-associated"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc"}, {"source": "topics/cancer-multiomics-literature", "target": "topics/multiomics-proteomics-ptm-identification"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "sources/hsu-2025-phosphoproteomics-osimertinib-tolerant-persister-cells-reveals"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "sources/jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/holt-2025-proteogenomic-characterization-unveils-biomarkers-associated"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "topics/cancer-multiomics-literature"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "topics/cancer-multiomics-literature"}, {"source": "syntheses/resistance-convergence-framework", "target": "topics/immunotherapy-resistance-and-immune-evasion"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/vasaikar-2019-proteogenomic-analysis-human-colon-cancer"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "analyses/cancer-multiomics-resistance-biomarker-question-chain"}, {"source": "topics/cancer-multiomics-literature", "target": "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "analyses/primary-acquired-resistance-proteogenomics-ingest-map"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/hsu-2025-phosphoproteomics-osimertinib-tolerant-persister-cells-reveals"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "sources/lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/solanki-2026-ras-gtp-inhibition-overcomes-acquired-resistance"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance"}, {"source": "analyses/cancer-multiomics-final-presentation-brief", "target": "syntheses/resistance-convergence-framework"}, {"source": "analyses/cancer-resistance-manuscript-anchor", "target": "syntheses/resistance-convergence-framework"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "analyses/resistance-state-subtyping-refractory-gastric-cancer"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "sources/chmielecki-2023-acquired-resistance-first-line-osimertinib"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "syntheses/kinase-activity-inference-under-ptm-correction"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/xu-2026-proteogenomic-characterization-reveals-subtype-specific-therapeutic"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "topics/cancer-multiomics-literature"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/chmielecki-2023-acquired-resistance-first-line-osimertinib"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/krug-2020-proteogenomic-landscape-breast-cancer-tumorigenesis"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "sources/sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/jin-2026-deciphering-mediated-phosphorylated-alterations-cancer-related"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "analyses/cancer-multiomics-resistance-gap-decision-matrix"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity"}, {"source": "analyses/primary-acquired-resistance-proteogenomics-ingest-map", "target": "sources/sakai-2026-postn-cafs-chemoradiotherapy-resistance-rectal-cancer"}, {"source": "analyses/drug-response-poc-global-phospho-somatic-snv", "target": "sources/huang-2021-proteogenomic-insights-biology-treatment-hpv-negative"}, {"source": "syntheses/kinase-activity-inference-under-ptm-correction", "target": "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-question-chain", "target": "topics/ptm-correction-and-kinase-signaling-in-cancer-proteomics"}, {"source": "analyses/cancer-multiomics-final-presentation-brief", "target": "topics/cancer-multiomics-literature"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "sources/anurag-2022-proteogenomic-markers-chemotherapy-resistance-response"}, {"source": "analyses/resistance-state-subtyping-refractory-gastric-cancer", "target": "sources/song-2024-proteogenomic-analysis-reveals-non-small-cell"}, {"source": "analyses/cancer-multiomics-resistance-biomarker-evidence-boundary-map", "target": "sources/holt-2025-proteogenomic-characterization-unveils-biomarkers-associated"}]};
-const COL={question:'#FF6B4A',concept:'#E8A33D',paper:'#7C84A8'};
-const RBASE={question:9,concept:7,paper:4};
-const cv=document.getElementById('c'),ctx=cv.getContext('2d');
-let W,H,DPR;
-function resize(){DPR=window.devicePixelRatio||1;W=innerWidth;H=innerHeight;cv.width=W*DPR;cv.height=H*DPR;cv.style.width=W+'px';cv.style.height=H+'px';}
-resize();
-const nodes=DATA.nodes.map(n=>({...n,x:W/2+(Math.random()-.5)*250,y:H/2+(Math.random()-.5)*250,vx:0,vy:0}));
+const DATA={"nodes": [{"id": "Q1", "type": "question", "label": "Q1 · marker 발굴 가능?", "full": "단백체·인산화로 항암제 내성 marker를 발굴할 수 있는가?", "degree": 1}, {"id": "A1", "type": "answer", "label": "→ 전부 baseline non-response", "full": "발굴은 가능하나, 이 논문들이 다루는 내성은 모두 치료 전 baseline non-response.", "degree": 7}, {"id": "Q2", "type": "question", "label": "Q2 · 어떤 timing?", "full": "그럼 각 논문은 어떤 내성 timing(시점)을 뒷받침하는가?", "degree": 2}, {"id": "A2", "type": "answer", "label": "→ acquired 단백체가 없다", "full": "baseline 근거는 충분하나, 같은 환자 획득내성(acquired)의 proteome·phospho가 부재.", "degree": 6}, {"id": "Q3", "type": "question", "label": "Q3 · proteome=phospho?", "full": "proteome와 phosphoproteome는 같은 내성 생물학을 반영하는가?", "degree": 2}, {"id": "A3", "type": "answer", "label": "→ 발현량 ≠ kinase 활성", "full": "독립적이다 — 발현량(얼마나 많은가)과 kinase 활성(경로가 켜졌나)은 서로 다른 내성 상태.", "degree": 5}, {"id": "Q4", "type": "question", "label": "Q4 · 규정 근거 조건?", "full": "그 신호를 내성 marker로 규정하려면 어떤 근거 조건이 필요한가?", "degree": 2}, {"id": "A4", "type": "answer", "label": "→ 상태 분류 어휘 부재 (gap)", "full": "5조건(timing·endpoint·단위·방향·검증) 정리 → 상태별 공통 분류 어휘가 없다. = 연구 gap.", "degree": 2}, {"id": "QF", "type": "question", "label": "Q★ · state로 재분류?", "full": "유전체로 설명되지 않는 내성을 functional resistance state로 재분류할 수 있는가?", "degree": 3}, {"id": "HF", "type": "answer", "label": "→ kinase-activity state 수렴", "full": "가설: 유전체-미설명 내성은 무작위가 아니라 재현가능한 kinase-activity state로 수렴하며, 유전체층과 orthogonal하다 (검정 가능).", "degree": 3}, {"id": "Lee 2026", "type": "paper", "full": "Lee 2026 · 한국인 TNBC NAC 저항 proteogenomics", "label": "Lee 2026", "degree": 1}, {"id": "Anurag 2022", "type": "paper", "full": "Anurag 2022 · TNBC 화학요법 저항 proteogenomic marker", "label": "Anurag 2022", "degree": 2}, {"id": "Holt 2025", "type": "paper", "full": "Holt 2025 · MIBC proteogenomic, DDR proteome", "label": "Holt 2025", "degree": 2}, {"id": "Jaehnig 2025", "type": "paper", "full": "Jaehnig 2025 · HER2+ breast (CALGB 40601)", "label": "Jaehnig 2025", "degree": 1}, {"id": "Zhang 2023", "type": "paper", "full": "Zhang 2023 · ccRCC sunitinib 반응 proteogenomics", "label": "Zhang 2023", "degree": 1}, {"id": "Chmielecki 2023", "type": "paper", "full": "Chmielecki 2023 · serial ctDNA acquired timing", "label": "Chmielecki 2023", "degree": 1}, {"id": "Yaeger 2023", "type": "paper", "full": "Yaeger 2023 · KRASG12C/EGFR 획득내성", "label": "Yaeger 2023", "degree": 1}, {"id": "Hsu 2025", "type": "paper", "full": "Hsu 2025 · osimertinib DTP phosphoproteomics (kinase 활성)", "label": "Hsu 2025", "degree": 2}, {"id": "Memon 2024", "type": "paper", "full": "Memon 2024 · acquired resistance time-course", "label": "Memon 2024", "degree": 1}, {"id": "Chang 2026", "type": "paper", "full": "Chang 2026 (Gut) · 1차 위암 proteogenomic atlas (비교/차별 대상)", "label": "Chang 2026", "degree": 2}, {"id": "Sambath 2026", "type": "paper", "full": "Sambath 2026 · 자궁경부암 CCRT 내성 proteogenomics", "label": "Sambath 2026", "degree": 1}], "links": [{"source": "Q1", "target": "A1", "chain": 1}, {"source": "A1", "target": "Q2", "chain": 1}, {"source": "Q2", "target": "A2", "chain": 1}, {"source": "A2", "target": "Q3", "chain": 1}, {"source": "Q3", "target": "A3", "chain": 1}, {"source": "A3", "target": "Q4", "chain": 1}, {"source": "Q4", "target": "A4", "chain": 1}, {"source": "A4", "target": "QF", "chain": 1}, {"source": "QF", "target": "HF", "chain": 1}, {"source": "Lee 2026", "target": "A1", "chain": false}, {"source": "Anurag 2022", "target": "A1", "chain": false}, {"source": "Holt 2025", "target": "A1", "chain": false}, {"source": "Jaehnig 2025", "target": "A1", "chain": false}, {"source": "Zhang 2023", "target": "A1", "chain": false}, {"source": "Chmielecki 2023", "target": "A2", "chain": false}, {"source": "Yaeger 2023", "target": "A2", "chain": false}, {"source": "Hsu 2025", "target": "A2", "chain": false}, {"source": "Memon 2024", "target": "A2", "chain": false}, {"source": "Anurag 2022", "target": "A3", "chain": false}, {"source": "Holt 2025", "target": "A3", "chain": false}, {"source": "Hsu 2025", "target": "A3", "chain": false}, {"source": "Chang 2026", "target": "HF", "chain": false}, {"source": "Sambath 2026", "target": "HF", "chain": false}, {"source": "Chang 2026", "target": "QF", "chain": false}]};
+const COL={question:'#FF6B4A',answer:'#34C3A4',paper:'#7C84A8'};
+const RBASE={question:13,answer:11,paper:5};
+const cv=document.getElementById('c'),ctx=cv.getContext('2d');let W,H,DPR;
+function resize(){DPR=window.devicePixelRatio||1;W=innerWidth;H=innerHeight;cv.width=W*DPR;cv.height=H*DPR;cv.style.width=W+'px';cv.style.height=H+'px';}resize();
+// 사슬 노드는 위→아래 순서로 시드, 논문은 랜덤
+const chainOrder=['Q1','A1','Q2','A2','Q3','A3','Q4','A4','QF','HF'];
+const nodes=DATA.nodes.map(n=>{let ci=chainOrder.indexOf(n.id);
+ return {...n,x:ci>=0?W/2+(ci%2?120:-120):W/2+(Math.random()-.5)*300,
+              y:ci>=0?120+ci*((H-240)/9):H/2+(Math.random()-.5)*300,vx:0,vy:0};});
 const byId={};nodes.forEach(n=>byId[n.id]=n);
-const links=DATA.links.map(l=>({s:byId[l.source],t:byId[l.target]})).filter(l=>l.s&&l.t);
-nodes.forEach(n=>n.r=RBASE[n.type]+Math.min(n.degree,14)*0.9);
+const links=DATA.links.map(l=>({s:byId[l.source],t:byId[l.target],chain:l.chain})).filter(l=>l.s&&l.t);
+nodes.forEach(n=>n.r=RBASE[n.type]+Math.min(n.degree,10)*0.7);
 const adj={};nodes.forEach(n=>adj[n.id]=[]);links.forEach(l=>{adj[l.s.id].push(l.t);adj[l.t.id].push(l.s)});
-document.getElementById('sN').textContent=nodes.length;
-document.getElementById('sL').textContent=links.length;
-document.getElementById('sQ').textContent=nodes.filter(n=>n.type==='question').length;
-// view transform
-let scale=0.82,tx=0,ty=0;
-function autofit(){
- let a=1e9,b=1e9,c=-1e9,d=-1e9;
- for(let n of nodes){a=Math.min(a,n.x);c=Math.max(c,n.x);b=Math.min(b,n.y);d=Math.max(d,n.y);}
- let bw=Math.max(c-a,1),bh=Math.max(d-b,1);
- scale=Math.min((W-300)/bw,(H-240)/bh,1.5);
- tx=W/2-(a+c)/2*scale;ty=H/2-(b+d)/2*scale;
-}
-window.addEventListener('resize',()=>{resize();autofit();});
-setTimeout(autofit,2600);setTimeout(autofit,5200);
-document.getElementById('fit').onclick=autofit;
-// simulation
+sQ.textContent=nodes.filter(n=>n.type==='question').length;sA.textContent=nodes.filter(n=>n.type==='answer').length;sP.textContent=nodes.filter(n=>n.type==='paper').length;
+let scale=0.85,tx=0,ty=0;
+function autofit(){let a=1e9,b=1e9,c=-1e9,d=-1e9;for(let n of nodes){a=Math.min(a,n.x);c=Math.max(c,n.x);b=Math.min(b,n.y);d=Math.max(d,n.y);}
+ let bw=Math.max(c-a,1),bh=Math.max(d-b,1);scale=Math.min((W-340)/bw,(H-200)/bh,1.4);tx=W/2-(a+c)/2*scale;ty=H/2-(b+d)/2*scale;}
+window.addEventListener('resize',()=>{resize();autofit();});setTimeout(autofit,2800);setTimeout(autofit,5500);fit.onclick=autofit;
 let alpha=1;
-function step(){
- if(alpha<0.005)return;
- for(let i=0;i<nodes.length;i++){let a=nodes[i];
-  for(let j=i+1;j<nodes.length;j++){let b=nodes[j];
-   let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy||1,d=Math.sqrt(d2);
-   let f=2600/d2;let fx=dx/d*f,fy=dy/d*f;
-   a.vx+=fx;a.vy+=fy;b.vx-=fx;b.vy-=fy;}}
+function step(){if(alpha<0.004)return;
+ for(let i=0;i<nodes.length;i++){let a=nodes[i];for(let j=i+1;j<nodes.length;j++){let b=nodes[j];
+  let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy||1,d=Math.sqrt(d2);let f=3000/d2;a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;}}
  for(let l of links){let dx=l.t.x-l.s.x,dy=l.t.y-l.s.y,d=Math.sqrt(dx*dx+dy*dy)||1;
-  let f=(d-82)*0.02;let fx=dx/d*f,fy=dy/d*f;
-  l.s.vx+=fx;l.s.vy+=fy;l.t.vx-=fx;l.t.vy-=fy;}
- const cx=W/2,cy=H/2;
- for(let n of nodes){if(n.fx!=null){n.x=n.fx;n.y=n.fy;n.vx=0;n.vy=0;continue;}
-  n.vx+=(cx-n.x)*0.0024;n.vy+=(cy-n.y)*0.0024;
-  n.vx*=0.86;n.vy*=0.86;n.x+=n.vx;n.y+=n.vy;}
- alpha*=0.992;
-}
+  let L0=l.chain?68:115,k=l.chain?0.035:0.012;let f=(d-L0)*k;l.s.vx+=dx/d*f;l.s.vy+=dy/d*f;l.t.vx-=dx/d*f;l.t.vy-=dy/d*f;}
+ const cx=W/2,cy=H/2;for(let n of nodes){if(n.fx!=null){n.x=n.fx;n.y=n.fy;n.vx=n.vy=0;continue;}
+  n.vx+=(cx-n.x)*0.002;n.vy+=(cy-n.y)*0.002;n.vx*=0.85;n.vy*=0.85;n.x+=n.vx;n.y+=n.vy;}alpha*=0.99;}
 let filter='all',hover=null,sel=null;
-function visible(n){return filter==='all'||n.type===filter}
-function draw(){
- ctx.setTransform(DPR,0,0,DPR,0,0);ctx.clearRect(0,0,W,H);
+function vis(n){return filter==='all'||(filter==='chain'&&n.type!=='paper')||(filter==='paper');}
+function arrow(x1,y1,x2,y2,col){let a=Math.atan2(y2-y1,x2-x1),r=byId?0:0;
+ // 화살촉 (타깃 노드 반경 앞)
+ ctx.fillStyle=col;ctx.beginPath();let s=7/scale;
+ ctx.moveTo(x2,y2);ctx.lineTo(x2-s*Math.cos(a-0.4),y2-s*Math.sin(a-0.4));ctx.lineTo(x2-s*Math.cos(a+0.4),y2-s*Math.sin(a+0.4));ctx.closePath();ctx.fill();}
+function draw(){ctx.setTransform(DPR,0,0,DPR,0,0);ctx.clearRect(0,0,W,H);
  ctx.setTransform(DPR*scale,0,0,DPR*scale,tx*DPR,ty*DPR);
- const hi=hover||sel;const hiSet=hi?new Set(adj[hi.id].map(x=>x.id).concat(hi.id)):null;
- // links
- for(let l of links){let on=!hiSet||hiSet.has(l.s.id)&&hiSet.has(l.t.id);
-  let vis=visible(l.s)||visible(l.t);
-  ctx.strokeStyle=on&&hi?'rgba(255,140,90,.45)':(vis?'rgba(200,190,215,.10)':'rgba(200,190,215,.03)');
-  ctx.lineWidth=(on&&hi?1.4:0.8)/scale;
-  ctx.beginPath();ctx.moveTo(l.s.x,l.s.y);ctx.lineTo(l.t.x,l.t.y);ctx.stroke();}
- // nodes
- for(let n of nodes){let dim=(hiSet&&!hiSet.has(n.id))||!visible(n);
-  ctx.globalAlpha=dim?0.18:1;
+ const hi=hover||sel;const hs=hi?new Set(adj[hi.id].map(x=>x.id).concat(hi.id)):null;
+ for(let l of links){let on=!hs||(hs.has(l.s.id)&&hs.has(l.t.id));let visl=vis(l.s)&&vis(l.t)||(filter==='chain'&&l.chain);
+  if(filter==='paper'&&l.chain){}
+  let dim=(hs&&!on)||!visl;
+  let dx=l.t.x-l.s.x,dy=l.t.y-l.s.y,d=Math.sqrt(dx*dx+dy*dy)||1;let ux=dx/d,uy=dy/d;
+  let ex=l.t.x-ux*(l.t.r+2),ey=l.t.y-uy*(l.t.r+2);
+  ctx.strokeStyle=l.chain?(dim?'rgba(255,107,74,.12)':'rgba(255,140,90,.55)'):(dim?'rgba(200,190,215,.04)':'rgba(160,170,200,.20)');
+  ctx.lineWidth=(l.chain?2.0:0.9)/scale;ctx.beginPath();ctx.moveTo(l.s.x,l.s.y);ctx.lineTo(ex,ey);ctx.stroke();
+  if(l.chain&&!dim)arrow(l.s.x,l.s.y,ex,ey,'rgba(255,140,90,.65)');}
+ for(let n of nodes){let dim=(hs&&!hs.has(n.id))||!vis(n);ctx.globalAlpha=dim?0.16:1;
   ctx.beginPath();ctx.arc(n.x,n.y,n.r,0,7);ctx.fillStyle=COL[n.type];ctx.fill();
   if(n===hi){ctx.lineWidth=2.5/scale;ctx.strokeStyle='#fff';ctx.stroke();}
-  // label
-  let show=n.type!=='paper'||n.degree>=2||!dim&&hi;
-  if(show||!dim){ctx.globalAlpha=dim?0.25:1;
-   ctx.font=(n.type==='question'?'600 ':'')+(n.type==='paper'?11:n.type==='question'?14:12.5)+"px Pretendard,sans-serif";
-   ctx.fillStyle=n.type==='question'?'#ffd9cd':n.type==='concept'?'#f4d9a8':'#b9bdce';
-   ctx.textAlign='center';ctx.fillText(n.label,n.x,n.y+n.r+13);}
- }
- ctx.globalAlpha=1;
-}
+  let showL=n.type!=='paper'||n.degree>=1;
+  if(!dim||showL){ctx.globalAlpha=dim?0.22:1;
+   ctx.font=(n.type==='question'?'700 14':n.type==='answer'?'600 12.5':'11')+"px Pretendard,sans-serif";
+   ctx.fillStyle=n.type==='question'?'#ffd9cd':n.type==='answer'?'#bff0e4':'#b9bdce';ctx.textAlign='center';
+   ctx.fillText(n.label,n.x,n.y+n.r+13);}}
+ ctx.globalAlpha=1;}
 function loop(){step();draw();requestAnimationFrame(loop);}loop();
-// interaction
-function toWorld(px,py){return{x:(px-tx)/scale,y:(py-ty)/scale}}
-function pick(px,py){let w=toWorld(px,py),best=null,bd=1e9;
- for(let n of nodes){let dx=n.x-w.x,dy=n.y-w.y,d=Math.sqrt(dx*dx+dy*dy);if(d<n.r+6&&d<bd){bd=d;best=n;}}return best;}
+function toW(px,py){return{x:(px-tx)/scale,y:(py-ty)/scale}}
+function pick(px,py){let w=toW(px,py),b=null,bd=1e9;for(let n of nodes){let dx=n.x-w.x,dy=n.y-w.y,d=Math.hypot(dx,dy);if(d<n.r+6&&d<bd){bd=d;b=n;}}return b;}
 let drag=null,pan=null;
-cv.addEventListener('mousedown',e=>{let n=pick(e.clientX,e.clientY);
- if(n){drag=n;n.fx=n.x;n.fy=n.y;selectNode(n);}else{pan={x:e.clientX,y:e.clientY,tx,ty};cv.style.cursor='grabbing';}});
-window.addEventListener('mousemove',e=>{
- if(drag){let w=toWorld(e.clientX,e.clientY);drag.fx=w.x;drag.fy=w.y;alpha=Math.max(alpha,.3);}
- else if(pan){tx=pan.tx+(e.clientX-pan.x);ty=pan.ty+(e.clientY-pan.y);}
- else{let n=pick(e.clientX,e.clientY);hover=n;cv.style.cursor=n?'pointer':'grab';}});
-window.addEventListener('mouseup',()=>{if(drag){drag.fx=null;drag.fy=null;drag=null;}pan=null;cv.style.cursor='grab';});
-cv.addEventListener('wheel',e=>{e.preventDefault();let w=toWorld(e.clientX,e.clientY);
- let ns=scale*(e.deltaY<0?1.12:0.89);ns=Math.max(0.2,Math.min(4,ns));
- tx=e.clientX-w.x*ns;ty=e.clientY-w.y*ns;scale=ns;},{passive:false});
-function selectNode(n){sel=n;let d=document.getElementById('detail');d.style.display='block';
- document.getElementById('dT').textContent=({question:'질문 · QUESTION',concept:'개념 · CONCEPT',paper:'논문 · PAPER'})[n.type];
- document.getElementById('dT').style.color=COL[n.type];
- document.getElementById('dH').textContent=n.label;
- document.getElementById('dM').textContent='연결 '+n.degree+'개';
- let html=adj[n.id].map(x=>'<div class="conn">'+x.label+'</div>').join('');
- document.getElementById('dC').innerHTML=html;}
-cv.addEventListener('click',e=>{if(Math.abs((pan?0:0))){};let n=pick(e.clientX,e.clientY);if(!n){sel=null;document.getElementById('detail').style.display='none';}});
-document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{
- document.querySelectorAll('.fbtn').forEach(x=>x.classList.remove('on'));b.classList.add('on');filter=b.dataset.f;}));
-setTimeout(()=>{alpha=1;},50);
+cv.addEventListener('mousedown',e=>{let n=pick(e.clientX,e.clientY);if(n){drag=n;n.fx=n.x;n.fy=n.y;showDetail(n);}else{pan={x:e.clientX,y:e.clientY,tx,ty};}});
+window.addEventListener('mousemove',e=>{if(drag){let w=toW(e.clientX,e.clientY);drag.fx=w.x;drag.fy=w.y;alpha=Math.max(alpha,.3);}
+ else if(pan){tx=pan.tx+e.clientX-pan.x;ty=pan.ty+e.clientY-pan.y;}else{hover=pick(e.clientX,e.clientY);cv.style.cursor=hover?'pointer':'grab';}});
+window.addEventListener('mouseup',()=>{if(drag){drag.fx=drag.fy=null;drag=null;}pan=null;});
+cv.addEventListener('wheel',e=>{e.preventDefault();let w=toW(e.clientX,e.clientY);let ns=Math.max(0.2,Math.min(4,scale*(e.deltaY<0?1.12:0.89)));tx=e.clientX-w.x*ns;ty=e.clientY-w.y*ns;scale=ns;},{passive:false});
+function showDetail(n){sel=n;detail.style.display='block';
+ dT.textContent=({question:'질문 · QUESTION',answer:'답 · ANSWER',paper:'논문 · PAPER'})[n.type];dT.style.color=COL[n.type];
+ dH.textContent=n.full||n.label;dC.innerHTML=adj[n.id].map(x=>'<div class="conn">'+(x.label)+'</div>').join('');}
+cv.addEventListener('click',e=>{if(!pick(e.clientX,e.clientY)){sel=null;detail.style.display='none';}});
+document.querySelectorAll('.fbtn[data-f]').forEach(b=>b.onclick=()=>{document.querySelectorAll('.fbtn[data-f]').forEach(x=>x.classList.remove('on'));b.classList.add('on');filter=b.dataset.f;});
 </script></body></html>
