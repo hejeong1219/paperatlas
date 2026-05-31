@@ -118,9 +118,9 @@ function draw(){
   // 엣지
   for(const l of links){
     if(l.kind==='struct') continue; // 구조선은 힘만
-    if(l.kind==='qp'){ctx.strokeStyle='rgba(91,134,176,.24)';ctx.lineWidth=0.6/scale;}
-    else if(l.kind==='mesh'){ctx.strokeStyle='rgba(108,96,78,.30)';ctx.lineWidth=0.6/scale;} // 의미연결(공유 발견)
-    else{ctx.strokeStyle='rgba(90,78,60,.45)';ctx.lineWidth=0.85/scale;} // pp=진짜 co-citation 진하게
+    if(l.kind==='qp'){ctx.strokeStyle='rgba(91,134,176,.34)';ctx.lineWidth=0.7/scale;}
+    else if(l.kind==='mesh'){ctx.strokeStyle='rgba(96,84,66,.46)';ctx.lineWidth=0.8/scale;} // 주제 내 연결
+    else{ctx.strokeStyle='rgba(70,60,46,.58)';ctx.lineWidth=1.0/scale;} // pp=진짜 co-citation 진하게
     let hl=sel&&(l.s===sel||l.t===sel);
     if(hl){ctx.strokeStyle='rgba(199,138,60,.85)';ctx.lineWidth=1.8/scale;}
     ctx.beginPath();ctx.moveTo(l.s.x,l.s.y);ctx.lineTo(l.t.x,l.t.y);ctx.stroke();}
