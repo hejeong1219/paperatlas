@@ -110,7 +110,7 @@ function draw(){
   for(const l of links){
     if(l.kind==='struct'){ctx.strokeStyle='rgba(23,96,135,.22)';ctx.lineWidth=1.4/scale;}
     else if(l.kind==='qp'){ctx.strokeStyle='rgba(91,134,176,.30)';ctx.lineWidth=0.8/scale;}
-    else{ctx.strokeStyle='rgba(120,110,92,.10)';ctx.lineWidth=0.5/scale;}
+    else{ctx.strokeStyle='rgba(110,98,80,.20)';ctx.lineWidth=0.65/scale;}
     let hl=sel&&(l.s===sel||l.t===sel);
     if(hl){ctx.strokeStyle='rgba(199,138,60,.75)';ctx.lineWidth=1.6/scale;}
     ctx.beginPath();ctx.moveTo(l.s.x,l.s.y);ctx.lineTo(l.t.x,l.t.y);ctx.stroke();}
