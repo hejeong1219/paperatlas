@@ -116,17 +116,17 @@ function draw(){
   for(const l of links){
     if(l.kind==='struct') continue; // 구조선은 힘만
     let inc=sel&&(l.s===sel||l.t===sel);
-    ctx.globalAlpha=(sel&&!inc)?0.05:1;
+    ctx.globalAlpha=(sel&&!inc)?0.25:1;
     if(l.kind==='qp'){ctx.strokeStyle='rgba(91,134,176,.20)';ctx.lineWidth=0.5/scale;}
     else if(l.kind==='mesh'){ctx.strokeStyle='rgba(120,108,90,.22)';ctx.lineWidth=0.5/scale;} // 주제 내 연결(연하게)
     else{ctx.strokeStyle='rgba(95,82,64,.34)';ctx.lineWidth=0.65/scale;} // pp=진짜 co-citation
-    if(inc){ctx.strokeStyle='rgba(199,138,60,.9)';ctx.lineWidth=1.8/scale;}
+    if(inc){ctx.strokeStyle='rgba(199,138,60,.85)';ctx.lineWidth=1.5/scale;}
     ctx.beginPath();ctx.moveTo(l.s.x,l.s.y);ctx.lineTo(l.t.x,l.t.y);ctx.stroke();}
   ctx.globalAlpha=1;
   // 노드
   for(const n of nodes){
-    ctx.globalAlpha=(nbr&&!nbr.has(n))?0.12:1;
-    let big=(nbr&&nbr.has(n)&&n!==sel&&n.type==='paper')?1.7:1; // 근거 논문 살짝 키움
+    ctx.globalAlpha=(nbr&&!nbr.has(n))?0.34:1;
+    let big=(nbr&&nbr.has(n)&&n!==sel&&n.type==='paper')?1.35:1; // 근거 논문 살짝 키움
     if(n.type==='q'){ // 질문 — 논문과 같은 크기, 모양만 다이아몬드
       ctx.save();ctx.translate(n.x,n.y);ctx.rotate(Math.PI/4);
       let s=n.r*big;ctx.fillStyle=n.color;ctx.fillRect(-s,-s,2*s,2*s);ctx.restore();continue;}
