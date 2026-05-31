@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # OncoProExp: An interactive shiny web application for comprehensive cancer proteomics and phosphoproteomics analysis.
 

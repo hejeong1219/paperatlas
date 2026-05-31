@@ -50,3 +50,11 @@ This is the clearest mechanistic paper in the current batch for ADC escape: it s
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC12631751/>
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/41212147/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[bardia-2024-trastuzumab-deruxtecan-after-endocrine-therapy-metastatic-breast-cancer|Bardia 2024]]
+- [[modi-2022-trastuzumab-deruxtecan-her2-low-advanced-breast-cancer|Modi 2022]]
+- [[oh-2024-tdxd-cgas-sting-gastric-cancer|Oh 2024]]

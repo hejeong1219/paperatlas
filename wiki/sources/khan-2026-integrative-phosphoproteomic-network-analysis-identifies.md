@@ -23,6 +23,8 @@ extra_topics:
 pdf: "raw/inbox/papers/khan-2026-integrative-phosphoproteomic-network-analysis-identifies.pdf"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+topic: cancer-multiomics
+cm_axis: phospho
 ---
 # Integrative phosphoproteomic network analysis identifies CAMK2D as a shared regulator of TPD52 family proteins in cancer
 

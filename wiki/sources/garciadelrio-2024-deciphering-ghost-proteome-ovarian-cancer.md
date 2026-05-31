@@ -20,6 +20,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # Deciphering the ghost proteome in ovarian cancer cells by deep proteogenomic characterization.
 

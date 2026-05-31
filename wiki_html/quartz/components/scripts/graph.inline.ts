@@ -188,20 +188,24 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         (id.includes("ptmanchor") || id.includes("copheemap"))) return "ptmanchor"
     if (id.startsWith("analyses/") && id.includes("cancer-resistance")) return "resistance"
     if (id.startsWith("analyses/") && id.includes("b-cell-neoantigen")) return "bcell-neoantigen"
-    return (data.get(id as any)?.topic as string) ?? "other"
+    if (id.startsWith("analyses/") && id.includes("cancer-multiomics")) return "cancer-multiomics"
+    let t = (data.get(id as any)?.topic as string) ?? "other"
+    if (t.startsWith("cancer-multiomics") || t.startsWith("multiomics-")) t = "cancer-multiomics"
+    if (t.startsWith("b-cell-neoantigen")) t = "bcell-neoantigen"
+    return t
   }
   const clusterX = (n: NodeData) => {
     const t = inferTopicForCluster(n.id)
-    if (t === "ptmanchor") return -width * 0.32
-    if (t === "resistance") return 0
-    if (t === "bcell-neoantigen") return width * 0.32
+    if (t === "ptmanchor") return -width * 0.34
+    if (t === "resistance") return -width * 0.11
+    if (t === "cancer-multiomics") return width * 0.11
+    if (t === "bcell-neoantigen") return width * 0.34
     return 0
   }
   // Pre-position nodes near their cluster center so they don't all start at (0,0)
   for (const n of graphData.nodes as any[]) {
-    const t = inferTopicForCluster(n.id)
-    const cx = t === "ptmanchor" ? -width * 0.32 : t === "bcell-neoantigen" ? width * 0.32 : 0
-    n.x = cx + (Math.random() - 0.5) * width * 0.25
+    const cx = clusterX(n as any)
+    n.x = cx + (Math.random() - 0.5) * width * 0.2
     n.y = (Math.random() - 0.5) * height * 0.6
   }
   // we virtualize the simulation and use pixi to actually render it
@@ -243,6 +247,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     ptmanchor: 0x7b5cff,
     resistance: 0xff6b6b,
     "bcell-neoantigen": 0x4ecdc4,
+    "cancer-multiomics": 0x176087,
     other: 0x9aa5b1,
   }
   const inferTopicFromSlug = (id: string): string => {
@@ -250,7 +255,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         (id.includes("ptmanchor") || id.includes("copheemap"))) return "ptmanchor"
     if (id.startsWith("analyses/") && id.includes("cancer-resistance")) return "resistance"
     if (id.startsWith("analyses/") && id.includes("b-cell-neoantigen")) return "bcell-neoantigen"
-    return (data.get(id as any)?.topic as string) ?? "other"
+    if (id.startsWith("analyses/") && id.includes("cancer-multiomics")) return "cancer-multiomics"
+    let t = (data.get(id as any)?.topic as string) ?? "other"
+    if (t.startsWith("cancer-multiomics") || t.startsWith("multiomics-")) t = "cancer-multiomics"
+    if (t.startsWith("b-cell-neoantigen")) t = "bcell-neoantigen"
+    return t
   }
   const colorHexToString = (n: number) => "#" + n.toString(16).padStart(6, "0")
   const color = (d: NodeData) => {

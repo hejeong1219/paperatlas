@@ -50,3 +50,8 @@ This paper argues that not all therapy-induced senescence is immunologically equ
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC10766199/>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/37854019/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[wagner-2020-senescence-therapeutically-relevant-cdk46|Wagner 2020]]

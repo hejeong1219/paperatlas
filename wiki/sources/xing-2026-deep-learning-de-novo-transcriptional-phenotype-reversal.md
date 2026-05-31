@@ -28,6 +28,7 @@ pdf_status: manual_pending
 pdf_failed_attempts: "ku_download (citation_pdf_url meta missing or 403/404), fallback_direct_url"
 pdf_manual_note: 'Cell. doi.org→Elsevier 302 OK. cell.com showPdf returns 403 (anti-bot). Manual: download from cell.com.'
 notion_url: "https://www.notion.so/355302d9c598816f9006e0b1d45b0db6"
+cm_axis: integration
 ---
 
 # Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated transcriptional phenotypes

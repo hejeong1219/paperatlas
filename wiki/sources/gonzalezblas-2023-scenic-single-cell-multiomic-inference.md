@@ -26,6 +26,7 @@ openalex_id: "W4384198561"
 openalex_primary_topic: "Single-cell and spatial transcriptomics"
 related_to_seeds: "savage-2026-klf2-runx2-memory-like-car-t"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks

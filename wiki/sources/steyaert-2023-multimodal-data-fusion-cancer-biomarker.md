@@ -25,6 +25,7 @@ openalex_id: "W4362673398"
 openalex_primary_topic: "AI in cancer detection"
 related_to_seeds: "zhang-2026-systematically-decoding-pathological-morphologies-multimodal-embedding"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # Multimodal data fusion for cancer biomarker discovery with deep learning

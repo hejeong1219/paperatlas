@@ -50,3 +50,8 @@ This paper is a classic mechanism-to-molecule study: it identifies an androgen-r
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC3622181/>
 - eLife article: <https://elifesciences.org/articles/00499>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[robinson-2015-integrative-clinical-genomics-advanced-prostate|Robinson 2015]]

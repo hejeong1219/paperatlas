@@ -39,6 +39,8 @@ corpus_role: core-proteogenomic-vulnerability
 ingest_status: full-text-read
 ingested_on: 2026-05-13
 pdf: "raw/inbox/papers/chen-2020-proteogenomics-non-smoking-lung-cancer-east.pdf"
+topic: cancer-multiomics
+cm_axis: response
 ---
 # Proteogenomics of Non-Smoking Lung Cancer in East Asia
 
@@ -143,3 +145,18 @@ Chen et al. build a deep proteogenomic map of treatment-naive, predominantly ear
 ## Sources
 
 - Local PDF: `raw/inbox/papers/chen-2020-proteogenomics-non-smoking-lung-cancer-east.pdf`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[ji-2023-pharmaco-proteogenomic-characterization-liver-cancer-organoids|Ji 2023]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]
+- [[petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity|Petralia 2024]]

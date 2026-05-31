@@ -22,6 +22,8 @@ themes:
   - pan-cancer-method
 discovery_method: user-shared
 pdf_status: html-only
+topic: cancer-multiomics
+cm_axis: integration
 ---
 
 # Discovering Proteo-Transcriptomic Networks via Biologically Informed Heterogeneous Graph Learning

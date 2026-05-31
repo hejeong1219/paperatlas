@@ -22,6 +22,7 @@ themes:
   - "ms-methodology"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # Proteogenomic characterization identifies clinical subgroups in EGFR and ALK wild-type never-smoker lung adenocarcinoma.
 

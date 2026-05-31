@@ -26,6 +26,7 @@ openalex_id: "W4406440058"
 openalex_primary_topic: "Genomics and Phylogenetic Studies"
 related_to_seeds: "zhang-2026-proteinaligner-tri-modal-contrastive-protein-language"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # Simulating 500 million years of evolution with a language model

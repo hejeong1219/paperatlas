@@ -42,6 +42,8 @@ extra_topics:
 pdf: "raw/inbox/papers/savage-2024-pan-cancer-proteogenomics-expands-landscape-therapeutic.pdf"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+topic: cancer-multiomics
+cm_axis: integration
 ---
 # Pan-cancer proteogenomics expands the landscape of therapeutic targets
 

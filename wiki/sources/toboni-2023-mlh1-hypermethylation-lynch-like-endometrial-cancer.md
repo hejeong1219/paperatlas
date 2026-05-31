@@ -50,3 +50,10 @@ This paper is a strong reminder that mismatch-repair-deficient endometrial cance
 
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/37683549/>
 - ScienceDirect abstract page: <https://www.sciencedirect.com/science/article/abs/pii/S0090825823014579>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[grasso-2018-genetic-mechanisms-immune-evasion-colorectal-cancer|Grasso 2018]]
+- [[yang-2021-msih-gastric-cancer-heterogeneity-worse-survival|Yang 2021]]

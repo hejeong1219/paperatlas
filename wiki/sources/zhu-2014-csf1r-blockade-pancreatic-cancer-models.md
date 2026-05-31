@@ -50,3 +50,11 @@ This paper is an early and still influential demonstration that myeloid reprogra
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC4182950/>
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/25082815/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[allen-2017-antiangiogenic-pdl1-hev-formation|Allen 2017]]
+- [[elyada-2019-apcafs-pancreatic-cancer|Elyada 2019]]
+- [[laino-2020-serum-il6-crp-melanoma-checkpoint-inhibition|Laino 2020]]

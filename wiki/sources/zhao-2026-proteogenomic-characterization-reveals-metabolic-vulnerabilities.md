@@ -44,6 +44,7 @@ themes:
   - "patient-stratification"
   - "subtype-biomarker"
   - "asian-cohort"
+cm_axis: integration
 ---
 # Proteogenomic Characterization Reveals Metabolic Vulnerabilities and Aberrant Phosphorylation in Colorectal Metastasis to Liver
 

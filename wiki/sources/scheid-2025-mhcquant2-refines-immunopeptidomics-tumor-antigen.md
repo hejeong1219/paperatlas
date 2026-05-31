@@ -26,6 +26,8 @@ tags:
 extra_topics:
   - "cancer-multiomics"
 pdf: "raw/inbox/papers/scheid-2025-mhcquant2-refines-immunopeptidomics-tumor-antigen.pdf"
+topic: bcell-neoantigen
+
 ---
 # MHCquant2 refines immunopeptidomics tumor antigen discovery
 

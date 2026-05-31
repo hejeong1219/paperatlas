@@ -26,6 +26,7 @@ openalex_id: "W4322738920"
 openalex_primary_topic: "Single-cell and spatial transcriptomics"
 related_to_seeds: "zhang-2026-systematically-decoding-pathological-morphologies-multimodal-embedding"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # Spatially informed clustering, integration, and deconvolution of spatial transcriptomics with GraphST

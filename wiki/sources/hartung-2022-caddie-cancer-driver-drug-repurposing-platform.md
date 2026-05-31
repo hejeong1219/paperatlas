@@ -25,6 +25,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/hartung-2022-caddie-cancer-driver-drug-repurposing-platform.pdf"
 notion_url: "https://www.notion.so/350302d9c598815bb2d3c39eba025158"
+cm_axis: wgs
 ---
 
 # CADDIE: web-based network-medicine platform for cancer driver-based drug repurposing

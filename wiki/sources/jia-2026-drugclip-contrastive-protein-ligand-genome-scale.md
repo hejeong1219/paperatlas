@@ -25,6 +25,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/jia-2026-drugclip-contrastive-protein-ligand-genome-scale.pdf"
 notion_url: "https://www.notion.so/350302d9c59881a7994df15ad6d97d9b"
+cm_axis: integration
 ---
 
 # DrugCLIP: contrastive protein-ligand model for genome-scale virtual screening (GenomeScreenDB)

@@ -30,6 +30,7 @@ tags:
   - "treatment-response"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: response
 ---
 
 # Evidence of off-target probe binding affecting 10x Genomics Xenium gene panels compromise accuracy of spatial transcriptomic profiling

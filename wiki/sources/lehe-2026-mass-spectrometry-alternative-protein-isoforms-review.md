@@ -39,6 +39,7 @@ tags:
   - mass-spectrometry
   - sheynkman-lab
   - jms-2026
+cm_axis: phospho
 ---
 
 # Advances in mass spectrometry instrumentation and methodology for analysis of alternative protein isoforms

@@ -19,6 +19,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # Integrative proteogenomic profiling of high-risk prostate cancer samples from Chinese patients indicates metabolic vulnerabilities and diagnostic biomarkers.
 

@@ -23,6 +23,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/llora-batlle-2024-10x-flex-fixed-xenograft-single-cell.pdf"
 notion_url: "https://www.notion.so/35b302d9c59881918a75d60dc88c3608"
+cm_axis: integration
 ---
 
 # 10x Genomics Gene Expression Flex enables single-cell transcriptomics on fixed and frozen xenograft samples

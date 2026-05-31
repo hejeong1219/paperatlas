@@ -51,3 +51,15 @@ This paper extends TLS biology into the neoadjuvant setting and argues that not 
 
 - Article page: <https://jitc.bmj.com/content/10/11/e005531>
 - Search-visible abstract snippet captured during ingest.
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[du-2025-tls-gene-signature-advanced-nsclc|Du 2025]]
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[helmink-2020-b-cells-tls-immunotherapy-response|Helmink 2020]]
+- [[italiano-2022-pembrolizumab-soft-tissue-sarcomas-tls|Italiano 2022]]
+- [[kasikova-2024-tertiary-lymphoid-structures-b-cells|Kasikova 2024]]
+- [[li-2025-mature-tertiary-lymphoid-structures-headneck|Li 2025]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]

@@ -50,3 +50,11 @@ This final HERIZON-BTC-01 analysis shows that zanidatamab responses in HER2-posi
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC12635922/>
 - JAMA Oncology record: <https://jamanetwork.com/journals/jamaoncology/fullarticle/2841674>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[goebeler-2024-bispecific-multispecific-antibodies-oncology|Goebeler 2024]]
+- [[harding-2023-zanidatamab-her2-amplified-biliary-tract-cancer|Harding 2023]]
+- [[mountzios-2025-tarlatamab-small-cell-lung-cancer-after-platinum|Mountzios 2025]]

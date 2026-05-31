@@ -20,6 +20,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # Mapping the functional network of human cancer through machine learning and pan-cancer proteogenomics.
 

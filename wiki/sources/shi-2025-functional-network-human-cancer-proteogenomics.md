@@ -75,3 +75,10 @@ Pan-cancer CPTAC-based study showing that protein-level coexpression can be used
 
 - PDF: [shi-2025-functional-network-human-cancer-proteogenomics.pdf](../../raw/inbox/papers/shi-2025-functional-network-human-cancer-proteogenomics.pdf)
 - Article: <https://www.nature.com/articles/s43018-024-00869-z>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[jiang-2025-dark-cancer-phosphoproteome-coregulation|Jiang 2025]]
+- [[muller-dott-2025-phosphoproteomic-kinase-activity-inference|Muller]]

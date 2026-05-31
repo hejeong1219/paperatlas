@@ -23,6 +23,7 @@ openalex_id: "W4362521490"
 openalex_primary_topic: "Single-cell and spatial transcriptomics"
 related_to_seeds: "tran-2026-phoenix-pan-cancer-virtual-spatial-transcriptomics"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # Best practices for single-cell analysis across modalities

@@ -55,3 +55,17 @@ This phase 1 trial tests a shared neoantigen vaccine strategy with ipilimumab an
 
 - PDF: [rappaport-2024-shared-neoantigen-vaccine-checkpoint-blockade.pdf](../../raw/inbox/papers/rappaport-2024-shared-neoantigen-vaccine-checkpoint-blockade.pdf)
 - Article: <https://www.nature.com/articles/s41591-024-02851-9>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[borgers-2025-personalized-autologous-neoantigen-specific-therapy|Borgers 2025]]
+- [[yarchoan-2024-personalized-neoantigen-vaccine-and-pembrolizumab|Yarchoan 2024]]
+- [[gurung-2024-systematic-discovery-of-neoepitope-hla|Gurung 2024]]
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[huber-2025-comprehensive-proteogenomic-pipeline-neoantigen-discovery|Huber 2025]]
+- [[kasikova-2024-tertiary-lymphoid-structures-b-cells|Kasikova 2024]]
+- [[li-2025-mature-tertiary-lymphoid-structures-headneck|Li 2025]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]
+- [[zhu-2025-identification-of-non-canonical-peptides|Zhu 2025]]

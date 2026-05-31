@@ -24,6 +24,7 @@ openalex_id: "W4392356289"
 openalex_primary_topic: "Sarcoma Diagnosis and Treatment"
 related_to_seeds: "tran-2026-phoenix-pan-cancer-virtual-spatial-transcriptomics"
 discovery_method: openalex-citation-graph
+cm_axis: response
 ---
 
 # Sarcoma microenvironment cell states and ecosystems are associated with prognosis and predict response to immunotherapy

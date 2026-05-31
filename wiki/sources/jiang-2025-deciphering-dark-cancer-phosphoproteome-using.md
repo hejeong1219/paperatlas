@@ -95,3 +95,13 @@ XGBoost-based machine-learning models built on the CPTAC pan-cancer harmonized v
 - Code: <https://github.com/bzhanglab/CoPheeMap>
 - HCC data: <https://zenodo.org/records/14553766>
 - CPTAC pan-cancer data portal: <https://pdc.cancer.gov/pdc/cptac-pancancer>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[jiang-2025-dark-cancer-phosphoproteome-coregulation|Jiang 2025]]
+- [[mertins-2016-proteogenomics-somatic-mutations-signalling-breast-cancer|Mertins 2016]]
+- [[muller-dott-2025-phosphoproteomic-kinase-activity-inference|Muller]]
+- [[savage-2020-phosphoproteomics-bioinformatics-comprehensive-guide|Savage 2020]]
+- [[wu-2011-correct-interpretation-comprehensive-phosphorylation-dynamics|Wu 2011]]

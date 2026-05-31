@@ -50,3 +50,10 @@ This paper matters because it argues that `KRAS` is not a single immunologic cat
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC11006449/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[manabe-2022-remodeling-tumor-microenvironment-kras-g12c-resistance|Manabe 2022]]
+- [[tsai-2022-idiosyncratic-resistance-kras-g12c-inhibition|Tsai 2022]]
+- [[xue-2020-rapid-nonuniform-adaptation-kras-g12c-inhibition|Xue 2020]]

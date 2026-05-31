@@ -28,6 +28,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/zhang-2026-non-invasive-tumour-microenvironment-spatial-ecotypes.pdf"
 notion_url: "https://www.notion.so/358302d9c5988185972ffbe154002bcc"
+cm_axis: response
 ---
 
 # Non-invasive profiling of the tumour microenvironment with spatial ecotypes

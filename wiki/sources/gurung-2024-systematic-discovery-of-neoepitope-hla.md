@@ -56,3 +56,17 @@ This paper describes a scalable experimental and computational platform for iden
 
 - PDF: [gurung-2024-systematic-discovery-of-neoepitope-hla.pdf](../../raw/inbox/papers/gurung-2024-systematic-discovery-of-neoepitope-hla.pdf)
 - Article: <https://www.nature.com/articles/s41587-023-01945-y>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[huber-2025-comprehensive-proteogenomic-pipeline-neoantigen-discovery|Huber 2025]]
+- [[zhu-2025-identification-of-non-canonical-peptides|Zhu 2025]]
+- [[borgers-2025-personalized-autologous-neoantigen-specific-therapy|Borgers 2025]]
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[kasikova-2024-tertiary-lymphoid-structures-b-cells|Kasikova 2024]]
+- [[li-2025-mature-tertiary-lymphoid-structures-headneck|Li 2025]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]
+- [[rappaport-2024-shared-neoantigen-vaccine-checkpoint-blockade|Rappaport 2024]]
+- [[yarchoan-2024-personalized-neoantigen-vaccine-and-pembrolizumab|Yarchoan 2024]]

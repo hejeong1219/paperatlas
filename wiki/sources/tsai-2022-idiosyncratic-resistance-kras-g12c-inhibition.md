@@ -51,3 +51,10 @@ This study reinforces how individualized KRAS G12C resistance can be in patients
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC8843735/>
 - JCI article page: <https://www.jci.org/articles/view/155523>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[manabe-2022-remodeling-tumor-microenvironment-kras-g12c-resistance|Manabe 2022]]
+- [[ricciuti-2022-kras-g12d-nsclc-correlates|Ricciuti 2022]]
+- [[xue-2020-rapid-nonuniform-adaptation-kras-g12c-inhibition|Xue 2020]]

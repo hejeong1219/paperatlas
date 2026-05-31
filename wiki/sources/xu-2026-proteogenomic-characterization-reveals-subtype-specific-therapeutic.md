@@ -51,6 +51,7 @@ tags:
   - jnk
   - itgb8
   - svm-classifier
+cm_axis: integration
 ---
 
 # Proteogenomic Characterization Reveals Subtype-Specific Therapeutic Potential for HER2-Low Breast Cancer
@@ -206,3 +207,18 @@ Xu et al.은 HER2-low breast cancer의 분자적 이질성을 분리해 임상�
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/41454718/>
 - DOI: <https://doi.org/10.1002/advs.202513086>
 - Data Availability: 저자 본문 — "available from the corresponding author upon reasonable request" (공개 repository 식별자는 본 PMC 텍스트에서 미명시).
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]
+- [[petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity|Petralia 2024]]
+- [[sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance|Sambath 2026]]
+- [[song-2024-proteogenomic-analysis-reveals-non-small-cell|Song 2024]]

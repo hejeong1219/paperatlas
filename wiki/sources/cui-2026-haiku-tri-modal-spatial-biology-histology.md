@@ -28,6 +28,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/cui-2026-haiku-tri-modal-spatial-biology-histology.pdf"
 notion_url: "https://www.notion.so/358302d9c598819a8588f7e675218346"
+cm_axis: integration
 ---
 
 # Linking spatial biology and clinical histology via Haiku

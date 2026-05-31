@@ -54,3 +54,14 @@ This study is one of the clearest field-defining attempts to reduce checkpoint r
 - Johns Hopkins abstract mirror: <https://pure.johnshopkins.edu/en/publications/pan-tumor-genomic-biomarkers-for-pd-1-checkpoint-blockade-based-i>
 - Science article record: <https://www.science.org/doi/10.1126/science.aar3593>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[bidard-2022-pada1-esr1-switch-fulvestrant-palbociclib|Bidard 2022]]
+- [[chen-2018-exosomal-pdl1-immunosuppression-pd1-response|Chen 2018]]
+- [[du-2025-tls-gene-signature-advanced-nsclc|Du 2025]]
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[lai-2022-nivolumab-versus-nivolumab-ipilimumab-egfr-mutant-nsclc|Lai 2022]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]
+- [[offin-2019-tumor-mutation-burden-egfr-tki-efficacy|Offin 2019]]

@@ -30,6 +30,7 @@ tags:
   - "topic-sweep"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-26
+cm_axis: integration
 ---
 
 # Integrative analysis of lung adenocarcinoma across diverse ethnicities and exposures

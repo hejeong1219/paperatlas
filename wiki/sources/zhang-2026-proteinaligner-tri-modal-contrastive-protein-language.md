@@ -26,6 +26,7 @@ pdf_status: manual_pending
 pdf_failed_attempts: "ku_download (citation_pdf_url meta missing or 403/404), fallback_direct_url"
 pdf_manual_note: 'Cell Reports Methods. doi.org→Elsevier 302 OK. cell.com showPdf returns 403 (anti-bot). KU EZproxy session may need refresh. Manual: download from cell.com browser session.'
 notion_url: "https://www.notion.so/347302d9c598811d82a5f8446fb8bf92"
+cm_axis: integration
 ---
 
 # ProteinAligner: Tri-modal contrastive protein language model integrating sequence, structure, and text

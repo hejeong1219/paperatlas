@@ -27,6 +27,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/tran-2026-phoenix-pan-cancer-virtual-spatial-transcriptomics.pdf"
 notion_url: "https://www.notion.so/358302d9c5988142ab4cf56f5b42da41"
+cm_axis: integration
 ---
 
 # Pan-cancer virtual spatial transcriptomics from routine histology with Phoenix

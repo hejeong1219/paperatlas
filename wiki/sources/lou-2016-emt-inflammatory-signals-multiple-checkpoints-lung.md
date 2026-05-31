@@ -52,3 +52,13 @@ This paper is useful because it complicates the simple hot-versus-cold view of t
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC4947453/>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/26851185/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[sequist-2011-genotypic-histological-evolution-egfr-resistance|Sequist 2011]]
+- [[zhang-2021-met-amplification-inhibits-sting-immunotherapy|Zhang 2021]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[han-2023-tumour-microenvironment-changes-osimertinib-resistance|Han 2023]]
+- [[lai-2022-nivolumab-versus-nivolumab-ipilimumab-egfr-mutant-nsclc|Lai 2022]]
+- [[offin-2019-tumor-mutation-burden-egfr-tki-efficacy|Offin 2019]]

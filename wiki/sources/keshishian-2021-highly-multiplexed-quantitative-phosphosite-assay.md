@@ -18,6 +18,7 @@ themes:
   - "ptm-methodology"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # A highly multiplexed quantitative phosphosite assay for biology and preclinical studies.
 

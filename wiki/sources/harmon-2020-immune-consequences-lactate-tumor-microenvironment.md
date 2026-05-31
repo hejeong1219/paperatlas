@@ -53,3 +53,9 @@ This review frames lactate as more than a glycolytic waste product, positioning 
 - Springer book listing: <https://link.springer.com/book/10.1007/978-3-030-43093-1>
 - Chapter listing snippet captured during ingest.
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[chen-2018-exosomal-pdl1-immunosuppression-pd1-response|Chen 2018]]
+- [[melero-2025-gdf15-overcome-pd1-pdl1-resistance|Melero 2025]]

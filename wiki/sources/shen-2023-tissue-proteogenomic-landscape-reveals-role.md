@@ -19,6 +19,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # Tissue Proteogenomic Landscape Reveals the Role of Uncharacterized SEL1L3 in Progression and Immunotherapy Response in Lung Adenocarcinoma.
 

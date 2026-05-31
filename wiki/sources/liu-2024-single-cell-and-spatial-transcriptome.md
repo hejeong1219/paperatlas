@@ -56,3 +56,18 @@ Single-cell and spatial transcriptomics in nasopharyngeal carcinoma map the cell
 
 - PDF: [liu-2024-single-cell-and-spatial-transcriptome.pdf](../../raw/inbox/papers/liu-2024-single-cell-and-spatial-transcriptome.pdf)
 - Article: <https://www.nature.com/articles/s41467-024-52153-4>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[kasikova-2024-tertiary-lymphoid-structures-b-cells|Kasikova 2024]]
+- [[li-2025-mature-tertiary-lymphoid-structures-headneck|Li 2025]]
+- [[du-2025-tls-gene-signature-advanced-nsclc|Du 2025]]
+- [[bidard-2022-pada1-esr1-switch-fulvestrant-palbociclib|Bidard 2022]]
+- [[borgers-2025-personalized-autologous-neoantigen-specific-therapy|Borgers 2025]]
+- [[chen-2018-exosomal-pdl1-immunosuppression-pd1-response|Chen 2018]]
+- [[cristescu-2018-pan-tumor-genomic-biomarkers-pd1-blockade|Cristescu 2018]]
+- [[gurung-2024-systematic-discovery-of-neoepitope-hla|Gurung 2024]]
+- [[helmink-2020-b-cells-tls-immunotherapy-response|Helmink 2020]]

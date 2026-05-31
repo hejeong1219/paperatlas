@@ -44,6 +44,7 @@ tags:
   - tool
   - atlas
   - bioRxiv-2026
+cm_axis: integration
 ---
 
 # 3DisoGalaxy: a structure-grounded breast cancer atlas of alternative-splicing-derived proteoforms

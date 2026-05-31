@@ -46,3 +46,11 @@ Sterner and Sterner provide a practical engineering-oriented review of why CAR-T
 - PDF: [sterner-2021-cart-current-limitations-potential-strategies.pdf](../../raw/inbox/papers/sterner-2021-cart-current-limitations-potential-strategies.pdf)
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC8024391/>
 - Nature article: <https://www.nature.com/articles/s41408-021-00459-7>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[labanieh-2023-car-immune-cells-design-principles-resistance|Labanieh 2023]]
+- [[ruella-2023-cart-resistance-haematological-malignancies|Ruella 2023]]
+- [[zugasti-2025-cart-cancer-current-challenges-future-directions|Zugasti 2025]]

@@ -51,3 +51,11 @@ This biomarker paper is useful because it shows that checkpoint outcome is shape
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC7312339/>
 - Article page: <https://jitc.bmj.com/content/8/1/e000842>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[allen-2017-antiangiogenic-pdl1-hev-formation|Allen 2017]]
+- [[elyada-2019-apcafs-pancreatic-cancer|Elyada 2019]]
+- [[zhu-2014-csf1r-blockade-pancreatic-cancer-models|Zhu 2014]]

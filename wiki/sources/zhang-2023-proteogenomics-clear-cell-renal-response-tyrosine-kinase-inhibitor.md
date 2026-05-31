@@ -30,6 +30,8 @@ batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
 ingest_status: full-text-read
 ingested_on: 2026-05-13
+topic: cancer-multiomics
+cm_axis: phospho
 ---
 # Proteogenomics of clear cell renal cell carcinoma response to tyrosine kinase inhibitor
 
@@ -156,3 +158,18 @@ Human ccRCC proteogenomics study linking protein and phosphoprotein features to 
 ## Sources
 
 - PDF: [zhang-2023-proteogenomics-clear-cell-renal-response-tyrosine-kinase-inhibitor.pdf](../../raw/inbox/papers/zhang-2023-proteogenomics-clear-cell-renal-response-tyrosine-kinase-inhibitor.pdf)
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]
+- [[petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity|Petralia 2024]]
+- [[sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance|Sambath 2026]]
+- [[song-2024-proteogenomic-analysis-reveals-non-small-cell|Song 2024]]

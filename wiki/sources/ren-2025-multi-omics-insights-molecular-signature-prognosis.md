@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Multi-omics insights into the molecular signature and prognosis of hypopharyngeal squamous cell carcinoma.
 

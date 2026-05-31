@@ -27,6 +27,7 @@ openalex_id: "W4385409606"
 openalex_primary_topic: "Pancreatic and Hepatic Oncology Research"
 related_to_seeds: "tran-2026-phoenix-pan-cancer-virtual-spatial-transcriptomics"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # Schwann cells regulate tumor cells and cancer-associated fibroblasts in the pancreatic ductal adenocarcinoma microenvironment

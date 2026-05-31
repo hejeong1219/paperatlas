@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Integrated analyses of multi-omic data derived from paired primary lung cancer and brain metastasis reveal the metabolic vulnerability as a novel therapeutic target.
 

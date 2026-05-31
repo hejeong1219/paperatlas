@@ -26,6 +26,8 @@ tags:
   - pangenome
   - gastric-cancer
   - structural-variants
+topic: cancer-multiomics
+cm_axis: wgs
 ---
 # Gastric cancer genomics study using reference human pangenomes
 

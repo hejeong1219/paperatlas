@@ -50,3 +50,11 @@ This phase 3 DeLLphi-304 trial shows that DLL3-directed T-cell redirection can o
 
 - Article: <https://www.ovid.com/journals/nejm/fulltext/10.1056/nejmoa2502099~tarlatamab-in-small-cell-lung-cancer-after-platinum-based>
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/40454646/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[goebeler-2024-bispecific-multispecific-antibodies-oncology|Goebeler 2024]]
+- [[harding-2023-zanidatamab-her2-amplified-biliary-tract-cancer|Harding 2023]]
+- [[pant-2026-zanidatamab-her2-positive-metastatic-biliary-tract-cancer|Pant 2026]]

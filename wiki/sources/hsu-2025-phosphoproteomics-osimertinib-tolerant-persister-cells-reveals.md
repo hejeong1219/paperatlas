@@ -43,6 +43,8 @@ ingest_status: full-text-read
 ingested_on: 2026-05-13
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+topic: cancer-multiomics
+cm_axis: phospho
 ---
 
 # Phosphoproteomics of osimertinib-Tolerant Persister Cells Reveals Targetable Kinase-Substrate Signatures
@@ -117,3 +119,18 @@ The authors used Fe-IMAC phosphopeptide enrichment, Orbitrap Fusion Lumos DIA ac
 - DOI in PDF: `10.1038/s44320-025-00141-1`
 - ProteomeXchange/PRIDE: `PXD058009`
 - BioStudies source data: `S-SCDT-10_1038-S44320-025-00141-1`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[yaeger-2023-molecular-characterization-acquired-resistance-krasg12c-egfr|Yaeger 2023]]
+- [[sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance|Sambath 2026]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[jin-2026-deciphering-mediated-phosphorylated-alterations-cancer-related|Jin 2026]]

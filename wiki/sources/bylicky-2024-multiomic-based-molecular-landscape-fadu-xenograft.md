@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Multiomic-Based Molecular Landscape of FaDu Xenograft Tumors in Mice after a Combinatorial Treatment with Radiation and an HSP90 Inhibitor Identifies Adaptation-Induced Targets of Resistance and Therapeutic Intervention.
 

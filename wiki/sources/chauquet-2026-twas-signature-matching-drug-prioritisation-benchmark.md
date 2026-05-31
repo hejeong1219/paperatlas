@@ -24,6 +24,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/chauquet-2026-twas-signature-matching-drug-prioritisation-benchmark.pdf"
 notion_url: "https://www.notion.so/34c302d9c59881df9c9df5a974734c81"
+cm_axis: integration
 ---
 
 # TWAS signature-matching for drug prioritisation: a best-practice benchmark

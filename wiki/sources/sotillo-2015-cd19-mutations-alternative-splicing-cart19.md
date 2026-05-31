@@ -54,3 +54,10 @@ This study established antigen escape in CD19 CAR-T as a molecular event rather 
 
 - Article: <https://pmc.ncbi.nlm.nih.gov/articles/PMC4670800/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[labanieh-2023-car-immune-cells-design-principles-resistance|Labanieh 2023]]
+- [[orlando-2018-target-antigen-loss-car19-therapy|Orlando 2018]]
+- [[qiu-2025-lineage-switch-cd19-cart-treatment-ball|Qiu 2025]]

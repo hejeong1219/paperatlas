@@ -22,6 +22,7 @@ themes:
   - "ms-methodology"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # Integrated Proteogenomic Analysis Reveals Distinct Potentially Actionable Therapeutic Vulnerabilities in Triple-Negative Breast Cancer Subtypes.
 

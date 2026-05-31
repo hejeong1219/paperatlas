@@ -27,6 +27,7 @@ openalex_id: "W4313557922"
 openalex_primary_topic: "Single-cell and spatial transcriptomics"
 related_to_seeds: "savage-2026-klf2-runx2-memory-like-car-t"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # A transcription factor atlas of directed differentiation

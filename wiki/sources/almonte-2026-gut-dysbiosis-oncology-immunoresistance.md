@@ -50,3 +50,8 @@ This review reframes microbiome involvement in immunotherapy from a positive-res
 
 - Cell Research article: <https://www.nature.com/articles/s41422-025-01212-6>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[simpson-2023-gut-microbiota-enhance-checkpoint-efficacy|Simpson 2023]]

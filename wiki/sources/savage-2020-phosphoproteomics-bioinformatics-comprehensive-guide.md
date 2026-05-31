@@ -94,3 +94,13 @@ Literature + OMICtools search (July 2019, kinase/phosphorylation/phosphatase key
 - DOI: <https://doi.org/10.1186/s12014-020-09290-x>
 - PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7333321/>
 - Companion paper (same group): Jiang W et al., *Nat Commun* (2025) — CoPheeMap/CoPheeKSA expands kinase activity inference to dark phosphoproteome.
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[jiang-2025-dark-cancer-phosphoproteome-coregulation|Jiang 2025]]
+- [[mertins-2016-proteogenomics-somatic-mutations-signalling-breast-cancer|Mertins 2016]]
+- [[muller-dott-2025-phosphoproteomic-kinase-activity-inference|Muller]]
+- [[wu-2011-correct-interpretation-comprehensive-phosphorylation-dynamics|Wu 2011]]
+- [[jiang-2025-deciphering-dark-cancer-phosphoproteome-using|Jiang 2025]]

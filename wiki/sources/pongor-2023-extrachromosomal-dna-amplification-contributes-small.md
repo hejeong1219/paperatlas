@@ -25,6 +25,7 @@ openalex_id: "W4318482239"
 openalex_primary_topic: "Lung Cancer Research Studies"
 related_to_seeds: "wang-2025-extrachromosomal-dna-cancer-evolutionary-pathway"
 discovery_method: openalex-citation-graph
+cm_axis: wgs
 ---
 
 # Extrachromosomal DNA Amplification Contributes to Small Cell Lung Cancer Heterogeneity and Is Associated with Worse Outcomes

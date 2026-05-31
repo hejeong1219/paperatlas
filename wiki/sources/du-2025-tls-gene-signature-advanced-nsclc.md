@@ -55,3 +55,17 @@ This study pushes TLS biology from descriptive pathology toward a clinically usa
 - Springer article: <https://link.springer.com/article/10.1007/s00262-025-04165-2>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/40944717/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]
+- [[bidard-2022-pada1-esr1-switch-fulvestrant-palbociclib|Bidard 2022]]
+- [[chen-2018-exosomal-pdl1-immunosuppression-pd1-response|Chen 2018]]
+- [[cristescu-2018-pan-tumor-genomic-biomarkers-pd1-blockade|Cristescu 2018]]
+- [[helmink-2020-b-cells-tls-immunotherapy-response|Helmink 2020]]
+- [[italiano-2022-pembrolizumab-soft-tissue-sarcomas-tls|Italiano 2022]]
+- [[kasikova-2024-tertiary-lymphoid-structures-b-cells|Kasikova 2024]]
+- [[lai-2022-nivolumab-versus-nivolumab-ipilimumab-egfr-mutant-nsclc|Lai 2022]]
+- [[li-2025-mature-tertiary-lymphoid-structures-headneck|Li 2025]]

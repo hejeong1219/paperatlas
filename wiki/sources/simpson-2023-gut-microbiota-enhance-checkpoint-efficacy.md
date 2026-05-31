@@ -51,3 +51,8 @@ This review consolidates the microbiome-immunotherapy field around a practical t
 
 - Nature Reviews Clinical Oncology article: <https://www.nature.com/articles/s41571-023-00803-9>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[almonte-2026-gut-dysbiosis-oncology-immunoresistance|Almonte 2026]]

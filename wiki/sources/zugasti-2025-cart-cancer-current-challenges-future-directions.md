@@ -48,3 +48,11 @@ This review extends the CAR-T discussion into one of the hardest frontiers, argu
 - PDF: [zugasti-2025-cart-cancer-current-challenges-future-directions.pdf](../../raw/inbox/papers/zugasti-2025-cart-cancer-current-challenges-future-directions.pdf)
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC12229403/>
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/40610404/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[labanieh-2023-car-immune-cells-design-principles-resistance|Labanieh 2023]]
+- [[ruella-2023-cart-resistance-haematological-malignancies|Ruella 2023]]
+- [[sterner-2021-cart-current-limitations-potential-strategies|Sterner 2021]]

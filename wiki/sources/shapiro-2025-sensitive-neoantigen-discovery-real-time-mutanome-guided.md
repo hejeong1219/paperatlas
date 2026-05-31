@@ -28,6 +28,8 @@ tags:
 extra_topics:
   - "cancer-multiomics"
 pdf: "raw/inbox/papers/shapiro-2025-sensitive-neoantigen-discovery-real-time-mutanome-guided.pdf"
+topic: bcell-neoantigen
+
 ---
 # Sensitive neoantigen discovery by real-time mutanome-guided immunopeptidomics
 

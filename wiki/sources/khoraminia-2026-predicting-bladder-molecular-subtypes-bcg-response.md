@@ -26,6 +26,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/khoraminia-2026-predicting-bladder-molecular-subtypes-bcg-response.pdf"
 notion_url: "https://www.notion.so/35b302d9c598812eb023f2e9758b5948"
+cm_axis: response
 ---
 
 # Predicting bladder cancer molecular subtypes and BCG response from histology using deep learning

@@ -20,6 +20,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # Proteogenomic Characterization of Ovarian HGSC Implicates Mitotic Kinases, Replication Stress in Observed Chromosomal Instability.
 

@@ -17,6 +17,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Multiomics analysis identifies oxidative phosphorylation as a cancer vulnerability arising from myristoylation inhibition.
 

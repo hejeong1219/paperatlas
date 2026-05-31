@@ -12,6 +12,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Refining Classification of Cholangiocarcinoma Subtypes via Proteogenomic Integration Reveals New Therapeutic Prospects.
 

@@ -52,3 +52,9 @@ POSEIDON is important in this corpus because it operationalizes a resistance-byp
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC9937097/>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/36327426/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[skoulidis-2018-stk11-lkb1-pd1-resistance-kras-lung|Skoulidis 2018]]
+- [[skoulidis-2024-ctla4-abrogates-keap1-stk11-resistance|Skoulidis 2024]]

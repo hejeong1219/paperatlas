@@ -24,6 +24,7 @@ themes:
   - "cancer-proteomics"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # Proteogenomic and metabolomic characterization of human glioblastoma
 
@@ -80,3 +81,18 @@ Adult glioblastoma(GBM) 99예(치료 전)에서 WGS/WES·전사체·단백체·p
 ## Sources
 
 - Local PDF: `raw/inbox/papers/wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma.pdf`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[clark-2020-integrated-proteogenomic-characterization-clear-cell|Clark 2020]]
+- [[vasaikar-2019-proteogenomic-analysis-human-colon-cancer|Vasaikar 2019]]
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[dou-2020-proteogenomic-characterization-endometrial-carcinoma|Dou 2020]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers|Li 2023]]
+- [[mertins-2016-proteogenomics-connects-somatic-mutations-signalling|Mertins 2016]]
+- [[ng-2022-integrative-proteogenomic-characterization-hepatocellular-carcinoma|Ng 2022]]
+- [[satpathy-2021-proteogenomic-portrait-lung-squamous-cell|Satpathy 2021]]

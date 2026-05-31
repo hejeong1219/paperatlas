@@ -40,6 +40,8 @@ tags:
 pdf: "raw/inbox/papers/chen-2026-global-impact-germline-structural-variation-cancer-proteome.pdf"
 pdf_status: complete
 discovery_method: user-shared
+topic: cancer-multiomics
+cm_axis: integration
 ---
 # Global impact of germline structural variation on the cancer proteome
 
@@ -156,3 +158,18 @@ CPTAC 11개 종양형 1,637명의 normal sample paired WGS·RNA-seq·정량 단�
   - figshare (SV-expression pattern 시각화 데이터)
 - Reference catalog: csgs.sequenxe.com (May 2024 CSG snapshot)
 - Tools: Delly v3.1.1, SVABA v1.2.0/v1.1.0, Manta v1.4.0, SVAnnotate, SVExpress, DGV, gnomAD, TOPMed
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[chang-2026-integrative-proteogenomics-gastric-cancer-taiwan|Chang 2026]]
+- [[chen-2019-pan-cancer-molecular-subtypes-proteomic-characterization|Chen 2019]]
+- [[chen-2023-global-impact-somatic-structural-variation-cancer-proteome|Chen 2023]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]

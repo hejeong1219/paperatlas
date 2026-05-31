@@ -26,6 +26,7 @@ tags:
   - "topic-sweep"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: integration
 ---
 
 # iCLAP: an innovative method for integrable co-detection of low-abundance antigens with high-plex immunostaining

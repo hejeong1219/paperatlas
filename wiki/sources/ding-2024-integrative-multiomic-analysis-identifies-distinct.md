@@ -12,6 +12,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Integrative multiomic analysis identifies distinct molecular subtypes of NAFLD in a Chinese population.
 

@@ -54,3 +54,8 @@ This review extends the cancer-immunity-cycle model into a multivariable framewo
 - PDF: [chen-2017-cancer-immune-set-point.pdf](../../raw/inbox/papers/chen-2017-cancer-immune-set-point.pdf)
 - Article: <https://www.nature.com/articles/nature21349>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[chen-2013-cancer-immunity-cycle|Chen 2013]]

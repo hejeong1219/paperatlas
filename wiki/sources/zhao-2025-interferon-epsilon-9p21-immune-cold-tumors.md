@@ -50,3 +50,14 @@ This article argues that the immunologic consequence of 9p loss is not just dele
 
 - ScienceDirect abstract page: <https://www.sciencedirect.com/science/article/abs/pii/S1556086424025395>
 - PubMed record: <https://pubmed.ncbi.nlm.nih.gov/39725169/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[gettinger-2017-hla-antigen-presentation-checkpoint-lung|Gettinger 2017]]
+- [[liu-2026-usp22-ezh2-mhc1-checkpoint-resistance|Liu 2026]]
+- [[mcgranahan-2017-allele-specific-hla-loss-lung-cancer|Mcgranahan 2017]]
+- [[shin-2017-primary-resistance-pd1-jak-mutations|Shin 2017]]
+- [[tran-2016-kras-tcell-transfer-hla-loss|Tran 2016]]
+- [[zaretsky-2016-acquired-resistance-pd1-melanoma|Zaretsky 2016]]

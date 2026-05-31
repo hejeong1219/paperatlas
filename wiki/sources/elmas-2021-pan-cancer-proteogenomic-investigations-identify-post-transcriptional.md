@@ -18,6 +18,7 @@ themes:
   - "ptm-methodology"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # Pan-cancer proteogenomic investigations identify post-transcriptional kinase targets.
 

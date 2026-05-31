@@ -27,6 +27,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/wu-2026-reimagining-human-centric-drug-development-nams.pdf"
 notion_url: "https://www.notion.so/348302d9c598812da572d2390eccba76"
+cm_axis: integration
 ---
 
 # Reimagining human-centric drug development with new approach methodologies (NAMs)

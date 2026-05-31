@@ -30,6 +30,7 @@ tags:
   - "topic-sweep"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-26
+cm_axis: response
 ---
 
 # Spatial multi-omics identifies aggressive prostate cancer signatures highlighting pro-inflammatory chemokine activity in the tumor microenvironment

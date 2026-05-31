@@ -20,6 +20,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # Evolutionary proteogenomic landscape from pre-invasive to invasive lung adenocarcinoma.
 

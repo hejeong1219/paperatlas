@@ -50,3 +50,11 @@ This review is a useful bridge paper between mechanism and clinic because it exp
 
 - PDF: [goebeler-2024-bispecific-multispecific-antibodies-oncology.pdf](../../raw/inbox/papers/goebeler-2024-bispecific-multispecific-antibodies-oncology.pdf)
 - Article: <https://www.nature.com/articles/s41571-024-00905-y>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[harding-2023-zanidatamab-her2-amplified-biliary-tract-cancer|Harding 2023]]
+- [[mountzios-2025-tarlatamab-small-cell-lung-cancer-after-platinum|Mountzios 2025]]
+- [[pant-2026-zanidatamab-her2-positive-metastatic-biliary-tract-cancer|Pant 2026]]

@@ -20,6 +20,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # A proteogenomic analysis of the adiposity colorectal cancer relationship identifies GREM1 as a probable mediator.
 

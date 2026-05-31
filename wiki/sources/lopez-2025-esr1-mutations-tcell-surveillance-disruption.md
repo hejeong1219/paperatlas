@@ -50,3 +50,10 @@ This paper extends the ESR1 story into immunology by asking whether endocrine re
 - Springer article: <https://link.springer.com/article/10.1186/s13058-025-01962-6>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/39920833/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[bidard-2022-pada1-esr1-switch-fulvestrant-palbociclib|Bidard 2022]]
+- [[robinson-2013-activating-esr1-mutations-metastatic-breast|Robinson 2013]]
+- [[toy-2013-esr1-ligand-binding-domain-mutations-breast|Toy 2013]]

@@ -49,3 +49,10 @@ This study makes a simple but durable point: even within MSI-high gastric cancer
 
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/32170001/>
 - BMJ article page: <https://jmg.bmj.com/content/58/1/12>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[grasso-2018-genetic-mechanisms-immune-evasion-colorectal-cancer|Grasso 2018]]
+- [[toboni-2023-mlh1-hypermethylation-lynch-like-endometrial-cancer|Toboni 2023]]

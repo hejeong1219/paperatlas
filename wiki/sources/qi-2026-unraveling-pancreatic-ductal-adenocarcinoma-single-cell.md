@@ -32,6 +32,7 @@ tags:
   - "topic-sweep"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: response
 ---
 
 # Unraveling pancreatic ductal adenocarcinoma at single-cell resolution with spatial insights: From mechanisms to clinical translation

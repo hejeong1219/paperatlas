@@ -24,6 +24,7 @@ openalex_id: "W4367312557"
 openalex_primary_topic: "Single-cell and spatial transcriptomics"
 related_to_seeds: "ohlan-2025-molgene-e-inverse-molecular-design-transcriptomic-reversal"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # Applications of single-cell RNA sequencing in drug discovery and development

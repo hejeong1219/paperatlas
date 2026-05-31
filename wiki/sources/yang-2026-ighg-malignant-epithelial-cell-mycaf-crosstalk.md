@@ -32,6 +32,7 @@ tags:
   - "treatment-response"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: response
 ---
 
 # IGHG1+ malignant epithelial Cell-myCAF crosstalk via MIF-CD74/APP-CD74 drives early brain metastasis in NSCLC: Delineated via primary tumor-brain metastasis single-cell and spatial transcriptomics

@@ -20,6 +20,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # Targeted proteomic assays for quantitation of proteins identified by proteogenomic analysis of ovarian cancer.
 

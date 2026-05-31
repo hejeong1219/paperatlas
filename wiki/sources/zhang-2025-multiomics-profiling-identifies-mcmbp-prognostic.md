@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Multiomics profiling Identifies MCMBP as a prognostic biomarker and a potential immune-related target in pancreatic ductal adenocarcinoma via the JAK-STAT3 pathway.
 

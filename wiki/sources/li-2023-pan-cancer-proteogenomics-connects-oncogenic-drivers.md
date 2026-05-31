@@ -78,3 +78,18 @@ This section was added for the interactive atlas on recent multi-omics proteomic
 ## Sources
 
 - Local PDF: `raw/inbox/papers/li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers.pdf`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[dou-2020-proteogenomic-characterization-endometrial-carcinoma|Dou 2020]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[mertins-2016-proteogenomics-connects-somatic-mutations-signalling|Mertins 2016]]
+- [[satpathy-2021-proteogenomic-portrait-lung-squamous-cell|Satpathy 2021]]
+- [[zhang-2022-proteogenomic-characterization-2002-human-cancers|Zhang 2022]]
+- [[zhao-2025-phosphoproteomic-acetylomic-characterization-colorectal-cancer|Zhao 2025]]
+- [[clark-2020-integrated-proteogenomic-characterization-clear-cell|Clark 2020]]
+- [[ng-2022-integrative-proteogenomic-characterization-hepatocellular-carcinoma|Ng 2022]]

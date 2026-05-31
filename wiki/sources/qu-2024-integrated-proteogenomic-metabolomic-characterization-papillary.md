@@ -29,6 +29,8 @@ tags:
   - metabolomics
   - pmid-38609408
 pdf: "raw/inbox/papers/qu-2024-integrated-proteogenomic-metabolomic-characterization-papillary.pdf"
+topic: cancer-multiomics
+cm_axis: phospho
 ---
 # Integrated proteogenomic and metabolomic characterization of papillary thyroid cancer with different recurrence risks
 

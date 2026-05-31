@@ -20,6 +20,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # Proteogenomic characterization of highly enriched viable leukemic blasts in acute myeloid leukemia: A SWOG report.
 

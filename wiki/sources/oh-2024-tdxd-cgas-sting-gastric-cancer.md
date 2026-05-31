@@ -50,3 +50,10 @@ This paper is important because it frames `trastuzumab deruxtecan` not only as a
 - Springer article: <https://link.springer.com/article/10.1186/s12964-024-01893-3>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/39449023/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[bardia-2024-trastuzumab-deruxtecan-after-endocrine-therapy-metastatic-breast-cancer|Bardia 2024]]
+- [[chen-2026-trastuzumab-deruxtecan-resistance-her2-expression-binding|Chen 2026]]
+- [[modi-2022-trastuzumab-deruxtecan-her2-low-advanced-breast-cancer|Modi 2022]]

@@ -29,6 +29,8 @@ tags:
   - metastasis
   - pmid-38377004
 pdf: "raw/inbox/papers/tanaka-2024-proteogenomic-characterization-primary-colorectal-cancer.pdf"
+topic: cancer-multiomics
+cm_axis: integration
 ---
 # Proteogenomic characterization of primary colorectal cancer and metastatic progression identifies proteome-based subtypes and signatures
 

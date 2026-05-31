@@ -28,6 +28,7 @@ tags:
   - "topic-sweep"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: integration
 ---
 
 # The AICL-KLRF1 axis supports CD4-CD8 T cell communication and cytokine competence in pre-exhausted CD8+ T cells

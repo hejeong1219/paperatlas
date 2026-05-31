@@ -24,6 +24,7 @@ openalex_id: "W4400294055"
 openalex_primary_topic: "AI in cancer detection"
 related_to_seeds: "zhang-2026-systematically-decoding-pathological-morphologies-multimodal-embedding"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # A deep-learning framework to predict cancer treatment response from histopathology images through imputed transcriptomics

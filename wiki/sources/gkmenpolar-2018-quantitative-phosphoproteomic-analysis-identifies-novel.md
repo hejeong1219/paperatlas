@@ -18,6 +18,7 @@ themes:
   - "ptm-methodology"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # Quantitative phosphoproteomic analysis identifies novel functional pathways of tumor suppressor DLC1 in estrogen receptor positive breast cancer.
 

@@ -24,6 +24,7 @@ openalex_id: "W4392947521"
 openalex_primary_topic: "AI in cancer detection"
 related_to_seeds: "zhang-2026-systematically-decoding-pathological-morphologies-multimodal-embedding"
 discovery_method: openalex-citation-graph
+cm_axis: response
 ---
 
 # Towards a general-purpose foundation model for computational pathology

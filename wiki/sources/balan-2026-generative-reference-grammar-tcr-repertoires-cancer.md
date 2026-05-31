@@ -28,6 +28,7 @@ pdf_status: manual_pending
 pdf_failed_attempts: "ku_download (citation_pdf_url meta missing or 403/404), fallback_direct_url"
 pdf_manual_note: 'bioRxiv DOI 10.1101/2026.04.30.722114 returns 404. Manual: search biorxiv.org by title.'
 notion_url: "https://www.notion.so/35b302d9c59881079a6dd504ec24b8be"
+cm_axis: response
 ---
 
 # A generative reference grammar of healthy TCR repertoires for cancer immune remodeling analysis

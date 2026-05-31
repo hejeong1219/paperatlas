@@ -46,3 +46,11 @@ This review is one of the most complete organizing maps of CAR-T failure, becaus
 - PDF: [ruella-2023-cart-resistance-haematological-malignancies.pdf](../../raw/inbox/papers/ruella-2023-cart-resistance-haematological-malignancies.pdf)
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC10965011/>
 - Nature article: <https://www.nature.com/articles/s41573-023-00807-1>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[labanieh-2023-car-immune-cells-design-principles-resistance|Labanieh 2023]]
+- [[sterner-2021-cart-current-limitations-potential-strategies|Sterner 2021]]
+- [[zugasti-2025-cart-cancer-current-challenges-future-directions|Zugasti 2025]]

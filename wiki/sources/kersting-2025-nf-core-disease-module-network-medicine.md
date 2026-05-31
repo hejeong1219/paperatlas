@@ -24,6 +24,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/kersting-2025-nf-core-disease-module-network-medicine.pdf"
 notion_url: "https://www.notion.so/350302d9c5988161b259ef033859244a"
+cm_axis: integration
 ---
 
 # nf-core Nextflow disease module discovery and benchmarking pipeline for network medicine reproducibility

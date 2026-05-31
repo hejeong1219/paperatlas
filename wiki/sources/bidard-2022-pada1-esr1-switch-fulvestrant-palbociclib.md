@@ -50,3 +50,17 @@ PADA-1 is a key translational trial because it shows `ESR1` mutation is not only
 
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/36183733/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[chen-2018-exosomal-pdl1-immunosuppression-pd1-response|Chen 2018]]
+- [[cristescu-2018-pan-tumor-genomic-biomarkers-pd1-blockade|Cristescu 2018]]
+- [[du-2025-tls-gene-signature-advanced-nsclc|Du 2025]]
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[lai-2022-nivolumab-versus-nivolumab-ipilimumab-egfr-mutant-nsclc|Lai 2022]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]
+- [[lopez-2025-esr1-mutations-tcell-surveillance-disruption|Lopez 2025]]
+- [[offin-2019-tumor-mutation-burden-egfr-tki-efficacy|Offin 2019]]
+- [[robinson-2013-activating-esr1-mutations-metastatic-breast|Robinson 2013]]
+- [[toy-2013-esr1-ligand-binding-domain-mutations-breast|Toy 2013]]

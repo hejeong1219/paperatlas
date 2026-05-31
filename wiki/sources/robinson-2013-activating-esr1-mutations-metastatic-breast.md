@@ -51,3 +51,10 @@ Published alongside Toy et al., this paper independently established `ESR1` muta
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC4009946/>
 - Nature Genetics article: <https://www.nature.com/articles/ng.2823>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[bidard-2022-pada1-esr1-switch-fulvestrant-palbociclib|Bidard 2022]]
+- [[lopez-2025-esr1-mutations-tcell-surveillance-disruption|Lopez 2025]]
+- [[toy-2013-esr1-ligand-binding-domain-mutations-breast|Toy 2013]]

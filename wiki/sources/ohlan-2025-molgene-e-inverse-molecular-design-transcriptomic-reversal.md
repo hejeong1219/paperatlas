@@ -26,6 +26,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/ohlan-2025-molgene-e-inverse-molecular-design-transcriptomic-reversal.pdf"
 notion_url: "https://www.notion.so/35b302d9c59881778619d2d3724798a6"
+cm_axis: integration
 ---
 
 # MolGene-E: inverse molecular design from single-cell transcriptomic reversal for anticancer perturbation

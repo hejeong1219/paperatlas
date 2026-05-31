@@ -78,3 +78,18 @@ _Awaiting deep-dive — automated abstract is in the Summary section above. The 
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/35508466/>
 - DOI: <https://doi.org/10.1038/s41467-022-29960-8>
 - PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9068765/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[clark-2020-integrated-proteogenomic-characterization-clear-cell|Clark 2020]]
+- [[dou-2020-proteogenomic-characterization-endometrial-carcinoma|Dou 2020]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers|Li 2023]]
+- [[mertins-2016-proteogenomics-connects-somatic-mutations-signalling|Mertins 2016]]
+- [[satpathy-2021-proteogenomic-portrait-lung-squamous-cell|Satpathy 2021]]
+- [[vasaikar-2019-proteogenomic-analysis-human-colon-cancer|Vasaikar 2019]]
+- [[wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma|Wang 2021]]

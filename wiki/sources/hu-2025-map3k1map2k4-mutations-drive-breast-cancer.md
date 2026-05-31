@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # MAP3K1/MAP2K4 mutations drive breast cancer progression by compensating for TP53 loss through inactivation of the JNK2-p53-FOSL1 axis.
 

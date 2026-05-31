@@ -59,3 +59,18 @@ Human HNSCC study showing that mature TLS organize coordinated B-cell and T-cell
 
 - PDF: [li-2025-mature-tertiary-lymphoid-structures-headneck.pdf](../../raw/inbox/papers/li-2025-mature-tertiary-lymphoid-structures-headneck.pdf)
 - Article: <https://www.nature.com/articles/s41467-025-59341-w>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[kasikova-2024-tertiary-lymphoid-structures-b-cells|Kasikova 2024]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]
+- [[borgers-2025-personalized-autologous-neoantigen-specific-therapy|Borgers 2025]]
+- [[du-2025-tls-gene-signature-advanced-nsclc|Du 2025]]
+- [[gurung-2024-systematic-discovery-of-neoepitope-hla|Gurung 2024]]
+- [[helmink-2020-b-cells-tls-immunotherapy-response|Helmink 2020]]
+- [[huber-2025-comprehensive-proteogenomic-pipeline-neoantigen-discovery|Huber 2025]]
+- [[italiano-2022-pembrolizumab-soft-tissue-sarcomas-tls|Italiano 2022]]
+- [[rappaport-2024-shared-neoantigen-vaccine-checkpoint-blockade|Rappaport 2024]]

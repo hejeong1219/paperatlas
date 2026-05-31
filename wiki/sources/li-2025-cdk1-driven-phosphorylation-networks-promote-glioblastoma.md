@@ -17,6 +17,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # CDK1-driven phosphorylation networks promote glioblastoma progression via MAP1B-mediated microtubule destabilization.
 

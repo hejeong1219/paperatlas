@@ -21,6 +21,7 @@ themes:
   - "ms-methodology"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # Proteogenomic Characterization Reveals Estrogen Signaling as a Target for Never-Smoker Lung Adenocarcinoma Patients without EGFR or ALK Alterations.
 

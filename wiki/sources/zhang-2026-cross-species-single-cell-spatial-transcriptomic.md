@@ -31,6 +31,7 @@ tags:
   - "treatment-response"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: response
 ---
 
 # Cross-species single-cell and spatial transcriptomic mapping reveals EFNA1-EPHA4-mediated stem-like epithelial-macrophage crosstalk driving colorectal cancer progression

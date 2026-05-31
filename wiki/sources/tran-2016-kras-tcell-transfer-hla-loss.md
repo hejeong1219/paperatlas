@@ -54,3 +54,14 @@ This case report is famous for proving that a common driver mutation can be ther
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC5178827/>
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/27959684/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[gettinger-2017-hla-antigen-presentation-checkpoint-lung|Gettinger 2017]]
+- [[liu-2026-usp22-ezh2-mhc1-checkpoint-resistance|Liu 2026]]
+- [[mcgranahan-2017-allele-specific-hla-loss-lung-cancer|Mcgranahan 2017]]
+- [[shin-2017-primary-resistance-pd1-jak-mutations|Shin 2017]]
+- [[zaretsky-2016-acquired-resistance-pd1-melanoma|Zaretsky 2016]]
+- [[zhao-2025-interferon-epsilon-9p21-immune-cold-tumors|Zhao 2025]]

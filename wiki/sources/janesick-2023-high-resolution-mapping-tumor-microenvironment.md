@@ -26,6 +26,7 @@ openalex_id: "W4389938094"
 openalex_primary_topic: "Single-cell and spatial transcriptomics"
 related_to_seeds: "zhang-2026-systematically-decoding-pathological-morphologies-multimodal-embedding"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # High resolution mapping of the tumor microenvironment using integrated single-cell, spatial and in situ analysis

@@ -119,3 +119,18 @@ The model was preferentially sensitive to cell-cycle/DDR stressors including Aur
 - DOI: <https://doi.org/10.1158/0008-5472.CAN-25-0600>
 - PMC: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9365348/>
 - Data availability: WES SRA `PRJNA1149098`; RNA-seq GEO `GSE305318`, `GSE275022`, `GSE275025`; phosphoproteomics/proteomics PRIDE `PXD055167`, `PXD055080`, `PXD055244`, `PXD055133`; CRISPR GEO `GSE275314`.
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[hsu-2025-phosphoproteomics-osimertinib-tolerant-persister-cells-reveals|Hsu 2025]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[jin-2026-deciphering-mediated-phosphorylated-alterations-cancer-related|Jin 2026]]
+- [[krug-2020-proteogenomic-landscape-breast-cancer-tumorigenesis|Krug 2020]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]

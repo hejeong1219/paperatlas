@@ -28,6 +28,7 @@ tags:
   - "topic-sweep"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: integration
 ---
 
 # Epstein-Barr virus orchestrates spatial reorganization and immunomodulation in the classic Hodgkin lymphoma tumor microenvironment

@@ -70,3 +70,10 @@ This study revisits one of the hardest checkpoint-resistant lung cancer genotype
 
 - Nature article: <https://www.nature.com/articles/s41586-024-07943-7>
  - Local PDF: `raw/inbox/papers/skoulidis-2024-ctla4-abrogates-keap1-stk11-resistance.pdf`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[johnson-2023-poseidon-first-line-metastatic-nsclc|Johnson 2023]]
+- [[skoulidis-2018-stk11-lkb1-pd1-resistance-kras-lung|Skoulidis 2018]]

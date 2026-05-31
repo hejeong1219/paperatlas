@@ -52,3 +52,9 @@ This paper established `STK11/LKB1` loss as one of the clearest genomic correlat
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC6030433/>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/29925669/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[johnson-2023-poseidon-first-line-metastatic-nsclc|Johnson 2023]]
+- [[skoulidis-2024-ctla4-abrogates-keap1-stk11-resistance|Skoulidis 2024]]

@@ -31,6 +31,8 @@ tags:
 pdf: "raw/inbox/papers/yu-2024-proteogenomic-analysis-cervical-cancer-reveals.pdf"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+topic: cancer-multiomics
+cm_axis: phospho
 ---
 # A proteogenomic analysis of cervical cancer reveals therapeutic and biological insights
 

@@ -25,6 +25,8 @@ extra_topics:
 pmid: "38246194"
 doi: "10.1016/S0140-6736(23)02268-7"
 
+topic: bcell-neoantigen
+
 ---
 # Individualised neoantigen therapy mRNA-4157 (V940) plus pembrolizumab versus pembrolizumab monotherapy in resected melanoma (KEYNOTE-942): a randomised, phase 2b study
 

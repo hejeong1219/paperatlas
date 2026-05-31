@@ -20,6 +20,7 @@ themes:
   - "ptm-proteomics"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # Multi-omics characterization of esophageal squamous cell carcinoma identifies molecular subtypes and therapeutic targets.
 

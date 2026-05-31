@@ -39,6 +39,7 @@ batch_ingested_on: 2026-05-13
 ingest_status: full-text-read
 ingested_on: 2026-05-13
 corpus_role: perturbation-context
+cm_axis: phospho
 ---
 # Phosphoproteomic and Acetylomic Characterization of Colorectal Cancer Cells Treated with Kinase Inhibitors
 
@@ -124,3 +125,18 @@ Zhao et al. perturb HCT116 colorectal cancer cells with seven kinase inhibitors 
 - DOI: <https://doi.org/10.1021/acsptsci.5c00398>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/40969873/>
 - PMCID recorded in source metadata: `PMC12441852`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[dou-2020-proteogenomic-characterization-endometrial-carcinoma|Dou 2020]]
+- [[li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers|Li 2023]]
+- [[mertins-2016-proteogenomics-connects-somatic-mutations-signalling|Mertins 2016]]
+- [[satpathy-2021-proteogenomic-portrait-lung-squamous-cell|Satpathy 2021]]
+- [[vasaikar-2019-proteogenomic-analysis-human-colon-cancer|Vasaikar 2019]]
+- [[zhang-2022-proteogenomic-characterization-2002-human-cancers|Zhang 2022]]
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]

@@ -58,6 +58,7 @@ batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
 ingest_status: full-text-read
 ingested_on: 2026-05-13
+cm_axis: response
 ---
 
 # Proteogenomic decoding of chemotherapy resistance in triple-negative breast cancer
@@ -199,3 +200,18 @@ Lee et al.은 anthracycline + taxane 기반 neoadjuvant chemotherapy(NAC)를 받
 - RNA-seq: NCBI Bioproject [PRJNA1422844](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1422844)
 - Proteome: CPTAC PDC [PDC000695](https://pdc.cancer.gov/pdc/study/PDC000695)
 - Phosphoproteome: CPTAC PDC [PDC000696](https://pdc.cancer.gov/pdc/study/PDC000696)
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[hsu-2025-phosphoproteomics-osimertinib-tolerant-persister-cells-reveals|Hsu 2025]]
+- [[sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance|Sambath 2026]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity|Petralia 2024]]
+- [[song-2024-proteogenomic-analysis-reveals-non-small-cell|Song 2024]]

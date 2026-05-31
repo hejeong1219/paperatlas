@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Analysis of isobaric quantitative proteomic data using TMT-Integrator and FragPipe computational platform.
 

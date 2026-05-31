@@ -22,6 +22,7 @@ tags:
   - senescence
   - review
   - senolytics
+topic: resistance
 ---
 
 # Senescence as a therapeutically relevant response to CDK4/6 inhibitors
@@ -50,3 +51,8 @@ This review is a useful conceptual frame for CDK4/6 therapy because it distingui
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC7610384/>
 - Nature article: <https://www.nature.com/articles/s41388-020-1354-9>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[lee-2024-cdk46-senescence-immunogenic-properties|Lee 2024]]

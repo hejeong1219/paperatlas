@@ -50,3 +50,10 @@ This is one of the foundational papers that made `ESR1` mutations central to end
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC3903423/>
 - Nature Genetics article: <https://www.nature.com/articles/ng.2822>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[bidard-2022-pada1-esr1-switch-fulvestrant-palbociclib|Bidard 2022]]
+- [[lopez-2025-esr1-mutations-tcell-surveillance-disruption|Lopez 2025]]
+- [[robinson-2013-activating-esr1-mutations-metastatic-breast|Robinson 2013]]

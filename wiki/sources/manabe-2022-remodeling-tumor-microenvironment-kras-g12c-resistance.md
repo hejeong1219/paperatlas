@@ -49,3 +49,10 @@ This rapid-autopsy study shows that clinical KRAS G12C resistance is not just a 
 
 - JCI article: <https://www.jci.org/articles/view/156891>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[ricciuti-2022-kras-g12d-nsclc-correlates|Ricciuti 2022]]
+- [[tsai-2022-idiosyncratic-resistance-kras-g12c-inhibition|Tsai 2022]]
+- [[xue-2020-rapid-nonuniform-adaptation-kras-g12c-inhibition|Xue 2020]]

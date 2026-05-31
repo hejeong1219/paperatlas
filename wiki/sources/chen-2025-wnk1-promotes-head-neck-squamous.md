@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # WNK1 promotes head and neck squamous cell carcinoma progression through activation of NF-κB signaling pathway.
 

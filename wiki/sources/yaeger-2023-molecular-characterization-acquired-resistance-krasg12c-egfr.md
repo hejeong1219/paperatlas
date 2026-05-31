@@ -100,3 +100,18 @@ After drug withdrawal, rechallenge suppressed MAPK signaling incompletely as a t
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/36355783/>
 - DOI: <https://doi.org/10.1158/2159-8290.CD-22-0405>
 - PMC: <https://pmc.ncbi.nlm.nih.gov/articles/PMC9827113/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[hsu-2025-phosphoproteomics-osimertinib-tolerant-persister-cells-reveals|Hsu 2025]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance|Sambath 2026]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[jin-2026-deciphering-mediated-phosphorylated-alterations-cancer-related|Jin 2026]]

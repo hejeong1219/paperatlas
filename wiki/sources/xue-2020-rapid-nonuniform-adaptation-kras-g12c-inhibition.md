@@ -49,3 +49,10 @@ This paper established a key principle for KRAS G12C therapy: even before stable
 
 - Nature article: <https://www.nature.com/articles/s41586-019-1884-x>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[manabe-2022-remodeling-tumor-microenvironment-kras-g12c-resistance|Manabe 2022]]
+- [[ricciuti-2022-kras-g12d-nsclc-correlates|Ricciuti 2022]]
+- [[tsai-2022-idiosyncratic-resistance-kras-g12c-inhibition|Tsai 2022]]

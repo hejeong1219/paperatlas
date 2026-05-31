@@ -52,3 +52,14 @@ McGranahan et al. move the field from single-gene anecdotes to evolutionary arch
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC5720478/>
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/29107332/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[gettinger-2017-hla-antigen-presentation-checkpoint-lung|Gettinger 2017]]
+- [[liu-2026-usp22-ezh2-mhc1-checkpoint-resistance|Liu 2026]]
+- [[shin-2017-primary-resistance-pd1-jak-mutations|Shin 2017]]
+- [[tran-2016-kras-tcell-transfer-hla-loss|Tran 2016]]
+- [[zaretsky-2016-acquired-resistance-pd1-melanoma|Zaretsky 2016]]
+- [[zhao-2025-interferon-epsilon-9p21-immune-cold-tumors|Zhao 2025]]

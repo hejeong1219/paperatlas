@@ -26,6 +26,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/tong-2026-multimodal-lincs-pan-cancer-hdac-inhibitor.pdf"
 notion_url: "https://www.notion.so/354302d9c598811d923ccb12c5df44cf"
+cm_axis: integration
 ---
 
 # Multimodal deep learning on LINCS L1000 reveals brain-penetrant Class I HDAC inhibitors as pan-cancer candidates

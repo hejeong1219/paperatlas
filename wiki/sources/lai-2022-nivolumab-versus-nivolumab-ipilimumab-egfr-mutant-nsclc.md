@@ -51,3 +51,17 @@ This trial is valuable precisely because it is negative: it shows that even addi
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC9679031/>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/36426287/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[offin-2019-tumor-mutation-burden-egfr-tki-efficacy|Offin 2019]]
+- [[bidard-2022-pada1-esr1-switch-fulvestrant-palbociclib|Bidard 2022]]
+- [[chen-2018-exosomal-pdl1-immunosuppression-pd1-response|Chen 2018]]
+- [[cristescu-2018-pan-tumor-genomic-biomarkers-pd1-blockade|Cristescu 2018]]
+- [[du-2025-tls-gene-signature-advanced-nsclc|Du 2025]]
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]
+- [[lou-2016-emt-inflammatory-signals-multiple-checkpoints-lung|Lou 2016]]
+- [[sequist-2011-genotypic-histological-evolution-egfr-resistance|Sequist 2011]]
+- [[zhang-2021-met-amplification-inhibits-sting-immunotherapy|Zhang 2021]]

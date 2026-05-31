@@ -50,6 +50,7 @@ tags:
   - encode
   - methodology-resource
   - nature-biotechnology-2023
+cm_axis: integration
 ---
 
 # Global detection of human variants and isoforms by deep proteome sequencing

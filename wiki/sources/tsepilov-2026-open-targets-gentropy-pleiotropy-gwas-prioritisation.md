@@ -27,6 +27,7 @@ pdf_status: manual_pending
 pdf_failed_attempts: "ku_download (citation_pdf_url meta missing or 403/404), fallback_direct_url"
 pdf_manual_note: 'bioRxiv DOI 10.1101/2026.04.28.721048 returns 404 from doi.org. DOI may not be registered yet, or DOI string from Notion is incorrect. Manual: search biorxiv.org by title.'
 notion_url: "https://www.notion.so/354302d9c59881f494a1f1548f996e71"
+cm_axis: integration
 ---
 
 # Open Targets Gentropy: pleiotropy mapping across 100,526 GWAS for therapeutic target prioritisation

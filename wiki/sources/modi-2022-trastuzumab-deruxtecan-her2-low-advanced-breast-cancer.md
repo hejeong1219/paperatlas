@@ -50,3 +50,11 @@ DESTINY-Breast04 is the pivotal paper that turned HER2-low disease from a descri
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC10561652/>
 - Article DOI landing page: <https://doi.org/10.1056/NEJMoa2203690>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[bardia-2024-trastuzumab-deruxtecan-after-endocrine-therapy-metastatic-breast-cancer|Bardia 2024]]
+- [[chen-2026-trastuzumab-deruxtecan-resistance-her2-expression-binding|Chen 2026]]
+- [[oh-2024-tdxd-cgas-sting-gastric-cancer|Oh 2024]]

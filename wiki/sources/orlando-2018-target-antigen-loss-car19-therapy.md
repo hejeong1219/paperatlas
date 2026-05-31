@@ -48,3 +48,10 @@ This brief communication sharpens CD19-negative relapse into a clonally dominant
 - PDF: [orlando-2018-target-antigen-loss-car19-therapy.pdf](../../raw/inbox/papers/orlando-2018-target-antigen-loss-car19-therapy.pdf)
 - Article: <https://www.nature.com/articles/s41591-018-0146-z>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[labanieh-2023-car-immune-cells-design-principles-resistance|Labanieh 2023]]
+- [[qiu-2025-lineage-switch-cd19-cart-treatment-ball|Qiu 2025]]
+- [[sotillo-2015-cd19-mutations-alternative-splicing-cart19|Sotillo 2015]]

@@ -50,6 +50,7 @@ tags:
   - molecular-oncology-2026
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: response
 ---
 
 # Integrated genomic and proteomic profiling reveals insights into chemoradiation resistance in cervical cancer
@@ -136,3 +137,18 @@ Sambath, George 등은 인도 자궁경부암 환자 36명(stage IIIB squamous, 
 - Europe PMC render endpoint: https://europepmc.org/articles/PMC13042866?pdf=render
 - ProteomeXchange: PXD058817 (proteomics raw data)
 - Key referenced phosphoproteome companion: reference [38] (논문 본문 명시; 동일 코호트의 앞서 발표된 phosphoproteomics)
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity|Petralia 2024]]
+- [[song-2024-proteogenomic-analysis-reveals-non-small-cell|Song 2024]]
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]

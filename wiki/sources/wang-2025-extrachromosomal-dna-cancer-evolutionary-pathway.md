@@ -25,6 +25,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/wang-2025-extrachromosomal-dna-cancer-evolutionary-pathway.pdf"
 notion_url: "https://www.notion.so/35b302d9c5988184a5b3f2d426c5cfd8"
+cm_axis: wgs
 ---
 
 # Extrachromosomal DNA gives cancer a separate evolutionary pathway

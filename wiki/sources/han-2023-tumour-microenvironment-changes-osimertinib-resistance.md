@@ -49,3 +49,12 @@ This paper complements genomic resistance studies by showing that osimertinib-re
 
 - Article summary: <https://www.sciencedirect.com/science/article/pii/S0959804923002496>
 - PubMed record: <https://pubmed.ncbi.nlm.nih.gov/37320935/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[lou-2016-emt-inflammatory-signals-multiple-checkpoints-lung|Lou 2016]]
+- [[sequist-2011-genotypic-histological-evolution-egfr-resistance|Sequist 2011]]
+- [[zhang-2021-met-amplification-inhibits-sting-immunotherapy|Zhang 2021]]

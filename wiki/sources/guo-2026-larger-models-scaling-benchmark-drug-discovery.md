@@ -25,6 +25,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/guo-2026-larger-models-scaling-benchmark-drug-discovery.pdf"
 notion_url: "https://www.notion.so/35b302d9c59881f9a11ee7a540504bc0"
+cm_axis: response
 ---
 
 # Do larger models really win? A scaling benchmark in AI-driven drug discovery

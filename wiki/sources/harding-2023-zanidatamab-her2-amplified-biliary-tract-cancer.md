@@ -49,3 +49,11 @@ This initial HERIZON-BTC-01 report established zanidatamab as one of the cleares
 
 - Article summary: <https://www.sciencedirect.com/science/article/pii/S1470204523002425>
 - Open-access repository record: <https://discovery.ucl.ac.uk/id/eprint/10173106/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[goebeler-2024-bispecific-multispecific-antibodies-oncology|Goebeler 2024]]
+- [[mountzios-2025-tarlatamab-small-cell-lung-cancer-after-platinum|Mountzios 2025]]
+- [[pant-2026-zanidatamab-her2-positive-metastatic-biliary-tract-cancer|Pant 2026]]

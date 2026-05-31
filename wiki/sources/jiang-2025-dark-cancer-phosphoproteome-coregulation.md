@@ -74,3 +74,14 @@ Pan-cancer machine-learning study that uses tumor phosphoproteomics to infer co-
 
 - PDF: [jiang-2025-dark-cancer-phosphoproteome-coregulation.pdf](../../raw/inbox/papers/jiang-2025-dark-cancer-phosphoproteome-coregulation.pdf)
 - Article: <https://www.nature.com/articles/s41467-025-57993-2>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[muller-dott-2025-phosphoproteomic-kinase-activity-inference|Muller]]
+- [[mertins-2016-proteogenomics-somatic-mutations-signalling-breast-cancer|Mertins 2016]]
+- [[savage-2020-phosphoproteomics-bioinformatics-comprehensive-guide|Savage 2020]]
+- [[wu-2011-correct-interpretation-comprehensive-phosphorylation-dynamics|Wu 2011]]
+- [[jiang-2025-deciphering-dark-cancer-phosphoproteome-using|Jiang 2025]]
+- [[shi-2025-functional-network-human-cancer-proteogenomics|Shi 2025]]

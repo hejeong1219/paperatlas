@@ -32,6 +32,7 @@ tags:
   - "treatment-response"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: response
 ---
 
 # A longitudinal single-cell and spatial multiomic atlas of pediatric high-grade glioma

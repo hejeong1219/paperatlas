@@ -52,3 +52,11 @@ This paper is valuable because it reframes antiangiogenic therapy as an immune-m
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC5554432/>
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/28404866/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[elyada-2019-apcafs-pancreatic-cancer|Elyada 2019]]
+- [[laino-2020-serum-il6-crp-melanoma-checkpoint-inhibition|Laino 2020]]
+- [[zhu-2014-csf1r-blockade-pancreatic-cancer-models|Zhu 2014]]

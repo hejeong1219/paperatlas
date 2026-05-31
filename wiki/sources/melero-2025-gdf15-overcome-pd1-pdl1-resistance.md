@@ -55,3 +55,9 @@ This paper elevates `GDF-15` from a biomarker-like stress cytokine to an actiona
 - Nature article: <https://www.nature.com/articles/s41586-024-08305-z>
 - PubMed correction record citing the main article PMID 39663448: <https://pubmed.ncbi.nlm.nih.gov/40000750/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[chen-2018-exosomal-pdl1-immunosuppression-pd1-response|Chen 2018]]
+- [[harmon-2020-immune-consequences-lactate-tumor-microenvironment|Harmon 2020]]

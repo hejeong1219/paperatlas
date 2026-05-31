@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Integrated multi-omics characterization of KRAS mutant colorectal cancer.
 

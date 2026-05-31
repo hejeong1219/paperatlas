@@ -24,6 +24,7 @@ openalex_id: "W4397009294"
 openalex_primary_topic: "Radiomics and Machine Learning in Medical Imaging"
 related_to_seeds: "zhang-2026-systematically-decoding-pathological-morphologies-multimodal-embedding"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # Prediction of DNA methylation-based tumor types from histopathology in central nervous system tumors with deep learning

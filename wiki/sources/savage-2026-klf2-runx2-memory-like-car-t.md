@@ -27,6 +27,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/savage-2026-klf2-runx2-memory-like-car-t.pdf"
 notion_url: "https://www.notion.so/350302d9c5988126ab49c6335bb13f77"
+cm_axis: integration
 ---
 
 # T cell state transcription factor cooperation engineering: KLF2 x RUNX2 memory-like CAR-T design

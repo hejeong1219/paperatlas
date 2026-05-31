@@ -24,6 +24,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/altenburger-2026-lymphoid-chemokine-cd8-priming-effector.pdf"
 notion_url: "https://www.notion.so/353302d9c59881738ecbf9f9064c6168"
+cm_axis: integration
 ---
 
 # Lymphoid chemokine signalling limits CD8+ T cell priming time to preserve effector function

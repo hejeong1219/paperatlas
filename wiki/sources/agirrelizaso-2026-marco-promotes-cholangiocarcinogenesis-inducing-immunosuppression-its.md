@@ -32,6 +32,7 @@ tags:
   - "treatment-response"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: response
 ---
 
 # MARCO promotes cholangiocarcinogenesis by inducing immunosuppression and its targeting reduces tumor growth

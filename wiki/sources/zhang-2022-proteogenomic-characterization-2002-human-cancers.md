@@ -88,3 +88,18 @@ This section was added for the interactive atlas on recent multi-omics proteomic
 
 - PDF: [zhang-2022-proteogenomic-characterization-2002-human-cancers.pdf](../../raw/inbox/papers/zhang-2022-proteogenomic-characterization-2002-human-cancers.pdf)
 - Article: <https://www.nature.com/articles/s41467-022-30342-3>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[satpathy-2021-proteogenomic-portrait-lung-squamous-cell|Satpathy 2021]]
+- [[dou-2020-proteogenomic-characterization-endometrial-carcinoma|Dou 2020]]
+- [[li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers|Li 2023]]
+- [[mertins-2016-proteogenomics-connects-somatic-mutations-signalling|Mertins 2016]]
+- [[zhao-2025-phosphoproteomic-acetylomic-characterization-colorectal-cancer|Zhao 2025]]
+- [[chang-2026-integrative-proteogenomics-gastric-cancer-taiwan|Chang 2026]]
+- [[chen-2019-pan-cancer-molecular-subtypes-proteomic-characterization|Chen 2019]]

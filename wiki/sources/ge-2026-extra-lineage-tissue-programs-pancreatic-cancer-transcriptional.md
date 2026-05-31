@@ -27,6 +27,7 @@ pdf_status: manual_pending
 pdf_failed_attempts: "ku_download (citation_pdf_url meta missing or 403/404), fallback_direct_url"
 pdf_manual_note: 'bioRxiv DOI 10.1101/2026.04.30.722187 returns 404. Manual: search biorxiv.org.'
 notion_url: "https://www.notion.so/35b302d9c5988155aa34fc7fb52a07b0"
+cm_axis: response
 ---
 
 # Extra-lineage tissue programs define transcriptional states in human pancreatic cancer

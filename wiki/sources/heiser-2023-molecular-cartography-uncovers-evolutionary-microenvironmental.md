@@ -26,6 +26,7 @@ openalex_id: "W4389455629"
 openalex_primary_topic: "Single-cell and spatial transcriptomics"
 related_to_seeds: "tran-2026-phoenix-pan-cancer-virtual-spatial-transcriptomics"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # Molecular cartography uncovers evolutionary and microenvironmental dynamics in sporadic colorectal tumors

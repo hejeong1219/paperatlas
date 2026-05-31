@@ -52,3 +52,16 @@ This study expands checkpoint biology beyond tumor-cell surface staining, showin
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC6095740/>
 - Nature article record: <https://www.nature.com/articles/s41586-018-0392-8>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[bidard-2022-pada1-esr1-switch-fulvestrant-palbociclib|Bidard 2022]]
+- [[cristescu-2018-pan-tumor-genomic-biomarkers-pd1-blockade|Cristescu 2018]]
+- [[du-2025-tls-gene-signature-advanced-nsclc|Du 2025]]
+- [[harmon-2020-immune-consequences-lactate-tumor-microenvironment|Harmon 2020]]
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[lai-2022-nivolumab-versus-nivolumab-ipilimumab-egfr-mutant-nsclc|Lai 2022]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]
+- [[melero-2025-gdf15-overcome-pd1-pdl1-resistance|Melero 2025]]
+- [[offin-2019-tumor-mutation-burden-egfr-tki-efficacy|Offin 2019]]

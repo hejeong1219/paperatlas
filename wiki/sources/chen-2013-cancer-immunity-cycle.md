@@ -54,3 +54,8 @@ This review provides the canonical stepwise model for how productive antitumor i
 
 - Article: <https://www.sciencedirect.com/science/article/pii/S1074761313002963>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[chen-2017-cancer-immune-set-point|Chen 2017]]

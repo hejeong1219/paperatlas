@@ -51,3 +51,11 @@ Elyada et al. is a landmark fibroblast heterogeneity paper because it introduced
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC6727976/>
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/31375675/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[allen-2017-antiangiogenic-pdl1-hev-formation|Allen 2017]]
+- [[laino-2020-serum-il6-crp-melanoma-checkpoint-inhibition|Laino 2020]]
+- [[zhu-2014-csf1r-blockade-pancreatic-cancer-models|Zhu 2014]]

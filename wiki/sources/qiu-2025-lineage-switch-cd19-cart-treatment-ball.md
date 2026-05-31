@@ -51,3 +51,10 @@ This paper argues that lineage switch after CD19 CAR-T is not confined to the cl
 - PDF: [qiu-2025-lineage-switch-cd19-cart-treatment-ball.pdf](../../raw/inbox/papers/qiu-2025-lineage-switch-cd19-cart-treatment-ball.pdf)
 - Article: <https://www.nature.com/articles/s41375-024-02449-7>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[labanieh-2023-car-immune-cells-design-principles-resistance|Labanieh 2023]]
+- [[orlando-2018-target-antigen-loss-car19-therapy|Orlando 2018]]
+- [[sotillo-2015-cd19-mutations-alternative-splicing-cart19|Sotillo 2015]]

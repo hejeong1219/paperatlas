@@ -41,6 +41,8 @@ corpus_role: core-proteogenomic-vulnerability
 ingest_status: full-text-read
 ingested_on: 2026-05-13
 pdf: "raw/inbox/papers/vasaikar-2019-proteogenomic-analysis-human-colon-cancer.pdf"
+topic: cancer-multiomics
+cm_axis: wgs
 ---
 # Proteogenomic Analysis of Human Colon Cancer Reveals New Therapeutic Opportunities
 
@@ -143,3 +145,18 @@ Vasaikar et al. profile a prospective colon cancer cohort with WXS, copy-number,
 ## Sources
 
 - Local PDF: `raw/inbox/papers/vasaikar-2019-proteogenomic-analysis-human-colon-cancer.pdf`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[clark-2020-integrated-proteogenomic-characterization-clear-cell|Clark 2020]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma|Wang 2021]]
+- [[zhao-2025-phosphoproteomic-acetylomic-characterization-colorectal-cancer|Zhao 2025]]
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]
+- [[chen-2020-proteogenomics-non-smoking-lung-cancer-east|Chen 2020]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[dou-2020-proteogenomic-characterization-endometrial-carcinoma|Dou 2020]]

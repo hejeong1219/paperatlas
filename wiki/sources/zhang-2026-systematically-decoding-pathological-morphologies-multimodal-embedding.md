@@ -27,6 +27,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/zhang-2026-systematically-decoding-pathological-morphologies-multimodal-embedding.pdf"
 notion_url: "https://www.notion.so/354302d9c598811081d0ce42e522f262"
+cm_axis: response
 ---
 
 # Systematically decoding pathological morphologies and molecular profiles with unified multimodal embedding

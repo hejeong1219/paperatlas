@@ -22,6 +22,7 @@ type NodeDatum = {
   modalities: string[]
   themes: string[]
   topic: string
+  cmAxis?: string
   href: string
   x?: number
   y?: number
@@ -35,7 +36,43 @@ const TOPIC_COLORS: Record<string, string> = {
   ptmanchor: "#7b5cff",       // purple
   resistance: "#ff6b6b",      // coral
   "bcell-neoantigen": "#4ecdc4", // teal
+  "cancer-multiomics": "#176087", // deep blue — focus area
   other: "#9aa5b1",
+}
+
+// Cancer Multiomics is the focus cluster (center); its four sub-axes fan out
+// around the CM centre so "이주제 저주제" sub-topics are visible while staying connected.
+const CM_AXIS_OFFSET: Record<string, [number, number]> = {
+  wgs: [-0.1, -0.09],
+  phospho: [0.1, -0.09],
+  integration: [0.1, 0.09],
+  response: [-0.1, 0.09],
+}
+function topicTarget(d: NodeDatum, width: number, height: number) {
+  let fx = 0.5
+  let fy = 0.5
+  if (d.topic === "ptmanchor") {
+    fx = 0.17
+    fy = 0.27
+  } else if (d.topic === "bcell-neoantigen") {
+    fx = 0.83
+    fy = 0.27
+  } else if (d.topic === "resistance") {
+    fx = 0.83
+    fy = 0.78
+  } else if (d.topic === "cancer-multiomics") {
+    fx = 0.4
+    fy = 0.56
+    const off = CM_AXIS_OFFSET[d.cmAxis ?? ""]
+    if (off) {
+      fx += off[0]
+      fy += off[1]
+    }
+  } else {
+    fx = 0.18
+    fy = 0.78
+  }
+  return { x: width * fx, y: height * fy }
 }
 
 type LinkDatum = {
@@ -120,13 +157,8 @@ function initPaperGraphs() {
       )
       .force("charge", forceManyBody().strength(compact ? -160 : -220))
       .force("collide", forceCollide<NodeDatum>().radius((d) => (compact ? 14 : 18)).iterations(2))
-      .force("x", forceX<NodeDatum>((d) => {
-        if (d.topic === "ptmanchor") return width * 0.22
-        if (d.topic === "resistance") return width * 0.5
-        if (d.topic === "bcell-neoantigen") return width * 0.78
-        return width * 0.5
-      }).strength(0.18))
-      .force("y", forceY<NodeDatum>(height / 2).strength(0.06))
+      .force("x", forceX<NodeDatum>((d) => topicTarget(d, width, height).x).strength(0.22))
+      .force("y", forceY<NodeDatum>((d) => topicTarget(d, width, height).y).strength(0.22))
       .alphaDecay(0.05)
       .alphaMin(0.02)
       .velocityDecay(0.6)

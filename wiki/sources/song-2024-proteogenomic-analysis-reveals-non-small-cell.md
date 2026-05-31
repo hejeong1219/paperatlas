@@ -44,6 +44,8 @@ batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
 ingest_status: full-text-read
 ingested_on: 2026-05-13
+topic: cancer-multiomics
+cm_axis: wgs
 ---
 # Proteogenomic Analysis Reveals Non-Small Cell Lung Cancer Subtypes Predicting Chromosome Instability, and Tumor Microenvironment
 
@@ -154,3 +156,18 @@ Song et al. define five proteogenomic NSCLC subtypes in a Korean surgical cohort
 - DOI: <https://doi.org/10.1038/s41467-024-54434-4>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/39580524/>
 - PMCID recorded in source metadata: `PMC11585665`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]
+- [[petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity|Petralia 2024]]
+- [[sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance|Sambath 2026]]
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]

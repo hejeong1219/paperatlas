@@ -30,6 +30,7 @@ tags:
   - alternative-splicing
   - tool
   - bioRxiv-2026
+cm_axis: integration
 ---
 
 # PEXMap: A proteogenomic method for exon and isoform level mapping of mass spectrometry derived peptides

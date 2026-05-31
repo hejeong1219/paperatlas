@@ -25,6 +25,7 @@ openalex_id: "W4372337352"
 openalex_primary_topic: "Cancer Genomics and Diagnostics"
 related_to_seeds: "wang-2025-extrachromosomal-dna-cancer-evolutionary-pathway"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # Parallel sequencing of extrachromosomal circular DNAs and transcriptomes in single cancer cells

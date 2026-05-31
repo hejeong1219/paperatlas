@@ -34,6 +34,7 @@ tags:
   - "topic-sweep"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-26
+cm_axis: integration
 ---
 
 # Single-cell and spatial transcriptomics implicate a prognostic function of tertiary lymphoid structures in gastric cancer

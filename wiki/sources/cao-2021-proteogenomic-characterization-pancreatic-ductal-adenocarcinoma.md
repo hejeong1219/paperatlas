@@ -39,6 +39,8 @@ corpus_role: core-proteogenomic-vulnerability
 ingest_status: full-text-read
 ingested_on: 2026-05-13
 pdf: "raw/inbox/papers/cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma.pdf"
+topic: cancer-multiomics
+cm_axis: phospho
 ---
 # Proteogenomic Characterization of Pancreatic Ductal Adenocarcinoma
 
@@ -148,3 +150,18 @@ Cao et al. provide a CPTAC proteogenomic atlas of PDAC with matched genomic, tra
 ## Sources
 
 - Local PDF: `raw/inbox/papers/cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma.pdf`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[satpathy-2021-proteogenomic-portrait-lung-squamous-cell|Satpathy 2021]]
+- [[zhang-2022-proteogenomic-characterization-2002-human-cancers|Zhang 2022]]
+- [[zhao-2025-phosphoproteomic-acetylomic-characterization-colorectal-cancer|Zhao 2025]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[dou-2020-proteogenomic-characterization-endometrial-carcinoma|Dou 2020]]
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[jaehnig-2025-proteogenomic-analysis-calgb-40601-alliance|Jaehnig 2025]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]

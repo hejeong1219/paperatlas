@@ -27,6 +27,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/deutsch-2026-expanding-human-proteome-peptideins-noncanonical-orfs.pdf"
 notion_url: "https://www.notion.so/35a302d9c59881da972df612ca1563d4"
+cm_axis: integration
 ---
 
 # Expanding the human proteome with peptideins from non-canonical ORFs

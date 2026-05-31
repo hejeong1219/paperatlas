@@ -32,6 +32,7 @@ tags:
   - "treatment-response"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: response
 ---
 
 # Understanding immune checkpoint inhibitor efficacy through spatial decoding of the lung cancer tumor immune microenvironment

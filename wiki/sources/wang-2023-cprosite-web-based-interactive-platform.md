@@ -18,6 +18,7 @@ themes:
   - "ptm-methodology"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # cProSite: A web based interactive platform for online proteomics, phosphoproteomics, and genomics data analysis.
 

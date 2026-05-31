@@ -30,6 +30,7 @@ tags:
   - "treatment-response"
 batch_ingest_status: topic-sweep-stub
 batch_ingested_on: 2026-05-25
+cm_axis: response
 ---
 
 # Spatial multi-omics unveils the monoclonal origin, neuroendocrine plasticity, and microenvironment niches in combined small-cell lung cancer

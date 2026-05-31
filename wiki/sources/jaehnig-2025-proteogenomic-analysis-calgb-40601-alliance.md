@@ -40,6 +40,7 @@ batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
 ingest_status: full-text-read
 ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # Proteogenomic Analysis of the CALGB 40601 (Alliance) HER2+ Breast Cancer Neoadjuvant Trial Reveals Resistance Biomarkers
 
@@ -153,3 +154,18 @@ Jaehnig et al. reanalyze pretreatment biopsies from the CALGB 40601 randomized n
 - DOI: <https://doi.org/10.1016/j.xcrm.2025.102154>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/40480221/>
 - PMCID recorded in source metadata: `PMC12208316`
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[holt-2025-proteogenomic-characterization-unveils-biomarkers-associated|Holt 2025]]
+- [[lee-2026-proteogenomic-decoding-chemotherapy-resistance-tnbc|Lee 2026]]
+- [[anurag-2022-proteogenomic-markers-chemotherapy-resistance-response|Anurag 2022]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[sambath-2026-integrated-genomic-proteomic-cervical-cancer-chemoradiation-resistance|Sambath 2026]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[hsu-2025-phosphoproteomics-osimertinib-tolerant-persister-cells-reveals|Hsu 2025]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[petralia-2024-pan-cancer-proteogenomics-characterization-tumor-immunity|Petralia 2024]]
+- [[song-2024-proteogenomic-analysis-reveals-non-small-cell|Song 2024]]

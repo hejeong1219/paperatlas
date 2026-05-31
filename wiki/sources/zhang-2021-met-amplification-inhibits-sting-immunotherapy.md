@@ -52,3 +52,13 @@ This paper links a canonical targeted-therapy bypass event, `MET` amplification,
 
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/34099454/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[lou-2016-emt-inflammatory-signals-multiple-checkpoints-lung|Lou 2016]]
+- [[sequist-2011-genotypic-histological-evolution-egfr-resistance|Sequist 2011]]
+- [[chmielecki-2023-acquired-resistance-first-line-osimertinib|Chmielecki 2023]]
+- [[han-2023-tumour-microenvironment-changes-osimertinib-resistance|Han 2023]]
+- [[lai-2022-nivolumab-versus-nivolumab-ipilimumab-egfr-mutant-nsclc|Lai 2022]]
+- [[offin-2019-tumor-mutation-burden-egfr-tki-efficacy|Offin 2019]]

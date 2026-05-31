@@ -79,3 +79,18 @@ treatment-naive clear cell renal cell carcinoma(ccRCC)와 paired NAT에서 genom
 - Local PDF: `raw/inbox/papers/clark-2019-integrated-proteogenomic-characterization-clear-cell.pdf`
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/31923397/>
 - DOI: <https://doi.org/10.1016/j.cell.2019.12.026>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[vasaikar-2019-proteogenomic-analysis-human-colon-cancer|Vasaikar 2019]]
+- [[wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma|Wang 2021]]
+- [[cao-2021-proteogenomic-characterization-pancreatic-ductal-adenocarcinoma|Cao 2021]]
+- [[dou-2020-proteogenomic-characterization-endometrial-carcinoma|Dou 2020]]
+- [[gillette-2020-proteogenomic-characterization-reveals-therapeutic-vulnerabilities|Gillette 2020]]
+- [[huang-2021-proteogenomic-insights-biology-treatment-hpv-negative|Huang 2021]]
+- [[li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers|Li 2023]]
+- [[mertins-2016-proteogenomics-connects-somatic-mutations-signalling|Mertins 2016]]
+- [[ng-2022-integrative-proteogenomic-characterization-hepatocellular-carcinoma|Ng 2022]]
+- [[satpathy-2021-proteogenomic-portrait-lung-squamous-cell|Satpathy 2021]]

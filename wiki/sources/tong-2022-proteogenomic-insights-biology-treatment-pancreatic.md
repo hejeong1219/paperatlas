@@ -16,6 +16,7 @@ tags:
 themes:
   - "multiomics-identification"
   - "ptm-methodology"
+cm_axis: phospho
 ---
 # Proteogenomic insights into the biology and treatment of pancreatic ductal adenocarcinoma.
 

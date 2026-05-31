@@ -50,3 +50,8 @@ This is a foundational precision-oncology paper for metastatic castration-resist
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC4484602/>
 - PubMed: <https://pubmed.ncbi.nlm.nih.gov/26000489/>
 
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[balbas-2013-overcoming-resistance-antiandrogens-rational-design|Balbas 2013]]

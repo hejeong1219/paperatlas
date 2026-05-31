@@ -50,3 +50,10 @@ This large multi-omic colorectal cancer study is one of the best examples of how
 
 - PMC full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC5984687/>
 - PubMed abstract: <https://pubmed.ncbi.nlm.nih.gov/29510987/>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[toboni-2023-mlh1-hypermethylation-lynch-like-endometrial-cancer|Toboni 2023]]
+- [[yang-2021-msih-gastric-cancer-heterogeneity-worse-survival|Yang 2021]]

@@ -33,6 +33,7 @@ type GraphNode = {
   modalities: string[]
   themes: string[]
   topic: string
+  cmAxis: string
   href: string
 }
 
@@ -54,8 +55,12 @@ function buildGraph(pages: QuartzPluginData[], currentSlug: string): { nodes: Gr
         (slug.includes("ptmanchor") || slug.includes("copheemap"))) return "ptmanchor"
     if (slug.startsWith("analyses/") && slug.includes("cancer-resistance")) return "resistance"
     if (slug.startsWith("analyses/") && slug.includes("b-cell-neoantigen")) return "bcell-neoantigen"
+    if (slug.startsWith("analyses/") && slug.includes("cancer-multiomics")) return "cancer-multiomics"
     const fm = page.frontmatter as Record<string, unknown> | undefined
-    const t = (fm?.topic as string) ?? "other"
+    let t = (fm?.topic as string) ?? "other"
+    // Normalize topic variants into the canonical cluster keys
+    if (t.startsWith("cancer-multiomics") || t.startsWith("multiomics-")) t = "cancer-multiomics"
+    if (t.startsWith("b-cell-neoantigen")) t = "bcell-neoantigen"
     return t
   }
 
@@ -70,6 +75,7 @@ function buildGraph(pages: QuartzPluginData[], currentSlug: string): { nodes: Gr
     modalities: asList(page.frontmatter?.modalities),
     themes: asList(page.frontmatter?.themes),
     topic: inferTopic(page),
+    cmAxis: ((page.frontmatter as Record<string, unknown> | undefined)?.cm_axis as string) ?? "",
     href: resolveRelative(currentSlug as any, page.slug! as any),
   }))
 
@@ -80,43 +86,54 @@ function buildGraph(pages: QuartzPluginData[], currentSlug: string): { nodes: Gr
     for (let j = i + 1; j < nodes.length; j++) {
       const left = nodes[i]
       const right = nodes[j]
-      // Only connect nodes within the same topic — separates the three clusters
-      if (left.topic !== right.topic) continue
-      const reasons: string[] = [`Topic: ${labelize(left.topic)}`]
-      let weight = 1
-
-      const sharedCancer = shared(left.cancers, right.cancers)
-      if (sharedCancer.length > 0) {
-        reasons.push(`Shared cancer: ${sharedCancer.map(labelize).join(", ")}`)
-        weight += sharedCancer.length * 2
-      }
-
-      const sharedModalities = shared(left.modalities, right.modalities)
-      if (sharedModalities.length > 0) {
-        reasons.push(`Shared modality: ${sharedModalities.map(labelize).join(", ")}`)
-        weight += sharedModalities.length * 2
-      }
-
-      const sharedThemes = shared(left.themes, right.themes)
-      if (sharedThemes.length > 0) {
-        reasons.push(`Shared theme: ${sharedThemes.map(labelize).join(", ")}`)
-        weight += sharedThemes.length
-      }
-
-      if (left.journal && right.journal && left.journal === right.journal) {
-        reasons.push(`Same journal: ${left.journal}`)
-        weight += 1
-      }
+      const sameTopic = left.topic === right.topic
 
       const leftPage = pageMap.get(left.slug)
       const rightPage = pageMap.get(right.slug)
       const leftLinks = asList(leftPage?.links)
       const rightLinks = asList(rightPage?.links)
+      // Explicit co-citation wiki link injected into the note bodies
       const directLink =
-        leftLinks.includes(right.slug) ||
-        rightLinks.includes(left.slug) ||
-        leftPage?.description?.includes(right.title) ||
-        rightPage?.description?.includes(left.title)
+        leftLinks.includes(right.slug) || rightLinks.includes(left.slug)
+
+      // Same-topic papers auto-cluster by shared metadata; cross-topic pairs
+      // only connect when an explicit co-citation link bridges them — this keeps
+      // the topic clusters intact while showing real paper-to-paper connections.
+      if (!sameTopic && !directLink) continue
+
+      const reasons: string[] = sameTopic
+        ? [`Topic: ${labelize(left.topic)}`]
+        : ["Co-citation bridge"]
+      let weight = sameTopic ? 1 : 2
+
+      if (sameTopic) {
+        const sharedCancer = shared(left.cancers, right.cancers)
+        if (sharedCancer.length > 0) {
+          reasons.push(`Shared cancer: ${sharedCancer.map(labelize).join(", ")}`)
+          weight += sharedCancer.length * 2
+        }
+        const sharedModalities = shared(left.modalities, right.modalities)
+        if (sharedModalities.length > 0) {
+          reasons.push(`Shared modality: ${sharedModalities.map(labelize).join(", ")}`)
+          weight += sharedModalities.length * 2
+        }
+        const sharedThemes = shared(left.themes, right.themes)
+        if (sharedThemes.length > 0) {
+          reasons.push(`Shared theme: ${sharedThemes.map(labelize).join(", ")}`)
+          weight += sharedThemes.length
+        }
+        if (left.journal && right.journal && left.journal === right.journal) {
+          reasons.push(`Same journal: ${left.journal}`)
+          weight += 1
+        }
+        const descMention =
+          leftPage?.description?.includes(right.title) ||
+          rightPage?.description?.includes(left.title)
+        if (descMention) {
+          reasons.push("Mentioned in summary")
+          weight += 1
+        }
+      }
 
       if (directLink) {
         reasons.push("Direct wiki connection")

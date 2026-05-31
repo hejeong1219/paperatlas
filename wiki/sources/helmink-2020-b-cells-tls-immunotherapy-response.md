@@ -50,3 +50,15 @@ Helmink et al. is one of the most important papers in the modern TLS literature 
 
 - PDF: [helmink-2020-b-cells-tertiary-lymphoid-structures-immunotherapy-response.pdf](../../raw/inbox/papers/helmink-2020-b-cells-tertiary-lymphoid-structures-immunotherapy-response.pdf)
 - Nature article: <https://www.nature.com/articles/s41586-019-1922-8>
+
+## 함께 인용된 논문
+
+위키 분석·합성 페이지에서 이 논문과 함께 인용된 논문들 (co-citation).
+
+- [[du-2025-tls-gene-signature-advanced-nsclc|Du 2025]]
+- [[hegoburu-2025-b-cells-and-tertiary-structures|Hegoburu 2025]]
+- [[italiano-2022-pembrolizumab-soft-tissue-sarcomas-tls|Italiano 2022]]
+- [[kasikova-2024-tertiary-lymphoid-structures-b-cells|Kasikova 2024]]
+- [[li-2025-mature-tertiary-lymphoid-structures-headneck|Li 2025]]
+- [[liu-2024-single-cell-and-spatial-transcriptome|Liu 2024]]
+- [[sun-2022-tls-neoadjuvant-chemoimmunotherapy-resectable-nsclc|Sun 2022]]

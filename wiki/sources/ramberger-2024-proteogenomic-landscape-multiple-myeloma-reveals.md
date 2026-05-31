@@ -22,6 +22,7 @@ themes:
   - "ms-methodology"
 batch_ingest_status: pdf-text-extracted
 batch_ingested_on: 2026-05-13
+cm_axis: phospho
 ---
 # The proteogenomic landscape of multiple myeloma reveals insights into disease biology and therapeutic opportunities.
 

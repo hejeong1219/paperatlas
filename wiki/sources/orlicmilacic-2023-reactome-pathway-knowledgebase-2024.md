@@ -23,6 +23,7 @@ openalex_id: "W4388539829"
 openalex_primary_topic: "Genetics, Bioinformatics, and Biomedical Research"
 related_to_seeds: "kersting-2025-nf-core-disease-module-network-medicine"
 discovery_method: openalex-citation-graph
+cm_axis: integration
 ---
 
 # The Reactome Pathway Knowledgebase 2024

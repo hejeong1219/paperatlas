@@ -20,6 +20,7 @@ themes:
   - "proteome-scale"
   - "ptm-proteomics"
   - "ms-methodology"
+cm_axis: phospho
 ---
 # Deep proteogenomic characterization of pancreatic solid pseudopapillary neoplasm reveals unique features distinct from other pancreatic tumors.
 

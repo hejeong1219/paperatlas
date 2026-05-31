@@ -27,6 +27,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/bilous-2026-xenium-sensitivity-specificity-signal-contamination.pdf"
 notion_url: "https://www.notion.so/358302d9c598812693b2cf559df729e6"
+cm_axis: integration
 ---
 
 # Resolving sensitivity, specificity and signal contamination in Xenium spatial transcriptomics

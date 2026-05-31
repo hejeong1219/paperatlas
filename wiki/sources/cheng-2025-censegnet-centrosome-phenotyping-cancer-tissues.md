@@ -26,6 +26,7 @@ tags:
 topic: cancer-multiomics-literature
 pdf: "raw/inbox/papers/cheng-2025-censegnet-centrosome-phenotyping-cancer-tissues.pdf"
 notion_url: "https://www.notion.so/35b302d9c598819dabd0c5826b5eb430"
+cm_axis: integration
 ---
 
 # CenSegNet: a generalist high-throughput framework for centrosome phenotyping in heterogeneous cancer tissues
