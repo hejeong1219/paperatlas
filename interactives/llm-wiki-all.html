@@ -144,8 +144,22 @@ function draw(){
   // 0) 선택 노드 최우선 (질문/논문은 더 길게)
   if(sel){let t=sel.type==='q'?sel.title:(sel.title||sel.label);t=t.length>46?t.slice(0,46)+'…':t;
     lbl(sel.x,sel.y,sel.r,t,'700 13px IBM Plex Sans','#1f1b16');}
-  // 1) 주제 라벨 (전부 동일 스타일 — 집중영역 강조는 PPT에서)
-  for(const bl of blobs){lbl(bl.cx,bl.cy,bl.r,bl.label,'700 13px IBM Plex Sans',hexA(bl.color,0.9));}
+  // 1) 주제 라벨: 클러스터 바깥쪽 배치 + 반투명 pill 배경 (겹쳐도 또렷하게)
+  let gcx=0,gcy=0,gn=0;for(const n of nodes){if(n.type==='paper'){gcx+=n.x;gcy+=n.y;gn++;}}if(gn){gcx/=gn;gcy/=gn;}
+  ctx.textBaseline='middle';
+  for(const bl of blobs){
+    let dx=bl.cx-gcx,dy=bl.cy-gcy,d=Math.hypot(dx,dy)||1,lwx,lwy;
+    if(d<bl.r*0.5){lwx=bl.cx;lwy=bl.cy-bl.r*0.95;} else {lwx=bl.cx+dx/d*bl.r*0.92;lwy=bl.cy+dy/d*bl.r*0.92;}
+    let sx=lwx*scale+tx, sy=lwy*scale+ty;
+    if(sx<12||sx>W-12||sy<14||sy>H-14)continue;
+    ctx.font='800 15px IBM Plex Sans';let tw=ctx.measureText(bl.label).width,pad=8;
+    let x0=sx-tw/2-pad,y0=sy-12,x1=sx+tw/2+pad,y1=sy+12;
+    ctx.fillStyle='rgba(252,251,247,.86)';
+    if(ctx.roundRect){ctx.beginPath();ctx.roundRect(x0,y0,x1-x0,y1-y0,6);ctx.fill();}else ctx.fillRect(x0,y0,x1-x0,y1-y0);
+    ctx.fillStyle=bl.color;ctx.textAlign='center';ctx.fillText(bl.label,sx,sy);
+    occ.push([x0,y0,x1,y1]);
+  }
+  ctx.textBaseline='alphabetic';
   // 2) 질문 라벨 (실제 질문 텍스트)
   for(const n of nodes){if(n.type==='q'&&n!==sel){let t=n.title.length>22?n.title.slice(0,22)+'…':n.title;
     lbl(n.x,n.y,n.r,t,'700 11px IBM Plex Sans',n.color);}}
