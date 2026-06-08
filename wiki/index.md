@@ -11,6 +11,12 @@ tags:
 
 Markdown-first paper atlas for building topic collections, concept pages, and cross-paper syntheses from literature corpora.
 
+## Interactive Paper Graph
+
+- **[전체 논문 연결망 그래프 — 994편 · 질문 57개](https://hejeong1219.github.io/paperatlas/interactives/llm-wiki-all.html)** — 994편 전 논문이 주제별로 연결된 인터랙티브 force-directed 그래프. 질문 ◆ 다이아몬드를 클릭하면 위키가 정리한 답과 근거 논문이 강조되고, 논문을 더블클릭하면 해당 source 페이지로 이동합니다.
+- [암 내성 / 면역회피 집중 그래프](https://hejeong1219.github.io/paperatlas/interactives/cancer-resistance-wiki-graph.html) — resistance · immune-evasion 갈래만 좁혀 본 별도 뷰.
+- [Interactives 전체 목록](https://hejeong1219.github.io/paperatlas/interactives/) — standalone HTML artifact 모음.
+
 ## Start Here
 
 - [Topics](./topics/)
