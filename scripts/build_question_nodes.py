@@ -30,6 +30,19 @@ SPRINTS = [
         "label_prefix": "N",        # 그래프 표시 라벨: N1..N50 (Neoantigen)
         "anchor": "DOM::neoantigen",  # 끌어당길 허브
     },
+    # 2026-06 답변 sprint (scripts/build_answered_sprints.py 가 생성) — 미답변 질문 600개 충원
+    {"file": "wiki/analyses/ptm-correction-question-bank-answered.md",
+     "id_prefix": "PB", "label_prefix": "PB", "anchor": "DOM::ptm"},
+    {"file": "wiki/analyses/ptm-correction-expansion-bank-answered.md",
+     "id_prefix": "PE", "label_prefix": "PE", "anchor": "DOM::ptm"},
+    {"file": "wiki/analyses/bcell-neoantigen-topic-answered.md",
+     "id_prefix": "TN", "label_prefix": "TN", "anchor": "DOM::neoantigen"},
+    {"file": "wiki/analyses/immunotherapy-resistance-topic-answered.md",
+     "id_prefix": "TR", "label_prefix": "TR", "anchor": "DOM::resistance"},
+    {"file": "wiki/analyses/multiomics-ptm-topic-answered.md",
+     "id_prefix": "TP", "label_prefix": "TP", "anchor": "DOM::ptm"},
+    {"file": "wiki/analyses/cancer-multiomics-topic-answered.md",
+     "id_prefix": "TM", "label_prefix": "TM", "anchor": "DOM::multiomics"},
 ]
 
 

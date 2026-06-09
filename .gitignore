@@ -24,3 +24,4 @@ scripts/daily_digest/__pycache__/
 
 # Daily digest cron logs (local-only)
 logs/
+outputs/qfill/
