@@ -14,7 +14,11 @@
     "jin-2026-deciphering-mediated-phosphorylated-alterations-cancer-related",
     "oh-2024-tdxd-cgas-sting-gastric-cancer",
     "li-2023-comprehensive-proteogenomic-characterization-early-duodenal",
-    "atezolizumab-2025-personalized-neoantigen-vaccination-urothelial-cancer"
+    "atezolizumab-2025-personalized-neoantigen-vaccination-urothelial-cancer",
+    "yang-2021-msih-gastric-cancer-heterogeneity-worse-survival",
+    "haas-2024-proteogenomics-prostate-cancer-radioresistance",
+    "park-2024-proteogenomic-characterization-reveals-estrogen-signaling",
+    "zhao-2024-multi-omics-characterization-esophageal-squamous-cell"
   ],
   "pmids": [
     "40749681",
@@ -29,7 +33,11 @@
     "40222975",
     "41905699",
     "39449023",
-    "36991000"
+    "36991000",
+    "32170001",
+    "39166898",
+    "38607364",
+    "38315294"
   ],
   "history": [
     {
@@ -134,6 +142,36 @@
         {
           "slug": "atezolizumab-2025-personalized-neoantigen-vaccination-urothelial-cancer",
           "pmid": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "version": "split-stage-v1",
+      "ts": "1780448441.376579",
+      "posted": [
+        {
+          "slug": "yang-2021-msih-gastric-cancer-heterogeneity-worse-survival",
+          "pmid": "32170001"
+        },
+        {
+          "slug": "haas-2024-proteogenomics-prostate-cancer-radioresistance",
+          "pmid": "39166898"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "version": "split-stage-v1",
+      "ts": "1781053241.065559",
+      "posted": [
+        {
+          "slug": "park-2024-proteogenomic-characterization-reveals-estrogen-signaling",
+          "pmid": "38607364"
+        },
+        {
+          "slug": "zhao-2024-multi-omics-characterization-esophageal-squamous-cell",
+          "pmid": "38315294"
         }
       ]
     }
