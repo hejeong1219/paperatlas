@@ -18,7 +18,9 @@
     "yang-2021-msih-gastric-cancer-heterogeneity-worse-survival",
     "haas-2024-proteogenomics-prostate-cancer-radioresistance",
     "park-2024-proteogenomic-characterization-reveals-estrogen-signaling",
-    "zhao-2024-multi-omics-characterization-esophageal-squamous-cell"
+    "zhao-2024-multi-omics-characterization-esophageal-squamous-cell",
+    "wu-2026-large-scale-high-resolution-mass-spectrometry",
+    "anurag-2022-proteogenomic-markers-chemotherapy-resistance-response"
   ],
   "pmids": [
     "40749681",
@@ -37,7 +39,8 @@
     "32170001",
     "39166898",
     "38607364",
-    "38315294"
+    "38315294",
+    "42331772"
   ],
   "history": [
     {
@@ -172,6 +175,21 @@
         {
           "slug": "zhao-2024-multi-omics-characterization-esophageal-squamous-cell",
           "pmid": "38315294"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "version": "split-stage-v1",
+      "ts": "1782262843.623409",
+      "posted": [
+        {
+          "slug": "wu-2026-large-scale-high-resolution-mass-spectrometry",
+          "pmid": "42331772"
+        },
+        {
+          "slug": "anurag-2022-proteogenomic-markers-chemotherapy-resistance-response",
+          "pmid": ""
         }
       ]
     }
