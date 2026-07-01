@@ -20,7 +20,9 @@
     "park-2024-proteogenomic-characterization-reveals-estrogen-signaling",
     "zhao-2024-multi-omics-characterization-esophageal-squamous-cell",
     "wu-2026-large-scale-high-resolution-mass-spectrometry",
-    "anurag-2022-proteogenomic-markers-chemotherapy-resistance-response"
+    "anurag-2022-proteogenomic-markers-chemotherapy-resistance-response",
+    "wang-2026-targeting-non-canonical-antigens-unlocks-functional",
+    "shi-2022-integrated-proteogenomic-characterization-medullary-thyroid"
   ],
   "pmids": [
     "40749681",
@@ -40,7 +42,9 @@
     "39166898",
     "38607364",
     "38315294",
-    "42331772"
+    "42331772",
+    "42342407",
+    "36344509"
   ],
   "history": [
     {
@@ -190,6 +194,21 @@
         {
           "slug": "anurag-2022-proteogenomic-markers-chemotherapy-resistance-response",
           "pmid": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "version": "split-stage-v1",
+      "ts": "1782867638.291769",
+      "posted": [
+        {
+          "slug": "wang-2026-targeting-non-canonical-antigens-unlocks-functional",
+          "pmid": "42342407"
+        },
+        {
+          "slug": "shi-2022-integrated-proteogenomic-characterization-medullary-thyroid",
+          "pmid": "36344509"
         }
       ]
     }
