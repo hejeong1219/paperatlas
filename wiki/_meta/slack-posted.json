@@ -22,7 +22,9 @@
     "wu-2026-large-scale-high-resolution-mass-spectrometry",
     "anurag-2022-proteogenomic-markers-chemotherapy-resistance-response",
     "wang-2026-targeting-non-canonical-antigens-unlocks-functional",
-    "shi-2022-integrated-proteogenomic-characterization-medullary-thyroid"
+    "shi-2022-integrated-proteogenomic-characterization-medullary-thyroid",
+    "chu-2026-integrated-proteogenomic-metabolomic-profiling-aml-subtypes",
+    "asuzu-2025-phosphoproteomic-dysregulation-drives-tumor-proliferation"
   ],
   "pmids": [
     "40749681",
@@ -44,7 +46,8 @@
     "38315294",
     "42331772",
     "42342407",
-    "36344509"
+    "36344509",
+    "41473325"
   ],
   "history": [
     {
@@ -209,6 +212,21 @@
         {
           "slug": "shi-2022-integrated-proteogenomic-characterization-medullary-thyroid",
           "pmid": "36344509"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "version": "split-stage-v1",
+      "ts": "1783472452.045749",
+      "posted": [
+        {
+          "slug": "chu-2026-integrated-proteogenomic-metabolomic-profiling-aml-subtypes",
+          "pmid": ""
+        },
+        {
+          "slug": "asuzu-2025-phosphoproteomic-dysregulation-drives-tumor-proliferation",
+          "pmid": "41473325"
         }
       ]
     }
