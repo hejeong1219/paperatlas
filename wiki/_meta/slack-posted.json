@@ -24,7 +24,9 @@
     "wang-2026-targeting-non-canonical-antigens-unlocks-functional",
     "shi-2022-integrated-proteogenomic-characterization-medullary-thyroid",
     "chu-2026-integrated-proteogenomic-metabolomic-profiling-aml-subtypes",
-    "asuzu-2025-phosphoproteomic-dysregulation-drives-tumor-proliferation"
+    "asuzu-2025-phosphoproteomic-dysregulation-drives-tumor-proliferation",
+    "jeong-2025-proteogenomic-profiling-predicts-outcomes-adjuvant-chemotherapy",
+    "shapiro-2025-sensitive-neoantigen-discovery-mutamome-guided-immunopeptidomics"
   ],
   "pmids": [
     "40749681",
@@ -47,7 +49,8 @@
     "42331772",
     "42342407",
     "36344509",
-    "41473325"
+    "41473325",
+    "40803577"
   ],
   "history": [
     {
@@ -227,6 +230,21 @@
         {
           "slug": "asuzu-2025-phosphoproteomic-dysregulation-drives-tumor-proliferation",
           "pmid": "41473325"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "version": "split-stage-v1",
+      "ts": "1784077240.407639",
+      "posted": [
+        {
+          "slug": "jeong-2025-proteogenomic-profiling-predicts-outcomes-adjuvant-chemotherapy",
+          "pmid": "40803577"
+        },
+        {
+          "slug": "shapiro-2025-sensitive-neoantigen-discovery-mutamome-guided-immunopeptidomics",
+          "pmid": ""
         }
       ]
     }
