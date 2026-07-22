@@ -26,7 +26,9 @@
     "chu-2026-integrated-proteogenomic-metabolomic-profiling-aml-subtypes",
     "asuzu-2025-phosphoproteomic-dysregulation-drives-tumor-proliferation",
     "jeong-2025-proteogenomic-profiling-predicts-outcomes-adjuvant-chemotherapy",
-    "shapiro-2025-sensitive-neoantigen-discovery-mutamome-guided-immunopeptidomics"
+    "shapiro-2025-sensitive-neoantigen-discovery-mutamome-guided-immunopeptidomics",
+    "deng-2023-proteogenomic-characterization-cholangiocarcinoma",
+    "abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome"
   ],
   "pmids": [
     "40749681",
@@ -50,7 +52,9 @@
     "42342407",
     "36344509",
     "41473325",
-    "40803577"
+    "40803577",
+    "35716043",
+    "37012232"
   ],
   "history": [
     {
@@ -245,6 +249,21 @@
         {
           "slug": "shapiro-2025-sensitive-neoantigen-discovery-mutamome-guided-immunopeptidomics",
           "pmid": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "version": "split-stage-v1",
+      "ts": "1784682044.908899",
+      "posted": [
+        {
+          "slug": "deng-2023-proteogenomic-characterization-cholangiocarcinoma",
+          "pmid": "35716043"
+        },
+        {
+          "slug": "abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome",
+          "pmid": "37012232"
         }
       ]
     }
