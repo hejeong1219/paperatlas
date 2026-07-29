@@ -28,7 +28,9 @@
     "jeong-2025-proteogenomic-profiling-predicts-outcomes-adjuvant-chemotherapy",
     "shapiro-2025-sensitive-neoantigen-discovery-mutamome-guided-immunopeptidomics",
     "deng-2023-proteogenomic-characterization-cholangiocarcinoma",
-    "abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome"
+    "abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome",
+    "li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers",
+    "wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma"
   ],
   "pmids": [
     "40749681",
@@ -54,7 +56,8 @@
     "41473325",
     "40803577",
     "35716043",
-    "37012232"
+    "37012232",
+    "37582357"
   ],
   "history": [
     {
@@ -264,6 +267,21 @@
         {
           "slug": "abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome",
           "pmid": "37012232"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "version": "split-stage-v1",
+      "ts": "1785286842.337189",
+      "posted": [
+        {
+          "slug": "li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers",
+          "pmid": "37582357"
+        },
+        {
+          "slug": "wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma",
+          "pmid": ""
         }
       ]
     }
