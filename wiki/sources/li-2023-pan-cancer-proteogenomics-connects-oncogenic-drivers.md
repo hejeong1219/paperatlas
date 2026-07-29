@@ -53,6 +53,12 @@ Cancer driver events refer to key genetic aberrations that drive oncogenesis; ho
 - The extracted visualization fields are protein-scale, phosphorylation-scale, acetylation-scale, MS method, and instrument/platform.
 - Count units are not harmonized when the paper reports different entities such as proteins, protein groups, phosphosites, phosphopeptides, acetylsites, or phospho-protein features.
 
+## 한미암 활용 가능성
+
+- 서로 다른 cancer gene들이 sequence 기반 kinase activity profile 상에서는 유사한 분자 상태로 수렴한다는 관찰은, 1차 내성 분석에서 환자를 WGS 변이 단위가 아니라 kinase activity 프로파일 단위로 묶는 층화 가설의 prior로 참고할 수 있다.
+- 예측 neoantigen burden과 실측 T cell 침윤의 상관은, 신생항원 파이프라인에서 후보 순위를 예측값 단독으로 매기지 않고 면역 침윤 지표와 교차 확인하는 기준 설계에 시사점을 준다.
+- Driver 변이의 cis/trans 효과가 종양 특이적 protein-protein interaction 재배선으로 나타난다는 점은, 인산화단백체-WGS 통합 분석에서 변이→네트워크 수준 해석의 레퍼런스가 된다.
+- Slack 디지스트 게시: 2026-07-29.
 
 ## Multi-Omics Identification Extraction
 

@@ -56,6 +56,13 @@ Adult glioblastoma(GBM) 99예(치료 전)에서 WGS/WES·전사체·단백체·p
 - Acetylome 메시지: histone H2B acetylation이 classical-like + macrophage-low 상태를 특징짓는 축으로 제시되며, BRD/CREBBP/EP300과의 연결을 강조한다.
 - Atlas 관점 caveat: 논문 본문/STAR Methods에는 iProFun에 사용된 “measured gene” 수가 나오지만, proteome/phosphoproteome/acetylome의 전체 identification 총량(단백/사이트/펩타이드 단위)은 main PDF만으로는 한 줄로 확정하기 어렵다(보충자료/테이블 확인 필요).
 
+## 한미암 활용 가능성
+
+- PTPN11(Shp2) Y62·PLCG1 Y783은 총단백질 양 변화 없이 인산화만 바뀌어 활성이 전환되는 사례로, 표적치료제 1차 내성 환자의 인산화단백체에서 EGFR/PDGFRA 하류를 볼 때 phosphosite 단위로 우선 확인할 hub 후보다.
+- 논란이 있던 mesenchymal EMT signature가 stroma가 아닌 종양세포 고유 성질임을 snRNA-seq로 귀속시킨 부분은, bulk 인산화단백체에서 도출한 내성 signature가 종양세포 신호인지 미세환경 혼입인지 가려낼 때의 검증 구조로 참고할 수 있다.
+- 치료 전(treatment-naive) 99예 단일 시점 코호트이므로, 2차 획득 내성 비교에는 치료 후 시점이 없다는 한계가 있다.
+- Slack 디지스트 게시: 2026-07-29.
+
 ## Multi-Omics Identification Extraction
 
 - Cohort / scope: glioblastoma proteogenomic and metabolomic cohort with MS-based proteome, phosphoproteome, acetylome, lipidome, and metabolome layers.
