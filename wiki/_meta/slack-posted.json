@@ -30,7 +30,9 @@
     "deng-2023-proteogenomic-characterization-cholangiocarcinoma",
     "abelin-2023-workflow-enabling-deepscale-immunopeptidome-proteome",
     "li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers",
-    "wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma"
+    "wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma",
+    "xu-2022-integrated-proteogenomic-characterization-urothelial-carcinoma",
+    "han-2024-hla-based-neoantigen-presentation-pan-cancer-response"
   ],
   "pmids": [
     "40749681",
@@ -57,7 +59,8 @@
     "40803577",
     "35716043",
     "37012232",
-    "37582357"
+    "37582357",
+    "35659036"
   ],
   "history": [
     {
@@ -281,6 +284,21 @@
         },
         {
           "slug": "wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma",
+          "pmid": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "version": "split-stage-v1",
+      "ts": "1785891639.978549",
+      "posted": [
+        {
+          "slug": "xu-2022-integrated-proteogenomic-characterization-urothelial-carcinoma",
+          "pmid": "35659036"
+        },
+        {
+          "slug": "han-2024-hla-based-neoantigen-presentation-pan-cancer-response",
           "pmid": ""
         }
       ]
