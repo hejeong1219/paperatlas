@@ -65,6 +65,14 @@ Urothelial carcinoma (UC) is the most common pathological type of bladder cancer
 - Acquire and verify the correct PDF for DOI `10.1186/s13045-022-01291-7`.
 - After correction, extract proteome/phosphoproteome counts and instrument details from the actual paper.
 
+## 한미암 활용 가능성
+
+- 7q의 SND1·CDK5 증폭이 STAT3 활성화로, TRAF2 증폭이 PD-L1 발현 증가로 각각 이어진다는 보고는, ppQTL 분석에서 copy-number 변이와 인산화 신호 축의 연결을 검증할 때 우선 검토해볼 후보 축을 제시합니다.
+- TRAF2–PD-L1 축은 면역치료제 반응성 환자 층화에서 CNV 기반 가설로 함께 고려해볼 만한 단서입니다.
+- 종양과 형태학적 정상 요로상피의 인산화단백체 비교로 CDK1·PRKDC를 활성 kinase로 지목한 설계는, 1차 내성 코호트의 kinase 활성 대조군 구성에 참고할 만한 비교 구조입니다.
+- 근거 범위: 위 항목은 본 페이지 Summary(초록 수준)에 한정됩니다. 로컬 PDF 불일치가 해소되기 전까지 수치·기법 세부는 인용하지 않습니다.
+- Slack 디지스트 게시: 2026-08-05.
+
 ## Connections
 
 - [Multiomics Proteomics PTM Identification](../topics/multiomics-proteomics-ptm-identification.md)
