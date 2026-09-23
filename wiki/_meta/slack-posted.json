@@ -32,7 +32,9 @@
     "li-2023-pan-cancer-proteogenomics-connects-oncogenic-drivers",
     "wang-2021-proteogenomic-metabolomic-characterization-human-glioblastoma",
     "xu-2022-integrated-proteogenomic-characterization-urothelial-carcinoma",
-    "han-2024-hla-based-neoantigen-presentation-pan-cancer-response"
+    "han-2024-hla-based-neoantigen-presentation-pan-cancer-response",
+    "xu-2026-proteogenomic-characterization-reveals-subtype-specific-therapeutic",
+    "nature-2023-rna-source-tumor-agnostic-neoantigen-identification"
   ],
   "pmids": [
     "40749681",
@@ -60,7 +62,8 @@
     "35716043",
     "37012232",
     "37582357",
-    "35659036"
+    "35659036",
+    "41454718"
   ],
   "history": [
     {
@@ -299,6 +302,21 @@
         },
         {
           "slug": "han-2024-hla-based-neoantigen-presentation-pan-cancer-response",
+          "pmid": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "version": "split-stage-v1",
+      "ts": "1790125261.700599",
+      "posted": [
+        {
+          "slug": "xu-2026-proteogenomic-characterization-reveals-subtype-specific-therapeutic",
+          "pmid": "41454718"
+        },
+        {
+          "slug": "nature-2023-rna-source-tumor-agnostic-neoantigen-identification",
           "pmid": ""
         }
       ]
