@@ -191,6 +191,14 @@ Xu et al.은 HER2-low breast cancer의 분자적 이질성을 분리해 임상�
 
 **한계 / 사용 시 주의 (본 논문 본문 명시)**: (i) HER2-negative (IHC 0) cohort 없음 → HER2-low vs HER2-negative 분류 신뢰성은 본 데이터로 직접 평가 불가, (ii) 단일 인구집단(중국 Heilongjiang) → 한국인 코호트에서 PS 분포 재현은 한미암이 직접 검증해야 함, (iii) PS3 → T-DXd ORR 연결은 분자적 정합 + 비율 일치 수준 — prospective 임상 데이터로 입증된 단계 아님, (iv) PDO 실험 n=17 — drug response 검증의 효과 크기는 본 PMC 텍스트에서 정량적 P값 미명시(Fig 5/Fig 6 참조), (v) IHC SVM AUROC 0.80은 same-cohort 76명 내부.
 
+## 한미암 활용 가능성
+
+- PRKDC K2694/K2908 lactylation이 PRKDC kinase activity(및 S893/S4026 인산화)와 함께 움직이고 짧은 PFS와 연관된다는 관찰은, 2차 획득 내성 검체에서 DNA-PK 활성 추정치가 총단백질·인산화 수치와 어긋날 때 lysine lactylation을 대안 설명 축으로 검토해볼 근거를 제공합니다.
+- STAT1 K193 lactylation + T727 인산화가 STAT1 TF activity와 함께 상관한다는 점은, TF activity inference 결과를 인산화 단독으로 해석할 때의 한계를 보여주는 사례로 참고할 수 있습니다.
+- HER2-low의 32.53%가 HER2-high-like 단백체 프로파일(PS3)을 보인다는 결과는, IHC 기반 분류와 단백체 기반 분류가 어긋나는 환자군의 규모를 가늠하는 참고 수치가 됩니다.
+- 근거 범위: 위 항목은 로컬 PMC HTML(`raw/inbox/papers/xu-2026-proteogenomic-her2-low-breast-cancer-subtypes.html`) 본문에 명시된 결과에 한정합니다. 세부 통계치는 Supporting Information Fig S5D/S9 참조가 필요합니다.
+- Slack 디지스트 게시: 2026-09-23.
+
 ## Connections
 
 - [Cancer Multiomics Literature Topic Hub](../topics/cancer-multiomics-literature.md) — Section 1 WGS/Proteogenomics 통합 기반.
