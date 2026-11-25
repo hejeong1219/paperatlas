@@ -34,7 +34,9 @@
     "xu-2022-integrated-proteogenomic-characterization-urothelial-carcinoma",
     "han-2024-hla-based-neoantigen-presentation-pan-cancer-response",
     "xu-2026-proteogenomic-characterization-reveals-subtype-specific-therapeutic",
-    "nature-2023-rna-source-tumor-agnostic-neoantigen-identification"
+    "nature-2023-rna-source-tumor-agnostic-neoantigen-identification",
+    "ji-2026-reversing-kdm-phosphorylation-driven-epigenetic-suppression",
+    "fierromonti-2026-non-canonical-open-reading-frame-derived"
   ],
   "pmids": [
     "40749681",
@@ -63,7 +65,9 @@
     "37012232",
     "37582357",
     "35659036",
-    "41454718"
+    "41454718",
+    "43020812",
+    "43047677"
   ],
   "history": [
     {
@@ -318,6 +322,21 @@
         {
           "slug": "nature-2023-rna-source-tumor-agnostic-neoantigen-identification",
           "pmid": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "version": "split-stage-v1",
+      "ts": "1795568432.170429",
+      "posted": [
+        {
+          "slug": "ji-2026-reversing-kdm-phosphorylation-driven-epigenetic-suppression",
+          "pmid": "43020812"
+        },
+        {
+          "slug": "fierromonti-2026-non-canonical-open-reading-frame-derived",
+          "pmid": "43047677"
         }
       ]
     }
